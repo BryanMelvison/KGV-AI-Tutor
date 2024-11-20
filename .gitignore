@@ -47,7 +47,7 @@
 
 # backend
 # Byte-compiled / optimized / DLL files
-/backend/__pycache__/
+/backend/**/__pycache__/
 /backend/*.py[cod]
 /backend/*$py.class
 
