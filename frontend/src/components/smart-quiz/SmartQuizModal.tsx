@@ -14,7 +14,7 @@ import SmartQuizInput from "./SmartQuizInput";
 import TimeUpDialog from "./TimeUpDialog";
 import Card from "../ui/Card";
 import CloseButton from "../ui/CloseButton";
-import Messages from "./Messages";
+import Messages from "../Messages";
 import { useRef, useEffect, useState, Fragment, useCallback } from "react";
 
 interface SmartQuizModalProps {
@@ -209,7 +209,10 @@ const SmartQuizModal = ({ isOpen, onClose }: SmartQuizModalProps) => {
                           </div>
                         </div>
 
-                        <Messages messages={messages} />
+                        <Messages
+                          messages={messages}
+                          className="max-h-[300px]"
+                        />
                         <div ref={messagesEndRef} />
                       </div>
                     </div>
