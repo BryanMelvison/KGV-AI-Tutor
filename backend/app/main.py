@@ -1,10 +1,11 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from .utilities import ollamaChat
-from .database import engine
-from . import models
+from app.core.database import engine
+from app.models.base import Base
+from app.routes import chat
+from app.core.config import settings
 
-models.Base.metadata.create_all(bind=engine)
+Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="KGV AI TUTOR")
 
@@ -16,7 +17,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(ollamaChat.router, prefix="/api/v1", tags=["chat"]) # nanti prefix diubah" aja
+app.include_router(chat.router, prefix=settings.API_V1_PREFIX, tags=["chat"])
 
 @app.get("/")
 async def root():
