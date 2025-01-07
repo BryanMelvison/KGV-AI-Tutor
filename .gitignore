@@ -208,3 +208,6 @@
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 /backend/.idea/
+/backend/app/.env
+/backend/app/uploads
+/backend/app/temp_uploads
