@@ -31,6 +31,9 @@ async def upload(request: Request):
             async for chunk in request.stream():
                 current_size += len(chunk)
                 if current_size > MAX_FILE_SIZE:
+                    if upload_dir.exists():
+                        import shutil
+                        shutil.rmtree(upload_dir)
                     raise HTTPException(status_code=400, detail='File size exceeds 400MB')
                 await f.write(chunk)
     except IOError as e:
