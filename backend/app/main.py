@@ -12,8 +12,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# app.include_router(chat.router, prefix=settings.API_V1_PREFIX, tags=["chat"])
+app.include_router(upload.router, prefix="/upload", tags=["upload"])
 
 @app.get("/")
 async def root():
     return {"message": "Welcome to KGV AI TUTOR API"}
+
