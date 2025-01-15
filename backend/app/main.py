@@ -1,14 +1,10 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.core.database import engine
-from app.models.base import Base
-from app.routes import chat
-from app.core.config import settings
+from app.routes import router
 
-Base.metadata.create_all(bind=engine)
+app = FastAPI(title="KGV AI Tutor API")
 
-app = FastAPI(title="KGV AI TUTOR")
-
+# add CORS Middleware - security purposes, adjust as necessary
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -17,8 +13,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(chat.router, prefix=settings.API_V1_PREFIX, tags=["chat"])
+app.include_router(router)
 
 @app.get("/")
 async def root():
-    return {"message": "Welcome to KGV AI TUTOR API"}
+    return {"message": "Welcome to KGV AI Tutor API"}
