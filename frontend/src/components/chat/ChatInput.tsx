@@ -25,9 +25,9 @@ const ChatInput = ({
   };
 
   return (
-    <div className="bg-whitepx-6">
-      <div className="w-full mx-auto">
-        <div className="relative">
+    <div>
+      <div className="w-full mx-auto flex items-center">
+        <div className="relative flex-grow">
           <input
             type="text"
             value={inputValue}
@@ -44,12 +44,14 @@ const ChatInput = ({
           >
             {submitButtonText}
           </button>
-          <button
-            onClick={onClear}
-            className="p-6 rounded-lg bg-red-500 hover:bg-red-600"
-            title="Clear chat history"
-          ></button>
         </div>
+        <button
+          onClick={onClear}
+          className="ml-4 p-3 rounded-lg bg-red-500 hover:bg-red-600"
+          title="Clear chat history"
+        >
+          Clear Context
+        </button>
       </div>
     </div>
   );
