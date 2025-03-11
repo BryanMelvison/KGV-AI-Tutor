@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
 import {
   IoGridOutline,
@@ -9,16 +8,32 @@ import {
   IoChevronForward,
   IoHelpCircleOutline,
 } from "react-icons/io5";
+import SmartQuizModal from "../smart-quiz/SmartQuizModal";
+import { useQuiz } from "@/context/SmartQuizContext";
+import Link from "next/link";
 
 const NavBar = () => {
   const [active, setActive] = useState("dashboard");
+  const [previousActive, setPreviousActive] = useState("dashboard");
   const [hoveredSubject, setHoveredSubject] = useState<string | null>(null);
   const [hoveredNav, setHoveredNav] = useState(false);
+  const { isOpen, openQuiz, closeQuiz } = useQuiz();
+
+  const handleOpenQuiz = () => {
+    setPreviousActive(active);
+    openQuiz();
+    setActive("smart quiz");
+  };
+
+  const handleCloseQuiz = () => {
+    closeQuiz();
+    setActive(previousActive);
+  };
 
   const navItems = [
     { name: "Dashboard", icon: <IoGridOutline />, link: "/dashboard" },
     { name: "Subjects", icon: <IoBookOutline />, link: "/subjects" },
-    { name: "Smart Quiz", icon: <IoSparklesOutline />, link: "/quiz" },
+    { name: "Smart Quiz", icon: <IoSparklesOutline /> },
   ];
 
   const subjects = [
@@ -90,30 +105,56 @@ const NavBar = () => {
               }
               className="relative"
             >
-              <Link
-                href={item.link}
-                className="flex flex-col items-center gap-1"
-                onClick={() => setActive(item.name.toLowerCase())}
-              >
+              {item.name === "Smart Quiz" ? (
                 <div
-                  className={`text-2xl ${
-                    active === item.name.toLowerCase()
-                      ? "text-indigo-600"
-                      : "text-gray-500"
-                  }`}
+                  className="flex flex-col items-center gap-1 cursor-pointer"
+                  onClick={handleOpenQuiz}
                 >
-                  {item.icon}
+                  <div
+                    className={`text-2xl ${
+                      active === item.name.toLowerCase() || isOpen
+                        ? "text-indigo-600"
+                        : "text-gray-500"
+                    }`}
+                  >
+                    {item.icon}
+                  </div>
+                  <span
+                    className={`text-xs ${
+                      active === item.name.toLowerCase() || isOpen
+                        ? "text-indigo-600 font-semibold"
+                        : "text-gray-500"
+                    }`}
+                  >
+                    {item.name}
+                  </span>
                 </div>
-                <span
-                  className={`text-xs ${
-                    active === item.name.toLowerCase()
-                      ? "text-indigo-600 font-semibold"
-                      : "text-gray-500"
-                  }`}
+              ) : (
+                <Link
+                  href={item.link}
+                  className="flex flex-col items-center gap-1"
+                  onClick={() => setActive(item.name.toLowerCase())}
                 >
-                  {item.name}
-                </span>
-              </Link>
+                  <div
+                    className={`text-2xl ${
+                      active === item.name.toLowerCase()
+                        ? "text-indigo-600"
+                        : "text-gray-500"
+                    }`}
+                  >
+                    {item.icon}
+                  </div>
+                  <span
+                    className={`text-xs ${
+                      active === item.name.toLowerCase()
+                        ? "text-indigo-600 font-semibold"
+                        : "text-gray-500"
+                    }`}
+                  >
+                    {item.name}
+                  </span>
+                </Link>
+              )}
 
               {/* Hover Subjects Dropdown */}
               {hoveredNav && item.name === "Subjects" && (
@@ -207,6 +248,7 @@ const NavBar = () => {
           </Link>
         </div>
       </div>
+      <SmartQuizModal isOpen={isOpen} onClose={handleCloseQuiz} />
     </div>
   );
 };
