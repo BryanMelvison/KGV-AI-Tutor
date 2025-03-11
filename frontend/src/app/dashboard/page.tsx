@@ -48,7 +48,7 @@ const Dashboard = () => {
             alt="Exercises"
             width={60}
             height={60}
-            className="w-10 h-10 lg:w-16 lg:h-16"
+            className="w-10 h-10 lg:w-20 lg:h-20 md:w-16 md:h-16"
           />
           <div>
             <h3 className="font-bold text-[#17171F]">Exercises</h3>
@@ -77,7 +77,7 @@ const Dashboard = () => {
             alt="Smart Quiz"
             width={60}
             height={60}
-            className="w-10 h-10 lg:w-16 lg:h-16"
+            className="w-10 h-10 lg:w-20 lg:h-20 md:w-16 md:h-16"
           />
           <div>
             <h3 className="font-bold text-[#17171F]">Smart Quiz</h3>
@@ -101,20 +101,29 @@ const Dashboard = () => {
             .fill(0)
             .map((_, index) => (
               <div key={index} className="mb-4 border-b pb-4 last:border-none">
-                <div className="flex items-center space-x-2">
-                  <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                  <h3 className="font-semibold">Chat Title Here</h3>
-                  <span className="text-xs text-gray-400 ml-auto">
+                {/* Chat Header */}
+                <div className="flex items-center justify-between w-full mb-3">
+                  <div className="flex items-center space-x-2">
+                    <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+                    <h3 className="font-semibold text-base text-[#17171F]">
+                      Chat Title Here
+                    </h3>
+                  </div>
+                  <span className="text-xs font-medium text-[#747479]">
                     12:09 AM
                   </span>
                 </div>
-                <p className="text-xs text-gray-500">
+
+                {/* Subject & Chapter */}
+                <p className="text-xs text-gray-500 mb-2">
                   <span className="font-semibold text-indigo-600">
                     Subject: Spoken English
                   </span>{" "}
                   • 📖 Chapter: 12
                 </p>
-                <p className="text-xs text-gray-500 mt-1">
+
+                {/* Chat Content */}
+                <p className="text-sm text-[#747479] mt-1">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
               </div>
@@ -139,10 +148,13 @@ const Dashboard = () => {
             ].map((subject) => (
               <div
                 key={subject.name}
-                className="bg-white p-4 rounded-lg shadow-sm flex flex-col  space-y-3"
+                onClick={() =>
+                  router.push(`/subjects/${subject.name.toLowerCase()}`)
+                }
+                className="bg-white p-4 rounded-lg shadow-sm flex flex-col space-y-3 border border-[#ECECED] cursor-pointer hover:shadow-md active:shadow-inner transition"
               >
                 <div
-                  className="w-full h-full p-6 lg:p-10 rounded-lg flex items-center justify-center"
+                  className="w-full h-full border border-[#ECECED] p-6 lg:p-10 rounded-lg flex items-center justify-center"
                   style={{ backgroundColor: subject.color }}
                 >
                   <Image
@@ -150,7 +162,7 @@ const Dashboard = () => {
                     alt={subject.name}
                     width={40}
                     height={40}
-                    className="w-10 h-10 lg:w-16 lg:h-16"
+                    className="w-10 h-10 lg:w-20 lg:h-20 md:w-16 md:h-16"
                   />
                 </div>
                 <span className="font-semibold text-[#17171F] text-sm">

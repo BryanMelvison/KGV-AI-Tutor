@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import NavBar from "@/components/nav-bar/NavBar";
 import "./globals.css";
+import { SmartQuizProvider } from "@/context/SmartQuizContext";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -29,9 +30,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex`}
       >
-        <NavBar />
+        <SmartQuizProvider>
+          <NavBar />
 
-        <main className="flex-1 pl-20">{children}</main>
+          <main className="flex-1 pl-20">{children}</main>
+        </SmartQuizProvider>
       </body>
     </html>
   );
