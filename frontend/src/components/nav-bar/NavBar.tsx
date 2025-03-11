@@ -12,12 +12,11 @@ import {
 
 const NavBar = () => {
   const [active, setActive] = useState("dashboard");
-  const [isOpen] = useState(true);
   const [hoveredSubject, setHoveredSubject] = useState<string | null>(null);
   const [hoveredNav, setHoveredNav] = useState(false);
 
   const navItems = [
-    { name: "Dashboard", icon: <IoGridOutline />, link: "/" },
+    { name: "Dashboard", icon: <IoGridOutline />, link: "/dashboard" },
     { name: "Subjects", icon: <IoBookOutline />, link: "/subjects" },
     { name: "Smart Quiz", icon: <IoSparklesOutline />, link: "/quiz" },
   ];
