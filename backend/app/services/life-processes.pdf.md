@@ -1,0 +1,591 @@
+# ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES
+
+## 1 LIFE PROCESSES
+
+There are structural features that are common to the cells of all living organisms. In this chapter you will find out about these features and look at some of the processes that keep cells alive.
+
+### LEARNING OBJECTIVES
+
+- Understand the characteristics shared by living organisms
+- Describe cell structures and their functions, including the nucleus, cytoplasm, cell membrane, cell wall, mitochondria, chloroplasts, ribosomes and vacuole
+- Know the similarities and differences in the structures of plant and animal cells
+- Understand the role of enzymes as biological catalysts in metabolic reactions
+- Understand how temperature changes can affect enzyme function, including changes to the shape of the active site
+- Understand how enzyme function can be affected by changes in pH altering the active site
+- Investigate how enzyme activity can be affected by changes in temperature
+- Describe the differences between aerobic and anaerobic respiration
+- Understand how the process of respiration produces ATP in living organisms
+- Know that ATP provides energy for cells
+- Know the word equation and balanced chemical symbol equation for aerobic respiration
+- Know the word equations for anaerobic respiration
+- Investigate the evolution of carbon dioxide and heat from respiring seeds or other suitable living organisms
+- Understand the processes of diffusion, osmosis and active transport by which substances move into and out of cells
+- Understand how factors affect the rate of movement of substances into and out of cells
+- Investigate diffusion in a non-living system (agar jelly)
+- Describe the levels of organisation within organisms – organelles, cells, tissues, organ systems
+
+All living organisms are composed of units called cells. The simplest organisms are made from single cells (Figure 1.1) but more complex plants and animals are composed of millions of cells. In many-celled (multicellular) organisms, there may be hundreds of different types of cells with different structures. They are specialised so that they can carry out particular functions in the animal or plant. Despite all the differences, there are basic features that are the same in all cells.
+
+▲ Figure 1.1 Many simple organisms have 'bodies' made from single cells. Here are four examples.
+---
+# 4 ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES
+
+There are eight life processes which take place in most living things.
+Organisms:
+
+- require nutrition – plants make their own food, animals eat other organisms
+- respire – release energy from their food
+- excrete – get rid of waste products
+- respond to stimuli – are sensitive to changes in their surroundings
+- move – by the action of muscles in animals, and slow growth movements in plants
+- control their internal conditions – maintain a steady state inside the body
+- reproduce – produce offspring
+- grow and develop – increase in size and complexity, using materials from their food.
+
+## CELL STRUCTURE
+
+This part of the book describes the cell structure of 'higher' organisms such as animals, plants and fungi. The cells of bacteria are simpler in structure and will be described in Chapter 2.
+
+Most cells contain certain parts such as the nucleus, cytoplasm and cell membrane. Some cells have structures missing, for instance red blood cells are unusual in that they have no nucleus. The first chapter in a biology textbook will usually present diagrams of 'typical' plant and animal cells. In fact, there is really no such thing as a 'typical' cell. Humans, for example, are composed of hundreds of different kinds of cells – from nerve cells to blood cells, skin cells to liver cells. What we really mean by a 'typical' cell is a general diagram that shows all the features that you will find in most cells (Figure 1.2). However, not all these are present in all cells – for example the cells in the parts of a plant that are not green do not contain chloroplasts.
+
+| animal cell | plant cell |
+|-------------|------------|
+| nucleus | cell wall |
+| cell membrane | cell membrane (inside cell wall) |
+| mitochondria | vacuole |
+| cytoplasm | cytoplasm |
+| | mitochondria |
+| | chloroplasts |
+| | nucleus |
+
+▲ Figure 1.2 The structure of a 'typical' animal and plant cell.
+
+The living material that makes up a cell is called cytoplasm. It has a texture rather like sloppy jelly, in other words somewhere between a solid and a liquid. Unlike a jelly, it is not made of one substance but is a complex material made of many different structures. You can't see many of these structures under an ordinary light microscope. An electron microscope has a much higher magnification and can show the details of these structures, which are called organelles (Figure 1.3).
+---
+# ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES
+
+The largest organelle in the cell is the **nucleus**. Nearly all cells have a nucleus. The few types that don't are usually dead (e.g. the xylem vessels in a stem, Chapter 11) or don't live for very long (e.g. red blood cells, Chapter 5). The nucleus controls the activities of the cell. It contains **chromosomes** (46 in human cells) which carry the genetic material, or **genes**. Genes control the activities in the cell by determining which proteins the cell can make. The DNA remains in the nucleus, but the instructions for making proteins are carried out of the nucleus to the cytoplasm, where the proteins are assembled on tiny structures called **ribosomes**. A cell contains thousands of ribosomes, but they are too small to be seen through a light microscope.
+
+One very important group of proteins found in cells are **enzymes**. Enzymes control the chemical reactions that take place in the cytoplasm.
+
+All cells are surrounded by a **cell membrane**, sometimes called the cell surface membrane to distinguish it from other membranes inside the cell. This is a thin layer like a 'skin' on the surface of the cell. It forms a boundary between the cytoplasm of the cell and the outside. However, it is not a complete barrier. Some chemicals can pass into the cell and others can pass out. We say that the membrane is **partially permeable**. The membrane can go further than this and actually control the movement of some substances – it is **selectively permeable**.
+
+One organelle that is found in the cytoplasm of all living cells is the **mitochondrion** (plural mitochondria). In cells that need a lot of energy such as muscle or nerve cells, there are many mitochondria. This gives us a clue to their function. They carry out some of the reactions of **respiration** (see page 11) releasing energy that the cell can use. Most of the energy from respiration is released in the mitochondria.
+
+## PLANT CELLS
+
+All of the structures you have seen so far are found in both animal and plant cells. However, some structures are only ever found in plant cells. There are three in particular – the cell wall, a permanent vacuole and chloroplasts.
+
+The **cell wall** is a layer of non-living material that is found outside the cell membrane of plant cells. It is made mainly of a carbohydrate called **cellulose**, although other chemicals may be added to the wall in some cells. Cellulose is a tough material that helps the cell keep its shape and is one reason why the 'body' of a plant has a fixed shape. Animal cells do not have a cell wall and tend to be more variable in shape. Plant cells absorb water, producing an internal pressure that pushes against adjacent cells, giving the plant support (see Chapter 11). Without a cell wall strong enough to resist these pressures, this method of support would be impossible. The cell wall is porous, so it is not a barrier to water or dissolved substances. We call it freely permeable.
+
+Mature (fully grown) plant cells often have a large central space surrounded by a membrane, called a **vacuole**. This vacuole is a permanent feature of the cell. It is filled with a watery liquid called cell sap, which is a store of dissolved sugars, mineral ions and other solutes. Animal cells do contain vacuoles, but they are only small, temporary structures.
+
+Cells of the green parts of plants, especially the leaves, contain another very important organelle, the **chloroplast**. Chloroplasts absorb light energy to make food in the process of photosynthesis (see Chapter 10). They contain a green pigment called **chlorophyll**. Cells from the parts of a plant that are not green, such as the flowers, roots and woody stems, have no chloroplasts.
+
+| KEY POINT |
+|-----------|
+| Nearly all cells contain cytoplasm, a nucleus, a cell membrane and mitochondria. As well as these structures, plant cells have a cell wall and a permanent vacuole, and plant cells that photosynthesise contain chloroplasts. |
+---
+MARKDOWN_EXTRACTION_FAILED
+---
+# ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES
+
+The molecule that an enzyme acts on is called its substrate. Each enzyme has a small area on its surface called the active site. The substrate attaches to the active site of the enzyme. The reaction then takes place and products are formed. When the substrate joins up with the active site it lowers the energy needed for the reaction to start, allowing the products to be formed more easily.
+
+Enzymes also catalyse reactions where large molecules are built up from smaller ones. In this case, several substrate molecules attach to the active site, the reaction takes place and the larger product molecule is formed. The product then leaves the active site.
+
+The substrate fits into the active site of the enzyme like a key fitting into a lock. Just as a key will only fit one lock, a substrate will only fit into the active site of a particular enzyme. This is known as the lock and key model of enzyme action. It is the reason why enzymes are specific, i.e. an enzyme will only catalyse one reaction.
+
+| 1 | 2 |
+|---|---|
+|  |  |
+| 4 | 3 |
+|  |  |
+
+▲ Figure 1.5 Enzymes catalyse reactions at their active site. This acts like a 'lock' to the substrate 'key'. The substrate fits into the active site, and products are formed. This happens more easily than without the enzyme – so enzymes act as catalysts.
+
+After an enzyme molecule has catalysed a reaction, the product is released from the active site, and the enzyme is free to act on more substrate molecules.
+
+## FACTORS AFFECTING ENZYMES
+
+A number of factors affect the activity of enzymes. The rate of reaction may be increased by raising the concentration of the enzyme or the substrate. Two other factors that affect enzymes are temperature and pH.
+
+### KEY POINT
+'Optimum' temperature means the 'best' temperature, in other words the temperature at which the reaction takes place most rapidly.
+
+### TEMPERATURE
+
+The effect of temperature on the action of an enzyme is easiest to see as a graph, where we plot the rate of the reaction against temperature (Figure 1.6).
+
+Enzymes in the human body have evolved to work best at body temperature (37 °C). The graph in Figure 1.6 shows a peak on the curve at this temperature, which is called the optimum temperature for the enzyme.
+
+As the enzyme is heated up to the optimum temperature, the rise in temperature increases the rate of reaction. This is because higher temperatures give the molecules of the enzyme and the substrate more kinetic energy, so they collide more often. More collisions means that the reaction will take place more frequently.
+
+### DID YOU KNOW?
+
+Kinetic energy is the energy an object has because of its movement. The molecules of enzyme and substrate are moving faster, so they have more kinetic energy.
+---
+# 8 ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES
+
+## Effect of Temperature on Enzyme Action
+
+Effect of temperature on the action of an enzyme
+
+| Temperature (°C) | Rate of enzyme-catalysed reaction (arbitrary unit) |
+|------------------|---------------------------------------------------|
+| 0                | 0                                                 |
+| 10               | Low                                               |
+| 20               | Medium                                            |
+| 30               | High                                              |
+| 40               | Peak (Optimum temperature)                        |
+| 50               | High                                              |
+| 60               | Low                                               |
+| 70               | Very low                                          |
+
+Figure 1.6 Effect of temperature on the action of an enzyme.
+
+However, above the optimum, temperature starts to have another effect. Enzymes are made of protein, and proteins are broken down by heat. From 40 °C upwards, the heat destroys the enzyme. We say that it is denatured. You can see the effect of denaturing when you boil an egg. The egg white is made of protein, and turns from a clear runny liquid into a white solid as the heat denatures the protein. Denaturing changes the shape of the active site so that the substrate will no longer fit into it. Denaturing is permanent – the enzyme molecules will no longer catalyse the reaction.
+
+Not all enzymes have an optimum temperature near 37 °C, only those of animals such as mammals and birds, which all have body temperatures close to this value. Enzymes have evolved to work best at the normal body temperature of the organism. Bacteria that always live at an average temperature of 10 °C will probably have enzymes with an optimum temperature near 10 °C.
+
+## pH
+
+The pH around the enzyme is also important. The pH inside cells is neutral (pH 7) and most enzymes have evolved to work best at this pH. At extremes of pH either side of neutral, the enzyme activity decreases, as shown in Figure 1.7. The pH at which the enzyme works best is called its optimum pH. Either side of the optimum, the pH affects the structure of the enzyme molecule and changes the shape of its active site, so that the substrate will not fit into it so well.
+
+Most enzymes work best at a neutral pH
+
+| pH | Rate of enzyme-catalysed reaction (arbitrary units) |
+|----|---------------------------------------------------|
+| 5  | Low                                               |
+| 6  | Medium                                            |
+| 7  | Peak (Optimum pH)                                 |
+| 8  | Medium                                            |
+| 9  | Low                                               |
+
+Figure 1.7 Most enzymes work best at a neutral pH.
+
+### KEY POINT
+
+Although most enzymes work best at a neutral pH, a few have an optimum below or above pH 7. The stomach produces hydrochloric acid, which makes its contents very acidic (see Chapter 4). Most enzymes stop working at a low pH, but the stomach makes an enzyme called pepsin which has an optimum pH of about 2, so that it is adapted to work well in these unusually acidic surroundings.
+---
+                transfer sample
+                every 30 seconds
+                    |
+                    v
+                    
+                                spots of iodine
+                                solution
+                                    |
+                                    v
+water
+ |                               -------
+ v                              |       |
+---   ---             ---       |       |
+| |   | |             | |       |       |
+| |   | |             | |       |       |
+---   ---             ---       |       |
+ |     |               |        |       |
+ |     |               |        |       |
+amylase starch         starch and amylase
+solution suspension    mixture    spotting tile
+
+---
+10   ORGANISMS AND LIFE PROCESSES   LIFE PROCESSES
+
+| Colour of mixture at different temperatures / (°C) |||||
+|------------|-----------|-----------|-----------|-----------|-----------|
+| Time / min | 20        | 30        | 40        | 50        | 60        |
+| 0.0        | Blue-black| Blue-black| Blue-black| Blue-black| Blue-black|
+| 0.5        | Blue-black| Blue-black| Brown     | Blue-black| Blue-black|
+| 1.0        | Blue-black| Blue-black| Yellow    | Blue-black| Blue-black|
+| 1.5        | Blue-black| Blue-black| Yellow    | Blue-black| Blue-black|
+| 2.0        | Blue-black| Blue-black| Yellow    | Brown     | Blue-black|
+| 2.5        | Blue-black| Blue-black| Yellow    | Brown     | Blue-black|
+| 3.0        | Blue-black| Blue-black| Yellow    | Brown     | Blue-black|
+| 3.5        | Blue-black| Blue-black| Yellow    | Yellow    | Blue-black|
+| 4.0        | Blue-black| Blue-black| Yellow    | Yellow    | Blue-black|
+| 5.5        | Blue-black| Blue-black| Yellow    | Yellow    | Blue-black|
+| 6.0        | Blue-black| Brown     | Yellow    | Yellow    | Blue-black|
+| 6.5        | Blue-black| Brown     | Yellow    | Yellow    | Blue-black|
+| 7.0        | Blue-black| Yellow    | Yellow    | Yellow    | Blue-black|
+| 7.5        | Blue-black| Yellow    | Yellow    | Yellow    | Brown     |
+| 8.0        | Blue-black| Yellow    | Yellow    | Yellow    | Brown     |
+| 8.5        | Brown     | Yellow    | Yellow    | Yellow    | Yellow    |
+| 9.0        | Brown     | Yellow    | Yellow    | Yellow    | Yellow    |
+| 9.5        | Yellow    | Yellow    | Yellow    | Yellow    | Yellow    |
+| 10.0       | Yellow    | Yellow    | Yellow    | Yellow    | Yellow    |
+
+The rate of reaction can be calculated from the time taken for the starch to be fully broken down, as shown by the colour change from blue-black to yellow. For example, at 50 °C the starch had all been digested after 3.5 minutes. The rate is found by dividing the volume of the starch (5 cm³) by the time:
+
+Rate = 5.0 cm³ / 3.5 min = 1.4 cm³ per min
+
+Plotting a graph of rate against temperature should produce a curve similar to the one shown in Figure 1.6. Try this, using the results in the table. Better still, you may be able to do this experiment and provide your own results.
+
+If the curve doesn't turn out quite like the one in Figure 1.6, can you suggest why this is? How could you improve the experiment to get more reliable results?
+---
+# ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES
+
+## HOW THE CELL GETS ITS ENERGY
+
+A cell needs a source of energy in order to be able to carry out all the processes needed for life. It gets this energy by breaking down food molecules to release the stored chemical energy that they contain. This process is called respiration. Many people think that respiration means the same as 'breathing', but although there are links between the two processes, the biological meaning of respiration is very different.
+
+### KEY POINT
+Respiration is called an oxidation reaction, because oxygen is used to break down food molecules.
+
+Respiration happens in all the cells of our body. Oxygen is used to oxidise food, and carbon dioxide (and water) are released as waste products. The main food oxidised is a sugar called glucose. Glucose contains stored chemical energy that can be converted into other forms of energy that the cell can use. It is rather like burning a fuel to get the energy out of it, except that burning releases most of the energy as heat. Respiration releases some heat energy, but most is used to make a substance called ATP (see below). The energy stored in the ATP molecules can then be used for a variety of purposes, such as:
+
+- contraction of muscle cells, producing movement
+- active transport of molecules and ions (see page 17)
+- building large molecules, such as proteins
+- cell division.
+
+The energy released as heat is also used to maintain a constant body temperature in mammals and birds (see Chapter 8).
+
+The overall reaction for respiration is:
+
+| glucose | + | oxygen | → | carbon dioxide | + | water | (+ energy) |
+|---------|---|--------|---|----------------|---|-------|------------|
+| C₆H₁₂O₆ | + | 6O₂    | → | 6CO₂           | + | 6H₂O  | (+ energy) |
+
+### DID YOU KNOW?
+
+Carbon from the respired glucose passes out into the atmosphere as carbon dioxide. The carbon can be traced through this pathway using a radioactive form of carbon called carbon-14.
+
+This is called aerobic respiration, because it uses oxygen. Aerobic respiration happens in the cells of humans and those of animals, plants and many other organisms. It is important to realise that the equation above is only a summary of the process. It actually takes place gradually, as a sequence of small steps, which release the energy of the glucose in small amounts. Each step in the process is catalysed by a different enzyme. The later steps in the process are the aerobic ones, and these release the most energy. They happen in the mitochondria of the cell.
+
+## ATP – THE ENERGEY 'CURRENCY' OF THE CELL
+
+Respiration releases energy while other cell processes use it up. Cells have a way of passing the energy from respiration to the other processes that need it. They do this using a chemical called adenosine triphosphate or ATP. ATP is present in all living cells.
+---
+## ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES
+
+ATP is composed of an organic molecule called adenosine attached to three phosphate groups. In a cell, ATP can be broken down losing one phosphate group and forming adenosine diphosphate or ADP (Figure 1.9 (a)).
+
+(a) When energy is needed ATP is broken down into ADP and phosphate (P):
+
+| adenosine | P | P | P | + H₂O | → | adenosine | P | P | + | P |
+|-----------|---|---|---|--------|---|-----------|---|---|---|---|
+
+(b) During respiration ATP is made from ADP and phosphate:
+
+| adenosine | P | P | + | P | → | adenosine | P | P | P | + H₂O |
+|-----------|---|---|---|---|---|-----------|---|---|---|--------|
+
+▲ Figure 1.9 ATP is the energy 'currency' of the cell.
+
+When this reaction takes place, chemical energy is released and can be used to drive metabolic processes that need it.
+
+During respiration the opposite happens – energy from the oxidation of glucose is used to drive the reverse reaction and a phosphate is added onto ADP (Figure 1.9 (b)).
+
+ATP is often described as the energy 'currency' of the cell. It transfers energy between the process that releases it (respiration) and the processes in a cell that use it up.
+
+## ANAEROBIC RESPIRATION
+
+There are some situations where cells can respire without using oxygen. This is called anaerobic respiration. In anaerobic respiration, glucose is not completely broken down, so less energy is released. The advantage of anaerobic respiration is that it can occur in situations where oxygen is in short supply. Two important examples of this are in yeast cells and muscle cells.
+
+Yeasts are single-celled fungi. They are used in commercial processes such as making wine and beer, and baking bread. When yeast cells are prevented from getting enough oxygen, they stop respiring aerobically and start to respire anaerobically instead. The glucose is partly broken down into ethanol (alcohol) and carbon dioxide:
+
+glucose → ethanol + carbon dioxide (+ some energy)
+
+This process is described in more detail in Chapter 21. The ethanol from this type of respiration is the alcohol formed in wine- and beer-making. The carbon dioxide is the gas that makes bread dough rise.
+
+Think about the properties of ethanol – it makes a good fuel and will burn to produce a lot of heat, so it still has a lot of chemical energy 'stored' in it.
+
+Muscle cells can also respire anaerobically when they are short of oxygen. If muscles are overworked, the blood cannot reach them fast enough to deliver enough oxygen for aerobic respiration. This happens when a person does a 'burst' of activity, such as a sprint, or quickly lifting a heavy weight. This time the glucose is broken down into a substance called lactate:
+
+glucose → lactate (+ some energy)
+
+Anaerobic respiration provides enough energy to keep the overworked muscles going for a short period. During the exercise, the level of lactate rises in the muscle cells and bloodstream.
+---
+# ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES
+
+> Uncorrected proof, all content subject to change at publisher discretion. Not for resale, circulation or distribution in whole or in part. ©Pearson 2019
+
+## DID YOU KNOW?
+It was once thought that lactate was toxic and caused muscle fatigue. We now know that this is not true. In fact physiologists have shown that lactate actually delays muscle fatigue. Fatigue is caused by other changes that happen in the muscles during exercise.
+
+## DID YOU KNOW?
+Lactate is sometims called lactic acid.
+
+After the exercise the lactate is respired aerobically in the mitochondria. The volume of oxygen needed to completely oxidise the lactate that builds up in the body during anaerobic respiration is called the oxygen debt.
+
+## ACTIVITY 2
+
+### PRACTICAL: DEMONSTRATION OF THE PRODUCTION OF CARBON DIOXIDE BY SMALL LIVING ORGANISMS
+
+> Safety note: Wear eye protection, treat all living organisms with care and avoid skin contact.
+
+Hydrogen carbonate indicator solution is normally orange, but turns yellow if carbon dioxide is added to it. The indicator is sensitive to small changes in carbon dioxide concentration, and can be used to show production of carbon dioxide by small organisms such as woodlice, maggots (fly larvae) or germinating seeds.
+
+The organisms are placed in a stoppered boiling tube with the indicator, as shown in Figure 1.10. The gauze platform supports the organisms above the hydrogen carbonate indicator solution and stops them from coming into contact with the chemical.
+
+| small organisms |
+|-----------------|
+| gauze platform  |
+| hydrogen carbonate indicator solution |
+
+Figure 1.10 Testing for carbon dioxide production by small organisms.
+
+Of the three species of organisms mentioned above, which do you think would change the colour of the indicator most quickly? If you are able to observe each of the organisms, this might help with your prediction.
+
+When you have made your prediction (called a 'hypothesis'), plan an investigation to test it. Take care to consider the variables that need to be controlled variable, and don't forget to include a description of a fourth tube that you would need to set up as the experimental Control (see Appendix A for an explanation of these terms).
+
+It may be possible for you to carry out the investigation using similar apparatus and organisms.
+---
+## ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES
+
+### ACTIVITY 3
+
+> **PRACTICAL: DEMONSTRATION THAT HEAT IS PRODUCED BY RESPIRATION**
+
+!!! warning "Safety note"
+    Eye protection should be worn when using bleach to wash the peas and skin contact avoided.
+
+Some peas are soaked in water for 24 hours, so that they start to germinate. A second batch of peas is boiled, to kill them. Each set of peas is washed in a 1% bleach solution, which acts as a disinfectant, killing any bacteria present on the surface of the peas. The peas are then rinsed twice in distilled water to remove any traces of bleach.
+
+Each batch of peas is placed in an inverted vacuum flask as shown in Figure 1.11, leaving some air in each flask. A vacuum flask insulates its contents, so that any small temperature change inside the flask can be measured.
+
+| vacuum flask |
+|--------------|
+| germinating peas | dead peas |
+| cotton wool |
+| thermometer |
+
+Figure 1.11 Experiment to show that heat is produced during respiration in germinating peas.
+
+The seeds produce carbon dioxide gas, which is denser than air. The inverted flasks and cotton wool allow this to escape. It might otherwise kill the peas.
+
+The apparatus is left set up for a couple of days, and the temperature inside each flask measured at the start and end of the experiment.
+
+The following results were obtained from this experiment:
+
+Temperature in both flasks at the start = 21 °C
+Temperature in flask with dead peas at the end = 21 °C
+Temperature in flask with living peas at the end = 24 °C
+
+Can you explain these results? Why is it necessary to kill any microorganisms on the surface of the peas? Explain the importance of the flask containing dead peas.
+---
+ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES | 15
+
+## MOVEMENT OF MATERIALS IN AND OUT OF CELLS
+
+Cell respiration shows the need for cells to be able to take in certain substances from their surroundings, such as glucose and oxygen, and get rid of others, such as carbon dioxide and water. As you have seen, the cell surface membrane can control which chemicals can pass in and out – it is described as selectively permeable.
+
+There are three main ways that molecules and ions can move through the membrane. They are diffusion, active transport and osmosis.
+
+### DIFFUSION
+
+Many substances can pass through the membrane by diffusion. Diffusion happens when a substance is more concentrated in one place than another. For example, if the cell is making carbon dioxide by respiration, the concentration of carbon dioxide inside the cell will be higher than outside. This difference in concentration is called a concentration gradient. The molecules of carbon dioxide are constantly moving about because of their kinetic energy. The cell membrane is permeable to carbon dioxide, so the molecules can move in either direction through it. Since there is a higher concentration of carbon dioxide molecules inside the cell than outside, over time, more molecules will move from inside to outside than move in the other direction. We say that there is a net movement of the molecules out of the cell (Figure 1.12).
+
+![Figure 1.12 Carbon dioxide is produced by respiration, so its concentration builds up inside the cell. Although the carbon dioxide molecules diffuse in both directions across the cell membrane, the overall (net) movement is out of the cell, down the concentration gradient.]
+
+| carbon dioxide molecules |
+|--------------------------|
+| • •                      |
+| • • •                    |
+| • • • •                  |
+
+#### KEY POINT
+Diffusion is the net movement of particles (molecules or ions) from a region of high concentration to a region of low concentration, i.e. down a concentration gradient.
+
+The opposite happens with oxygen. Respiration uses up oxygen, so there is a concentration gradient of oxygen from outside to inside the cell. There is therefore a net movement of oxygen into the cell by diffusion.
+
+The rate of diffusion is affected by various factors.
+
+- The concentration gradient. Diffusion happens more quickly when there is a steep concentration gradient (i.e. a big difference in concentrations between two areas).
+- The surface area to volume ratio. A larger surface area in proportion to the volume will increase the rate.
+- The distance. The rate is decreased if the distance over which diffusion has to take place is greater.
+- The temperature. The rate is greater at higher temperatures. This is because a high temperature provides the particles with more kinetic energy.
+---
+16    ORGANISMS AND LIFE PROCESSES                             LIFE PROCESSES
+
+Uncorrected proof, all content subject to change at publisher discretion. Not for resale, circulation or distribution in whole or in part. ©Pearson 2019
+
+## ACTIVITY 4
+
+> Safety note: Wear eye protection and avoid all skin contact with the acid and the dyed agar blocks.
+
+### ▼ PRACTICAL: DEMONSTRATION OF DIFFUSION IN A JELLY
+
+Agar is a jelly that is used for growing cultures of bacteria. It has a consistency similar to the cytoplasm of a cell. Like cytoplasm, it has a high water content. Agar can be used to show how substances diffuse through a cell.
+
+This demonstration uses the reaction between hydrochloric acid and potassium permanganate solution. When hydrochloric acid comes into contact with potassium permanganate, the purple colour of the permanganate disappears.
+
+A Petri dish is prepared which contains a 2 cm deep layer of agar jelly, dyed purple with potassium permanganate. Three cubes of different sizes are cut out of the jelly, with side lengths 2 cm, 1 cm and 0.5 cm. The cubes have different volumes and total surface areas. They also have a different surface area to volume ratio, as shown in the table below.
+
+| Length of side of cube / cm | Volume of cube / cm³ (length × width × height) | Surface area of cube / cm² (length × width of one side) × 6 | Ratio of surface area to volume of cube (surface area divided by volume) |
+|----------------------------|----------------------------------------------|-----------------------------------------------------------|-------------------------------------------------------------------------|
+| 2                          | (2 × 2 × 2) = 8                              | (2 × 2) × 6 = 24                                          | 24/8 = 3                                                                |
+| 1                          | (1 × 1 × 1) = 1                              | (1 × 1) × 6 = 6                                           | 6/1 = 6                                                                 |
+| 0.5                        | (0.5 × 0.5 × 0.5) = 0.125                    | (0.5 × 0.5) × 6 = 1.5                                     | 1.5/0.125 = 12                                                          |
+
+Notice that the smallest cube has the largest surface area to volume ratio. The same is true of cells – a small cell has a larger surface area to volume ratio than a large cell.
+
+The cubes are carefully dropped, at the same time, into a beaker of dilute hydrochloric acid (Figure 1.13).
+
+Figure 1.13 Investigating diffusion in a jelly.
+
+The time taken for each cube to turn colourless is noted.
+
+Which cube would be the first to turn colourless and which the last? Explain the reasoning behind your prediction.
+
+If the three cubes represented cells of different sizes, which cell would have the most difficulty in obtaining substances by diffusion?
+
+It may be possible for you to try this experiment, using similar apparatus.
+---
+# ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES
+
+## ACTIVE TRANSPORT
+
+Diffusion happens because of the kinetic energy of the particles. It does not need an 'extra' source of energy from respiration. However, sometimes a cell needs to take in a substance when there is very little of that substance outside the cell, in other words against a concentration gradient. It can do this by another process, called active transport.
+
+During active transport a cell uses energy from respiration to take up substances, rather like a pump uses energy to move a liquid from one place to another. In fact, biologists speak of the cell 'pumping' ions or molecules in or out. The pumps are large protein molecules located in the cell membrane, and they are driven by the breakdown of ATP. An example of a place where this happens is in the human small intestine, where some glucose in the gut is absorbed into the cells lining the intestine by active transport. The roots of plants also take up certain mineral ions in this way. Cells use active transport to control the uptake of many substances.
+
+### KEY POINT
+Active transport is the movement of substances against a concentration gradient, using energy from respiration.
+
+## OSMOSIS
+
+Water moves across cell membranes by a special sort of diffusion, called osmosis. Osmosis happens when the total concentrations of all dissolved substances inside and outside the cell are different. Water will move across the membrane from the more dilute solution to the more concentrated one. Notice that this is still obeying the rules of diffusion – the water moves from where there is a higher concentration of water molecules to a lower concentration of water molecules. Osmosis can only happen if the membrane is permeable to water but not to some other solutes. We say that it is partially permeable.
+
+Osmosis is important for moving water from cell to cell, for example in plant roots. You will find out more about osmosis in Chapter 11.
+
+### KEY POINT
+Osmosis in cells is the net movement of water from a dilute solution to a more concentrated solution across the partially permeable cell membrane.
+
+## SPECIALISED EXCHANGE SURFACES
+
+All cells exchange substances with their surroundings, but some parts of animals or plants are specially adapted for the exchange of materials because they have a very large surface area in proportion to their volume. In animals, two examples are the alveoli (air sacs) of the lungs (Chapter 3) and the villi of the small intestine (Chapter 4). Diffusion is a slow process, and organs that rely on diffusion need a large surface over which it can take place. The alveoli allow the exchange of oxygen and carbon dioxide to take place between the air and the blood during breathing. The villi of the small intestine provide a large surface area for the absorption of digested food. In plants, exchange surfaces are also adapted by having a large surface area, such as the spongy mesophyll of the leaf (Chapter 10) and the root hairs.
+
+### KEY POINT
+'Adapted' or 'an adaptation' means that the structure of a cell or an organism is suited to its function. It is a word that is very commonly used in biology, and will appear again in many of the chapters of this book. We also use it when we say that organisms are adapted to their environment.
+
+## CELLS, TISSUES AND ORGANS
+
+Cells with a similar function are grouped together as tissues. For example, the muscle of your arm contains millions of similar muscle cells, all specialised for one function – contraction to move the arm bones. This is muscle tissue. However, a muscle also contains other tissues, such as blood, nervous tissue and epithelium (lining tissue). A collection of several tissues carrying out a particular function is called an organ. The main organs of the human body are shown in Figure 1.14. Plants also have tissues and organs. Leaves, roots, stems and flowers are all plant organs.
+
+In animals, jobs are usually carried out by several different organs working together. This is called an organ system. For example, the digestive system consists of the gut, along with glands such as the pancreas and gall bladder.
+---
+# 18 ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES
+
+The function of the whole system is to digest food and absorb the digested products into the blood. There are seven main systems in the human body. These are the:
+
+- digestive system
+- gas exchange system – including the lungs, which exchange oxygen and carbon dioxide
+- circulatory system – including the heart and blood vessels, which transport materials around the body
+- excretory system – including the kidneys, which filter toxic waste materials from the blood
+- nervous system – consisting of the brain, spinal cord and nerves, which coordinate the body's actions
+- endocrine system – glands secreting hormones, which act as chemical messengers
+- reproductive system – producing sperm in males and eggs in females, and allowing the development of the embryo.
+
+Figure 1.14 Some of the main organs of the human body.
+
+| Organ | Location/Description |
+|-------|----------------------|
+| brain | Top of the head |
+| trachea | Throat area |
+| lungs | Chest cavity |
+| oesophagus | Behind trachea |
+| heart | Center of chest |
+| kidneys | Behind gut |
+| skin | Outer covering |
+| liver | Upper right abdomen |
+| pancreas | Behind stomach |
+| stomach | Upper abdomen |
+| intestine | Lower abdomen |
+| bladder | Lower abdomen |
+| ovaries (in female) | Lower abdomen |
+| testes (in male) | External, lower body |
+
+Uncorrected proof, all content subject to change at publisher discretion. Not for resale, circulation or distribution in whole or in part. ©Pearson 2019
+---
+ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES | 19
+
+## LOOKING AHEAD – MEMBRANES IN CELLS
+
+If you continue to study biology beyond International GCSE, you will learn more about the structure and function of cells. You might like to look on the Internet for some electron micrographs and carry out some further research into cells.
+
+Electron micrographs allow us to see cells at a much greater magnification than by using a light microscope. They also reveal more detail. The image produced by a light microscope can only distinguish features about the size of a mitochondrion. The electron microscope has a much greater resolution. Resolution is the ability to distinguish two points in an image as being separate. The maximum resolution of a light microscope is about 200 nanometres (nm), while with an electron microscope we can distinguish structures less than 1 nm in size. That is why ribosomes are only visible using an electron microscope – they are about 25 nm in diameter. A nanometre (nm) is 10⁻⁹ m, or one millionth of a millimetre.
+
+Electron microscopy reveals that much of the cytoplasm is made up of membranes. As well as the cell surface membrane, there are membranes around organelles such as the nucleus, mitochondria and chloroplasts. In addition, there is an extensive system of membranes running throughout the cytoplasm, called the endoplasmic reticulum (ER). Some ER is covered in ribosomes, and is called rough ER (Figure 1.15).
+
+Figure 1.15 Rough endoplasmic reticulum is a system of membranes extending throughout the cytoplasm of a cell. It is covered with ribosomes the (tiny dots). Ribosomes are the site of protein synthesis.
+
+There are thousands of different chemical reactions that take place inside cells. A key function of a cell membrane is to separate cell functions into different compartments so they don't take place together. For example, the reactions and enzymes of aerobic respiration are kept inside the mitochondria, separate from the rest of the cytoplasm.
+---
+20   ORGANISMS AND LIFE PROCESSES    LIFE PROCESSES
+
+CHAPTER QUESTIONS
+
+More questions on life processes can be found at the end of Unit 1 on page 29.
+
+SKILLS   CRITICAL THINKING
+
+1 Which of the following comparisons of animal and plant cells is not true?
+
+| Animal cells | Plant cells |
+|--------------|-------------|
+| A | do not have chloroplasts | have chloroplasts |
+| B | have mitochondria | do not have mitochondria |
+| C | have temporary vacuoles | have permanent vacuoles |
+| D | do not have cellulose cell walls | have cellulose cell walls |
+
+2 Which of the following descriptions is correct?
+A The cell wall is freely permeable and the cell membrane is partially
+  permeable
+B The cell wall is partially permeable and the cell membrane is freely
+  permeable
+C Both the cell wall and the cell membrane are freely permeable
+D Both the cell wall and the cell membrane are partially permeable
+
+3 What are the products of anaerobic respiration in yeast?
+A ethanol and carbon dioxide    B lactate and carbon dioxide
+C carbon dioxide and water      D ethanol and water
+
+SKILLS   INTERPRETATION
+
+4 a Draw a diagram of a plant cell. Label all of the parts. Alongside each label
+    write the function of that part.
+
+SKILLS   CRITICAL THINKING
+
+b Write down three differences between the cell you have drawn and a
+  'typical' animal cell.
+
+5 Write a short description of the nature and function of enzymes. Include in
+your description:
+■ a definition of an enzyme
+■ a description of the 'lock and key' model of enzyme action
+■ an explanation of the difference between intracellular and extracellular
+  enzymes.
+Your description should be about a page in length, including a labelled
+diagram.
+
+SKILLS   ANALYSIS
+
+6 The graph shows the effect of temperature on an enzyme. The enzyme was
+extracted from microorganism that lives in hot mineral springs near a volcano.
+---
+| rate of enzyme-catalysed reaction / arbitrary units |
+|                       /\                            |
+|                      /  \                           |
+|                     /    \                          |
+|                    /      \                         |
+|                   /        \                        |
+|                  /          \                       |
+|                 /            \                      |
+|                /              \                     |
+|               /                \                    |
+|              /                  \                   |
+|             /                    \                  |
+|            /                      \                 |
+|           /                        \                |
+|          /                          \               |
+|         /                            \              |
+|        /                              \             |
+|       /                                \            |
+|      /                                  \           |
+|     /                                    \          |
++---------------------------------------------------|
+  10 20 30 40 50 60 70 80 90 100
+           temperature / °C

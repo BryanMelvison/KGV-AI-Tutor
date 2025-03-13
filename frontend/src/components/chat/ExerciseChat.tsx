@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Message } from "@/interfaces/Message";
 import ChatContainer from "./ChatContainer";
+import { AIExerciseResponse } from "@/api/exerciseApi";
 
 interface ExerciseChatProps {
   title: string;
@@ -8,26 +9,31 @@ interface ExerciseChatProps {
   question: {
     number: string;
     title: string;
-    description: string;
   };
+  isLoading: boolean;
 }
 
 const ExerciseChat = ({ title, subtitle, question }: ExerciseChatProps) => {
   const [messages, setMessages] = useState<Message[]>([]);
   const [isLoading, setIsLoading] = useState(false);
 
-  const handleSubmit = (message: string) => {
+  const handleSend = async (message: string) => {
     setIsLoading(true);
     setMessages((prev) => [...prev, { text: message, sender: "user" }]);
 
-    // Mock AI response
-    setTimeout(() => {
+    try {
+      const response = await AIExerciseResponse(message);
+      const formattedResponse = `📊 Score: ${response.score}/10 💭 Feedback: ${response.reason} 🛠️ Comment: ${response.comment} 💡 Hint: ${response.hint}`;
+
       setMessages((prev) => [
         ...prev,
-        { text: "This is a sample AI response.", sender: "assistant" },
+        { text: formattedResponse, sender: "assistant" },
       ]);
+    } catch (error) {
+      console.error("Error getting AI response:", error);
+    } finally {
       setIsLoading(false);
-    }, 1000);
+    }
   };
 
   const actions = (
@@ -55,7 +61,6 @@ const ExerciseChat = ({ title, subtitle, question }: ExerciseChatProps) => {
         <h2 className="text-lg font-semibold mb-2 text-gray-900">
           {question.number}. {question.title}
         </h2>
-        <p className="text-gray-600">{question.description}</p>
       </div>
     </>
   );
@@ -64,7 +69,7 @@ const ExerciseChat = ({ title, subtitle, question }: ExerciseChatProps) => {
     <ChatContainer
       messages={messages}
       isLoading={isLoading}
-      onSend={handleSubmit}
+      onSend={handleSend}
       submitButtonText="Send"
       headerContent={headerContent}
       inputPlaceholder="Type your answer..."
