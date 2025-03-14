@@ -211,5 +211,8 @@
 /backend/app/.env
 /backend/app/uploads
 /backend/app/temp_uploads
-/backend/app/utilities/book
+/backend/app/utilities/book/
 /backend/app/chroma_langchain_db/
+
+*.pdf
+backend/app/utilities/parser/*.pdf
