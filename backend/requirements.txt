@@ -32,3 +32,10 @@ typing_extensions==4.12.2
 urllib3==2.2.3
 uvicorn==0.32.0
 aiofiles
+llama-index-core 
+llama-parse 
+llama-index-readers-file 
+python-dotenv
+langchain-ollama
+langchain-chroma>=0.1.2
+
