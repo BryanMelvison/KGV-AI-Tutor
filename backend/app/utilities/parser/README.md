@@ -16,8 +16,8 @@ To run:
 -----------
 First we need to modify and download ollama:
 pip imstall -r requiremets.txt
-ollama pull llama3.2
-echo "FROM llama3.2
+ollama pull huihui_ai/deepseek-r1-abliterated:8b-llama-distill
+echo "FROM huihui_ai/deepseek-r1-abliterated:8b-llama-distill
 PARAMETER num_ctx 4096" > Modelfile
 
 ollama create pdfParser -f ./Modelfile
@@ -56,3 +56,6 @@ At the moment, this process assumes:
 
 
 
+---- 
+For the vector database, 
+ollama pull bge-m3

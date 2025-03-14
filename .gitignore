@@ -211,3 +211,4 @@
 /backend/app/.env
 /backend/app/uploads
 /backend/app/temp_uploads
+/backend/app/utilities/book

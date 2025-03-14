@@ -27,6 +27,8 @@ class PDFParser():
         self.metadata = metadata or {} # Ini itu buat orang2 kalo kirim sesuatu ke backend, kirim metadata juga (Contoh: Subject, totalChapters  "textbook": {"subject": "Biology","totalChapters": 21,"chapters": [{"chapterNumber": 1,"title": "Life Processes"}]""
         self.instruction = instruction or ParserConfig().instruction
         self._parsed_content = None
+        self.book_dir = Path(__file__).parent.parent / "book"
+        self.book_dir.mkdir(exist_ok=True)
 
         # LLM Configuration and Client
         self.llm_config = llm_config or LLMConfig()
@@ -108,9 +110,8 @@ class PDFParser():
         chapter_idx: int, 
         chapters: list, 
         content_reformatted: str, 
-        book_dir: Path
     ) -> None:
-        chapter_file = book_dir / f"chapter_{chapters[chapter_idx]['chapterNumber']}.txt"
+        chapter_file = self.book_dir / f"chapter_{chapters[chapter_idx]['chapterNumber']}.txt"
         mode = 'a' if chapter_file.exists() else 'w'
         with open(chapter_file, mode) as f:
             f.write(content_reformatted + '\n')
@@ -125,9 +126,6 @@ class PDFParser():
         current_chapter_idx = -1  # -1 to indicate front matter
 
         # Create a directory named "book" relative to this .py file’s parent 
-        book_dir = Path(__file__).parent.parent / "book"
-        book_dir.mkdir(exist_ok=True)
-
         for page_idx, content in enumerate(content_list):
             raw_text = content["text"].strip() if "text" in content else ""
             if not raw_text:
@@ -152,7 +150,6 @@ class PDFParser():
                             current_chapter_idx,
                             chapters,
                             reformatted_text,
-                            book_dir
                         )
             elif current_chapter_idx < len(chapters):
                 # Inside a known chapter
@@ -167,7 +164,6 @@ class PDFParser():
                         current_chapter_idx,
                         chapters,
                         reformatted_text,
-                        book_dir
                     )
                 else:
                     # Possibly next chapter or back matter
@@ -184,7 +180,6 @@ class PDFParser():
                                 current_chapter_idx,
                                 chapters,
                                 reformatted_text,
-                                book_dir
                             )
                         else:
                             # Not about the next chapter → fallback to current
@@ -192,7 +187,6 @@ class PDFParser():
                                 current_chapter_idx,
                                 chapters,
                                 reformatted_text,
-                                book_dir
                             )
                     else:
                         # We are at the last chapter, check for back matter
@@ -208,7 +202,6 @@ class PDFParser():
                                 current_chapter_idx,
                                 chapters,
                                 reformatted_text,
-                                book_dir
                             )
             else:
                 # We might have run out of chapters
@@ -228,31 +221,54 @@ class PDFParser():
                             len(chapters) - 1,
                             chapters,
                             reformatted_text,
-                            book_dir
                         )
                 else:
                     # If definitely back matter, we can break
                     break
-
+                
     async def get_structured_content(self):
-        if self._parsed_content is None:
-            await self._parse_job()
-        
-        if not isinstance(self._parsed_content, list):
-            print("Parsed content is not a list; skipping classification.")
-            return
-
-        # Process (classify + reformat + write to chapters) if we have metadata
-        if self.metadata:
-            await self.process_textbook_content(self._parsed_content)
-            rag = textbookRAG(self._parsed_content)        
-
-        print("Successfully processed content.")
-
-        
-        # Process self._parsed_content to fill structured_content
-        # This is where you could add your LLM processing
-        
-    
+        try:
+            # Ensure content is parsed
+            if self._parsed_content is None:
+                await self._parse_job()
+            
+            if not isinstance(self._parsed_content, list):
+                print("Parsed content is not a list; skipping classification.")
+                return None
+            
+            # Process content
+            result = {
+                "success": True,
+                "content": self._parsed_content,
+                "rag_status": "not_attempted"
+            }
+            
+            # Process and store in RAG if metadata exists
+            if self.metadata:
+                try:
+                    # Process textbook content and write to files
+                    await self.process_textbook_content(self._parsed_content)
+                    
+                    # Store to RAG
+                    rag = textbookRAG(metadata=self.metadata, book_dir=self.book_dir)
+                    rag.extract_from_metadata()
+                    result["rag_status"] = "success"
+                    
+                    print("Successfully processed content and stored in RAG.")
+                except Exception as e:
+                    print(f"Error during content processing or RAG storage: {str(e)}")
+                    result["rag_status"] = f"error: {str(e)}"
+            else:
+                print("No metadata provided, skipping chapter processing and RAG storage.")
+                result["rag_status"] = "skipped_no_metadata"
+            
+            return result
+            
+        except Exception as e:
+            print(f"Error in get_structured_content: {str(e)}")
+            return {
+                "success": False,
+                "error": str(e)
+            }
 
 
