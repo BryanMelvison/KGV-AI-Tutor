@@ -1,18 +1,4 @@
 import type { Metadata } from "next";
-<<<<<<< HEAD
-import localFont from "next/font/local";
-import "./globals.css";
-
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-=======
 import { Onest } from "next/font/google";
 import NavBar from "@/components/nav-bar/NavBar";
 import "./globals.css";
@@ -22,7 +8,6 @@ const onest = Onest({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   variable: "--font-onest",
->>>>>>> origin/main
 });
 
 export const metadata: Metadata = {
@@ -36,13 +21,6 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-<<<<<<< HEAD
-    <html lang="en" className="h-full">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-=======
     <html lang="en" className={`${onest.variable} h-full`}>
       <body className="font-onest bg-white">
         <SmartQuizProvider>
@@ -50,7 +28,6 @@ export default function RootLayout({
 
           <main className="flex-1 pl-20 h-full">{children}</main>
         </SmartQuizProvider>
->>>>>>> origin/main
       </body>
     </html>
   );
