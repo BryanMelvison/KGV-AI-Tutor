@@ -22,11 +22,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${onest.variable} h-full`}>
-      <body className="font-onest">
+      <body className="font-onest bg-white">
         <SmartQuizProvider>
           <NavBar />
 
-          <main className="flex-1 pl-20">{children}</main>
+          <main className="flex-1 pl-20 h-full">{children}</main>
         </SmartQuizProvider>
       </body>
     </html>
