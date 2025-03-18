@@ -2,6 +2,10 @@ import { useState } from "react";
 
 interface ChatInputProps {
   onSend: (message: string) => void;
+<<<<<<< HEAD
+=======
+  onClear?: () => void;
+>>>>>>> origin/main
   isLoading: boolean;
   submitButtonText?: string;
   placeholder?: string;
@@ -9,6 +13,10 @@ interface ChatInputProps {
 
 const ChatInput = ({
   onSend,
+<<<<<<< HEAD
+=======
+  onClear,
+>>>>>>> origin/main
   isLoading,
   submitButtonText = "Send",
   placeholder = "Type your message...",
@@ -23,9 +31,15 @@ const ChatInput = ({
   };
 
   return (
+<<<<<<< HEAD
     <div className="bg-whitepx-6">
       <div className="w-full mx-auto">
         <div className="relative">
+=======
+    <div>
+      <div className="w-full mx-auto flex items-center">
+        <div className="relative flex-grow">
+>>>>>>> origin/main
           <input
             type="text"
             value={inputValue}
@@ -43,6 +57,16 @@ const ChatInput = ({
             {submitButtonText}
           </button>
         </div>
+<<<<<<< HEAD
+=======
+        <button
+          onClick={onClear}
+          className="ml-4 p-3 rounded-lg bg-red-500 hover:bg-red-600"
+          title="Clear chat history"
+        >
+          Clear Context
+        </button>
+>>>>>>> origin/main
       </div>
     </div>
   );

@@ -9,6 +9,10 @@ interface ChatContainerProps {
   messages: Message[];
   isLoading: boolean;
   onSend: (message: string) => void;
+<<<<<<< HEAD
+=======
+  onClear?: () => void;
+>>>>>>> origin/main
   actions?: React.ReactNode;
   submitButtonText?: string;
   headerContent?: React.ReactNode;
@@ -21,6 +25,10 @@ const ChatContainer = ({
   messages,
   isLoading,
   onSend,
+<<<<<<< HEAD
+=======
+  onClear,
+>>>>>>> origin/main
   actions,
   submitButtonText = "Send",
   headerContent,
@@ -67,6 +75,10 @@ const ChatContainer = ({
         <div className="flex-shrink-0">
           <ChatInput
             onSend={onSend}
+<<<<<<< HEAD
+=======
+            onClear={onClear}
+>>>>>>> origin/main
             isLoading={isLoading}
             submitButtonText={submitButtonText}
             placeholder={inputPlaceholder}

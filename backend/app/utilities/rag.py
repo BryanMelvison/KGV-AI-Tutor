@@ -7,11 +7,11 @@ from pathlib import Path
 
 # Extract
 class textbookRAG:
-    def __init__(self, metadata=None, model="bge-m3", collection_name="school_collection", book_dir = Path(__file__).parent.parent / "book"):
+    def __init__(self, metadata=None, model="bge-m3", collection_name="school_collection", book_dir = Path(__file__).parent / "book"):
         self.embeddings = OllamaEmbeddings(model=model)
         self.book_dir = book_dir
         # directory of langchain_db:
-        db_dir = str(Path(__file__).parent.parent.parent / "chroma_langchain_db")
+        db_dir = str(Path(__file__).parent.parent / "chroma_langchain_db")
         print(db_dir)
         self.vector_store = Chroma(
             collection_name=collection_name,
@@ -122,16 +122,6 @@ class textbookRAG:
         except Exception as e:
             print(f"Error in extract_from_metadata: {str(e)}")
             return False
-
-    def search(self, query, k=5, subject=None, chapter=None):
-        # Condition Based on Subject and Chapter:
-        if subject and chapter:
-            filter = {"$and": [{"chapter": chapter}, {"subject": subject}]}
-        elif subject:
-            filter = {"subject": subject}
-        else:
-            filter = None
-        return self.vector_store.similarity_search(query, k=k, filter=filter)
 
     def search(self, query, k=5, subject=None, chapter=None) -> str:
         try:
