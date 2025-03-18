@@ -1,31 +1,21 @@
 "use client";
 
-<<<<<<< HEAD
-import { useState, useEffect } from "react";
-import { Message } from "@/interfaces/Message";
-import ChatContainer from "@/components/chat/ChatContainer";
-import { mockAIResponse } from "@/api/mockChat";
-=======
 import { useState } from "react";
 import { Message } from "@/interfaces/Message";
 import ChatContainer from "@/components/chat/ChatContainer";
 import { AIResponse, clearMemory } from "@/api/chatApi";
->>>>>>> origin/main
 
 const AIChat = () => {
   const [messages, setMessages] = useState<Message[]>([]);
   const [isLoading, setIsLoading] = useState(false);
+  const [showClearMessage, setShowClearMessage] = useState(false);
 
   const handleSend = async (message: string) => {
     setIsLoading(true);
     setMessages((prev) => [...prev, { text: message, sender: "user" }]);
 
     try {
-<<<<<<< HEAD
-      const response = await mockAIResponse(message);
-=======
       const response = await AIResponse(message);
->>>>>>> origin/main
       setMessages((prev) => [...prev, { text: response, sender: "assistant" }]);
     } catch (error) {
       console.error("Error getting AI response:", error);
@@ -34,32 +24,44 @@ const AIChat = () => {
     }
   };
 
-<<<<<<< HEAD
-=======
   const handleClear = async () => {
+    setShowClearMessage(true);
     try {
       await clearMemory();
-      setMessages((prev) => [
-        ...prev,
-        { text: "Chat has been cleared", sender: "assistant" },
-      ]);
     } catch (error) {
       console.error("Error clearing chat:", error);
     }
+    setTimeout(() => {
+      setShowClearMessage(false);
+    }, 2000);
   };
 
->>>>>>> origin/main
+  const headerContent = (
+    <>
+      {showClearMessage && (
+        <div
+          className="fixed top-0 left-0 right-0 bg-zinc-900 text-white text-center py-2 transition-all duration-300"
+          style={{
+            zIndex: 1000,
+          }}
+        >
+          Context cleared
+        </div>
+      )}
+      <div>
+        <h2 className="text-2xl font-semibold text-[#17171F]">AI Chat</h2>
+        <p className="text-gray-500">Chat with our AI assistant</p>
+      </div>
+    </>
+  );
+
   return (
     <ChatContainer
-      title="AI Chat"
-      description="Chat with our AI assistant"
       messages={messages}
       isLoading={isLoading}
       onSend={handleSend}
-<<<<<<< HEAD
-=======
       onClear={handleClear}
->>>>>>> origin/main
+      headerContent={headerContent}
     />
   );
 };

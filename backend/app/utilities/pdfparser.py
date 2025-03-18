@@ -1,17 +1,16 @@
 from dataclasses import dataclass
 from llama_parse import LlamaParse
-import nest_asyncio
 import asyncio
+import uvloop
 from dotenv import load_dotenv 
 import os
-import requests
 from ollama import Client
 from pathlib import Path
-from prompt import classifier_front_content_agent_prompt, classifier_content_back_matter_agent_prompt, classifier_content_chapter_agent_prompt, content_reformatter_prompt
-from contentDatabase.rag import textbookRAG
+from app.utilities.prompt import classifier_front_content_agent_prompt, classifier_content_back_matter_agent_prompt, classifier_content_chapter_agent_prompt, content_reformatter_prompt
+from app.utilities.rag import textbookRAG
 
 load_dotenv()
-nest_asyncio.apply()
+asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
 
 @dataclass
 class LLMConfig:

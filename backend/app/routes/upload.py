@@ -4,6 +4,7 @@ import os
 from uuid import uuid4
 import aiofiles
 import json
+import app.utilities.pdfparser as parser
 
 router = APIRouter()
 
@@ -80,8 +81,13 @@ async def upload(
             )
         finally:
             # At this point, we have fully saved the PDF, and we will now parse it using the PDFParser class. 
-            ...
-        
+            # async function: get_structured_content
+            structured_content = await parser.get_structured_content(saved_file_path)
+            # Clean up the uploaded file
+            if upload_dir.exists():
+                import shutil
+                shutil.rmtree(upload_dir)
+    
         return {
             "message": "Successfully uploaded Textbook PDF file and Textbook Information.",
             "filename": filename,

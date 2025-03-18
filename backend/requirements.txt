@@ -38,4 +38,4 @@ llama-index-readers-file
 python-dotenv
 langchain-ollama
 langchain-chroma>=0.1.2
-
+uvloop

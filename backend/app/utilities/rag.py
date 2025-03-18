@@ -7,11 +7,14 @@ from pathlib import Path
 
 # Extract
 class textbookRAG:
-    def __init__(self, metadata=None, model="bge-m3", collection_name="school_collection", book_dir = Path(__file__).parent / "book"):
+    def __init__(self, metadata=None, model="bge-m3", collection_name="school_collection", book_dir = None):
+        if book_dir is None:
+            self.book_dir =  Path("../utilities/book")
+        else:
+            self.book_dir = Path(book_dir)
         self.embeddings = OllamaEmbeddings(model=model)
-        self.book_dir = book_dir
         # directory of langchain_db:
-        db_dir = str(Path(__file__).parent.parent / "chroma_langchain_db")
+        db_dir = str("../chroma_langchain_db")
         print(db_dir)
         self.vector_store = Chroma(
             collection_name=collection_name,
