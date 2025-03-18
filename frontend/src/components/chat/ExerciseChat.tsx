@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import { Message } from "@/interfaces/Message";
 import ChatContainer from "./ChatContainer";
@@ -8,7 +10,6 @@ interface ExerciseChatProps {
   question: {
     number: string;
     title: string;
-    description: string;
   };
 }
 
@@ -31,14 +32,9 @@ const ExerciseChat = ({ title, subtitle, question }: ExerciseChatProps) => {
   };
 
   const actions = (
-    <>
-      <button className="px-4 py-2 text-red-500 bg-red-50 rounded-lg hover:bg-red-100 transition-colors">
-        Quit Exercise
-      </button>
-      <button className="px-4 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors">
-        Submit Exercise →
-      </button>
-    </>
+    <button className="px-4 py-2 text-red-500 bg-red-50 rounded-lg hover:bg-red-100 transition-colors">
+      Quit Exercise
+    </button>
   );
 
   const headerContent = (
@@ -52,10 +48,9 @@ const ExerciseChat = ({ title, subtitle, question }: ExerciseChatProps) => {
       </div>
 
       <div className="bg-white rounded-xl p-6 mb-6 shadow-sm border border-gray-100">
-        <h2 className="text-lg font-semibold mb-2 text-gray-900">
+        <h2 className="text-lg font-semibold text-gray-900">
           {question.number}. {question.title}
         </h2>
-        <p className="text-gray-600">{question.description}</p>
       </div>
     </>
   );
