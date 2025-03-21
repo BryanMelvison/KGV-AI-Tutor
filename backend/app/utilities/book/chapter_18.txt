@@ -1,422 +1,443 @@
-# CHAPTER 18: GENES AND INHERITANCE
-
-## INTRODUCTION
-HOW AND WHY DO WE INHERIT FEATURES FROM OUR PARENTS? THIS CHAPTER EXPLORES THE WORK OF GREGOR MENDEL, WHO UNRAVELED THE MYSTERIES OF INHERITANCE.
-
-## LEARNING OBJECTIVES
-BY THE END OF THIS CHAPTER, YOU WILL BE ABLE TO:
-- UNDERSTAND THAT GENES EXIST IN ALTERNATIVE FORMS CALLED ALLELES.
-- INTERPRET FAMILY PEDIGREES.
-- RECOGNIZE HOW SEX IS CONTROLLED BY CHROMOSOMES (XX IN FEMALES AND XY IN MALES).
-- DESCRIBE OFFSPRING'S SEX DETERMINATION AT FERTILIZATION USING GENETIC DIAGRAMS.
-- DEFINE TERMS LIKE DOMINANT, RECESSIVE, HOMOZYGOUS, HETEROZYGOUS, PHENOTYPE, GENOTYPE, AND MONOHYBRID INHERITANCE PATTERNS.
-- PREDICT OUTCOMES FROM MONOHYBRID CROSSES.
-- RECOGNIZE THAT MOST PHENOTYPIC FEATURES RESULT FROM POLYGENIC INHERITANCE.
-
-## GREGOR MENDEL: THE FATHER OF GENETICS
-GREGOR MENDEL WAS A MONK IN BRNO, CZECH REPUBLIC, WHO STUDIED HEREDITY THROUGH PEA PLANT BREEDING EXPERIMENTS.
-
-### MENDEL'S DISCOVERIES
-MENDEL IDENTIFIED KEY PRINCIPLES:
-- A HERITABLE UNIT (GENE) PASSES FROM GENERATION TO GENERATION.
-- GENES CAN EXIST IN ALTERNATIVE FORMS (ALLELES).
-- EACH INDIVIDUAL HAS TWO ALLELES PER FEATURE.
-- GAMETES CONTAIN ONE ALLELE PER FEATURE.
-- ONE ALLELE MAY DOMINATE OVER ANOTHER.
-
-MENDEL USED THESE IDEAS TO PREDICT CROSS-BREEDING OUTCOMES, PUBLISHING HIS FINDINGS IN 1865. HIS WORK WAS LATER REDISCOVERED IN 1900, LEADING TO THE CONNECTION BETWEEN GENES AND CHROMOSOMES, FOUNDING GENETICS AS A FIELD.
-
-## REDISCOVERY OF MENDEL'S WORK
-IN 1903, SCIENTISTS REALIZED MENDEL'S WORK LAID THE GROUNDWORK FOR UNDERSTANDING INHERITANCE THROUGH GENES AND CHROMOSOMES, ESTABLISHING GENETICS AS A SCIENTIFIC DISCIPLINE.
-
-# VARIATION AND SELECTION: MENDEL'S EXPERIMENTS ON INHERITANCE
-
-## KEY POINT
-MENDEL INITIALLY USED ONLY PLANTS THAT HAD "BRED TRUE" FOR SEVERAL GENERATIONS. FOR EXAMPLE, ANY TALL PEA PLANTS HE USED CAME FROM GENERATIONS OF PEA PLANTS THAT WERE ALL TALL.
-
-## GENES AND INHERITANCE
-MENDEL OBSERVED THAT MANY FEATURES OF PEA PLANTS HAD TWO DISTINCT FORMS. THESE INCLUDED TRAITS SUCH AS HEIGHT (TALL OR DWARF), FLOWER COLOR (PURPLE OR WHITE), AND SEED COLOR (YELLOW OR GREEN). NOTABLY, THERE WERE NO INTERMEDIATE FORMS; EACH TRAIT WAS DISTINCTLY EXPRESSED IN TWO CONTRASTING FORMS.
-
-## CONTRASTING FEATURES OF PEA PLANTS
-MENDEL USED SEVERAL CONTRASTING FEATURES IN HIS BREEDING EXPERIMENTS. THESE INCLUDED:
-- SEED SHAPE: ROUND VS. WRINKLED
-- SEED COLOR: YELLOW VS. GREEN
-- FLOWER COLOR: PURPLE VS. WHITE
-- POD SHAPE: INFLATED VS. CONSTRICTED
-- POD COLOR: GREEN VS. YELLOW
-- STEM LENGTH: TALL VS. DWARF
-
-## METHODOLOGY
-MENDEL SYSTEMATICALLY INVESTIGATED THE RESULTS OF CROSS-BREEDING BY TRANSFERRING POLLEN FROM ONE EXPERIMENTAL PLANT TO ANOTHER, ENSURING THAT THE PLANTS COULD NOT SELF-FERTILIZE. HE COLLECTED ALL THE SEEDS FORMED, GREW THEM, AND NOTED THE FEATURES THAT EACH PLANT DEVELOPED.
-
-THE FIRST GENERATION OF OFFSPRING FROM THESE EXPERIMENTS IS REFERRED TO AS THE F1 GENERATION. MENDEL DID NOT CROSS-POLLINATE THESE F1 PLANTS; INSTEAD, HE ALLOWED THEM TO SELF-FERTILIZE. HE THEN COLLECTED THE SEEDS FROM THIS GENERATION, GREW THEM, AND NOTED THE FEATURES OF THE RESULTING PLANTS, WHICH FORMED THE SECOND GENERATION OF OFFSPRING, KNOWN AS THE F2 GENERATION.
-
-WHEN MENDEL USED PURE-BREEDING TALL AND PURE-BREEDING DWARF PLANTS AS HIS PARENTS, HE OBTAINED SPECIFIC RESULTS THAT ILLUSTRATED THE PRINCIPLES OF INHERITANCE.
-
-THROUGH THESE EXPERIMENTS, MENDEL LAID THE GROUNDWORK FOR THE FIELD OF GENETICS, DEMONSTRATING HOW TRAITS ARE INHERITED FROM ONE GENERATION TO THE NEXT. HIS WORK SHOWED HOW VARIATION AND SELECTION PLAY ROLES IN THE INHERITANCE OF TRAITS.
-
-# VARIATION AND SELECTION: GENES AND INHERITANCE
-
-## MENDEL'S EXPERIMENTS WITH PEA PLANTS
-
-IN THE 19TH CENTURY, GREGOR MENDEL CONDUCTED GROUNDBREAKING EXPERIMENTS WITH PEA PLANTS THAT LAID THE FOUNDATION FOR OUR UNDERSTANDING OF GENETICS. HIS WORK REVEALED IMPORTANT PRINCIPLES OF INHERITANCE.
-
-### KEY OBSERVATIONS FROM MENDEL'S BREEDING EXPERIMENTS
-
-1. **UNIFORMITY IN THE F1 GENERATION**:
-   WHEN MENDEL CROSSED A TALL PARENT PLANT WITH A DWARF PARENT PLANT, ALL OFFSPRING (F1 GENERATION) WERE TALL, INDICATING THAT THE TALL TRAIT WAS DOMINANT OVER THE DWARF TRAIT.
-
-2. **SEGREGATION IN THE F2 GENERATION**:
-   SELF-POLLINATING THE TALL F1 PLANTS RESULTED IN A 3:1 RATIO IN THE F2 GENERATION, WITH THREE-QUARTERS DISPLAYING THE DOMINANT TRAIT AND ONE-QUARTER SHOWING THE RECESSIVE TRAIT.
-
-### SUMMARY OF MENDEL'S RESULTS
-
-- **F1 GENERATION**: ALL PLANTS EXHIBITED THE DOMINANT TRAIT (TALL).
-- **F2 GENERATION**: A CONSISTENT 3:1 RATIO WAS OBSERVED, WITH THREE-QUARTERS DISPLAYING THE DOMINANT TRAIT AND ONE-QUARTER SHOWING THE RECESSIVE TRAIT.
-
-### CONCLUSION
-
-MENDEL'S FINDINGS DEMONSTRATED PREDICTABLE INHERITANCE PATTERNS, EVEN WITHOUT KNOWLEDGE OF CHROMOSOMES, GENES, OR MEIOSIS. HIS WORK REMAINS A CORNERSTONE OF GENETICS, INFLUENCING OUR UNDERSTANDING OF HEREDITY AND VARIATION IN LIVING ORGANISMS.
-
-## FIGURES
-
-- **FIGURE 18.3**: SUMMARY OF MENDEL'S RESULTS FROM BREEDING TALL PEA PLANTS WITH DWARF PEA PLANTS.
-- **FIGURE 18.4**: ADDITIONAL EXPERIMENTS WITH CONTRASTING TRAITS.
-
-# VARIATION AND SELECTION: EXPLAINING MENDEL'S RESULTS
-
-## GENES AND INHERITANCE
-
-EACH FEATURE IN AN ORGANISM IS CONTROLLED BY A GENE LOCATED ON A CHROMOSOME. IN BODY CELLS, THERE ARE TWO COPIES OF EACH CHROMOSOME AND GENE, EXCEPT IN GAMETES (SEX CELLS), WHICH CONTAIN ONLY ONE COPY OF EACH CHROMOSOME AND GENE (ONE ALLELE).
-
-### KEY CONCEPTS:
-- **ALLELES**: THERE ARE TWO ALLELES FOR EACH GENE: ONE DOMINANT AND ONE RECESSIVE.
-- **DOMINANCE**: WHEN BOTH ALLELES ARE PRESENT IN A CELL, ONLY THE DOMINANT ALLELE IS EXPRESSED IN THE ORGANISM'S APPEARANCE (PHENOTYPE).
-- **GENOTYPE VS. PHENOTYPE**:
-  - **GENOTYPE**: THE ALLELES PRESENT IN AN ORGANISM (E.G., TT, TT, OR TT).
-  - **PHENOTYPE**: THE OBSERVABLE CHARACTERISTICS RESULTING FROM THE GENOTYPE (E.G., TALL OR DWARF PLANTS).
-
-## EXAMPLE: PEA PLANTS
-
-IN PEA PLANTS, THE GENE FOR HEIGHT HAS TWO ALLELES: TALL (T) AND DWARF (T). TALL (T) IS DOMINANT OVER DWARF (T).
-
-### PURE BREEDING PARENTS
-- THE TALL PARENT HAS THE GENOTYPE TT (HOMOZYGOUS FOR TALLNESS).
-- THE DWARF PARENT HAS THE GENOTYPE TT (HOMOZYGOUS FOR DWARFNESS).
-
-## GAMETES FORMATION
-GAMETES ARE FORMED THROUGH MEIOSIS, RESULTING IN SEX CELLS THAT CARRY ONLY ONE ALLELE EACH:
-- THE TALL PARENT PRODUCES GAMETES WITH THE T ALLELE.
-- THE DWARF PARENT PRODUCES GAMETES WITH THE T ALLELE.
-
-## F1 GENERATION
-WHEN THE TALL AND DWARF PLANTS ARE CROSSED:
-- THE F1 GENERATION CONSISTS OF ALL TT (HETEROZYGOUS) PLANTS, WHICH ARE ALL TALL DUE TO THE DOMINANCE OF THE TALL ALLELE.
-
-## SELF-FERTILIZATION OF F1 PLANTS
-WHEN F1 PLANTS SELF-FERTILIZE, THE GAMETES PRODUCED WILL BE:
-- HALF CARRYING THE T ALLELE AND HALF CARRYING THE T ALLELE.
-
-## F2 GENERATION
-USING A PUNNETT SQUARE TO PREDICT THE GENOTYPES OF THE F2 GENERATION:
-- THE POSSIBLE COMBINATIONS FROM THE GAMETES ARE TT, TT, AND TT.
-- THE RESULTING GENOTYPIC RATIO FROM THE PUNNETT SQUARE IS 1 TT : 2 TT : 1 TT.
-
-## PHENOTYPIC RATIO
-THE PHENOTYPIC RATIO OF THE F2 GENERATION IS:
-- 3 TALL : 1 DWARF
-
-THIS UNDERSTANDING OF INHERITANCE PATTERNS LAID THE FOUNDATION FOR MODERN GENETICS AND HELPS EXPLAIN THE VARIATION OBSERVED IN LIVING ORGANISMS.
-
-# VARIATION AND SELECTION: GENES AND INHERITANCE
-
-## KEY POINTS
-IN GENETIC CROSSES, PREDICTED RATIOS LIKE 3:1 MAY NOT ALWAYS MATCH ACTUAL OFFSPRING NUMBERS DUE TO VARIOUS FACTORS AFFECTING SURVIVAL. FOR EXAMPLE, IN MENDEL'S EXPERIMENTS, HE PRODUCED 787 TALL PLANTS AND 277 DWARF PLANTS, RESULTING IN A RATIO OF APPROXIMATELY 2.84:1, WHICH IS CLOSE TO THE EXPECTED 3:1 RATIO.
-
-## MENDEL'S EXPERIMENTS
-MENDEL'S EXPERIMENTS FOCUSED ON SINGLE GENES, SUCH AS THE GENE FOR HEIGHT OR FLOWER COLOR. THIS TYPE OF INHERITANCE PATTERN IS KNOWN AS MONOHYBRID INHERITANCE. WHILE GENETIC DIAGRAMS INVOLVING MULTIPLE GENES CAN BE ANALYZED, FOR INTERNATIONAL GCSE, YOU ONLY NEED TO INTERPRET MONOHYBRID CROSSES.
-
-### UNDERSTANDING RATIOS
-THE LIKELIHOOD OF GETTING A SPECIFIC OUTCOME IN A SERIES OF INDEPENDENT EVENTS, SUCH AS FLIPPING A COIN 20 TIMES, FOLLOWS THE PRINCIPLE OF THE BELL CURVE. THE MOST PROBABLE OUTCOME IS AN EQUAL SPLIT, BUT VARIATIONS CAN OCCUR. THIS SAME PRINCIPLE APPLIES TO BREEDING EXPERIMENTS, WHERE CHANCE EVENTS CAN LEAD TO UNEXPECTED OUTCOMES.
-
-## WORKING OUT GENOTYPES
-THE GENOTYPE OF A TALL PEA PLANT (EITHER HOMOZYGOUS TT OR HETEROZYGOUS TT) CANNOT BE DETERMINED SOLELY BY ITS APPEARANCE SINCE BOTH GENOTYPES EXHIBIT THE DOMINANT TALL PHENOTYPE. TO IDENTIFY THE GENOTYPE, A BREEDING EXPERIMENT KNOWN AS A TEST CROSS IS CONDUCTED.
-
-### THE TEST CROSS
-A TEST CROSS INVOLVES BREEDING AN ORGANISM WITH AN UNKNOWN GENOTYPE (DISPLAYING THE DOMINANT PHENOTYPE) WITH ONE THAT SHOWS THE RECESSIVE PHENOTYPE. FOR EXAMPLE, A TALL PEA PLANT COULD HAVE THE GENOTYPE TT OR TT. TO DETERMINE THIS, IT IS BRED WITH A DWARF PEA PLANT (GENOTYPE TT).
-
-#### TEST CROSS PROCEDURE
-1. **GENOTYPES OF PARENTS**:
-   - UNKNOWN TALL PLANT: TT OR TT
-   - DWARF PLANT: TT
-
-2. **GAMETES**:
-   - THE TALL PLANT CAN PRODUCE GAMETES: T OR T
-   - THE DWARF PLANT PRODUCES ONLY T GAMETES.
-
-3. **GENOTYPES OF F1 OFFSPRING**:
-   - IF THE TALL PARENT IS TT: ALL OFFSPRING WILL BE TT (TALL).
-   - IF THE TALL PARENT IS TT: OFFSPRING WILL BE 50% TT (TALL) AND 50% TT (DWARF).
-
-4. **PHENOTYPES OF F1**:
-   - ALL OFFSPRING WILL BE TALL IF THE TALL PARENT IS HOMOZYGOUS (TT).
-   - HALF OF THE OFFSPRING WILL BE TALL, AND HALF WILL BE DWARF IF THE TALL PARENT IS HETEROZYGOUS (TT).
-
-### CONCLUSION
-BY COMPARING THE RESULTS OF THE BREEDING EXPERIMENT WITH THE PREDICTED OUTCOMES, YOU CAN DETERMINE THE GENOTYPE OF THE UNKNOWN TALL PLANT. THIS METHOD HELPS IN UNDERSTANDING INHERITANCE PATTERNS AND THE GENETIC MAKEUP OF ORGANISMS.
-
 # GENES AND INHERITANCE
 
-## WAYS OF PRESENTING GENETIC INFORMATION
+How and why do we inherit features from our parents? This chapter answers these questions by looking at the work of Gregor Mendel and how he has helped us to understand the mysteries of inheritance.
 
-UNDERSTANDING GENETIC INHERITANCE OFTEN INVOLVES VISUAL METHODS SUCH AS GENETIC CROSSES AND FAMILY TREES KNOWN AS PEDIGREES. THESE TOOLS PROVIDE INSIGHTS INTO HOW TRAITS ARE PASSED FROM ONE GENERATION TO THE NEXT.
+## LEARNING OBJECTIVES
 
-### EXAMPLE: POLYDACTYLY
+- Understand that genes exist in alternative forms called alleles which give rise to differences in inherited characteristics
+- Understand the meaning of the terms dominant, recessive, homozygous, heterozygous, phenotype and genotype
+- Describe patterns of monohybrid inheritance using genetic diagrams
+- Predict probabilities of outcomes from monohybrid crosses
+- Understand how to interpret family pedigrees
+- Understand how the sex of a person is controlled by one pair of chromosomes, XX in a female and XY in a male
+- Describe the determination of the sex of offspring at fertilisation, using a genetic diagram
+- Understand that most phenotypic features are the result of polygenic inheritance rather than single genes
 
-POLYDACTYLY IS A CONDITION WHERE AN INDIVIDUAL HAS AN EXTRA DIGIT, TYPICALLY ON THE HANDS OR FEET. THIS TRAIT IS CONTROLLED BY A DOMINANT ALLELE (D) AND A RECESSIVE ALLELE (D). THE PRESENCE OF AT LEAST ONE DOMINANT ALLELE RESULTS IN POLYDACTYLY, WHILE THE RECESSIVE ALLELE (DD) LEADS TO THE NORMAL NUMBER OF DIGITS.
+The groundbreaking research that uncovered the rules of how genes are inherited was carried out by Gregor Mendel and published in 1865. The rules of inheritance are now known as 'Mendelian genetics' in his honour.
 
-- **GENOTYPES AND PHENOTYPES**:
-  - **DD**: EXHIBITS POLYDACTYLY.
-  - **DD**: ALSO EXHIBITS POLYDACTYLY DUE TO THE DOMINANT ALLELE.
-  - **DD**: SHOWS NO EXTRA DIGITS, INDICATING THE RECESSIVE TRAIT.
+## GREGOR MENDEL
 
-### PEDIGREE ANALYSIS
+Gregor Mendel was a monk who lived in a monastery in Brno in what is now the Czech Republic (Figure 18.1). He became interested in the science of heredity, and carried out hundreds of breeding experiments using pea plants. From his research Mendel was able to explain the laws governing inheritance.
 
-A PEDIGREE DIAGRAM ILLUSTRATES A FAMILY'S GENETIC HISTORY. IN FIGURE 18.6, FOUR GENERATIONS ARE SHOWN:
+Mendel found that for every feature or 'character' he investigated:
 
-- INDIVIDUALS 1 AND 2 (PARENTS) HAVE POLYDACTYLY.
-- THEIR CHILDREN (4, 5, 6) INCLUDE BOTH AFFECTED AND UNAFFECTED CASES.
-- INDIVIDUALS 3 AND 7 ARE UNRELATED TO THE MAIN FAMILY TREE.
-- THE CONNECTION BETWEEN INDIVIDUALS 3 AND 4 INDICATES THEY SHARE THE SAME OFFSPRING AS INDIVIDUALS 1 AND 2.
+- a 'heritable unit' (what we now call a gene) is passed from one generation to the next
+- the heritable unit (gene) can have alternative forms (we now call these different forms alleles)
+- each individual must have two alternative forms (alleles) per feature
+- the gametes only have one of the alternative forms (allele) per feature
+- one allele can be dominant over the other.
 
-FROM THIS ANALYSIS, IT IS OBSERVED THAT BOTH PARENTS HAVE THE TRAIT, WHILE SOME CHILDREN DO NOT. THIS PATTERN SUGGESTS THAT THE DOMINANT ALLELE (D) IS PRESENT AND DETERMINES THE TRAIT EXPRESSION.
+Mendel used these ideas to predict outcomes of cross-breeding or 'crosses' between plants, which he tested in his breeding experiments. He published his results and ideas in 1865 but few people took any notice, and his work went unrecognised for many years. It wasn't until 1900 that other biologists working on inheritance rediscovered Mendel's work and realised its importance. In 1903, the connection between the behaviour of genes in Mendelian genetics and the behaviour of chromosomes in meiosis was noticed and the science of genetics was established.
+---
+## VARIATION AND SELECTION
 
-### DETERMINING DOMINANCE
+### MENDEL'S EXPERIMENTS ON INHERITANCE
 
-THE DOMINANCE OF THE POLYDACTYLY ALLELE IS EVIDENT FROM THE PEDIGREE DATA. SINCE BOTH PARENTS WITH THE TRAIT PRODUCED AFFECTED AND UNAFFECTED OFFSPRING, THE PRESENCE OF AT LEAST ONE DOMINANT ALLELE (D) LEADS TO THE PHENOTYPE. THIS OBSERVATION SUPPORTS THE CONCLUSION THAT D IS DOMINANT OVER D.
+Mendel noticed that many of the features of pea plants had two alternative forms. For example, plants were either tall or very short (called a 'dwarf' variety); they either had purple or white flowers; they produced yellow seeds or green seeds. There were no intermediate forms, no pale purple flowers or green/yellow seeds or intermediate height plants. Figure 18.2 shows some of the contrasting features of pea plants that Mendel used in his breeding experiments.
 
-BY EXAMINING SUCH PEDIGREES, GENETICISTS CAN DEDUCE INHERITANCE PATTERNS AND PREDICT TRAIT TRANSMISSION PROBABILITIES ACROSS GENERATIONS.
+| Feature      | Option 1 | Option 2   |
+|--------------|----------|------------|
+| seed shape   | round    | wrinkled   |
+| seed colour  | yellow   | green      |
+| flower colour| purple   | white      |
+| pod shape    | inflated | constricted|
+| pod colour   | green    | yellow     |
+| stem length  | tall     | dwarf      |
 
-# VARIATION AND SELECTION: GENES AND INHERITANCE
+Figure 18.2 Some features of pea plants used by Mendel in his breeding experiments.
 
-## UNDERSTANDING POLYDACTYLY
+### KEY POINT
 
-POLYDACTYLY IS A GENETIC CONDITION CHARACTERIZED BY THE PRESENCE OF EXTRA FINGERS OR TOES. THIS SECTION EXAMINES THE INHERITANCE PATTERNS OF POLYDACTYLY THROUGH PEDIGREE ANALYSIS.
+In his breeding experiments, Mendel initially used only plants that had 'bred true' for several generations. For example, any tall pea plants he used came from generations of pea plants that had all been tall.
 
-### DOMINANT AND RECESSIVE ALLELES
+Mendel decided to investigate, systematically, the results of cross breeding plants that had contrasting features. These were the 'parent plants', referred to as 'P' in genetic diagrams. He transferred pollen from one experimental plant to another. He also made sure that the plants could not be self-fertilised.
 
-IN OUR ANALYSIS, WE DETERMINED THAT THE ALLELE FOR POLYDACTYLY (D) IS DOMINANT OVER THE NORMAL ALLELE (D). CONSEQUENTLY:
+He collected all the seeds formed, grew them and noted the features that each plant developed. These plants were the first generation of offspring, called the F₁ generation. He did not cross-pollinate these plants, but allowed them to self-fertilise. Again, he collected the seeds, grew them and noted the features that each plant developed. These plants formed the second generation of offspring or F₂ generation. When Mendel used pure-breeding tall and pure-breeding dwarf plants as his parents, he obtained the results shown in Figure 18.3.
+---
+# VARIATION AND SELECTION GENES AND INHERITANCE 213
 
-- INDIVIDUALS WITH GENOTYPES **DD** OR **DD** EXHIBIT POLYDACTYLY.
-- THOSE WITH GENOTYPE **DD** HAVE A NORMAL NUMBER OF DIGITS.
+P
 
-### ANALYZING THE PEDIGREE
+tall parent dwarf parent
 
-THE INHERITANCE OF POLYDACTYLY CAN BE VISUALIZED THROUGH PEDIGREE CHARTS. KEY OBSERVATIONS INCLUDE:
+↓
 
-1. **GENOTYPE IDENTIFICATION**: 
-   - INDIVIDUALS WITH A NORMAL DIGIT COUNT MUST HAVE THE GENOTYPE **DD**.
-   - THOSE EXHIBITING POLYDACTYLY LIKELY HAVE AT LEAST ONE DOMINANT ALLELE, MAKING THEM EITHER **DD** OR **DD**.
+F₁
 
-2. **HETEROZYGOSITY INFERENCE**:
-   - A PERSON WITH POLYDACTYLY WHO HAS CHILDREN WITH NORMAL DIGITS MUST BE HETEROZYGOUS (**DD**), AS THEY PASS A RECESSIVE ALLELE (D) TO THEIR OFFSPRING.
-   - SIMILARLY, IF ONE PARENT WITH POLYDACTYLY HAS A PARENT WITH NORMAL DIGITS, THE CHILD MUST INHERIT A RECESSIVE ALLELE, IMPLYING THE PARENT IS HETEROZYGOUS.
+all tall plants
 
-### GENOTYPE ASSIGNMENTS
+↓
 
-FROM OUR ANALYSIS, SEVERAL INDIVIDUALS IN THE PEDIGREE CAN BE ASSIGNED GENOTYPES:
+F₂
 
-- INDIVIDUALS 1, 2, 3, 16, 17, AND 18 ARE HETEROZYGOUS (**DD**).
-- THOSE WITH NORMAL DIGITS ARE HOMOZYGOUS RECESSIVE (**DD**).
+tall plant tall plant tall plant dwarf plant
 
-### PEDIGREE DIAGRAM
+3 tall : 1 dwarf
 
-FIGURE 18.7 ILLUSTRATES THE INHERITANCE PATTERN IN THE FAMILY, SHOWING GENOTYPES:
+▲ Figure 18.3 A summary of Mendel's results from breeding tall pea plants with dwarf pea plants.
 
-```
-DD (MALE WITH POLYDACTYLY)
-|
-|
-DD (FEMALE WITH POLYDACTYLY)  DD (MALE WITH NORMAL NUMBER OF DIGITS)
-|
-DD (FEMALE WITH NORMAL NUMBER OF DIGITS)
-```
+Mendel obtained similar results when he carried out breeding experiments using plants with other pairs of contrasting characters (Figure 18.4). He noticed two things in particular.
 
-### UNCERTAINTY IN GENOTYPES
+■ All the plants of the F₁ generation were of one type. This type was not a blend of the two parental features, but one or the other. For example, when tall and dwarf parents were crossed, all the F₁ plants were tall.
 
-INDIVIDUALS 5, 8, AND 12 REMAIN UNCERTAIN. THEY COULD BE EITHER HOMOZYGOUS (**DD**) OR HETEROZYGOUS (**DD**).
+■ There was always a 3:1 ratio of types in the F₂ generation. Three-quarters of the plants in the F₂ generation were of the type that appeared in the F₁ generation. One-quarter showed the other parental feature. For example, when tall F₁ plants were crossed, three-quarters of the F₂ plants were tall and one-quarter were dwarf.
 
-### GENETIC CROSS OUTCOMES
+Mendel was able to use his findings to work out how features were inherited, despite having no knowledge of chromosomes, genes or meiosis. Nowadays we can use our understanding of these ideas to explain Mendel's results.
+---
+## VARIATION AND SELECTION
 
-EXAMINING A CROSS BETWEEN TWO HETEROZYGOUS PARENTS (DD X DD) YIELDS THE FOLLOWING POSSIBLE OFFSPRING GENOTYPES:
+### EXPLAINING MENDEL'S RESULTS
 
-- **DD**, **DD**, **DD**, AND **DD**
+- Each feature is controlled by a gene, which is found on a chromosome.
+- There are two copies of each chromosome and each gene in all body cells, except the gametes.
+- The gametes have only one copy of each chromosome and each gene (i.e. one allele).
+- There are two alleles of each gene.
+- One allele is dominant over the other allele, which is recessive.
+- When two different alleles (one dominant and one recessive) are in the same cell, only the dominant allele is expressed (shown in the appearance of the organism).
+- An individual can have two dominant alleles, two recessive alleles or a dominant allele and a recessive allele in each cell.
 
-THIS GENETIC CROSS DEMONSTRATES THE POTENTIAL OUTCOMES OF ALLELE TRANSMISSION IN POLYDACTYLY INHERITANCE.
+### KEY POINT
 
-THROUGH THIS ANALYSIS, WE CAN MAP HOW POLYDACTYLY IS INHERITED WITHIN FAMILIES USING PEDIGREE CHARTS. UNDERSTANDING THESE PRINCIPLES AIDS IN STUDYING GENETIC TRAITS.
+Normally, we use the first letter of the dominant feature to represent the gene, with a capital letter indicating the dominant allele and a lower case letter the recessive allele. Tall is dominant to dwarf in pea plants, so we use T for the allele for tall and t for dwarf.
 
-# VARIATION AND SELECTION: GENES AND INHERITANCE
+We can use the cross between tall and dwarf pea plants as an example (Figure 18.4). In pea plants, there are tall and dwarf alleles of the gene for height. We will use the symbol T for the tall allele and t for the dwarf allele. The term genotype describes the alleles each cell has for a certain feature (e.g. TT). The phenotype is the feature that results from the genotype (e.g. a tall plant).
 
-## SEX DETERMINATION
+| phenotype of parents | tall | dwarf |
+|----------------------|------|-------|
+| genotype of parents  | TT   | tt    |
 
-OUR SEX IS DETERMINED BY A COMBINATION OF X AND Y CHROMOSOMES, KNOWN AS SEX CHROMOSOMES. FEMALES HAVE TWO X CHROMOSOMES IN MOST CELLS (EXCEPT EGG CELLS), WHILE MALES HAVE ONE X AND ONE Y CHROMOSOME (EXCEPT IN SPERM CELLS). THE PRESENCE OR ABSENCE OF THE Y CHROMOSOME EFFECTIVELY DETERMINES WHETHER A ZYGOTE DEVELOPS INTO MALE OR FEMALE.
+Both parents are pure breeding. The tall parent has two alleles for tallness in each cell. The dwarf parent has two alleles for dwarfness in each cell. Because each has two copies of just one allele, we say that they are homozygous for the height gene.
 
-### DID YOU KNOW?
-THE INHERITANCE PATTERN OF SEX IS NOT ALWAYS CONSISTENT WITHIN FAMILIES. WHILE THE PREDICTED RATIO OF MALE TO FEMALE BIRTHS IS APPROXIMATELY 1:1, THIS MAY VARY DEPENDING ON THE POPULATION SIZE AND OTHER FACTORS. THE Y CHROMOSOME INFLUENCES THE DEVELOPMENT OF MALE TRAITS, BUT IT IS NOT CONSIDERED DOMINANT IN THE TRADITIONAL SENSE.
+### KEY POINT
 
-## POLYGENIC INHERITANCE
+It is the accepted practice in genetics diagrams to show the gene present in a gamete as a letter in a circle.
 
-MOST GENETIC CROSSES DISCUSSED INVOLVE SINGLE GENES FOR SIMPLICITY. HOWEVER, MANY CHARACTERISTICS ARE CONTROLLED BY MULTIPLE GENES WORKING TOGETHER, A PHENOMENON KNOWN AS POLYGENIC INHERITANCE.
+| gametes (sex cells) | T | t |
+|---------------------|---|---|
 
-### DID YOU KNOW?
-FOR EXAMPLE, HUMAN SKIN COLOR IS INFLUENCED BY SEVERAL GENES THAT REGULATE MELANIN PRODUCTION. EACH GENE HAS ALLELES THAT EITHER PROMOTE OR INHIBIT MELANIN PRODUCTION, RESULTING IN A WIDE RANGE OF SKIN COLOR PHENOTYPES. SIMILAR COMPLEXITIES EXIST FOR TRAITS LIKE HEIGHT AND BODY MASS.
+The sex cells are formed by meiosis. As a result, they only have one allele each.
 
-UNDERSTANDING THESE CONCEPTS IS FUNDAMENTAL TO GRASPING GENETIC PRINCIPLES AND HOW TRAITS ARE PASSED FROM GENERATION TO GENERATION.
+genotype of F₁: Tt
 
-# VARIATION AND SELECTION: GENES AND INHERITANCE
+phenotype of F₁: all tall
 
-## CHAPTER QUESTIONS
-- MORE QUESTIONS ON CHROMOSOMES, GENES, AND INHERITANCE CAN BE FOUND AT THE END OF UNIT 5 ON PAGE 234.
+The F₁ plants have one tall allele and one dwarf allele. We say that they are heterozygous for the height gene. The plants are tall because the tall allele is dominant.
 
-## SKILLS: CRITICAL THINKING
-WHICH OF THE FOLLOWING IS TRUE OF DOMINANT ALLELES?
-- A) THEY ARE ONLY EXPRESSED IF PRESENT AS A PAIR.
-- B) THEY DETERMINE THE MOST FAVORABLE OF A PAIR OF ALTERNATIVE FEATURES.
-- C) THEY ARE INHERITED IN PREFERENCE TO RECESSIVE ALLELES.
-- D) A DOMINANT ALLELE IS EXPRESSED IF PRESENT WITH A RECESSIVE ALLELE.
+The F₁ plants are allowed to self-fertilise.
 
-## SKILLS: PROBLEM SOLVING
-IN PEA PLANTS, THE ALLELE FOR PURPLE PETALS IS DOMINANT TO THE ALLELE FOR WHITE PETALS. A PLANT HETEROZYGOUS FOR PETAL COLOR WAS CROSSED WITH A PLANT WITH WHITE PETALS. WHAT WOULD BE THE RATIO OF GENOTYPES IN THE OFFSPRING?
-- A) 1:1
-- B) 2:1
-- C) 1:0
-- D) 3:1
+gametes from the F₁ plants: male gametes (T or t), female gametes (T or t)
 
-THE ALLELE FOR YELLOW COAT COLOR IN MICE IS DOMINANT TO THE ALLELE FOR NON-YELLOW COAT COLOR (Y):
-- MICE WITH THE GENOTYPE **YY** HAVE NON-YELLOW COATS.
-- MICE WITH THE GENOTYPE **YY** HAVE YELLOW COATS.
-- MICE WITH THE GENOTYPE **YY** DIE AS EMBRYOS.
+The sex cells are formed by meiosis and so only have one allele. Because the F₁ plants are heterozygous, half of the gametes carry the T allele and half carry the t allele.
 
-TWO HETEROZYGOUS MICE WERE CROSSED. WHAT IS THE PROBABILITY THAT A SURVIVING MOUSE IN THE F1 GENERATION WILL BE YELLOW?
-- A) 0.00
-- B) 0.25
-- C) 0.50
-- D) 0.67
+genotypes of F₂:
 
-## PREDICTING RATIOS OF OFFSPRING FROM CROSSES BETWEEN TALL/DWARF PEA PLANTS
-1. **TT X TT**: ALL OFFSPRING ARE HOMOZYGOUS DOMINANT (TT).
-2. **TT X TT**: HALF THE OFFSPRING ARE HETEROZYGOUS (TT), AND HALF REMAIN HOMOZYGOUS DOMINANT (TT).
-3. **TT X TT**: ALL OFFSPRING ARE HETEROZYGOUS (TT).
-4. **TT X TT**: THE RATIO OF GENOTYPES IS 25% TT, 50% TT, AND 25% TT.
-5. **TT X TT**: HALF THE OFFSPRING ARE HOMOZYGOUS DOMINANT (TT), AND HALF ARE HETEROZYGOUS (TT).
-6. **TT X TT**: ALL OFFSPRING REMAIN HOMOZYGOUS RECESSIVE (TT).
+| | T | t |
+|-|---|---|
+|T| TT| Tt|
+|t| Tt| tt|
 
-## CRITICAL THINKING IN CATTLE
-IN CATTLE, A PAIR OF ALLELES CONTROLS COAT COLOR: THE ALLELE FOR BLACK COAT COLOR IS DOMINANT OVER THE ALLELE FOR RED COAT COLOR. THE GENETIC DIAGRAM REPRESENTS A CROSS BETWEEN A PURE-BREEDING BLACK BULL AND A PURE-BREEDING RED COW.
+The diagram opposite is called a Punnett square. It allows you to work out the results from a genetic cross. Write the genotypes of one set of sex cells across the top of the square and those of the other sex cells down the side. Then combine the alleles in the two sets of gametes; the squares represent the possible fertilisations.
 
-- **B** = DOMINANT ALLELE FOR BLACK COAT COLOR.
-- **B** = RECESSIVE ALLELE FOR RED COAT COLOR.
+1 TT : 2 Tt : 1 tt
 
-### GENOTYPES OF PURE-BREEDING PARENTS
-- BLACK BULL: **BB**
-- RED COW: **BB**
+You can now work out the ratio of the different genotypes.
 
-### TERMS:
-- A **DOMINANT ALLELE** IS ONE THAT IS EXPRESSED WHEN PRESENT IN A SINGLE COPY.
-- A **RECESSIVE ALLELE** IS ONLY EXPRESSED WHEN BOTH COPIES ARE PRESENT.
+phenotypes of F₂: 3 tall : 1 dwarf
 
-THIS STRUCTURED LAYOUT PROVIDES A CLEAR UNDERSTANDING OF THE CONCEPTS OF VARIATION, SELECTION, GENES, AND INHERITANCE WHILE ENGAGING STUDENTS WITH CRITICAL THINKING AND PROBLEM-SOLVING EXERCISES.
-
-# VARIATION AND SELECTION: GENES AND INHERITANCE
-
-## UNDERSTANDING GENOTYPES AND GAMETES
-
-### KEY QUESTIONS:
-- WHAT ARE THE GENOTYPES OF THE GAMETES OF EACH PARENT?
-- WHAT IS THE GENOTYPE OF THE OFFSPRING?
-
-### EXAMPLE SCENARIO:
-COWS WITH THE SAME GENOTYPE AS THE OFFSPRING WERE BRED WITH BULLS THAT HAVE THE SAME GENOTYPE. WHAT GENETIC TERM DESCRIBES THIS GENOTYPE?
-
-## PROBLEM-SOLVING ACTIVITY:
-DRAW A GENETIC DIAGRAM TO DETERMINE THE RATIOS OF:
-- THE GENOTYPES OF THE OFFSPRING
-- THE PHENOTYPES OF THE OFFSPRING
-
-## FLOWER COLOUR IN NASTURTIUMS:
-IN NASTURTIUMS, A SINGLE PAIR OF ALLELES CONTROLS FLOWER COLOUR. THE ALLELE FOR RED FLOWER COLOUR (R) IS DOMINANT OVER THE ALLELE FOR YELLOW FLOWER COLOUR (R).
-
-### GENETIC CROSS EXAMPLE:
-THE DIAGRAM BELOW REPRESENTS THE RESULTS OF A CROSS BETWEEN A PURE-BREEDING RED-FLOWERED NASTURTIUM (RR) AND A PURE-BREEDING YELLOW-FLOWERED NASTURTIUM (RR).
-
-#### PARENT PHENOTYPES:
-- RED
-- YELLOW
-
-#### PARENT GENOTYPES:
-- FEMALE: RR (RED)
-- MALE: RR (YELLOW)
-
-### GAMETES:
-- FEMALE GAMETES: R
-- MALE GAMETES: R
-
-### F1 GENERATION:
-- GENOTYPES OF F1: ALL RR (RED FLOWERS)
-
-### F2 GENERATION:
-TO FIND THE GENOTYPES OF THE F2 GENERATION, COMPLETE THE GENETIC DIAGRAM BELOW:
-
-| GAMETES         | R (FROM FEMALE) | R (FROM FEMALE) |
-|------------------|------------------|------------------|
-| R (FROM MALE)    | RR (RED)         | RR (RED)         |
-| R (FROM MALE)    | RR (RED)         | RR (RED)         |
-
-### ANALYSIS:
-WHAT ARE THE COLOURS OF THE FLOWERS OF A, B, C, AND D?
-
-- ALL OFFSPRING (A, B, C, D) WILL HAVE RED FLOWERS SINCE R IS DOMINANT OVER R.
-
-## CONCLUSION:
-UNDERSTANDING THE PRINCIPLES OF INHERITANCE THROUGH GENETIC DIAGRAMS HELPS PREDICT THE TRAITS OF OFFSPRING BASED ON THE GENOTYPES OF THE PARENTS.
-
+Figure 18.4 Results of crosses using true-breeding tall and dwarf pea plants.
+---
 # VARIATION AND SELECTION
 
 ## GENES AND INHERITANCE
 
-### CYSTIC FIBROSIS
+### KEY POINT
 
-CYSTIC FIBROSIS IS AN INHERITED CONDITION AFFECTING THE RESPIRATORY AND DIGESTIVE SYSTEMS. THE DIAGRAM ILLUSTRATES CYSTIC FIBROSIS INCIDENCE IN A FAMILY OVER FOUR GENERATIONS.
+Mendel's experiments described above, all involve single genes (e.g. the gene for height, or the gene for flower colour). The name given for inheritance involving one gene is monohybrid inheritance. It is possible to draw genetic diagrams involving two or more genes (e.g height and flower colour together), but for International GCSE you only need to interpret monohybrid crosses.
 
-THE PEDIGREE SHOWS THAT UNAFFECTED PARENTS CAN HAVE AFFECTED CHILDREN, INDICATING BOTH MUST CARRY THE RECESSIVE ALLELE. THIS SUGGESTS THAT CYSTIC FIBROSIS IS DETERMINED BY A RECESSIVE ALLELE.
+It is important to remember that in genetic crosses, ratios such as 3:1 are predicted ratios. In breeding experiments the actual numbers of offspring are unlikely to exactly fit a 3:1 ratio.
 
-#### QUESTIONS FOR ANALYSIS
+Imagine you flip a coin 20 times. The most likely outcome is that you will get 10 heads and 10 tails. However, you wouldn't be surprised to get, by chance, 11 heads and 9 tails, or 8 heads and 12 tails. The same principle applies to the outcome of a breeding experiment.
 
-1. WHAT EVIDENCE IN THE PEDIGREE INDICATES THAT CYSTIC FIBROSIS IS CAUSED BY A RECESSIVE ALLELE?  
-   THE PRESENCE OF AFFECTED CHILDREN WHEN BOTH PARENTS ARE UNAFFECTED IMPLIES THAT EACH PARENT MUST CARRY AT LEAST ONE COPY OF THE RECESSIVE ALLELE, LEADING TO THE POSSIBILITY OF RECESSIVE TRAITS IN OFFSPRING.
+For example, one of Mendel's experiments produced 787 tall plants and 277 dwarf plants. This is a ratio of 2.84:1, not quite the expected 3:1. The reason for this is that there are a number of factors that affect survival of the plants – some pollen may not fertilise some ova, some seedlings may die before they mature, and so on. These are unpredictable or 'chance' events. The numbers that Mendel found were statistically close enough to the expected 3:1 ratio, and he found the same thing when he repeated his experiments with other characteristics.
 
-2. DETERMINE THE GENOTYPES OF INDIVIDUALS 3, 4, AND 11.  
-   INDIVIDUAL 3 IS HOMOZYGOUS RECESSIVE (CC) AS THEY ARE AFFECTED. INDIVIDUAL 4 IS LIKELY EITHER HOMOZYGOUS DOMINANT (CC) OR HETEROZYGOUS (CC), AS THEY ARE UNAFFECTED. INDIVIDUAL 11'S GENOTYPE CAN BE INFERRED FROM THEIR PARENTS' GENOTYPES.
+## WORKING OUT GENOTYPES – THE TEST CROSS
 
-3. DRAW GENETIC DIAGRAMS TO CALCULATE THE PROBABILITY THAT THE NEXT CHILD OF INDIVIDUALS 10 AND 11 WILL:  
-   - BE MALE: THE PROBABILITY IS BASED ON SEX RATIOS, TYPICALLY 50% FOR EACH GENDER.
-   - SUFFER FROM CYSTIC FIBROSIS: THIS DEPENDS ON THE GENOTYPES OF PARENTS 10 AND 11. IF BOTH ARE HETEROZYGOUS (CC), THERE'S A 25% CHANCE OF RECESSIVE (CC) OFFSPRING.
+You cannot tell just by looking at a tall pea plant whether it is homozygous (TT) or heterozygous (Tt). Both these genotypes would appear equally tall because the tall allele is dominant.
 
-### GUINEA PIG HAIR LENGTH
+It would help if you knew the genotypes of its parents. You could then write out a genetic cross and perhaps work out the genotype of your tall plant. If you don't know the genotypes of the parents, the only way you can find out is by carrying out a breeding experiment called a test cross.
 
-IN GUINEA PIGS, THE SHORT HAIR (S) ALLELE IS DOMINANT OVER LONG HAIR (S). BREEDING TWO SHORT-HAIRED GUINEA PIGS RESULTED IN SOME LONG-HAIRED OFFSPRING.
+In a test cross, the factor under investigation is the unknown genotype of an organism showing the dominant phenotype. A tall pea plant could have the genotype TT or Tt. You must control every other possible variable including the genotype of the plant you breed it with. The only genotype you can be certain of is the genotype of plants showing the recessive phenotype (in this case dwarf plants). They must have the genotype tt.
 
-THIS INDICATES THAT BOTH PARENTS MUST BE HETEROZYGOUS (SS), ALLOWING FOR THE PRODUCTION OF RECESSIVE (SS) OFFSPRING WITH LONG HAIR.
+### KEY POINT
 
-#### DETERMINING GENOTYPE
+In a test cross, you breed an organism showing the dominant feature with one showing the recessive feature.
 
-TO IDENTIFY A SHORT-HAIRED GUINEA PIG'S GENOTYPE, PERFORM A TEST CROSS BY BREEDING IT WITH A LONG-HAIRED GUINEA PIG (SS).  
-- IF ANY OFFSPRING ARE LONG-HAIRED, THE SHORT-HAIRED PARENT IS HETEROZYGOUS (SS).  
-- IF ALL OFFSPRING ARE SHORT-HAIRED, THE SHORT-HAIRED PARENT IS HOMOZYGOUS (SS).
+In this example, you must breed the 'unknown' tall pea plant (TT or Tt) with a dwarf pea plant (tt). You can write out a genetic cross for both possibilities (TT × tt and Tt × tt) and predict the outcome for each (Figure 18.5). You can then compare the result of the breeding experiment with the predicted outcome, to see which result matches the prediction most closely.
 
-### SKILLS DEVELOPMENT
+| genotypes of parents | TT | tt | or | Tt | tt |
+|----------------------|----|----|----|----|----| 
+| gametes | T | t | or | T and t | t |
+| | | | | T | Tt |
+| | | | | t | tt |
+| genotypes of F₁ | all Tt | | or | 1 Tt : 1 tt |
+| phenotypes of F₁ | all tall | | or | 50% tall and 50% dwarf |
 
-- **ANALYSIS**: EVALUATE GENETIC INFORMATION AND PEDIGREE CHARTS.  
-- **INTERPRETATION**: UNDERSTAND GENETIC TERMINOLOGY AND INHERITANCE PATTERNS.  
-- **REASONING**: APPLY LOGICAL THINKING TO DEDUCE GENOTYPES AND PROBABILITIES BASED ON GENETIC CROSSES.
+Figure 18.5 A test cross
+
+From our crosses we would expect:
+
+- all the offspring to be tall if the tall parent was homozygous (TT)
+- half the offspring to be tall and half to be dwarf if the tall parent was heterozygous (Tt).
+---
+216 VARIATION AND SELECTION                     GENES AND INHERITANCE
+
+                                                WAYS OF PRESENTING GENETIC INFORMATION
+                                              Writing out a genetic cross is a useful way of showing how genes are passed
+                                              through one or two generations, starting from the parents To show a family
+                                              history of a genetic condition requires more than this. We can use a diagram
+                                              called a pedigree_
+                                              Polydactyly is an inherited condition in which a person develops an extra digit
+                                              (finger or toe) on the hands and feet: It is determined by a dominant allele. The
+                                              recessive allele causes the normal number of digits to develop.
+                                              If we use the symbol D for the polydactyly allele and d for the normal-number
+                                              allele, the possible genotypes and phenotypes are:
+                                                 DD   person has polydactyly (has two dominant polydactyly alleles)
+                                                 Dd   person has polydactyly (has a dominant polydactyly allele and a
+                                                 recessive normal allele)
+                                                 dd   person has the normal number of digits (has two recessive; normal-
+                                                 number alleles)
+                                              We don't use P and p to represent the alleles as you would expect; because
+                                              the letters P and p look very similar and could easily be confused: The
+                                              pedigree for polydactyly is shown in Figure 18.6.
+
+                                                                                                                male with
+                                                                                                                polydactyly
+                                                                                                                female with
+                                                                                                                polydactyly
+
+                                                                                                                male with
+                                                                                                                normal number
+                                                                                                                of digits
+                                                                                                                female with
+                                                                                                                normal number
+                                                                                                                of digits
+
+                                                 Figure 18.6 A pedigree showing the inheritance of polydactyly in a family:
+                                              We can extract a lot of information from a pedigree. In this case:
+                                                 there are four generations shown (individuals are arranged in four horizontal
+                                                 lines)
+                                                 individuals 4, 5 and 6 are children of individuals and 2 (a family line
+                                                 connects each one directly to   and 2)
+                                                 individual 4 is the first-born child of and 2 (the first-born child is shown to
+                                                 the left; then second born to the right of this, then the third born and so on)
+                                                 individuals 3 and 7 are not children of 1 and 2 (no family line connects them
+                                                 directly to and 2)
+                                                 individuals 3 and 4 are father and mother of the same children  as are
+                                                 and 2, 6 and 7, 8 and 9, 12 and 13, 14 and 15 (a horizontal line joins them)
+                                              It is usually possible to work out which allele is dominant from a pedigree. You
+                                              look for a situation where two parents show the same feature and at least one
+                                              child shows the contrasting feature. In Figure 18.6, individuals and 2 both have
+                                              polydactyly; but children 4 and 6 do not: There is only one way to explain this:
+---
+VARIATION AND SELECTION                  GENES AND INHERITANCE                                                        217
+
+- the normal alleles in 4 and 6 can only have come from their parents (1 and 2), so 1 and 2 must both carry normal alleles
+- 1 and 2 show polydactyly, so they must have polydactyly alleles as well
+- if they have both polydactyly alleles and normal alleles but show polydactyly, the polydactyly allele must be the dominant allele.
+
+Now that we know which allele is dominant, we can work out most of the genotypes in the pedigree. All the people with the normal number of digits must have the genotype dd (if they had even one D allele, they would show polydactyly). All the people with polydactyly must have at least one polydactyly allele (they must be either DD or Dd).
+
+From here, we can begin to work out the genotypes of the people with polydactyly. To do this we need to remember that people with the normal number of digits must inherit one 'normal-number' allele from each parent, and also that people with the normal number of digits will pass on one 'normal-number' allele to each of their children.
+
+From this we can say that any person with polydactyly who has children with the normal number of digits must be heterozygous (the child must have inherited one of their two 'normal-number' alleles from this parent), and also that any person with polydactyly who has one parent with the normal number of digits must also be heterozygous (the 'normal-number' parent can only have passed on a 'normal-number' allele). Individuals 1, 2, 3, 16, 17 and 18 fall into one or other of these categories and must be heterozygous.
+
+We can now add this genetic information to the pedigree. This is shown in Figure 18.7.
+
+[A pedigree diagram is shown with the following structure and genotypes:
+
+- Top level: Dd (1) - Dd (2)
+- Second level: Dd (3) - dd (4) | D (5) - dd (6) | dd (7)
+- Third level: D (8) - dd (9) | dd (10) | dd (11) | D (12) - dd (13) | dd (14) | dd (15)
+- Fourth level: Dd (16) | Dd (17) | Dd (18) | dd (19) | dd (20)
+
+The diagram includes a legend:
+- Red square: male with polydactyly
+- Red circle: female with polydactyly
+- White square: male with normal number of digits
+- White circle: female with normal number of digits]
+
+Figure 18.7 A pedigree showing the inheritance of polydactyly in a family, with details of genotypes added.
+
+We are still uncertain about individuals 5, 8 and 12. They could be homozygous or heterozygous. For example, individuals 1 and 2 are both heterozygous. Figure 18.8 shows the possible outcomes from a genetic cross between them. Individual 5 could be any of the outcomes indicated by the shading. It is impossible to distinguish between DD and Dd.
+
+| genotypes of parents | Dd | Dd |
+|----------------------|----|----|
+| gametes | D and d | D and d |
+| female gametes |
+| genotypes of children | D | d |
+| male gametes | D | DD | Dd |
+| | d | Dd | dd |
+
+Figure 18.8 Possible outcomes from a genetic cross between two parents, both heterozygous for polydactyly.
+---
+## SEX DETERMINATION
+
+Our sex – whether we are male or female – is not under the control of a single gene. It is determined by the X and Y chromosomes – the sex chromosomes. As well as the 44 non-sex chromosomes, there are two X chromosomes in all cells of females (except the egg cells) and one X and one Y chromosome in all cells of males (except the sperm). Our sex is effectively determined by the presence or absence of the Y chromosome. The full chromosome complement of male and female is shown in Figure 16.4 on page 198.
+
+The inheritance of sex follows the pattern shown in Figure 18.9. In any one family, however, this ratio may well not be met. Predicted genetic ratios are usually only met when large numbers are involved. The overall ratio of male and female births in all countries is 1 : 1.
+
+| phenotypes of parents | male | female |
+|------------------------|------|--------|
+| genotypes of parents   | XY   | XX     |
+| gametes                | X and Y | X    |
+
+female gametes: X
+
+male gametes: X, XY
+
+ratio of genotypes: 50% XX : 50% XY
+ratio of phenotypes: 50% female : 50% male
+
+Figure 18.9 Determination of sex in humans
+
+### DID YOU KNOW?
+
+Because the Y chromosome, when present, causes a zygote to develop into a male, some people describe it it as 'dominant'. This is incorrect: dominant and recessive are terms that are only applied to individual alleles.
+
+## POLYGENIC INHERITANCE
+
+All of the genetic crosses that you have seen in this chapter have been examples of inheritance involving single genes. The reason for this is that it is easier to draw genetics diagrams and explain what is happening if we start by considering alleles of a single gene. However, many characteristics are controlled by two or more genes working together. This is called polygenic inheritance.
+
+A good example is human skin colour. Darker skins contain greater amounts of a black pigment called melanin. This is controlled by several genes, which act together to determine the amount of melanin in the skin. Each gene has alleles that promote melanin production and alleles which do not. This produces a wide range of phenotypes (Figure 18.10).
+
+### DID YOU KNOW?
+
+Melanin protects the skin against the harmful effects of ultraviolet radiation, which is a mutagen that can cause skin cancer.
+
+Figure 18.10 Skin colour depends on the amount of melanin in the skin. It is a result of polygenic inheritance.
+
+Other human characteristics determined by several genes (polygenes) are human height and body mass (weight).
+---
+VARIATION AND SELECTION | GENES AND INHERITANCE | 219
+
+## CHAPTER QUESTIONS
+
+More questions on chromosomes, genes and inheritance can be found at the end of Unit 5 on page 234.
+
+### SKILLS | CRITICAL THINKING
+
+1. Which of the following is true of dominant alleles?
+   A they are only expressed if present as a pair
+   B they determine the most favourable of a pair of alternative features
+   C they are inherited in preference to recessive alleles
+   D a dominant allele is expressed if present with a recessive allele
+
+### SKILLS | PROBLEM SOLVING
+
+2. In pea plants, the allele for purple petals is dominant to the allele for white petals. A plant heterozygous for petal colour was crossed with a plant with white petals. What would be the ratio of genotypes in the offspring?
+   A 1:1            B 2:1           C 1:0            D 3:1
+
+3. The allele for yellow coat colour in mice (Y) is dominant to the allele for non-yellow coat colour (y).
+   Mice with the genotype yy have non-yellow coats.
+   Mice with the genotype Yy have yellow coats.
+   Mice with the genotype YY die as embryos.
+   Two heterozygous mice were crossed. What is the probability that a surviving mouse in the F1 generation will be yellow?
+   A 0.00           B 0.25           C 0.50           D 0.67
+
+4. Predict the ratios of offspring from the following crosses between tall/dwarf pea plants.
+   a TT × TT
+   b TT × Tt
+   c TT × tt
+   d Tt × Tt
+   e Tt × tt
+   f tt × tt.
+
+### SKILLS | CRITICAL THINKING
+
+5. In cattle, a pair of alleles controls coat colour. The allele for black coat colour is dominant over the allele for red coat colour. The genetic diagram represents a cross between a pure-breeding black bull and a pure-breeding red cow. B = dominant allele for black coat colour; b = recessive allele for red coat colour.
+
+| Parents  | Black bull | Red cow |
+|----------|------------|---------|
+| Genotype | BB         | bb      |
+
+Gametes and offspring are represented by empty circles in the diagram.
+
+a. i What term describes the genotypes of the pure-breeding parents?
+   ii Explain the terms dominant and recessive.
+---
+220 VARIATION AND SELECTION                   GENES AND INHERITANCE
+
+**SKILLS | CRITICAL THINKING**
+
+b i What are the genotypes of the gametes of each parent?
+  ii What is the genotype of the offspring?
+
+c Cows with the same genotype as the offspring were bred with bulls with
+  the same genotype.
+  i What genetic term describes this genotype?
+
+**SKILLS | INTERPRETATION, PROBLEM SOLVING**
+
+ii Draw a genetic diagram to work out the ratios of:
+   the genotypes of the offspring
+   the phenotypes of the offspring.
+
+**SKILLS | INTERPRETATION**
+
+6 In nasturtiums, a single pair of alleles controls flower colour.
+  The allele for red flower colour is dominant over the allele for yellow flower
+  colour. The diagram represents the results of a cross between a pure-
+  breeding red-flowered nasturtium and a pure-breeding yellow-flowered
+  nasturtium. R = dominant allele for red flower colour; r = recessive allele for
+  yellow flower colour.
+
+| phenotypes of parents | red | yellow |
+|------------------------|-----|--------|
+| genotypes of parents   | RR  | rr     |
+| gametes                | R   | r      |
+
+female gametes
+
+genotypes of F1
+               male
+               gametes
+
+genotypes of F1 parents  ?             ?
+
+gametes                  ○ and ○       ○ and ○
+
+female gametes
+
+genotypes of F2
+               male      | A | B |
+               gametes   | C | D |
+
+a Copy and complete the genetic diagram.
+
+**SKILLS | ANALYSIS**
+
+b What are the colours of the flowers of A, B, C and D?
+---
+VARIATION AND SELECTION                  GENES AND INHERITANCE                                                        221
+
+SKILLS   ANALYSIS                         Cystic fibrosis is an inherited condition: The diagram shows the incidence of
+                                                fibrosis in a family over four generations
+                                          cystic
+
+                                                               affected male            unaffected male
+
+                                                               affected female          unaffected female
+
+                                             What evidence in the pedigree suggests that cystic fibrosis is determined
+                                             by a recessive allele?
+                                             What are the genotypes of individuals 3, 4 and 11? Explain your answers_
+                                             Draw genetic diagrams to work out the probability that the next child
+                                             born to individuals 10 and 11 will
+SKILLS   INTERPRETATION                         be male ,
+                                                suffer from      fibrosis.
+                                                           cystic
+SKILLS   REASONING                        In guinea pigs; the allele for short hair is dominant to that for long hair:
+                                             Two short-haired guinea pigs were bred and their offspring included
+                                            somelong-haired guinea pigs. Explain these results_
+                                             How could you find out if a short-haired guinea pig was homozygous or
+                                            heterozygous for hair length?

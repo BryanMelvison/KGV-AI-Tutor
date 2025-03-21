@@ -1,568 +1,468 @@
-# PLANT PHYSIOLOGY
+# 10 PLANTS AND FOOD
 
-## INTRODUCTION TO PLANT PHYSIOLOGY
-PLANT PHYSIOLOGY IS A BRANCH OF BIOLOGY THAT STUDIES THE INTERNAL PROCESSES OF PLANTS. IT EXAMINES KEY ASPECTS OF PLANT LIFE, INCLUDING:
-
-- **PHOTOSYNTHESIS**: THE PROCESS BY WHICH PLANTS CONVERT SUNLIGHT INTO CHEMICAL ENERGY.
-- **TRANSPORT MECHANISMS**: HOW MATERIALS MOVE WITHIN AND BETWEEN DIFFERENT PARTS OF THE PLANT.
-- **REPRODUCTIVE STRATEGIES**: THE METHODS PLANTS USE TO REPRODUCE AND PROPAGATE THEMSELVES.
-
-UNDERSTANDING THESE PROCESSES IS ESSENTIAL FOR VARIOUS REASONS.
-
-## IMPORTANCE OF STUDYING PLANT PHYSIOLOGY
-THE STUDY OF PLANT PHYSIOLOGY HOLDS SIGNIFICANT IMPORTANCE:
-
-1. **FOOD PRODUCTION**: PLANTS ARE A PRIMARY SOURCE OF FOOD, DIRECTLY IMPACTING HUMAN AND ANIMAL NUTRITION.
-2. **OXYGEN CONTRIBUTION**: THROUGH PHOTOSYNTHESIS, PLANTS RELEASE OXYGEN, WHICH IS VITAL FOR ALL LIFE FORMS ON EARTH.
-3. **ECOSYSTEM BALANCE**: KNOWLEDGE OF PLANT PHYSIOLOGY AIDS IN UNDERSTANDING ECOSYSTEM DYNAMICS AND INTERACTIONS.
-
-MODERN AGRICULTURE RELIES HEAVILY ON INSIGHTS FROM PLANT PHYSIOLOGY TO ENHANCE CROP PRODUCTIVITY AND SUSTAINABILITY. BY OPTIMIZING INTERNAL PLANT PROCESSES, RESEARCHERS CAN IMPROVE FOOD PRODUCTION, ENSURING A STABLE SUPPLY AS THE GLOBAL POPULATION GROWS.
-
-THIS KNOWLEDGE IS NOT ONLY CRUCIAL FOR AGRICULTURE BUT ALSO CONTRIBUTES TO MAINTAINING EARTH'S ECOLOGICAL BALANCE.
-
-# CHAPTER 10: PLANTS AND FOOD
-
-THIS CHAPTER EXPLORES PHOTOSYNTHESIS, LEAF STRUCTURE, AND PLANT NUTRIENT ACQUISITION, EMPHASIZING THEIR ROLE IN FOOD PRODUCTION.
+This chapter looks at photosynthesis, the process by which plants make starch, and the structure of leaves in relation to photosynthesis. It also deals with how plants obtain other nutrients, and their uses in the plant.
 
 ## LEARNING OBJECTIVES
 
-BY THE END OF THIS CHAPTER, YOU SHOULD BE ABLE TO:
-1. INVESTIGATE PHOTOSYNTHESIS BY TESTING STARCH PRODUCTION IN LEAVES.
-2. DESCRIBE LEAF STRUCTURE AND ITS ADAPTATION FOR PHOTOSYNTHESIS.
-3. UNDERSTAND PHOTOSYNTHESIS REQUIREMENTS: LIGHT, CARBON DIOXIDE, CHLOROPHYLL.
-4. ANALYZE ENVIRONMENTAL FACTORS AFFECTING PHOTOSYNTHESIS RATE.
-5. CONDUCT EXPERIMENTS TO OBSERVE OXYGEN EVOLUTION FROM AQUATIC PLANTS.
-6. RECOGNIZE MINERAL IONS' IMPORTANCE FOR PLANT GROWTH, INCLUDING MAGNESIUM AND NITRATE IONS.
+- Investigate photosynthesis by testing for the production of starch in a leaf
+- Investigate the need for light, carbon dioxide and chlorophyll for photosynthesis
+- Understand the process of photosynthesis and its importance in the conversion of light energy to chemical energy
+- Know the word equation and the balanced symbol equation for photosynthesis
+- Describe the structure of the leaf and explain how it is adapted for photosynthesis
+- Understand how light intensity, carbon dioxide concentration and temperature affect the rate of photosynthesis
+- Investigate photosynthesis using the evolution of oxygen from a water plant
+- Understand that plants require mineral ions for growth, and that magnesium ions are needed to make chlorophyll and nitrate ions are needed to make amino acids
 
 ## PLANTS MAKE STARCH
 
-ALL FOODS IN FIGURE 10.1 ARE PLANT PRODUCTS. STAPLES LIKE POTATOES, RICE, AND BREAD CONTAIN STARCH, A PRIMARY STORAGE CARBOHYDRATE.
+All the foods shown in Figure 10.1 are products of plants. Some, such as potatoes, rice and bread (made from cereals such as wheat or rye), form the staple diet of humans. They all contain starch, which is the main storage carbohydrate made by plants. Starch is a good way of storing carbohydrate because it insoluble, compact and can be broken down easily.
 
-### STARCH PROPERTIES
-STARCH IS EFFECTIVE FOR PLANT ENERGY STORAGE DUE TO:
-- **INSOLUBILITY**: MAINTAINS OSMOTIC BALANCE.
-- **COMPACT STRUCTURE**: EFFICIENT STORAGE IN LIMITED SPACES.
-- **EASILY BROKEN DOWN**: CONVERTS BACK TO GLUCOSE WHEN NEEDED.
+Figure 10.1 All these foods are made by plants or made from products of plants. They all contain starch.
+---
+## ACTIVITY 1
 
-FIGURE 10.1 ILLUSTRATES VARIOUS FOODS DERIVED FROM PLANTS, ALL CONTAINING STARCH AS THEIR PRIMARY ENERGY SOURCE.
+### PRACTICAL: TESTING LEAVES FOR STARCH
 
-# PLANT PHYSIOLOGY: TESTING LEAVES FOR STARCH
+You can test for starch in food by adding a few drops of yellow-brown iodine solution (see Chapter 4). If the food contains starch, a blue-black colour is produced.
 
-## ACTIVITY 1: PRACTICAL EXPERIMENT
+Leaves that have been in sunlight also contain starch, but you can't test for it by adding iodine solution to a fresh leaf. The outer waxy surface of the leaf will not absorb the solution, and besides, the green colour of the leaf would hide the colour change. To test for starch in a leaf, the outer waxy layer needs to be removed and the leaf decolourised. This is done by placing the leaf in boiling ethanol (see Figure 10.2).
 
-### OBJECTIVE
-THE OBJECTIVE WAS TO TEST FOR THE PRESENCE OF STARCH IN LEAVES USING IODINE SOLUTION.
+A beaker of water is set up on a tripod and gauze and the water heated until it boils. A leaf is removed from a plant and killed by placing it in boiling water for 30 seconds (this stops all chemical reactions in the leaf).
 
-### MATERIALS NEEDED
-- YELLOW-BROWN IODINE SOLUTION
-- BOILING WATER
-- ETHANOL (HIGHLY FLAMMABLE)
-- BEAKER
-- TRIPOD AND GAUZE
-- FORCEPS
-- TILE
+The Bunsen burner is turned off (this is important because ethanol is highly flammable), the leaf is placed in a boiling tube containing ethanol, and the tube is placed in the beaker of hot water. The boiling point of ethanol (about 78°C) is lower than that of water (100°C) so the ethanol will boil for a few minutes, until the water cools down. This is long enough to remove most of the chlorophyll from the leaf.
 
-### PROCEDURE
+When the leaf has turned colourless or pale yellow, it is removed and washed in cold water to soften it, then spread out on a tile and covered with a few drops of iodine solution. After a few minutes, any parts of the leaf that contain starch will turn a dark blue-black colour. This only works if the plant has had plenty of light for some hours before the test.
 
-1. **PREPARATION OF THE LEAF:**
-   START BY BOILING A BEAKER OF WATER ON A TRIPOD UNTIL IT REACHES A ROLLING BOIL. TAKE A LEAF FROM A PLANT THAT HAS BEEN EXPOSED TO SUNLIGHT FOR SEVERAL HOURS. PLACE THE LEAF IN BOILING WATER FOR 30 SECONDS. THIS STEP IS CRUCIAL AS IT STOPS ALL CHEMICAL REACTIONS IN THE LEAF.
+#### Figure 10.2 How to test a leaf for starch
 
-2. **DECOLORIZING THE LEAF:**
-   AFTER BOILING, CAREFULLY REMOVE THE LEAF USING FORCEPS AND PLACE IT IN A BOILING TUBE CONTAINING ETHANOL. THE BOILING POINT OF ETHANOL (APPROXIMATELY 78°C) IS LOWER THAN THAT OF WATER (100°C), SO THE ETHANOL WILL BOIL FOR A FEW MINUTES. THIS PROCESS WILL HELP REMOVE MOST OF THE CHLOROPHYLL FROM THE LEAF. ONCE THE LEAF HAS TURNED COLORLESS OR PALE YELLOW, REMOVE IT FROM THE ETHANOL AND WASH IT IN COLD WATER TO SOFTEN IT.
+1. Remove leaf from potted plant
+2. Dewax in boiling water (30 seconds)
+3. Remove colour in boiling ethanol
+4. Turn off Bunsen burner
+5. Wash with cold water
+6. Add iodine solution
 
-3. **TESTING FOR STARCH:**
-   SPREAD THE DECOLORIZED LEAF OUT ON A TILE. ADD A FEW DROPS OF IODINE SOLUTION TO THE LEAF. WAIT FOR A FEW MINUTES. ANY PARTS OF THE LEAF THAT CONTAIN STARCH WILL TURN A DARK BLUE-BLACK COLOR.
-
-### IMPORTANT NOTES
-THIS TEST ONLY WORKS IF THE PLANT HAS HAD PLENTY OF LIGHT BEFORE THE EXPERIMENT, AS STARCH IS PRODUCED DURING PHOTOSYNTHESIS. SAFETY PRECAUTIONS: ALWAYS WASH YOUR HANDS AFTER HANDLING THE LEAVES. BE CAUTIOUS NOT TO SPLASH ETHANOL DIRECTLY WITH ANY FLAME; INSTEAD, USE A BEAKER OF HOT WATER TO HEAT THE ETHANOL. IODINE SOLUTION CAN STAIN SKIN AND OTHER MATERIALS, SO HANDLE IT CAREFULLY.
-
-### FIGURE 10.2: HOW TO TEST A LEAF FOR STARCH
-!TESTING A LEAF FOR STARCH
-
-# PLANT PHYSIOLOGY
+> **Safety note:** Wash your hands after handling the leaves. Take care not to splash boiling water. Do not heat the ethanol directly with any flame: instead use a beaker of hot water. Iodine solution will badly stain everything - including skin.
+---
+PLANT PHYSIOLOGY                                 PLANTS AND FOOD                                                           123
 
 ## KEY POINT
-PLACING PLANTS IN THE DARK FOR 2-3 DAYS DE-STARCHES THEM BY USING UP STARCH STORES IN THEIR LEAVES. THIS PROCESS HELPS DETERMINE THE CONDITIONS NECESSARY FOR STARCH PRODUCTION THROUGH PHOTOSYNTHESIS.
 
----
+You can 'de-starch' a plant by placing it in the dark for 2 or 3 days. The plant uses up the starch stores in its leaves. De-starched plants are used to find out the conditions needed for the plant to make more starch by photosynthesis.
+
+Starch is only made in the parts of plants that contain chlorophyll. You can show this by testing a leaf from a variegated plant, which has green and white areas to its leaves. The white parts of the leaf will give a negative starch test, staining yellow-brown with iodine solution. Only the green areas will stain blue-black. Figure 10.3 shows the results of a starch test on a leaf. The leaf was taken from a plant that had been under a bright light for 24 hours.
+
+![Figure 10.3 Testing a leaf for starch: (a) Leaf before test (b) Decolourised leaf (c) Leaf after test, stained blue-black with iodine solution.]
+
+## HINT
+
+You might think that the results of the test on the variegated leaf prove that chlorophyll is needed for photosynthesis. But is this conclusion fully justified? The leaf could have photosynthesised in the white areas and the sugars been transported elsewhere in the plant. Similarly, the green areas may not be photosynthesising at all, but simply laying down starch from glucose made somewhere else. All it really shows is that starch is present in the green areas and not in the white areas of the leaf. We assume this is because chlorophyll is needed for photosynthesis.
+
+![Figure 10.4 Demonstration that carbon dioxide is needed for photosynthesis. The soda lime absorbs carbon dioxide from the air in the bell jar. A Control experiment should be set up, using exactly the same apparatus but without the soda lime.]
+
+Taking away the source of light is not the only way you can prevent a plant making starch in its leaves. You can also place it in a closed container containing a chemical called soda lime (Figure 10.4). This substance absorbs carbon dioxide from the air around the plant. If the plant is kept under a bright light but with no carbon dioxide, it again won't be able to make starch.
 
 ## WHERE DOES THE STARCH COME FROM?
 
-STARCH IS ONLY PRODUCED IN PARTS OF PLANTS THAT CONTAIN CHLOROPHYLL. A VARIEGATED PLANT'S LEAF, WITH BOTH GREEN AND WHITE AREAS, CAN BE TESTED TO DEMONSTRATE THIS. THE WHITE AREAS YIELD A NEGATIVE STARCH TEST, STAINING YELLOW-BROWN WITH IODINE SOLUTION, WHILE THE GREEN AREAS STAIN BLUE-BLACK.
+You have now found out three important facts about starch production by leaves:
 
-### TESTING A LEAF FOR STARCH
-THE EXPERIMENT INVOLVES OBSERVING THE IODINE REACTION ON LEAF SECTIONS. WHILE THE VARIEGATED LEAF'S WHITE AREAS LACK STARCH, THE GREEN AREAS INDICATE THE PRESENCE OF CHLOROPHYLL NECESSARY FOR PHOTOSYNTHESIS. THIS SUGGESTS THAT CHLOROPHYLL IS ESSENTIAL FOR STARCH PRODUCTION, THOUGH OTHER FACTORS LIKE SUGAR TRANSPORT FROM OTHER PARTS OF THE PLANT MAY ALSO PLAY A ROLE.
+- it uses carbon dioxide from the air
+- it needs light
+- it needs chlorophyll in the leaves.
 
+As well as starch, there is another product of this process which is essential to the existence of most living things on the Earth – oxygen. When a plant is in the light, it makes oxygen gas. You can show this using an aquatic plant such as Elodea (Canadian pondweed). When a piece of this plant is placed in a test tube of water under a bright light, it produces a stream of small bubbles. If the bubbles are collected and their contents analysed, they are found to contain a high concentration of oxygen (Figure 10.5).
 ---
+124 PLANT PHYSIOLOGY                         PLANTS AND FOOD
 
-## PREVENTING STARCH PRODUCTION
-PREVENTING STARCH PRODUCTION CAN BE ACHIEVED THROUGH TWO METHODS: REMOVING LIGHT OR USING SODA LIME TO ABSORB CARBON DIOXIDE. UNDER BRIGHT CONDITIONS WITHOUT CARBON DIOXIDE, PLANTS CANNOT PHOTOSYNTHESIZE AND THUS DO NOT PRODUCE STARCH.
+                                              Figure 10.5 The bubbles of gas released from this pondweed contain a higher concentration of
+                                              oxygen than in atmospheric air:
+                                           Starch is composed of long chains of glucose (see Chapter 4). A plant does
+                                           not make starch directly, but first produces glucose, which is then joined
+                                           together in chains to form starch molecules_ carbohydrate made of many
+                                           sugar sub-units is called a polysaccharide. Glucose has the formula CgH,2Os:
+                                           The carbon and oxygen atoms of the glucose molecule come from the carbon
+                                           dioxide gas in the air around the plant: The hydrogen atoms come from
+                                           another molecule essential to the living plant water:
+                                           It would be very difficult in a school laboratory to show that a plant uses
+                                           water to make starch: If you deprived a plant of water in the same way as yoU
+                                           deprived it of carbon dioxide, it would soon wilt and eventually die. However;
+                                           scientists have proved that water is used in photosynthesis_ Theyhave done
+                                           this by supplying the plant with water with 'labelled' atoms, for example using
+                                           the 'heavy' isotope of oxygen (180. This isotope ends up in the oxygen gas
+                                           produced by the plant    summary of the sources of the atoms in the glucose
+                                           and oxygen looks like this:
+     EXTENSION WORK
+     Isotopes are forms of the same element
+     with the same atomic number but
+     different mass numbers (due to extra
+     neutrons in the nucleus): Isotopes of                               CsHzo
+     some elements are radioactive and can
+     be used as 'labels' to follow chemical
+     pathways. Others like 180 are identified
+     by their mass                                                             Hz
 
-### IMPORTANT FACTS ABOUT STARCH PRODUCTION
-STARCH PRODUCTION REQUIRES:
-1. CARBON DIOXIDE FROM THE AIR.
-2. LIGHT EXPOSURE.
-3. CHLOROPHYLL IN LEAVES.
-
+                                                                     (Toxygen labelled with180)
+                                             PHOTOSYNTHESIS
+      DID YOU KNOW?                         Plants use the simple inorganic molecules carbon dioxide and water; in the
+      The 'photo' in photosynthesis        presence of chlorophyll and light; to make glucose and oxygen: This process is
+      comes from the Greek word            called photosynthesis_
+      photos; meaning light; and           It is summarised by the equation:
+        'synthesis' reaction is one                  carbon dioxide + water      light      glucose + oxygen
+      where small molecules are built
+      up into larger ones:                           Or:      6CO2    6HzO    chlorophyll   CsH12O6 + 602
 ---
+PLANT PHYSIOLOGY                          PLANTS AND FOOD                                                               125
 
-## OXYGEN PRODUCTION
-IN ADDITION TO STARCH, PHOTOSYNTHESIS PRODUCES OXYGEN. ELODEA, AN AQUATIC PLANT, DEMONSTRATES THIS BY RELEASING SMALL BUBBLES WHEN PLACED IN WATER UNDER LIGHT. THESE BUBBLES CONTAIN HIGH LEVELS OF OXYGEN, HIGHLIGHTING THE ROLE OF PLANTS IN GENERATING ESSENTIAL GASES FOR LIFE.
+                                        The role of the green pigment; chlorophyll; is to absorb the light energy
+                                        needed for the reaction to take place. The products of the reaction (glucose
+                                        and oxygen) contain more energy than the carbon dioxide and water: In other
+                                        words, photosynthesis converts light energy into chemical energy:
+                                        You will probably have noticed that the overall equation for photosynthesis is
+                                        the reverse of the one for aerobic respiration (see Chapter 1):
+                                              C6H12O6 + 602       6CO2 + 6H20 (plus energy)
+                                        Respiration; which is carried out by both animals and plants, releases energy
+                                        (but not as light) from the breakdown of glucose. The chemical energy in the
+                                        glucose came originally from light 'trapped' by the process of photosynthesis_
 
-!OXYGEN PRODUCTION IN ELODEA
+ THE STRUCTURE OF LEAVES                Most green parts of a plant can photosynthesise, but the leaves are the plant
+                                        organs which are best adapted for this function: To be able to photosynthesise
+                                                                  efficiently, leaves need to have a large surface area to absorb light; many
+                                        chloroplasts containing the chlorophyll; a supply of water and carbon dioxide,
+                                        and asystem for carrying away the products of photosynthesis to other parts
+                                        of the plant Theyalso need to release oxygen (and water vapour) from the
+                                        leaf cells. Most leaves are thin, flat structures supported by a leaf stalk which
+                                        can grow to allow the blade of the leaf to be angled to receive the maximum
+                                        amount of sunlight (Figure 10.6).
+       leaf stalk main vein
 
+                           leaf blade
+
+           branching veins                           greatly magnified
+                                                    section of the leaf
+
+                                                                                                             chloroplasts
+                                      cuticle
+                                     upper epidermis
+
+                                        palisade cells                                                     xylem
+
+                    mesophyll                                                                              phloem   vein
+
+                                      spongy _
+                                      cells
+
+                                     lower epidermis
+
+                                                                  guard stoma    air space
+     Figure 10.6 External and internal features of a leaf         cell  (pore)
 ---
+Inside the leaf are layers of cells with different functions.
 
-### FIGURE 10.4
-THIS FIGURE ILLUSTRATES A DEMONSTRATION WHERE SODA LIME ABSORBS CARBON DIOXIDE FROM A BELL JAR, SHOWING THE NEED FOR CO2 IN PHOTOSYNTHESIS. A CONTROL EXPERIMENT WITHOUT SODA LIME SHOULD BE CONDUCTED ALONGSIDE IT.
+- The two outer layers of cells (the upper and lower epidermis) have few chloroplasts and are covered by a thin layer of a waxy material called the cuticle. This reduces water loss by evaporation, and acts as a barrier to the entry of disease-causing microorganisms such as bacteria and fungi.
 
-### FIGURE 10.5
-THIS FIGURE DETAILS OXYGEN PRODUCTION BY AN AQUATIC PLANT UNDER BRIGHT LIGHT, WITH BUBBLES INDICATING RELEASED OXYGEN.
+- The lower epidermis has many holes or pores called stomata (a single pore is a stoma). Usually the upper epidermis contains fewer or no stomata. The stomata allow carbon dioxide to diffuse into the leaf, to reach the photosynthetic tissues. They also allow oxygen and water vapour to diffuse out. Each stoma is formed as a gap between two highly specialised cells called guard cells, which can change their shape to open or close the stoma.
 
----
+- In the middle of the leaf are two layers of photosynthetic cells called the mesophyll ("mesophyll" just means "middle of the leaf"). Just below the upper epidermis is the palisade mesophyll layer. This is a tissue made of long, narrow cells, each containing hundreds of chloroplasts, and is the main site of photosynthesis. The palisade cells are close to the source of light, and the upper epidermis is relatively transparent, allowing light to pass through to the enormous numbers of chloroplasts which lie below.
 
-BY UNDERSTANDING THESE PROCESSES, WE APPRECIATE PLANTS' ECOLOGICAL SIGNIFICANCE, NOT ONLY AS FOOD PRODUCERS BUT ALSO AS VITAL SOURCES OF OXYGEN IN OUR ECOSYSTEMS.
+- Below the palisade layer is a tissue made of more rounded, loosely packed cells, with air spaces between them, called the spongy mesophyll layer. These cells also photosynthesise, but have fewer chloroplasts than the palisade cells. They form the main gas exchange surface of the leaf, absorbing carbon dioxide and releasing oxygen and water vapour. The air spaces allow these gases to diffuse in and out of the mesophyll.
 
-# PLANT PHYSIOLOGY
+- Water and mineral ions are supplied to the leaf by vessels in a tissue called the xylem. This forms a continuous transport system throughout the plant. Water is absorbed by the roots and passes up through the stem and through veins in the leaves in the transpiration stream. In the leaves, the water leaves the xylem and supplies the mesophyll cells.
 
-## PHOTOSYNTHESIS
+- The products of photosynthesis, such as sugars, are carried away from the mesophyll cells by another transport system, the phloem. The phloem supplies all other parts of the plant, so that tissues and organs that can't make their own food receive products of photosynthesis. The veins in the leaf contain both xylem and phloem tissue, and branch again and again to supply all parts of the leaf.
 
-PHOTOSYNTHESIS IS A VITAL BIOLOGICAL PROCESS THROUGH WHICH PLANTS CONVERT SIMPLE INORGANIC MOLECULES INTO ORGANIC COMPOUNDS. USING CARBON DIOXIDE (CO₂) AND WATER (H₂O), IN THE PRESENCE OF CHLOROPHYLL AND LIGHT, PLANTS SYNTHESIZE GLUCOSE (C₆H₁₂O₆) AND RELEASE OXYGEN GAS (O₂). THIS PROCESS CAN BE REPRESENTED BY THE EQUATION:
+You will find out more about both plant transport systems in Chapter 11.
 
-\[
-6CO_2 + 6H_2O \XRIGHTARROW{\TEXT{LIGHT, CHLOROPHYLL}} C_6H_{12}O_6 + 6O_2
-\]
+### KEY POINT
 
-## THE ROLE OF ISOTOPES
-
-ISOTOPES ARE VARIANTS OF THE SAME ELEMENT WITH DIFFERENT ATOMIC MASSES DUE TO VARYING NUMBERS OF NEUTRONS. FOR INSTANCE, OXYGEN HAS ISOTOPES LIKE O-16 AND O-18. SCIENTISTS USE THESE ISOTOPES AS TRACERS TO STUDY CHEMICAL PATHWAYS IN PHOTOSYNTHESIS. THE HEAVY ISOTOPE O-18 CAN BE USED TO TRACK OXYGEN'S MOVEMENT DURING THE PROCESS.
-
-## DID YOU KNOW?
-
-THE TERM "PHOTOSYNTHESIS" ORIGINATES FROM THE GREEK WORDS "PHOTOS" (LIGHT) AND "SYNTHESIS" (THE ASSEMBLY OF SIMPLER SUBSTANCES INTO MORE COMPLEX ONES).
-
-## PLANTS AND FOOD
-
-STARCH, A CARBOHYDRATE COMPOSED OF GLUCOSE MOLECULES, IS NOT DIRECTLY PRODUCED BY PLANTS. INSTEAD, PLANTS FIRST SYNTHESIZE GLUCOSE, WHICH THEN FORMS STARCH THROUGH LINKAGE. THE CHEMICAL FORMULA FOR GLUCOSE IS C₆H₁₂O₆.
-
-- **SOURCE OF ATOMS IN GLUCOSE**:
-  - CARBON ATOMS ORIGINATE FROM CO₂.
-  - HYDROGEN ATOMS COME FROM H₂O.
-  - OXYGEN ATOMS ARE DERIVED FROM BOTH CO₂ AND H₂O.
-
-## EXPERIMENTAL EVIDENCE
-
-TO DEMONSTRATE WATER'S ROLE IN PHOTOSYNTHESIS, SCIENTISTS OBSERVE THAT PLANTS DEPRIVED OF WATER WILT AND DIE, SIMILAR TO THOSE LACKING CO₂. HOWEVER, USING ISOTOPES LIKE O-18, RESEARCHERS HAVE SHOWN THAT WATER IS ESSENTIAL. WHEN SUPPLIED WITH LABELED OXYGEN, THE PRODUCED OXYGEN GAS CONTAINS THE ISOTOPE, CONFIRMING ITS INVOLVEMENT.
-
-## SUMMARY OF SOURCES
-
-THE SYNTHESIS OF GLUCOSE (C₆H₁₂O₆) AND OXYGEN (O₂) DURING PHOTOSYNTHESIS INVOLVES SPECIFIC SOURCES:
-- GLUCOSE ATOMS COME FROM CO₂ AND H₂O.
-- OXYGEN ATOMS ARE SOURCED FROM BOTH CO₂ AND H₂O, WITH O-18 INDICATING THE WATER'S CONTRIBUTION.
-
-## VISUAL REPRESENTATION
-
-THE BUBBLES OF GAS RELEASED BY PONDWEED CONTAIN HIGHER CONCENTRATIONS OF OXYGEN COMPARED TO ATMOSPHERIC AIR, ILLUSTRATING THE PROCESS OF PHOTOSYNTHESIS.
-
-# PLANT PHYSIOLOGY: PLANTS AND FOOD
-
-## PHOTOSYNTHESIS
-
-THE GREEN PIGMENT **CHLOROPHYLL** IS ESSENTIAL FOR PHOTOSYNTHESIS AS IT ABSORBS LIGHT ENERGY. THIS PROCESS CONVERTS CARBON DIOXIDE AND WATER INTO GLUCOSE AND OXYGEN, STORING MORE ENERGY IN THE PRODUCTS THAN IN THE REACTANTS. THE NET RESULT IS THAT LIGHT ENERGY IS CONVERTED INTO CHEMICAL ENERGY.
-
-### THE PHOTOSYNTHESIS EQUATION
-
-PHOTOSYNTHESIS CAN BE REPRESENTED BY THE EQUATION:
-
-\[
-6CO_2 + 6H_2O + \TEXT{LIGHT ENERGY} \RIGHTARROW C_6H_{12}O_6 + 6O_2
-\]
-
-THIS EQUATION IS THE REVERSE OF AEROBIC RESPIRATION, WHICH IS:
-
-\[
-C_6H_{12}O_6 + 6O_2 \RIGHTARROW 6CO_2 + 6H_2O + \TEXT{ENERGY}
-\]
-
-RESPIRATION RELEASES ENERGY BY BREAKING DOWN GLUCOSE, WHICH WAS ORIGINALLY FORMED THROUGH PHOTOSYNTHESIS.
-
-## THE STRUCTURE OF LEAVES
-
-LEAVES ARE THE PRIMARY SITES OF PHOTOSYNTHESIS DUE TO THEIR LARGE SURFACE AREA AND NUMEROUS CHLOROPLASTS. THEY REQUIRE:
-
-- A STRUCTURE FOR ABSORBING LIGHT
-- CHLOROPLASTS CONTAINING CHLOROPHYLL
-- WATER AND CARBON DIOXIDE SUPPLY
-- TRANSPORT SYSTEMS FOR PRODUCTS LIKE GLUCOSE AND OXYGEN
-
-### LEAF ANATOMY
-
-LEAVES TYPICALLY CONSIST OF A THIN, FLAT BLADE SUPPORTED BY A LEAF STALK. THE STALK POSITIONS THE BLADE TO MAXIMIZE SUNLIGHT EXPOSURE.
-
-#### KEY FEATURES OF LEAVES:
-
-- **CUTICLE**: REDUCES WATER LOSS WITH A WAXY LAYER.
-- **UPPER EPIDERMIS**: PROTECTS THE LEAF AND IS THE OUTERMOST LAYER.
-- **PALISADE CELLS**: UNDERNEATH THE UPPER EPIDERMIS, THESE CELLS CONTAIN MANY CHLOROPLASTS AND ARE CENTRAL TO PHOTOSYNTHESIS.
-- **MESOPHYLL**: INNER TISSUE FACILITATING GAS EXCHANGE THROUGH SPONGY CELLS.
-- **LOWER EPIDERMIS**: CONTAINS GUARD CELLS THAT REGULATE STOMATA (PORES) FOR GAS EXCHANGE.
-- **VEINS**: COMPOSED OF XYLEM (WATER TRANSPORT) AND PHLOEM (NUTRIENT TRANSPORT).
-
-LEAVES RELEASE OXYGEN AND WATER VAPOR AS POROSITY BYPRODUCTS, CONTRIBUTING TO ATMOSPHERIC BALANCE.
-
-# PLANT PHYSIOLOGY: PLANTS AND FOOD
-
-## STRUCTURE OF THE LEAF
-
-INSIDE A LEAF, CELLS ARE ORGANIZED INTO DISTINCT LAYERS WITH SPECIFIC FUNCTIONS:
-
-- **EPIDERMIS**: THE OUTERMOST LAYER CONSISTS OF TWO PARTS—THE UPPER AND LOWER EPIDERMIS—BOTH RICH IN CHLOROPLASTS. THESE LAYERS ARE PROTECTED BY A THIN WAXY CUTICLE, WHICH MINIMIZES WATER LOSS THROUGH EVAPORATION AND ACTS AS A BARRIER AGAINST PATHOGENS LIKE BACTERIA AND FUNGI.
-
-- **STOMATA**: THE LOWER EPIDERMIS FEATURES STOMATA, PORES FORMED BETWEEN GUARD CELLS THAT REGULATE GAS EXCHANGE. THESE PORES ALLOW CARBON DIOXIDE TO ENTER THE LEAF FOR PHOTOSYNTHESIS WHILE FACILITATING THE EXIT OF OXYGEN AND WATER VAPOR. GUARD CELLS CAN ADJUST THE STOMA'S OPENNESS BASED ON ENVIRONMENTAL CONDITIONS.
-
-## PHOTOSYNTHETIC TISSUES
-
-THE CENTRAL REGION OF THE LEAF IS OCCUPIED BY THE MESOPHYLL, A TWO-LAYERED TISSUE CRUCIAL FOR PHOTOSYNTHESIS:
-
-- **PALISADE MESOPHYLL**: THIS LAYER, JUST BENEATH THE UPPER EPIDERMIS, CONSISTS OF ELONGATED CELLS DENSELY PACKED WITH CHLOROPLASTS. ITS STRATEGIC POSITION NEAR THE LIGHT SOURCE ENHANCES EFFICIENCY, AS THE TRANSPARENT UPPER EPIDERMIS ALLOWS SUFFICIENT LIGHT TRANSMISSION.
-
-- **SPONGY MESOPHYLL**: FOUND BELOW THE PALISADE LAYER, THIS LOOSE, AIR-FILLED TISSUE FACILITATES GAS EXCHANGE. WHILE IT CONTAINS FEWER CHLOROPLASTS THAN THE PALISADE, IT PLAYS A KEY ROLE IN ABSORBING CARBON DIOXIDE AND RELEASING OXYGEN AND WATER VAPOR THROUGH ITS EXTENSIVE AIR SPACES.
-
-## TRANSPORT SYSTEMS IN PLANTS
-
-PLANTS RELY ON TWO PRIMARY TRANSPORT SYSTEMS:
-
-- **XYLEM**: THIS VASCULAR TISSUE TRANSPORTS WATER AND MINERAL IONS FROM ROOTS TO LEAVES VIA THE TRANSPIRATION STREAM. IN LEAVES, WATER IS DELIVERED TO MESOPHYLL CELLS.
-
-- **PHLOEM**: THIS SYSTEM MOVES PHOTOSYNTHESIS PRODUCTS LIKE SUGARS (PRIMARILY SUCROSE) AND AMINO ACIDS FROM LEAVES TO OTHER PLANT PARTS. STARCH, BEING INSOLUBLE, REMAINS IN LEAVES, WHILE PHLOEM TRANSPORTS OTHER ESSENTIAL MATERIALS.
-
-VEINS IN LEAVES CONTAIN BOTH XYLEM AND PHLOEM TISSUES, WHICH BRANCH EXTENSIVELY TO SERVE ALL LEAF REGIONS.
+Starch is insoluble and so cannot be transported around the plant. The phloem carries only soluble substances such as sugars (mainly sucrose) and amino acids. These are converted into other compounds when they reach their destination.
 
 ## FACTORS AFFECTING THE RATE OF PHOTOSYNTHESIS
 
-THE RATE OF PHOTOSYNTHESIS IS INFLUENCED BY SEVERAL FACTORS:
-
-- **LIGHT INTENSITY**: WHILE INCREASED LIGHT ENHANCES PHOTOSYNTHESIS, THE RATE PLATEAUS DUE TO LIMITED CARBON DIOXIDE. BEYOND THIS POINT, OTHER FACTORS LIKE TEMPERATURE BECOME SIGNIFICANT.
-
-- **CARBON DIOXIDE LEVELS**: HIGHER CONCENTRATIONS IN A CONTROLLED ENVIRONMENT BOOST PHOTOSYNTHETIC RATES. HOWEVER, ATMOSPHERIC CO2 LEVELS (TYPICALLY 0.03–0.04%) OFTEN LIMIT MAXIMUM RATES.
-
-- **TEMPERATURE EFFECTS**: PHOTOSYNTHESIS RISES WITH TEMPERATURE BUT SLOWS AT VERY LOW OR HIGH EXTREMES. HIGH TEMPERATURES CAN DENATURE ENZYMES, REDUCING EFFICIENCY.
-
-THE CONCEPT OF A LIMITING FACTOR EXPLAINS THAT THE AVAILABILITY OF ANY NECESSARY COMPONENT RESTRICTS REACTION RATE, HIGHLIGHTING HOW MULTIPLE FACTORS INTERACT TO AFFECT PHOTOSYNTHESIS.
-
-# PLANT PHYSIOLOGY: PLANTS AND FOOD
-
-## KEY POINTS
-LIGHT INTENSITY, CARBON DIOXIDE CONCENTRATION, AND TEMPERATURE CAN ALL ACT AS LIMITING FACTORS IN THE PROCESS OF PHOTOSYNTHESIS. UNDERSTANDING THESE FACTORS IS CRUCIAL FOR OPTIMIZING THE GROWTH OF CROP PLANTS, SUCH AS TOMATOES AND LETTUCES, ESPECIALLY IN CONTROLLED ENVIRONMENTS LIKE GLASSHOUSES.
-
-### LIMITING FACTORS IN GLASSHOUSES
-IN GLASSHOUSES, EXTRA CARBON DIOXIDE IS OFTEN ADDED TO THE AIR AROUND THE PLANTS USING GAS BURNERS. THIS HIGHER CONCENTRATION OF CARBON DIOXIDE, COMBINED WITH ELEVATED TEMPERATURES, SIGNIFICANTLY INCREASES THE RATE OF PHOTOSYNTHESIS, LEADING TO ENHANCED GROWTH OF LEAVES AND FRUITS.
-
-LIGHT INTENSITY, CARBON DIOXIDE CONCENTRATION, AND TEMPERATURE CAN ALL ACT AS LIMITING FACTORS ON THE RATE OF PHOTOSYNTHESIS.
-
-## ACTIVITY 2: PRACTICAL - MEASURING THE RATE OF PHOTOSYNTHESIS USING PONDWEED
-
-### SAFETY NOTE
-- WASH HANDS AFTER COLLECTING AND PREPARING PONDWEED.
-- DO NOT HANDLE THE LAMP, PLUG, OR SWITCH WITH WET HANDS.
-
-### MEASURING PHOTOSYNTHESIS
-YOU CAN MEASURE THE RATE OF PHOTOSYNTHESIS IN A PLANT BY OBSERVING HOW QUICKLY IT PRODUCES OXYGEN. WHILE THIS IS CHALLENGING WITH LAND PLANTS (AS OXYGEN IS RELEASED INTO THE AIR), IT IS EASIER WITH AQUATIC PLANTS LIKE ELODEA. IN THIS CASE, BUBBLES OF OXYGEN ARE RELEASED INTO THE WATER SURROUNDING THE PLANT.
-
-TO MEASURE THE RATE OF PHOTOSYNTHESIS:
-1. COUNT THE NUMBER OF BUBBLES FORMED PER MINUTE. THIS COUNT SERVES AS AN INDICATOR OF THE PHOTOSYNTHESIS RATE.
-2. FOR ACCURATE COUNTING, PLACE A CUT PIECE OF PONDWEED UPSIDE DOWN IN A TEST TUBE. A SMALL PAPERCLIP CAN BE ATTACHED TO THE BOTTOM OF THE WEED TO HELP IT SINK.
-
-BY UNDERSTANDING AND MANIPULATING THESE FACTORS, YOU CAN EFFECTIVELY STUDY THE PROCESS OF PHOTOSYNTHESIS AND ITS IMPACT ON PLANT GROWTH.
-
-# PLANT PHYSIOLOGY: PLANTS AND FOOD
-
-## EXPERIMENT DESIGN: INVESTIGATING PHOTOSYNTHESIS
-
-### OBJECTIVE
-DESIGN AN EXPERIMENT TO DETERMINE IF THE RATE OF PHOTOSYNTHESIS IS AFFECTED BY LIGHT INTENSITY.
-
-### PLAN COMPONENTS
-
-1. **HYPOTHESIS**: WE PREDICT THAT INCREASING LIGHT INTENSITY WILL ENHANCE THE RATE OF PHOTOSYNTHESIS, AS MORE PHOTONS WILL BE AVAILABLE FOR PHOTON REACTIONS IN CHLOROPLASTS.
-
-2. **SYSTEMATIC VARIATION**: THE EXPERIMENT WILL SYSTEMATICALLY VARY LIGHT INTENSITY USING DIFFERENT LEVELS OF ARTIFICIAL LIGHTING, WHILE MAINTAINING OTHER CONDITIONS CONSTANT.
-
-3. **CONTROL MEASURES**: TO ISOLATE THE EFFECT OF LIGHT INTENSITY, ALL EXPERIMENTS WILL BE CONDUCTED UNDER CONTROLLED ENVIRONMENTAL CONDITIONS WITH A CONSISTENT TEMPERATURE AND CO2 SUPPLY. BACKGROUND LIGHT WILL BE MINIMIZED TO AVOID CONFOUNDING EFFECTS.
-
-4. **CONTROL EXPERIMENT**: A CONTROL EXPERIMENT WITHOUT ANY ADDITIONAL LIGHT MANIPULATION WILL SERVE AS A BASELINE TO COMPARE RESULTS AGAINST.
-
-5. **RELIABILITY OF RESULTS**: THE EXPERIMENT WILL BE REPEATED MULTIPLE TIMES WITH DIFFERENT SAMPLES TO ENSURE RELIABILITY, AND DATA WILL BE COLLECTED AT CONSISTENT INTERVALS TO MINIMIZE VARIABILITY.
-
-### MODIFYING THE EXPERIMENT
-TO INVESTIGATE THE EFFECT OF TEMPERATURE ON PHOTOSYNTHESIS:
-
-- **FACTORS TO KEEP CONSTANT**: TEMPERATURE WILL BE VARIED WHILE MAINTAINING CONSTANT LIGHT INTENSITY AND CO2 LEVELS.
-- **TEMPERATURE RANGE**: A SUITABLE RANGE COULD BE 20°C TO 40°C, DEPENDING ON THE PLANT SPECIES BEING STUDIED.
-
-## THE PLANT'S USES FOR GLUCOSE
-
-PLANTS PRODUCE GLUCOSE THROUGH PHOTOSYNTHESIS, WHICH IS UTILIZED IN SEVERAL WAYS:
-
-1. **ENERGY SOURCE**: SOME GLUCOSE IS CONSUMED DURING RESPIRATION TO PROVIDE ENERGY FOR CELLULAR PROCESSES.
-2. **STORAGE**: EXCESS GLUCOSE CAN BE CONVERTED INTO STARCH FOR STORAGE IN PLANT TISSUES.
-3. **SYNTHESIS OF ORGANIC MOLECULES**: GLUCOSE SERVES AS A RAW MATERIAL FOR SYNTHESIZING VARIOUS ORGANIC COMPOUNDS, INCLUDING:
-   - **FRUCTOSE**: A MONOSACCHARIDE FOUND IN FRUITS.
-   - **SUCROSE**: A DISACCHARIDE THAT IS THE PRIMARY SUGAR TRANSPORTED IN THE PHLOEM.
-   - **CELLULOSE**: A POLYSACCHARIDE ESSENTIAL FOR PLANT CELL WALL STRUCTURE.
-
-### OTHER COMPOUNDS DERIVED FROM GLUCOSE
-
-1. **LIPIDS**: GLUCOSE CAN BE CONVERTED INTO FATS AND OILS, WHICH ARE CRUCIAL FOR CELLULAR MEMBRANES AND ENERGY STORAGE IN SEEDS AND FRUITS (E.G., PEANUTS, SUNFLOWER SEEDS, OLIVES).
-
-2. **PROTEINS**: WHILE CARBOHYDRATES AND LIPIDS CONSIST OF CARBON, HYDROGEN, AND OXYGEN, PROTEINS ALSO REQUIRE NITROGEN OBTAINED FROM NITRATE IONS ABSORBED BY PLANTS.
-
-3. **MINERAL IONS**: PLANTS ABSORB VARIOUS MINERAL IONS FROM THE SOIL, SUCH AS MAGNESIUM (ESSENTIAL FOR CHLOROPHYLL PRODUCTION) AND PHOSPHATES.
-
-### SUMMARY OF PLANT COMPOUNDS
-FIGURE 10.9 ILLUSTRATES THE INTERCONNECTED SYNTHESIS PATHWAYS OF COMPOUNDS DERIVED FROM GLUCOSE, HIGHLIGHTING THEIR INTERDEPENDENCE.
+When the light intensity rises, the rate of photosynthesis begins by rising too, but eventually it reaches a maximum rate. What makes the rate 'level off' (flatten) like this? It is because some other factor needed for photosynthesis is in short supply, so that increasing the light intensity does not affect the rate any more. Normally, the factor which 'holds back' the rate of photosynthesis is the concentration of carbon dioxide in the air. This is only about 0.03 to 0.04%, and the plant can only take up the carbon dioxide and fix it into carbohydrate at a certain rate. If the plant is put in a closed container with a higher than normal concentration of carbon dioxide, it will photosynthesise at a faster rate. If there is both a high light intensity and a high level of carbon dioxide, the temperature may limit the rate of photosynthesis, by limiting the rate of the chemical reactions in the leaf. A rise in temperature will then increase the rate. With normal levels of carbon dioxide, very low temperatures (close to 0 °C) slow the reactions, but high temperatures (above about 35 °C) also reduce photosynthesis by denaturing enzymes in the plant cells (see Chapter 1).
 
 ### KEY POINT
-GLUCOSE PRODUCED DURING PHOTOSYNTHESIS FUNCTIONS BOTH AS AN ENERGY SOURCE THROUGH RESPIRATION AND AS A PRECURSOR FOR SYNTHESIZING LARGER MOLECULES LIKE STARCH, CELLULOSE, LIPIDS, PROTEINS, AND OTHER COMPOUNDS. THE CONVERSION OF SMALLER MOLECULES INTO LARGER ONES REQUIRES ENERGY, WHICH IS DERIVED FROM GLUCOSE METABOLISM.
 
-# PLANT PHYSIOLOGY: WATER CULTURE EXPERIMENTS
-
-## MINERAL NUTRITION
-
-PLANTS REQUIRE VARIOUS MINERAL IONS FOR HEALTHY GROWTH, WHICH THEY ABSORB FROM THE SOIL WATER. KEY MINERALS INCLUDE:
-
-- **NITRATE IONS**: ESSENTIAL FOR PROTEIN SYNTHESIS.
-- **PHOSPHATE IONS**: IMPORTANT FOR DNA AND ENERGY TRANSFER.
-- **POTASSIUM IONS**: NECESSARY FOR ENZYME FUNCTION IN RESPIRATION AND PHOTOSYNTHESIS.
-- **MAGNESIUM IONS**: A CRUCIAL COMPONENT OF CHLOROPHYLL.
-
-IN ADDITION TO THE IONS LISTED IN KNOP'S SOLUTION, PLANTS NEED VERY SMALL AMOUNTS OF OTHER MINERAL IONS FOR HEALTHY GROWTH. INTERESTINGLY, KNOP'S CULTURE SOLUTION WORKED EFFECTIVELY BECAUSE THE CHEMICALS HE USED WERE NOT VERY PURE, INADVERTENTLY SUPPLYING THESE ADDITIONAL IONS.
-
-## KNOP'S SOLUTION
-
-IN THE 19TH CENTURY, GERMAN BIOLOGIST WILHELM KNOP DEVELOPED A CULTURE SOLUTION THAT ALLOWS PLANTS TO GROW WITHOUT SOIL. THIS SOLUTION CONTAINS THE FOLLOWING CHEMICALS PER DM³ OF WATER:
-
-- **0.8G CALCIUM NITRATE**
-- **0.2G MAGNESIUM SULFATE**
-- **0.2G POTASSIUM NITRATE**
-- **0.2G POTASSIUM DIHYDROGEN PHOSPHATE**
-- **(TRACE) IRON(III) PHOSPHATE**
-
-THESE COMPONENTS PROVIDE ALL THE ESSENTIAL ELEMENTS THAT PLANTS NEED TO SYNTHESIZE PROTEINS, DNA, AND CHLOROPHYLL, AS WELL AS OTHER COMPOUNDS DERIVED FROM GLUCOSE. THIS IS KNOWN AS A COMPLETE CULTURE SOLUTION.
-
-## EXPERIMENTING WITH CULTURE SOLUTIONS
-
-IF YOU WERE TO CREATE A SIMILAR SOLUTION BUT REPLACE MAGNESIUM SULFATE WITH CALCIUM SULFATE, THE RESULTING SOLUTION WOULD BE DEFICIENT IN MAGNESIUM. BY GROWING PLANTS IN BOTH THE COMPLETE AND DEFICIENT SOLUTIONS, YOU CAN COMPARE THEIR GROWTH OUTCOMES.
-
-## GROWING PLANTS IN WATER CULTURES
-
-THERE ARE VARIOUS METHODS TO GROW PLANTS IN WATER CULTURES. ONE SIMPLE METHOD INVOLVES USING A SETUP LIKE THE ONE SHOWN IN FIGURE 10.10, WHICH IS EFFECTIVE FOR PLANT CUTTINGS.
-
-### FIGURE 10.10: A SIMPLE WATER CULTURE METHOD
-- THE PLANT IS KEPT IN BRIGHT LIGHT TO FACILITATE PHOTOSYNTHESIS.
-- ALUMINIUM FOIL COVERING PREVENTS ALGAE GROWTH IN THE CULTURE SOLUTION.
-- AN AERATION TUBE SUPPLIES OXYGEN TO THE ROOTS FOR RESPIRATION, AS SOME IONS ARE TAKEN UP BY ACTIVE TRANSPORT.
-
-USING METHODS LIKE THIS, IT BECOMES EVIDENT THAT MINERAL DEFICIENCIES LEAD TO POOR PLANT GROWTH. A SHORTAGE OF A SPECIFIC MINERAL RESULTS IN DISTINCT SYMPTOMS IN THE PLANTS, HIGHLIGHTING THE IMPORTANCE OF BALANCED MINERAL NUTRITION FOR HEALTHY PLANT DEVELOPMENT.
-
-# PLANT PHYSIOLOGY: PLANTS AND FOOD
-
-PLANTS REQUIRE VARIOUS MINERAL IONS TO GROW AND THRIVE. WHEN THEY LACK ESSENTIAL NUTRIENTS, SPECIFIC SYMPTOMS KNOWN AS MINERAL DEFICIENCY DISEASES APPEAR. UNDERSTANDING THESE DEFICIENCIES IS CRUCIAL FOR MAINTAINING HEALTHY PLANTS.
-
-## ESSENTIAL MINERAL IONS IN PLANTS
-
-THE TABLE BELOW SUMMARIZES THE KEY MINERAL IONS NEEDED BY PLANTS, THEIR FUNCTIONS, AND THE ASSOCIATED DEFICIENCY SYMPTOMS:
-
-| **MINERAL ION** | **FUNCTION**                                                                 | **DEFICIENCY SYMPTOMS**                                   |
-|------------------|-----------------------------------------------------------------------------|----------------------------------------------------------|
-| NITRATE          | SYNTHESIS OF AMINO ACIDS, PROTEINS, CHLOROPHYLL, DNA, AND OTHER COMPOUNDS    | LIMITED GROWTH; OLDER LEAVES TURN YELLOW               |
-| PHOSPHATE        | ROLE IN DNA SYNTHESIS, CELL MEMBRANES, AND MANY BIOCHEMICAL PROCESSES         | POOR ROOT DEVELOPMENT; YOUNGER LEAVES TURN PURPLE      |
-| POTASSIUM       | ESSENTIAL FOR ENZYME ACTIVITY IN RESPIRATION AND PHOTOSYNTHESIS             | LEAVES DEVELOP DEAD SPOTS WITH YELLOWING                |
-| MAGNESIUM       | A COMPONENT OF CHLOROPHYLL, CRUCIAL FOR PHOTOSYNTHESIS                   | LEAVES TURN YELLOW                                       |
-
-UNDERSTANDING THESE MINERALS' ROLES HELPS IN IDENTIFYING DEFICIENCIES THAT AFFECT PLANT HEALTH.
-
-## OBSERVING DEFICIENCY SYMPTOMS
-
-COMPARING PLANTS WITH MINERAL DEFICIENCIES TO HEALTHY CONTROLS PROVIDES VALUABLE INSIGHTS. FIGURES 10.11(A) THROUGH (E) ILLUSTRATE VARIOUS DEFICIENCY SYMPTOMS:
-
-- **FIGURE 10.11 (A)**: A HEALTHY BEAN PLANT AS A REFERENCE.
-- **FIGURE 10.11 (B)**: NITRATE DEFICIENCY SYMPTOMS INCLUDE LIMITED GROWTH AND YELLOWING OF OLDER LEAVES.
-- **FIGURE 10.11 (C)**: PHOSPHATE DEFICIENCY MANIFESTS IN POOR ROOT GROWTH AND PURPLE YOUNGER LEAVES.
-- **FIGURE 10.11 (D)**: POTASSIUM DEFICIENCY CAUSES LEAF SPOTS AND YELLOWING.
-- **FIGURE 10.11 (E)**: MAGNESIUM DEFICIENCY RESULTS IN WIDESPREAD YELLOWING.
-
-BY EXAMINING THESE VISUAL CUES, GARDENERS AND FARMERS CAN IDENTIFY NUTRIENT ISSUES AND IMPLEMENT CORRECTIVE MEASURES.
-
-## RECOGNIZING SYMPTOMS FOR PLANT HEALTH
-
-RECOGNIZING MINERAL DEFICIENCIES ALLOWS FOR TIMELY INTERVENTIONS TO ENSURE PLANT HEALTH. THE SYMPTOMS, SUCH AS LEAF DISCOLORATION AND GROWTH ANOMALIES, INDICATE SPECIFIC NUTRIENT NEEDS. ADDRESSING THESE DEFICIENCIES SUPPORTS ROBUST PLANT DEVELOPMENT AND PRODUCTIVITY.
-
-# PLANT PHYSIOLOGY: PLANTS AND FOOD
-
-## DID YOU KNOW?
-SOME COMMERCIAL CROPS, SUCH AS LETTUCES, CAN BE GROWN WITHOUT SOIL IN CULTURE SOLUTIONS. THIS METHOD IS CALLED HYDROPONICS. IN HYDROPONICS, THE PLANTS' ROOTS GROW IN A LONG PLASTIC TUBE THAT HAS A CULTURE SOLUTION PASSING THROUGH IT. THE COMPOSITION OF THE SOLUTION CAN BE CAREFULLY ADJUSTED TO ENSURE OPTIMAL GROWTH FOR THE PLANTS. ADDITIONALLY, PESTS SUCH AS INSECTS, WHICH MIGHT TYPICALLY LIVE IN SOIL, ARE LESS OF A PROBLEM IN THIS SYSTEM.
-
-!LETTUCE PLANTS GROWN BY HYDROPONICS
-
-----
-
-## LOOKING AHEAD: MORE ABOUT PHOTOSYNTHESIS
-THE ROLE OF CHLOROPHYLL IS TO ABSORB LIGHT ENERGY NEEDED TO DRIVE PHOTOSYNTHESIS. THE PRODUCTS OF THIS REACTION, GLUCOSE AND OXYGEN, CONTAIN MORE CHEMICAL ENERGY THAN THE REACTANTS, WHICH ARE CARBON DIOXIDE AND WATER.
-
-### PHOTOSYNTHESIS OVERVIEW
-PHOTOSYNTHESIS CAN BE SUMMARIZED BY THE EQUATION:
-\[ 6CO_2 + 6H_2O \RIGHTARROW C_6H_{12}O_6 + 6O_2 \]
-THIS EQUATION REPRESENTS A SERIES OF REACTIONS THAT OCCUR IN TWO STAGES:
-
-1. **LIGHT-DEPENDENT REACTIONS**
-   - THESE REACTIONS TAKE PLACE IN THE PRESENCE OF LIGHT.
-   - LIGHT ENERGY ABSORBED BY CHLOROPHYLL IS USED TO SPLIT WATER MOLECULES INTO HYDROGEN AND OXYGEN. THE OXYGEN PRODUCED IS RELEASED AS A WASTE PRODUCT.
-   - AT THE SAME TIME, LIGHT ENERGY CONVERTS ADP AND PHOSPHATE INTO ATP.
-
-2. **LIGHT-INDEPENDENT REACTIONS**
-   - THESE REACTIONS DO NOT REQUIRE LIGHT.
-   - THE HYDROGEN ATOMS FROM THE WATER AND ENERGY FROM ATP ARE USED TO REDUCE CARBON DIOXIDE TO GLUCOSE.
-
-# PLANT PHYSIOLOGY
-
-## CHAPTER QUESTIONS
-
-### SKILLS AND REASONING
-
-PLANTS AND FOOD ARE CENTRAL TO UNDERSTANDING PLANT PHYSIOLOGY. THIS AREA IS EXPLORED FURTHER IN UNIT 3.
-
-### EXPERIMENT WITH VARIEGATED LEAVES
-
-A VARIEGATED LEAF WAS PLACED IN A TEST TUBE CONTAINING SODA LIME TO ABSORB CARBON DIOXIDE. THE PLANT WAS EXPOSED TO BRIGHT LIGHT FOR 24 HOURS, AFTER WHICH STARCH WAS TESTED USING IODINE SOLUTION. THIS EXPERIMENT EXAMINES THE ROLE OF LIGHT IN PHOTOSYNTHESIS AND STARCH PRODUCTION.
-
-### FACTORS AFFECTING PHOTOSYNTHESIS
-
-THE RATE OF PHOTOSYNTHESIS CAN BE LIMITED BY SEVERAL FACTORS. TEMPERATURE, OXYGEN CONCENTRATION, CARBON DIOXIDE CONCENTRATION, AND LIGHT INTENSITY ARE ALL CRITICAL VARIABLES THAT INFLUENCE THIS PROCESS.
-
-### IMPORTANCE OF MAGNESIUM IONS
-
-CHLOROPHYLL REQUIRES MAGNESIUM IONS FOR ITS SYNTHESIS. WITHOUT THESE IONS, CHLOROPHYLL CANNOT BE PRODUCED, WHICH IS ESSENTIAL FOR PHOTOSYNTHESIS. THIS HIGHLIGHTS THE SIGNIFICANCE OF MAGNESIUM IN PLANT NUTRITION.
-
-THIS RESTRUCTURED FORMAT PRESENTS THE INFORMATION CLEARLY, MAKING IT EASIER TO UNDERSTAND THE CONCEPTS RELATED TO PLANT PHYSIOLOGY, PARTICULARLY IN THE CONTEXT OF PHOTOSYNTHESIS AND NUTRIENT ROLES.
-
-# PLANT PHYSIOLOGY: PLANTS AND FOOD
-
-## UNDERSTANDING PLANT FUNCTIONS
-
-### CRITICAL THINKING SKILLS
-
-AN EXPERIMENT WAS CONDUCTED ON A PLANT WITH VARIEGATED LEAVES. A BLACK PAPER WAS PLACED OVER ONE LEAF, COVERING IT COMPLETELY ON BOTH SIDES. THE PLANT WAS EXPOSED TO BRIGHT LIGHT FOR 24 HOURS. AFTER THIS PERIOD, THE PAPER WAS REMOVED, AND THE LEAF WAS TESTED FOR STARCH.
-
-1. **CHEMICAL USED TO TEST FOR STARCH:** IODINE SOLUTION.
-2. **COLOUR CHANGE IF STARCH IS PRESENT:** THE LEAF TURNS BLUE-BLACK.
-3. **LEAF OUTLINE SHADING:** STUDENTS SHOULD DRAW THE LEAF'S OUTLINE AND SHADE AREAS EXPOSED TO LIGHT, AS THESE WOULD CONTAIN STARCH.
-4. **EXPLANATION OF STARCH PRESENCE IN SHADED AREAS:** AREAS EXPOSED TO LIGHT UNDERGO PHOTOSYNTHESIS, PRODUCING STARCH. COVERED AREAS LACK LIGHT, SO NO STARCH IS PRODUCED.
-
-### REASONING SKILLS
-
-STARCH SERVES AS A STORAGE FORM OF ENERGY IN PLANTS. ITS INSOLUBLE NATURE MAKES IT SUITABLE FOR ENERGY STORAGE WITHOUT DISRUPTING CELLULAR OSMOTIC BALANCE.
-
-### INTERPRETATION SKILLS
-
-COMPLETE THE TABLE TO SHOW LEAF PARTS' FUNCTIONS AND ADAPTATIONS:
-
-| PART OF LEAF            | FUNCTION                                   | ADAPTATION                                      |
-|------------------------|--------------------------------------------|-------------------------------------------------|
-| PALISADE MESOPHYLL     | PHOTOSYNTHESIS SITE                        | CONTAINS MANY CHLOROPLASTS FOR PHOTOSYNTHESIS   |
-| SPONGY MESOPHYLL       | GAS EXCHANGE AND LIGHT PENETRATION         | LOOSELY PACKED CELLS WITH AIR SPACES FOR GAS DIFFUSION |
-| STOMATA                | REGULATES GAS EXCHANGE                     | PORES THAT OPEN/CLOSE TO CONTROL WATER LOSS      |
-| XYLEM                  | TRANSPORTS WATER AND MINERALS              | HOLLOW TUBES FACILITATE UPWARD WATER MOVEMENT  |
-| PHLOEM                 | TRANSPORTS SUGARS AND NUTRIENTS            | LIVING CELLS TRANSPORT ORGANIC COMPOUNDS THROUGHOUT THE PLANT |
-
-### SUBSTANCES MADE BY PLANTS
-
-TABLE OF SUBSTANCES AND THEIR USES:
-
-| SUBSTANCE   | USE                                                   |
-|-------------|-------------------------------------------------------|
-| GLUCOSE     | OXIDIZED IN RESPIRATION FOR ENERGY                   |
-| SUCROSE     | TRANSPORTED TO OTHER PARTS FOR ENERGY               |
-| STARCH      | STORED AS ENERGY FOR LATER USE                     |
-| CELLULOSE   | PROVIDES STRUCTURAL SUPPORT IN CELL WALLS           |
-| PROTEIN     | USED FOR GROWTH AND REPAIR OF TISSUES               |
-| LIPID       | STORED AS ENERGY AND USED IN CELL MEMBRANES          |
-
-THIS STRUCTURED APPROACH ENHANCES UNDERSTANDING OF PLANT FUNCTIONS, THEIR ADAPTATIONS, AND THE SUBSTANCES THEY PRODUCE.
-
-# PLANT PHYSIOLOGY: PLANTS AND FOOD
-
-## SKILLS AND REASONING
-
-### EXPERIMENT WITH PEA SEEDLING
-IN A WATER CULTURE EXPERIMENT, A PEA SEEDLING WAS GROWN USING A SPECIFIC APPARATUS. THE SETUP INCLUDED AN AERATION TUBE DESIGNED TO PROVIDE OXYGEN TO THE ROOTS, ENSURING PROPER ROOT RESPIRATION FOR HEALTHY GROWTH. ADDITIONALLY, ALUMINIUM FOIL WAS USED TO BLOCK LIGHT, PREVENTING ALGAE GROWTH THAT COULD COMPETE WITH THE SEEDLING FOR NUTRIENTS AND LIGHT.
-
-AFTER TWO WEEKS, IT WAS OBSERVED THAT WHILE THE LEAVES OF THE PEA SEEDLING DEVELOPED NORMALLY, THE ROOTS APPEARED DEFICIENT. THIS SUGGESTED A POTENTIAL DEFICIENCY IN THE CULTURE SOLUTION. THE QUESTION AROSE: WHAT MINERAL ION IS LIKELY MISSING?
-
-THE DEFICIENCY WAS IDENTIFIED AS PHOSPHORUS, WHICH IS ESSENTIAL FOR ROOT DEVELOPMENT.
+A limiting factor is the component of a reaction that is in 'shortest supply' so that it prevents the rate of the reaction increasing; in other words sets a 'limit' to it.
+---
+PLANT PHYSIOLOGY                          PLANTS AND FOOD                                                                127
+
+## KEY POINT
+
+Knowledge of limiting factors is used in some glasshouses (greenhouses) to speed up the growth of crop plants such as tomatoes and lettuces (see Chapter 15). Extra carbon dioxide is added to the air around the plants, by using gas burners. The higher concentration of carbon dioxide, along with the high temperature in the glasshouse, increases the rate of photosynthesis and the growth of the leaves and fruits.
+
+Light intensity, carbon dioxide concentration and temperature can all act as what are called limiting factors in this way. This is easier to see as a graph (Figure 10.7).
+
+| Condition | CO2 Concentration | Temperature |
+|-----------|-------------------|-------------|
+| High      | 0.15% CO2         | 30°C        |
+| Medium    | 0.15% CO2         | 20°C        |
+| Low       | 0.03% CO2         | 20°C or 30°C|
+
+Figure 10.7 Light intensity, carbon dioxide concentration and temperature can all act as limiting factors on the rate of photosynthesis.
+
+## ACTIVITY 2
+
+### PRACTICAL: MEASURING THE RATE OF PHOTOSYNTHESIS USING PONDWEED
+
+> Safety note: Wash hands after collecting and preparing pondweed. Do not handle the lamp, plug or switch with wet hands.
+
+You can measure the rate of photosynthesis of a plant by measuring how quickly it produces oxygen. With a land plant this is difficult, because the oxygen is released into the air, but with an aquatic plant such as the pondweed Elodea, bubbles of oxygen are released into the water around the plant (Figure 10.5).
+
+If the bubbles formed per minute are counted, this is a measure of the rate of photosynthesis of the plant. It is easiest to count the bubbles if the cut piece of weed is placed upside down in a test tube, as shown in Figure 10.8. A small paperclip attached to the bottom of the piece of weed makes it sink.
+
+Figure 10.8 Measuring the rate of photosynthesis in an aquatic plant.
+
+The light intensity is changed by moving the lamp, altering the distance between the lamp and the pondweed. The beaker of water keeps the temperature of the plant constant.
+---
+128 PLANT PHYSIOLOGY                                PLANTS AND FOOD
+
+                                                     Design an experiment using this apparatus to find out if the rate of
+                                                     photosynthesis is affected by the light intensity: In your plan you should
+                                                    include:
+                                                      hypothesis  state what you think will happen when you change the
+                                                      light intensity, and why
+                                                      systematic way of changing the light intensity
+                                                                                                nothing else is
+                                                      how the experiment will be controlled so that
+                                                      changed apart from the light intensity (e.g: what will you do about the
+                                                      background light in the laboratory?)
+                                                      a Control that you could use, to show that it is the effect of light on the
+                                                      pondweed that is producing the bubbles
+                                                      how you will ensure that your results are reliable
+                                                     When you have completed your plan; you may be allowed to use
+                                                     similar apparatus to carry out the experiment: How could you modify
+                                                     your plan to find the effect of changing the temperature on the rate of
+                                                     photosynthesis? What factors would you need to keep constant this
+                                                     time? What would be a suitable range of temperatures to use?
+
+              THE PLANT'S USES FOR GLUCOSE         As you have seen, some glucose that the plant makes is used in respiration to
+                                                   provide the plant's cells with energy: Some glucose is quickly converted into
+                                                   starch for storage. However; a plant is not made up of just glucose and starch
+                     glucose                       and must make all of its organic molecules, starting from glucose
+                  (aalso used
+                for respiration)                   Glucose is a single sugar unit (a monosaccharide) Plant cells can convert it
+   sucrose for                                     into other sugars such as a monosaccharide called fructose (found in fruits)
+      transport                                    and the disaccharide sucrose, which is the main sugar carried in the phloem_
+                                 chlorophyl)       It can also be changed into another polymer; the polysaccharide called
+    starch for                                     cellulose , which forms plant cell walls.
+       storage              lipids                 AIl these compounds are carbohydrates. Plant cells can also convert glucose
+              cellulose   oil in seeds             into lipids (fats and oils). Lipids are needed for the membranes of all cells, and
+               for                                 are also an energy store in many seeds and fruits, such as peanuts, sunflower
+              cell walls                           seeds and olives_
+                    proteins    magnesium          Carbohydrates and lipids both contain only three elements carbon,
+                    and DNA        ions            hydrogen and oxygen and so they can be inter-converted without the
+                                from soil          need for a supply of other elements. Proteins contain these elements too,
+                  mineral ions                     but all amino acids (the building blocks of proteins) also contain nitrogen.
+                     from soil                     This is obtained as nitrate ions from the soil, through the plant's roots:
+                       nitrates,                   Other compounds in plants contain other elements For example, chlorophyll
+                  phosphates)                      contains magnesium ions, which are also absorbed from water in the soil:
+
+       Figure 10.9 Compounds that plant cells can  Some of the products that a plant makes from glucose are summarised in
+       make from glucose.                          Figure 10.9.
+                                                    KEY POINT
+                                                    Glucose from photosynthesis is not just used as the raw material for the production
+                                                    of molecules such as starch, cellulose, lipids and proteins. Reactions like these,
+                                                    which synthesise large molecules from smaller ones, also need a source of energy:
+                                                   This energy is provided by the plant's respiration of glucose.
+---
+PLANT PHYSIOLOGY                       PLANTS AND FOOD                                                             129
+
+                                        MINERAL NUTRITION
+
+                                      Nitrate ions are absorbed from the soil water; along with other minerals such
+                                      asphosphate, potassium and magnesium ions_ The element phosphorus
+                                      is needed for the plant cells to make many important compounds;
+                                      including DNA. Potassium ions are required for enzymes in respiration and
+                                      photosynthesis to work, and magnesium forms a part of the chlorophyll
+                                      molecule_
+
+WATER CULTURE EXPERIMENTS              A plant takes only water and mineral ions from the soil for growth Plants can
+                                      be grown in soil-free cultures (water cultures) if the correct balance of minerals
+                                      is added to the water: In the nineteenth century, the German biologist Wilhelm
+                                      Knop invented one example of a culture solution: Knop's solution contains the
+                                      following chemicals (per dm? of water):
+                                            0.8g      calcium nitrate
+                                            0.2g      magnesium sulfate
+                                            0.2g      potassium nitrate
+                                            0.2g      potassium dihydrogenphosphate
+                                            (trace)   iron(Ill) phosphate
+
+ DID YOU KNOW?                        Notice that these chemicals provide all of the main elements that the plant
+ In fact; in addition to the ions     needs to make proteins, DNA and chlorophyll; as well as other compounds
+                                      from glucose. It is called a complete culture solution If you were to make a
+ listed in Knop's solution; plants    similar solution; but to replace, for example, magnesium sulfate with more
+ needverysmall amounts of             calcium sulfate, this would produce a culture solution which was deficient
+ other mineral ions for healthy       (lacking) in magnesium_ You could then grow plants in the complete and
+ growth: Knop's culture solution      deficient solutions, and compare the results_ There are several ways to grow
+                                      the plants, such as using the apparatus shown in Figure 10.10, which is useful
+ only worked because the              for plant cuttings. Seedlings can be grown by packing cotton wool around the
+ chemicals he used to make his        seed, instead ofusinga rubber bung:
+ solutions weren't very pure;                                                             plant cutting
+ and supplied enough of these
+ additional ions by mistakel                                 air
+
+                                                                                     aluminium foil
+                                                 tube for aeration                   covering flask
+                                                                                     roots
+
+                                                  culture solution
+
+                                         Figure 10.10 A simple water culture method
+                                      The plant is kept in bright light; so that it can photosynthesise_ The covering
+                                      around the flask prevents algae from growing in the culture solution. The
+                                      aeration tube is used for short periods to supply the roots with oxygen for
+                                      respiration of the root cells; since some ions are taken up by active transport
+                                      Usingmethods like this, it soon becomes clear that mineral deficiencies result
+                                      in poor plant growth: A shortage of a particular mineral results in particular
+---
+symptoms in the plant, called a mineral deficiency disease. For example, lack of magnesium means that the plant won't be able to make chlorophyll, and the leaves will turn yellow. Lack of nitrate limits a plant's growth, because it is unable to make enough protein. Some of the mineral ions that a plant needs, their uses, and the deficiency symptoms are shown in Table 10.1. Compare the photographs of the mineral deficient plants to those of the control plant in Figure 10.11(a).
+
+Table 10.1: Mineral ions needed by plants
+
+| Mineral ion | Use | Deficiency symptoms |
+|-------------|-----|---------------------|
+| nitrate | making amino acids, proteins, chlorophyll, DNA and many other compounds | limited growth of plant; older leaves turn yellow |
+| phosphate | making DNA and many other compounds; part of cell membranes | poor root growth; younger leaves turn purple |
+| potassium | needed for enzymes of respiration and photosynthesis to work | leaves turn yellow with dead spots |
+| magnesium | part of chlorophyll molecule | leaves turn yellow |
+
+Figure 10.11 (a) A healthy bean plant
+
+Figure 10.11 (b) A plant showing symptoms of nitrate deficiency.
+
+Figure 10.11 (c) A plant showing symptoms of phosphate deficiency.
+
+Figure 10.11 (d) A plant showing symptoms of potassium deficiency.
+
+Figure 10.11 (e) A plant showing symptoms of magnesium deficiency.
+
+(Note: The images in the figure show plants in pots with varying leaf colors and sizes corresponding to the deficiencies described in the table.)
+---
+PLANT PHYSIOLOGY                        PLANTS AND FOOD                                                            131
+
+ DID YOU KNOW?
+ Some commercial crops such as
+ lettuces can be grown without
+ soil in culture solutions. This is
+ called hydroponics: The plants'
+ roots grow in a long plastic tube
+ that has culture solution passing
+ through it (Figure 10.12). The
+ composition of the solution can
+ be carefully adjusted to ensure
+ the plants grow well. Pests such
+ as insects, which might live in
+ soil, are also less of a problem.       Figure 10.12 Lettuce plants grown by hydroponics
+
+                                         LOOKING AHEAD         MORE ABOUT PHOTOSYNTHESIS
+                                          The role of chlorophyll is to absorb the light energy needed to drive
+                                          photosynthesis The products of the reaction (glucose and oxygen)
+                                          contain more chemical energy than the reactants (carbon dioxide and
+                                          water). The simple equation for photosynthesis that you saw earlier in this
+                                          chapter is actually a summary of a series of reactions_ Theytake place in
+                                         two stages (Figure 10.13).
+                                                       light         02                       COz
+
+                                                         light-dependent                light-
+                                                            reactions                independent
+                                                                                      reactions
+                                                                           ATP
+
+                                                             Hzo                           glucose
+                                                                                           CgH12O6
+                                            Figure 10.13 Photosynthesis takes place in two stages called light-dependent and light-
+                                            independent reactions.
+                                          The light energy absorbed by the chlorophyll is used to split water
+                                          molecules into hydrogen and oxygen: The waste product; oxygen; is
+                                          given off as a gas At the same time, the light energy is used to convert
+                                          ADP and phosphate into ATP Because this stage needs light; the steps in
+                                          the process are known as the light-dependent reactions_
+                                          Next; the hydrogen atoms from the water and energy from the ATP are
+                                          used to reduce carbon dioxide to glucose. This takes place in another
+                                          series of reactions in the chloroplast: Because these do not need light;
+                                         they are called the light-independent reactions_
+                                          If you continue with biology beyond International GCSE, you will find out
+                                          more about the biochemistry of photosynthesis.
+---
+[Diagram showing:
+- A plant stem
+- A test tube attached to the stem
+- Inside the test tube:
+  - A variegated leaf (labeled)
+  - Soda lime at the bottom (labeled)]
 
 ---
+PLANT PHYSIOLOGY                          PLANTS AND FOOD                                                                 133
 
-## SKILLS AND INTERPRETATION
+ SKILLS   CRITICAL THINKING                 A plant with variegated leaves had a piece of black paper attached to one
+                                           leaf as shown in the diagram:
+                                                        black paper
+                                                        (on both
+                                                        sides of leaf)
 
-### EXPERIMENT WITH CANADIAN PONDWEED
-IN ANOTHER EXPERIMENT, A PIECE OF CANADIAN PONDWEED WAS PLACED UPSIDE DOWN IN A TEST TUBE FILLED WITH WATER. A BENCH LAMP WAS POSITIONED TO SHINE LIGHT ONTO THE WEED, RESULTING IN GAS BUBBLES FORMING AT THE CUT END OF THE STEM. THE NUMBER OF BUBBLES PRODUCED PER MINUTE WAS RECORDED AS THE DISTANCE OF THE LAMP FROM THE WEED WAS VARIED.
+                                                                                                 edge of
+                                                                                                 leaf lacks
+                                                                                                 chlorophyll
 
-THE RESULTS SHOWED A DECREASE IN BUBBLE PRODUCTION AS THE DISTANCE INCREASED:
+                                            The plant was kept under a bright light for 24 hours. The leaf was then
+                                            removed, the paper taken off and the leaf was tested for starch_
+                                               Name the chemical used to test for starch; and describe the colour
+                                              change if the test is positive_
+                                              Copy the leaf outline and shade in the areas which would contain starch
+                                               Explain how you arrived at your answer to (b):
+SKILLS    REASONING                            What is starch used for in a plant? How do the properties of starch make
+                                              it suitable for this function?
 
-- AT 10 CM, 126 BUBBLES PER MINUTE WERE PRODUCED.
-- AT 15 CM, 89 BUBBLES PER MINUTE WERE RECORDED.
-- AT 20 CM, 64 BUBBLES PER MINUTE WERE NOTED.
-- AT 25 CM, 42 BUBBLES PER MINUTE WERE OBSERVED.
-- AT 30 CM, 17 BUBBLES PER MINUTE WERE MEASURED.
-- AT 35 CM, 14 BUBBLES PER MINUTE WERE COUNTED.
-- AT 40 CM, ONLY 10 BUBBLES PER MINUTE WERE PRODUCED.
+SKILLS    INTERPRETATION                    Copyand complete the following table to show the functions of different
+                                            parts of a leaf, and how that part is adapted for its function. One row has
+                                            been done for you:
 
-THESE RESULTS INDICATE A RELATIONSHIP BETWEEN LIGHT INTENSITY AND THE RATE OF PHOTOSYNTHESIS IN THE PONDWEED. PLOTTING THESE DATA POINTS ON A GRAPH WOULD VISUALLY DEPICT THIS INVERSE RELATIONSHIP, ILLUSTRATING HOW ENVIRONMENTAL FACTORS LIKE LIGHT DISTANCE AFFECT PLANT PROCESSES.
+                                                Part of Ieaf            Function              How the part is adapted for its
+                                                                                                       function
+                                             palisade mesophyll main site of photosynthesis  cells contain many chloroplasts for
+                                             layer                                           photosynthesis
+                                             spongy mesophyll
+                                             layer
+                                             stomata
 
-# PLANT PHYSIOLOGY
+                                             xylem
+                                             phloem
 
-## PLANTS AND FOOD
+                                            The table below shows some of the substances that can be made by plants_
+                                            Give one use in the plant for each_ The first has been done for you:
 
-### UNDERSTANDING PHOTOSYNTHESIS
+                                                  Substance                                 Use
+                                             glucose              oxidised in respiration to give energy
+                                             sucrose
+                                             starch
+                                             cellulose
+                                             protein
+                                             lipid
+---
+tube for
+aeration            pea
+                    seedling
+cotton
+wool
 
-PHOTOSYNTHESIS IS A PROCESS ESSENTIAL FOR LIFE, ENABLING PLANTS, ALGAE, AND SOME BACTERIA TO CONVERT LIGHT ENERGY INTO CHEMICAL ENERGY STORED IN GLUCOSE. THIS PROCESS NOT ONLY SUSTAINS THESE ORGANISMS BUT ALSO SUPPORTS LIFE ON EARTH BY PROVIDING OXYGEN AND FORMING THE BASE OF THE FOOD CHAIN.
+aluminium
+foil                culture
+                    solution
 
-### THE PROCESS OF PHOTOSYNTHESIS
+---
+PLANT PHYSIOLOGY                       PLANTS AND FOOD                                                           135
 
-PHOTOSYNTHESIS PRIMARILY OCCURS IN PLANT LEAVES, WHERE CHLOROPHYLL CAPTURES SUNLIGHT. THE REACTION CAN BE SUMMARIZED AS:
+### SKILLS > REASONING
 
-\[
-6CO_2 + 6H_2O + LIGHT \ ENERGY \RIGHTARROW C_6H_{12}O_6 + 6O_2
-\]
+b. Using your graph, predict the number of bubbles per minute that would be produced if the lamp was placed 17cm from the weed.
 
-THIS EQUATION SHOWS THAT CARBON DIOXIDE AND WATER ARE TRANSFORMED INTO GLUCOSE AND OXYGEN, UTILIZING LIGHT ENERGY.
+c. The student who carried out this experiment arrived at the following conclusion:
+   "The gas made by the weed is oxygen from photosynthesis, so the faster production of bubbles shows that the rate of photosynthesis is greater at higher light intensities."
 
-### ADAPTATIONS OF LEAVES FOR PHOTOSYNTHESIS
+   Write down three reasons why his conclusion could be criticised.
+   (Hint: is counting the bubbles a reliable method of measuring the rate of photosynthesis?)
 
-LEAVES ARE STRUCTURED TO ENHANCE PHOTOSYNTHESIS THROUGH SEVERAL ADAPTATIONS:
+### SKILLS > INTERPRETATION
 
-- **LARGE SURFACE AREA**: MAXIMIZES LIGHT ABSORPTION.
-- **CHLOROPLASTS**: CONTAIN CHLOROPHYLL, THE PIGMENT CRUCIAL FOR CAPTURING LIGHT ENERGY.
-- **STOMATA**: TINY OPENINGS FACILITATE GAS EXCHANGE (CO₂ INTAKE AND O₂ RELEASE).
-- **THIN STRUCTURE**: AIDS IN GAS DIFFUSION AND LIGHT PENETRATION.
-
-### IMPORTANCE OF PHOTOSYNTHESIS TO OTHER ORGANISMS
-
-BEYOND PLANTS, PHOTOSYNTHESIS IS VITAL FOR ALL LIFE. OXYGEN PRODUCED DURING THIS PROCESS SUPPORTS RESPIRATION IN MOST ORGANISMS. PLANTS ACT AS PRIMARY PRODUCERS IN ECOSYSTEMS, UNDERPINNING THE FOOD CHAIN WHERE HERBIVORES CONSUME THEM, AND CARNIVORES FEED ON HERBIVORES, ILLUSTRATING ECOLOGICAL INTERCONNECTEDNESS.
-
-### EXPERIMENTATION AND OBSERVATIONS
-
-TO MEASURE PHOTOSYNTHESIS, METHODS LIKE TRACKING OXYGEN BUBBLES FROM AQUATIC PLANTS CAN BE USED. FOR INSTANCE, PLACING A LAMP 17 CM AWAY ALLOWS PREDICTION OF BUBBLE PRODUCTION BASED ON PRIOR DATA.
-
-#### CRITIQUE OF EXPERIMENTAL METHOD
-
-WHILE COUNTING BUBBLES PROVIDES INSIGHTS, THIS METHOD HAS LIMITATIONS:
-
-1. **INCONSISTENCY**: BUBBLE SIZE AND FREQUENCY VARY, LEADING TO UNRELIABLE DATA.
-2. **ENVIRONMENTAL FACTORS**: VARIABLES LIKE TEMPERATURE AND WATER QUALITY AFFECT RESULTS.
-3. **LIMITED SCOPE**: THIS METHOD DOESN'T ASSESS GLUCOSE PRODUCTION OR PHOTOSYNTHETIC EFFICIENCY.
-
-### SUMMARY
-
-PHOTOSYNTHESIS IS A COMPLEX YET ESSENTIAL PROCESS CONVERTING LIGHT ENERGY INTO CHEMICAL ENERGY, PRODUCING OXYGEN AS A BYPRODUCT. LEAF ADAPTATIONS ENHANCE EFFICIENCY, MAKING THEM CRUCIAL FOR LIFE ON EARTH. UNDERSTANDING PHOTOSYNTHESIS HIGHLIGHTS THE IMPORTANCE OF PLANTS AND THE INTERCONNECTEDNESS OF ALL ORGANISMS IN ECOSYSTEMS.
+9. Write a summary account of photosynthesis. You should include a description of the process, a summary equation, an account of how a leaf is adapted for photosynthesis and a note of how photosynthesis is important to other organisms, such as animals. You must keep your summary to less than two sides (about 500 words).
+---

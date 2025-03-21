@@ -1,623 +1,575 @@
-# REPRODUCTION IN HUMANS
+# 9 REPRODUCTION IN HUMANS
 
-ONE OF THE FUNDAMENTAL CHARACTERISTICS OF LIVING ORGANISMS IS THEIR ABILITY TO REPRODUCE, ALLOWING THEM TO PASS ON THEIR GENETIC MATERIAL TO FUTURE GENERATIONS. REPRODUCTION CAN OCCUR THROUGH TWO PRIMARY MECHANISMS: **SEXUAL REPRODUCTION** AND **ASEXUAL REPRODUCTION**. THIS CHAPTER EXAMINES THESE METHODS, WITH A FOCUS ON HUMAN REPRODUCTION.
+One of the characteristics of living organisms that makes them different from non-living things is their ability to produce offspring, or reproduce. Reproduction is all about an organism passing on its genes. This can be through special sex cells, or gametes. It can also be asexually, without the production of gametes. In this chapter we look at the differences between sexual and asexual reproduction, and study in detail the process of human reproduction.
 
 ## LEARNING OBJECTIVES
-THIS CHAPTER AIMS TO PROVIDE A COMPREHENSIVE UNDERSTANDING OF:
-- THE DIFFERENCES BETWEEN SEXUAL AND ASEXUAL REPRODUCTION.
-- THE ROLE OF THE PLACENTA IN SUPPORTING EMBRYO NUTRITION.
-- THE PROTECTIVE FUNCTIONS OF AMNIOTIC FLUID FOR THE DEVELOPING EMBRYO.
-- THE ROLES OF ESTROGEN AND TESTOSTERONE IN THE DEVELOPMENT OF SECONDARY SEXUAL CHARACTERISTICS.
-- THE ROLES OF ESTROGEN AND PROGESTERONE IN THE MENSTRUAL CYCLE.
-- THE STRUCTURAL AND FUNCTIONAL ADAPTATIONS OF HUMAN REPRODUCTIVE SYSTEMS.
+
+- Understand the differences between sexual and asexual reproduction
+- Understand that fertilisation involves the fusion of a male and female gamete to produce a zygote
+- Understand that a zygote undergoes cell division and develops into an embryo
+- Understand how the structure and function of the human male and female reproductive systems are adapted for their functions
+- Describe the role of the placenta in the nutrition of the developing embryo
+- Understand how the developing embryo is protected by amniotic fluid
+- Understand the roles of oestrogen and testosterone in the development of secondary sexual characteristics
+- Understand the roles of oestrogen and progesterone in the menstrual cycle
+
+## SEXUAL AND ASEXUAL REPRODUCTION COMPARED
+
+In any method of reproduction, the end result is the production of more organisms of the same species. Humans produce more humans, pea plants produce more pea plants and salmonella bacteria produce more salmonella bacteria. However, the way in which they reproduce differs. There are two types of reproduction: sexual reproduction and asexual reproduction.
+
+In sexual reproduction, specialised sex cells called gametes are produced. There are usually two types, a mobile male gamete called a sperm and a stationary female gamete called an egg cell or ovum (plural ova).
+
+The sperm must move to the egg and fuse (join) with it. This is called fertilisation (Figure 9.1). The single cell formed by fertilisation is called a zygote. This cell will divide many times by mitosis to form all the cells of the new animal.
+
+In asexual reproduction, there are no specialised gametes and there is no fertilisation. Instead, cells in one part of the body divide by mitosis to form a structure that breaks away from the parent body and grows into a new organism. Not many animals reproduce in this way. Figure 9.2 shows Hydra (a small animal similar to jellyfish) reproducing by budding. Cells in the body wall divide to form a small version of the adult. This eventually breaks off and becomes a free-living Hydra. One animal may produce several 'buds' in a short space of time.
+
+**KEY POINT**
+Individuals produced asexually from the same adult organism are called clones.
+---
+# ANIMAL PHYSIOLOGY: REPRODUCTION IN HUMANS
+
+## KEY POINT
+
+A gene is a section of DNA that determines a particular characteristic or feature. Genes are found in the nucleus of a cell on the chromosomes (see Chapter 18).
+
+All the offspring produced from Hydra buds are genetically identical – they have exactly the same genes. This is because all the cells of the new individual are produced by mitosis from just one cell in the body of the adult. When cells divide by mitosis, the new cells that are produced are exact copies of the original cell (see Chapter 17 for a description of mitosis). As a result, all the cells of an organism that are produced asexually have the same genes as the cell that produced them – the original adult cell. So all asexually produced offspring from one adult will have the same genes as the cells of the adult. They will all be genetic copies of that adult and so will be identical to each other.
+
+Asexual reproduction is useful to a species when the environment in which it lives is relatively stable. If an organism is well adapted to this stable environment, asexual reproduction will produce offspring that are also well adapted. However, if the environment changes significantly, then all the individuals will be affected equally by the change. It may be such a dramatic change that none of the individuals are adapted well enough to survive. The species will die out in that area.
 
 ## SEXUAL REPRODUCTION
-SEXUAL REPRODUCTION INVOLVES THE PRODUCTION OF SPECIALIZED GAMETES, WHICH ARE SPERM AND EGGS. MALE GAMETES, CALLED SPERM, ARE MOBILE AND CONTAIN HALF THE GENETIC MATERIAL NEEDED TO FORM A NEW ORGANISM. FEMALE GAMETES, KNOWN AS OVA OR EGGS, ARE TYPICALLY STATIONARY AND CONTAIN THE OTHER HALF. DURING FERTILIZATION, SPERM AND EGG CELLS FUSE, FORMING A SINGLE-CELLED ZYGOTE THAT WILL DEVELOP INTO A NEW INDIVIDUAL THROUGH MITOSIS.
 
-## ASEXUAL REPRODUCTION
-IN CONTRAST, ASEXUAL REPRODUCTION DOES NOT INVOLVE GAMETES OR FERTILIZATION. INSTEAD, CELLS DIVIDE BY MITOSIS TO CREATE NEW ORGANISMS. FOR EXAMPLE, HYDRA REPRODUCE BY BUDDING, WHERE CELLS IN THE BODY WALL GROW INTO SMALL REPLICAS OF THE PARENT ORGANISM, WHICH THEN DETACH AND LIVE INDEPENDENTLY. THESE CLONES ARE GENETICALLY IDENTICAL TO THEIR PARENT.
+There are four stages in any method of sexual reproduction:
 
-### KEY INSIGHT
-ORGANISMS PRODUCED THROUGH ASEXUAL REPRODUCTION, SUCH AS CLONES, SHARE THE SAME GENETIC MATERIAL AS THEIR PARENT.
+- Gametes (sperm and egg cells) are produced.
+- The male gamete (sperm) is transferred to the female gamete (egg cell).
+- Fertilisation must occur – the sperm fuses with the egg.
+- The zygote formed develops into a new individual.
 
-## REPRODUCTION IN HUMANS
-THE HUMAN REPRODUCTIVE SYSTEM IS ADAPTED FOR SEXUAL REPRODUCTION. IT INCLUDES BOTH MALE AND FEMALE REPRODUCTIVE ORGANS, WHICH WORK TOGETHER TO PRODUCE GAMETES AND FACILITATE FERTILIZATION. THE PROCESS BEGINS WITH PUBERTY, DURING WHICH ESTROGEN AND TESTOSTERONE LEVELS RISE, LEADING TO THE DEVELOPMENT OF SECONDARY SEXUAL CHARACTERISTICS. ESTROGEN REGULATES THE MENSTRUAL CYCLE, WHILE PROGESTERONE PREPARES THE BODY FOR PREGNANCY.
+The offspring produced by sexual reproduction show a great deal of genetic variation as a result of both gamete production and fertilisation.
 
-THE PLACENTA PLAYS A CRUCIAL ROLE IN PROVIDING NUTRIENTS AND OXYGEN TO THE DEVELOPING EMBRYO, WHILE AMNIOTIC FLUID PROTECTS IT FROM MECHANICAL STRESS. FERTILIZATION TYPICALLY OCCURS IN THE FALLOPIAN TUBE, WHERE THE ZYGOTE CONTINUES TO DIVIDE UNTIL IT IMPLANTS IN THE UTERUS, INITIATING GESTATION.
+## PRODUCTION OF GAMETES
 
-## SUMMARY
-REPRODUCTION IS ESSENTIAL FOR POPULATION CONTINUATION. WHILE SEXUAL REPRODUCTION INVOLVES SPECIALIZED GAMETES AND FERTILIZATION, ASEXUAL REPRODUCTION RELIES ON CELL DIVISION AND CLONING. IN HUMANS, THE REPRODUCTIVE SYSTEM IS UNIQUELY SUITED FOR SEXUAL REPRODUCTION, INVOLVING COMPLEX HORMONAL REGULATION AND STRUCTURAL ADAPTATIONS TO ENSURE SUCCESSFUL CONCEPTION AND DEVELOPMENT.
+Sperm are produced in the male sex organs – the testes. Eggs are produced in the female sex organs – the ovaries. Both are produced when cells inside these organs divide. These cells do not divide by mitosis but by meiosis (see Chapter 17). Meiosis produces cells that are not genetically identical and have only half the number of chromosomes as the original cell.
 
-# ANIMAL PHYSIOLOGY
+### KEY POINT
 
-## KEY POINTS
-A **GENE** IS A SEGMENT OF DNA LOCATED WITHIN THE NUCLEUS OF A CELL ON CHROMOSOMES. THIS IS ELABORATED UPON IN CHAPTER 18.
+Cells that have the full number of chromosomes are called diploid cells. Cells that only have half the normal number of chromosomes are called haploid cells.
 
+## TRANSFER OF THE SPERM TO THE EGG
+
+Sperm are specialised for swimming. They have a tail-like flagellum that moves them through a fluid. Figure 9.3 shows the structure of a sperm.
+
+Some male animals, such as those of most fish, release their sperm into the water in which they live. The female animals release their eggs into the water and the sperm then swim through the water to fertilise the eggs. This is called external fertilisation as it takes place outside the body. Before the release takes place, there is usually some mating behaviour to ensure that male and female are in the same place at the same time. This gives the best chance of fertilisation occurring before water currents sweep the sex cells away.
 ---
+106   ANIMAL PHYSIOLOGY                         REPRODUCTION IN HUMANS
 
-## REPRODUCTION IN HUMANS
+                                                                                            sac 0f enzymes to
+                                                                         head               penetrate membrane
+                                                                                            around egg
+                                                                     mid-piece              nucleus
+                                                                                            mitochondria to
+                                                                                            release energy
+                                                                                            for movement
 
-### ASEXUAL REPRODUCTION
-IN HYDRA, ALL OFFSPRING PRODUCED THROUGH BUD FORMATION ARE GENETICALLY IDENTICAL BECAUSE THEY ORIGINATE FROM A SINGLE ADULT CELL VIA MITOSIS (AS EXPLAINED IN CHAPTER 17). CONSEQUENTLY, EVERY NEW INDIVIDUAL FORMED THIS WAY MIRRORS THE GENETIC MAKEUP OF THE PARENT CELL, RESULTING IN CLONES.
+                                                                           tail
+                                                                   (flagellum)
+                                                                for propulsion
 
-ASEXUAL REPRODUCTION IS ADVANTAGEOUS FOR SPECIES INHABITING STABLE ENVIRONMENTS. THIS METHOD ENSURES THAT OFFSPRING ARE WELL-SUITED TO THEIR SURROUNDINGS, ENHANCING SURVIVAL. HOWEVER, IT MAY LEAD TO EXTINCTION IF ENVIRONMENTAL CONDITIONS CHANGE DRASTICALLY, AFFECTING ALL INDIVIDUALS EQUALLY.
+                                                 Figure 9.3 The structure of a sperm
+                                              Other male animals, such as those of birds and mammals, ejaculate their
+                                              sperm in a special fluid into the bodies of the females. Internal fertilisation then
+                                              takes place inside the female's body: Fertilisation is much more likely as there
+                                              are no external factors to prevent the sperm from reaching the eggs. Some
+                                              form of sexual intercourse precedes ejaculation_
 
+      FERTILISATION                           Once the sperm has reached the egg, its nucleus must enter the egg
+                                              and fuse with the egg nucleus_ As each gamete has only half the normal
+                                              number of chromosomes; the zygote formed by fertilisation will have the full
+                                              number of chromosomes. In humans; the sperm and egg each have only 23
+      REMINDER                                chromosomes_ The zygote has 46 chromosomes, like all other cells in the
+      Red blood cells are exceptions          body: Figure 9.4 shows the main stages in fertilisation.
+      Theyhave no nucleus_ SOhave no                                                            An extra membrane (the fertilisation
+      chromosomes_                             Sperm approach the egg:                         membrane) now prevents any more
+                                                                                               sperm from entering:
+
+                                                                                   This sperm penetrates  The sperm nucleus
+                                                                                   the cell membrane;     and egg nucleus fuse.
+                                                                                   the sperm nucleus enters_
+
+                                                 Figure 9.4Themain stages in fertilisation
+                                               Fertilisation does more than just restore the diploid chromosome number;
+                                              it provides an additional source of genetic variation: The sperm and eggs are
+                                              all genetically different because they are formed by meiosis. Therefore, each
+                                              time fertilisation takes place, it brings together a different combination of
+                                              genes.
 ---
+ANIMAL PHYSIOLOGY                        REPRODUCTION IN HUMANS                                                         107
 
-### SEXUAL REPRODUCTION
-SEXUAL REPRODUCTION ENTAILS FOUR SEQUENTIAL STAGES:
-1. **GAMETE PRODUCTION**: SPERM AND EGGS ARE CREATED IN THE TESTES AND OVARIES, RESPECTIVELY.
-2. **SPERM TRANSFER**: MALE GAMETES (SPERM) ARE TRANSFERRED TO FEMALE GAMETES (EGGS).
-3. **FERTILIZATION**: THE SPERM FUSES WITH THE EGG, FORMING A ZYGOTE.
-4. **DEVELOPMENT**: THE ZYGOTE EVOLVES INTO A NEW INDIVIDUAL.
+SUMMARY OF THE HUMAN LIFE               Each zygote that is formed must divide to produce all the cells that will make
+CYCLE                                   up the adult. All these cells must have the full number of chromosomes, SO
+                                        the zygote divides repeatedly by mitosis. Figure 9.5 shows the importance of
+                                        meiosis, mitosis and fertilisation in the human life cycle_
 
-THIS PROCESS GENERATES SIGNIFICANT GENETIC DIVERSITY DUE TO VARIATIONS IN GAMETE PRODUCTION AND FERTILIZATION.
+                                                   adult male                                         adult female
 
-SPERM ARE MANUFACTURED IN THE TESTES THROUGH MEIOSIS (AS DETAILED IN CHAPTER 17), RESULTING IN HAPLOID CELLS WITH HALF THE CHROMOSOME COUNT OF DIPLOID CELLS.
+                                              AIl cells have 46                                       All cells have 46
+                                                 chromosomes                                             chromosomes
+                                                  in nucleus                                              in nucleus
+                                                   (diploid)_                                         (diploid)_
 
+                                                                                 MEIOSIS
+                                                 sperm cell                 Both have only 23         egg cell
+                                                 in testes                     chromosomes            in ovary
+                                                                                in nucleus
+                                                                            (haploid)_
+
+                                                                              FERTILISATION
+
+                                                                                          Zygote has
+                                                                                        46 chromosomes
+                                                                                          in nucleus
+                                                                                           (diploid):
+                                                                            MITOSIS
+                                                                                                       All cells in
+                                                                                                      the baby have
+                                                                                                      46 chromosomes
+                                                                                                        in nucleus
+                                                   The                                                  (diploid):
+                                          Figure 9.5                        importance of meiosis, mitosis and fertilisation in the human life cycle.
+                                        Mitosis is not the only process involved in development; otherwise all that
+                                        would be produced would be a ball of cells During the process, cells move
+                                        around and different shaped structures are formed. Also, different cells
+                                        specialise to become bone cells, nerve cells  muscle cells, and so on (the
+                                        process called differentiation):
+
+                                          REPRODUCTION IN HUMANS
+                                        Humans reproduce sexually and fertilisation is internal. Figures 9.6 and 9.7
+                                        show the structure of the human female and male reproductive systems_
+                                        The sperm are produced in the testes by meiosis. During sexual intercourse,
+                                        they pass along the sperm duct and are mixed with a fluid from the seminal
+                                        vesicles_ This mixture, called semen, is ejaculated through the urethra into
+                                        the vagina of the female. The sperm then begin to swim towards the oviducts:
 ---
-
-### SPERM STRUCTURE
-SPERM POSSESS A TAIL-LIKE STRUCTURE CALLED A FLAGELLUM, ENABLING THEM TO SWIM EFFECTIVELY. SOME MALE ANIMALS, SUCH AS FISH, RELEASE SPERM EXTERNALLY FOR FERTILIZATION. THIS PROCESS, KNOWN AS EXTERNAL FERTILIZATION, IS FACILITATED BY MATING BEHAVIORS THAT INCREASE THE LIKELIHOOD OF SUCCESSFUL ENCOUNTERS BETWEEN MALES AND FEMALES.
-
-BEFORE RELEASE, MALES OFTEN EXHIBIT SPECIFIC BEHAVIORS TO ENSURE CO-LOCATION WITH FEMALES, ENHANCING FERTILIZATION CHANCES AGAINST WATER CURRENTS.
-
-# REPRODUCTION IN HUMANS
-
-## FERTILISATION
-
-FERTILISATION IS A CRITICAL PROCESS IN HUMAN REPRODUCTION WHERE A SPERM CELL SUCCESSFULLY PENETRATES AN EGG CELL, FORMING A ZYGOTE THAT WILL DEVELOP INTO A NEW INDIVIDUAL.
-
-### THE PROCESS OF FERTILISATION
-
-THE JOURNEY OF FERTILISATION BEGINS WITH SPERM CELLS SWIMMING TOWARDS THE EGG. PROPELLED BY THEIR FLAGELLUM, SPERM NAVIGATE THROUGH THE REPRODUCTIVE TRACT. UPON REACHING THE EGG, A SPERM'S ENZYMES ENABLE IT TO PENETRATE THE OUTER MEMBRANE. THIS ACTION ALLOWS THE SPERM NUCLEUS TO ENTER THE EGG.
-
-UPON ENTRY, THE NUCLEI OF THE SPERM AND EGG FUSE, COMBINING THEIR GENETIC MATERIAL. EACH GAMETE CONTRIBUTES HALF THE CHROMOSOME SET—23 IN HUMANS—RESULTING IN A DIPLOID ZYGOTE WITH 46 CHROMOSOMES.
-
-### IMPORTANCE OF FERTILISATION
-
-FERTILISATION IS ESSENTIAL FOR RESTORING THE DIPLOID CHROMOSOME NUMBER, CRUCIAL FOR NORMAL DEVELOPMENT. ADDITIONALLY, IT INTRODUCES GENETIC VARIATION THROUGH MEIOSIS, ENSURING EACH OFFSPRING INHERITS UNIQUE COMBINATIONS OF TRAITS FROM BOTH PARENTS.
-
-INTERNAL FERTILISATION IN HUMANS ENHANCES SUCCESS RATES BY PROTECTING SPERM DURING THEIR JOURNEY. ONCE A SPERM PENETRATES THE EGG, A FERTILISATION MEMBRANE FORMS TO PREVENT FURTHER SPERM ENTRY, ENSURING EACH ZYGOTE IS GENETICALLY DISTINCT.
-
-### INTERNAL FERTILISATION AND FERTILISATION MEMBRANE
-
-IN HUMANS, FERTILISATION OCCURS INTERNALLY WITHIN THE FEMALE REPRODUCTIVE SYSTEM. THIS PROTECTED ENVIRONMENT MINIMISES EXTERNAL THREATS, INCREASING THE LIKELIHOOD OF SUCCESSFUL FERTILISATION. FOLLOWING PENETRATION, A PROTECTIVE FERTILISATION MEMBRANE FORMS AROUND THE ZYGOTE TO PREVENT POLYSPERMY—MULTIPLE SPERM ENTERING THE EGG.
-
-THIS PROCESS ENSURES EACH EMBRYO IS GENETICALLY UNIQUE, CONTRIBUTING TO SPECIES DIVERSITY AND EVOLUTION THROUGH VARIED GENETIC COMBINATIONS.
-
-THE COMBINATION OF THESE FACTORS HIGHLIGHTS THE COMPLEXITY AND BIOLOGICAL SIGNIFICANCE OF FERTILISATION IN HUMAN REPRODUCTION.
-
-# ANIMAL PHYSIOLOGY: SUMMARY OF THE HUMAN LIFE CYCLE
-
-## REPRODUCTION IN HUMANS
-
-HUMANS REPRODUCE THROUGH SEXUAL MEANS, WITH FERTILIZATION OCCURRING INTERNALLY. THE PROCESS COMPRISES THREE MAIN STAGES: MEIOSIS, FERTILIZATION, AND MITOSIS.
-
-### MEIOSIS
-- IN MALES, SPERM CELLS ARE GENERATED IN THE TESTES VIA MEIOSIS, EACH CONTAINING 23 CHROMOSOMES (HAPLOID).
-- IN FEMALES, EGG CELLS ARE PRODUCED IN THE OVARIES, SIMILARLY POSSESSING 23 CHROMOSOMES (HAPLOID).
-
-### FERTILIZATION
-- DURING SEXUAL ACTIVITY, SPERM ARE RELEASED THROUGH THE URETHRA INTO THE VAGINA. THEY MIGRATE TO THE OVIDUCTS WHERE FERTILIZATION OCCURS, FORMING A ZYGOTE WITH 46 CHROMOSOMES (DIPLOID).
-
-### MITOSIS
-- THE ZYGOTE UNDERGOES MITOTIC DIVISIONS TO DEVELOP INTO AN ADULT, ENSURING ALL CELLS IN THE GROWING INDIVIDUAL HAVE 46 CHROMOSOMES (DIPLOID).
-
-## KEY PROCESSES IN THE HUMAN LIFE CYCLE
-
-THE HUMAN LIFE CYCLE IS SUPPORTED BY A SEQUENCE OF BIOLOGICAL PROCESSES. MEIOSIS GENERATES THE GAMETES NECESSARY FOR REPRODUCTION, WHILE FERTILIZATION INITIALIZES DEVELOPMENT WITH A ZYGOTE. MITOSIS THEN DRIVES GROWTH AND DIFFERENTIATION, ALLOWING THE ZYGOTE TO EVOLVE INTO A COMPLEX ORGANISM.
-
-### IMPORTANCE OF CELL DIVISION
-MITOSIS IS VITAL FOR GROWTH AND SPECIALIZATION. IT TRANSFORMS A SINGLE ZYGOTE INTO DIVERSE CELL TYPES, ESSENTIAL FOR FORMING TISSUES LIKE BONE, NERVE, AND MUSCLE.
-
-## VISUAL REPRESENTATION
-
-A VISUAL REPRESENTATION ILLUSTRATES THE CHROMOSOME COUNT ACROSS DIFFERENT LIFE STAGES:
-- **ADULTS**: 46 CHROMOSOMES (DIPLOID).
-- **SPERM AND EGGS**: 23 CHROMOSOMES EACH (HAPLOID).
-- **ZYGOTE AND DEVELOPING BABY**: 46 CHROMOSOMES (DIPLOID).
-
-THIS FIGURE HIGHLIGHTS THE FUNDAMENTAL ROLE OF MEIOSIS, FERTILIZATION, AND MITOSIS IN HUMAN DEVELOPMENT.
-
-# REPRODUCTION IN HUMANS
-
-## THE HUMAN FEMALE REPRODUCTIVE SYSTEM
-
-THE HUMAN FEMALE REPRODUCTIVE SYSTEM IS A COMPLEX STRUCTURE ESSENTIAL FOR REPRODUCTION. IT INCLUDES SEVERAL KEY COMPONENTS THAT WORK TOGETHER TO FACILITATE THE PROCESS.
-
-### KEY COMPONENTS:
-- **OVARY**: PRODUCES EGGS (OVA) AND RELEASES THEM DURING OVULATION.
-- **OVIDUCT (FALLOPIAN TUBE)**: TRANSPORTS THE EGG FROM THE OVARY TO THE UTERUS.
-- **UTERUS (WOMB)**: WHERE EARLY EMBRYONIC DEVELOPMENT OCCURS.
-- **CERVIX**: THE LOWER PART OF THE UTERUS THAT CONNECTS TO THE VAGINA.
-- **VAGINA**: THE CANAL CONNECTING THE EXTERNAL GENITALS TO THE UTERUS.
-- **BLADDER**: STORES URINE UNTIL IT IS RELEASED.
-- **RECTUM**: PART OF THE LARGE INTESTINE LEADING TO THE ANUS.
-- **URETHRA**: THE PATHWAY THROUGH WHICH URINE EXITS THE BODY.
-
-### OVULATION AND FERTILIZATION:
-EACH MONTH, AN EGG IS RELEASED FROM ONE OVARY DURING OVULATION. IF SPERM IS PRESENT IN THE OVIDUCT, FERTILIZATION MAY OCCUR. THIS PROCESS CREATES A ZYGOTE, WHICH THEN TRAVELS TO THE UTERUS FOR IMPLANTATION.
-
-### DEVELOPMENT OF THE EMBRYO:
-ONCE IMPLANTED, THE EMBRYO DEVELOPS WITHIN THE UTERUS. THE PLACENTA FORMS TO PROVIDE OXYGEN AND NUTRIENTS FROM THE MOTHER'S BLOODSTREAM WHILE REMOVING WASTE PRODUCTS. IT ALSO SECRETES HORMONES LIKE PROGESTERONE, WHICH SUPPORT THE PREGNANCY AND PREVENT REJECTION BY THE MOTHER'S IMMUNE SYSTEM.
-
-## THE HUMAN MALE REPRODUCTIVE SYSTEM
-
-THE MALE REPRODUCTIVE SYSTEM IS RESPONSIBLE FOR PRODUCING AND DELIVERING SPERM. KEY COMPONENTS INCLUDE:
-
-- **TESTIS**: PRODUCES SPERM AND MALE HORMONES.
-- **SCROTUM**: PROTECTS AND REGULATES THE TEMPERATURE OF THE TESTES.
-- **PENIS**: DELIVERS SPERM TO THE FEMALE REPRODUCTIVE SYSTEM.
-- **SEMINAL VESICLE**: PROVIDES A NUTRIENT-RICH ENVIRONMENT FOR SPERM.
-
-## THE PLACENTA AND FETAL DEVELOPMENT
-
-THE PLACENTA IS CRUCIAL FOR FETAL DEVELOPMENT, CONNECTING THE FETUS TO THE MOTHER'S BLOODSTREAM. IT CONSISTS OF CHORIONIC VILLI THAT FACILITATE NUTRIENT EXCHANGE AND AN UMBILICAL CORD WITH ARTERIES AND VEINS TO TRANSPORT BLOOD BETWEEN THE FETUS AND PLACENTA.
-
-### STRUCTURE AND FUNCTION:
-- **CHORIONIC VILLI**: INCREASE THE SURFACE AREA FOR GAS EXCHANGE AND NUTRIENT TRANSFER.
-- **UMBILICAL CORD**: CONTAINS UMBILICAL ARTERIES (CARRY DEOXYGENATED BLOOD AND WASTE) AND UMBILICAL VEINS (CARRY OXYGENATED BLOOD AND NUTRIENTS).
-
-THE ZYGOTE, AFTER FERTILIZATION, DEVELOPS INTO AN EMBRYO THAT GROWS WITHIN THE UTERUS UNTIL BIRTH, SUPPORTED BY THE PLACENTA'S FUNCTIONS.
-
-UNDERSTANDING THESE SYSTEMS IS FUNDAMENTAL TO GRASPING HUMAN REPRODUCTION AND DEVELOPMENT.
-
 # ANIMAL PHYSIOLOGY: REPRODUCTION IN HUMANS
 
-## DID YOU KNOW?
-DURING PREGNANCY, A MEMBRANE CALLED THE **AMNION** ENCLOSES THE DEVELOPING EMBRYO. THE AMNION SECRETES A FLUID KNOWN AS **AMNIOTIC FLUID**, WHICH PROTECTS THE DEVELOPING EMBRYO AGAINST SUDDEN MOVEMENTS AND BUMPS. AS THE EMBRYO DEVELOPS, IT BECOMES MORE COMPLEX. WHEN IT BECOMES RECOGNIZABLY HUMAN, WE REFER TO IT AS A **FETUS**.
+## Figure 9.6 The human female reproductive system
 
-AT THE END OF NINE MONTHS OF DEVELOPMENT, THE FETUS OCCUPIES SO MUCH SPACE THAT MANY OF THE MOTHER'S ORGANS ARE PUSHED OUT OF POSITION. FOR EXAMPLE, THE HEART IS PUSHED UPWARDS AND ROTATES SO THAT THE BASE POINTS TOWARDS THE LEFT BREAST.
+### Side view
+- womb (uterus)
+- funnel of oviduct
+- ovary
+- bladder
+- cervix
+- front pelvis
+- rectum
+- urethra
+- anus
+- vagina
 
-## STAGES OF BIRTH
-THERE ARE THREE MAIN STAGES TO THE BIRTH OF A CHILD:
+### Front view
+- Oviduct takes egg from ovary to uterus
+- uterus (early development occurs here)
+- ovary (produces eggs)
+- ligament which holds ovary in position
+- muscular wall of womb
+- cervix
+- vagina
 
-1. **DILATION OF THE CERVIX**: THE CERVIX, WHICH IS THE 'NECK' OF THE UTERUS, WIDENS TO ALLOW THE BABY TO PASS THROUGH. THE MUSCLES OF THE UTERUS CONTRACT STRONGLY, TEARING THE AMNION AND ALLOWING THE AMNIOTIC FLUID TO ESCAPE. IN SOME CULTURES, THIS IS DESCRIBED AS "HER WATERS HAVE BROKEN."
+## Figure 9.7 The human male reproductive system
+- sperm duct
+- bladder
+- erectile tissue
+- urethra
+- penis
+- seminal vesicle
+- testis
+- scrotum
 
-2. **DELIVERY OF THE BABY**: STRONG CONTRACTIONS OF THE UTERINE MUSCLES PUSH THE BABY'S HEAD THROUGH THE CERVIX AND THEN THROUGH THE VAGINA INTO THE OUTSIDE WORLD.
+Each month, an egg is released into an oviduct from one of the ovaries. (The oviduct is also known as the Fallopian tube.) This is called ovulation. If an egg is present in the oviduct, then it may be fertilised by sperm introduced during intercourse. The zygote formed will begin to develop into an embryo, which will implant in the lining of the uterus. Here, the embryo will develop a placenta, which will allow the embryo to obtain materials such as oxygen and nutrients from the mother's blood. It also allows the embryo to get rid of waste products such as urea and carbon dioxide, as well as anchoring the embryo in the uterus. The placenta secretes female hormones, in particular progesterone, which maintain the pregnancy and prevent the embryo from aborting (being rejected by the mother's body). Figure 9.8 shows the structure and position of the placenta.
 
-3. **DELIVERY OF THE AFTERBIRTH**: AFTER THE BABY IS BORN, THE UTERUS CONTINUES TO CONTRACT, PUSHING THE PLACENTA AND THE MEMBRANES THAT SURROUNDED THE BABY OUT OF THE BODY. THIS IS KNOWN AS THE **AFTERBIRTH**.
+## Figure 9.8 The position of the fetus just before birth, and the structure of the placenta
 
-!STAGES OF BIRTH
-*FIGURE 9.9 SHOWS THE STAGES OF BIRTH.*
+### Left image
+- umbilical cord
+- placenta
 
-- BABY'S HEAD PUSHES CERVIX; MUCOUS PLUG DISLODGES AND WATERS BREAK.
-- UTERUS CONTRACTS TO PUSH BABY OUT THROUGH THE VAGINA.
-- THE PLACENTA BECOMES DETACHED FROM THE WALL OF THE UTERUS AND IS EXPELLED THROUGH THE VAGINA AS THE AFTERBIRTH.
+### Right image
+- maternal blood vessels
+- chorionic villi
+- pool of mother's blood
+- umbilical cord
+- umbilical artery (carries deoxygenated blood containing waste products from fetus to placenta)
+- umbilical vein (carries oxygenated blood containing nutrients from placenta to fetus)
+- membrane separating blood of mother and fetus (baby)
+---
+During pregnancy, a membrane called the amnion encloses the developing embryo. The amnion secretes a fluid called amniotic fluid, which protects the developing embryo against sudden movements and bumps. As the embryo develops, it becomes more and more complex. When it becomes recognisably human, we no longer call it an embryo but a fetus. At the end of nine months of development, there just isn't any room left for the fetus to grow and it sends a hormonal 'signal' to the mother to begin the birth process. Figure 9.8 also shows the position of a human fetus just before birth.
+
+There are three stages to the birth of a child:
+
+1. Dilation of the cervix. The cervix is the 'neck' of the uterus. It gets wider to allow the baby to pass through. The muscles of the uterus contract quite strongly and tears the amnion, allowing the amniotic fluid to escape. (In some countries the woman describes this as 'her waters have broken'.)
+
+2. Delivery of the baby. Strong contractions of the muscles of the uterus push the baby's head through the cervix and then through the vagina to the outside world.
+
+3. Delivery of the afterbirth. After the baby has been born, the uterus continues to contract and pushes the placenta out, together with the membranes that surrounded the baby. These are known as the afterbirth.
+
+Figure 9.9 shows the stages of birth.
+
+| Stage | Description |
+|-------|-------------|
+| 1 | Baby's head pushes cervix; mucous plug dislodges and waters break. |
+| 2 | Uterus contracts to push baby out through the vagina. |
+| 3 | The placenta becomes detached from the wall of the uterus and is expelled through the vagina as the afterbirth. |
 
 ## HORMONES CONTROLLING REPRODUCTION
-MOST ANIMALS ARE SEXUALLY IMMATURE WHEN THEY ARE YOUNG, MEANING THEY ARE UNABLE TO REPRODUCE. THE PRESENCE OF MALE OR FEMALE SEX ORGANS IS KNOWN AS **PRIMARY SEX CHARACTERISTICS**.
 
-DURING THEIR TEENAGE YEARS, BOYS AND GIRLS UNDERGO CHANGES THAT LEAD TO SEXUAL MATURITY, A PROCESS CONTROLLED BY HORMONES. THIS PERIOD IS KNOWN AS **PUBERTY** AND INVOLVES TWO KEY DEVELOPMENTS:
+Most animals are unable to reproduce when they are young. We say that they are sexually immature. When a baby is born, it is recognisable as a boy or girl by its sex organs.
 
-1. THE MATURATION AND RELEASE OF GAMETES (EGGS AND SPERM).
-2. THE ADAPTATION OF BOTH SEXES' BODIES TO ALLOW REPRODUCTION.
+The presence of male or female sex organs is known as the primary sex characteristics. During their teens, changes happen to boys and girls that lead to sexual maturity. These changes are controlled by hormones, and the time when they happen is called puberty. Puberty involves two developments. The first is that the gametes (eggs and sperm) start to mature and be released. The second is that the bodies of both sexes adapt to allow reproduction to take place. These events are started by hormones released by the pituitary gland.
 
-THESE EVENTS ARE INITIATED BY HORMONES RELEASED BY THE **PITUITARY GLAND**.
+In boys, these pituitary hormones stimulate sperm production and instruct the testes to secrete the male sex hormone, testosterone. Testosterone controls the development of the male secondary sexual characteristics. These include growth of the penis and testes, growth of facial and body hair, muscle
 
-IN BOYS, THESE PITUITARY HORMONES STIMULATE SPERM PRODUCTION AND INSTRUCT THE TESTES TO SECRETE THE MALE SEX HORMONE, **TESTOSTERONE**. TESTOSTERONE IS RESPONSIBLE FOR THE DEVELOPMENT OF MALE SECONDARY SEXUAL CHARACTERISTICS, WHICH INCLUDE:
+> DID YOU KNOW?
+> 
+> Just before birth, the fetus takes up so much room that many of the mother's organs are moved out of position. The heart is pushed upwards and rotates so that the base points towards the left breast.
 
-- GROWTH OF THE PENIS AND TESTES
-- GROWTH OF FACIAL AND BODY HAIR
-- INCREASED MUSCLE MASS
+> DID YOU KNOW?
+> 
+> Sperm production is most efficient at a temperature of about 34 °C, just below the core body temperature (37 °C). This is why the testes are outside the body in the scrotum, where the temperature is a little lower.
+---
+110   ANIMAL PHYSIOLOGY                            REPRODUCTION IN HUMANS
 
-## DID YOU KNOW?
-SPERM PRODUCTION IS MOST EFFICIENT AT A TEMPERATURE OF ABOUT **34°C**, JUST BELOW THE CORE BODY TEMPERATURE OF **37°C**. THIS IS WHY THE TESTES ARE LOCATED OUTSIDE THE BODY IN THE **SCROTUM**, WHERE THE TEMPERATURE IS SLIGHTLY LOWER.
+                                                  development and breaking of the voice (Table 9.1).
+                                                  In girls, the pituitary hormones control the release of a female sex hormone
+                                                  called oestrogen; from the ovaries. Oestrogen produces the female
+                                                  secondary sexual characteristics, such as breast development and the
+                                                  beginning of menstruation ('periods'
+     Table 9.1 Changes at puberty:
+                                In boys                                                           In girls
 
----- 
+      spermproduction starts                                              the menstrual cycle begins, and eggs are released by the ovaries every month
+      growth and development of male sexual organs                        growth and development of female sexual organs
+      growth of armpit and pubic hair; and chest and facial hair (beard)  growth of armpit and pubic hair
+      increase in body mass; growth of muscles, e.g: chest                increase in body mass; development of 'rounded' shape to hips
+      voice breaks                                                        voice deepens without sudden 'breaking'
+      sexual 'drive' develops                                             sexual 'drive' develops
+                                                                          breasts develop
 
-# REPRODUCTION IN HUMANS
+                                                  The age when puberty takes place can vary a lot; but it is usually between
+                                                  about 11 and 14 years in girls and 13 and 16 years in boys. It takes several
+                                                  years for puberty to be completed. Some of the most complex changes take
+                                                  place in girls, with the start of menstruation_
 
-## CHANGES AT PUBERTY
+       HORMONES AND THE MENSTRUAL                 Menstrual' means
+       CYCLE                                      about a month; although it can vary from as little as two weeks to as long as
+                                                  six weeks(Figures 9.10 and 9.11). In the middle of the cycle is an event called
+                                                  ovulation, which is the release of a mature egg cell, or egg:
+                                                  blood supply                                                          menstruation:
+                                                  develops in                                                           bleeding as uterus
+                                                  new uteruslining                                                      lining is shed
 
-PUBERTY MARKS A SIGNIFICANT DEVELOPMENTAL STAGE IN BOTH BOYS AND GIRLS, CHARACTERIZED BY PHYSICAL AND HORMONAL CHANGES. THE ONSET OF PUBERTY VARIES, TYPICALLY OCCURRING BETWEEN 11 AND 14 YEARS FOR GIRLS AND 13 AND 16 YEARS FOR BOYS. THIS PROCESS MAY SPAN SEVERAL YEARS.
+                                                                                          28    {2
+                                                                                   25 new egg     /3
+                                                                                 24_  matures in ovary
+                                                                               23
+                                                                                  egg dies if
+                                                                                  not fertilised
+                                                                                         egg can
+                                                                                         be fertilised
 
-### CHANGES IN BOYS
-SPERM PRODUCTION BEGINS DURING PUBERTY, ALONG WITH THE DEVELOPMENT OF MALE SEXUAL ORGANS. ARMPIT, PUBIC, CHEST, AND FACIAL HAIR GROW, AND BODY MASS INCREASES. THE VOICE DEEPENS WITHOUT A SUDDEN BREAK, AND SEXUAL DRIVE DEVELOPS.
+                                                                                        116 15 14/13`112
 
-### CHANGES IN GIRLS
-THE MENSTRUAL CYCLE STARTS, AND GROWTH OF ARMPIT AND PUBIC HAIR OCCURS. BODY MASS INCREASES, WITH HIPS DEVELOPING A ROUNDED SHAPE. BREAST DEVELOPMENT BEGINS, AND THE SEXUAL DRIVE EMERGES.
+                                                    egg in                                                                 new Ulerus
+                                                    oviduct                                                                lining develops
+                                                                                   ovulation: egg shed from ovary
+                                                    Figure 9.10 The menstrual cycle
+---
+ANIMAL PHYSIOLOGY                        REPRODUCTION IN HUMANS                                                        111
 
-## HORMONES AND THEIR ROLE
+                                        hormones            oestrogen                    progesterone
+                                        from ovary
 
-IN BOYS, PITUITARY HORMONES STIMULATE MALE SEX HORMONE PRODUCTION, LEADING TO SECONDARY SEXUAL CHARACTERISTICS LIKE INCREASED MUSCLE MASS AND DEEPENED VOICE.
+                                                   growth of follicle   ovulation   corpus luteum grows_  and
+                                                                                                  breaks down
+                                         follicle
 
-IN GIRLS, PITUITARY HORMONES REGULATE THE RELEASE OF ESTROGEN FROM OVARIES, RESPONSIBLE FOR BREAST DEVELOPMENT AND MENSTRUAL ONSET.
+                                                   menstruation      growth of lining
+                                        uterus wall
 
-## THE MENSTRUAL CYCLE
+                                        day of cycle 0                                                     28
+                                          Figure 9.11 Changes taking place during the menstrual cycle
+                                        One function of the                                          lining of the
+                                                                 is to control the development of the
+                                                           cycle
+                                       uterus (womb); so that if the egg is fertilised, the lining will be ready to receive
+                                       the fertilised egg: If the egg is not fertilised, the lining of the uterus is lost from
+                                       the woman's body as the flow of menstrual blood and cells of the lining, called
+                                        a period.
+                                        A cycle is a continuous process, so it doesn't really have a beginning; but the
+                                       first day of menstruation is usually called day 1.
+                                       Inside a woman's ovaries are hundreds of thousands of cells that could
+                                       develop into mature eggs. Every month; one of these grows inside a ball of
+                                       cells called a follicle (Figure 9.12). At the middle of the  (about day 14)
+                                                                                              cycle
+                                       the follicle moves towards the edge of the ovary and the egg is released as
+                                       the follicle bursts open. This is the moment of ovulation:
+DID YOU KNOW?
+ A small percentage of women
+are able to sense the exact
+moment that ovulation happens;
+as the egg bursts out of anovary:
 
-THE MENSTRUAL CYCLE PREPARES THE UTERUS FOR POTENTIAL PREGNANCY, TYPICALLY LASTING 28-30 DAYS BUT VARYING BETWEEN 2 TO 6 WEEKS. KEY EVENTS INCLUDE:
+                                          Figure 9.12 Eggs developing inside the follicles of an ovary: The large follicle contains a fully
+                                          developed egg ready for ovulation.
+---
+While this is going on, the lining of the uterus has been repaired after menstruation, and has thickened. This change is brought about by the hormone oestrogen, which is secreted by the ovaries.
 
-1. **MENSTRUATION**: UTERINE LINING SHEDS IF FERTILIZATION DOESN'T OCCUR.
-2. **OVULATION**: MATURE EGG RELEASES FROM OVARY MID-CYCLE.
-3. **UTERINE DEVELOPMENT**: BLOOD SUPPLY BUILDS FOR POTENTIAL PREGNANCY.
-4. **EGG MATURATION**: NEW EGG MATURES IN OVARY.
+After the egg has been released, it travels down the oviduct to the uterus. It is here in the oviduct that fertilisation may happen, if sexual intercourse has taken place. What's left of the follicle now forms a structure in the ovary called the corpus luteum. The corpus luteum makes another hormone called progesterone. Progesterone completes the development of the uterus lining, by thickening and maintaining it, ready for the fertilised egg to sink into it and develop into an embryo.
 
-!MENSTRUAL CYCLE *(ILLUSTRATION OF MENSTRUAL CYCLE STAGES: OVULATION, MENSTRUATION, AND UTERINE PREPARATION.)*
-
-IF THE EGG ISN'T FERTILIZED, IT DIES, AND THE CYCLE RESTARTS. THIS UNDERSTANDING IS CRUCIAL FOR GRASPING HUMAN REPRODUCTION DURING ADOLESCENCE.
-
-# ANIMAL PHYSIOLOGY: REPRODUCTION IN HUMANS
-
-## THE MENSTRUAL CYCLE
-
-THE MENSTRUAL CYCLE IS A COMPLEX BIOLOGICAL PROCESS ESSENTIAL FOR FEMALE REPRODUCTION. IT INVOLVES HORMONAL CHANGES THAT PREPARE THE BODY FOR POTENTIAL PREGNANCY.
-
-### KEY HORMONES
-- **OESTROGEN**
-- **PROGESTERONE**
-
-THESE HORMONES ARE PRODUCED BY THE OVARIES AND PLAY CRUCIAL ROLES IN REGULATING THE MENSTRUAL CYCLE.
-
-### PHASES OF THE MENSTRUAL CYCLE
-
-1. **FOLLICULAR PHASE**:
-   - THE GROWTH OF THE FOLLICLE OCCURS, LEADING TO THE DEVELOPMENT OF AN EGG.
-   - THE UTERINE LINING THICKENS IN PREPARATION FOR A POTENTIAL PREGNANCY.
-
-2. **OVULATION**:
-   - AROUND DAY 14 OF THE CYCLE, THE FOLLICLE RUPTURES, RELEASING A MATURE EGG. THIS EVENT IS KNOWN AS OVULATION.
-
-3. **LUTEAL PHASE**:
-   - FOLLOWING OVULATION, THE RUPTURED FOLLICLE TRANSFORMS INTO THE CORPUS LUTEUM, WHICH PRODUCES PROGESTERONE.
-   - IF FERTILIZATION OCCURS, THE UTERINE LINING REMAINS INTACT TO SUPPORT THE DEVELOPING EMBRYO.
-
-4. **MENSTRUATION**:
-   - IF THE EGG IS NOT FERTILIZED, THE CORPUS LUTEUM DISINTEGRATES, LEADING TO A DECREASE IN HORMONE LEVELS.
-   - THE UTERINE LINING SHEDS, RESULTING IN MENSTRUAL BLEEDING.
-
-### CYCLE OVERVIEW
-- MENSTRUATION BEGINS ON DAY 1 OF THE CYCLE.
-- THE ENTIRE CYCLE TYPICALLY LASTS ABOUT 28 DAYS, WITH VARIATION AMONG INDIVIDUALS.
-
-!CHANGES TAKING PLACE DURING THE MENSTRUAL CYCLE
-
-INSIDE WOMEN'S OVARIES, HUNDREDS OF THOUSANDS OF CELLS CAPABLE OF DEVELOPING INTO MATURE EGGS EXIST. EACH MONTH, ONE CELL GROWS WITHIN A FOLLICLE. OVULATION RELEASES THIS EGG, CRUCIAL FOR REPRODUCTION.
-
-UNDERSTANDING THE MENSTRUAL CYCLE IS VITAL FOR GRASPING HUMAN REPRODUCTIVE PHYSIOLOGY AND THE BODILY CHANGES INVOLVED IN REPRODUCTION.
-
-# REPRODUCTION IN HUMANS
-
-## OVERVIEW OF THE MENSTRUAL CYCLE
-
-THE MENSTRUAL CYCLE INVOLVES SEVERAL KEY CHANGES IN A WOMAN'S BODY, PARTICULARLY AFFECTING THE OVARIES AND UTERUS.
-
-### HORMONAL CHANGES
-
-DURING THIS PHASE, TWO HORMONES PLAY CRUCIAL ROLES: OESTROGEN AND PROGESTERONE. OESTROGEN IS PRODUCED BY THE OVARIES AND IS ESSENTIAL FOR THICKENING THE UTERINE LINING AFTER MENSTRUATION. FOLLOWING THE RELEASE OF AN EGG FROM THE OVARY, THE REMAINING FOLLICLE TRANSFORMS INTO THE CORPUS LUTEUM, WHICH THEN PRODUCES PROGESTERONE. THIS HORMONE ENSURES THE UTERINE LINING REMAINS INTACT TO SUPPORT A POTENTIAL PREGNANCY.
-
-### FERTILIZATION PROCESS
-
-AFTER RELEASING AN EGG, IT TRAVELS THROUGH THE OVIDUCT TOWARDS THE UTERUS. FERTILIZATION TYPICALLY OCCURS IN THE OVIDUCT IF SEXUAL INTERCOURSE HAS OCCURRED. IF FERTILIZATION HAPPENS, THE CORPUS LUTEUM CONTINUES PRODUCING PROGESTERONE, PREVENTING MENSTRUATION AND SIGNALING EARLY PREGNANCY.
-
-### IF FERTILIZATION DOES NOT OCCUR
-
-WITHOUT FERTILIZATION, THE CORPUS LUTEUM DEGENERATES, LEADING TO A DROP IN PROGESTERONE LEVELS. THIS RESULTS IN THE SHEDDING OF THE UTERINE LINING DURING MENSTRUATION.
-
-### ROLE OF THE PLACENTA
-
-LATER IN PREGNANCY, THE PLACENTA ASSUMES THE ROLE OF THE CORPUS LUTEUM BY PRODUCING PROGESTERONE, CRUCIAL FOR SUSTAINING THE PREGNANCY.
-
-## KEY TERMS
-
-- **CORPUS LUTEUM**: A STRUCTURE IN THE OVARY THAT FORMS AFTER AN EGG IS RELEASED, RESPONSIBLE FOR GENERATING PROGESTERONE.
-- **OESTROGEN**: A HORMONE THAT PREPARES THE UTERINE LINING FOR POTENTIAL FERTILIZATION.
-- **PROGESTERONE**: A HORMONE PRODUCED BY THE CORPUS LUTEUM AND LATER THE PLACENTA, ESSENTIAL FOR MAINTAINING THE UTERINE LINING DURING PREGNANCY.
-
-## CHAPTER QUESTIONS
-
-1. **SEX CELLS (GAMETES)**  
-   GAMETES ARE HAPLOID CELLS PRODUCED THROUGH MEIOSIS. THIS PROCESS REDUCES THE CHROMOSOME NUMBER, RESULTING IN HALF THE ORIGINAL SET, ENSURING GENETIC DIVERSITY IN OFFSPRING.
-
-2. **OVARIES' FUNCTIONS**  
-   THE OVARIES PRODUCE EGGS AND SECRETE BOTH OESTROGEN AND PROGESTERONE. FERTILIZATION OCCURS WITHIN THE OVIDUCT, NOT IN THE OVARIES THEMSELVES.
-
-3. **PROGESTERONE'S SOURCE**  
-   PROGESTERONE IS INITIALLY PRODUCED BY THE CORPUS LUTEUM IN THE OVARY. LATER, THE PLACENTA TAKES OVER THIS FUNCTION DURING PREGNANCY.
-
-4. **HORMONE PRODUCTION**  
-   BOTH THE OVARY AND PLACENTA PRODUCE PROGESTERONE, WITH THE OVARY INITIATING PRODUCTION THROUGH THE CORPUS LUTEUM AND THE PLACENTA CONTINUING IT LATER IN PREGNANCY.
+If the egg is not fertilised, the corpus luteum breaks down and stops making progesterone. The lining of the uterus then passes out through the woman's vagina during menstruation. If, however, the egg is fertilised, the corpus luteum carries on making progesterone, the lining is not shed, and menstruation doesn't happen. The first sign that tells a woman she is pregnant is when her monthly periods stop. Later on in pregnancy, the placenta secretes progesterone, taking over the role of the corpus luteum.
 
 ## EXTENSION WORK
 
-THE TERM "CORPUS LUTEUM" TRANSLATES TO "YELLOW BODY," REFERRING TO THE NOTICEABLE YELLOW SWELLING IN THE OVARY POST-EGG RELEASE. THIS STRUCTURE PLAYS A PIVOTAL ROLE IN MAINTAINING EARLY PREGNANCY THROUGH PROGESTERONE PRODUCTION.
+'Corpus luteum' is Latin for 'yellow body'. A corpus luteum appears as a large yellow swelling in an ovary after the egg has been released.
 
-FOR FURTHER EXPLORATION OF HUMAN REPRODUCTION, REFER TO UNIT 2'S CONCLUSION ON PAGE 116.
+## CHAPTER QUESTIONS
 
-# ANIMAL PHYSIOLOGY: REPRODUCTION IN HUMANS
+More questions on human reproduction can be found at the end of Unit 2 on page 116.
 
-## MENSTRUAL CYCLE AND OVULATION
+## SKILLS: CRITICAL THINKING
 
-A WOMAN'S FIRST DAY OF MENSTRUATION WAS ON 1ST JUNE, ASSUMING A 28-DAY MENSTRUAL CYCLE. THIS TYPICALLY PLACES OVULATION AROUND THE MIDPOINT OF THE CYCLE, WHICH IS MOST LIKELY ON 14TH JUNE.
+1. Which of the following describes sex cells (gametes)?
+   A. diploid cells produced by meiosis
+   B. diploid cells produced by mitosis
+   C. haploid cells produced by meiosis
+   D. haploid cells produced by mitosis
+
+2. Which of the following is not a function of the ovaries?
+   A. the secretion of progesterone
+   B. the production of eggs
+   C. the secretion of oestrogen
+   D. the site of fertilisation
+
+3. Which of the following organs produce(s) the hormone progesterone?
+   1. pituitary gland
+   2. ovary
+   3. uterus
+   4. placenta
+
+   A. 1 and 2
+   B. 2 and 3
+   C. 3 and 4
+   D. 2 and 4
+---
+ANIMAL PHYSIOLOGY                     REPRODUCTION IN HUMANS                                                   113
+
+## SKILLS CRITICAL THINKING
+
+4. A woman's first day of menstruation was on 1st June. Assuming she has a 28-day menstrual cycle, when was she most likely to ovulate?
+
+   A 7 June
+   B 10 June
+   C 14 June
+   D 21 June
+
+## SKILLS ANALYSIS
+
+5. The diagram shows a baby about to be born.
+
+   ![Diagram of a pregnant woman's torso with labeled parts A-F, baby, and vagina]
+
+   a Name parts A to F on the diagram.
+   b What is the function of A during pregnancy?
+   c What must happen to D and E just before birth?
+   d What must E and F do during birth?
+
+## SKILLS CRITICAL THINKING
+
+6. The diagram shows Hydra (a small water animal) reproducing in two ways.
+
+   | Method A | Method B |
+   |----------|----------|
+   | [Diagram of Hydra with testes and ovary labeled] | [Diagram of Hydra with young Hydra bud] |
+
+   a Which of the two methods shows asexual reproduction? Give a reason for your answer.
+   b Explain why organisms produced asexually are genetically identical to each other and to the organism that produced them.
+   c When the surroundings do not change for long periods, Hydra reproduces mainly asexually. When the conditions change, Hydra begins to reproduce sexually. How does this pattern of sexual and asexual reproduction help Hydra to survive?
+---
+       B
+       ↓
+    ┌───────┐
+    │       │
+A →  ●     ●  ← A
+    │   ↑   │
+    │   C   │
+    │       │
+    │   D   │
+    │   ↓   │
+    │       │
+    │   E   │
+    │   ↓   │
+    └───────┘
 
 ---
+ANIMAL PHYSIOLOGY                      REPRODUCTION IN HUMANS                                                   115
 
-## DIAGRAM ANALYSIS: BIRTH PROCESS
+SKILLS   ANALYSIS                        Thegraph shows some of the changes taking place during the menstrual
+                                         cycle:
 
-THE DIAGRAM ILLUSTRATES A BABY ABOUT TO BE BORN, LABELED WITH PARTS A TO F. DURING PREGNANCY, PART A SERVES AS A PROTECTIVE COVERING FOR THE DEVELOPING FETUS. JUST BEFORE BIRTH, PARTS D AND E MUST COMPLETE ESSENTIAL DEVELOPMENTAL STAGES, ENSURING READINESS FOR DELIVERY. DURING BIRTH, PARTS E AND F FACILITATE THE EXPULSION OF THE BABY FROM THE UTERUS.
+                                             follicle
 
+                                               uterus
+                                               lining                              21        28 (days)
+
+                                           Identify the two hormones produced by the ovary; which are shown by
+                                           the lines A and B on the graph:
+                                            Name the structure C_
+                                           What is the purpose of the thickening of the uterusliningat D?
+                                           When is sexual intercourse most likely to result in pregnancy: atday
+                                           10, 13,20 or 232
+                                           Why is it important that the level of progesterone remains high in the
+                                           blood of a woman during pregnancy? How does her body achieve this:
+SKILLS   REASONING                             just after she becomes pregnant
+                                               later on in pregnancy?
 ---
+116  ANIMAL PHYSIOLOGY                      UNIT QUESTIONS
 
-## REPRODUCTION IN HYDRA
+       UNIT QUESTIONS
 
-HYDRA CAN REPRODUCE THROUGH TWO METHODS: SEXUAL REPRODUCTION INVOLVING TESTES AND AN OVARY, AND ASEXUAL REPRODUCTION VIA BUDDING. METHOD B EXEMPLIFIES ASEXUAL REPRODUCTION BECAUSE IT CREATES GENETICALLY IDENTICAL CLONES WITHOUT GAMETES. ORGANISMS PRODUCED ASEXUALLY ARE IDENTICAL DUE TO MITOTIC CELL DIVISION, CLONING THE PARENT ORGANISM.
+     SKILLS   CRITICAL THINKING            The table shows the percentage of gases in inhaled and exhaled air:
+                                                      Gas                  Inhaled air              Exhaled air
+                                            nitrogen                            78                       79
+                                            oxygen
+                                            carbon dioxide
+                                            other gases (mainly argon)
+                                             Copy the table and fill in the gaps by choosing from the following numbers:
+                                                21          0.04     16                                             (2)
+     SKILLS   REASONING                    b Explain why the percentage of carbon dioxide is different in inhaled and
+                                              exhaled air:                                                          (2)
+                                              Explain why exhaling is a form of excretion:                          (2)
+                                              The following features can be seen in the lungs:
+                                                 thin membranes between the alveoli and the blood supply
+                                                  goodblood supply
+                                                  large surface area:
+                                              In each case explain how the feature helps gas exchange to happen
+                                              quickly:                                                              (6
+                                                                                                     (Total 12 marks)
+     SKILLS   ANALYSIS              2      Digestion is brought about by enzymes converting large insoluble molecules
+                                           into smaller soluble molecules that can be more easily absorbed:
+                                              The activity of enzymes is influenced by pH and temperature: The graph
+                                              shows the activity of two human enzymes from different regions of the gut
+                                              at different pH values.
 
-WHEN ENVIRONMENTS REMAIN STABLE, HYDRA PRIMARILY USES ASEXUAL REPRODUCTION TO QUICKLY INCREASE POPULATIONS. WHEN CONDITIONS CHANGE, SEXUAL REPRODUCTION INTRODUCES GENETIC DIVERSITY, AIDING SURVIVAL IN FLUCTUATING ENVIRONMENTS.
-
+                                                                0  enzyme A     enzyme B
+                                                                1
+                                                                      2   3 4  5 6  7   8  10 11 12
+                                                                                 pH
+                                                 Suggest which regions of the gut the two enzymes come from_
+                                                 Explain your answer:                                               (4)
+                                                 Which nutrient does enzyme A digest?
+                                              Farmers sometimes include urea in cattle food: The microorganisms in the
+                                              rumen can use urea to make protein.
+     SKILLS   CRITICAL THINKING                  In mammals, where in the body is urea made?                        ()
+                                                 What is urea made from?
+                                              iii  Suggest how feeding urea to cattle can result in an increased growth
+                                                 rate_                                                              (1)
+                                                                                                       (Total 8 marks)
 ---
+ ANIMAL PHYSIOLOGY                        UNIT QUESTIONS                                                                117
 
-## SKILLS DEVELOPMENT
+SKILLS    ANALYSIS               3      The diagram shows the human circulatory system: The system carries
+                                         nutrients, oxygen and carbon dioxide around the body
+                                                      pulmonary
+                                                      artery                 lungs
+                                                       vena cava
 
-- **CRITICAL THINKING:** ANALYZE THE MENSTRUAL CYCLE AND ITS IMPLICATIONS FOR OVULATION.
-- **ANALYSIS:** UNDERSTAND REPRODUCTIVE PROCESSES IN BOTH HUMANS AND HYDRA, AND THEIR SIGNIFICANCE FOR SURVIVAL AND ADAPTATION.
+                                                            hepatic                           hepatic
+                                                             vein                              artery
 
-# ANIMAL PHYSIOLOGY: REPRODUCTION IN HUMANS
+                                                           hepatic          Iver             mesenteric
+                                                                                               artery
+                                                            portal
+                                                             vein
 
-## FEMALE REPRODUCTIVE SYSTEM
+                                                                              kidney
+                                                                                               renal artery
+                                                           direction of        oxygenated      deoxygenated
+                                                           blood flow          blood           blood
 
-THE DIAGRAM ILLUSTRATES THE FEMALE REPRODUCTIVE SYSTEM.
-
-1. THE SITE OF PRODUCTION OF OESTROGEN AND PROGESTERONE IS REPRESENTED BY LETTER A.
-2. FERTILISATION TYPICALLY OCCURS WITHIN STRUCTURE B.
-3. DURING BIRTH, STRUCTURE C MUST DILATE TO FACILITATE THE PROCESS.
-4. STRUCTURE D RELEASES OVA.
-
+                                           Write down the names of the structures labelled A to Ex                   (5)
+                                           Give two differences between the blood vessels at point X and point Y.    (2)
+                                           During exercise, the adrenal gland releases the hormone adrenaline.
+                                           Reflexes involving the medulla of the brain influence the heartbeat and
+                                           breathing:
+SKILLS    CRITICAL THINKING                   Describe two effects of adrenaline on the heartbeat:                   (2)
+                                              Describe two other effects of adrenaline on the body:                  (2)
+SKILLS    REASONING                        How is a reflex action different from a voluntary action?                 (2)
+                                           Following exercise there is a recovery period in which breathing rate and
+                                           heart rate gradually return to pre-exercise levels. Explain why they do not
+                                           return immediately to these levels_                                       (3)
+                                                                                                     (Total 16 marks)
+SKILLS    INTERPRETATION                The immune system responds to infections using white blood cells_
+                                        A phagocyte is one type of white blood cell:
+                                           Draw and label a phagocyte                                                (3)
+SKILLS    CRITICAL THINKING                State one way that the structure of a phagocyte differs from that of a red
+                                           blood cell:                                                               (1)
+                                           Phagocytes carry out phagocytosis. Describe this process:                 (2)
+                                           Describe how other white blood cells are involved in the immune           (3)
+                                           response:
+                                                                                                       (Total 9 marks)
 ---
-
-## UTERINE LINING CHANGES
-
-THE GRAPH DISPLAYS THE THICKNESS OF A WOMAN'S UTERINE LINING OVER 100 DAYS.
-
-### GRAPH DETAILS
-- **X-AXIS**: TIME (DAYS)
-- **Y-AXIS**: THICKNESS OF UTERINE LINING
-
-### OBSERVATIONS AND ANALYSIS
-- THE HORMONE RESPONSIBLE FOR THICKENING THE UTERINE LINING IS IDENTIFIED THROUGH THE GRAPH.
-- BY ANALYZING THE GRAPH, THE DURATION OF THE MENSTRUAL CYCLE CAN BE DETERMINED.
-- FERTILISATION LEADING TO PREGNANCY LIKELY OCCURS AROUND DAY E, AS INDICATED BY THE DATA.
-
-### CRITICAL THINKING
-THE UTERINE LINING REMAINS THICKENED DURING PREGNANCY TO SUPPORT EMBRYO IMPLANTATION AND DEVELOPMENT.
-
+   |                D                A
+   |          25 26 27 28 1 2 3 4
+   |        24                     5
+   |      23    new egg cell      6
+   |     22     matures in ovary  7
+   |    21  egg cell dies if     8
+   | C 20   not fertilised       9  B
+   |   19                       10
+   |    18  egg cell can       11
+   |     17  be fertilised    12
+   |       16 15 14 13
+   |           ^
+   |           |
+   |     ovulation on day 14
+   
 ---
+ANIMAL PHYSIOLOGY                        UNIT QUESTIONS                                                              119
 
-## SPERM COUNT
+## SKILLS CRITICAL THINKING 7
 
-THE SPERM COUNT REFERS TO THE NUMBER OF SPERM CELLS PER CM³ IN SEMEN.
+Cells can divide by mitosis or by meiosis. Human cells contain 46 chromosomes. The graphs show the changes in the number of chromosomes per cell as two different human cells undergo cell division.
 
-### RESEARCH OVERVIEW
-RECENT STUDIES SUGGEST THAT SPERM COUNTS IN ADULT MALES HAVE DECLINED OVER THE PAST 50 YEARS. THIS DECLINE IS LINKED TO ENVIRONMENTAL FACTORS, INCLUDING EXPOSURE TO POLLUTANTS IN DRINKING WATER CONTAINING OESTROGENS AND OTHER CHEMICALS.
+| Cell A                   |           |           |           | Cell B                   |           |           |           |
+|--------------------------|-----------|-----------|-----------|--------------------------|-----------|-----------|-----------|
+| original cell            | cell division | new cells | | original cell            | cell division | new cells |           |
+| 92                       |           |           |           | 92                       |           |           |           |
+| 69                       |           |           |           | 69                       |           |           |           |
+| 46                       |           |           |           | 46                       |           |           |           |
+| 23                       |           |           |           | 23                       |           |           |           |
+| 0                        |           |           |           | 0                        |           |           |           |
+|                          | time      |           |           |                          | time      |           |           |
 
-### ASSIGNMENT TASK
-CONDUCT AN INTERNET SEARCH TO FIND EVIDENCE SUPPORTING THIS CLAIM. SUMMARISE FINDINGS ON ABOUT TWO SIDES OF A4 PAPER.
+a. Which of the two cells, A or B, is dividing by meiosis? Explain how you arrived at your answer. (3)
 
-# ANIMAL PHYSIOLOGY: REPRODUCTION IN HUMANS
+b. Explain the importance of meiosis, mitosis and fertilisation in maintaining the human chromosome number constant at 46 chromosomes per cell, generation after generation. (6)
 
-## MENSTRUAL CYCLE OVERVIEW
+c. Give three differences between mitosis and meiosis. (3)
 
-THE MENSTRUAL CYCLE REPRESENTS A COMPLEX INTERPLAY OF HORMONAL CHANGES AND PHYSIOLOGICAL RESPONSES IN THE FEMALE BODY. THE CYCLE TYPICALLY SPANS 28 DAYS, AS ILLUSTRATED BY THE GRAPH PROVIDED.
+(Total 12 marks)
 
-!MENSTRUAL CYCLE GRAPH
-*GRAPH SHOWING CHANGES DURING THE MENSTRUAL CYCLE*
+## SKILLS EXECUTIVE FUNCTION 8
 
-### KEY STRUCTURES AND HORMONES
+Protein supplements are foods that some body-builders use to increase the growth of their muscles. Describe an investigation to find out if adding a protein supplement to the diet of rats will increase their growth.
 
-- **HORMONES PRODUCED BY THE OVARY**: ESTROGEN AND PROGESTERONE ARE SECRETED BY THE OVARY.
-- **STRUCTURE C (FOLLICLE)**: THIS STRUCTURE IS INTEGRAL TO THE PRODUCTION OF HORMONES DURING THE MENSTRUAL CYCLE.
+Your answer should include experimental details and be written in full sentences. (6)
 
-### UTERUS LINING CHANGES
-
-THE THICKENING OF THE UTERINE LINING AT SPECIFIC POINTS, SUCH AS POINT D, SERVES A CRUCIAL FUNCTION. THIS THICKENING PREPARES THE UTERUS TO RECEIVE AND SUPPORT A FERTILIZED EGG, FACILITATING EMBRYO DEVELOPMENT.
-
-### TIMING OF FERTILITY
-
-OVULATION GENERALLY OCCURS AROUND DAY 13 OF THE MENSTRUAL CYCLE, MAKING THIS PERIOD THE MOST CONDUCIVE FOR CONCEPTION THROUGH SEXUAL INTERCOURSE.
-
-### IMPORTANCE OF PROGESTERONE
-
-PROGESTERONE PLAYS A VITAL ROLE IN MAINTAINING THE UTERINE LINING DURING PREGNANCY. INITIALLY, HIGH LEVELS ARE PRODUCED BY THE CORPUS LUTEUM UPON CONCEPTION, LATER SHIFTED TO PRODUCTION BY THE PLACENTA AS THE PREGNANCY PROGRESSES.
-
-### SKILLS ANALYSIS AND REASONING
-
-UNDERSTANDING THESE PROCESSES ALLOWS FOR INSIGHTS INTO REPRODUCTIVE BIOLOGY AND HORMONAL REGULATION, ENHANCING COMPREHENSION OF HUMAN REPRODUCTION MECHANISMS.
-
-# ANIMAL PHYSIOLOGY
-
-## UNIT QUESTIONS
-
-### SKILLS: CRITICAL THINKING
-
-**GAS EXCHANGE IN THE LUNGS**
-
-THE TABLE BELOW ILLUSTRATES THE COMPOSITION OF GASES IN INHALED AND EXHALED AIR:
-
-| GAS                     | INHALED AIR | EXHALED AIR |
-|------------------------|-------------|--------------|
-| NITROGEN               | 78          | 79           |
-| OXYGEN                 | 21          | 16           |
-| CARBON DIOXIDE         | 0.04        | 4            |
-| OTHER GASES (MAINLY ARGON) | 0.96    | 0.96         |
-
-**QUESTION A:** THE PERCENTAGE OF CARBON DIOXIDE IS HIGHER IN EXHALED AIR BECAUSE HUMANS ELIMINATE THIS GAS THROUGH RESPIRATION, WHILE INHALED AIR CONTAINS MINIMAL CO2 FROM THE AMBIENT ENVIRONMENT.
-
-**QUESTION B:** EXHALING IS A FORM OF EXCRETION BECAUSE IT REMOVES WASTE PRODUCTS (CARBON DIOXIDE) FROM THE BODY VIA THE LUNGS, SIMILAR TO HOW OTHER EXCRETORY SYSTEMS FUNCTION.
-
-**QUESTION C:** THE THIN MEMBRANES BETWEEN ALVEOLI AND BLOOD SUPPLY FACILITATE EFFICIENT GAS EXCHANGE BY ALLOWING DIRECT DIFFUSION OF OXYGEN AND CARBON DIOXIDE. THE GOOD BLOOD SUPPLY ENSURES THAT OXYGENATED BLOOD IS EFFICIENTLY CARRIED AWAY FROM THE LUNGS. THE LARGE SURFACE AREA OF THE ALVEOLI INCREASES THE RATE OF GAS EXCHANGE, ENABLING RAPID TRANSFER OF GASES.
-
+(Total 6 marks)
 ---
+PLANTS AND FOOD 121          TRANSPORT IN PLANTS 136     CHEMICAL COORDINATION IN PLANTS 145
+REPRODUCTION IN PLANTS 151
 
-### SKILLS: REASONING
+# BIOLOGY UNIT 3
+# PLANT PHYSIOLOGY
 
-**DIGESTION AND ENZYMES**
-
-DIGESTION INVOLVES ENZYMES BREAKING DOWN LARGE MOLECULES INTO SMALLER, MORE ABSORBABLE FORMS. THE ACTIVITY OF THESE ENZYMES IS INFLUENCED BY PH AND TEMPERATURE.
-
-THE GRAPH SHOWS ENZYME ACTIVITIES AT DIFFERENT PH LEVELS:
-
-| PH | ENZYME A | ENZYME B |
-|----|----------|----------|
-| 0  |          |          |
-| 2  |          |          |
-| 3  |          |          |
-| 4  |          |          |
-| 5  |          |          |
-| 6  |          |          |
-| 7  |          |          |
-| 8  |          |          |
-| 10 |          |          |
-| 11 |          |          |
-| 12 |          |          |
-
-**QUESTION A:** ENZYME A, ACTIVE AT ACIDIC PH (LIKELY STOMACH), LIKELY ORIGINATES IN THE STOMACH. ENZYME B, ACTIVE AT NEUTRAL PH (SMALL INTESTINE), COMES FROM THE SMALL INTESTINE.
-
-**QUESTION B:** ENZYME A PROBABLY DIGESTS PROTEINS, AS PEPSIN IS AN ENZYME FOUND IN THE STOMACH THAT BREAKS DOWN PROTEINS INTO PEPTIDES.
-
-**QUESTION I:** UREA IS SYNTHESIZED IN THE LIVER OF MAMMALS.
-
-**QUESTION II:** UREA IS FORMED FROM AMMONIA (NH3) AND CARBON DIOXIDE (CO2).
-
-**QUESTION III:** FEEDING UREA TO CATTLE PROVIDES ADDITIONAL NITROGEN, WHICH CAN BE CONVERTED INTO AMINO ACIDS AND USED FOR PROTEIN SYNTHESIS, PROMOTING GROWTH.
-
----
-
-### SKILLS: ANALYSIS
-
-UNDERSTANDING GAS EXCHANGE AND DIGESTION PROCESSES HIGHLIGHTS HOW ANIMALS OBTAIN NUTRIENTS AND ENERGY. THE ROLE OF ENZYMES AND PH SENSITIVITY ILLUSTRATES THE IMPORTANCE OF ENVIRONMENTAL CONDITIONS IN BIOLOGICAL PROCESSES. THE CONNECTION BETWEEN DIET AND GROWTH IN CATTLE DEMONSTRATES PRACTICAL APPLICATIONS OF PHYSIOLOGICAL KNOWLEDGE IN AGRICULTURE.
-
----
-
-THIS RESTRUCTURED CONTENT MAINTAINS A CLEAR, HIERARCHICAL STRUCTURE WITH FACTUAL EXPLANATIONS, AVOIDING READER-DIRECTED LANGUAGE AND META-COMMENTARY, ENSURING EACH PARAGRAPH IS SELF-CONTAINED AND FOCUSED ON EDUCATIONAL CONTENT.
-
-# ANIMAL PHYSIOLOGY
-
-## UNIT QUESTIONS
-
-### THE HUMAN CIRCULATORY SYSTEM
-
-THE HUMAN CIRCULATORY SYSTEM TRANSPORTS NUTRIENTS, OXYGEN, AND CARBON DIOXIDE THROUGHOUT THE BODY. IT CONSISTS OF A NETWORK OF BLOOD VESSELS THAT INCLUDE ARTERIES, VEINS, AND CAPILLARIES.
-
-**KEY STRUCTURES:**
-- **PULMONARY ARTERY:** CARRIES OXYGENATED BLOOD FROM THE HEART TO THE LUNGS.
-- **VENA CAVA:** RETURNS DEOXYGENATED BLOOD FROM THE LUNGS TO THE HEART.
-- **HEPATIC VEIN:** TRANSPORTS DEOXYGENATED BLOOD FROM THE DIGESTIVE SYSTEM TO THE HEART.
-- **HEPATIC ARTERY:** SUPPLIES OXYGENATED BLOOD TO THE LIVER.
-- **HEPATIC PORTAL VEIN:** CARRIES BLOOD FROM THE INTESTINES TO THE LIVER.
-- **KIDNEY:** REMOVES WASTE PRODUCTS FROM THE BLOOD AND FORMS URINE.
-
-**BLOOD FLOW DIRECTION:**
-- OXYGENATED BLOOD IS CARRIED FROM THE HEART TO TISSUES VIA ARTERIES.
-- DEOXYGENATED BLOOD RETURNS TO THE HEART THROUGH VEINS.
-
-### QUESTIONS
-
-1. LABEL THE STRUCTURES A TO E AS PART OF THE CIRCULATORY SYSTEM.
-
-2. COMPARE TWO DIFFERENCES BETWEEN THE FUNCTIONS OF A PULMONARY ARTERY AND A VENA CAVA.
-
-3. DESCRIBE HOW ADRENALINE AFFECTS HEART RATE DURING EXERCISE, INCLUDING TWO SPECIFIC EFFECTS ON THE HEART AND TWO OTHER BODILY EFFECTS.
-
-4. EXPLAIN HOW REFLEX ACTIONS DIFFER FROM VOLUNTARY ACTIONS IN TERMS OF CONTROL AND RESPONSE SPEED.
-
-5. DISCUSS WHY BREATHING AND HEART RATE DO NOT IMMEDIATELY RETURN TO PRE-EXERCISE LEVELS AFTER INTENSE ACTIVITY, CONSIDERING THE BODY'S RECOVERY PROCESSES.
-
-### TOTAL MARKS: 16
-
----
-
-### THE IMMUNE SYSTEM
-
-THE IMMUNE SYSTEM DEFENDS THE BODY AGAINST PATHOGENS THROUGH WHITE BLOOD CELLS, INCLUDING PHAGOCYTES.
-
-**PHAGOCYTES:**
-- PHAGOCYTES ARE SPECIALIZED WHITE BLOOD CELLS THAT ENGULF AND DESTROY PATHOGENS.
-
-1. DRAW A PHAGOCYTE AND LABEL ITS STRUCTURE.
-2. COMPARE ONE STRUCTURAL DIFFERENCE BETWEEN A PHAGOCYTE AND A RED BLOOD CELL.
-3. DESCRIBE THE PROCESS OF PHAGOCYTOSIS, WHERE PHAGOCYTES ENGULF PATHOGENS.
-4. EXPLAIN HOW OTHER IMMUNE CELLS, SUCH AS LYMPHOCYTES, CONTRIBUTE TO IMMUNE RESPONSES.
-
-### TOTAL MARKS: 9
-
----
-
-### SKILLS DEVELOPMENT
-
-- **ANALYSIS:** EVALUATING INFORMATION TO UNDERSTAND PHYSIOLOGICAL PROCESSES.
-- **CRITICAL THINKING:** APPLYING REASONING TO SOLVE PROBLEMS IN ANIMAL PHYSIOLOGY.
-- **REASONING:** DRAWING LOGICAL CONCLUSIONS ABOUT BIOLOGICAL SYSTEMS.
-- **INTERPRETATION:** UNDERSTANDING COMPLEX BIOLOGICAL CONCEPTS THROUGH ANALYSIS.
-
-THESE SKILLS ARE ESSENTIAL FOR STUDYING AND ANALYZING PHYSIOLOGICAL PROCESSES IN ANIMALS, INCLUDING HUMANS.
-
-# ANIMAL PHYSIOLOGY
-
-## UNIT QUESTIONS
-
-### SKILLS: REASONING
-
-1. **BODY TEMPERATURE REGULATION IN HUMANS AND MAMMALS**
-
-HUMANS AND OTHER MAMMALS MAINTAIN A CONSTANT BODY TEMPERATURE HIGHER THAN THEIR SURROUNDINGS THROUGH HOMEOSTATIC MECHANISMS. THIS ALLOWS THEM TO FUNCTION OPTIMALLY UNDER VARIOUS ENVIRONMENTAL CONDITIONS, PREVENTING EXCESSIVE HEAT LOSS OR RETENTION.
-
-THE BRAIN MONITORS BLOOD TEMPERATURE AND TRIGGERS RESPONSES WHEN IT DROPS. ARTERIOLES CONSTRICT, REDUCING BLOOD FLOW TO THE SKIN, WHICH MINIMIZES HEAT LOSS. SHIVERING INCREASES METABOLIC RATE, GENERATING BODY HEAT. SWEAT PRODUCTION DECREASES AS EVAPORATION IS REDUCED, FURTHER AIDING IN WARMTH PRESERVATION.
-
-2. **RESPONSES TO COLD BLOOD TEMPERATURE**
-
-THE STRUCTURE OF ARTERIOLES ALLOWS THEM TO CONSTRICT BY NARROWING THE SPACE BETWEEN ENDOTHELIAL CELLS, EFFECTIVELY REDUCING BLOOD FLOW TO THE SKIN AND ENHANCING THERMAL INSULATION.
-
-### SKILLS: ANALYSIS
-
-3. **MENSTRUAL CYCLE DIAGRAM**
-
-THE MENSTRUAL CYCLE CONSISTS OF SEVERAL STAGES MARKED BY HORMONAL CHANGES AND UTERINE MODIFICATIONS. DURING STAGE A, ESTROGEN LEVELS RISE, INCREASING UTERINE VASCULARITY. IN STAGE B, PROGESTERONE LEVELS INCREASE, THICKENING THE UTERINE LINING. STAGE C SEES A DROP IN BOTH HORMONES, LEADING TO UTERINE BREAKDOWN. STAGE D BEGINS WITH OVULATION.
-
-UNDERSTANDING THESE STAGES HELPS IN PREDICTING AND MANAGING REPRODUCTIVE HEALTH, AIDING IN CONTRACEPTION BY IDENTIFYING FERTILE WINDOWS AND CYCLE PHASES.
-
-4. **KNOWLEDGE OF THE MENSTRUAL CYCLE**
-
-KNOWING THE MENSTRUAL CYCLE ALLOWS INDIVIDUALS TO TRACK FERTILITY AND PREVENT PREGNANCY THROUGH AWARENESS OF OVULATION TIMING AND HORMONAL CHANGES.
-
-THIS RESTRUCTURED FORMAT PRESENTS INFORMATION CLEARLY, FACILITATING EFFECTIVE UNDERSTANDING OF ANIMAL PHYSIOLOGY CONCEPTS.
-
-# ANIMAL PHYSIOLOGY
-
-## UNIT QUESTIONS
-
-### CELL DIVISION
-
-CELLS CAN DIVIDE THROUGH TWO PRIMARY PROCESSES: **MITOSIS** AND **MEIOSIS**. IN HUMANS, EACH CELL CONTAINS **46 CHROMOSOMES**. THE FOLLOWING INFORMATION ILLUSTRATES THE CHANGES IN CHROMOSOME COUNT AS TWO HUMAN CELLS UNDERGO DIVISION.
-
-#### CELL A
-- ORIGINAL CELL: 8 CHROMOSOMES
-- NEW CELLS: 8 CHROMOSOMES EACH
-
-#### CELL B
-- ORIGINAL CELL: 2 CHROMOSOMES
-- NEW CELLS: 1 CHROMOSOME EACH
-
-**QUESTION 1**: WHICH OF THE TWO CELLS, A OR B, IS UNDERGOING MEIOSIS? EXPLAIN YOUR REASONING. (3 MARKS)
-
-**QUESTION 2**: DESCRIBE HOW MEIOSIS, MITOSIS, AND FERTILIZATION CONTRIBUTE TO MAINTAINING A CONSTANT NUMBER OF CHROMOSOMES (46) IN HUMAN CELLS ACROSS GENERATIONS. (6 MARKS)
-
-**QUESTION 3**: IDENTIFY THREE KEY DIFFERENCES BETWEEN MITOSIS AND MEIOSIS. (3 MARKS)
-
-**TOTAL: 12 MARKS**
-
----
-
-### INVESTIGATION ON PROTEIN SUPPLEMENTS
-
-**QUESTION**: DESIGN AN INVESTIGATION TO DETERMINE IF ADDING A PROTEIN SUPPLEMENT TO RAT DIETS INCREASES GROWTH. INCLUDE EXPERIMENTAL DETAILS IN FULL SENTENCES. (6 MARKS)
-
-**TOTAL: 6 MARKS**
-
----
-
-### SKILLS DEVELOPMENT
-
-- **CRITICAL THINKING**: ANALYZE CELL DIVISION PROCESSES AND THEIR IMPLICATIONS FOR GROWTH AND DEVELOPMENT.
-- **EXECUTION**: FORMULATE AND CONDUCT EXPERIMENTS RELATED TO ANIMAL PHYSIOLOGY.
-
+Plant physiology is the branch of biology that deals with the internal activities of plants. It covers many aspects of plant life, including nutrition (photosynthesis), movement of materials around the plant, and reproduction. There are many reasons why we need to study how plants work, not least because they provide the world's food supply and oxygen. Animals, including humans, could not exist without plants. Modern agriculture depends on the scientific study of plant physiology, as does our understanding of ecosystems.
 ---

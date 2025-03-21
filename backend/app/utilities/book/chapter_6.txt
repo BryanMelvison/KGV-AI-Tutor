@@ -1,483 +1,600 @@
-# ANIMAL PHYSIOLOGY: COORDINATION
-
-## INTRODUCTION TO COORDINATION
-COORDINATION IN ANIMALS REFERS TO THE ABILITY TO LINK VARIOUS BODY ACTIVITIES IN RESPONSE TO ENVIRONMENTAL CHANGES. THIS PROCESS IS PRIMARILY MANAGED BY TWO SYSTEMS: THE NERVOUS SYSTEM AND THE ENDOCRINE SYSTEM. THIS CHAPTER FOCUSES ON THE NERVOUS SYSTEM, WHILE THE ENDOCRINE SYSTEM IS DISCUSSED IN A SUBSEQUENT CHAPTER.
-
-## LEARNING OBJECTIVES
-BY THE END OF THIS CHAPTER, READERS WILL BE ABLE TO:
-- UNDERSTAND HOW ORGANISMS RESPOND TO ENVIRONMENTAL CHANGES THROUGH THE CENTRAL NERVOUS SYSTEM, LEADING TO RAPID REACTIONS.
-- RECOGNIZE THAT COORDINATED RESPONSES REQUIRE A STIMULUS, A RECEPTOR, AND AN EFFECTOR.
-- DESCRIBE THE STRUCTURE AND FUNCTION OF THE EYE AS A RECEPTOR.
-- EXPLAIN THE EYE'S ROLE IN FOCUSING ON NEAR AND DISTANT OBJECTS AND RESPONDING TO VARIATIONS IN LIGHT INTENSITY.
-- UNDERSTAND HOW THE NERVOUS SYSTEM CONTROLS RESPONSES.
-- DESCRIBE THE STRUCTURE AND FUNCTIONING OF A SIMPLE REFLEX ARC, SUCH AS THE WITHDRAWAL OF A FINGER FROM A HOT OBJECT.
-- DISCUSS THE ROLE OF NEUROTRANSMITTERS AT SYNAPSES.
-
-## STIMULUS AND RESPONSE
-WHEN AN INDIVIDUAL ENCOUNTERS A STIMULUS, SUCH AS AN APPROACHING BALL, THE NERVOUS SYSTEM FACILITATES A COORDINATED RESPONSE. THIS INVOLVES SEVERAL COMPONENTS:
-
-### KEY CONCEPTS
-- **STIMULUS**: A CHANGE IN THE ENVIRONMENT THAT TRIGGERS A REACTION.
-- **RESPONSE**: THE ORGANISM'S REACTION TO THE STIMULUS.
-- **RECEPTOR**: THE EYE DETECTS THE STIMULUS IN THIS EXAMPLE.
-- **EFFECTOR**: MUSCLES CONTRACT TO MOVE AWAY FROM THE BALL.
-- **NERVOUS SYSTEM**: ACTS AS THE COORDINATION SYSTEM LINKING STIMULUS AND RESPONSE.
-
-THE SEQUENCE OF EVENTS IN A COORDINATED RESPONSE IS:
-1. STIMULUS → 2. RECEPTOR → 3. COORDINATION (VIA NERVOUS SYSTEM) → 4. EFFECTOR → 5. RESPONSE
-
-FOR INSTANCE, WHEN SMELLING FOOD:
-- THE NOSE ACTS AS THE RECEPTOR.
-- SALIVARY GLANDS, THE EFFECTOR, SECRETE SALIVA IN RESPONSE.
-
-THE NERVOUS SYSTEM TRANSMITS SIGNALS CALLED NERVE IMPULSES, WHICH ARE TINY ELECTRICAL SIGNALS TRAVELING ALONG NERVE CELLS, FACILITATING THIS COORDINATION.
-
-## SUMMARY OF EVENTS
-THE SEQUENCE FROM STIMULUS TO RESPONSE IS CRUCIAL FOR SURVIVAL. THIS PROCESS ENSURES THAT ORGANISMS REACT SWIFTLY AND ADAPT TO THEIR ENVIRONMENT EFFECTIVELY.
-
-# ANIMAL PHYSIOLOGY: COORDINATION
-
-## DID YOU KNOW?
-INSECTS SUCH AS BEES CAN DETECT ULTRAVIOLET (UV) LIGHT, WHICH IS INVISIBLE TO HUMANS. THIS ABILITY ALLOWS THEM TO SEE PATTERNS ON FLOWERS THAT ARE NOT VISIBLE TO US.
-
-## RECEPTORS
-RECEPTORS PLAY A CRUCIAL ROLE IN DETECTING STIMULI BY CONVERTING THE ENERGY FROM EXTERNAL SOURCES INTO ELECTRICAL SIGNALS. FOR INSTANCE, THE EYE CONVERTS LIGHT ENERGY INTO NERVE IMPULSES, WHILE THE EAR PROCESSES SOUND AND MECHANICAL ENERGIES. THE TABLE BELOW OUTLINES THE TYPES OF ENERGY DETECTED BY VARIOUS HUMAN RECEPTORS:
-
-| RECEPTOR                                   | TYPE OF ENERGY RECEIVED          |
-|--------------------------------------------|----------------------------------|
-| EYE (RETINA)                               | LIGHT                            |
-| EAR (ORGAN OF HEARING)                     | SOUND                            |
-| EAR (ORGAN OF BALANCE)                     | MECHANICAL (KINETIC)            |
-| TONGUE (TASTE BUDS)                        | CHEMICAL                         |
-| NOSE (ORGAN OF SMELL)                      | CHEMICAL                         |
-| SKIN (TOUCH/PRESSURE/PAIN RECEPTORS)      | MECHANICAL (KINETIC)            |
-| SKIN (TEMPERATURE RECEPTORS)               | HEAT                             |
-| MUSCLE (STRETCH RECEPTORS)                 | MECHANICAL (KINETIC)            |
-
-EACH SENSE DETECTS SPECIFIC ASPECTS OF ENERGY. FOR EXAMPLE, THE EAR DISTINGUISHES BETWEEN LOUDNESS AND FREQUENCY, WHILE THE EYE DIFFERENTIATES BETWEEN LIGHT WAVELENGTHS (COLORS). THE SKIN'S RECEPTORS DETECT MECHANICAL STIMULI, INCLUDING TOUCH, TEMPERATURE, AND PAIN.
-
-## THE CENTRAL NERVOUS SYSTEM
-THE CENTRAL NERVOUS SYSTEM (CNS), CONSISTING OF THE BRAIN AND SPINAL CORD, IS RESPONSIBLE FOR PROCESSING SENSORY INFORMATION. NEURONES, OR NERVE CELLS, TRANSMIT IMPULSES THROUGH THEIR DENDRITES AND AXONS. THESE IMPULSES ARE NOT ELECTRIC CURRENTS BUT RESULT FROM ION MOVEMENTS ALONG THE CELL MEMBRANE.
-
-IMPULSES TRAVEL AT SPEEDS BETWEEN 10 AND 100 METERS PER SECOND, ENABLING RAPID RESPONSES. SENSORY NEURONES CARRY SIGNALS FROM RECEPTORS TO THE CNS, WHERE THEY ARE INTEGRATED WITH OTHER INFORMATION TO CREATE PERCEPTIONS. MOTOR NEURONES THEN TRANSMIT COMMANDS TO MUSCLES AND GLANDS VIA NERVES, WHICH CAN BE SENSORY, MOTOR, OR MIXED.
-
-NERVES OFTEN CONTAIN THOUSANDS OF NEURONES, FACILITATING COMMUNICATION ACROSS THE BODY.
-
-## ADDITIONAL INFORMATION
-SOME ORGANISMS POSSESS EXTRAORDINARY SENSING ABILITIES. FOR EXAMPLE, MANY BIRDS USE MAGNETIC FIELDS FOR NAVIGATION, A SKILL ALSO OBSERVED IN CERTAIN BACTERIA. THESE EXAMPLES HIGHLIGHT THE DIVERSITY OF PHYSIOLOGICAL ADAPTATIONS FOR ENVIRONMENTAL COORDINATION.
-
-# ANIMAL PHYSIOLOGY
-
-## DID YOU KNOW?
-THE CENTRAL NERVOUS SYSTEM (CNS) IS PROTECTED BY THE SKELETON. THE BRAIN RESIDES IN THE SKULL (CRANIUM), WHILE THE SPINAL CORD RUNS THROUGH THE VERTEBRAL COLUMN, PASSING THROUGH GAPS BETWEEN EACH VERTEBRA. THIS SYSTEM INCLUDES CRANIAL NERVES CONNECTING THE BRAIN AND SPINAL NERVES CONNECTING THE SPINAL CORD TO MUSCLES AND OTHER TISSUES.
-
-## COORDINATION
-THE CNS PROCESSES SENSORY INFORMATION AND COORDINATES RESPONSES VIA CRANIAL AND SPINAL NERVES. IT INTEGRATES DATA FROM VARIOUS SENSES AND TRANSMITS SIGNALS TO EFFECTORS, ENABLING APPROPRIATE REACTIONS.
-
-## THE STRUCTURE OF NEURONES
-
-### NEURONE ANATOMY
-NEURONES CONSIST OF A CELL BODY IN THE CNS, DENDRONS EXTENDING FROM IT, AND SYNAPSES AT ANY JUNCTIONAL SITES. THESE STRUCTURES FACILITATE COMMUNICATION BETWEEN NEURONS.
-
-### AXON
-THE AXON EXTENDS FROM THE MOTOR NEURON'S CELL BODY, OFTEN EXCEEDING 1 METER IN LENGTH. IT TERMINATES IN NERVE ENDINGS THAT CONNECT TO MUSCLES AT NEUROMUSCULAR JUNCTIONS, FACILITATING IMPULSE TRANSMISSION.
-
-### IMPULSE TRANSMISSION
-IMPULSES CROSS NEUROMUSCULAR JUNCTIONS, LEADING TO MUSCLE FIBER CONTRACTION.
-
-### MYELIN SHEATH
-THE AXON IS WRAPPED IN A MYELIN SHEATH OF FATTY MATERIAL, INSULATING IT AND ENHANCING SIGNAL SPEED. THIS SHEATH IS FORMED BY SPECIAL CELLS DURING DEVELOPMENT, ENSURING EFFICIENT IMPULSE CONDUCTION.
-
-# ANIMAL PHYSIOLOGY: COORDINATION
-
-## NEURONAL STRUCTURE
-
-### MOTOR NEURONES
-THE CELL BODY OF A MOTOR NEURON IS LOCATED IN THE CENTRAL NERVOUS SYSTEM (CNS). DENDRONS EXTEND FROM THE CELL BODY, SERVING AS FIBERS THAT CARRY IMPULSES TOWARDS IT. DENDRITES ARE BRANCH-LIKE STRUCTURES THAT RECEIVE SIGNALS FROM OTHER NEURONS. AN AXON TRANSMITS IMPULSES AWAY FROM THE CELL BODY AND IS WRAPPED IN A MYELIN SHEATH TO ENHANCE SPEED. AXON TERMINATIONS CONNECT TO MUSCLE FIBERS AT NEUROMUSCULAR JUNCTIONS.
-
-### SENSORY NEURONES
-SENSORY NEURONS HAVE THEIR CELL BODIES LOCATED ON A SIDE BRANCH OF THEIR FIBER, JUST OUTSIDE THE CNS. THEIR DENDRONS EXTEND FROM SENSORY RECEPTORS TO THE CELL BODY. A SHORT AXON THEN CARRIES IMPULSES FROM THE CELL BODY TO THE CNS. MYELINATION IN SENSORY NEURONS FACILITATES FASTER SIGNAL TRANSMISSION.
-
-## THE EYE
-
-### VISION CAPABILITIES
-WHILE MANY ANIMALS HAVE EYES, THE HUMAN EYE EXHIBITS UNIQUE COMPLEXITY. SNAILS CAN DETECT LIGHT BUT LACK IMAGE FORMATION. DOGS CAN FORM IMAGES BUT DO NOT DISTINGUISH COLORS. HUMANS POSSESS THE ABILITY TO DETECT LIGHT, FORM IMAGES, AND DISCERN COLORS.
-
-### EYE STRUCTURE
-THE SCLERA FORMS THE TOUGH OUTER COAT VISIBLE AS THE WHITE PART OF THE EYE. THE CORNEA IS A TRANSPARENT LAYER AT THE FRONT THAT ALLOWS LIGHT ENTRY. THE IRIS IS THE COLORED RING BEHIND THE CORNEA, CONTROLLING PUPIL SIZE. THE PUPIL FUNCTIONS AS THE BLACK HOLE ALLOWING LIGHT THROUGH, CREATING THE APPEARANCE OF DARKNESS INSIDE.
-
-THIS OVERVIEW HIGHLIGHTS THE STRUCTURAL AND FUNCTIONAL ASPECTS OF ANIMAL VISION, EMPHASIZING THE ROLE OF THE BRAIN IN INTERPRETING VISUAL SIGNALS.
-
-# ANIMAL PHYSIOLOGY: COORDINATION
-
-## THE HUMAN EYE
-
-THE HUMAN EYE IS A COMPLEX ORGAN ENABLING US TO PERCEIVE OUR SURROUNDINGS. UNDERSTANDING ITS STRUCTURE AND FUNCTION IS KEY TO GRASPING VISUAL PERCEPTION.
-
-### STRUCTURE OF THE EYE
-
-THE HUMAN EYE CONSISTS OF SEVERAL COMPONENTS WORKING TOGETHER TO PROCESS VISUAL INFORMATION:
-
-- **CORNEA**: A TRANSPARENT LAYER THAT REFRACTS LIGHT.
-- **IRIS**: THE COLORED PART CONTROLLING THE PUPIL'S SIZE.
-- **PUPIL**: THE APERTURE ALLOWING LIGHT ENTRY.
-- **LENS**: FOCUSES LIGHT ONTO THE RETINA.
-- **RETINA**: LIGHT-SENSITIVE LAYER CONTAINING PHOTORECEPTOR CELLS.
-- **FOVEA**: CENTRAL AREA RESPONSIBLE FOR SHARP VISION.
-- **OPTIC NERVE**: TRANSMITS VISUAL DATA TO THE BRAIN.
-- **CHOROID**: PIGMENT-RICH LAYER PREVENTING INTERNAL LIGHT REFLECTION, CRUCIAL FOR CLEAR VISION.
-- **SCLERA**: WHITE OUTER LAYER ENCLOSING EYE STRUCTURES.
-- **BLIND SPOT**: AREA WHERE THE OPTIC NERVE EXITS, LACKING PHOTORECEPTORS.
-- **CILIARY MUSCLES**: ADJUST LENS SHAPE FOR FOCUSING.
-- **SUSPENSORY LIGAMENTS**: MAINTAIN LENS POSITION.
-
-### VISUAL PERCEPTION MECHANISMS
-
-THE RETINA CONTAINS TWO PHOTORECEPTOR TYPES:
-
-- **RODS**: DETECT DIM LIGHT IN BLACK AND WHITE.
-- **CONES**: FUNCTION IN BRIGHT CONDITIONS, ENABLING COLOR VISION. THREE CONE TYPES (RED, GREEN, BLUE) COMBINE TO PERCEIVE A WIDE RANGE OF COLORS.
-
-### IMAGE FORMATION
-
-LIGHT REFRACTION OCCURS AT TWO POINTS FOR IMAGE FOCUS ON THE RETINA:
-
-1. **AIR/CORNEA BOUNDARY**: INITIAL BENDING OF LIGHT.
-2. **LENS**: FINE-TUNING FOCUS ONTO THE RETINA.
-
-### BRAIN'S ROLE IN VISION
-
-THE BRAIN PROCESSES VISUAL INFORMATION, AS SHOWN BY EXPERIMENTS WITH INVERTING GOGGLES. INITIALLY DISORIENTING, THE BRAIN ADAPTS, MAKING THE INVERTED VIEW NORMAL. REMOVING THE GOGGLES REVERSES THIS ADAPTATION, HIGHLIGHTING THE BRAIN'S ROLE IN PROCESSING VISUAL DATA.
-
-# ANIMAL PHYSIOLOGY: COORDINATION
-
-## HOW THE EYE FORMS AN IMAGE
-
-THE EYE IS A COMPLEX ORGAN DESIGNED TO FORM IMAGES OF OBJECTS THROUGH THE REFRACTION OF LIGHT. THIS PROCESS BEGINS AT THE CORNEA AND LENS, WHERE LIGHT IS BENT (REFRACTED) TO FOCUS ON THE RETINA. THE RESULT IS AN INVERTED IMAGE ON THE RETINA. THE BRAIN INTERPRETS THIS INVERSION, CORRECTING IT TO ALLOW US TO PERCEIVE THE WORLD UPRIGHT.
-
-## THE IRIS REFLEX
-
-THE IRIS PLAYS A CRUCIAL ROLE IN REGULATING THE AMOUNT OF LIGHT ENTERING THE EYE BY ADJUSTING THE PUPIL'S SIZE. IT CONTAINS TWO TYPES OF MUSCLES:
-
-- **CIRCULAR MUSCLES:** FORM A RING SHAPE WITHIN THE IRIS.
-- **RADIAL MUSCLES:** ARRANGED LIKE SPOKES, PROVIDING RADIAL CONTRACTION AND RELAXATION.
-
-### RESPONSE TO LIGHT CONDITIONS
-
-IN BRIGHT LIGHT:
-- CIRCULAR MUSCLES CONTRACT, CAUSING THE PUPIL TO CONSTRICT.
-- RADIAL MUSCLES RELAX, FURTHER REDUCING THE PUPIL'S SIZE.
-
-IN DIM LIGHT:
-- CIRCULAR MUSCLES RELAX, ALLOWING THE PUPIL TO DILATE.
-- RADIAL MUSCLES CONTRACT, EXPANDING THE PUPIL TO ADMIT MORE LIGHT.
-
-## IRIS REFLEX SUMMARY
-
-IN BRIGHT CONDITIONS:
-- CIRCULAR MUSCLES CONTRACT, LEADING TO PUPIL CONSTRICTION.
-- RADIAL MUSCLES RELAX, CONTRIBUTING TO REDUCED PUPIL SIZE.
-
-IN DIM CONDITIONS:
-- CIRCULAR MUSCLES RELAX, RESULTING IN PUPIL DILATION.
-- RADIAL MUSCLES CONTRACT, ALLOWING INCREASED LIGHT ENTRY.
-
-# ANIMAL PHYSIOLOGY: COORDINATION
-
-## THE IRIS REFLEX
-
-### KEY POINT
-WHEN TRANSITIONING FROM DIM LIGHT TO BRIGHT LIGHT, THE IRIS RAPIDLY ADJUSTS PUPIL SIZE, EXEMPLIFYING A REFLEX ACTION.
-
-### REFLEX ACTION PATHWAY
-THE PATHWAY FOR THE IRIS REFLEX IS AS FOLLOWS:
-
-1. **STIMULUS**: CHANGE IN LIGHT INTENSITY.
-2. **RETINA (RECEPTOR)**: DETECTS LIGHT INTENSITY VIA RODS AND CONES.
-3. **SENSORY NEURONES IN OPTIC NERVE**: TRANSMIT IMPULSES THROUGH THE OPTIC NERVE TO THE BRAIN.
-4. **UNCONSCIOUS BRAIN PROCESSING**: THE BRAIN PROCESSES THE STIMULUS WITHOUT CONSCIOUS AWARENESS.
-5. **MOTOR NEURONES IN IRIS NERVE**: SEND IMPULSES TO CONTROL IRIS MUSCLES.
-6. **IRIS MUSCLES (EFFECTOR)**: ADJUST PUPIL DIAMETER IN RESPONSE.
-7. **RESPONSE**: PUPIL SIZE CHANGES ACCORDINGLY.
-
-THIS REFLEX ENSURES OPTIMAL LIGHT INTENSITY FOR RETINAL FUNCTION, PREVENTING DAMAGE FROM BRIGHT LIGHT AND MAINTAINING CLEAR IMAGES IN DIM CONDITIONS, ALL WITHOUT CONSCIOUS THOUGHT.
-
-## THE BLIND SPOT
-
-THE RETINA CONTAINS A BLIND SPOT WHERE NO VISUAL INFORMATION IS RECEIVED. THIS AREA LIES WHERE THE OPTIC NERVE EXITS THE EYE, DEVOID OF RODS OR CONES. EACH EYE HAS ITS OWN BLIND SPOT, BUT BINOCULAR VISION COMBINES IMAGES, EFFECTIVELY MASKING THESE SPOTS.
-
-### BLIND SPOT EXPERIMENT
-TO OBSERVE THE BLIND SPOT:
-
-1. COVER THE BLACK DOT WITH YOUR HAND.
-2. WITHOUT MOVING THE BOOK OR HEAD, READ NUMBERS FROM LEFT TO RIGHT BY SLOWLY MOVING YOUR LEFT EYE TOWARDS THE RIGHT.
-
-```
-1    2     3     4    5     6     7     8     9     10      11      12      13      14     15
-```
-
-WHEN THE DOT ALIGNS WITH THE BLIND SPOT, IT DISAPPEARS. USING BOTH EYES OPEN, THE DOT REMAINS VISIBLE DUE TO BINOCULAR FUSION.
-
-### SAUSAGE TEST INSIGHT
-FOCUSING ON A DISTANT OBJECT, PLACE INDEX FINGERS ABOUT 30 CM APART WHILE STILL FOCUSING. A 'FINGER SAUSAGE' APPEARS BETWEEN THEM. CLOSING ONE EYE REDUCES THIS EFFECT, HIGHLIGHTING THE ROLE OF BINOCULAR VISION IN DEPTH PERCEPTION.
-
-## ACCOMMODATION
-
-ACCOMMODATION REFERS TO THE EYE'S ABILITY TO FOCUS ON OBJECTS AT VARYING DISTANCES. UNLIKE CAMERAS, WHICH ADJUST LENS POSITION, THE EYE CHANGES LENS SHAPE THROUGH CRYSTALLINE PROTEINS IN AN ELASTIC LENS, MODULATED BY CILIARY MUSCLES AND SUSPENSORY LIGAMENTS. THIS MECHANISM ENSURES CLEAR VISION FOR OBJECTS AT DIFFERENT DISTANCES.
-
-BY FOLLOWING THESE STEPS, THE TEXT IS REFORMATTED TO BE CLEAR, STRUCTURED, AND SUITABLE FOR VECTOR STORAGE, ADHERING TO THE SPECIFIED RULES.
-
-# ANIMAL PHYSIOLOGY: COORDINATION
-
-## ACCOMMODATION OF THE EYE
-
-THE EYE'S ABILITY TO FOCUS ON OBJECTS AT VARYING DISTANCES IS ACHIEVED THROUGH A PROCESS CALLED ACCOMMODATION, WHICH INVOLVES CHANGES IN THE SHAPE OF THE LENS INFLUENCED BY THE CILIARY MUSCLES AND SUSPENSORY LIGAMENTS.
-
-### FOCUSING ON DISTANT OBJECTS
-WHEN FOCUSING ON DISTANT OBJECTS:
-- THE LIGHT RAYS FROM THE OBJECT ARE NEARLY PARALLEL UPON REACHING THE CORNEA.
-- THE CORNEA REFRACTS THESE RAYS, WITH MINIMAL ADDITIONAL REFRACTION REQUIRED BY THE LENS.
-- THE CILIARY MUSCLES RELAX, AND THE SUSPENSORY LIGAMENTS TIGHTEN, CAUSING THE LENS TO FLATTEN (LESS CONVEX).
-- THIS STATE ALLOWS CLEAR VISION AT REST, ENABLING THE EYE TO ACCOMMODATE FOR LONG DISTANCES.
-
-### FOCUSING ON NEARBY OBJECTS
-WHEN FOCUSING ON NEARBY OBJECTS, SUCH AS WHEN READING:
-- THE DIVERGING LIGHT RAYS FROM THE OBJECT REQUIRE THE LENS TO BECOME MORE CONVEX.
-- THE CILIARY MUSCLES CONTRACT, CAUSING THE SUSPENSORY LIGAMENTS TO RELAX, AND THE LENS BULGES OUTWARD INTO A ROUNDED SHAPE.
-- THIS ADJUSTMENT ALLOWS FOR CLEAR FOCUS ON CLOSE OBJECTS.
-
-!FIGURE 6.7 ACCOMMODATION: HOW THE EYE FOCUSES ON OBJECTS AT DIFFERENT DISTANCES
-
-## REFLEX ACTIONS
-
-REFLEX ACTIONS ARE AUTOMATIC RESPONSES TRIGGERED BY STIMULI, INVOLVING A SPECIFIC PATHWAY KNOWN AS THE REFLEX ARC.
-
-### COMPONENTS OF A REFLEX ARC
-1. **RECEPTOR**: DETECTS THE STIMULUS.
-2. **SENSORY NEURONE**: TRANSMITS SIGNALS TO THE CENTRAL NERVOUS SYSTEM (CNS).
-3. **RELAY NEURONE**: PROCESSES INFORMATION WITHIN THE CNS.
-4. **MOTOR NEURONE**: CONVEYS RESPONSE SIGNALS FROM THE CNS TO EFFECTOR MUSCLES OR GLANDS.
-5. **EFFECTOR**: EXECUTES THE RESPONSE, SUCH AS PUPIL DILATION OR CONSTRICTION.
-
-THIS REFLEX ARC ENABLES QUICK, INVOLUNTARY RESPONSES WITHOUT CONSCIOUS THOUGHT. FOR INSTANCE, THE IRIS ADJUSTS PUPIL SIZE TO REGULATE LIGHT ENTRY INTO THE EYE.
-
-!FIGURE 6.8 SIMPLIFIED DIAGRAM OF A REFLEX ARC
-
-THE PROCESSES DESCRIBED ILLUSTRATE HOW ORGANISMS COORDINATE RESPONSES TO ENVIRONMENTAL STIMULI.
-
-# ANIMAL PHYSIOLOGY: COORDINATION
-
-## REFLEX ACTIONS
-
-REFLEX ACTIONS ARE RAPID, AUTOMATIC RESPONSES TO STIMULI THAT OFTEN PROTECT THE BODY FROM HARM. THESE INVOLUNTARY REACTIONS OCCUR WITHOUT CONSCIOUS CONTROL, SUCH AS WITHDRAWING A HAND FROM A SHARP OBJECT. THEY SERVE ESSENTIAL PROTECTIVE FUNCTIONS, ENSURING SAFETY BY REACTING QUICKLY TO POTENTIAL THREATS.
-
-### THE IRIS-PUPIL REFLEX
-
-THE IRIS-PUPIL REFLEX IS A SPECIFIC REFLEX ACTION DESIGNED TO PROTECT THE EYE FROM BRIGHT LIGHT. WHEN EXPOSED TO EXCESSIVE LIGHT, THE PUPIL CONSTRICTS, REDUCING THE AMOUNT OF LIGHT ENTERING THE EYE AND MINIMIZING PHOTOTOXICITY.
-
-### THE REFLEX ARC
-
-A REFLEX ARC IS THE NERVE PATHWAY RESPONSIBLE FOR THESE AUTOMATIC RESPONSES. IT CONSISTS OF SEVERAL COMPONENTS WORKING TOGETHER TO ENSURE A SWIFT REACTION. THE PROCESS BEGINS WITH A STIMULUS DETECTED BY SENSORY RECEPTORS IN THE SKIN, WHICH THEN TRANSMIT SIGNALS THROUGH SENSORY NEURONES INTO THE CENTRAL NERVOUS SYSTEM (CNS) VIA THE DORSAL ROOT OF THE SPINAL NERVE. THESE SIGNALS ARE RELAYED BY RELAY NEURONES IN THE SPINAL CORD TO MOTOR NEURONES, WHICH THEN SEND IMPULSES TO MUSCLES, CAUSING THEM TO CONTRACT AND RESPOND APPROPRIATELY.
-
-KEY COMPONENTS INCLUDE:
-- **STIMULUS**: DETECTED BY RECEPTORS IN THE SKIN.
-- **SENSORY NEURONES**: TRANSMIT SIGNALS TO THE CNS.
-- **RELAY NEURONES**: CONNECT SENSORY TO MOTOR NEURONES.
-- **MOTOR NEURONES**: TRIGGER MUSCLE CONTRACTIONS, INITIATING A RESPONSE.
-
-### SPEED OF REFLEX ACTIONS
-
-IMPULSES TRAVEL THROUGH THE REFLEX ARC AT AN EXCEPTIONALLY FAST RATE, OFTEN WITHIN FRACTIONS OF A SECOND. THIS RAPID RESPONSE IS MADE POSSIBLE BY THE EFFICIENT CONNECTIONS FORMED BY SYNAPSES IN THE SPINAL CORD. THE BRAIN REMAINS INFORMED OF THE STIMULUS THROUGH THESE CONNECTIONS, ALLOWING US TO PERCEIVE PAIN AND REACT ACCORDINGLY.
-
-### VOLUNTARY ACTIONS
-
-WHILE REFLEX ACTIONS ARE AUTOMATIC, VOLUNTARY ACTIONS INVOLVE CONSCIOUS CONTROL AND CAN ALSO UTILIZE THE SAME MOTOR NEURONES. THESE ACTIONS ALLOW INDIVIDUALS TO MOVE PURPOSEFULLY, DISTINGUISHING THEM FROM REFLEX RESPONSES THAT OCCUR WITHOUT DELIBERATE INTENT.
-
-UNDERSTANDING THE INTERPLAY BETWEEN REFLEX AND VOLUNTARY ACTIONS IS CRUCIAL FOR GRASPING HOW ORGANISMS RESPOND ADAPTIVELY TO THEIR ENVIRONMENTS.
-
-# ANIMAL PHYSIOLOGY: COORDINATION
-
-## SYNAPSES
-
-SYNAPSES ARE CRITICAL COMPONENTS OF THE NERVOUS SYSTEM'S FUNCTIONALITY. THE CENTRAL NERVOUS SYSTEM (CNS) CONSISTS OF BILLIONS OF NERVE CELLS THAT CONNECT VIA SYNAPSES. IN THE BRAIN, A SINGLE NEURON CAN FORM THOUSANDS OF SYNAPSES WITH OTHER NEURONS. IT IS ESTIMATED THAT THERE MAY BE BETWEEN 100 AND 1,000 MILLION MILLION SYNAPSES IN THE CNS. THIS VAST NETWORK ALLOWS FOR AN ALMOST INFINITE NUMBER OF POSSIBLE PATHWAYS FOR ELECTRICAL IMPULSES TO TRAVEL THROUGH THE SYSTEM.
-
-### WHAT IS A SYNAPSE?
-
-A SYNAPSE FUNCTIONS AS THE GAP BETWEEN TWO NERVE CELLS. ELECTRICAL IMPULSES DO NOT CROSS THIS GAP DIRECTLY; INSTEAD, THEY ARE TRANSMITTED VIA CHEMICALS. WHEN AN IMPULSE REACHES A SYNAPSE, IT TRIGGERS THE RELEASE OF NEUROTRANSMITTERS FROM THE AXON'S TERMINAL BRANCHES. THESE NEUROTRANSMITTERS THEN DIFFUSE ACROSS THE SYNAPTIC CLEFT AND BIND TO RECEPTORS ON THE MEMBRANE OF THE TARGET NEURON, INITIATING AN ACTION POTENTIAL IN THAT CELL. AFTER TRANSMITTING THE SIGNAL, THE NEUROTRANSMITTER IS BROKEN DOWN BY ENZYMES.
-
-#### SEQUENCE OF EVENTS AT A SYNAPSE
-
-1. **IMPULSE ARRIVAL**: ELECTRICAL IMPULSES TRAVEL ALONG THE AXON OF THE PRESYNAPTIC NEURON.
-2. **NEUROTRANSMITTER RELEASE**: NEUROTRANSMITTERS ARE RELEASED FROM THE TERMINAL BRANCHES OF THE AXON AND DIFFUSE ACROSS THE SYNAPTIC CLEFT.
-3. **RECEPTOR ACTIVATION**: THE NEUROTRANSMITTERS BIND TO RECEPTORS ON THE POSTSYNAPTIC NEURON'S MEMBRANE, INITIATING AN IMPULSE.
-4. **SIGNAL TRANSMISSION**: AN ACTION POTENTIAL IS GENERATED IN THE POSTSYNAPTIC NEURON.
-5. **NEUROTRANSMITTER DEGRADATION**: ENZYMES DEGRADE THE NEUROTRANSMITTERS AFTER THEY HAVE TRANSMITTED THEIR SIGNAL.
-
-### INTEGRATION OF INFORMATION
-
-NERVE CELLS, PARTICULARLY THOSE IN THE BRAIN, FORM THOUSANDS OF SYNAPSES WITH OTHER NEURONS. THE OUTPUT OF A SINGLE NEURON CAN RESULT FROM THE COMBINED INPUTS OF MULTIPLE NEURONS. THIS INTEGRATION OF INFORMATION IS ESSENTIAL FOR THE CNS'S ABILITY TO PROCESS AND RESPOND TO STIMULI EFFECTIVELY.
-
-### INFLUENCE OF CHEMICALS ON SYNAPSES
-
-SYNAPSES RELY ON CHEMICAL TRANSMISSION, MAKING THEM SUSCEPTIBLE TO INTERFERENCE BY VARIOUS SUBSTANCES. SOME CHEMICALS MIMIC NEUROTRANSMITTERS, WHILE OTHERS BLOCK THEIR ACTION. THIS MECHANISM EXPLAINS HOW MANY DRUGS AFFECT THE NERVOUS SYSTEM.
-
-UNDERSTANDING SYNAPSES IS FUNDAMENTAL TO GRASPING HOW ORGANISMS COORDINATE RESPONSES AND PROCESS INFORMATION WITHIN THE NERVOUS SYSTEM.
-
-# ANIMAL PHYSIOLOGY: COORDINATION
-
-## WHAT IS A NERVE IMPULSE?
-
-A NERVE IMPULSE IS AN ELECTRICAL SIGNAL THAT TRAVELS ALONG THE AXON OF A NERVE CELL. WHEN A NERVE CELL IS NOT TRANSMITTING AN IMPULSE, THERE IS A SMALL POTENTIAL DIFFERENCE ACROSS THE MEMBRANE. THE INTERIOR OF THE AXON IS ABOUT -70 MV LOWER THAN THE EXTERIOR, KNOWN AS THE RESTING POTENTIAL. THIS POTENTIAL DIFFERENCE ARISES FROM VARIATIONS IN ION CONCENTRATIONS INSIDE AND OUTSIDE THE CELL.
-
-WHEN A STIMULUS IS APPLIED, SODIUM IONS (NA⁺) RUSH INTO THE AXON THROUGH THE MEMBRANE. THIS INFLUX OF POSITIVE IONS CAUSES THE POTENTIAL TO BECOME POSITIVE, RESULTING IN DEPOLARIZATION. THIS SUDDEN CHANGE IN VOLTAGE IS CALLED AN ACTION POTENTIAL, WHICH LASTS ONLY A FEW MILLISECONDS. AFTER REACHING ITS PEAK, THE POTENTIAL OVERSHOOTS BELOW -70 MV BEFORE RETURNING TO ITS NORMAL LEVEL AS POTASSIUM IONS (K⁺) FLOW OUT OF THE MEMBRANE, RESTORING REPOLARIZATION.
-
-THE ACTION POTENTIAL THEN STIMULATES THE NEXT SEGMENT OF THE CELL MEMBRANE, PROPAGATING ALONG THE AXON. ION EXCHANGE PUMPS IN THE MEMBRANE ACTIVELY TRANSPORT NA⁺ AND K⁺ IONS BACK INTO THEIR RESPECTIVE CONCENTRATIONS, USING ATP FOR ENERGY. THIS PROCESS HIGHLIGHTS THE HIGH METABOLIC ACTIVITY REQUIRED BY NERVE CELLS.
-
-NERVE CELLS ARE CLASSIFIED AS EXCITABLE CELLS DUE TO THEIR ABILITY TO ALTER MEMBRANE POTENTIAL THROUGH DEPOLARIZATION AND REPOLARIZATION. THIS PROPERTY IS SHARED WITH MUSCLE AND RECEPTOR CELLS.
-
+ANIMAL PHYSIOLOGY                        COORDINATION
+
+ 6 COORDINATION
+
+ Inthebody 'coordination' means making things happen at the right time by linking up different body activities. Humans
+ and other animals have two organ systems which do this: The first is the nervous system; which is the subject of this
+ chapter: The second is the hormone or endocrine system; which is dealt with in Chapter 7 _
+
+LEARNING OBJECTIVES
+    Understand how organisms are able to respond to            out of the central nervous system; resulting in rapid
+    changes in their environment                               responses
+    Understand that a coordinated response requires a          Describe the structure and function of the eye as a
+    stimulus; a receptor and an effector                       receptor
+    Understand that the central nervous system consists of     Understand the function of the eye in focusing on near
+    the brain and spinal cord and is linked to sense organs    and distant objects; and in responding to changes in
+    by nerves                                                  light intensity
+    Describe how the nervous system controls responses         Describe the structure and functioning of a simple
+                                                               reflex arc, illustrated by the withdrawal of a finger from
+    Understand how stimulation of receptors inthesense         a hot object
+    organs sends electrical impulses along nerves into and     Understand the role of neurotransmitters at synapses
+
+                                         STIMULUS AND RESPONSE
+                                       Suppose you are walkingalongwhen you see a football coming at high speed
+                                       towards your head. If your nerves are working properly, you will probably move
+                                       or duck quickly to avoid contact Imagine another situation where you are very
+                                       other words secrete saliva:
+
+KEY POINT                              Each of these situations is an example of a stimulus and a response_
+The surroundings outside the body      A stimulus is a change in an animal'ssurroundings; and a response is a
+are called the external environment_   reaction to that change. In the first example; the approaching ball was the
+                                       stimulus,     your movement to avoid it hitting you was the response. The
+The inside of the body is known as the          and
+internal environment: The body also    change in your environment was detected by your eyes, which are an example
+responds to changes in its internal    of a receptor organ: The response was brought about by contraction of
+environment; such as temperature and   muscles, which are a type of effector organ (they produce an effect): The
+blood glucose levels: You will read    nervoussystem links the two, and is an example of a coordination system:
+about these responses in Chapters      A summary of the sequence of events is:
+and
+                                            stimulus    receptor     coordination    effector   response
+                                       In the second example; the receptor for the smell of food was the nose,
+                                       and the response was the secretion of saliva from glands. Glands secrete
+                                       (release) chemical substances, and they are the second type of effector organ
+                                       Again, the link between the stimulus and the response is the nervous system
+                                       The information in the nerve cells is transmitted in the form oftinyelectrical
+                                       signals called nerve impulses
 ---
+78   ANIMAL PHYSIOLOGY                              COORDINATION
 
-## CHAPTER QUESTIONS
+      DID YOU KNOW?                                 RECEPTORS
+      Some animals can detect                     The role of any receptor is to detect the stimulus by changing its energy into
+      changes in their environment                the electrical energy of the nerve impulses_ For example; the eye converts
+      that are not sensed by humans               light energy into nerve impulses, and the ear converts sound energy into nerve
+      Insects such as bees can                    impulses (Table 6.1).
+      see ultraviolet (UV) light: The             Table 6.1 Human receptors and the energy they receive.
+      wavelengths of UV are invisible
+      to humans (Figure 6.1).                               Receptor                         Type of energy received
+       (a)                                         eye (retina)                     light
 
-THE TYPES OF NEURONES PLAY DISTINCT ROLES IN THE NERVOUS SYSTEM:
+                                                    ear (organ of hearing)               sound
+                                                    ear (organ of balance)               mechanical (kinetic)
+                                                   tongue (taste buds)                   chemical
+                                                   nose (organ of smell)                 chemical
+                                                   skin (touch/pressurelpain receptors)  mechanical (kinetic)
+       (b)                                         skin (temperature receptors)          heat
 
-- **SENSORY NEURONES**: CONNECT IMPULSES FROM RECEPTORS TO THE CENTRAL NERVOUS SYSTEM (CNS).
-- **RELAY NEURONES**: FACILITATE COMMUNICATION BETWEEN NEURONES WITHIN THE CNS.
-- **MOTOR NEURONES**: TRANSMIT SIGNALS FROM THE CNS TO EFFECTOR MUSCLES OR GLANDS.
+                                                   muscle (stretch receptors)            mechanical (kinetic)
 
+                                                  Notice how a 'sense' like touch is made up of several components_ When
+                                                  we touch a warm surface we will bestimulating several types f receptor;
+                                                  including touch and temperature receptors, as well as stretch receptors in the
+                                                  muscles (see the section on skin in Chapter 8). As well asthis;each sense
+         Figure 6.1 This yellow flower (a) looks  detects different aspects of the energy it receives. For example, the ears don't
+         very different to a bee, which sees      just detect sounds, but different loudness and frequencies of sound, while
+         patterns on the petals reflecting UV     the eye not only forms an image, but also detects brightness of light and in
+         light (b):                               humans can tell the difference between different light wavelengths (colours)
+      Some organisms can even                     Senses tell us a great deal about changes in our environment:
+      detect the direction of magnetic              THE CENTRAL NERVOUS SYSTEM
+      fields: Many birds; such as
+      pigeons; have a built-in compass            The biological name for a nerve cell is a neurone. The impulses that travel
+      in their brain; which they use              along a neurone are not an electric current; as in a wire_ They are caused by
+      for navigation: A species of                movements of charged particles (ions) in and out of the neurone. Impulses
+      bacterium can also do this; but             travel at speeds between about 10 and 10Ometres per second, which is much
+      as yet no one can explain why               slower than an electric current; but fast enough to produce arapidresponse
+      this might be an advantage to itl           (see the 'Looking ahead' feature at the end of this chapter:
+                                                  Impulses from receptors passalongⁿᵉʳᵛᵉˢcontaining sensory neurones_
+                                                  until they reach the brain and spinal cord: These two organs are together
+                                                  known as the central nervous system, or CNS (Figure 6.2)
+                                                  Other nerves contain motor neurones, transmitting impulses to the muscles
+                                                  and glands. Some nerves contain only sensory or motor cells, while other
+                                                  nerves contain both theyare 'mixed' .  typical nerve contains thousands of
+                                                  individual neurones_
+---
+ANIMAL PHYSIOLOGY                       COORDINATION                                                                79
 
-# ANIMAL PHYSIOLOGY
+ DID YOU KNOW?
+ The CNS is well protected by
+ the skeleton: The brain is inside
+ the skull or cranium (nerves
+ connected to the brain are
+ cranial nerves) and the spinal
+ cord runs down the middle
+ of the spinal column; passing
+ through a hole in each vertebra.
+ Nerves connected to the spinal
+ cord are called spinal nerves:
 
-## COORDINATION
+                                         Figure 6.2 The brain and spinal cord form the central nervous system. Cranial and spinal nerves lead
+                                        to and from the CNS. The CNS sorts out information from the senses and sends messages to muscles:
 
-### THE EYE AND ITS FUNCTIONS
+                                        THE STRUCTURE OF NEURONES
+                                      Both sensory and motor neurones can be very long: For example; a motor
+                                      neurone leading from the CNS to the muscles in the finger has a fibre about a
+                                      metre in length, which is 100 000 times the length of the cell body (Figure 6.3).
+                                      The cell body of a motor neurone is at one end of the fibre; in the CNS The
+                                      cell body has fine cytoplasmic extensions, called dendrons. These in turn
+                                      form finer extensions, called dendrites. There can be junctions with other
+                                      neurones on any part of the cell body, dendrons or dendrites_ These junctions
+                                      are called synapses. Later in this chapter we will deal with the importance of
+                                      synapses in nerve pathways_ One of the extensions from the motor neurone
+                                      cell body is much longer than the other dendrons. This is the fibre that carries
+                                      impulses to the effector organ, and is called the axon. At the end of the axon
+                                                                                        endings: These fine
+                                      furthest from the cell body; it divides into many nerve
+                                      branches of the axon connect with a muscle at a special sort of synapse called
+                                      a neuromuscular junction. In this way impulses are carried from the CNS
+                                      out to the muscle. The signals from nerve impulses are transmitted across the
+                                      neuromuscular junction, causing the muscle fibres to contract. The axon is
+                                      covered by a sheath made of a fatty material called myelin: Themyelin sheath
+                                      insulates the axon; preventing 'short circuits' with other axons; and also speeds
+                                      up the conduction of the impulses. The sheath is formed by the membranes of
+                                      special cells that wrap themselves around the axon as it develops:
+---
+80    ANIMAL PHYSIOLOGY                         COORDINATION
 
-THE EYE IS A COMPLEX ORGAN ESSENTIAL FOR VISION. IT CONTAINS SEVERAL COMPONENTS THAT WORK TOGETHER TO FOCUS LIGHT. THE CORNEA, THE TRANSPARENT FRONT PART, COVERS THE IRIS AND PUPIL, HELPING TO FOCUS LIGHT. BEHIND IT LIES THE CHOROID, A LAYER OF BLOOD VESSELS PROVIDING NOURISHMENT TO THE RETINA.
+           motor neurone
+                          cell body
+                                    dendron
+                                  dendrites
 
-### CHANGES IN THE EYE
+                                                    axon
+                                                          direction of impulses  axon terminations on
+                                                                                 muscle fibres
+           this part is                                                          neuromuscular joints
+           in the CNS
 
-WHEN A BOY LOOKS UP INTO SUNNY SKIES AT AN AIRPLANE, SEVERAL EYE CHANGES OCCUR. THE PUPILS DILATE TO ALLOW MORE LIGHT IN, WHILE THE LENS BECOMES MORE CONVEX TO FOCUS ON DISTANT OBJECTS.
+                      nucleus of cell that          myelin sheath
+                           myelin sheath
+                      makes
 
-### NERVE CELLS AND IMPULSES
+                           20 mm
 
-UNDERSTANDING NERVE CELLS IS CRUCIAL IN ANIMAL PHYSIOLOGY. NEUROTRANSMITTERS CARRY NERVE IMPULSES ALONG NEURONES, WHILE ELECTRICAL CHARGES MOVE THEM ACROSS SYNAPSES.
+                                                                                              cell body
 
-**OPTIONS:**
-- A) ONLY STATEMENT 1 IS TRUE.
-- B) ONLY STATEMENT 2 IS TRUE.
-- C) BOTH STATEMENTS ARE TRUE.
-- D) NEITHER STATEMENT IS TRUE.
+                                   sensory neurone                               myelin sheath          this part is in the CNS
 
-### CATARACTS
+                                                junctions with   direction of impulse dendron           axon junctions with
+                                                sensory receptors                                             neurones in
+                                                                                                              CNS
+          Figure 6.3 The structure of motor and sensory neurones. The cell fibres (axon/dendron) are verylong;which is indicated by the dashed sections:
 
-CATARACTS CLOUD THE LENS OF THE EYE, IMPAIRING VISION. SURGERY REPLACES THE CLOUDY LENS WITH AN ARTIFICIAL ONE, RESTORING SIGHT BUT PREVENTING ACCOMMODATION, REQUIRING GLASSES FOR CLOSE TASKS.
+                                              A sensory neurone has a similar structure to the motor neurone; but the cell
+                                              body is located on a side branch of the fibre, just outside the CNS. The fibre
+                                              from the sensory receptor to the cell body is actually a dendron; while the fibre
+                                              from the cell body to the CNS is a short axon. As with motor neurones, fibres
+                                              of sensory neurones are oftenmyelinated:
 
-### QUESTIONS TO CONSIDER
+                                                THE EYE
+                                              Many animals have eyes, but few show the complexity of the human eye.
+                                              Simpler animals, such as snails, use their eyes to detect light but cannot form
+                                                proper image. Other animals, such as dogs; can form images but cannot
+                                              distinguish colours The human eye does all three. Of course it is not really
+                                              the eye that 'sees' anything at all, but the brain that interprets the impulses
+                                              from the eye_ To find out how light from an object is converted into impulses
+                                              representing an image; we need to look at the structure of this complex organ
+                                              (Figure 6.4).
+                                              The tough outer coat of the eye is called the sclera, which is the visible
+                                              white part of the eye. At the front of the eye the sclera becomes a transparent
+                                               'window' called the cornea, which lets light into the eye. Behind the cornea
+                                              is the coloured ring of tissue called the iris. In the middle of the iris is a hole
+                                              called the pupil, which lets the light through: It is black because there is no
+                                              light escaping from the inside of the eye
+---
+ANIMAL PHYSIOLOGY                         COORDINATION                                                                 81
 
-1. **ACCOMMODATION MEANING**
-   ACCOMMODATION REFERS TO THE EYE'S ABILITY TO FOCUS ON NEAR OBJECTS BY CHANGING THE LENS SHAPE.
+                                                      ciliary muscles                           retina
+                                                                                                               fovea
 
-2. **POST-CATARACT ACCOMMODATION LOSS**
-   AFTER LENS REMOVAL, THE ARTIFICIAL LENS LACKS THE FLEXIBILITY NEEDED FOR ACCOMMODATION.
+                                          iris
+                                         lens                                                                  optic
+                                                                                                               nerve
 
-3. **EYE ACCOMMODATION PROCESS**
-   WHEN FOCUSING ON NEARBY OBJECTS, CILIARY MUSCLES CONTRACT, INCREASING LENS CONVEXITY AND REFRACTIVE POWER.
+                                          pupil
+                                          cornea
 
-### SKILLS DEVELOPMENT
+                                          conjunctiva
 
-- **CRITICAL THINKING:** ANALYZE EYE CHANGES IN DIFFERENT LIGHTING CONDITIONS.
-- **REASONING:** EVALUATE IMPLICATIONS OF LOSING ACCOMMODATION POST-SURGERY ON DAILY ACTIVITIES.
+                                         suspensory                                                            blind
+                                         ligaments                                                             spot
+                                                         choroid                                    sclera
 
-BY UNDERSTANDING THESE CONCEPTS, STUDENTS GAIN INSIGHT INTO ANIMAL PHYSIOLOGY AND EYE FUNCTION.
+                                          Figure 6.4 A horizontal section through the human eye
 
-# ANIMAL PHYSIOLOGY: COORDINATION
+ DID YOU KNOW?                          Underneath the sclera is a dark layer called the choroid. It is dark because it
+                                        contains many pigment cells, as well as blood vessels. The pigment stops light
+ The fact that the inverted             being reflected around inside the eye_
+ image is seen the right way            The innermost layer of the back of the eye is the retina: This is the light-
+ up by the brain makes the              sensitive layer; the place where light energy is converted into the electrical
+ point that it is the brain which       energy of nerve impulses_ The retina contains receptor cells called rods and
+ 'sees' things, not the eye.            cones These cells react to light; producing impulses in sensory neurones_
+ An interesting experiment              The sensory neurones then pass the impulses to the brain through the
+                                        optic nerve_ Rod cells work well in dim light; buttheycannot distinguish
+ was carried out to test this:          between different colours; so the brain sees' an image produced by the
+ Volunteers were made to wear           rods in black and white. This is why we can't see colours very well in dim
+ special inverting goggles for          light: only our rods are working properly: The cones on the other hand;
+ long periods. These turned             will only work in bright light, and there are three types which respond to
+                                        different wavelengths or colours of light red, green and blue. We can see
+ the view of their surroundings         all the colours of visible light as a result of these three types of cones being
+ upside down. At first this             stimulated to different degrees. For example,if red, green and blue are
+ completely disorientated them;         stimulated equally, we see white. Both rods and cones are found throughout
+ andthey -found it difficult to         the retina; but cones are particularly concentrated at the centre of the retina, in
+                                        an area called the fovea. Cones give a sharper image than rods, which is why
+ make even simple coordinated           we can only see objects clearly if we are looking directly at them, so that the
+ movements. However; after a            image falls on the fovea:
+ while their brains adapted, until
+ the view through the goggles            FORMING AN IMAGE
+ looked normal: In fact; when           To form an image on the retina, light needs to be bent or refracted:
+ the volunteers removed the             Refraction takes place when light passes from one medium to another of a
+ goggles; the world then looked         different density: In the eye, this happens first at the air/cornea boundary;
+ upsidedownl                            and again at the lens (Figure 6.5). In fact the cornea acts as the first lens of
+                                        the eye
+---
+82    ANIMAL PHYSIOLOGY                              COORDINATION
 
-## THE HUMAN EYE
+                                                   As a result of refraction at the cornea and lens; the image on the retina is
+                                                   inverted (upside down): The brain interprets the image the right way up_
 
-THE DIAGRAM BELOW ILLUSTRATES A SECTION THROUGH A HUMAN EYE, HIGHLIGHTING ITS STRUCTURAL COMPONENTS AND FUNCTIONS. UNDERSTANDING HOW THESE PARTS WORK TOGETHER IS FUNDAMENTAL TO GRASPING VISUAL PERCEPTION.
+                 object
 
-### IRIS FUNCTION
-THE IRIS IS RESPONSIBLE FOR CONTROLLING THE AMOUNT OF LIGHT ENTERING THE EYE. IT ACHIEVES THIS BY ADJUSTING THE SIZE OF ITS PUPILS. WHEN MORE LIGHT IS PRESENT, THE IRIS CONTRACTS, REDUCING THE PUPIL'S APERTURE; CONVERSELY, IT RELAXES TO ENLARGE THE PUPIL IN DIM LIGHTING CONDITIONS. THIS ADJUSTMENT ENSURES OPTIMAL LIGHT LEVELS REACH THE RETINA, ENABLING CLEAR VISION.
+                                                                                                           image on retina
 
-### RETINA AND PHOTORECEPTORS
-THE RETINA, A THIN LAYER OF TISSUE AT THE BACK OF THE EYE, CONTAINS PHOTORECEPTORS THAT CONVERT LIGHT INTO ELECTRICAL SIGNALS. THESE SIGNALS ARE THEN TRANSMITTED TO THE BRAIN VIA THE OPTIC NERVE, ALLOWING FOR THE FORMATION OF VISUAL IMAGES.
+         Figure '6.5 How the eye forms an image. Refraction of light occurs at the cornea and
+                                                                                   lens,producing an inverted image on the retina.
 
-## REFLEX ACTIONS
+                                                     THE IRIS REFLEX
+                                                   The role of the iris is to control the amount of light entering the eye, by changing
+                                                   the size of the pupil. The iris contains two types of muscles_ Circular muscles
+                                                   form a ring shape in the iris, and radial muscles lie like the spokes of a wheel: In
+                                                   bright light; the pupil is constricted (made smaller):
+                                                   This happens because the circular muscles contract and the radial muscles
+                                                   relax In dim light; the opposite happens: The radial muscles contract and the
+                                                   circular muscles relax, dilating (widening) the pupil (Figure 6.6)-
+                                                     circular muscles
+                                                     contract
 
-THE DIAGRAM ILLUSTRATES COMPONENTS OF THE NERVOUS SYSTEM INVOLVED IN A SIMPLE REFLEX ACTION, SUCH AS WITHDRAWING A HAND FROM A HOT SURFACE.
+                                                                                                                   bright light
+                                                                                                                     circular muscles contract
+                                                                                                                     radial muscles relax
+                                                                                                                     pupil constricts
 
-### REFLEX ARC COMPONENTS
-A REFLEX ARC CONSISTS OF SEVERAL PARTS WORKING TOGETHER TO RESPOND TO STIMULI. PAIN RECEPTORS DETECT HEAT OR OTHER HARMFUL CONDITIONS. NEURONES THEN TRANSMIT THIS INFORMATION THROUGH A CHAIN: NEURONE A CONNECTS PAIN RECEPTORS TO NEURONE B, WHICH RELAYS SIGNALS TO NEURONE C, FINALLY SENDING IMPULSES TO THE SPINAL CORD AND MUSCLES.
+                                                     contraction of                                                 dim light
+                                                    radial                                                            circular muscles relax
+                                                     muscles                                                          radial muscles contract
+                                                                                                                      pupil dilates
 
-### TYPES OF NEURONES
-1. **NEURONE A**: ACTS AS AN INTERNEURON, RECEIVING INPUT FROM PAIN RECEPTORS AND TRANSMITTING SIGNALS TO NEURONE B.
-2. **NEURONE B**: SERVES AS A RELAY NEURON, RECEIVING SIGNALS FROM NEURONE A AND PASSING THEM TO NEURONE C.
-3. **NEURONE C**: FUNCTIONS AS A MOTOR NEURON, TRANSLATING THE SIGNAL INTO MUSCLE RESPONSES.
+                                                      Figure 6.6 The amount of light entering the eye is controlled by the iris, which alters the diameter
+                                                      of the pupil.
+---
+ANIMAL PHYSIOLOGY                            COORDINATION                                                             83
 
-### NERVOUS SYSTEM PARTS
-LABELS X, Y, AND Z CORRESPOND TO SPECIFIC NERVOUS SYSTEM COMPONENTS: X LIKELY REPRESENTS PAIN RECEPTORS, Y COULD BE A PART OF THE SPINAL CORD, AND Z MIGHT DENOTE MUSCLES INVOLVED IN THE REFLEX ACTION.
+KEY POINT                                    Whenever our eyes look from a dim light to a bright one; the iris rapidly and
+In the iris reflex; the route from stimulus  automatically adjusts the pupil size. This is an example of a reflex action.
+         to response is this:                You will find out more about reflexes later in this chapter: The purpose of the
+     stimulus (light intensity)              iris reflex is to allow the right intensity (brightness) of light to fall on the retina:
+                                             Light that is too bright could damage the rods and cones; and light that is
+         retina (receptor)                   too dim would not form an image: The intensity of light hitting the retina is the
+                                             stimulus for this reflex: Impulses pass to the brain through the optic nerve,
+   sensory neurones in optic nerve           and straight back to the iris muscles, adjusting the diameter of the pupil. It all
+                                             happens without the need for conscious thought in fact we are not even
+      unconscious part of brain              aware of it happening
 
-UNDERSTANDING THESE MECHANISMS IS ESSENTIAL FOR STUDYING HOW ANIMALS RESPOND TO ENVIRONMENTAL STIMULI.
+    motor neurones in nerve t0 iris          THE BLIND SPOT
+                                             There is one area of the retina where an image cannot be formed; this is where
+      iris muscles (effector)                the optic nerve leaves the eye. At this position there are no rods or cones, so
+                                             it is called the blind spot. The retina of each eye has a blind spot; but they
+ response (change in size of pupil)          are not aproblem, because the brain puts the images from each eye together;
+                                       cancelling out the blind spots of both eyes. As well as this, the optic nerve
+                                             leaves the eye towards the edge of the retina, where vision is not very sharp
+                                             anyway: To 'see' your own blind spot you can do a simple experiment: Cover
+                                             or close your right eye. Hold this page about 30 cm from your eyes and look at
+                                             the black dot below: Now; without moving the book or turning your head, read
+                                             the numbers from left to right by moving your left eye slowly towards the right:
+                                               1 2 3 4 5 6 7 8 9                    10    11   12    13    14    15
+                                             You should find that when the image of the dot falls on the blind spot it
+                                             disappears. If you try doing this with both eyes open, the image of the dot will
+                                             not disappear:
 
-# ANIMAL PHYSIOLOGY: COORDINATION
+                                               DID YOU KNOW?
+                                               A way to prove to yourself that the eyes form two overlapping images
+                                              is to try the 'sausage test' Focus your eyes on a distant object: Place
+                                              your two index fingers tip to tip, andbring 'them up in front of your
+                                               eyes, about 30 cm from your face, while still focusing at a distance. You
+                                              should see afinger 'sausage' between the two fingers. Now try this
+                                               with one eye closed. What is the difference?
 
-## NEURONAL COMMUNICATION
+                                              ACCOMMODATION
+                                             The changes that take place in the eye which allow us to see objects at
+                                             different distances are called accommodation.
+                                             You have probably seen the results of a camera or projector notbeingin
+                                             focus a blurred picture: In a camera; we can focus light from objects that are
+                                             different distances away by moving the lens backward or forward, until the
+                                             picture is sharp In the eye, a different method is used. Rather than altering
+                                             its position, the shape of the lens can be changed:A lens that is fatter in the
+                                             middle (more convex) will refract light rays more than a thinner (less convex)
+                                             lens. The lens in the eye can change shape because it is made of cells
+                                       containing an elastic crystalline protein.
+                                             Figure 6.4 shows that the lens is held in place by a series of fibres called the
+                                             suspensory ligaments_ These are attached like the spokes of a wheel to a
+                                             ring of muscle, called the ciliary muscle. The inside of the eye is filled with
+---
+84    ANIMAL PHYSIOLOGY                        COORDINATION
 
-### UNDERSTANDING NEURONES
-NEURONES ARE SPECIALIZED CELLS THAT TRANSMIT INFORMATION THROUGHOUT THE BODY. THEY COMMUNICATE THROUGH ELECTRICAL IMPULSES AND CHEMICAL SIGNALS AT JUNCTIONS KNOWN AS SYNAPSES.
+                                                transparent watery fluid which pushes outwards on the eye. In other words,
+                                              there is a slight positive pressure within the eye. The changes to the eye that
+                                              take place during accommodation are shown in Figure 6.7 .
+         focusing on a distant object                                            front view of lens,
+                                                                      ciliary muscles and suspensory ligaments
+                                                                                                   ciliary muscles relax
 
-### KEY QUESTIONS
+                                                                                                   suspensory ligaments pulled tight
 
-1. **IN WHAT FORM IS INFORMATION PASSED ALONG NEURONES?**
-   INFORMATION IS TRANSMITTED BETWEEN NEURONES IN THE FORM OF ELECTRICAL IMPULSES, FACILITATED BY NEUROTRANSMITTERS AT SYNAPSES.
+                                                                                                   lens 'flat'
+                                            lens less convex (flatter)
+         focusing on a nearby object
 
-2. **HOW DOES INFORMATION TRAVEL FROM ONE NEURONE TO ANOTHER?**
-   WHEN AN ELECTRICAL IMPULSE REACHES A NEURONE'S TERMINAL, IT TRIGGERS THE RELEASE OF NEUROTRANSMITTERS INTO THE SYNAPSE. THESE CHEMICALS CROSS THE SYNAPTIC GAP AND BIND TO RECEPTORS ON ADJACENT NEURONES, GENERATING NEW ELECTRICAL IMPULSES.
+                                                                                                   ciliary muscles contract
 
-3. **HOW MIGHT DRUGS AFFECT PAIN TRANSMISSION AT A SYNAPSE?**
-   DRUGS MAY BLOCK THE RELEASE OF PAIN-SIGNALING NEUROTRANSMITTERS OR INHIBIT RECEPTORS ON RECEIVING NEURONES, PREVENTING PAIN SIGNALS FROM BEING TRANSMITTED.
+                                                                                                   suspensory ligaments slack
 
-### MOTOR NEURONE STRUCTURE
+                                                                                                   lens more rounded
+                                          lens more convex (rounded)
+         Figure 6.7 Accommodation: how the eye focuses on objects at different distances
+                                              When the eye is focused on a distant object; the rays of light from the object
+                                              are almost parallel when they reach the cornea(Figure 6.7(a)): The cornea
+                                              refracts the rays; but the lens does not need to refract them much more to
+                                              focus the light on the retina, so it does not need to be very convex: Theciliary
+                                              muscles relax and the pressure in the eye pushes outwards on the lens,
+                                             flattening it and stretching the suspensory ligaments _ This is the condition
+                                              when the eye is at rest  our eyes are focused for long distances_
+                                              When we focus on a nearby object; for example when reading a book; the
+                                              light rays from the object are spreading out (diverging) whentheyenter the
+                                              eye (Figure 6.7(b)). In this situation, the lens has to be more convex in order to
+                                              refract the rays enough to focus them on the retina The ciliary muscles now
+                                              contract; the suspensory ligaments become slack and the elastic lens bulges
+                                              outwards into a more convex shape
 
-THE MOTOR NEURONE CONSISTS OF THREE MAIN PARTS: DENDRITES (P), A CELL BODY (Q), AND AN AXON (R). DENDRITES RECEIVE INCOMING SIGNALS, THE CELL BODY HOUSES THE NUCLEUS, AND THE AXON TRANSMITS IMPULSES TO TARGET MUSCLES OR OTHER NEURONS.
+                                                REFLEX ACTIONS
 
-### SPEED OF IMPULSE CONDUCTION
+    stimulus      receptor                                          CNS                   You saw on page 82 that the
+                                          sensory neurone                                 dilation and constriction of the
+                                                                                          pupil by the iris is an example of
+                                                                                          a reflex action. You now need to
+                                                                       relay neurone      understand a little more about the
+                                                                                          nerves involved in a reflex The
+                                                                                          nerve pathway of a reflex is called
+          response                         motor neurone                                  the reflex arc_ The 'arc' part
+                                                                                          means that the pathway goes into
+                                                                                          the CNS and then straight back
+                 effector                                                                 out again; in a sort of curve or arc
+                                                                                          (Figure 6.8)
+       Figure 6.8 Simplified diagram of a reflex arc
+---
+      ANIMAL PHYSIOLOGY                        COORDINATION                                                                  85
 
-A 1.2-METER-LONG MOTOR NEURONE CONDUCTS AN IMPULSE IN 0.016 SECONDS. USING THE FORMULA:
+                                             The iris-pupil reflex protects the eye against damage by bright light: Other
+                                               reflexes are protective too, preventing serious harm to the body: Take, for
+                                               example, the reflex response to a painful stimulus: This happens when part of
+                                               your body, such as your hand, touches a sharp or hot object: The reflex results
+                                               in your hand being quickly withdrawn: Figure 6.9 shows the nerve pathway of
+                                               this reflex in more detail.
+                                                                                             spinal cord
+                                            dorsal root ganglion   synapse                                    to brain
+                                      dorsal root
 
-   SPEED = DISTANCE / TIME  
-   SPEED = 1.2 M / 0.016 S = 75 M/S
+                                 sensory neurone
+     sensory receptor
+       nerve endings
+     in skin
 
-THIS RAPID CONDUCTION ALLOWS FOR EFFICIENT SIGNAL TRANSMISSION.
+                                                        motor neurone                                       white matter
+                (stimulus)                          muscle in arm          ventral root    relay neurone  grey matter
 
-### ENERGY REQUIREMENTS
+        Figure 6.9 A reflex arc in more detail
 
-NEURONES REQUIRE ATP TO CONDUCT IMPULSES. ATP IS PRIMARILY PRODUCED IN MITOCHONDRIA, WHICH SERVE AS THE CELL'S POWERHOUSES.
+      KEY POINT                                The stimulus is detected by temperature or pain receptors in the skin: These
+A reflex action is a rapid, automatic (or      generate impulses in sensory neurones_ The impulses enter the CNS through a
+      involuntary) response to a stimulus:     part of the spinal nerve called the dorsal root: In the spinal cord the sensory
+      The action often (but not always)        neurones connect by synapses with short relay neurones, which in turn
+   protects the body: 'Involuntary' means      connect with motor neurones The motor neurones emerge from the spinal
+      that it is not started by impulses from  cord through the ventral root, and send impulses back out to the muscles of
+      the brain                                the arm These muscles then contract; pulling the arm (and thus finger) away
+                                               from the harmful stimulus_
 
-### MYELIN SHEATH
+       DID YOU KNOW?                           The middle part of the spinal cord consists mainly of nerve cell bodies, which
+        'Dorsal' and 'ventral' are words       gives it a grey colour: This is why it is known as grey matter. The outer part
+                                               of the spinal cord is called white matter, and has a whiter appearance
+       describing the back and front           because it contains many axons with theirfattymyelin sheaths. (In the brain this
+       of the body: The dorsal roots of        is reversed the grey matter is on the outside and the white matter in the middle
+       spinal nerves emerge from the           of the brain:)
+       spinal cord towards the back            Impulses travel through the reflex arc in a fraction of a second, so that the
+       of the person; while the ventral        reflex action is very fast; and doesn't need to be started by impulses from
+       roots emerge towards the front:         the brain. However; this doesn't mean that the brain is unaware of what is
+                                               going on. This is because in the spinal cord, the reflex arc neurones also form
+       Notice that the cell bodies of the      connections called synapses (see below) with nerve cells leading to and from
+       sensory neurones are all located        the brain. The brain therefore receives information about the stimulus This is
+       in a swelling in the dorsal             how we feel the pain:
+       root; called the dorsal root            Movements are sometimes a result of reflex actions, but we can also contract
+       ganglion:                               ourmuscles as avoluntary action,using nerve cell pathways from the brain
+                                               linked to the same motor neurones:  voluntary action is under conscious
+                                               control.
+---
+86   ANIMAL PHYSIOLOGY                         COORDINATION
 
-THE MYELIN SHEATH (X) SURROUNDS THE AXON, ACTING AS AN INSULATOR. THIS INSULATION ENHANCES IMPULSE SPEED AND ENSURES EFFICIENT SIGNAL TRANSMISSION.
+                                               SYNAPSES
+                                             Synapses are critical to the working of the nervous system: The CNS is made
+                                             of many billions of nerve cells, and these have links with many others, through
+                                             synapses: In the brain; each neurone may form synapses with thousands of
+                                             other neurones. It is estimated that there are between 100 and 1000 million
+                                             million synapses in the CNS_ Since impulses can take different routes through
+                                             these, there is an almost infinite number of possible pathways through the
+                                             system:
+                                             A synapse is actually a gap between two nerve cells. The gap is not crossed
+                                             by the electrical impulses passing through the neurones, but by chemicals_
+                                             Impulses arriving at a synapse cause the ends of the fine branches of the axon
+                                             to secrete a chemical, called a neurotransmitter. This chemical diffuses
+                                             across the gap and attaches to the membrane of the second neurone. It then
+                                             starts off impulses in the second cell (Figure 6.10). After the neurotransmitter
+                                             has 'passed on the message' , it is broken down by an enzyme_
+      synaptic connections with                                         impulses arrive down axon         neurotransmitter
+      other neurones                                                    of first neurone                  diffuses across
+                                                                                                          synapse
 
-### EFFECTS OF SHEATH DAMAGE
+                                                                                                              neurotransmitter
+                                                                                                             attaches t0
+                                           cell body of neurone                                               membrane of
+                                                                                                             second neurone
+                                                                                                            impulse started in
+                                                                                                             second neurone
 
-DAMAGE TO THE MYELIN SHEATH CAN IMPAIR NERVOUS RESPONSES, SLOWING OR DISRUPTING IMPULSE TRANSMISSION AND AFFECTING REFLEXES OR MOVEMENTS.
+                                                                                                        neurotransmitter broken
+                                                  axon                                                  down by enzyme from
+                                                                                                        second neurone
+        Figure 6.10 The sequence of events happening at a synapse
+                                             Remember that many nerve cells, particularly those in the brain; have
+                                             thousands of synapses with other neurones. The output of one cell may
+                                             depend on the inputs from many cells adding together: In this way, synapses
+                                             are important for integrating information in the CNS (Figure 6.11).
+                                                                           impulses in incoming neurones
+                                                                           impulses in outgoing neurone
 
-### STIMULI AND RESPONSES
+                                               Figure 6.11 Synapses allow the output of one nerve cell to be a result of integration of information
+                                               from many other cells.
+                                             Because synapses are crossed by chemicals, it is easy for other chemicals
+                                             to interfere with the working of the synapse Theymay imitate the
+                                             neurotransmitter; or block its action. This is the way that many drugs work:
+---
+ ANIMAL PHYSIOLOGY                         COORDINATION                                                                    87
 
-1. **LIGHT:** CONSTRICTS PUPILS VIA PHOTORECEPTORS IN THE EYE.
-2. **SOUND:** TRIGGERS STARTLE REFLEXES THROUGH AUDITORY RECEPTORS.
-3. **TEMPERATURE:** REGULATES BODY TEMPERATURE BY CAUSING SWEATING OR SHIVERING.
-4. **PAIN:** INITIATES WITHDRAWAL REFLEXES VIA NOCICEPTORS.
-5. **TOUCH:** ENGAGES GRASPING REFLEXES THROUGH SKIN RECEPTORS.
+                                            LOOKING AHEAD          WHAT IS A NERVE IMPULSE?
+                                             A nerve impulse is an electrical signal that travels along the axon of a nerve
+                                             cell: When the cell is not transmitting an impulse, there is small potential
+                                             difference (voltage) across the nerve cell membrane. The potential inside the
+                                             axon is about -70 mV lower than outside: This 'resting potential' is caused
+                                             by differences in concentrations of various ions inside and outside the cell:
+                                             When the cell is stimulated, sodium ions (Nat) rush into the axon through
+                                             the membrane: The inflow of positively charged ions causes the potential
+                                             to become positive    wesaythat it is depolarised. This sudden switch in
+                                             voltage is called an 'action potential'. It only lasts for a few milliseconds
+                                             (Figure 6.12. After a brief 'overshoot' below -70 mV it returns to normal
+                                             (repolarised) , as other positive ions (potassium, Kt) pass out through the
+                                             membrane_
+                                                                            Action potential
+                                                                 +30
+                                                            HL             1 0   8
+                                                                                 3
 
-### DETAILED EXAMPLE: PAIN RESPONSE
+                                                                 -70              g            resting
+                                                                                                potential
 
-**STIMULUS:** PAIN  
-**RECEPTOR ROLE:** PAIN RECEPTORS (NOCICEPTORS) DETECT HARMFUL STIMULI AND INITIATE SIGNALING.  
-**EFFECTOR ORGAN ROLE:** MUSCLES IN THE ARM CONTRACT TO WITHDRAW FROM THE STIMULUS.  
-**CHAIN OF EVENTS:**  
-1. PAIN IS DETECTED BY NOCICEPTORS.  
-2. ELECTRICAL IMPULSES TRAVEL ALONG SENSORY NEURONES TO THE SPINAL CORD.  
-3. IMPULSES ARE RELAYED TO MOTOR NEURONES.  
-4. MOTOR NEURONES SEND SIGNALS TO MUSCLES, CAUSING CONTRACTION AND WITHDRAWAL FROM PAIN.
+                                                                                  time / ms
+                                               Figure 6.12 Nerve cell action potential.
+                                             A nerve impulse is a propagated action potential. The action potential
+                                             stimulates the next part of the cell membrane; so that the depolarisation
+                                            spreadsalongthe axon. After the action potential has passed, ion
+                                             exchange pumps in the membrane sort out the imbalance of Nat and Kt
+                                             ions. The pumps use ATP for active transport    this is one reason why
+                                             nerve cells need a lot of metabolic energy from respiration.
+                                             Nerve cells are called excitable cells' becausetheycanchange their
+                                             membrane potential in this way. Other excitable cells include muscle
+                                             and receptor cells_ If you continue to studybiology beyond International
+                                             GCSE you will probably learn more about this interesting topic_
 
+ CHAPTER QUESTIONS                       More questions on coordination can be found at the end of Unit 2 on page 116_
+
+SKILLS    CRITICAL THINKING                 Which row in the table correctly describes the three types of neurone?
+                                                   Sensory neurone            Relay neurone            Motor neurone
+                                               connects neurones within  connects impulses to the    connects impulses from the
+                                               the CNS                   effector from the CNS   receptor to the CNS
+                                               connects impulses from the  connects neurones within  connects impulses from the
+                                               effector to the CNS         the CNS                   CNS to the receptor
+                                               connects neurones within  connects impulses from the  connects impulses to the
+                                               the CNS                   receptor to the CNS         effector from the CNS
+                                               connects impulses from the  connects neurones within  connects impulses to the
+                                               receptor to the CNS         the CNS                   effector from the CNS
+---
+88   ANIMAL PHYSIOLOGY                      COORDINATION
+
+    SKILLS   CRITICAL THINKING               The diagram below shows a section through the eye:
+
+                                             Which row in the table shows the cornea and the choroid?
+                                                        Cornea           Choroid
+
+                                               boysits in the shade under a tree, reading a book: He looks up into the
+                                             sunny sky at an aeroplane_ Which of the following changes will take place in
+                                             hiseyes?
+                                                The pupils dilate and the lens becomes less convex
+                                                The pupils dilate and the lens becomes more convex
+                                                The pupils constrict and the lens becomes less convex
+                                                The pupils constrict and the lens becomes more convex
+                                             Below are two statements about how nerve cells work:
+                                               Neurotransmitters carry a nerve impulse along a neurone
+                                             2. An electrical charge carries a nerve impulse across a synapse
+                                             Which of these statements islare true?
+
+                                             C   and 2                          D neither
+                                             A cataract is an eye problem suffered by some people, especially the
+                                             elderly: The lens of the eye becomes opaque (cloudy) which blocks the
+                                             passage of light: It can lead to blindness_ Cataracts can be treated by a
+                                             simple eye operation; where a surgeon removes the lens and replaces it with
+                                             an artificial lens. After the operation, the patient is able to see again, but the
+                                             eye is unable to carry out accommodation, and the patient will probably
+                                             need to wear glasses for close-up work, such as reading:
+                                                What is meant by 'accommodation'?
+    SKILLS    REASONING                         Why is accommodation not possible after a cataract operation?
+                                                Explain how a normal eye accommodates to focus on a nearby object_
+---
+ANIMAL PHYSIOLOGY                        COORDINATION                                                                89
+
+SKILLS   ANALYSIS                         The diagram shows a section through a human eye:
+
+                                            The table below lists the functions of some of parts A to H: Copy the
+                                            table and write the letters of the correct parts in the boxes
+                                                                Function                             Letter
+                                             refracts light rays
+                                             converts light into nerve impulses
+                                             contains pigment to stop internal reflection
+                                             contracts to change the shape of the lens
+                                             takes nerve impulses to the brain
+                                                Which label shows the iris?
+                                                Explain how the iris controls the amount of light entering the eye_
+                                                Why is this important?
+                                          The diagram shows some parts of the nervous system involved in a simple
+                                          reflex action that happens when a finger touches a hot object:
+
+                                                                      to muscles
+                                                     temperature
+                                               HEAT  pain receptors
+                                            What type of neurone is:
+                                                neurone A
+                                                neurone B
+                                                neurone C?
+                                            Describe the function of each of these types of neurone
+                                            Which parts of the nervous system are shown by the labels X,Y and Z?
+---
+90   ANIMAL PHYSIOLOGY                     COORDINATION
+
+    SKILLS   CRITICAL THINKING                 In what form is information passed along neurones?
+                                               Explain how information passes from one neurone to another:
+    SKILLS                                                                                   feeling pain. From your
+             REASONING                         Some drugs act at a synapse to prevent a person
+                                               knowledge of synapses; suggest how they might work:
+    SKILLS   PROBLEM SOLVING                The diagram shows a motor neurone:
+
+                                            Name the parts of the neurone labelled P; Q and R:
+                                               This motor neurone is 1.2 metres in length: It takes 0.016 seconds for an
+                                               impulse to passalongthe neurone. Calculate the speed of conduction of
+                                               the impulse
+    SKILLS   CRITICAL THINKING                 Neurones need energy from ATP to conduct impulses. Name the
+                                               organelle in the cell that provides most of this ATP
+                                               Structure R is surrounded by a sheath, labelled X in the diagram_ What is
+                                               the function of this sheath?
+    SKILLS   REASONING                         Some diseases can cause damage to this sheath: Suggest what would
+                                               happen to a person's nervous responses if this sheath were to be
+                                               damaged:
+    SKILLS   CRITICAL THINKING                 List five examples of stimuli that affect the body and state the response
+                                               produced by each stimulus
+                                               For one of your fiveexamples, explain:
+                                                  the nature and role of the receptor
+                                                  the nature and role of the effector organ.
+                                               For the same example, describe the chain of events from stimulus to
+                                               response_

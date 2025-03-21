@@ -1,449 +1,213 @@
-# ORGANISMS AND LIFE PROCESSES
+## 2 THE VARIETY OF LIVING ORGANISMS
 
-## THE VARIETY OF LIVING ORGANISMS
+There is an enormous variety of living organisms. Biologists put them into groups according to their structure and function. The members of each group have certain features in common.
 
-### ANIMALS
-THE ANIMAL KINGDOM IS DIVERSE, ENCOMPASSING A WIDE RANGE OF SPECIES, INCLUDING HUMANS (HOMO SAPIENS). THIS KINGDOM INCLUDES ORGANISMS SUCH AS SPONGES, MOLLUSCS, WORMS, STARFISH, INSECTS, CRUSTACEANS, FISH, AMPHIBIANS, REPTILES, BIRDS, AND MAMMALS. AMONG THESE, THE LATTER FIVE GROUPS—FISH, AMPHIBIANS, REPTILES, BIRDS, AND MAMMALS—ARE VERTEBRATES, POSSESSING A BACKBONE. THE REMAINING GROUPS ARE INVERTEBRATES, LACKING THIS FEATURE.
+### LEARNING OBJECTIVES
 
-### VERTEBRATES AND INVERTEBRATES
-VERTEBRATES AND INVERTEBRATES DIFFER FUNDAMENTALLY. VERTEBRATES HAVE A BACKBONE AND INCLUDE FISH, AMPHIBIANS, REPTILES, BIRDS, AND MAMMALS. INVERTEBRATES LACK A BACKBONE AND INCLUDE INSECTS, SPIDERS, CRUSTACEANS, MOLLUSCS, AND WORMS. BOTH GROUPS ARE MULTICELLULAR ORGANISMS THAT DERIVE THEIR NUTRITION BY CONSUMING OTHER ORGANISMS.
+- Understand the difference between eukaryotic and prokaryotic organisms
+- Describe the features common to plants and recognise examples of flowering plants such as maize, peas and beans
+- Describe the features common to animals and recognise examples such as mammals and insects
+- Describe the features common to fungi and recognise examples such as Mucor and yeast
+- Describe the features common to protoctists and recognise examples such as Amoeba, Chlorella and Plasmodium
+- Describe the features common to bacteria and recognise examples such as Lactobacillus bulgaricus and Pneumococcus
+- Describe the features common to viruses and recognise examples such as the influenza virus, the HIV virus and the tobacco mosaic virus
+- Understand the term 'pathogen' and know that pathogens may include fungi, bacteria, protoctists or viruses.
 
-### CHARACTERISTICS OF ANIMALS
-ANIMALS ARE MULTICELLULAR ORGANISMS WITHOUT CHLOROPLASTS, UNABLE TO PERFORM PHOTOSYNTHESIS. THEY OBTAIN NUTRIENTS BY FEEDING ON OTHER ORGANISMS. THEIR CELLS LACK WALLS, ALLOWING FLEXIBILITY FOR MOVEMENT, COORDINATED BY A NERVOUS SYSTEM. MOST STORE CARBOHYDRATES AS GLYCOGEN, WHICH IS EXPLORED IN MORE DETAIL IN UNIT 2.
+There are more than ten million species of organisms alive on Earth today, and many more that once lived on Earth but are now extinct. In order to make sense of this enormous variety biologists classify organisms, putting them into groups. Members of each group are related – they are descended from a common ancestor by the process of evolution (see Chapter 19). This common ancestry is reflected in the similarities of structure and function of the members of a group.
 
-### FUNGI
-FUNGI INCLUDE BOTH MULTICELLULAR ORGANISMS LIKE MUSHROOMS AND UNICELLULAR YEASTS. YEASTS ARE FOUND IN VARIOUS ENVIRONMENTS, INCLUDING FRUITS, SOIL, WATER, AND AIR. FUNGAL CELL WALLS CONSIST OF CHITIN, UNLIKE PLANTS' CELLULOSE. THEY CANNOT PHOTOSYNTHESIZE DUE TO THE ABSENCE OF CHLOROPLASTS.
+The five major groups of living organisms are plants, animals, fungi, protoctists and bacteria.
 
-### SUMMARY
-- **ANIMALS**: MULTICELLULAR, LACK CHLOROPLASTS, DERIVE NUTRITION BY FEEDING, HAVE NERVOUS SYSTEMS FOR MOVEMENT, AND STORE CARBOHYDRATES AS GLYCOGEN.
-- **FUNGI**: INCLUDE BOTH MULTICELLULAR AND UNICELLULAR ORGANISMS WITH CHITIN CELL WALLS AND NO PHOTOSYNTHETIC ABILITY.
+### PLANTS
 
-THIS OVERVIEW HIGHLIGHTS THE DIVERSITY AND UNIQUE CHARACTERISTICS OF ANIMALS AND FUNGI, PROVIDING A FOUNDATION FOR EXPLORING LIFE PROCESSES IN THESE ORGANISMS.
+You will be familiar with flowering plants, such as those shown in Figure 2.1. This group, or kingdom, also contains simpler plants, such as mosses and ferns. All plants are multicellular, which means that their 'bodies' are made up of many cells. Their main distinguishing feature is that their cells contain chloroplasts and they carry out photosynthesis – the process that uses light energy to convert simple inorganic molecules such as water and carbon dioxide into complex organic compounds (see Chapter 10). One of these organic compounds is the carbohydrate cellulose, and all plants have cell walls made of this material.
 
-# ORGANISMS AND LIFE PROCESSES
+Plants can make many other organic compounds as a result of photosynthesis. One of the first to be made is the storage carbohydrate starch, which is often found inside plant cells. Another is the sugar sucrose, which is transported around the plant and is sometimes stored in fruits and other plant organs. The structure and function of flowering plants is dealt with in Unit 3 of this book.
 
-## THE VARIETY OF LIVING ORGANISMS
+Figure 2.1 (a) A pea plant. Its leaves and stem cells contain chloroplasts, giving them their green colour. The white flowers are pollinated by insects. (b) Maize plants are pollinated by wind. These are the male flowers, which make the pollen. (c) The female maize flowers produce seeds after pollination.
+---
+## ANIMALS
+
+You will be even more familiar with this kingdom, since it contains the species Homo sapiens, i.e. humans! The variety of the animal kingdom is also enormous, including organisms such as sponges, molluscs, worms, starfish, insects and crustaceans, through to larger animals such as fish, amphibians, reptiles, birds and mammals (Figure 2.2). The last five groups are all vertebrates, which means that they have a vertebral column, or backbone. All other animals lack this feature, and are called invertebrates.
+
+Figure 2.2 (a) A housefly. (b) A mosquito, feeding on human blood. Houseflies and mosquitoes are both insects, which make up the largest sub-group of all the animals. About 60% of all animal species are insects. (c) This high jumper's movement is coordinated by a complex nervous system.
+
+Animals are also multicellular organisms. Their cells never contain chloroplasts, so they are unable to carry out photosynthesis. Instead, they gain their nutrition by feeding on other animals or plants. Animal cells also lack cell walls, which allows their cells to change shape, an important feature for organisms that need to move from place to place. Movement in animals is achieved in various ways, but often involves coordination by a nervous system (see Chapter 6). Another feature common to most animals is that they store carbohydrate in their cells as a compound called glycogen (see Chapter 4). The structure and function of animals is dealt with in Unit 2 of this book.
+
+## FUNGI
+
+Fungi include mushrooms and toadstools, as well as moulds. These groups of fungi are multicellular. Another group of fungi is the yeasts, which are unicellular (made of single cells). Different species of yeasts live everywhere – on the surface of fruits, in soil, water, and even on dust in the air. The yeast powder used for baking contains millions of yeast cells (Figure 2.3). The cells of fungi never contain chloroplasts, so they cannot photosynthesise. Their cells have cell walls, but they are not composed of cellulose (Figure 2.4).
+
+### EXTENSION WORK
+
+Because fungi have cell walls, they were once thought to be plants that had lost their chlorophyll. We now know that their cell wall is not made of cellulose as in plants, but of a different chemical called chitin (the same material that makes up the outside skeleton of insects). There are many ways that fungi are very different from plants (the most obvious is that fungi do not photosynthesise) and they are not closely related to plants at all.
+
+Figure 2.3 Yeast cells, highly magnified
+
+Figure 2.4 Structure of a yeast cell
+
+| Part | Description |
+|------|-------------|
+| cell wall | made of chitin |
+| cell surface membrane | |
+| cytoplasm | |
+| vacuole | |
+| nucleus | |
+
+(Scale: 1 μm)
+---
+24   ORGANISMS AND LIFE PROCESSES              THE VARIETY OF LIVING ORGANISMS
+
+     KEY POINT                               A mushroom or toadstool is the reproductive structure of the organism; called
+     The singular of hyphae is hypha:         fruiting body (Figure 2.5) . Under the soil, the mushroom has many fine
+                                             thread-like filaments called hyphae (pronounced high-fee): A mould is rather
+                                             like a mushroom without the fruiting body. It just consists of the network of
+                                             hyphae (Figure 2.6). The whole network is called a mycelium (pronounced
+                                             my-sea-lee-um): Moulds feed by absorbing nutrients from dead (or sometimes
+                                             living) material, so they are found wherever this is present; for example; in soil,
+                                             rotting leaves or decaying fruit
+                                             If you leave a piece of bread or fruit exposed to the air for a few days, it
+                                                                                                                    will
+                                             soon become mouldy: Mould spores carried in the air have landed on the food
+                                             and grown into a mycelium of hyphae (Figure 2.7).
+                                                 Mycelium of Mucor
+                                                                   spores
+       Figure 2.5 Toadstools growing on a rotting
+       tree trunk
+                                                                                                  spore case
+                                                                   T00 um
+
+                                                                                                                   mycelium
+
+       Figure 2.6 The 'pin mould' Mucor growing                        hyphae
+       on a piece of bread: The dark spots
+       are structures that produce spores for
+       reproduction.                          (b) Highlymagnified tip of a feeding hypha
+
+                                                              cytoplasm cell wall
+                                                        vacuole
+
+                                                                          cell surface                      enzymes secreted
+                                                                                                            on to food
+                                                                  nuclei  membrane     10 um                soluble products
+                                                                                                            absorbed
+                                               Figure 2.7 The structure of a typical mould fungus, the 'pin mould' Mucor:
+                                             The thread-Iike hyphae of Mucor have cell walls surrounding their cytoplasm_
+                                             The cytoplasm contains many nuclei. In other words the hyphae are not
+                                             divided up into separate cells_
+                                             When a spore from Mucor lands on the food, a hypha grows out from it: The
+                                             hypha grows and branches again and again, until the mycelium covers the
+                                             surface of the food: The hyphae secrete digestive enzymes on to the food,
+                                             breaking it down into soluble substances such as sugars, which are then
+                                             absorbed by the mould. Eventually; the food is used up and the mould must
+                                             infect another source of food by producing more spores_
+                                             When anorganism feeds on dead organic material in this way, and digestion
+                                             takes place outside of the organism, this is called saprotrophic nutrition:
+                                             Enzymes that are secreted out of cells for this purpose are called extracellular
+                                             enzymes (see Chapter 1).
+---
+# ORGANISMS AND LIFE PROCESSES: THE VARIETY OF LIVING ORGANISMS
+
+## PROTOCTISTS
+
+Protoctists are sometimes called the 'dustbin kingdom', because they are a mixed group of organisms that don't fit into the plants, animals or fungi. Most protoctists are microscopic single-celled organisms (Figure 2.8). Some look like animal cells, such as Amoeba, which lives in pond water. These are known as protozoa. Other protoctists have chloroplasts and carry out photosynthesis, so are more like plants. These are called algae. Most algae are unicellular, but some species such as seaweeds are multicellular and can grow to a great size. Some protoctists are the agents of disease, such as Plasmodium, the organism that causes malaria.
+
+Figure 2.8 (a) Amoeba, a protozoan that lives in ponds (b) Chlorella, a unicellular freshwater alga (c) Blood cells containing the protoctist parasite Plasmodium, the organism responsible for causing malaria
+
+## EUKARYOTIC AND PROKARYOTIC ORGANISMS
+
+All the organisms described so far are composed of eukaryotic cells and are known as eukaryotic organisms. 'Eukaryotic' means 'having a nucleus' – their cells contain a nucleus surrounded by a membrane, along with other membrane bound organelles, such as mitochondria and chloroplasts.
+
+There are also organisms made of simpler cells, which have no nucleus, mitochondria or chloroplasts. These are called prokaryotic cells. 'Prokaryotic' means 'before nucleus'. The main forms of prokaryotic organisms are the bacteria.
+
+## BACTERIA
+
+Bacteria are small single-celled organisms. Their cells are much smaller than those of eukaryotic organisms and have a much simpler structure. To give you some idea of their size, a typical animal cell might be 10 to 50μm in diameter (1 μm, or one micrometre, is a millionth of a metre). Compared with this, a typical bacterium is only 1 to 5μm in length (Figure 2.9) and its volume is thousands of times smaller than that of the animal cell.
+
+There are three basic shapes of bacteria: spheres, rods and spirals, but they all have a similar internal structure (Figure 2.10).
+
+All bacteria are surrounded by a cell wall, which protects the bacterium and keeps the shape of the cell. Bacterial cell walls are not made of cellulose but a complex compound of sugars and proteins called peptidoglycan. Some species have another layer outside this wall, called a capsule or slime layer. Both give the bacterium extra protection. Underneath the cell wall is the cell membrane, as in other cells. The middle of the cell is made of cytoplasm. Since it is a prokaryotic cell, the bacterium has no nucleus. Instead, its genetic material (DNA) is in a single chromosome, loose in the cytoplasm, forming a circular loop.
+
+Figure 2.9 A bacterium is much smaller than an animal cell. The relative size of a virus is also shown.
+
+| Component | Size |
+|-----------|------|
+| Animal cell | Largest |
+| Bacterium | Much smaller than animal cell |
+| Virus | Smallest (shown for scale) |
+---
+## ORGANISMS AND LIFE PROCESSES: THE VARIETY OF LIVING ORGANISMS
+
+### (a) Some different bacterial shapes
+
+- **spheres**: singles, pairs, chains or groups
+- **rods**: singles, chains with or without flagella
+- **spirals**
+
+### (b) Internal structure of a bacterium
+
+Figure 2.10 Structure of bacteria
+
+| Component | Description |
+|-----------|-------------|
+| cell wall | Outermost layer |
+| cell surface membrane | Just inside the cell wall |
+| chromosome (nucleoid) | DNA material in the center |
+| capsule (slime layer) | Surrounding the cell |
+| plasmids | Small circular rings of DNA |
+| flagellum | Propulsion structure |
+
+Scale: 1 μm
+
+Some bacteria can swim, propelled through water by corkscrew-like movements of structures called flagella (a single one is called a flagellum). However, many bacteria do not have flagella and cannot move by themselves. Other structures present in the cytoplasm include the plasmids. These are small circular rings of DNA, carrying some of the bacterium's genes. Not all bacteria contain plasmids, although about three-quarters of all known species do. Plasmids have very important uses in genetic engineering (see Chapter 21).
 
 ### KEY POINT
-THE SINGULAR OF HYPHAE IS **HYPHA**.
 
+Pathogens are organisms that cause disease. Many common animal and plant diseases are caused by bacteria or viruses. Most protoctists are free-living, but a few species are pathogens, such as Plasmodium (Figure 2.8). Even some species of fungi can cause disease, e.g. the skin infection called 'athlete's foot' is caused by a mould.
+
+Some bacteria contain a form of chlorophyll in their cytoplasm, and can carry out photosynthesis. However, most bacteria feed off other living or dead organisms. Along with the fungi, many bacteria are important decomposers (see Chapter 14), recycling dead organisms and waste products in the soil and elsewhere. Some bacteria are used by humans to make food, such as Lactobacillus bulgaricus, a rod-shaped species used in the production of yoghurt from milk (Figure 2.11). Other species are pathogens, which means that they cause disease (Figure 2.12).
+
+Despite the relatively simple structure of the bacterial cell, it is still a living cell that carries out the normal processes of life, such as respiration, feeding, excretion, growth and reproduction. As you have seen, some bacteria can move, and they can also respond to a range of stimuli. For example, they may move towards a source of food, or away from a poisonous chemical. You should think about these features when you compare bacteria with the next group, the much simpler viruses.
+
+Figure 2.11 The bacterium Lactobacillus bulgaricus, used in the production of yoghurt.
+
+## VIRUSES
+
+All viruses are parasites, and can only reproduce inside living cells. The cell in which the virus lives is called the host. There are many different types of viruses. Some live in the cells of animals or plants, and there are even viruses which infect bacteria. Viruses are much smaller than bacterial cells: most are between 0.01 and 0.1 μm in diameter (Figure 2.9).
+
+Viruses are not made of cells. A virus particle is very simple. It has no nucleus or cytoplasm, and is composed of a core of genetic material surrounded by a protein coat (Figure 2.13). The genetic material can be either DNA, or a similar chemical called ribonucleic acid (RNA). In either case, the genetic material makes up just a few genes – all that is needed for the virus to reproduce inside its host cell.
+
+Figure 2.12 Rounded cells of the bacterium Pneumococcus, one cause of pneumonia.
 ---
+ORGANISMS AND LIFE PROCESSES    THE VARIETY OF LIVING ORGANISMS    27
 
-## FUNGI: MUSHROOMS AND MOULDS
+Figure 2.13 The structure of a typical virus, such as the type causing influenza (flu).
 
-MUSHROOMS OR TOADSTOOLS ARE THE FRUITING BODIES OF FUNGI, REFERRED TO AS **FRUITING BODIES**. BENEATH THE SOIL, A MUSHROOM CONSISTS OF MANY FINE, THREAD-LIKE FILAMENTS CALLED **HYPHAE** (PRONOUNCED HIGH-FEE). THESE HYPHAE FORM A NETWORK KNOWN AS **MYCELIUM**, WHICH IS THE VEGETATIVE PART OF THE FUNGUS.
+Sometimes a membrane called an envelope may surround a virus particle, but the virus does not make this. Instead it is 'stolen' from the surface membrane of the host cell.
 
-MOULDS, SUCH AS THE 'PIN MOULD' MUCOR, LACK FRUITING BODIES AND CONSIST SOLELY OF HYPHAE. THEY FEED BY ABSORBING NUTRIENTS FROM DEAD OR LIVING MATERIAL THROUGH SAPROTROPHIC NUTRITION. THIS PROCESS INVOLVES THE SECRETION OF EXTRACELLULAR ENZYMES THAT BREAK DOWN ORGANIC MATTER INTO SOLUBLE SUBSTANCES LIKE SUGARS, WHICH ARE THEN ABSORBED.
+Viruses do not feed, respire, excrete, move, grow or respond to their surroundings. They do not carry out any of the normal 'characteristics' of living things except reproduction, and they can only do this parasitically. This is why biologists do not consider viruses to be living organisms. You can think of them as being on the border between an organism and a non-living chemical.
 
-WHEN EXPOSED TO AIR, BREAD OR FRUIT CAN QUICKLY BECOME MOULDY AS MOULD SPORES LAND AND GROW INTO A MYCELIUM OF HYPHAE. THE HYPHAE OF MUCOR HAVE CELL WALLS ENCLOSING THEIR CYTOPLASM, CONTAINING MANY NUCLEI. THEY BRANCH REPEATEDLY UNTIL THEY COVER THE FOOD SOURCE, DEPLETING IT AND PROMPTING FURTHER INFECTION BY PRODUCING MORE SPORES.
+A virus reproduces by entering the host cell and taking over the host's genetic machinery to make more virus particles. After many virus particles have been made, the host cell dies and the particles are released to infect more cells. Many human diseases are caused in this way, such as influenza ('flu'). Other examples include colds, measles, mumps, polio and rubella ('German measles'). Of course, the reproduction process does not continue forever. Usually, the body's immune system destroys the virus and the person recovers. Sometimes, however, a virus cannot be destroyed by the immune system quickly enough, and it may cause permanent damage or death. With other infections, the virus may attack cells of the immune system itself. This is the case with HIV (the Human Immunodeficiency Virus), which causes the illness called AIDS (Acquired Immune Deficiency Syndrome).
 
----
+Viruses don't just parasitise animal cells. Some infect plant cells, such as the tobacco mosaic virus (Figure 2.14), which interferes with the ability of the tobacco plant to make chloroplasts, causing mottled patches to develop on the leaves (Figure 2.15).
 
-## STRUCTURE OF MOULDS
+## EXTENSION WORK
 
-THE HYPHAE OF MUCOR ARE UNIQUE AS THEY LACK SEPARATION INTO INDIVIDUAL CELLS. INSTEAD, EACH HYPHA SHARES ITS CYTOPLASM WITH MULTIPLE NUCLEI. THIS STRUCTURE ALLOWS THEM TO GROW AND BRANCH EXTENSIVELY, FORMING A NETWORK THAT EFFICIENTLY COVERS AND BREAKS DOWN THEIR FOOD SOURCE.
+AIDS is not actually a disease but a 'syndrome'. A syndrome is a set of symptoms caused by a medical condition. In the case of HIV, the virus severely damages the person's immune system, so they are more likely to get other diseases, such as tuberculosis. They may also develop some unusual types of cancer. This collection of different symptoms is referred to as AIDS.
 
----
+Figure 2.15 Discolouration of the leaves of a tobacco plant, caused by infection with tobacco mosaic virus.
 
-## SAPROTROPHIC NUTRITION
-
-SAPROTROPHIC NUTRITION REFERS TO THE PROCESS WHERE ORGANISMS FEED ON DEAD ORGANIC MATERIAL BY SECRETING EXTRACELLULAR ENZYMES. THESE ENZYMES BREAK DOWN THE FOOD EXTERNALLY, ENABLING MOULDS LIKE MUCOR TO ABSORB NUTRIENTS AND GROW. THIS FEEDING STRATEGY IS COMMON IN FUNGI, ALLOWING THEM TO THRIVE IN ENVIRONMENTS RICH IN DECAYING MATTER.
-
---- 
-
-THIS REFORMATTING ADHERES TO THE GIVEN RULES, ENSURING CLARITY, STRUCTURE, AND FACTUAL CONTENT WHILE AVOIDING UNNECESSARY ELEMENTS.
-
-# ORGANISMS AND LIFE PROCESSES
-
-## THE VARIETY OF LIVING ORGANISMS
-
-### PROTOCTISTS
-PROTOCTISTS ARE A DIVERSE GROUP OF ORGANISMS THAT DO NOT FIT INTO THE TRADITIONAL CATEGORIES OF PLANTS, ANIMALS, OR FUNGI. MOST PROTOCTISTS ARE MICROSCOPIC, SINGLE-CELLED ORGANISMS.
-
-- **PROTOZOA**: SOME PROTOCTISTS, SUCH AS AMOEBA, RESEMBLE ANIMAL CELLS AND CAN BE FOUND IN POND WATER. THESE ORGANISMS MOVE USING PSEUDOPODIA, WHICH ARE TEMPORARY PROJECTIONS OF THEIR CELL MEMBRANE.
-  
-- **ALGAE**: OTHER PROTOCTISTS, LIKE CHLORELLA, CONTAIN CHLOROPLASTS AND PERFORM PHOTOSYNTHESIS, MAKING THEM MORE PLANT-LIKE. MOST ALGAE REMAIN UNICELLULAR, BUT SOME, SUCH AS SEAWEEDS, GROW INTO MULTICELLULAR FORMS AND CAN REACH SIGNIFICANT SIZES.
-
-**DISEASES**: PROTOCTISTS CAN ALSO CAUSE DISEASES. FOR EXAMPLE, PLASMODIUM, A PROTOZOAN PARASITE, IS RESPONSIBLE FOR MALARIA.
-
-### EUKARYOTIC AND PROKARYOTIC ORGANISMS
-ALL ORGANISMS DISCUSSED SO FAR ARE COMPOSED OF EUKARYOTIC CELLS, WHICH ARE CHARACTERIZED BY HAVING A NUCLEUS SURROUNDED BY A MEMBRANE. THESE STRUCTURES INCLUDE ORGANELLES LIKE MITOCHONDRIA AND CHLOROPLASTS, CONTRIBUTING TO THEIR COMPLEX CELLULAR ORGANIZATION.
-
-IN CONTRAST, PROKARYOTIC ORGANISMS LACK A NUCLEUS AND OTHER ORGANELLES. THE PRIMARY FORM OF PROKARYOTIC ORGANISMS IS BACTERIA, WHICH HAVE SIMPLER CELLS.
-
-### BACTERIA
-BACTERIA ARE SMALL, SINGLE-CELLED ORGANISMS WITH A MUCH SMALLER SIZE THAN EUKARYOTIC CELLS. THEIR CELLS TYPICALLY MEASURE 0.5 TO 5 MICROMETERS IN LENGTH, COMPARED TO THE LARGER SIZE OF ANIMAL CELLS (10 TO 50 ΜM).
-
-**SHAPES**: BACTERIA EXHIBIT THREE PRIMARY SHAPES:
-- **SPHERICAL (COCCI)**: ROUND AND OFTEN APPEAR AS PAIRS OR CHAINS.
-- **ROD-SHAPED (BACILLI)**: LONG AND CYLINDRICAL WITH A ROUNDED OR POINTED END.
-- **SPIRAL (SPIRILLA)**: FORMED IN A HELICAL SHAPE.
-
-DESPITE THEIR VARIED SHAPES, ALL BACTERIA SHARE SIMILAR INTERNAL STRUCTURES.
-
-**STRUCTURE**: BACTERIA ARE ENCLOSED BY A CELL WALL MADE OF PEPTIDOGLYCAN, WHICH PROVIDES STRUCTURAL SUPPORT AND PROTECTION. SOME SPECIES HAVE AN ADDITIONAL CAPSULE OR SLIME LAYER FOR FURTHER PROTECTION. THE CELL MEMBRANE IS LOCATED BENEATH THE CELL WALL, AND THE CYTOPLASM CONTAINS GENETIC MATERIAL IN THE FORM OF A CIRCULAR CHROMOSOME.
-
-# THE VARIETY OF LIVING ORGANISMS
-
-## BACTERIA: STRUCTURE AND FUNCTION
-
-BACTERIA ARE DIVERSE MICROORGANISMS THAT COME IN VARIOUS SHAPES AND SIZES. THESE SHAPES INCLUDE SPHERES (COCCI), RODS (BACILLI), AND SPIRALS (SPIRILLA). SOME BACTERIAL SHAPES CAN EXIST AS SINGLES, PAIRS, CHAINS, OR CLUSTERS.
-
-### INTERNAL STRUCTURE OF A BACTERIUM
-
-A TYPICAL BACTERIUM CONSISTS OF SEVERAL KEY COMPONENTS: THE CELL WALL, WHICH PROVIDES STRUCTURE AND PROTECTION; THE CELL SURFACE MEMBRANE, WHICH REGULATES WHAT ENTERS AND EXITS THE CELL; THE CHROMOSOME (NUCLEOID), CONTAINING THE BACTERIUM'S GENETIC MATERIAL; PLASMIDS, SMALL CIRCULAR RINGS OF DNA THAT CARRY ADDITIONAL GENES; AND FLAGELLA, WHIP-LIKE STRUCTURES USED FOR MOVEMENT.
-
-### BACTERIAL MOVEMENT AND NUTRITION
-
-SOME BACTERIA USE FLAGELLA TO SWIM THROUGH THEIR ENVIRONMENT. OTHERS LACK INDEPENDENT MOVEMENT. MOST BACTERIA FEED ON OTHER LIVING OR DEAD ORGANISMS, ACTING AS DECOMPOSERS IN ECOSYSTEMS WHERE THEY RECYCLE DEAD ORGANISMS AND WASTE PRODUCTS IN THE SOIL. FOR EXAMPLE, *LACTOBACILLUS BULGARICUS* IS USED IN FOOD PRODUCTION, SUCH AS YOGURT.
-
-### PATHOGENS
-
-PATHOGENS ARE ORGANISMS THAT CAUSE DISEASE. EXAMPLES INCLUDE MOLD, WHICH CAN CAUSE CONDITIONS LIKE ATHLETE'S FOOT, AND *PLASMODIUM*, A PROTOCTIST RESPONSIBLE FOR MALARIA. DESPITE THEIR SIMPLE STRUCTURE, BACTERIA PERFORM ESSENTIAL LIFE PROCESSES, INCLUDING RESPIRATION, FEEDING, EXCRETION, GROWTH, AND REPRODUCTION. THEY CAN RESPOND TO STIMULI BY MOVING TOWARD FOOD OR AWAY FROM HARMFUL SUBSTANCES.
-
-## VIRUSES: STRUCTURE AND FUNCTION
-
-VIRUSES ARE FUNDAMENTALLY DIFFERENT FROM BACTERIA. THEY ARE PARASITES THAT CAN ONLY REPRODUCE INSIDE LIVING CELLS (HOSTS). VIRUSES ARE MUCH SMALLER THAN BACTERIAL CELLS, TYPICALLY RANGING FROM 0.01 TO 0.1 MICROMETERS IN DIAMETER. A VIRUS PARTICLE CONSISTS OF A CORE OF GENETIC MATERIAL (EITHER DNA OR RNA) SURROUNDED BY A PROTEIN COAT; THEY LACK A NUCLEUS AND CYTOPLASM.
-
-THE GENETIC MATERIAL OF A VIRUS CONTAINS JUST A FEW GENES, WHICH ARE ESSENTIAL FOR THE VIRUS TO REPRODUCE INSIDE ITS HOST CELL.
-
-### COMPARISON
-
-WHILE BACTERIA ARE LIVING ORGANISMS CAPABLE OF CARRYING OUT LIFE PROCESSES, VIRUSES ARE NON-LIVING ENTITIES THAT REQUIRE A HOST TO REPRODUCE. UNDERSTANDING THESE DIFFERENCES IS CRUCIAL IN THE STUDY OF MICROBIOLOGY AND THEIR IMPACT ON HEALTH AND THE ENVIRONMENT.
-
-# ORGANISMS AND LIFE PROCESSES
-
-## VIRUSES: A UNIQUE CATEGORY OF LIFE
-
-VIRUSES EXIST ON THE BOUNDARY BETWEEN LIVING AND NON-LIVING ENTITIES. THEY RANGE IN SIZE FROM **0.01 TO 0.1 MICROMETERS**. A TYPICAL VIRUS, SUCH AS THE INFLUENZA VIRUS, CONSISTS OF:
-
-- **GENETIC MATERIAL**: EITHER DNA OR RNA.
-- **PROTEIN COAT**: PROTECTS THE GENETIC MATERIAL.
-- **ENVELOPE**: SOMETIMES SURROUNDS THE VIRUS PARTICLE, SOURCED FROM THE HOST CELL'S MEMBRANE.
-
-!FIGURE 2.13: STRUCTURE OF A TYPICAL VIRUS, SUCH AS THE TYPE CAUSING INFLUENZA (FLU).
-
-VIRUSES LACK CHARACTERISTICS LIKE FEEDING, RESPIRATION, EXCRETION, MOVEMENT, GROWTH, AND RESPONSE TO SURROUNDINGS. THEIR ONLY LIFE FUNCTION IS REPRODUCTION, WHICH OCCURS PARASITICALLY BY INFECTING HOST CELLS AND USING THEIR MACHINERY TO PRODUCE MORE VIRUSES, EVENTUALLY LEADING TO HOST CELL DEATH.
-
-## HUMAN DISEASES CAUSED BY VIRUSES
-
-MANY HUMAN DISEASES ARE VIRAL, INCLUDING INFLUENZA (FLU), COLDS, MEASLES, MUMPS, POLIO, AND RUBELLA. TYPICALLY, THE IMMUNE SYSTEM ELIMINATES VIRUSES, ALLOWING RECOVERY. HOWEVER, HIV CAN DAMAGE THE IMMUNE SYSTEM, LEADING TO AIDS, A SYNDROME CHARACTERIZED BY VARIOUS SYMPTOMS DUE TO IMPAIRED IMMUNITY.
-
-## PLANT VIRUSES
-
-VIRUSES ALSO AFFECT PLANT CELLS. THE TOBACCO MOSAIC VIRUS (TMV) DISRUPTS CHLOROPLAST FUNCTION IN TOBACCO PLANTS, CAUSING MOTTLED LEAF PATCHES.
-
-!FIGURE 2.14: TOBACCO MOSAIC VIRUS (TMV), SEEN THROUGH AN ELECTRON MICROSCOPE.
-!FIGURE 2.15: LEAF DISCOLORATION CAUSED BY TMV INFECTION.
-
-## EXTENSION WORK: UNDERSTANDING AIDS
-
-AIDS IS A SYNDROME, NOT A DISEASE, RESULTING FROM HIV'S DESTRUCTION OF THE IMMUNE SYSTEM, INCREASING SUSCEPTIBILITY TO OTHER DISEASES AND CANCERS.
+Figure 2.14 (a) Tobacco mosaic virus (TMV), seen through an electron microscope. (b) Structure of part of a TMV particle, magnified 1.25 million times.
 
 ## CHAPTER QUESTIONS
 
-WHICH CHARACTERISTIC IS NOT TYPICAL OF PLANTS?
-
-- **A) CELLS CONTAIN CHLOROPLASTS**: PLANTS HAVE CHLOROPLASTS FOR PHOTOSYNTHESIS.
-- **B) CELL WALL MADE OF CELLULOSE**: CORRECT IN PLANTS.
-- **C) BODIES ARE MULTICELLULAR**: PLANTS ARE MULTICELLULAR ORGANISMS.
-- **D) STORE CARBOHYDRATE AS GLYCOGEN**: INCORRECT; PLANTS STORE CARBOHYDRATES AS STARCH, NOT GLYCOGEN.
-
-MORE QUESTIONS ON VARIOUS ORGANISMS ARE AVAILABLE IN UNIT 1 ON PAGE 29.
-
-## SKILLS AND CRITICAL THINKING
-
-REFLECTING ON VIRAL INFECTIONS HIGHLIGHTS THEIR IMPACT ON HEALTH AND AGRICULTURE. VIRUSES CHALLENGE OUR UNDERSTANDING OF LIFE AND DISEASE DYNAMICS.
-
-# THE VARIETY OF LIVING ORGANISMS
-
-## INTRODUCTION TO ORGANISMS
-
-LIVING ORGANISMS CAN BE CLASSIFIED INTO VARIOUS GROUPS BASED ON THEIR CHARACTERISTICS AND LIFE PROCESSES.
-
-### KEY CONCEPTS
-
-- **SAPROTROPHIC NUTRITION**: REFERS TO THE EXTRACELLULAR DIGESTION OF DEAD ORGANIC MATTER BY FUNGI TO OBTAIN NUTRIENTS.
-
-### CLASSIFICATION OF ORGANISMS
-
-BELOW ARE THREE GROUPS OF ORGANISMS:
-
-1. VIRUSES
-2. BACTERIA
-3. YEASTS
-
-AMONG THESE GROUPS, ONLY BACTERIA ARE PROKARYOTIC. PROKARYOTIC ORGANISMS LACK A NUCLEUS AND MEMBRANE-BOUND ORGANELLES.
-
-### DISEASES AND THEIR CAUSES
-
-WHICH OF THE FOLLOWING DISEASES IS NOT CAUSED BY A VIRUS?
-
-- INFLUENZA (VIRUS)
-- MEASLES (VIRUS)
-- MALARIA (PARASITE)
-- AIDS (VIRUS)
-
-### KINGDOM CLASSIFICATION
-
-NAME THE KINGDOM TO WHICH EACH OF THE FOLLOWING ORGANISMS BELONGS:
-
-- MUSHROOM: FUNGI
-- CHLORELLA: PLANTAE OR PROTISTA (DEPENDING ON CLASSIFICATION)
-- MOSS: PLANTAE
-- LACTOBACILLUS: BACTERIA
-
-## UNDERSTANDING PROTOCTISTS
-
-### EUGLENA
-
-THE DIAGRAM ILLUSTRATES A PROTOCTIST CALLED EUGLENA. IT IS CLASSIFIED AS NEITHER AN ANIMAL NOR A PLANT, COMBINING CHARACTERISTICS OF BOTH. EUGLENA USES A FLAGELLUM FOR MOVEMENT AND PERFORMS PHOTOSYNTHESIS VIA CHLOROPLASTS.
-
-### VIRUS STRUCTURE
-
-A TYPICAL VIRUS PARTICLE CONSISTS OF A PROTEIN COAT ENCLOSING A GENOME.
-
-### LIVING OR NOT?
-
-CRITICAL THINKING: IS A VIRUS A LIVING ORGANISM? VIRUSES ARE PARASITES WITHOUT CELLS OR INDEPENDENT METABOLIC PROCESSES, THUS THEY ARE NOT CONSIDERED LIVING ORGANISMS.
-
-### TERMINOLOGY
-
-- **INVERTEBRATE**: AN ANIMAL LACKING A BACKBONE.
-- **HYPHAE**: THREAD-LIKE STRUCTURES FORMING THE BODY OF FUNGI.
-- **SAPROTROPHIC**: ORGANISMS THAT DECOMPOSE DEAD ORGANIC MATTER FOR NUTRIENTS.
-
-## CONCLUSION
-
-UNDERSTANDING ORGANISM CLASSIFICATIONS IS CRUCIAL IN BIOLOGY, HIGHLIGHTING THE COMPLEXITY AND DIVERSITY OF LIFE ON EARTH.
-
-# ORGANISMS AND LIFE PROCESSES
-
-## UNIT QUESTIONS
-
-### SKILLS: CRITICAL THINKING
-1. **IDENTIFY ORGANELLES**  
-THE FOLLOWING ORGANELLES ARE FOUND IN CELLS: NUCLEUS, CHLOROPLAST, AND MITOCHONDRION.  
-- WHICH OF THE ABOVE ORGANELLES WOULD BE FOUND IN:  
-  - A CELL FROM A HUMAN MUSCLE?  
-  - A PALISADE CELL FROM A LEAF?  
-  - A CELL FROM THE ROOT OF A PLANT?
-
-2. **EXPLAIN DIFFERENCES**  
-THE ANSWERS TO THE QUESTIONS ABOUT THE PALISADE CELL AND THE ROOT CELL DIFFER BECAUSE THE PRESENCE OR FUNCTION OF ORGANELLES DEPENDS ON THE SPECIFIC TYPE OF CELL AND ITS ROLE IN THE ORGANISM.
-
-3. **FUNCTION OF ORGANELLES**  
-- NUCLEUS: CONTROLS CELL DIVISION, GENETIC INFORMATION STORAGE, AND PROTEIN SYNTHESIS.  
-- CHLOROPLAST: PRODUCES ENERGY (ATP) THROUGH PHOTOSYNTHESIS AND SYNTHESIZES ORGANIC MOLECULES.  
-- MITOCHONDRION: PRODUCES ATP FOR THE CELL AND IS INVOLVED IN CELLULAR RESPIRATION.
-
-### SKILLS: UNDERSTANDING ORGAN SYSTEMS
-4. **ORGAN STRUCTURE**  
-IN MULTICELLULAR ORGANISMS, CELLS ARE ORGANIZED INTO TISSUES, ORGANS, AND ORGAN SYSTEMS.  
-
-- AN ARTERY CAN BE CONSIDERED AN ORGAN BECAUSE IT HAS A SPECIFIC STRUCTURE AND FUNCTION (TRANSPORTING OXYGENATED BLOOD) UNIQUE TO ITS ROLE IN THE BODY. A CAPILLARY, HOWEVER, IS TOO SIMPLE IN STRUCTURE AND FUNCTION TO BE CLASSIFIED AS AN ORGAN.
-
-5. **DIGESTIVE SYSTEM**  
-THE DIGESTIVE SYSTEM IS RESPONSIBLE FOR BREAKING DOWN FOOD INTO NUTRIENTS THAT CAN BE ABSORBED BY THE BODY.  
-
-- THE HUMAN DIGESTIVE SYSTEM INCLUDES ORGANS SUCH AS THE MOUTH (ORAL CAVITY), ESOPHAGUS, STOMACH, INTESTINES, AND LIVER. EACH ORGAN PLAYS A SPECIFIC ROLE IN DIGESTION:  
-  - MOUTH: CHEWING AND MIXING FOOD WITH SALIVA TO BEGIN DIGESTION.  
-  - ESOPHAGUS: MOVES FOOD THROUGH THE THROAT INTO THE STOMACH.  
-  - STOMACH: BREAKS DOWN FOOD USING GASTRIC JUICES AND EXTRACTS NUTRIENTS.  
-  - INTESTINES: ABSORBS NUTRIENTS INTO THE BLOODSTREAM.  
-  - LIVER: PRODUCES BILE, WHICH AIDS IN DIGESTION AND STORES VITAMINS.  
-
-- OTHER HUMAN ORGAN SYSTEMS INCLUDE THE CIRCULATORY SYSTEM (E.G., HEART, BLOOD VESSELS) AND THE RESPIRATORY SYSTEM (E.G., LUNGS, TRACHEA).
-
-# ORGANISMS AND LIFE PROCESSES
-
-## UNIT QUESTIONS
-
-### SKILLS: ANALYSIS
-
-1. **CATALASE INVESTIGATION**
-   CATALASE IS AN ENZYME FOUND IN MANY PLANT AND ANIMAL CELLS THAT CATALYZES THE BREAKDOWN OF HYDROGEN PEROXIDE INTO WATER AND OXYGEN:
-   \[
-   \TEXT{HYDROGEN PEROXIDE} \XRIGHTARROW{\TEXT{CATALASE}} \TEXT{WATER} + \TEXT{OXYGEN}
-   \]
-   
-   IN AN INVESTIGATION, 20 G OF POTATO TISSUE CONTAINING HYDROGEN PEROXIDE WEIGHING 80 G WAS PLACED INTO A BEAKER MAINTAINED AT 20°C. THE MASS OF THE BEAKER AND ITS CONTENTS WERE RECORDED UNTIL NO FURTHER CHANGE OCCURRED. RESULTS ARE SHOWN IN THE GRAPH BELOW:
-   
-   !GRAPH SHOWING THE CHANGE IN MASS OVER TIME
-   
-   - HOW MUCH OXYGEN WAS FORMED IN THIS INVESTIGATION?
-   EXPLAIN YOUR ANSWER: (2 MARKS)
-   
-   - ESTIMATE THE TIME BY WHICH HALF THIS MASS OF OXYGEN HAD BEEN FORMED.
-   (2 MARKS)
-
-2. **RATE OF REACTION**
-   THE RATE OF REACTION CHANGES DURING THE INVESTIGATION BECAUSE COLLISIONS BETWEEN ENZYME AND SUBSTRATE MOLECULES INCREASE OR DECREASE OVER TIME, AFFECTING THE REACTION'S PROGRESS.
-
-3. **TEMPERATURE VARIATION**
-   REPEATING THE INVESTIGATION AT 30°C WOULD LIKELY RESULT IN:
-   
-   - A HIGHER MASS OF OXYGEN FORMED DUE TO INCREASED ENZYME ACTIVITY.
-   - FASTER FORMATION OF THE SAME MASS OF OXYGEN AS ENZYMES WORK MORE EFFICIENTLY AT HIGHER TEMPERATURES.
-
-### SKILLS: REASONING
-
-4. **MOVEMENT ACROSS CELL MEMBRANES**
-   ACTIVE TRANSPORT, OSMOSIS, AND DIFFUSION SHARE SIMILARITIES IN MOVING PARTICLES DOWN CONCENTRATION GRADIENTS BUT DIFFER IN ENERGY REQUIREMENTS AND MECHANISMS:
-
-   | FEATURE                                   | ACTIVE TRANSPORT | OSMOSIS | DIFFUSION |
-   |-------------------------------------------|------------------|---------|-----------|
-   | PARTICLES MUST HAVE KINETIC ENERGY        | ✓               |         |           |
-   | REQUIRES ENERGY FROM RESPIRATION           | ✓               |         |           |
-   | PARTICLES MOVE DOWN A CONCENTRATION GRADIENT |                  |         |           |
-
-   - ACTIVE TRANSPORT REQUIRES ATP, WHILE OSMOSIS AND DIFFUSION DO NOT.
-   - OSMOSIS INVOLVES THE MOVEMENT OF WATER ACROSS MEMBRANES BY DIFFUSION.
-   - DIFFUSION OCCURS PASSIVELY WITHOUT ENERGY EXPENDITURE.
-
-# ORGANISMS AND LIFE PROCESSES
-
-## UNIT QUESTIONS
-
-### CRITICAL THINKING SKILLS
-
-THE GRAPH ILLUSTRATES THE RATE OF SODIUM ION DIFFUSION ACROSS POTATO CELL MEMBRANES AT VARIOUS TEMPERATURES. THE DIFFUSION RATE INCREASES SIGNIFICANTLY UP TO 40°C, LIKELY DUE TO INCREASED MOLECULAR MOTION WITH TEMPERATURE. BEYOND THIS POINT, THE STEEP RISE IN RATE SUGGESTS A POSSIBLE SATURATION EFFECT OR MEMBRANE STABILIZATION, WHICH MAY LIMIT FURTHER INCREASES.
-
-**QUESTION 1:** EXPLAIN THE OBSERVED INCREASE IN DIFFUSION RATE AS TEMPERATURE RISES FROM 0°C TO 40°C.  
-**QUESTION 2:** SUGGEST REASONS FOR THE MORE GRADUAL INCREASE IN RATE AT TEMPERATURES ABOVE 40°C.
-
-### REASONING SKILLS
-
-IN SMALL INTESTINE CELLS, MITOSIS REPLACES LOST CELLS AS FOOD PASSES THROUGH. DNA DUPLICATION BEFORE MITOSIS ENSURES EACH NEW CELL HAS SUFFICIENT GENETIC MATERIAL FOR PROPER FUNCTION AND GROWTH.
-
-**QUESTION 1:** WHY IS DOUBLING DNA CONTENT ESSENTIAL BEFORE MITOSIS?  
-**QUESTION 2:** WHAT HAPPENS AT POINT Y IN THE DNA CONTENT GRAPH?
-
-### ANALYSIS SKILLS
-
-THE DIAGRAM DEPICTS A SMALL INTESTINE VILLUS CELL INVOLVED IN GLUCOSE ABSORPTION. VILLI ENHANCE NUTRIENT ABSORPTION BY INCREASING SURFACE AREA THROUGH MICROVILLI, ALLOWING EFFICIENT EXCHANGE OF MOLECULES.
-
-**QUESTION 1:** HOW DO VILLI CONTRIBUTE TO NUTRIENT ABSORPTION?  
-**QUESTION 2:** HOW DO MICROVILLI ADAPT THE CELL FOR GLUCOSE ABSORPTION?  
-**QUESTION 3:** EXPLAIN HOW ACTIVE TRANSPORT FACILITATES GLUCOSE ABSORPTION INTO THE BLOODSTREAM.
-
-# ORGANISMS AND LIFE PROCESSES
-
-## UNIT QUESTIONS
-
-### SKILLS: REASONING
-
-A RESPIROMETER MEASURES THE RATE OF RESPIRATION. THE DIAGRAM SHOWS A SIMPLE SETUP WHERE A SODIUM HYDROXIDE SOLUTION ABSORBS CARBON DIOXIDE.
-
-**COMPONENTS OF THE RESPIROMETER:**
-- A GRADUATED SCALE FOR MEASUREMENT
-- A CAPILLARY TUBE TO DELIVER AIR
-- A BOILING TUBE TO COLLECT EXHALED AIR
-- A GAUZE PLATFORM SUPPORTING THE APPARATUS
-- SODIUM HYDROXIDE SOLUTION IN A U-TUBE
-- MAGGOTS USED AS THE TEST ORGANISMS
-
-**OBSERVATION:** A SMALL BEAD OF COLORED LIQUID MOVES, INDICATING RESPIRATION RATE.
-
-### RESULTS OF INVESTIGATION
-
-THE TABLE SHOWS DISTANCE MOVED BY THE BEAD:
-
-| EXPERIMENT | DISTANCE (MM) |
-|------------|---------------|
-| 1          | 20            |
-| 2          | 18            |
-| 3          | 20            |
-
-**ASSUMPTIONS:** MAGGOTS RESPIRE AEROBICALLY.
-
-1. **AEROBIC RESPIRATION EQUATION:**
-   \[ \TEXT{C}_6\TEXT{H}_{12}\TEXT{O}_6 + 6\TEXT{O}_2 \RIGHTARROW 6\TEXT{CO}_2 + 6\TEXT{H}_2\TEXT{O} \]
-
-2. **OXYGEN AND CARBON DIOXIDE RELATIONSHIP:**
-   THE AMOUNT OF OXYGEN TAKEN IN EQUALS THE CARBON DIOXIDE PRODUCED, AS PER THE EQUATION.
-
-3. **EXPLANATION:** IN AEROBIC RESPIRATION, GLUCOSE USES OXYGEN TO PRODUCE CARBON DIOXIDE AND WATER.
-
-4. **RESULT VARIATION:** RESULT 2 DIFFERS; POSSIBLE REASONS INCLUDE MAGGOT ACTIVITY OR ENVIRONMENTAL FACTORS.
-
-5. **ANAEROBIC RESPIRATION IMPACT:** ANAEROBIC RESPIRATION WOULD LIKELY REDUCE BEAD MOVEMENT DUE TO LOWER ENERGY PRODUCTION AND LESS CARBON DIOXIDE.
-
-*(TOTAL: 11 MARKS)*
-
+More questions on the variety of living organisms can be found at the end of Unit 1 on page 29.
+
+## SKILLS CRITICAL THINKING
+
+1. Which of the following is not a characteristic of plants?
+   A cells contain chloroplasts
+   B cell wall made of cellulose
+   C bodies are multicellular
+   D store carbohydrate as glycogen
 ---
-
-### SKILLS: INTERPRETATION
-
-THE TABLE COMPARES ORGANISM FEATURES:
-
-| FEATURE                                      | PLANT | FUNGUS | VIRUS |
-|------------------------------------------------|-------|--------|-------|
-| THEY ARE ALL PARASITES                        | ✓     | ✓      | ✗     |
-| MADE UP OF MYCELIUM OF HYPHAE                 | ✗     | ✓      | ✗     |
-| REPRODUCE INSIDE LIVING CELLS                | ✗     | ✓      | ✗     |
-| FEED BY EXTRACELLULAR DIGESTION WITH ENZYMES  | ✓     | ✓      | ✗     |
-| STORE CARBOHYDRATE AS STARCH                  | ✓     | ✓      | ✗     |
-
-*(TOTAL: 5 MARKS)*
-
----
-
-**SAFETY NOTE:** WEAR EYE PROTECTION WHEN SETTING UP THE RESPIROMETER DUE TO SODIUM HYDROXIDE HAZARDS.
-
-# ORGANISMS AND LIFE PROCESSES
-
-## UNIT 1: COMPLETE THE FOLLOWING ACCOUNT
-
-PLANTS HAVE CELL WALLS COMPOSED OF **CELLULOSE**. THEY STORE CARBOHYDRATES AS INSOLUBLE STARCH OR SOMETIMES AS THE SUGAR **SUCROSE**, WHICH ARE PRODUCTS OF PHOTOSYNTHESIS. ANIMALS, IN CONTRAST, STORE CARBOHYDRATES AS **GLYCOGEN**. BOTH PLANTS AND ANIMALS HAVE NUCLEI IN THEIR CELLS, BUT BACTERIA LACK A TRUE NUCLEUS, INSTEAD HAVING THEIR DNA ARRANGED IN CIRCULAR CHROMOSOMES. BACTERIA MAY ALSO CONTAIN SMALL RINGS OF DNA CALLED **PLASMIDS**, WHICH ARE UTILIZED IN GENETIC ENGINEERING. BACTERIA AND FUNGI ACT AS DECOMPOSERS, BREAKING DOWN ORGANIC MATTER IN THE SOIL. SOME BACTERIA FUNCTION AS PATHOGENS, CAPABLE OF CAUSING DISEASE.
-
-## UNIT 2: INVESTIGATING GERMINATION OF PEA SEEDS
-
-THE EXPERIMENT INVESTIGATES THE GERMINATION OF PEA SEEDS USING AN APPARATUS THAT INCLUDES A VACUUM FLASK, GERMINATING PEAS, DEAD PEAS, COTTON WOOL, AND A THERMOMETER. THE SETUP INVOLVES TWO FLASKS LEFT FOR 24 HOURS AT AN INITIAL TEMPERATURE OF 19°C. AFTER THIS PERIOD, THE TEMPERATURE IN THE FLASK WITH GERMINATING PEAS RISES TO 22°C, WHILE THE FLASK WITH DEAD PEAS REMAINS AT 19°C.
-
-**THE DIFFERENCE IN TEMPERATURE IS DUE TO METABOLIC ACTIVITY IN THE GERMINATING SEEDS, WHICH PRODUCE HEAT THROUGH CELLULAR RESPIRATION.**
-
-BEFORE THE EXPERIMENT, THE SEEDS WERE WASHED IN DISINFECTANT TO ELIMINATE ANY MICROORGANISMS THAT COULD INTERFERE WITH THE RESULTS AND ENSURE STERILITY.
-
-COTTON WOOL WAS USED INSTEAD OF A RUBBER BUNG BECAUSE IT PROVIDES BETTER AERATION FOR THE SEEDS, ALLOWING OXYGEN TO CIRCULATE WHILE PREVENTING CONTAMINATION FROM EXTERNAL FACTORS.
-
-AN ADDITIONAL VARIABLE THAT SHOULD HAVE BEEN CONTROLLED IS THE AMOUNT OF WATER PROVIDED TO THE SEEDS IN EACH FLASK TO MAINTAIN CONSISTENT CONDITIONS ACROSS BOTH TREATMENTS.
-
-## UNIT 3: INVESTIGATING MUSCLE FIBRES
-
-A PIECE OF MEAT CONSISTS OF MUSCLE FIBRES. THESE FIBRES UTILIZE **ATP** DURING CONTRACTION. AN INVESTIGATION COULD INVOLVE IMMERSING MUSCLE FIBRES IN A SOLUTION CONTAINING ATP AND OBSERVING WHETHER CONTRACTION OCCURS, FOLLOWED BY A RELAXATION PHASE UPON REMOVAL OF THE ATP SOLUTION. THIS SETUP AIMS TO STUDY THE ROLE OF ATP IN MUSCLE CONTRACTION.
-
----
-
-# BIOLOGY UNIT 2: ANIMAL PHYSIOLOGY
-
-## INTRODUCTION TO PHYSIOLOGY  
-PHYSIOLOGY IS THE STUDY OF HOW LIVING ORGANISMS FUNCTION AT VARIOUS LEVELS, FROM CELLS TO ENTIRE ORGANISMS. IT EXAMINES THE MECHANISMS AND PROCESSES THAT SUSTAIN LIFE, FOCUSING ON THE STRUCTURAL AND FUNCTIONAL ORGANIZATION OF LIVING SYSTEMS.
-
-### IMPORTANCE OF STUDYING PHYSIOLOGY  
-UNDERSTANDING PHYSIOLOGY IS ESSENTIAL FOR MULTIPLE REASONS: IT PROVIDES INSIGHTS INTO HOW THE BODY OPERATES, WHICH IS CRUCIAL FOR DIAGNOSING AND TREATING ILLNESSES. THE NOBEL PRIZE IN PHYSIOLOGY OR MEDICINE HIGHLIGHTS THE SIGNIFICANCE OF THIS FIELD.
-
-## TOPICS COVERED IN THIS UNIT  
-THIS UNIT EXPLORES VARIOUS ASPECTS OF ANIMAL PHYSIOLOGY, FOCUSING ON HUMAN BODILY FUNCTIONS. KEY TOPICS INCLUDE:
-
-1. **BREATHING AND GAS EXCHANGE**  
-   THIS PROCESS INVOLVES THE INTAKE OF OXYGEN AND RELEASE OF CARBON DIOXIDE THROUGH THE RESPIRATORY SYSTEM. IT IS A VITAL MECHANISM FOR MAINTAINING OXYGEN LEVELS IN THE BLOOD.
-
-2. **FOOD AND DIGESTION**  
-   THE DIGESTIVE SYSTEM BREAKS DOWN FOOD INTO NUTRIENTS THAT CAN BE ABSORBED BY THE BODY, ENSURING PROPER NUTRITION AND ENERGY PRODUCTION.
-
-3. **BLOOD AND CIRCULATION**  
-   BLOOD TRANSPORTS OXYGEN, NUTRIENTS, HORMONES, AND WASTE PRODUCTS THROUGHOUT THE BODY, MAINTAINING HOMEOSTASIS AND SUPPORTING BODILY FUNCTIONS.
-
-4. **COORDINATION**  
-   THE NERVOUS SYSTEM FACILITATES COMMUNICATION BETWEEN DIFFERENT PARTS OF THE BODY, COORDINATING ACTIONS SUCH AS MOVEMENT AND RESPONSE TO STIMULI.
-
-5. **CHEMICAL COORDINATION**  
-   THIS INVOLVES THE ENDOCRINE SYSTEM, WHERE HORMONES REGULATE PROCESSES LIKE GROWTH, METABOLISM, AND REPRODUCTION BY TRANSMITTING SIGNALS THROUGHOUT THE BODY.
-
-6. **HOMEOSTASIS AND EXCRETION**  
-   HOMEOSTATIC MECHANISMS MAINTAIN INTERNAL BALANCE, WHILE EXCRETORY SYSTEMS ELIMINATE WASTE PRODUCTS, ENSURING THE BODY'S STABILITY AND HEALTH.
-
-7. **REPRODUCTION IN HUMANS**  
-   REPRODUCTIVE PROCESSES ENSURE THE CONTINUATION OF LIFE, INVOLVING COMPLEX HORMONAL INTERACTIONS AND THE DEVELOPMENT OF NEW INDIVIDUALS.
-
+[Diagram of Euglena with flagellum used for swimming and various internal structures. Scale: 10 μm]

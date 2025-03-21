@@ -1,172 +1,197 @@
-# CHAPTER 16: CHROMOSOMES, GENES, AND DNA
+# CHROMOSOMES, GENES AND DNA
 
-THIS CHAPTER EXPLORES THE STRUCTURE AND ORGANIZATION OF GENETIC MATERIAL, FOCUSING ON CHROMOSOMES, GENES, AND DNA.
+This chapter looks at the structure and organisation of genetic material, namely chromosomes, genes and DNA
 
 ## LEARNING OBJECTIVES
 
-BY THE END OF THIS CHAPTER, YOU SHOULD BE ABLE TO:
-- UNDERSTAND THAT THE NUCLEUS CONTAINS CHROMOSOMES WHERE GENES ARE LOCATED.
-- RECOGNIZE THAT HUMAN CELLS HAVE 46 DIPLOID CHROMOSOMES AND 23 HAPLOID CHROMOSOMES.
-- COMPREHEND THAT A GENE IS A SPECIFIC SEGMENT OF DNA ENCODING A PROTEIN.
-- APPRECIATE THAT MUTATIONS ARE RARE, RANDOM CHANGES IN GENETIC MATERIAL THAT CAN BE INHERITED.
-- UNDERSTAND THE CONCEPT OF ALLELES, WHICH COME IN ALTERNATIVE FORMS AND CONTRIBUTE TO INHERITED TRAITS.
-- KNOW THAT THE GENOME REFERS TO AN ORGANISM'S COMPLETE SET OF DNA.
+- Understand that the nucleus of a cell contains chromosomes on which genes are located
+- Understand that a gene is a section of a molecule of DNA that codes for a specific protein
+- Know that in human cells the diploid number of chromosomes is 46 and the haploid number is 23
+- Understand that the genome is the entire DNA of an organism
+- Understand that mutation is a rare, random change in genetic material that can be inherited
+- Understand how genes exist in alternative forms called alleles, which give rise to different inherited characteristics
 
-## DID YOU KNOW?
+[Image showing:
+- A person
+- A cell with nucleus (contains chromosomes)
+- A chromosome (contains DNA)
+- DNA molecule with gene length indicated]
 
-DNA STANDS FOR DEOXYRIBONUCLEIC ACID. THE TERM "DEOXYRIBO" DERIVES FROM THE FIVE-CARBON SUGAR IN DNA, DEOXYRIBOSE.
+The chemical that is the basis of inheritance in nearly all organisms is DNA. DNA consists of two strands looking like a twisted ladder - the famous 'double helix'. The 'sides' of the ladder are made of alternating sugar and phosphate groups. The 'rungs' of the ladder are made of pairs of nitrogen-containing groups called bases (Figure 16.2). There are four bases called adenine, thymine, cytosine and guanine. The base adenine always pairs with thymine, and cytosine with guanine. These are called complementary base pairs. DNA is usually found in the nucleus of a cell, in the chromosomes (Figure 16.1).
 
-## STRUCTURE OF DNA
+A small section of DNA that determines a particular feature is called a gene. Genes determine features by instructing cells to produce particular proteins which then lead to the development of the feature. So a gene can also be described as a section of DNA that codes for a particular protein.
 
-DNA IS A CHEMICAL BASIS OF INHERITANCE IN MOST ORGANISMS. IT CONSISTS OF TWO STRANDS FORMING A DOUBLE HELIX STRUCTURE.
-
-- **THE SIDES OF THE LADDER**: ALTERNATING SUGAR AND PHOSPHATE GROUPS.
-- **THE RUNGS OF THE LADDER**: PAIRS OF NITROGEN-CONTAINING BASES—ADENINE, THYMINE, CYTOSINE, GUANINE.
-
-## COMPLEMENTARY BASE PAIRS
-
-ADENINE (A) PAIRS WITH THYMINE (T), AND CYTOSINE (C) PAIRS WITH GUANINE (G). THESE PAIRINGS ARE KNOWN AS COMPLEMENTARY BASE PAIRS.
-
-## GENES AND THEIR FUNCTION
-
-A GENE IS A SEGMENT OF DNA THAT CODES FOR A SPECIFIC PROTEIN. THIS DETERMINES PARTICULAR TRAITS, MAKING GENES THE GENETIC UNITS OF HEREDITY.
-
-## DNA REPLICATION
-
-DNA REPLICATES TO FORM EXACT COPIES, ENSURING EACH CELL IN MITOSIS HAS IDENTICAL DNA, LEADING TO GENETICALLY IDENTICAL CELLS.
-
-## VISUAL AIDS
-
-- **FIGURE 16.1**: ILLUSTRATES THE RELATIONSHIP BETWEEN CELLS, CHROMOSOMES, AND DNA.
-- **FIGURE 16.2**: SHOWS A DNA MOLECULE'S STRUCTURE, HIGHLIGHTING THE DOUBLE HELIX AND BASE ARRANGEMENT.
-
-UNDERSTANDING DNA'S STRUCTURE AND FUNCTION IS FUNDAMENTAL TO GENETICS AND INHERITANCE STUDIES.
-
-# VARIATION AND SELECTION
-
-## CHROMOSOMES, GENES, AND DNA
-
-### THE STRUCTURE OF CHROMOSOMES
-
-EACH CHROMOSOME CONTAINS ONE DOUBLE-STRANDED DNA MOLECULE. THIS DNA IS FOLDED AND COILED TO FIT INTO A COMPACT SPACE, WINDING AROUND PROTEINS CALLED HISTONES.
-
-**KEY POINT:** THE X AND Y CHROMOSOMES ARE THE SEX CHROMOSOMES THAT DETERMINE GENDER.
-
-### HOW MANY CHROMOSOMES?
-
-HUMAN CELLS TYPICALLY CONTAIN 46 CHROMOSOMES. FIGURE 16.3 ILLUSTRATES THIS STRUCTURE, SHOWING HOW DNA WINDS AROUND HISTONES. IN FIGURE 16.4, A KARYOTYPE OF A HUMAN MALE IS DEPICTED, DISPLAYING 22 PAIRS OF HOMOLOGOUS CHROMOSOMES AND THE X AND Y SEX CHROMOSOMES. A FEMALE'S KARYOTYPE INCLUDES 23 PAIRS, WITH TWO X CHROMOSOMES.
-
-CHROMOSOMES IN A CELL ARE NOT ARRANGED AS SHOWN; INSTEAD, THEY PAIR BY SIZE AND SHAPE. MALE CELLS HAVE 22 PAIRS PLUS THE X AND Y CHROMOSOMES, WHILE FEMALE CELLS HAVE 23 PAIRS, INCLUDING AN ADDITIONAL X CHROMOSOME.
-
-### REMINDER
-
-RED BLOOD CELLS LACK NUCLEI AND THEREFORE DO NOT CONTAIN CHROMOSOMES. THIS ABSENCE ALLOWS THEM TO CARRY MORE OXYGEN EFFICIENTLY.
+DNA can replicate (make an exact copy of) itself. When a cell divides by mitosis (see Chapter 17), each new cell receives exactly the same type and amount of DNA. The cells formed are genetically identical.
 
 ---
+## THE STRUCTURE OF CHROMOSOMES
 
-# VARIATION AND SELECTION: CHROMOSOMES, GENES, AND DNA
+Each chromosome contains one double-stranded DNA molecule. The DNA is folded and coiled so that it can be packed into a small space. The DNA is coiled around proteins called histones (Figure 16.3).
 
-## CHROMOSOMES AND THEIR STRUCTURE
+[A detailed diagram showing the structure of a chromosome, labeled as Figure 16.3. The diagram illustrates:]
 
-PAIRS OF MATCHING CHROMOSOMES IN CELLS ARE CALLED **HOMOLOGOUS PAIRS**. THESE PAIRS CARRY GENES FOR IDENTICAL FEATURES AND SHARE THE SAME SEQUENCE ARRANGEMENT ON EACH CHROMOSOME (SEE FIGURE 16.5).
+- A full chromosome structure on the left, labeled "chromosome"
+- A zoomed-in view of the DNA structure, showing:
+  - "supercoiled DNA/histones"
+  - "DNA coiled around histones"
+  - "histones"
+  - "DNA" (shown as a double helix)
 
-### KEY TERMS:
-- **DIPLOID CELLS**: CELLS WITH PAIRED CHROMOSOMES, CONTAINING 46 CHROMOSOMES IN HUMANS.
-- **HAPLOID CELLS**: CELLS WITH HALF THE NUMBER OF CHROMOSOMES, SUCH AS 23 IN SEX CELLS.
+Because a chromosome contains a particular DNA molecule, it will also contain the genes that make up that DNA molecule. Another chromosome will contain a different DNA molecule, and so will contain different genes.
 
-NOT ALL HUMAN CELLS HAVE 46 CHROMOSOMES. FOR INSTANCE:
-- **RED BLOOD CELLS**: THESE ANUCLEAR CELLS LACK CHROMOSOMES.
-- **SEX CELLS (GAMETES)**: FORMED THROUGH MEIOSIS, EACH CELL CONTAINS ONE CHROMOSOME FROM EACH HOMOLOGOUS PAIR AND A SEX CHROMOSOME.
+## HOW MANY CHROMOSOMES?
 
-WHEN TWO GAMETES FUSE DURING FERTILIZATION, THEY FORM A **ZYGOTE**, A DIPLOID CELL WITH PAIRED CHROMOSOMES AND NORMAL DNA CONTENT.
+Nearly all human cells contain 46 chromosomes. The photographs in Figure 16.4 show the 46 chromosomes from the body cells of a human male.
 
-## HOW MANY GENES?
+[An image showing 23 pairs of chromosomes arranged in a grid, numbered 1-22, plus X and Y]
 
-THE COMPLETE DNA IN AN ORGANISM IS CALLED ITS **GENOME**. IN HUMANS, THIS CONSISTS OF APPROXIMATELY **3.2 BILLION BASE PAIRS**. SURPRISINGLY, ONLY ABOUT **1.5%** OF THE GENOME CODES FOR PROTEINS, CONTAINING AROUND **20,000-25,000 GENES**.
+Figure 16.4 A man's chromosomes. One of each of the 22 homologous pairs are shown, along with the X and Y sex chromosomes. A woman's chromosomes are the same, except that she has two X chromosomes. A picture of all the chromosomes in a cell is called a karyotype.
 
-## GENES AND ALLELES
+The chromosomes are not arranged like this in the cell. The original photograph has been cut up and chromosomes of the same size and shape 'paired up'. The cell from the male has 22 pairs of chromosomes and two that do not form a pair – the X and Y chromosomes. A body cell from a female has 23 matching pairs including a pair of X chromosomes.
 
-**GENES** ARE SPECIFIC DNA SEGMENTS CONTROLLING PROTEIN PRODUCTION, INFLUENCING TRAITS LIKE EYE COLOR OR BLOOD TYPE. SOME GENES HAVE MULTIPLE FORMS CALLED **ALLELES**, AFFECTING FACIAL FEATURES OR BLOOD GROUP ANTIGENS (SEE FIGURE 16.6).
+## REMINDER
 
-UNDERSTANDING CHROMOSOMES, GENES, AND THEIR FUNCTIONS IS FUNDAMENTAL TO STUDYING VARIATION AND SELECTION IN BIOLOGY. THE RELATIONSHIP BETWEEN DIPLOID AND HAPLOID CELLS, ALONG WITH GENE ROLES, PROVIDES A FOUNDATION FOR GENETIC INHERITANCE STUDIES.
+Red blood cells have no nucleus and therefore no chromosomes. (The lack of a nucleus means there is more room for carrying oxygen.)
 
-# VARIATION AND SELECTION
+## KEY POINT
 
-## CHROMOSOMES, GENES, AND DNA
+The X and the Y chromosomes are the sex chromosomes. They determine whether a person is male or female (see Chapter 18).
+---
+VARIATION AND SELECTION                 CHROMOSOMES, GENES AND DNA                                                 199
 
-### UNDERSTANDING ALLELES
+                                       Pairs of matching chromosomes are called homologous pairs. Theycarry
+                                       genes for the same features, and these genes are arranged at the same
+                                       positions and sequence along the chromosome (Figure 16.5). Cells with
+                                       chromosomes in pairslikethis are diploid cells_
+                                                             homologous pair of chromosomes
 
-GENES ARE SEGMENTS OF DNA THAT DETERMINE SPECIFIC TRAITS IN AN ORGANISM. EACH GENE CAN HAVE DIFFERENT FORMS, KNOWN AS **ALLELES**. FOR EXAMPLE, THE GENE RESPONSIBLE FOR EARLOBE ATTACHMENT CAN HAVE TWO ALLELES: ONE FOR **ATTACHED EARLOBES** AND ONE FOR **FREE EARLOBES**.
+                                                                       gene
 
-### EXAMPLES OF ALLELES
+                                                                                      genes A; B,
+                                                                                      and C each
+                                                                       gene           control a
+                                                                                      different
+                                                                                      feature
 
-THE FOLLOWING EXAMPLES ILLUSTRATE VARIOUS FACIAL FEATURES AND THEIR CORRESPONDING ALLELES:
+                                                                       gene
 
-- **EARLOBE ATTACHMENT**: 
-  - FREE EARLOBE
-  - ATTACHED EARLOBE
+                                         Figure 16.5 Both chromosomes in a homologous pair have the same sequence of genes.
+                                       Not all human cells have 46 chromosomes_ Red blood cells have no nucleus
+                                       and so have none: Sex cells have only 23 just half the number of other
+                                       cells:Theyare formed by a cell division called meiosis (see Chapter 17).
+                                       Each cell formed has one chromosome from each homologous pair; and one
+                                       of the sex chromosomes. Cells with only half the normal diploid number of
+                                       chromosomes_ and therefore only half the DNA content of other cells, are
+                                       haploid cells_
+                                       When two gametes fuse in fertilisation, the two nuclei join to form a single
+                                       diploid cell (a zygote) This cell has; once again, all its chromosomes in
+                                       homologous pairs and two copies ofeverygene: It has the normal DNA
+                                       content
 
-- **UPPER EYELID FOLD**: 
-  - UPPER EYELID NOT FOLDED
-  - UPPER EYELID FOLDED
+HOW MANY GENES?                        The entire DNA of an organism (the amount present in a diploid cell) is known
+                                       as its genome_ The human genome is made up of about 3.2 billion base
+                                                                                               biology is that only
+                                       pairs. One of the surprise discoveries of modern molecular
+                                       a small fraction of the genome consists of protein-coding genes For example,
+                                       the human genome contains about 20 000-25 000 genes coding for proteins,
+                                       which is only about 1.5% of the total DNA The rest have other functions,
+                                       functions    to be discoveredl (See the 'Looking ahead' feature at the end of
+                                                yet
+                                       this chapter:)
 
-- **ANGLE OF EYES TO NOSE**: 
-  - EYES ANGLED AWAY FROM NOSE
-  - EYES ANGLED TOWARDS NOSE
+ GENES AND ALLELES                     Genes are sections of DNA that control the production of proteins in a cell:
+                                       Each protein contributes towards a particular body feature. Sometimes the
+                                       feature is visible, such as eye colour or skin pigmentation. Sometimes the
+                                       feature is not visible, such as the type of haemoglobin in red blood cells or the
+                                       type of blood group antigen on the red blood cells_
+                                       Some genes have more than one form: For example; the genes controlling
+                                       several facial features have alternative forms, which result in alternative forms
+                                       of the feature (Figure 16.6).
+---
+200 VARIATION AND SELECTION                       CHROMOSOMES, GENES AND DNA
 
-- **LENGTH OF EYELASHES**: 
-  - LONG EYELASHES
-  - SHORT EYELASHES
+                                                           Form   of the gene              Form 2 of the gene
 
-### HOMOLOGOUS CHROMOSOMES
+                                                                                                                    earlobe
+                                                                                                                    attachment
 
-HOMOLOGOUS CHROMOSOMES ARE PAIRS OF CHROMOSOMES THAT CARRY GENES FOR THE SAME FEATURES IN THE SAME SEQUENCE. HOWEVER, THE ALLELES OF THESE GENES MAY DIFFER. FOR INSTANCE:
+                                                                free earlobe                attached earlobe
 
-- **A AND A**: DIFFERENT ALLELES OF THE SAME GENE
-- **B AND B**: DIFFERENT ALLELES OF THE SAME GENE
-- **C AND C**: DIFFERENT ALLELES OF THE SAME GENE
+                                                                                                                    upper eyelid
+                                                                                                                    fold
 
-THESE ALLELES CONTROL THE SAME FEATURE BUT CAN RESULT IN DIFFERENT EXPRESSIONS.
+                                                           upper eyelid not folded          upper eyelid folded
 
-### GENETIC COMBINATIONS
+                                                                                                                    angle of eyes
+                                                                                                                    to nose
 
-EACH CELL IN AN ORGANISM TYPICALLY CONTAINS TWO COPIES OF EACH CHROMOSOME, AND THEREFORE TWO COPIES OF EACH GENE. FOR EXAMPLE, IF A PERSON HAS ONE ALLELE FOR ATTACHED EARLOBES AND ONE FOR FREE EARLOBES, THIS SCENARIO ILLUSTRATES THE CONCEPT OF **DOMINANCE** IN GENETICS, WHERE ONE ALLELE MAY MASK THE EXPRESSION OF ANOTHER. THIS UNDERSTANDING IS CRUCIAL FOR STUDYING VARIATION AND SELECTION IN BIOLOGY.
+                                                        eyes angled away from nose      eyes angled towards nose
 
-# VARIATION AND SELECTION
+                                                                                                                length of
+                                                                                                                eyelashes
 
-IN GENETICS, UNDERSTANDING THE CONCEPTS OF CHROMOSOMES, GENES, AND ALLELES IS CRUCIAL FOR STUDYING VARIATION AND SELECTION.
+                                                              long eyelashes                 short eyelashes
+                                                   Figure 16.6 The alternate forms of four facial features
+                                                 The gene for earlobe attachment has the forms attached earlobe\' and "free
+                                                 earlobe'. These different forms of the gene are called alleles. Homologous
+                                                 chromosomes carry genes for the same features in the same sequence, but
+                                                 the alleles of the genes may not be the same (Figure 16.7). The DNA in the two
+                                                 chromosomes is not quite identical_
+                                                                             homologous pair of chromosomes
 
-### KEY TERMS:
-- **GENE**: A SEGMENT OF DNA THAT CODES FOR A SPECIFIC PROTEIN OR FUNCTION.
-- **ALLELE**: DIFFERENT FORMS OF A GENE THAT CAN EXIST AT A SPECIFIC LOCUS ON A CHROMOSOME.
+                                                   Figure 16.7 A and a, B and b;andC and c are different alleles of the same gene. They control the
+                                                    same feature but code for different expressions of that feature .
+                                                 Each cell with two copies of a chromosome also has two copies of the genes
+                                                 on those chromosomes: Suppose that; for the gene controlling earlobe
+                                                attachment;, a person has one allele for attached earlobes and one for free
+                                                 earlobes_ What happens? Is one ear free and the other attached? Are they
+---
+VARIATION AND SELECTION                         CHROMOSOMES, GENES AND DNA                                           201
 
-### EXAMPLE: EARLOBE SHAPE
-THE TRAIT FOR EARLOBE SHAPE ILLUSTRATES GENETIC VARIATION. THERE ARE TWO ALLELES ASSOCIATED WITH THIS TRAIT:
-- **FREE EARLOBES** (DOMINANT ALLELE)
-- **ATTACHED EARLOBES** (RECESSIVE ALLELE)
+                                        both partly attached? Neither: In this case, both earlobes are free: The 'free'
+                                        allele is dominant: This means that it will show its effect; whether or not the
+                                        allele for 'attached' is present. The allele for 'attached' is called recessive_
+                                        The recessive allele will only show up in the appearance of the person if there
+                                                is no dominant allele present: You will find out more about how genes work in
+                                        Chapter 18.
+                                         LOOKING AHEAD         REGULATING GENES
+                                           You have seen how 'normal' gene coding for proteins (known as structural
+                                           genes) make up only 1.5% of the genome. Some of the rest of the genome is
+                                           DNA that regulates the action of the structural genes, switching them on and
+                                                off. One way this happens is in regions of the DNA called operons
+                                           An operon is a group of structural genes headed by a non-coding length
+                                           of DNA called an operator; along with another sequence of DNA called
+                                                promoter: The promoter starts transcription by binding to an enzyme
+                                           called RNA polymerase. Close to the promoter is a regulatory gene, which
+                                           codes for a protein called a repressor: The repressor can bind with the
+                                           operator; preventing the promoter from binding with RNA polymerase,
+                                           and stopping transcription (Figure 16.8).
 
-AN INDIVIDUAL EXHIBITS THE FREE EARLOBE TRAIT IF THEY POSSESS ONE OR MORE DOMINANT ALLELES. THE RECESSIVE ALLELE IS ONLY EXPRESSED WHEN BOTH ALLELES ARE RECESSIVE.
+                                                regulatory                              operon
+                                                   gene
+                                                                     promoter operator
 
-### DNA REGULATION
-WHILE STRUCTURAL GENES ACCOUNT FOR APPROXIMATELY 1.5% OF THE GENOME, THE REMAINING DNA PLAYS A CRUCIAL ROLE IN REGULATING THESE GENES. THIS REGULATION IS ESSENTIAL FOR SWITCHING GENES ON AND OFF, CONTROLLING THEIR EXPRESSION LEVELS.
+                                                                                             structural genes
+                                           mRNA
 
-#### OPERONS
-AN OPERON IS A GROUP OF STRUCTURAL GENES CONTROLLED BY A SINGLE OPERATOR AND PROMOTER. THE PROMOTER FACILITATES TRANSCRIPTION BY BINDING RNA POLYMERASE, WHILE THE OPERATOR CAN BE BOUND BY A REPRESSOR PROTEIN TO INHIBIT TRANSCRIPTION. FIGURE 16.8 ILLUSTRATES THIS STRUCTURE, SHOWING HOW AN OPERON FUNCTIONS AS A REGULATORY MECHANISM.
+                                          repressor                    repression
+                                          protein
+                                          Figure 16.8 An operon is a group of structural genes linked to an operator and a promoter: It is
+                                          under the control of a regulatory gene.
+                                        The structural genes are in groups because they are related e.g: they code
+                                        for different enzymes in a metabolic pathway: Operons were first discovered
+                                        in bacteria: At first we thought they only existed in prokaryotes, but molecular
+                                        biologists have now found them in eukaryotic cells too.
 
-### IMPORTANCE OF OPERONS
-OPERONS ARE COMMONLY FOUND IN BACTERIA, WHERE THEY COORDINATE GENE EXPRESSION IN METABOLIC PATHWAYS. INTERESTINGLY, OPERONS HAVE ALSO BEEN DISCOVERED IN EUKARYOTIC CELLS, EXPANDING OUR UNDERSTANDING OF GENE REGULATION.
+ CHAPTER QUESTIONS                      More questions on DNA can be found at the end of Unit 5 on page 234_
 
-### CHAPTER QUESTIONS
-1. HOW MANY CHROMOSOMES ARE PRESENT IN THE BODY CELLS OF A MAN?
-   - A) 23 PAIRS XX
-   - B) 23 PAIRS XY
-   - C) 22 PAIRS + XX
-   - D) 22 PAIRS + XY
-
-2. DEFINE:
-   - A GENE
-   - AN ALLELE
-
-3. DESCRIBE THE STRUCTURE OF A CHROMOSOME.
-
-4. COMPARE THE CHROMOSOMES IN A WOMAN'S SKIN CELLS TO THOSE IN A MAN'S SKIN CELLS, NOTING THEIR SIMILARITIES AND DIFFERENCES.
+SKILLS    CRITICAL THINKING               How many chromosomes are there in the body cells of a man?
+                                          A 23 pairs   XX                     B 23 pairs   XY
+                                             22 pairs + XX                    D 22 pairs + XY
+                                              What is:
+                                                a gene
+                                                an allele?
+                                             Describe the structure of a chromosome
+                                              How are the chromosomes in a woman's skin cells:
+                                                similar to
+                                                different from those in a man's skin cells?

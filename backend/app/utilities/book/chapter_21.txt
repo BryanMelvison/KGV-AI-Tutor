@@ -1,459 +1,360 @@
-# MICROORGANISMS AND GENETIC MODIFICATION
+# GENETIC MODIFICATION
 
-## GENETIC MODIFICATION
+In this chapter we look at microorganisms that are grown in order to make products that are of use to humans.
 
-THE PROCESS OF GENETIC MODIFICATION ALLOWS SCIENTISTS TO MANIPULATE GENES AND PRODUCE GENETICALLY MODIFIED ORGANISMS (GMOS) THROUGH GENETIC ENGINEERING. THIS CHAPTER EXPLORES THE TECHNIQUES USED IN THIS FIELD.
+## LEARNING OBJECTIVES
 
-### LEARNING OBJECTIVES
+- Understand that the term 'transgenic' means the transfer of genetic material from one species to a different species
+- Understand how restriction enzymes are used to cut DNA at specific sites and ligase enzymes are used to join pieces of DNA together
+- Understand how plasmids and viruses can act as vectors, which take up pieces of DNA, and then insert this recombinant DNA into other cells
+- Understand how large amounts of human insulin can be manufactured from genetically modified bacteria that are grown in a fermenter
+- Understand how genetically modified plants can be used to improve food production
 
-1. **UNDERSTANDING TRANSGENIC ORGANISMS**: A TRANSGENIC ORGANISM CONTAINS GENETIC MATERIAL FROM ANOTHER SPECIES. FOR EXAMPLE, BACTERIA CAN BE ENGINEERED TO PRODUCE HUMAN INSULIN.
-2. **INSULIN PRODUCTION**: GENETICALLY MODIFIED BACTERIA ARE CULTIVATED IN FERMENTERS TO MASS-PRODUCE HUMAN INSULIN.
-3. **RESTRICTION ENZYMES AND LIGASE**: THESE ENZYMES ARE CRUCIAL FOR CUTTING DNA AT SPECIFIC SITES AND JOINING DNA FRAGMENTS, RESPECTIVELY.
-4. **VECTORS IN GENETIC ENGINEERING**: PLASMIDS AND VIRUSES ACT AS VECTORS, INTRODUCING RECOMBINANT DNA INTO HOST ORGANISMS.
-5. **GM PLANTS IN AGRICULTURE**: GENETICALLY MODIFIED PLANTS IMPROVE FOOD PRODUCTION EFFICIENCY.
+In Chapter 16 you saw that a gene is a section of a molecule of DNA that codes
+for the production of a protein. One strand of the DNA (called the coding strand) contains triplets of bases, each triplet coding for one amino acid. Different genes produce different proteins because each has a unique sequence of bases that codes for a unique sequence of amino acids (Figure 21.1).
 
-### DNA'S ROLE IN PROTEIN SYNTHESIS
+G G A T G C C G A T A C G
 
-GENES ARE SEGMENTS OF DNA THAT CODE FOR PROTEINS. THE CODING STRAND CONTAINS TRIPLETS OF BASES THAT TRANSLATE INTO AMINO ACIDS. EACH GENE PRODUCES A UNIQUE PROTEIN DUE TO ITS SPECIFIC BASE SEQUENCE, LEADING TO DIVERSE FUNCTIONS SUCH AS ENZYMES, STRUCTURAL PROTEINS, HORMONES, OR ANTIBODIES.
+---
+A T
+C G
+G C
+A T
+A T
+T A
+T A
+C G
+C G
+T A
+G C
+C G
+G C
+T A
+A T
+T A
+T A
+G C
+G C
+A T
 
-**FIGURE 21.1** ILLUSTRATES HOW THE GENETIC CODE ON ONE DNA STRAND DETERMINES THE AMINO ACID SEQUENCE IN A PROTEIN. THIS PROCESS IS CENTRAL TO LIFE, ENABLING THE CREATION OF COMPLEX MOLECULES ESSENTIAL FOR VARIOUS BIOLOGICAL ROLES.
+The protein that is produced could be:
+
+- an enzyme that controls a particular reaction inside a cell or in the digestive system
+- a structural protein like keratin in hair, collagen in skin or one of the many proteins found in the membranes of cells
+- a protein hormone such as insulin
+- a protein with a specific function such as haemoglobin or an antibody.
 
 ### RECOMBINANT DNA
-
-RECOMBINANT DNA IS THE FOUNDATION OF GENETIC ENGINEERING. A SEGMENT FROM ONE SPECIES' DNA IS INSERTED INTO ANOTHER, CREATING TRANSGENIC ORGANISMS. THIS TECHNIQUE ALLOWS FOR TAILORED MODIFICATIONS ACROSS DIFFERENT FIELDS, INCLUDING MEDICINE AND AGRICULTURE.
-
-### TRANSGENIC ORGANISMS
-
-TRANSGENIC ORGANISMS POSSESS GENES FROM OTHER SPECIES. FOR INSTANCE, BACTERIA PRODUCE HUMAN INSULIN, WHILE SHEEP SECRETE ALPHA-1-ANTITRYPSIN IN THEIR MILK DUE TO HUMAN GENE TRANSFER. THESE ORGANISMS ARE CLASSIFIED AS TRANSGENIC BECAUSE THEY CONTAIN FOREIGN GENETIC MATERIAL.
-
-### VECTORS IN GENETIC ENGINEERING
-
-VECTORS LIKE PLASMIDS AND VIRUSES FACILITATE THE TRANSFER OF RECOMBINANT DNA INTO HOST CELLS. PLASMIDS, CIRCULAR DNA MOLECULES, CAN BE ENGINEERED WITH SPECIFIC GENES FOR EXPRESSION IN HOST ORGANISMS. VIRUSES, SUCH AS BACTERIOPHAGE, DELIVER GENETIC MATERIAL EFFICIENTLY DURING INFECTION.
-
-### APPLICATIONS IN FOOD PRODUCTION
-
-GENETICALLY MODIFIED PLANTS ARE UTILIZED TO ENHANCE AGRICULTURAL PRODUCTIVITY. FOR EXAMPLE, CROPS MAY EXHIBIT TRAITS LIKE DROUGHT RESISTANCE OR INCREASED YIELD, CONTRIBUTING TO FOOD SECURITY AND ECONOMIC GROWTH.
-
-THIS STRUCTURED APPROACH ENSURES CLARITY AND FACTUAL ACCURACY, MAINTAINING AN EDUCATIONAL TONE WITHOUT READER-DIRECTED LANGUAGE. EACH SECTION IS PRESENTED AS A COHERENT PARAGRAPH, REFLECTING THE HIERARCHICAL STRUCTURE OF GENETIC ENGINEERING CONCEPTS.
-
-# MICROORGANISMS AND GENETIC MODIFICATION
-
-## GENETIC MODIFICATION
-
-GENETIC MODIFICATION INVOLVES ALTERING THE GENETIC MATERIAL OF AN ORGANISM TO GIVE IT NEW CAPABILITIES. FOR INSTANCE, WHEN A BACTERIUM RECEIVES A HUMAN GENE THAT CODES FOR INSULIN PRODUCTION, IT CAN MANUFACTURE HUMAN INSULIN. WHEN THESE TRANSGENIC BACTERIA ARE CULTURED IN LARGE QUANTITIES, THEY EFFECTIVELY BECOME FACTORIES FOR PRODUCING INSULIN.
-
-### PRODUCING GENETICALLY MODIFIED (TRANSGENIC) BACTERIA
-
-THE ABILITY TO TRANSFER DNA FROM ONE CELL TO ANOTHER WAS SIGNIFICANTLY ADVANCED BY THE DISCOVERY THAT BACTERIA POSSESS TWO TYPES OF DNA: THE DNA FOUND IN THEIR BACTERIAL CHROMOSOME AND SMALLER CIRCULAR PIECES OF DNA KNOWN AS PLASMIDS. BACTERIA NATURALLY EXCHANGE PLASMIDS, AND SCIENTISTS HAVE DEVELOPED METHODS TO FACILITATE THE TRANSFER OF PLASMIDS BETWEEN BACTERIA.
-
-THE NEXT STEP IN THIS PROCESS WAS TO IDENTIFY MOLECULAR TOOLS THAT COULD CUT AND PASTE DNA SEGMENTS.
-
-#### KEY ENZYMES IN GENETIC MODIFICATION
-
-1. **RESTRICTION ENDONUCLEASES (RESTRICTION ENZYMES)**: THESE ENZYMES CUT DNA MOLECULES AT SPECIFIC SEQUENCES. EACH RESTRICTION ENZYME RECOGNIZES A PARTICULAR BASE SEQUENCE IN A DNA STRAND AND WILL CUT THE DNA WHEREVER IT ENCOUNTERS THAT SEQUENCE. FOR EXAMPLE, IF A RESTRICTION ENZYME RECOGNIZES THE SEQUENCE G-A-A-T-T-C, IT WILL ONLY CUT AT THAT SPECIFIC LOCATION.
-
-2. **LIGASES (DNA LIGASES)**: THESE ENZYMES JOIN THE CUT ENDS OF DNA TOGETHER. THEY CAN EFFECTIVELY CONNECT DNA FRAGMENTS IF THEY HAVE COMPATIBLE ENDS.
-
-### TYPES OF DNA CUTS
-
-- **BLUNT ENDS**: SOME RESTRICTION ENZYMES MAKE A STRAIGHT CUT, RESULTING IN DNA FRAGMENTS WITH BLUNT ENDS.
-  
-- **STICKY ENDS**: OTHER RESTRICTION ENZYMES MAKE STAGGERED CUTS, PRODUCING FRAGMENTS WITH OVERLAPPING ENDS THAT HAVE COMPLEMENTARY BASES. THESE OVERLAPPING ENDS ARE REFERRED TO AS "STICKY ENDS" BECAUSE THEY CAN EASILY BE JOINED BY LIGASE ENZYMES.
-
-BY UNDERSTANDING THESE PROCESSES AND TOOLS, SCIENTISTS CAN EFFECTIVELY MODIFY MICROORGANISMS FOR VARIOUS APPLICATIONS, INCLUDING THE PRODUCTION OF IMPORTANT PROTEINS LIKE INSULIN.
-
-# MICROORGANISMS AND GENETIC MODIFICATION
-
-## GENETIC MODIFICATION
-
-BIOLOGISTS HAVE DEVELOPED METHODS TO TRANSFER GENES FROM ONE CELL TO ANOTHER, PARTICULARLY INTO BACTERIA. THIS PROCESS INVOLVES CREATING RECOMBINANT DNA AND TRANSGENIC BACTERIA, WHICH ARE ESSENTIAL FOR VARIOUS APPLICATIONS, INCLUDING THE PRODUCTION OF HUMAN INSULIN.
-
-### KEY CONCEPTS
-
-- **PLASMIDS**: THESE ARE SMALL, CIRCULAR DNA MOLECULES FOUND IN BACTERIA. THEY CAN REPLICATE INDEPENDENTLY OF THE BACTERIAL CHROMOSOME AND ARE OFTEN USED AS VECTORS IN GENETIC ENGINEERING.
-
-- **VECTORS**: A VECTOR IS A MEANS OF TRANSFERRING GENETIC MATERIAL INTO A HOST CELL. IN THIS CONTEXT, PLASMIDS SERVE AS VECTORS FOR GENE TRANSFER.
-
-### STEPS IN PRODUCING A TRANSGENIC BACTERIUM
-
-1. **ISOLATION OF PLASMIDS**: PLASMIDS ARE EXTRACTED FROM A BACTERIUM.
-
-2. **CUTTING THE GENE**: THE GENE INTENDED FOR TRANSFER IS CUT FROM THE DONOR DNA USING A SPECIFIC RESTRICTION ENZYME. THIS ENZYME CREATES "STICKY ENDS" ON BOTH THE PLASMID AND THE DONOR DNA.
-
-3. **CREATING RECOMBINANT PLASMIDS**: THE OPENED PLASMIDS AND THE ISOLATED GENE ARE MIXED WITH DNA LIGASE ENZYME, WHICH FACILITATES THE JOINING OF THE DNA FRAGMENTS TO FORM RECOMBINANT PLASMIDS.
-
-4. **TRANSFORMATION**: BACTERIA ARE INCUBATED WITH THE RECOMBINANT PLASMIDS. SOME BACTERIA WILL TAKE UP THESE PLASMIDS, INCORPORATING THE NEW GENE INTO THEIR OWN DNA.
-
-5. **EXPRESSION OF THE GENE**: THE BACTERIA THAT SUCCESSFULLY TAKE UP THE PLASMID NOW CONTAIN THE GENE FROM THE DONOR CELL. THIS COULD BE A GENE THAT CONTROLS THE PRODUCTION OF HUMAN INSULIN.
-
-### ALTERNATIVE VECTORS
-
-ANOTHER METHOD OF INTRODUCING FOREIGN DNA INTO BACTERIAL CELLS INVOLVES THE USE OF **BACTERIOPHAGES** (OR "PHAGES"). A BACTERIOPHAGE IS A VIRUS THAT SPECIFICALLY ATTACKS BACTERIA. IT ATTACHES TO THE BACTERIAL CELL WALL AND INJECTS ITS OWN DNA INTO THE BACTERIAL CELL. THIS VIRAL DNA CAN THEN BECOME INTEGRATED INTO THE HOST'S DNA, LEADING TO THE PRODUCTION OF NEW VIRUS PARTICLES.
-
-### VISUAL REPRESENTATION
-
-REFER TO **FIGURE 21.4** FOR A VISUAL REPRESENTATION OF THE STAGES INVOLVED IN PRODUCING A TRANSGENIC BACTERIUM, AND **FIGURE 21.5** FOR AN ILLUSTRATION OF HOW A BACTERIOPHAGE OPERATES.
-
-# MICROORGANISMS AND GENETIC MODIFICATION
-
-## MAKING USE OF GENETICALLY MODIFIED BACTERIA
-
-GENETIC MODIFICATION INVOLVES INTRODUCING FOREIGN GENES INTO BACTERIAL DNA, OFTEN FACILITATED BY VECTORS LIKE VIRUSES OR PLASMIDS. EARLY METHODS RELIED ON VIRUSES FOR GENE TRANSFER, BUT MODERN TECHNIQUES PRIMARILY USE PLASMIDS.
-
-**FIGURE 21.5**: A BACTERIOPHAGE INFECTS A BACTERIAL CELL, INJECTING ITS DNA TO INTEGRATE FOREIGN GENES INTO THE HOST'S GENOME.
-
-### APPLICATIONS OF GENETICALLY MODIFIED BACTERIA
-
-GENETICALLY MODIFIED BACTERIA ARE CULTURED IN FERMENTERS TO PRODUCE LARGE QUANTITIES OF DESIRED PRODUCTS. TWO NOTABLE APPLICATIONS INCLUDE:
-
-1. **HUMAN INSULIN PRODUCTION**:
-   - INSULIN IS ESSENTIAL FOR MANAGING DIABETES. PREVIOUSLY SOURCED FROM ANIMALS, IT DIFFERED FROM HUMAN INSULIN, OFFERING LESS EFFECTIVE CONTROL. GENETIC ENGINEERING ENABLES THE PRODUCTION OF HUMAN INSULIN, PROVIDING A MORE RELIABLE AND EFFECTIVE SOLUTION.
-
-2. **ENZYME PRODUCTION FOR CLEANING AGENTS**:
-   - ENZYMES EFFECTIVELY BREAK DOWN BIOLOGICAL STAINS. GENETICALLY MODIFIED BACTERIA PRODUCE ENZYMES LIKE AMYLASES, PROTEASES, AND LIPASES THAT FUNCTION AT HIGH TEMPERATURES, ENHANCING STAIN REMOVAL EFFICIENCY IN LAUNDRY DETERGENTS.
-
-THESE INNOVATIONS HIGHLIGHT THE VALUE OF GENETICALLY MODIFIED BACTERIA IN PRODUCING ESSENTIAL PRODUCTS, FROM INSULIN TO CLEANING AGENTS, DEMONSTRATING THEIR SIGNIFICANCE IN MODERN BIOTECHNOLOGY.
-
-# MICROORGANISMS AND GENETIC MODIFICATION
-
-## GENETIC MODIFICATION
-
-### ENZYMES IN THE FOOD INDUSTRY
-ONE BACTERIAL ENZYME USED IN THE FOOD INDUSTRY IS GLUCOSE ISOMERASE. THIS ENZYME CATALYZES A REACTION THAT CONVERTS GLUCOSE INTO FRUCTOSE, A SUGAR THAT IS SWEETER THAN GLUCOSE. AS A RESULT, LESS FRUCTOSE IS NEEDED TO SWEETEN FOODS, OFFERING TWO SIGNIFICANT ADVANTAGES: IT SAVES MONEY AND RESULTS IN HEALTHIER FOODS WITH LOWER SUGAR CONTENT.
-
-### HUMAN GROWTH HORMONE
-THE PITUITARY GLAND OF SOME CHILDREN DOES NOT PRODUCE ENOUGH GROWTH HORMONE, LEADING TO SLOW GROWTH. BEFORE THE AVAILABILITY OF GENETICALLY MODIFIED BACTERIA, GROWTH HORMONE WAS SOURCED FROM HUMAN CORPSES, A PRACTICE THAT CARRIED HEALTH RISKS. CHILDREN TREATED WITH THIS METHOD SOMETIMES DEVELOPED CREUTZFELDT-JAKOB DISEASE.
-
-### BOVINE SOMATOTROPIN (BST)
-BOVINE SOMATOTROPIN (BST) IS A GROWTH HORMONE IN CATTLE THAT INCREASES MILK YIELD AND MUSCLE PRODUCTION IN BULLS. INJECTIONS OF BST CAN BOOST DAIRY COW MILK YIELD BY UP TO 10 KG PER DAY, DESPITE INCREASED FEED REQUIREMENTS, THE HIGHER INCOME FROM INCREASED MILK OUTPUT OFFSETS THESE COSTS.
-
-### HUMAN VACCINES
-BACTERIA HAVE BEEN GENETICALLY MODIFIED TO PRODUCE ANTIGENS FROM THE HEPATITIS B VIRUS FOR VACCINES. THESE ANTIGENS STIMULATE ANTIBODY PRODUCTION WITHOUT POSING A DISEASE RISK.
-
-### PRODUCING GENETICALLY MODIFIED PLANTS
-GENETIC MODIFICATION IN PLANTS INVOLVES TWO MAIN STAGES: INTRODUCING NEW GENES INTO PLANT CELLS AND PRODUCING WHOLE PLANTS FROM THESE CELLS. THE PROCESS WAS FACILITATED BY THE DISCOVERY OF AGROBACTERIUM, A SOIL BACTERIUM THAT NATURALLY INSERTS PLASMIDS INTO PLANT CELLS, SERVING AS AN EFFECTIVE VECTOR FOR GENE TRANSFER.
-
-## CONCLUSION
-SINCE THE DEVELOPMENT OF GENE TRANSFER TECHNIQUES, MANY UNICELLULAR ORGANISMS HAVE BEEN MODIFIED TO PRODUCE USEFUL PRODUCTS. ADVANCES IN TRANSFERRING GENES INTO PLANTS AND ANIMALS HAVE SIGNIFICANTLY CONTRIBUTED TO BIOTECHNOLOGY AND AGRICULTURE.
-
-# MICROORGANISMS AND GENETIC MODIFICATION
-
-## GENETIC MODIFICATION PROCESS
-
-GENETIC MODIFICATION INVOLVES ALTERING AN ORGANISM'S DNA BY INTRODUCING DNA FROM ANOTHER SPECIES. THIS PROCESS TYPICALLY INCLUDES SEVERAL KEY STEPS:
-
-1. **ISOLATING THE DESIRED GENE**: 
-   - DNA IS CUT USING RESTRICTION ENZYMES TO ISOLATE THE DESIRED GENE.
-   - A PLASMID, A SMALL CIRCULAR DNA MOLECULE, IS ALSO CUT OPEN WITH THE SAME RESTRICTION ENZYME.
-
-2. **JOINING THE GENE TO THE PLASMID**:
-   - THE DESIRED GENE IS THEN JOINED TO THE PLASMID USING LIGASE, AN ENZYME THAT FACILITATES THE JOINING OF DNA STRANDS.
-
-3. **TRANSFORMATION OF PLANT CELLS**:
-   - LEAF DISCS ARE OBTAINED FROM THE PLANT TO BE MODIFIED.
-   - THESE LEAF DISCS ARE FLOATED ON A LIQUID CONTAINING THE PLASMIDS; SOME CELLS TAKE UP THE PLASMID.
-
-4. **CULTIVATION**:
-   - THE LEAF DISCS ARE CULTIVATED ON A NUTRIENT MEDIUM THROUGH MICROPROPAGATION, LEADING TO THE GROWTH OF PLANTLETS THAT CAN DEVELOP INTO WHOLE PLANTS EXPRESSING THE FOREIGN GENE.
-
-## LIMITATIONS OF AGROBACTERIUM
-
-THE TECHNIQUE USING *AGROBACTERIUM TUMEFACIENS* IS NOT APPLICABLE TO ALL PLANTS, PARTICULARLY CEREALS. FOR THESE PLANTS, AN ALTERNATIVE METHOD CALLED THE GENE GUN WAS DEVELOPED.
-
-## THE GENE GUN TECHNIQUE
-
-THE GENE GUN IS A DEVICE THAT "FIRES" TINY PELLETS OF GOLD COATED WITH DNA CONTAINING THE DESIRED GENE DIRECTLY INTO PLANT TISSUE:
-
-- **PROCESS**:
-  - YOUNG, DELICATE TISSUE IS USED TO ENSURE GOOD DNA UPTAKE.
-  - MICROPROPAGATION TECHNIQUES USED WITH *AGROBACTERIUM* CAN THEN BE APPLIED TO THE GENETICALLY MODIFIED TISSUE.
-
-## APPLICATIONS OF GENETIC MODIFICATION
-
-THE GENE GUN HAS ENABLED GENETIC MODIFICATION OF VARIOUS PLANTS, INCLUDING:
-
-- CEREAL CROPS
-- TOBACCO
-- CARROTS
-- SOYBEANS
-- APPLES
-- OILSEED RAPE
-- COTTON
-
-THESE MODIFICATIONS HAVE LED TO BENEFITS SUCH AS EXTENDED SHELF LIFE IN FRUITS AND VEGETABLES AND IMPROVED RESISTANCE TO PESTS AND DISEASES.
-
-## CURRENT STATUS OF GENETICALLY MODIFIED PLANTS
-
-LARGE NUMBERS OF GENETICALLY MODIFIED PLANTS ARE AVAILABLE FOR GROWERS. THESE PLANTS OFFER ADVANTAGES LIKE LONGER SHELF LIFE AND ENHANCED PEST RESISTANCE, MAKING THEM VALUABLE IN AGRICULTURE.
-
-## ETHICAL CONSIDERATIONS
-
-THE DEBATE OVER GENETICALLY MODIFIED (GM) CROPS CONTINUES, WITH ONGOING RESEARCH NEEDED TO UNDERSTAND VARIOUS PERSPECTIVES ON THEIR RIGHTS AND WRONGS.
-
-# MICROORGANISMS AND GENETIC MODIFICATION
-
-## GENETIC MODIFICATION
-
-GENETIC MODIFICATION INVOLVES ALTERING THE DNA OF ORGANISMS TO ACHIEVE DESIRED TRAITS. THIS TECHNOLOGY HAS BEEN APPLIED TO BOTH PLANTS AND ANIMALS, LEADING TO VARIOUS ADVANCEMENTS IN AGRICULTURE AND MEDICINE.
-
-### GENETICALLY MODIFIED PLANTS
-
-ONE SIGNIFICANT APPLICATION OF GENETIC MODIFICATION IN PLANTS IS THE DEVELOPMENT OF CROPS THAT ARE RESISTANT TO HERBICIDES. THIS ALLOWS FARMERS TO APPLY HERBICIDES MORE EFFECTIVELY WITHOUT HARMING THE CROP. HOWEVER, THERE ARE CONCERNS THAT THIS MAY LEAD TO LESS CAREFUL USE OF HERBICIDES.
-
-ANOTHER EXAMPLE IS THE TRANSFER OF GENES FROM ARCTIC FISH TO CERTAIN PLANTS, ENABLING THEM TO WITHSTAND FROST.
-
-#### GOLDEN RICE
-
-A NOTABLE ACHIEVEMENT IN GENETIC MODIFICATION IS THE CREATION OF 'GOLDEN RICE' (FIGURE 21.8). THIS RICE HAS BEEN ENGINEERED TO CONTAIN THREE ADDITIONAL GENES—TWO FROM DAFFODILS AND ONE FROM A BACTERIUM. THESE GENES ENABLE THE RICE TO PRODUCE BETA-CAROTENE, THE PIGMENT THAT GIVES CARROTS THEIR COLOR. THE RICE'S YELLOW HUE IS WHY IT IS CALLED 'GOLDEN RICE.' BETA-CAROTENE IS CONVERTED INTO VITAMIN A WHEN CONSUMED, WHICH COULD HELP PREVENT BLINDNESS IN MILLIONS OF CHILDREN IN DEVELOPING COUNTRIES WHO LACK SUFFICIENT VITAMIN A IN THEIR DIETS.
-
-!FIGURE 21.8 GOLDEN RICE
-
-### EXTENSION WORK
-
-WHILE GOLDEN RICE PRESENTS A PROMISING SOLUTION, IT HAS FACED SEVERAL CHALLENGES. SOME INDIVIDUALS RAISE ETHICAL AND ENVIRONMENTAL CONCERNS REGARDING ITS CULTIVATION. CRITICS ARGUE THAT IT MAY BE BETTER TO PROMOTE NATURAL CROPS THAT ALREADY CONTAIN ADEQUATE BETA-CAROTENE.
-
-#### ADVANTAGES AND DISADVANTAGES OF GOLDEN RICE
-
-YOU COULD CONDUCT RESEARCH INTO THE ADVANTAGES AND DISADVANTAGES OF GOLDEN RICE TO BETTER UNDERSTAND ITS IMPLICATIONS.
-
-### KEY POINT
-
-IMAGINE IF YOU COULD RECEIVE A 'VACCINATION' EVERY TIME YOU ATE A BANANA! SCIENTISTS ARE EXPLORING THE POSSIBILITY OF TRANSFERRING GENES THAT PRODUCE ANTIGENS FOR CERTAIN DISEASES INTO BANANAS. IF SUCCESSFUL, CONSUMING THESE BANANAS COULD STIMULATE AN IMMUNE RESPONSE WITHOUT THE NEED FOR NEEDLES.
-
-### FUTURE PROSPECTS
-
-RESEARCH INTO GENETICALLY MODIFIED PLANTS AIMS TO PROVIDE CROPS WITH:
-
-- INCREASED RESISTANCE TO PESTS AND PATHOGENS
-- ENHANCED HEAT AND DROUGHT TOLERANCE
-- IMPROVED SALT TOLERANCE
-- A BETTER BALANCE OF PROTEINS, CARBOHYDRATES, LIPIDS, VITAMINS, AND MINERALS
-
-ADDITIONALLY, SOME GENETICALLY MODIFIED OILSEED RAPE PLANTS ARE BEING DEVELOPED FOR LARGE-SCALE PRODUCTION OF BIODEGRADABLE PLASTICS AND ANTI-COAGULANTS.
-
-ONE OF THE MOST AMBITIOUS GOALS IS TO MODIFY CROP PLANTS, SUCH AS CEREALS AND POTATOES, TO FORM NODULES OF NITROGEN-FIXING BACTERIA ON THEIR ROOTS. CURRENTLY, ONLY LEGUMES (LIKE PEAS AND BEANS) CAN DO THIS. IF SCIENTISTS CAN TRANSFER THESE GENES TO OTHER PLANTS, IT COULD ALLOW CROPS TO THRIVE IN INFERTILE SOILS WITHOUT THE NEED FOR CHEMICAL FERTILIZERS. THE BACTERIA WOULD CONVERT ATMOSPHERIC NITROGEN INTO A USABLE FORM FOR THE PLANTS, SIGNIFICANTLY REDUCING PRODUCTION COSTS.
-
-### PRODUCING GENETICALLY MODIFIED ANIMALS
-
-CREATING GENETICALLY MODIFIED ANIMALS PRESENTS CHALLENGES SIMILAR TO THOSE ENCOUNTERED WITH PLANTS. ANIMALS ARE MULTICELLULAR ORGANISMS, SO IT IS NOT ENOUGH TO SIMPLY TRANSFER A GENE TO A SINGLE CELL; THAT CELL MUST DEVELOP INTO A COMPLETE ORGANISM. THE PLASMID TECHNOLOGY USED IN PLANT MODIFICATION IS ALSO APPLICABLE TO ANIMALS, BUT THE PROCESS IS MORE COMPLEX.
-
-IN SUMMARY, GENETIC MODIFICATION HOLDS GREAT POTENTIAL FOR IMPROVING FOOD SECURITY AND HEALTH OUTCOMES, BUT IT ALSO RAISES IMPORTANT ETHICAL AND ENVIRONMENTAL QUESTIONS THAT MUST BE CAREFULLY CONSIDERED.
-
-# MICROORGANISMS AND GENETIC MODIFICATION
-
-## DID YOU KNOW?
-XENOTRANSPLANTATION INVOLVES THE TRANSFER OF ANIMAL ORGANS TO HUMANS. THIS PROCESS HAS POTENTIAL APPLICATIONS IN ADDRESSING ORGAN SHORTAGES.
-
-### TRANSGENIC PIGS
-TRANSGENIC PIGS HAVE BEEN ENGINEERED WITH GENES THAT PRODUCE HUMAN MARKER ANTIGENS ON THEIR CELL SURFACES. THIS MODIFICATION COULD REDUCE ORGAN REJECTION IN HUMAN RECIPIENTS, POTENTIALLY ALLEVIATING THE SHORTAGE OF DONOR ORGANS.
-
-### ETHICAL CONCERNS
-THE USE OF ANIMAL ORGANS FOR HUMAN TRANSPLANTATION RAISES SIGNIFICANT ETHICAL QUESTIONS REGARDING THE TREATMENT OF ANIMALS.
-
-## GENETIC MODIFICATION TECHNIQUES
-GENETICALLY MODIFIED PLANTS ARE TYPICALLY PRODUCED USING MICROPROPAGATION, THOUGH SIMILAR TECHNIQUES DO NOT APPLY TO ANIMALS. SCIENTISTS HAVE DEVELOPED ALTERNATIVE METHODS FOR CREATING GENETICALLY MODIFIED ANIMALS BY INJECTING DNA INTO FERTILIZED EGGS, WHICH THEN DEVELOP INTO EMBRYOS AND ADULTS.
-
-### BENEFITS OF GENETIC MODIFICATION
-RESEARCH IN THIS FIELD OFFERS POTENTIAL BENEFITS, INCLUDING THE PRODUCTION OF HUMAN PROTEINS SUCH AS ANTIBODIES AND AAT, INCREASED AGRICULTURAL YIELDS, DISEASE RESISTANCE IN ANIMALS, AND THE POSSIBILITY OF ORGAN TRANSPLANTATION FROM ANIMALS TO HUMANS.
-
-## FIGURE 21.9
-THE DIAGRAM ILLUSTRATES THE PROCESS OF PRODUCING GENETICALLY MODIFIED ANIMALS THROUGH DNA INJECTION INTO FERTILIZED EGGS, PLACEMENT IN SURROGATE MOTHERS, AND GENE TESTING IN YOUNG MICE. THIS RESEARCH CONTINUES TO EVOLVE, OFFERING PROMISING ADVANCEMENTS IN MEDICINE AND AGRICULTURE.
-
-# MICROORGANISMS AND GENETIC MODIFICATION
-
-## GENETIC MODIFICATION
-
-### LOOKING AHEAD
-
-THE POLYMERASE CHAIN REACTION (PCR) IS A LABORATORY TECHNIQUE USED TO AMPLIFY DNA. IT RAPIDLY PRODUCES LARGE QUANTITIES OF SPECIFIC DNA FROM A SMALL SAMPLE, REVOLUTIONIZING GENE TECHNOLOGY ACROSS VARIOUS FIELDS.
-
-EACH PCR CYCLE DOUBLES THE DNA, LEADING TO EXPONENTIAL GROWTH. FOR INSTANCE, AFTER 30 CYCLES, OVER A BILLION COPIES CAN BE GENERATED.
-
-#### HOW PCR WORKS
-
-PCR BEGINS WITH A SMALL DNA SAMPLE. THE PROCESS INVOLVES:
-
-1. HEATING DNA STRANDS APART.
-2. ADDING PRIMERS, SHORT SEQUENCES COMPLEMENTARY TO TARGET DNA ENDS.
-3. USING DNA POLYMERASE TO SYNTHESIZE NEW STRANDS, CREATING TWO COPIES PER CYCLE.
-
-THE PROGRESSION IS AS FOLLOWS:
-- AFTER 1ST CYCLE: 2 COPIES
-- AFTER 2ND CYCLE: 4 COPIES
-- AFTER 3RD CYCLE: 8 COPIES
-- AFTER 4TH CYCLE: 16 COPIES
-
-PCR IS NOW AUTOMATED, OFTEN COMPLETED IN 2-3 HOURS USING A MACHINE THAT PROCESSES SAMPLES WITH NECESSARY COMPONENTS. THIS TECHNIQUE IS FUNDAMENTAL TO ADVANCEMENTS IN GENETICS, FORENSICS, AND MEDICAL DIAGNOSTICS.
-
-## THE POLYMERASE CHAIN REACTION (PCR)
-
-PCR'S INVENTION HAS BEEN PIVOTAL IN MOLECULAR BIOLOGY, ENABLING SIGNIFICANT PROGRESS ACROSS VARIOUS APPLICATIONS. ITS ABILITY TO EXPONENTIALLY AMPLIFY DNA MAKES IT INDISPENSABLE IN MODERN SCIENCE.
-
-# MICROORGANISMS AND GENETIC MODIFICATION
+The production of recombinant DNA is the basis of genetic engineering. A section of DNA – a gene – is cut out of the DNA of one species and inserted into the DNA of another. This new DNA is called 'recombinant' DNA because the DNA from two different organisms has been 'recombined'. The organism that receives the gene from a different species is a transgenic organism.
+
+---
+ MICROORGANISMS AND GENETIC MODIFICATION                GENETIC MODIFICATION                                                         247
+
+ EXTENSION WORK                              Biologists now had a method of transferring a gene from any cell into a
+ There is a lot more to producing            bacterium: They could insert the gene into a plasmid and then transfer the
+ recombinant DNA and transgenic              plasmid into a bacterium: The plasmid is called a vector because it is the
+ bacteria than is shown here. You could      means of transferring the gene The main processes involved in producing a
+ carry out an some research to find out      transgenic bacterium are shown inFigure 21.4_
+ more about this topic:
+
+ bacterial chromosome
+                                    plasmids
+
+                                                            plasmids isolated
+
+  Plasmids are isolated from a bacterium_                                   The gene to be transferred is cut from the donor DNA using
+                                                                            the same restriction enzyme.
+                                                                             DNA to be transferred
+
+                                     C                    two strands of
+                                                          plasmid DNA
+The plasmids are opened                                   sticky ends
+      specific restriction
+with a                                                    on plasmid
+ enzyme_                                                            sticky ends on DNA                           donor cell
+                                                                    being transferred
+
+               The opened-up plasmids and the
+               isolated gene are mixed with DNA
+               ligase enzyme t0 create
+               recombinant plasmids
+
+    Bacteria are incubated with the                               'recombinant plasmid
+    recombinant plasmids                                                                  bacterium containing recombinant plasmid
+
+                                                           Some bacteriawill
+                                                           take up theplasmids
+
+                                                                                         The bacteria that have taken up the plasmid
+                                                                                          now contain the gene from the donor cell:
+                                                                                         This could be a genecontrolling the production
+                                                                                          of human insulin:
+   Figure 21.4 Stages in producing transgenic bacterium:
+                                             Another vector that has been used to introduce foreign DNA into bacterial
+                                             cells is the bacteriophage_       bacteriophage; or 'phage' , is a virus that
+                                             attacks a bacterium: It does this byattaching to the cell wall of the bacterium
+                                             and injecting its own DNA into the bacterial cell (Figure 21.5). This DNA
+                                             becomes incorporated into the DNA of the host cell, and eventually causes the
+                                             production of many virus particles_
+---
+248  MICROORGANISMS AND GENETIC MODIFICATION           GENETIC MODIFICATION
+
+                                             If aforeign gene can be inserted into the DNA of the virus; the virus will inject
+                                             it into the bacterium along with its own genes. Viruses were used as vectors in
+                                             the early days of genetic modification; but most gene transfer is now carried
+                                             outusing plasmids_
+
+                                                      bacteriophage       <            virus DNA containing foreign DNA
+
+                                                                                                     cell wall
+
+                                                   bacterial DNA in                             bacterium
+                                                   circular loop
+
+                                                                                                 DNA containing foreign
+                                                                                                 gene injected into
+                                                                                                 bacterium
+
+                                                                                                foreign gene taken
+                                                                                                 up by bacterial DNA
+
+                                               Figure 21.5 A bacteriophage attacking a bacterial cell:
+
+      MAKING USE OF GENETICALLY              Different bacteria have been genetically modified to manufacture a range
+      MODIFIED BACTERIA                      of products. Oncetheyhave been genetically modified, they are cultured in
+                                             fermenters to produce large amounts of the product (see Chapter 20). Some
+                                             examples are described below_
+
+       DID YOU KNOW?                         1. Human insulin People suffering from diabetes need a reliable source of
+       More insulin is required every           insulin. Before the use of genetic engineering to make human insulin, the
+                                                only insulin available was extracted from the pancreases of other animals
+      year because the number of                such as cattle or pigs. This is not quite the same as human insulin and
+       diabetics increases worldwide            does not give the same level of control of blood glucose levels
+       each year and diabetics now           2 Enzymes for washing powders Many stains on clothing are biological
+       have longer life spans                   Blood stains are largely proteins, grease marks are largely lipids. Enzymes
+                                                can digest these large, insoluble molecules into smaller; soluble ones_
+                                                These then dissolve in the water: Amylases digest starch, proteases
+                                                digest proteins and lipases digest lipids. Bacteria have been genetically
+                                                engineered to produce enzymes that work at higher temperatures, allowing
+                                                even faster and more effective action.
+---
+3. Enzymes in the food industry
+One bacterial enzyme used in the food industry is glucose isomerase. This enzyme catalyses a reaction which converts glucose into a similar sugar called fructose. Fructose is much sweeter than glucose and so less is needed to sweeten foods. This has two advantages – it saves money (since less is used) and it means that the food contains less sugar and is healthier.
+
+4. Human growth hormone
+The pituitary gland of some children does not produce enough of this hormone and they show a slow rate of growth. Injections of growth hormone from genetically modified bacteria restore normal growth patterns.
+
+5. Bovine somatotrophin (BST) (a growth hormone in cattle)
+This hormone increases the milk yield of cows and increases the muscle (meat) production of bulls. Giving injections of BST to dairy cattle can increase the milk yield by up to 10kg per day. To do this they need more food, but this increased cost is more than offset by the increased income from the increased milk yield (Table 21.1).
+
+6. Human vaccines
+Bacteria have been genetically modified to produce the antigens of the hepatitis B virus. This is used in the vaccine against hepatitis B. The body makes antibodies against the antigens but there is no risk of contracting the actual disease from the vaccination.
+
+Table 21.1 Effects of BST on milk yield.
+
+| | Feed / kg per day | Milk output / kg per day | Milk to feed ratio |
+|------------|------------------|--------------------------|-------------------|
+| without BST | 34.1 | 27.9 | 0.82 |
+| with BST | 37.8 | 37.3 | 0.99 |
+
+Since the basic techniques of transferring genes were developed, many unicellular organisms have been genetically modified to produce useful products. Techniques for transferring genes into plants and animals have also been developed.
+
+## PRODUCING GENETICALLY MODIFIED PLANTS
+
+The gene technology described so far can transfer DNA from one cell to another cell. In the case of bacteria, this is fine – a bacterium only has one cell. But plants have billions of cells and to genetically modify a plant, each cell must receive the new gene. So, any procedure for genetically modifying plants has two main stages:
+
+- introducing the new gene or genes into plant cells
+- producing whole plants from just a few cells.
+
+Biologists initially had problems in inserting genes into plant cells. They then discovered a soil bacterium called Agrobacterium, which regularly inserts plasmids into plant cells. Now that a vector had been found, the rest became possible. Figure 21.6 outlines one procedure that uses Agrobacterium as a vector.
+---
+250   MICROORGANISMS AND GENETIC MODIFICATION            GENETIC MODIFICATION
+
+                                               DNA from another species
+
+                                       DNA cut with                                             plasmid isolated
+                                       restriction                                      plasmid cut open
+                                      enzyme t0 isolate                                                            Agrobacterium
+                                       desired gene                                     with restriction            tumefaciens
+                                                                                             enzyme
+                                                  cutplasmid joined to
+                                               desired gene using ligase
+
+                                                 leaf discs                           leaf discs floated on
+                                               obtained from                          liquid containing the
+                                          plant to be                                 plasmids; some will
+                                                  modified                             take up the plasmid.
+
+                                                                                      leaf discs cultivated
+                                                                                       on a nutrient medium
+                                                                                      (micropropagation)
+
+                                                                                      plantlets grown into
+                                                                                        whole plants whose
+                                                                                        cells now contain
+                                                                                         the foreign gene
+
+                                                 Figure 21.6 Genetically modifying plants using Agrobacterium:
+                                               This technique cannot be used on all plants. Agrobacterium will not infect
+                                               cereals and so another technique was needed for these_ The 'gene gun' was
+                                               invented: This is, quite literally, a gun that fires a golden bullet (Figure 21.7)
+                                               Tinypellets of
+                                                             goldare coated with DNA that contains the desired gene.
+                                               These are then 'fired' directly into plant tissue. Research has shown
+                                               that if young; delicate tissue is used, there is a good uptake of the DNA
+                                               The genetically modified tissue can then be grown into new plants using the
+                                               same micropropagation techniques as those used in the Agrobacterium
+                                               procedure. The genegunhas made it possible to genetically modify many
+                                               cereal plants as well as tobacco, carrot; soybean;, apple, oilseed rape, cotton
+        Figure 21.7 A gene gun                 and many others_ There is, however; much debate about the rights and wrongs
+                                               of GM crops. You may like to carry out some further research on this topic_
+
+      MAKING USE OF GENETICALLY                Large numbers of genetically modified plants are already available to plant
+      MODIFIED PLANTS                          growers and farmers_
+                                               Some fruit and vegetables have been engineered to have extended 'shelf
+                                               lives'  theylast longer before they start to go bad. Other crop plants have
+---
+MARKDOWN_EXTRACTION_FAILED
+---
+252  MICROORGANISMS AND GENETIC MODIFICATION          GENETIC MODIFICATION
+
+       DID YOU KNOW?                         genetically modified plants depends on the modified cells being grown into
+       'Xenotransplantation' means           whole plants using micropropagation_ No such micropropagation techniques
+      transplanting organs from other        exist for animals:
+                                             Scientists researching the production of genetically modified animals had to
+      animals into humans. Transgenic        find other techniques_ The most successful involves injecting DNA directly into a
+                                             newly fertilised egg cell. This develops into an embryo, then an adult
+      pigs have been produced with                                                                           (Figure 21.9).
+       genes that code for the main          Research of this kind can produce beneficial results similar to those achieved
+       human 'marker antigens:               by genetically modifying plants, such as:
+       The cells of the pig's organs            manufacture of human proteins, such as antibodies, blood clotting factors
+      therefore have these human                or alpha-1-antitrypsin (AAT) see below
+      antigens on their surface and            increased production of a particular product; e.g. higher milk yield in COWS ,
+      the organs would be lesslikely           greater muscle mass in animals used for meat
+      to be rejected by a recipient: If         increased resistance to disease
+      this became possible on a large          production of organs for transplantation (xenotransplantation):
+      scale, it could help to overcome
+      the shortage of donor organs for                                                     DNA   the required gene
+      transplantation. However; many                                                             is cut out using
+       people have ethical concerns                                                              restriction enzyme
+      about using animal organs for
+      transplanting into humans.
+
+                                            DNA being injected                      fertilised eggs from donor mouse
+
+                                                            eggnucleus                     eggs put into surrogate
+                                                                                               mother mouse
+                                                        nucleus from sperm
+
+                                                                   pipette holding egg in place
+
+                                                               baby mice are tested for the presence of the gene
+                                                Figure 21.9 The procedures used in producing genetically modified animals.
+---
+# LOOKING AHEAD - THE POLYMERASE CHAIN REACTION
+
+The polymerase chain reaction (PCR) is a laboratory process that amplifies DNA. This means that it rapidly produces a large number of copies of a piece of DNA, starting from as little as one molecule. The invention of PCR revolutionised gene technology and is used in virtually every application of the science.
+
+Each cycle of PCR doubles the amount of DNA, producing an exponential increase in the numbers of copies (Figure 21.10). Thirty cycles produces over a billion copies of the original DNA.
+
+| PCR Cycle | Number of DNA Copies |
+|-----------|----------------------|
+| Start     | 1 Copy               |
+| 1st cycle | 2 Copies             |
+| 2nd cycle | 4 Copies             |
+| 3rd cycle | 8 Copies             |
+| 4th cycle | 16 Copies            |
+
+Figure 21.10 PCR produces an exponential increase in the number of copies of a piece of DNA.
+
+The procedure uses short lengths of single-stranded DNA called primers, which are precisely complementary to one end of each strand of the DNA you wish to amplify. The DNA is heated to separate the strands and the primers added to the ends of each strand. An enzyme called DNA polymerase builds up two new complimentary strands by adding nucleotides - one at a time - along each strand.
+
+Nowadays, PCR is an automated process and can be performed in as little as 2-3 hours in a PCR machine. You just place small tubes containing the DNA sample, primers, free nucleotides, DNA polymerase and a buffer solution in the machine, switch on, and wait for the results.
+---
+254 MICROORGANISMS AND GENETIC MODIFICATION        GENETIC MODIFICATION
 
 ## CHAPTER QUESTIONS
 
-### GENETIC MODIFICATION
-
-GENETIC MODIFICATION IS A POWERFUL TOOL IN BIOTECHNOLOGY THAT ALLOWS SCIENTISTS TO ALTER THE GENETIC MAKEUP OF ORGANISMS. THIS PROCESS IS PARTICULARLY EFFECTIVE IN MICROORGANISMS, SUCH AS BACTERIA.
-
-BACTERIA ARE RELATIVELY EASY TO GENETICALLY MODIFY DUE TO SEVERAL FACTORS. THEY CAN TAKE UP PLASMIDS, WHICH ARE SMALL CIRCULAR DNA MOLECULES THAT CAN CARRY GENES USEFUL FOR THE ORGANISM. ADDITIONALLY, THEIR SIMPLE STRUCTURE, CONSISTING OF A SINGLE CHROMOSOME, FACILITATES GENETIC MANIPULATION. THESE CHARACTERISTICS MAKE BACTERIA AN IDEAL MODEL FOR STUDYING AND APPLYING GENETIC CHANGES.
-
-### PRODUCTION OF HUMAN INSULIN FROM GENETICALLY MODIFIED BACTERIA
-
-THE PRODUCTION OF HUMAN INSULIN FROM GENETICALLY MODIFIED BACTERIA INVOLVES SEVERAL KEY STEPS:
-
-1. DNA ENCODING INSULIN IS INSERTED INTO PLASMIDS.
-2. BACTERIA ARE CLONED TO ENSURE UNIFORMITY.
-3. PLASMIDS, NOW CONTAINING THE INSULIN GENE, ARE INTRODUCED INTO THE BACTERIA.
-4. USING RESTRICTION ENZYMES, THE DNA FOR INSULIN IS EXTRACTED FROM THE PLASMIDS.
-
-THE CORRECT SEQUENCE OF THESE STEPS IS AS FOLLOWS: FIRST, THE PLASMID DNA IS CUT WITH A RESTRICTION ENZYME (STEP 4), THEN THE PLASMID IS INSERTED INTO THE BACTERIA (STEP 3), FOLLOWED BY CLONING THE BACTERIA (STEP 2), AND FINALLY INSERTING THE INSULIN GENE INTO THE PLASMID (STEP 1). THIS SEQUENCE ENSURES THAT THE INSULIN GENE IS CORRECTLY EXPRESSED IN THE BACTERIA.
-
-### GENETICALLY MODIFIED PLANTS
-
-SEVERAL TYPES OF GENETICALLY MODIFIED PLANTS HAVE NOT YET BEEN PRODUCED:
-
-- RICE RICH IN BETA-CAROTENE TO ENHANCE VITAMIN A PRODUCTION.
-- PLANTS RESISTANT TO WEEDKILLER.
-- PLANTS CONTAINING AN ANTI-FREEZE PROTEIN TO SURVIVE IN COLD ENVIRONMENTS.
-- CEREALS WITH NITROGEN-FIXING BACTERIA IN ROOT NODULES.
-
-THE ONLY PLANT THAT HAS NOT BEEN GENETICALLY MODIFIED IS CEREALS WITH NITROGEN-FIXING BACTERIA IN THEIR ROOT SYSTEMS. THIS MODIFICATION WOULD REQUIRE SIGNIFICANT ADVANCEMENTS IN GENETIC ENGINEERING TECHNIQUES.
-
-### ENZYMES IN GENETIC MODIFICATION
-
-IN GENETIC MODIFICATION, THE ENZYME USED TO JOIN PIECES OF DNA IS LIGASE. LIGASE CATALYZES THE FORMATION OF PHOSPHODIESTER BONDS BETWEEN DNA FRAGMENTS, ALLOWING THEM TO BE JOINED TOGETHER. OTHER ENZYMES, SUCH AS RESTRICTION ENZYMES, ARE USED TO CUT DNA AT SPECIFIC SITES, BUT THEY DO NOT JOIN DNA FRAGMENTS.
-
-### REFERENCES
-
-FOR MORE QUESTIONS ON GENE TECHNOLOGY, REFER TO UNIT 6 ON PAGE 256.
-
-# MICROORGANISMS AND GENETIC MODIFICATION
-
-## GENETIC MODIFICATION
-
-GENETIC MODIFICATION INVOLVES ALTERING AN ORGANISM'S GENETIC MATERIAL TO ACHIEVE SPECIFIC TRAITS. ONE NOTABLE APPLICATION IS THE PRODUCTION OF HUMAN INSULIN USING BACTERIA.
-
-### THE PROCESS OF GENETIC MODIFICATION
-
-THE PROCESS OF TRANSFERRING THE HUMAN INSULIN GENE INTO A BACTERIUM INVOLVES SEVERAL KEY STEPS:
-
-1. **EXTRACTING THE GENE**: THE HUMAN INSULIN GENE IS EXTRACTED FROM CELLS THAT NATURALLY PRODUCE INSULIN.
-2. **PLASMID PREPARATION**: A PLASMID, A SMALL CIRCULAR DNA MOLECULE FROM BACTERIA, IS CUT USING SPECIFIC ENZYMES AND THEN INSERTED WITH THE HUMAN INSULIN GENE.
-3. **REINTRODUCTION INTO BACTERIA**: THE MODIFIED PLASMID IS REINTRODUCED INTO THE BACTERIUM, ENABLING IT TO PRODUCE HUMAN INSULIN.
-
-### QUESTIONS FOR ANALYSIS
-
-- **ENZYMES USED**: THE ENZYMES USED AT STAGES 1 AND 2 ARE RESTRICTION ENZYMES.
-- **ROLE OF PLASMID**: THE PLASMID ACTS AS A VECTOR TO CARRY THE HUMAN INSULIN GENE INTO THE BACTERIUM.
-- **INSULIN PRODUCTION**: THE BACTERIA, NOW CAPABLE OF PRODUCING HUMAN INSULIN, CAN BE CULTURED IN LARGE QUANTITIES TO GENERATE SIGNIFICANT INSULIN.
-
-### REASONING SKILLS
-
-UNDERSTANDING WHY THIS METHOD IS PREFERRED OVER EXTRACTING INSULIN FROM ANIMALS INVOLVES SEVERAL FACTORS:
-
-- **PREVENTION OF ALLERGIC REACTIONS**: INSULIN FROM TRANSGENIC BACTERIA AVOIDS POTENTIAL ALLERGIES ASSOCIATED WITH ANIMAL-DERIVED INSULIN.
-- **COST-EFFECTIVENESS**: BACTERIAL PRODUCTION IS MORE ECONOMICAL THAN TRADITIONAL METHODS, MAKING INSULIN MORE ACCESSIBLE.
-
-### RESEARCH TASK
-
-INTRAPERSONAL RESEARCH SHOULD EXPLORE THE USE OF TRANSGENIC ANIMALS FOR ORGAN TRANSPLANTATION. CONSIDER ARGUMENTS FOR AND AGAINST THEIR USE, INCLUDING ETHICAL CONCERNS.
-
-### CRITICAL THINKING
-
-GENETIC MODIFICATION IN PLANTS AND ANIMALS IS MORE COMPLEX THAN IN BACTERIA:
-
-- **INTRODUCING GENES INTO PLANTS**: TWO COMMON METHODS ARE USING AGROBACTERIUM TUMEFACIENS OR PARTICLE BOMBARDMENT (GENE GUN).
-- **PRODUCING ORGANISMS FROM CELLS**: GENETICALLY MODIFIED PLANT CELLS CAN BE GROWN INTO WHOLE ORGANISMS.
-- **MODIFIED ANIMAL CELL**: TYPICALLY, SOMATIC CELLS OF MAMMALS ARE USED FOR MODIFICATION.
-
-### ESSAY ASSIGNMENT
-
-AN ESSAY ON GENETIC ENGINEERING SHOULD ADDRESS:
-
-- BENEFITS IN ANIMALS AND PLANTS, SUCH AS DISEASE RESISTANCE AND IMPROVED NUTRITIONAL CONTENT.
-- RISKS, INCLUDING ECOLOGICAL IMPACTS AND ETHICAL CONCERNS REGARDING HUMAN CLONING.
-
-BY EXPLORING THESE CONCEPTS, STUDENTS GAIN INSIGHT INTO GENETIC MODIFICATION'S SIGNIFICANCE IN SCIENCE, HEALTH, AGRICULTURE, AND ETHICS.
-
-# MICROORGANISMS AND GENETIC MODIFICATION
-
-## UNIT QUESTIONS
+More questions on gene technology can be found at the end of Unit 6 on page 256.
 
 ### SKILLS: CRITICAL THINKING
 
-1. **GENETIC MODIFICATION IN SHEEP**
+1. Why is it relatively easy to genetically modify bacteria?
+   A they reproduce slowly and accurately
+   B they are able to take up plasmids
+   C they only contain a single chromosome
+   D they make restriction enzymes
 
-   - SOME EXPERIMENTAL SHEEP WERE GENETICALLY MODIFIED USING A HUMAN GENE THAT CODES FOR A PROTEIN INVOLVED IN BLOOD CLOTTING, CALLED FACTOR IX.
-   - THE PROCESS INVOLVED TRANSFERRING THE NUCLEUS OF A BODY CELL INTO AN ENUCLEATED SHEEP OVUM.
-   - THE OVUM WAS CULTURED IN A DISH AND THEN IMPLANTED IN THE UTERUS OF A SURROGATE SHEEP TO COMPLETE ITS DEVELOPMENT.
-   - TWO LAMBS PRODUCED BY THIS METHOD GREW TO MATURITY AND PRODUCED MILK FROM WHICH FACTOR IX COULD BE EXTRACTED.
+2. The statements below show some stages in the production of human insulin from genetically modified bacteria.
+   1. DNA for insulin inserted into plasmids
+   2. bacteria cloned
+   3. plasmids inserted into bacteria
+   4. DNA for insulin cut out using restriction enzyme
+   
+   Which of the following shows the correct sequence of steps in the process?
+   A 2 → 1 → 4 → 3
+   B 4 → 2 → 3 → 1
+   C 4 → 1 → 3 → 2
+   D 2 → 3 → 4 → 1
 
-   **QUESTIONS:**
-   - NAME AN ENZYME THAT CAN BE USED TO CUT DNA. (1 MARK)
-   - WHAT IS AN ENUCLEATED OVUM? (2 MARKS)
-   - THE SHEEP PRODUCED BY THIS METHOD ARE CALLED TRANSGENIC. WHAT IS MEANT BY THIS TERM?
-   - THE TRANSGENIC SHEEP WERE REPRODUCED BY CLONING. WHAT ARE THE ADVANTAGES OF PRODUCING THE SHEEP IN THIS WAY? (3 MARKS)
-   - FACTOR IX CAN BE USED TO TREAT PEOPLE WITH A BLOOD CLOTTING DISORDER CALLED HAEMOPHILIA. WHY IS IT IMPORTANT TO HAVE BLOOD THAT CLOTS?
-   - BLOOD CONTAINS PLASMA, WHITE BLOOD CELLS, RED BLOOD CELLS, AND PLATELETS. WHICH TWO COMPONENTS OF THE BLOOD ARE INVOLVED WITH BLOOD CLOTTING? (2 MARKS)
+3. Which of the following genetically modified plants have not been produced yet?
+   A rice that is rich in beta-carotene to make vitamin A
+   B plants resistant to weedkiller
+   C plants containing an anti-freeze
+   D cereals with nitrogen-fixing bacteria in root nodules
 
-   **TOTAL: 11 MARKS**
-
-### SKILLS: REASONING
-
-2. **CONCERNS ABOUT GENETICALLY MODIFIED PLANTS**
-
-   - SOME GENES ARE TRANSFERRED FROM ONE PLANT SPECIES TO ANOTHER, KNOWN AS 'JUMPING GENES'. ENVIRONMENTALISTS ARE CONCERNED THAT GENETICALLY MODIFIED PLANTS MAY TRANSFER SOME OF THEIR GENES TO WILD SPECIES.
-
-   **EXPLAIN THEIR CONCERNS ABOUT GENETICALLY MODIFIED PLANTS THAT:**
-   - A) HAVE GENES THAT MAKE THEM RESISTANT TO HERBICIDES (WEEDKILLERS). (2 MARKS)
-   - B) HAVE GENES THAT MAKE THEM RESISTANT TO PESTS. (2 MARKS)
-   - C) HAVE GENES THAT INCREASE THE YIELD OF THE CROP THEY CAN PRODUCE. (2 MARKS)
-
-   **TOTAL: 6 MARKS**
-
+4. Which of the following enzymes is used to join together pieces of DNA?
+   A ligase
+   B DNA polymerase
+   C protease
+   D restriction enzyme
 ---
+# MICROORGANISMS AND GENETIC MODIFICATION | GENETIC MODIFICATION
 
-THIS RESTRUCTURED CONTENT PRESENTS THE INFORMATION CLEARLY, ENSURING EACH SECTION IS ORGANIZED WITH FACTUAL CONTENT AND MAINTAINS A COHERENT FLOW SUITABLE FOR VECTOR STORAGE AND RETRIEVAL.
+## SKILLS ANALYSIS
 
-# MICROORGANISMS AND GENETIC MODIFICATION
+5. The diagram shows the main stages in transferring the human insulin gene to a bacterium.
 
-## UNIT QUESTIONS
+[Diagram showing:
+- human cell which secretes insulin
+- DNA in nucleus
+- plasmid
+- bacterium
+- Stage 1: plasmid cut
+- human insulin gene (DNA)
+- Stage 2: bacterial plasmid containing human insulin gene
+- plasmid reintroduced into bacterium]
 
-### INTRODUCTION
-MICROORGANISMS PLAY A CRUCIAL ROLE IN GENETIC MODIFICATION, PARTICULARLY IN INSULIN PRODUCTION. THEY ARE CULTIVATED USING FERMENTERS DESIGNED FOR EFFICIENT GROWTH.
+a. Name the enzymes used at stages 1 and 2.
 
-### THE FERMENTER
-A TYPICAL FERMENTER USED FOR GROWING MICROORGANISMS INCLUDES SEVERAL COMPONENTS:
+## SKILLS CRITICAL THINKING
 
-- **STIRRING MOTOR**: ENSURES EVEN MIXING OF THE CULTURE.
-- **COOLING JACKET**: MAINTAINS A CONSTANT TEMPERATURE.
-- **AIR SUPPLY**: PROVIDES OXYGEN NECESSARY FOR AEROBIC RESPIRATION.
-- **PRODUCT OUT**: WHERE THE INSULIN IS COLLECTED.
-- **COOLING WATER IN/OUT**: REGULATES TEMPERATURE.
+b. What is the role of the plasmid in this procedure?
 
-### QUESTIONS TO CONSIDER
-1. **WHY IS AIR PUMPED THROUGH THE FERMENTER?**  
-   AIR PROVIDES OXYGEN ESSENTIAL FOR MICROORGANISM GROWTH AND METABOLISM.
+c. How would the insulin-producing bacteria be used to produce significant amounts of insulin?
 
-2. **WHY IS IT NECESSARY TO KEEP THE TEMPERATURE IN THE FERMENTER CONSTANT?**  
-   CONSTANT TEMPERATURE ENSURES OPTIMAL ENZYME ACTIVITY AND PREVENTS MICROORGANISM DEATH.
+## SKILLS REASONING
 
-3. **SUGGEST ONE OTHER CONDITION THAT MUST BE KEPT CONSTANT INSIDE THE FERMENTER:**  
-   THE PH LEVEL IS CRUCIAL FOR MICROORGANISM HEALTH.
+d. Why is the insulin produced this way preferred to insulin extracted from other animals?
 
-4. **WHY IS STERILISING THE FERMENTER BY STEAM BETTER THAN USING DISINFECTANTS?**  
-   STEAM EFFECTIVELY KILLS ALL MICROORGANISMS WITHOUT HARMFUL RESIDUES.
+## SKILLS INTRAPERSONAL
 
-### ADVANTAGES OF USING MICROORGANISMS
-USING MICROORGANISMS FOR INSULIN PRODUCTION OFFERS SEVERAL ADVANTAGES:
-- COST-EFFECTIVENESS THROUGH LARGE-SCALE, LOW-COST CULTIVATION.
-- ETHICAL CONSIDERATIONS BY AVOIDING ANIMAL SOURCING ISSUES.
+6. Carry out some research to find out more about the use of transgenic animals for organ transplantation. What are the arguments for and against its use? What are the ethical objections?
 
-### KEY TERMS
-- **PLASMID**: A SMALL, CIRCULAR DNA SEGMENT IN BACTERIA THAT CAN REPLICATE INDEPENDENTLY AND IS USED IN GENETIC ENGINEERING.
-- **BACTERIOPHAGE**: A VIRUS THAT INFECTS BACTERIA, USED TO TRANSFER GENETIC MATERIAL IN GENETIC ENGINEERING.
+## SKILLS CRITICAL THINKING
 
-### IMPORTANCE OF ENZYMES
-RESTRICTION ENZYMES CUT DNA AT SPECIFIC SEQUENCES, ALLOWING GENE REMOVAL OR INSERTION. LIGASE ENZYMES JOIN DNA FRAGMENTS, FACILITATING RECOMBINANT DNA CREATION.
+7. Producing genetically modified plants and animals is more complex than producing genetically modified bacteria.
+
+a. Describe two ways in which genes can be introduced into plant cells.
+
+b. How are these genetically modified cells used to produce whole organisms?
+
+c. What sort of animal cell is genetically modified and then used to produce the whole organism?
+
+## SKILLS INTRAPERSONAL
+
+8. Write an essay about the importance of genetic engineering. In your essay you should make reference to:
+
+a. important potential benefits resulting from genetic engineering in animals and plants
+
+b. concerns about the risks resulting from genetic engineering in animals and plants.

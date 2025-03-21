@@ -1,337 +1,324 @@
-# VARIATION AND SELECTION: CELL DIVISION
+# CELL DIVISION
+
+Growth and reproduction are two characteristics of living things. Both involve cell division, which is the subject of this chapter.
 
 ## LEARNING OBJECTIVES
-BY THE END OF THIS CHAPTER, YOU SHOULD:
-- UNDERSTAND HOW DIPLOID CELL DIVISION BY MITOSIS PRODUCES TWO IDENTICAL CELLS WITH IDENTICAL CHROMOSOME SETS.
-- RECOGNIZE THE ROLE OF RANDOM FERTILIZATION IN GENERATING GENETIC VARIATION IN OFFSPRING.
-- DIFFERENTIATE BETWEEN GENETIC, ENVIRONMENTAL, AND COMBINED SOURCES OF VARIATION WITHIN A SPECIES.
-- EXPLAIN HOW MEIOSIS DIVIDES A PARENT CELL INTO FOUR HAPLOID GAMETES, EACH WITH HALF THE NUMBER OF CHROMOSOMES.
 
-## INTRODUCTION TO CELL DIVISION
-CELL DIVISION IS ESSENTIAL FOR GROWTH AND REPRODUCTION IN LIVING ORGANISMS. IT INVOLVES TWO PRIMARY TYPES: MITOSIS AND MEIOSIS.
+- Understand how division of a diploid cell by mitosis produces two cells that contain identical sets of chromosomes
+- Understand that mitosis occurs during growth, repair, cloning and asexual reproduction
+- Understand how division of a cell by meiosis produces four cells, each with half the number of chromosomes, and that this results in the formation of genetically different haploid gametes
+- Understand how random fertilisation produces genetic variation of offspring
+- Understand that variation within a species can be genetic, environmental or a combination of both
 
-### KEY TYPES OF CELL DIVISION
+In most parts of the body, cells need to divide so that organisms can grow and replace worn out or damaged cells. The cells that are produced in this type of cell division should be exactly the same as the cells they are replacing. This is the most common form of cell division.
 
-#### MITOSIS
-MITOSIS PRODUCES TWO IDENTICAL DAUGHTER CELLS FROM A PARENT CELL. EACH DAUGHTER CELL INHERITS THE SAME SET OF CHROMOSOMES AS THE PARENT, ENSURING GROWTH AND REPAIR WITHOUT GENETIC VARIATION.
+Only in the sex organs is cell division different. Here, some cells divide to produce gametes (sex cells), which contain only half the original number of chromosomes. This is so that when male and female gametes fuse together (fertilisation) the resulting cell (called a zygote) will contain the full set of chromosomes and can then divide and grow into a new individual.
 
-#### MEIOSIS
-MEIOSIS GENERATES FOUR HAPLOID GAMETES FROM A PARENT CELL, EACH CONTAINING HALF THE NUMBER OF CHROMOSOMES. THIS PROCESS IS CRUCIAL FOR SEXUAL REPRODUCTION, ENABLING GENETIC DIVERSITY THROUGH RANDOM FERTILIZATION.
+Human body cells are diploid – they have 46 chromosomes in 23 homologous pairs. The gametes, with 23 chromosomes (one copy of each homologous chromosome), are haploid cells.
 
-### CHROMOSOME STRUCTURE
-HUMAN DIPLOID CELLS HAVE 46 CHROMOSOMES (23 HOMOLOGOUS PAIRS). HAPLOID GAMETES CONTAIN 23 CHROMOSOMES, ONE FROM EACH PAIR.
+There are two kind of cell division: mitosis and meiosis. When cells divide by mitosis, two cells are formed. These have the same number and type of chromosomes as the original cell. Mitosis forms all the cells in our bodies except the gametes.
 
-UNDERSTANDING MITOSIS AND MEIOSIS IS FUNDAMENTAL TO GRASPING CELLULAR GROWTH, REPRODUCTION, AND GENETIC VARIATION.
+> **KEY POINT**
+> 
+> Meiosis is sometimes called a reduction division. This is because it produces cells with only half the number of chromosomes of the original cell.
 
-# VARIATION AND SELECTION: CELL DIVISION
+When cells divide by meiosis, four cells are formed. These have only half the number of chromosomes of the original cell. Meiosis forms gametes.
 
-CELL DIVISION IS ESSENTIAL FOR ENSURING THAT EACH DAUGHTER CELL INHERITS ONE COPY OF EVERY CHROMOSOME. IF THIS PROCESS FAILS, THE DAUGHTER CELLS MAY LACK NECESSARY GENES.
+## MITOSIS
 
-## STAGES OF MITOSIS
+When a 'parent' cell divides it produces 'daughter' cells. Mitosis produces two daughter cells that are genetically identical to the parent cell – both daughter cells have the same number and type of chromosomes as the parent cell.
 
-MITOSIS CONSISTS OF SEVERAL DISTINCT PHASES, AS ILLUSTRATED IN **FIGURE 17.1**. BELOW IS AN OVERVIEW OF EACH PHASE:
+To achieve this, the dividing cell must do two things.
 
-### PROPHASE
-BEFORE MITOSIS BEGINS, DNA REPLICATES, FORMING TWO IDENTICAL COPIES CALLED CHROMATIDS. DURING PROPHASE, THESE CHROMATIDS BECOME VISIBLE AND CONNECT AT THE CENTROMERE. THE NUCLEAR MEMBRANE ALSO BEGINS TO DISASSEMBLE.
-
-### METAPHASE
-DURING METAPHASE, A STRUCTURE KNOWN AS THE SPINDLE FORMS. CHROMOSOMES ALIGN ALONG THE EQUATOR OF THIS SPINDLE, EACH ATTACHED BY THEIR CENTROMERES.
-
-### ANAPHASE
-IN ANAPHASE, SPINDLE FIBERS CONTRACT, PULLING CHROMATIDS TOWARD OPPOSITE ENDS (POLES) OF THE CELL. THIS SEPARATES THE CHROMATIDS INTO INDIVIDUAL CHROMOSOMES FOR THE TWO DAUGHTER CELLS.
-
-### TELOPHASE
-TELOPHASE CONCLUDES MITOSIS, FORMING TWO NEW NUCLEI AT THE POLES OF THE CELL. THE CYTOPLASM DIVIDES, RESULTING IN TWO DAUGHTER CELLS, EACH CONTAINING A COMPLETE SET OF CHROMOSOMES FROM THE PARENT CELL.
-
-!FIGURE 17.1 ILLUSTRATES THE STAGES OF MITOSIS. FOR SIMPLICITY, THE DEPICTED CELL CONTAINS TWO HOMOLOGOUS CHROMOSOME PAIRS (ONE LONG AND ONE SHORT). THE NAMES OF THESE STAGES ARE NOT REQUIRED FOR UNDERSTANDING THIS PROCESS.
-
-## OBSERVING MITOSIS
-
-**FIGURE 17.2** SHOWS A MICROGRAPH OF ROOT TIP CELLS FROM AN ONION. THESE CELLS UNDERGO MITOSIS, ENABLING ROOT GROWTH THROUGH DIVISION.
-
-CAN YOU IDENTIFY ANY STAGES OF MITOSIS IN **FIGURE 17.1**? UNDERSTANDING THESE PHASES IS CRUCIAL FOR GRASPING HOW ORGANISMS GROW AND DEVELOP VIA CELL DIVISION.
-
+- It must copy each chromosome before it divides. This involves the DNA replicating and more proteins being added to the structure. Each daughter cell will then be able to receive a copy of each chromosome (and each molecule of DNA) when the cell divides.
+---
 # VARIATION AND SELECTION
 
 ## CELL DIVISION
 
-CELL DIVISION IS A FUNDAMENTAL BIOLOGICAL PROCESS ESSENTIAL FOR GROWTH, REPAIR, AND REPRODUCTION IN ORGANISMS. IT OCCURS IN TWO PRIMARY FORMS: **MITOSIS** AND **MEIOSIS**.
+It must divide in such a way that each daughter cell receives one copy of every chromosome. If it does not do this, both daughter cells will not contain all the genes.
 
-### MITOSIS
+(a) prophase
 
-MITOSIS INVOLVES THE DIVISION OF A SINGLE PARENT CELL INTO TWO GENETICALLY IDENTICAL DAUGHTER CELLS. EACH DAUGHTER CELL RECEIVES A COMPLETE SET OF CHROMOSOMES FROM THE PARENT CELL, ENSURING GENETIC IDENTITY BETWEEN THEM AND THE PARENT.
+centromere | Before mitosis the DNA replicates and the chromosomes form two exact copies called chromatids. During the first stage of mitosis (prophase) the chromatids become visible, joined at a centromere. The nuclear membrane breaks down.
+--- | ---
+two chromatids | 
 
-- IN MITOSIS, EACH DAUGHTER CELL INHERITS AN EXACT COPY OF EVERY CHROMOSOME AND GENE FROM THE PARENT CELL.
-- SOMATIC CELLS (NON-REPRODUCTIVE CELLS) IN THE BODY ARE GENETICALLY IDENTICAL TO THE ZYGOTE FORMED AT FERTILIZATION.
-- MITOSIS IS PREVALENT IN TISSUES THAT REQUIRE CONSTANT REPLACEMENT, SUCH AS THE SKIN, GUT LINING, AND RED BLOOD CELLS.
+(b) metaphase
 
-**EXAMPLES OF MITOTIC DIVISION:**
-- **SKIN CELLS:** CONTINUOUSLY REPLACED DUE TO WEAR AND TEAR.
-- **GUT LINING CELLS:** RAPID TURNOVER AS FOOD PASSES THROUGH.
-- **RED BLOOD CELLS:** RAPIDLY REGENERATED IN THE BONE MARROW.
+spindle | During metaphase a structure called the spindle forms. The chromosomes line up at the 'equator' of the spindle, attached to it by their centromeres.
+--- | ---
 
-CANCER CELLS ALSO DIVIDE VIA MITOSIS, PRODUCING IDENTICAL DAUGHTER CELLS THAT MAY CARRY MUTATIONS LEADING TO UNCONTROLLED GROWTH.
+(c) anaphase
 
-### MEIOSIS
+During anaphase, the spindle fibres shorten and pull the chromatids to the opposite ends ('poles') of the cell. The chromatids separate to become the chromosomes of the two daughter cells.
 
-MEIOSIS IS A SPECIALIZED FORM OF CELL DIVISION PRODUCING GAMETES (SPERM AND EGG CELLS). IT OCCURS IN TWO STAGES: **MEIOSIS I** AND **MEIOSIS II**, RESULTING IN FOUR HAPLOID CELLS. EACH DAUGHTER CELL IS GENETICALLY DISTINCT FROM THE PARENT AND EACH OTHER.
+(c) telophase
 
-- IN MEIOSIS, THE PARENT CELL FIRST COPIES EACH CHROMOSOME TO ENSURE SUFFICIENT GENETIC MATERIAL FOR FOUR DAUGHTERS.
-- DURING MEIOSIS I, HOMOLOGOUS CHROMOSOMES SEPARATE, ENSURING EACH DAUGHTER CELL RECEIVES ONE CHROMOSOME FROM EACH PAIR.
+In the last stage (telophase) two new nuclei form at the poles of the cell. The cytoplasm starts to divide to produce two daughter cells. Both daughter cells have a copy of each chromosome from the parent cell.
 
-THIS PROCESS GENERATES GENETIC DIVERSITY, CRUCIAL FOR SEXUAL REPRODUCTION.
+▲ Figure 17.1 The stages of mitosis. For simplicity the cell shown contains two homologous pairs of chromosomes (one long pair, one short). (You do not need to remember the names of the stages.)
 
-# VARIATION AND SELECTION IN CELL DIVISION
+A number of distinct stages occur when a cell divides by mitosis. These are shown in Figure 17.1. Figure 17.2 is a photograph of some cells from the root tip of an onion. Cells in this region of the root divide by mitosis to allow growth of the root.
 
-## MEIOSIS: AN OVERVIEW
-
-MEIOSIS IS A SPECIALIZED TYPE OF CELL DIVISION THAT REDUCES THE CHROMOSOME NUMBER BY HALF, RESULTING IN FOUR HAPLOID GAMETES. THIS PROCESS IS ESSENTIAL FOR SEXUAL REPRODUCTION AND CONTRIBUTES TO GENETIC DIVERSITY.
-
-### STAGES OF MEIOSIS
-
-THE STAGES OF MEIOSIS INVOLVE TWO MAIN DIVISIONS: MEIOSIS I AND MEIOSIS II.
-
-1. **FIRST DIVISION (MEIOSIS I)**:
-   - THE NUCLEUS OF THE PARENT CELL DIVIDES.
-   - CHROMOSOMES PAIR UP IN HOMOLOGOUS PAIRS.
-   - ONE CHROMOSOME FROM EACH HOMOLOGOUS PAIR IS DISTRIBUTED INTO EACH DAUGHTER CELL.
-   - RESULT: TWO NUCLEI, EACH WITH HALF THE ORIGINAL CHROMOSOME NUMBER.
-
-2. **SECOND DIVISION (MEIOSIS II)**:
-   - THE TWO CHROMATIDS OF EACH CHROMOSOME SEPARATE.
-   - EACH DAUGHTER CELL RECEIVES ONE PART OF THE CHROMOSOME.
-   - RESULT: FOUR HAPLOID GAMETES ARE FORMED.
-
-### GENETIC VARIATION
-
-THE GAMETES PRODUCED THROUGH MEIOSIS DO NOT ALL HAVE THE SAME COMBINATIONS OF ALLELES, LEADING TO GENETIC VARIATION. THIS VARIATION ARISES BECAUSE:
-
-- DURING THE TWO DIVISIONS OF MEIOSIS, THE CHROMOSOMES OF EACH HOMOLOGOUS PAIR ARE DISTRIBUTED INDEPENDENTLY OF EACH OTHER.
-- THIS INDEPENDENT ASSORTMENT ALLOWS FOR A WIDE RANGE OF POSSIBLE GENETIC COMBINATIONS IN THE DAUGHTER CELLS.
-
-### KEY POINTS
-
-- MEIOSIS CONSISTS OF TWO MAIN DIVISIONS: MEIOSIS I AND MEIOSIS II.
-- EACH DIVISION CONTRIBUTES TO THE REDUCTION OF CHROMOSOME NUMBER AND THE GENERATION OF GENETIC DIVERSITY.
-- THE PROCESS OF MEIOSIS IS ESSENTIAL FOR THE FORMATION OF GAMETES IN SEXUAL REPRODUCTION.
-
-UNDERSTANDING MEIOSIS IS FUNDAMENTAL TO GRASPING HOW GENETIC VARIATION OCCURS IN POPULATIONS, WHICH IS A KEY CONCEPT IN THE STUDY OF EVOLUTION AND NATURAL SELECTION.
-
-# VARIATION AND SELECTION
-
+▲ Figure 17.2 Cells in the root tip of an onion dividing by mitosis. Can you identify any of the stages shown in Figure 17.1?
+---
 ## CELL DIVISION
 
-CELL DIVISION IS A FUNDAMENTAL PROCESS IN THE LIFE CYCLE OF ORGANISMS, PARTICULARLY IN THE FORMATION OF GAMETES THROUGH MEIOSIS. IN HUMANS, EACH CELL CONTAINS THREE PAIRS OF HOMOLOGOUS CHROMOSOMES: A1, A2; B1, B2; AND C1, C2. EACH PAIR CONSISTS OF DIFFERENT ALLELES FOR CERTAIN GENES.
+Each daughter cell formed by mitosis receives a copy of every chromosome, and therefore every gene, from the parent cell. Each daughter cell is genetically identical to the others. All the cells in our body (except the gametes) are formed by mitosis from the zygote (single cell formed at fertilisation). They all, therefore, contain copies of all the chromosomes and genes of that zygote. They are all genetically identical.
 
-### MEIOSIS
+Whenever cells need to be replaced in our bodies, cells divide by mitosis to make them. This happens more frequently in some regions than in others.
 
-MEIOSIS INVOLVES TWO DIVISIONS THAT RESULT IN THE CREATION OF SEX CELLS (GAMETES). EACH GAMETE RECEIVES ONE CHROMOSOME FROM EACH HOMOLOGOUS PAIR, LEADING TO GENETIC VARIATION AMONG THE PRODUCED GAMETES.
+- The skin loses thousands of cells every time we touch something. This adds up to millions every day that need replacing. A layer of cells beneath the surface is constantly dividing to produce replacements.
+- Cells are scraped off the lining of the gut as food passes along. Again, a layer of cells beneath the gut lining is constantly dividing to produce replacement cells.
+- Cells in our spleen destroy worn out red blood cells at the rate of 100 000 000 000 per day! These are replaced by cells in the bone marrow dividing by mitosis. In addition, the bone marrow forms all our new white blood cells and platelets.
+- Cancer cells also divide by mitosis. The cells formed are exact copies of the parent cell, including the mutation in the genes that makes the cells divide uncontrollably.
 
-#### MATHEMATICAL RULE FOR COMBINATIONS
+## MEIOSIS
 
-THERE IS A MATHEMATICAL FORMULA TO PREDICT THE NUMBER OF POSSIBLE CHROMOSOME COMBINATIONS DURING MEIOSIS:
+Meiosis forms gametes. It is a more complex process than mitosis and takes place in two stages called meiosis I and meiosis II, resulting in four haploid cells. Each daughter cell is genetically different from the other three and from the parent cell.
 
-**NUMBER OF POSSIBLE COMBINATIONS = 2^N**
+During meiosis the parent cell must do two things:
+- It must copy each chromosome so that there is enough genetic material to be shared between the four daughter cells
+- It must divide twice, in such a way that each daughter cell receives just one chromosome from each homologous pair.
 
-WHERE **N** REPRESENTS THE NUMBER OF CHROMOSOME PAIRS.
+These processes are summarised in Figure 17.4. Figure 17.3 shows cells in the anther of a flower dividing by meiosis.
 
-- FOR TWO PAIRS: NUMBER OF COMBINATIONS = 2^2 = 4
-- FOR THREE PAIRS: NUMBER OF COMBINATIONS = 2^3 = 8
-- IN HUMANS, WITH 23 PAIRS: NUMBER OF COMBINATIONS = 2^23 = 8,388,608
+[Image of cells dividing by meiosis in an anther]
 
-### COMPARISON OF MITOSIS AND MEIOSIS
-
-MITOSIS AND MEIOSIS DIFFER IN SEVERAL KEY ASPECTS:
-
-- **CHROMOSOMES BEFORE DIVISION**: BOTH PROCESSES INVOLVE COPYING CHROMOSOMES BEFORE DIVISION.
-- **NUMBER OF DIVISIONS**: MITOSIS INVOLVES ONE DIVISION, WHILE MEIOSIS INCLUDES TWO.
-- **DAUGHTER CELLS PRODUCED**: MITOSIS RESULTS IN TWO DAUGHTER CELLS, WHEREAS MEIOSIS PRODUCES FOUR.
-- **HAPLOID OR DIPLOID STATE**: DAUGHTER CELLS OF MITOSIS REMAIN DIPLOID, WHEREAS THOSE OF MEIOSIS ARE HAPLOID.
-- **GENETIC VARIATION**: MEIOSIS INTRODUCES GENETIC VARIATION THROUGH CROSSING OVER AND INDEPENDENT ASSORTMENT.
-
-## SEXUAL REPRODUCTION AND VARIATION
-
-SEXUAL REPRODUCTION IN MULTICELLULAR ORGANISMS INVOLVES THE FUSION OF TWO GAMETES TO FORM A ZYGOTE. THIS PROCESS LEADS TO GENETIC VARIATION DUE TO SEVERAL FACTORS:
-
-1. **VARIATION IN GAMETES**: EACH GAMETE IS GENETICALLY UNIQUE BECAUSE OF DISTINCT ALLELE COMBINATIONS.
-2. **RANDOM FERTILIZATION**: ANY SPERM CAN FERTILIZE ANY OVUM, RESULTING IN NUMEROUS POSSIBLE CHROMOSOME COMBINATIONS.
-
-IN HUMANS, APPROXIMATELY 8.5 MILLION DIFFERENT TYPES OF GAMETES EXIST. UPON FERTILIZATION, THE ZYGOTE CAN HAVE UP TO 72 TRILLION (7.2 X 10^13) POSSIBLE CHROMOSOME COMBINATIONS, SUGGESTING THAT MOST INDIVIDUALS ARE GENETICALLY UNIQUE, EXCEPT FOR IDENTICAL TWINS.
-
-### IDENTICAL TWINS
-
-IDENTICAL TWINS, OR MONOZYGOTIC TWINS, ORIGINATE FROM A SINGLE ZYGOTE. THROUGH MITOSIS, THE ZYGOTE DIVIDES INTO TWO GENETICALLY IDENTICAL CELLS, EACH DEVELOPING INTO AN EMBRYO. THIS PROCESS HIGHLIGHTS THE ROLE OF MEIOSIS AND SEXUAL REPRODUCTION IN GENERATING GENETIC DIVERSITY WITHIN POPULATIONS.
-
-# VARIATION AND SELECTION
-
-## CLONING PROCESS
-CLONING IS A METHOD USED TO PRODUCE GENETICALLY IDENTICAL OFFSPRING FROM A PART OF A PARENT ORGANISM. UNLIKE SEXUAL REPRODUCTION, WHICH INVOLVES GAMETES, CLONING DOES NOT USE GAMETES.
-
+Figure 17.3 Photomicrograph of an anther showing cells dividing by meiosis.
 ---
+VARIATION AND SELECTION                     CELL DIVISION                                                                    205
 
-## DWARF PEA PLANTS
-SHORT PEA PLANTS ARE REFERRED TO AS 'DWARF' VARIETIES. THE GENETICS BEHIND THEIR HEIGHT DIFFERENCES ARE EXPLORED IN CHAPTER 18.
+                                                                                           nucleus of parent cell
 
+                                                                                            chromosomes pair up in
+                                                                                           homologous pairs
+                                meiosis
+
+                                                                                           members of each
+                                                                                           homologous
+                                                                                           pair separate
+
+                                                                                                    two nuclei each with
+                                                                                                    half the original
+                                                                                                    chromosome number
+
+                                                                                                           the two chromatids
+                                                                                                           of each chromosome
+                                meiosis                                                                    separate
+
+                                                                           four haploid gametes
+                                            Figure 17.4: The stages of meiosis. For simplicity the parent cell contains only two homologous pairs
+                                             of chromosomes (one long pair; one short). Tohelp :you to see what happens, one member of each
+                                             pair is coloured red and one blue: The cell membrane is shown; but the nuclear membrane has been
+                                             omitted. A spindle formsduringeach division; but these have also been omitted for clarity:
+                                          There are two main events during meiosis:
+                                             during the first division, one chromosome from each homologous pair goes
+                                             into each daughter cell
+                                             during the second division; the chromosome separates into two parts. One
+                                             part goes into each daughter cell:
+                                          The gametes formed by meiosis don't all have the same combinations of
+                                          alleles  there is genetic variation in the cells. During the two cell divisions
+                                          of meiosis, the chromosomes of each homologouspairare shared between
+                                          the two daughter cells independently of each of the other homologous
+                                          pairs. This allows for much possible genetic variation in the daughter cells
+                                          (Figure 17.5).
 ---
-
-## ASEXUAL REPRODUCTION AND CLONING
-PLANT BREEDERS RECOGNIZE THAT SEXUAL REPRODUCTION INTRODUCES VARIATION, WHICH CAN BE UNDESIRABLE WHEN A SPECIFIC TRAIT IS DESIRED. CLONING ALLOWS THE PRODUCTION OF MANY IDENTICAL PLANTS FROM JUST A FEW CELLS OF THE ORIGINAL PLANT (AS DETAILED IN CHAPTER 19).
-
-ASEXUAL REPRODUCTION OCCURS WITHOUT THE FUSION OF GAMETES. A PART OF THE ORGANISM GROWS AND SEPARATES, WITH CELLS FORMED BY MITOSIS THAT ARE GENETICALLY IDENTICAL TO THE PARENT. THIS PROCESS RESULTS IN OFFSPRING THAT ARE BOTH GENETICALLY IDENTICAL TO EACH OTHER AND TO THE PARENT.
-
----
-
-## GENETIC AND ENVIRONMENTAL VARIATION
-PEA PLANTS EXHIBIT VARIATION IN HEIGHT, WHICH IS INFLUENCED BY BOTH GENETIC FACTORS AND ENVIRONMENTAL CONDITIONS. WHILE ALL TALL PEA PLANTS MAY NOT BE EXACTLY THE SAME HEIGHT, AND SIMILARLY FOR SHORT PLANTS, THIS VARIATION ARISES FROM A COMBINATION OF GENETIC INHERITANCE AND ENVIRONMENTAL INFLUENCE.
-
-A BAR CHART (FIGURE 17.7) ILLUSTRATES THE RANGE OF HEIGHTS OBSERVED AMONG PEA PLANTS, REFLECTING THESE DUAL INFLUENCES.
-
----
-
-## SUMMARY
-BOTH GENETIC FACTORS AND ENVIRONMENTAL CONDITIONS CONTRIBUTE TO THE VARIATION SEEN IN ORGANISMS. CLONING AND ASEXUAL REPRODUCTION ARE METHODS USED TO PRODUCE GENETICALLY IDENTICAL OFFSPRING, WHILE SEXUAL REPRODUCTION INTRODUCES DIVERSITY. UNDERSTANDING THESE CONCEPTS IS ESSENTIAL FOR FIELDS SUCH AS AGRICULTURE AND GENETICS.
-
-# VARIATION AND SELECTION
-
-## CHAPTER QUESTIONS
-- **SKILLS**
-- **CRITICAL THINKING**
-
----
+## VARIATION AND SELECTION
 
 ### CELL DIVISION
 
-SEVERAL ENVIRONMENTAL FACTORS CAN INFLUENCE PLANT GROWTH. FOR INSTANCE:
+A cell with three pairs of homologous chromosomes - A₁ and A₂, B₁ and B₂ and C₁ and C₂. The two chromosomes in each homologous pair contain different alleles for some of the genes.
 
-- LIGHT: NOT ALL PLANTS RECEIVE THE SAME AMOUNT OF LIGHT, AFFECTING THEIR ABILITY TO PHOTOSYNTHESIZE.
-- WATER AND MINERALS: VARIATIONS IN WATER AND MINERAL ION AVAILABILITY FROM THE SOIL CAN IMPACT THE PRODUCTION OF ESSENTIAL SUBSTANCES IN PLANTS.
-- CARBON DIOXIDE: DIFFERENCES IN CARBON DIOXIDE LEVELS CAN ALSO AFFECT PHOTOSYNTHESIS.
+[Diagram showing meiosis process with chromosome combinations]
 
-SIMILAR PRINCIPLES APPLY TO HUMANS. IDENTICAL TWINS SHARE THE SAME GENES BUT MAY NOT BE IDENTICAL DUE TO ENVIRONMENTAL INFLUENCES, AFFECTING THEIR PHYSICAL, SOCIAL, AND INTELLECTUAL DEVELOPMENT DIFFERENTLY.
+As a result of the two divisions of meiosis, each sex cell formed contains one chromosome from each homologous pair. This gives eight combinations. As A₁ and A₂ contain different alleles (as do B₁ and B₂, and C₁ and C₂) the eight possible sex cells will be genetically different.
 
+▲ Figure 17.5 How meiosis produces variation
+
+### EXTENSION WORK
+
+There is a mathematical rule for predicting how many combinations of chromosomes there can be. The rule is:
+
+number of possible combinations = 2ⁿ
+
+where n = number of pairs of chromosomes.
+
+With two pairs of chromosomes, the number of possible combinations = 2² = 4. With three pairs of chromosomes, the number of possible combinations = 2³ = 8. With the 23 pairs of chromosomes in human cells, the number of possible combinations = 2²³ = 8 388 608!
+
+Table 17.1 summarises the similarities and differences between mitosis and meiosis.
+
+Table 17.1 Comparison of meiosis and mitosis.
+
+| Feature of the process | Mitosis | Meiosis |
+|------------------------|---------|---------|
+| Chromosomes are copied before division begins | Yes | Yes |
+| Number of cell divisions | One | Two |
+| Number of daughter cells produced | Two | Four |
+| Daughter cells are haploid or diploid | Diploid | Haploid |
+| Genetic variation in the daughter cells | No | Yes |
+
+### SEXUAL REPRODUCTION AND VARIATION
+
+Sexual reproduction in any multicellular organism involves the fusion of two gametes to form a zygote. The offspring from sexual reproduction vary genetically for a number of reasons. One reason is because of the huge variation in the gametes. Another reason is because of the random way in which fertilisation takes place. In humans, any one of the billions of sperm formed by a male during his life could, potentially, fertilise any one of the thousands of ova formed by a female.
+
+This variation applies to both male and female gametes. So, just using our 'low' estimate of about 8.5 million different types of human gametes means that there can be 8.5 million different types of sperm and 8.5 million different types of ova. When fertilisation takes place, any sperm could fertilise any ovum. The number of possible combinations of chromosomes (and genes) in the zygote is 8.5 million × 8.5 million = 7.2 × 10¹³, or 72 trillion! And remember, this is using our 'low' number!
+
+This means that every individual is likely to be genetically unique. The only exceptions are identical twins. Identical twins are formed from the same zygote – they are sometimes called monozygotic twins. When the zygote divides by mitosis, the two genetically identical cells formed do not 'stay together'. Instead, they separate and each cell behaves as though it were an individual zygote, dividing and developing into an embryo (Figure 17.6). Because they have developed from genetically identical cells (and, originally, from the same
+
+▲ Figure 17.6 How identical twins are formed
+
+[Diagram showing zygote division and embryo formation for identical twins]
 ---
-
-### QUESTIONS ON CELL DIVISION
-
-1. A SPECIES OF MAMMAL HAS 32 CHROMOSOMES IN ITS MUSCLE CELLS. WHICH ROW IN THE TABLE SHOWS THE NUMBER OF CHROMOSOMES IN THE MAMMAL'S SKIN CELLS AND SPERM CELLS?
-
-| SKIN CELLS | SPERM CELLS |
-|------------|-------------|
-| 32         | 32          |
-| 16         | 16          |
-| 16         | 32          |
-| 32         | 16          |
-
-2. CONSIDER THE FOLLOWING STATEMENTS ABOUT REPRODUCTION IN PLANTS:
-- LARGE NUMBERS OF OFFSPRING ARE QUICKLY PRODUCED.
-- THERE IS LITTLE GENETIC VARIATION IN THE OFFSPRING.
-- A MECHANISM SUCH AS WIND OR INSECTS IS NOT NEEDED FOR POLLINATION.
-
-WHICH OF THE ABOVE ARE ADVANTAGES OF ASEXUAL REPRODUCTION IN PLANTS?
-- A) 1 AND 2
-- B) 2 AND 3
-- C) 1 AND 3
-- D) 1, 2, AND 3
-
-3. MITOSIS RESULTS IN TWO **HAPLOID** CELLS, WHILE MEIOSIS RESULTS IN **FOUR** CELLS.
-
-4. IN WHICH OF THE FOLLOWING DOES MEIOSIS OCCUR?
-- A) DEVELOPING PLANT EMBRYO
-- B) THE ANTHERS OF A FLOWER
-- C) THE SKIN OF A MAMMAL
-- D) THE TIP OF A SHOOT OF A PLANT
-
----
-
-FOR MORE QUESTIONS ON CELL DIVISION, REFER TO PAGE 234 IN UNIT 5.
-
 # VARIATION AND SELECTION
 
 ## CELL DIVISION
 
-CELLS CAN DIVIDE THROUGH TWO PRIMARY PROCESSES: **MITOSIS** AND **MEIOSIS**. UNDERSTANDING THE DISTINCTIONS BETWEEN THESE PROCESSES IS ESSENTIAL FOR GRASPING HOW ORGANISMS GROW AND REPRODUCE.
+zygote), the embryos (and, later, the children and the adults they become) will be genetically identical.
 
-### SIMILARITIES AND DIFFERENCES
+Non-identical twins develop from different zygotes and so are not genetically identical.
 
-- **SIMILARITY:** BOTH MITOSIS AND MEIOSIS INVOLVE DIVIDING A CELL TO PRODUCE NEW CELLS.
-- **DIFFERENCE 1:** MITOSIS RESULTS IN TWO IDENTICAL DAUGHTER CELLS, WHEREAS MEIOSIS PRODUCES FOUR GENETICALLY DIVERSE DAUGHTER CELLS.
-- **DIFFERENCE 2:** MITOSIS IS UTILIZED FOR GROWTH AND REPAIR, WHILE MEIOSIS IS EMPLOYED FOR GENERATING GAMETES (SPERM AND EGGS).
+Seeds are made by sexual reproduction in plants. Each seed contains an embryo, which results from a pollen grain nucleus fusing with an egg cell nucleus. Embryos from the same plant will vary genetically because they are formed by different pollen grains fertilising different egg cells and so contain different combinations of genes.
 
-**CANCER CELLS:**
-CANCER CELLS TYPICALLY UNDERGO MITOSIS. THIS UNCONTROLLED DIVISION LEADS TO TUMOR FORMATION.
+## ASEXUAL REPRODUCTION AND CLONING
 
-**MEIOSIS AS REDUCTION DIVISION:**
-MEIOSIS IS REFERRED TO AS A REDUCTION DIVISION BECAUSE IT REDUCES THE CHROMOSOME NUMBER BY HALF, CONVERTING DIPLOID CELLS INTO HAPLOID CELLS.
+### KEY POINT
+Cloning is a process that produces a group of genetically identical offspring (a clone) from part of the parent organism. Gametes are not involved.
 
-## REPRODUCTION IN DAFFODILS
+Plant breeders have known for a long time that sexual reproduction produces variation. They realised that if a plant had some desirable feature, the best way to get more of that plant was not to collect and plant its seeds, but to clone it in some way. Modern plant-breeding techniques allow the production of many thousands of identical plants from just a few cells of the original (see Chapter 19).
 
-DAFFODILS CAN ENGAGE IN BOTH SEXUAL AND ASEXUAL REPRODUCTION.
+When organisms reproduce asexually, there is no fusion of gametes. A part of the organism grows and somehow breaks away from the parent organism. The cells it contains were formed by mitosis, so contain exactly the same genes as the parent. Asexual reproduction produces offspring that are genetically identical to the parent, and genetically identical to each other.
 
-- **SEXUAL REPRODUCTION:** RESULTS IN SEEDS, LEADING TO GENETIC VARIATION AMONG OFFSPRING.
-- **ASEXUAL REPRODUCTION:** INVOLVES THE FORMATION OF BULBS, PRODUCING PLANTS GENETICALLY IDENTICAL TO THE PARENT.
+Asexual reproduction is common in plants (see Chapter 13). For example, flower bulbs grow and divide asexually each season to produce more bulbs. Asexual reproduction also occurs in some animals (see Chapter 9).
 
-### EXPLANATION
-- BULBS FROM A SINGLE DAFFODIL PLANT YIELD CLONES SIMILAR TO EACH OTHER AND THE PARENT.
-- SEEDS FROM A SINGLE DAFFODIL PLANT PRODUCE VARIED PLANTS DUE TO GENETIC RECOMBINATION DURING SEXUAL REPRODUCTION.
+## GENES AND ENVIRONMENT BOTH PRODUCE VARIATION
 
-## EXPERIMENT WITH CLOVER PLANTS
+### DID YOU KNOW?
+Short pea plants are called 'dwarf' varieties. The genetics controlling the height of pea plants is described in Chapter 18.
 
-THE DIAGRAM ILLUSTRATES TWO CUTTINGS FROM THE SAME CLOVER PLANT, PLANTED IN IDENTICAL SOIL. AFTER SEVERAL DAYS, NITROGEN-FIXING BACTERIA WERE ADDED TO ONE POT (INOCULATED), WHILE THE OTHER REMAINED UNTREATED (NOT INOCULATED).
+There are two varieties of pea plants that are either tall or short. This difference in height is due to the genes they inherit. There are no 'intermediate height' pea plants. However, all the tall pea plants are not exactly the same height and neither are all the short pea plants exactly the same height. Figure 17.7 illustrates the variation in height of pea plants.
 
-### QUESTIONS
-1. **CONTROL GROUP:** THE UNTREATED POT IS KNOWN AS THE CONTROL GROUP.
-2. **CUTTINGS VS. SEEDS:** CUTTINGS ENSURE IDENTICAL GENETIC MATERIAL, CLARIFYING ENVIRONMENTAL EFFECTS ON GROWTH.
-3. **GENETIC AND ENVIRONMENTAL INFLUENCE:** THE EXPERIMENT SUGGESTS GENETICS SIGNIFICANTLY INFLUENCE CLOVER HEIGHT, WITH ENVIRONMENT ALSO PLAYING A ROLE THROUGH FACTORS LIKE NITROGEN-FIXING BACTERIA.
+| Characteristic | Left Distribution | Right Distribution |
+|----------------|-------------------|---------------------|
+| Type of variation | Genetic | Genetic |
+| Environmental influence | Variation due to environment | Variation due to environment |
+| Distribution shape | Bell curve (normal distribution) | Bell curve (normal distribution) |
+| Peak height | Higher | Lower |
+| Spread | Narrower | Wider |
 
-## MITOSIS VS. MEIOSIS IN DIFFERENT CELLS
+Figure 17.7 Bar chart showing variation in height of pea plants.
+---
+208 VARIATION AND SELECTION                 CELL DIVISION
 
-- **SPERM PRODUCTION (TESTES):** MEIOSIS, AS IT GENERATES GAMETES.
-- **INTESTINAL LINING CELLS:** MITOSIS, FOR GROWTH AND REPAIR.
-- **BONE MARROW CELLS (WHITE BLOOD CELLS):** MITOSIS, TO REPLENISH BLOOD CELLS.
-- **POLLEN GRAIN FORMATION (ANTHER OF FLOWER):** MEIOSIS, PRODUCING MALE GAMETES.
-- **ZYGOTE TO EMBRYO:** MITOSIS, INITIAL GROWTH PHASE.
+Several environmental factors can influence the height of the plants.
 
-## VARIATION IN ORGANISMS
+- They may not all receive the same amount of light and so some will not photosynthesise as well as others.
+- They may not all receive the same amount of water and mineral ions from the soil – this could affect the manufacture of a range of substances in the plant.
+- They may not all receive the same amount of carbon dioxide. Again, some plants will not photosynthesise as well as others.
 
-VARIATION CAN RESULT FROM GENETIC OR ENVIRONMENTAL FACTORS. EACH EXAMPLE ILLUSTRATES THESE INFLUENCES:
+Similar principles apply in humans. Identical twins have the same genes, and often grow up to look very alike (although not quite identical). Also, they often develop similar talents. However, identical twins never look exactly the same. This is especially true if, for some reason, they grow up apart. The different environments affect their physical, social and intellectual development in different ways.
 
-- **EYE COLOR IN HUMANS:** GENETIC, DETERMINED BY INHERITED GENES.
-- **HUMAN SEX RATIO:** GENETIC, DICTATED BY CHROMOSOMES.
-- **HYDRANGEA FLOWER COLORS:** ENVIRONMENTAL, AS SOIL PH AFFECTS COLOR WITHOUT ALTERING GENETICS.
+## CHAPTER QUESTIONS
 
-### SKILLS DEVELOPMENT
+More questions on cell division can be found at the end of Unit 5 on page 234.
 
-- **CRITICAL THINKING:** ANALYZING MITOSIS AND MEIOSIS FOR GENETIC DIVERSITY IMPLICATIONS.
-- **REASONING:** UNDERSTANDING ROLES OF GENETICS AND ENVIRONMENT IN ORGANISMAL VARIATION.
+### SKILLS CRITICAL THINKING
 
-# VARIATION AND SELECTION
+1. A species of mammal has 32 chromosomes in its muscle cells. Which row in the table below shows the number of chromosomes in the mammal's skin cells and sperm cells?
 
-## UNDERSTANDING VARIATION
+| | Skin cells | Sperm cells |
+|---|---|---|
+| A | 32 | 32 |
+| B | 16 | 16 |
+| C | 16 | 32 |
+| D | 32 | 16 |
 
-IN NATURE, VARIATION IS A COMMON PHENOMENON. FOR EXAMPLE, IN PEA PLANTS, SOME EXHIBIT TALL HEIGHT WHILE OTHERS DISPLAY DWARF CHARACTERISTICS. NOTABLY, EVEN AMONG THE TALL PLANTS, THERE ARE DIFFERENCES IN HEIGHT, AND SIMILARLY, WITHIN THE DWARF PLANTS, VARIATIONS EXIST. THIS INHERENT VARIATION IS CRUCIAL FOR THE PROCESS OF NATURAL SELECTION.
+2. Consider the following statements about reproduction in plants:
+   1. Large numbers of offspring are quickly produced
+   2. There is little genetic variation in the offspring.
+   3. A mechanism such as wind or insects is not needed for pollination.
 
-## HUMAN VARIATION
+   Which of the above are advantages of asexual reproduction in plants?
+   A 1 and 2
+   B 1 and 3
+   C 2 and 3
+   D 1, 2 and 3
 
-IN HUMAN POPULATIONS, FAMILIES MAY HAVE VARYING RISKS OF CONDITIONS LIKE HEART DISEASE. HOWEVER, NOT EVERY MEMBER OF A HIGH-RISK FAMILY WILL EXPERIENCE A HEART ATTACK, AND SOME INDIVIDUALS FROM LOW-RISK FAMILIES MAY STILL DEVELOP HEART ISSUES. THIS ILLUSTRATES THAT VARIATION EXISTS WITHIN POPULATIONS, INFLUENCING HEALTH OUTCOMES.
+3. Mitosis results in two _______ cells, while meiosis results in _______ haploid cells
 
-## CELL DIVISION: MITOSIS
+   Choose the correct pair of answers to fill the gaps in the sentence:
+   A haploid / four
+   B diploid / two
+   C diploid / four
+   D haploid / two
 
-### INVESTIGATING MITOSIS
+4. In which of the following does meiosis occur?
+   A a developing plant embryo
+   B the anthers of a flower
+   C the skin of a mammal
+   D the tip of a shoot of a plant
+---
+VARIATION AND SELECTION | CELL DIVISION | 209
 
-IN STUDIES OF MITOSIS, RESEARCHERS MEASURE THE DISTANCE BETWEEN CHROMOSOMES AND THE POLES OF A CELL. THIS MEASUREMENT IS VITAL FOR UNDERSTANDING HOW CELLS DIVIDE AND REPLICATE.
+SKILLS > CRITICAL THINKING
 
-#### KEY TERMS:
-- **CENTROMERE**: THE REGION WHERE TWO SISTER CHROMATIDS ARE JOINED.
-- **SPINDLE FIBRES**: STRUCTURES THAT FACILITATE CHROMOSOME SEPARATION DURING CELL DIVISION.
-- **POLE OF CELL**: THE ENDS OF THE CELL WHERE SPINDLE FIBRES ATTACH.
+5. Cells can divide by mitosis or by meiosis.
+   a. Give one similarity and two differences between the two processes.
+   b. Do cancer cells divide by mitosis or meiosis? Explain your answer.
+   c. Why is meiosis sometimes called a reduction division?
 
-### GRAPH ANALYSIS
+SKILLS > REASONING
 
-THE GRAPH ILLUSTRATES HOW DISTANCES BETWEEN CHROMOSOMES AND CELL POLES CHANGE DURING MITOSIS. IT PROVIDES A VISUAL REPRESENTATION OF THIS DYNAMIC PROCESS.
+6. Daffodils reproduce sexually by forming seeds and asexually by forming bulbs. Explain why:
+   a. the bulbs formed from a single daffodil plant produce plants very similar to each other and to the parent plant
+   b. the seeds formed by a single daffodil plant produce plants that vary considerably.
 
-#### QUESTIONS FOR ANALYSIS:
-1. IN STAGE A, DESCRIBE TWO EVENTS THAT OCCUR.
-2. IN STAGE B, EXPLAIN WHAT IS HAPPENING.
-3. IN STAGE C, DESCRIBE TWO EVENTS THAT OCCUR.
+SKILLS > CRITICAL THINKING
 
-UNDERSTANDING THESE STAGES AIDS IN GRASPING HOW CELLS REPLICATE AND THE ROLE OF GENETIC VARIATION DURING MITOSIS.
+7. The diagram shows two cuttings.
+   They were both taken from the same
+   clover plant and planted in identical soil.
+   Both were left for several days to
+   become established in their
+   new pots. Some nitrogen-fixing
+   bacteria were then added to
+   the pot labelled 'inoculated'.
+   The other pot was left untreated
+   and labelled 'not inoculated'.
+   The diagram shows the plants
+   three weeks after the treatment
+   to the 'inoculated' pot.
+
+   | Not inoculated | Inoculated |
+   |----------------|------------|
+   | [Small clover plant in pot] | [Larger clover plant in pot] |
+
+   a. What is the name given to the part of the experiment represented by the untreated pot of seeds?
+
+SKILLS > EXECUTIVE FUNCTION, REASONING
+
+   b. Why were cuttings from the same plant used rather than seeds from the same plant?
+
+SKILLS > REASONING
+
+   c. What does this experiment suggest about the influence of genes and the environment on variation in the height of clover plants?
+
+SKILLS > CRITICAL THINKING
+
+8. Some cells divide by mitosis, others divide by meiosis. For each of the following examples, say whether mitosis or meiosis is involved. In each case, give a reason for your answers.
+   a. Cells in the testes dividing to form sperm.
+   b. Cells in the lining of the small intestine dividing to replace cells that have been lost.
+   c. Cells in the bone marrow dividing to form white blood cells.
+   d. Cells in an anther of a flower dividing to form pollen grains.
+   e. A zygote dividing to form an embryo.
+
+SKILLS > CRITICAL THINKING, REASONING
+
+9. Variation in organisms can be caused by the environment as well as by the genes they inherit. For each of the following examples, state whether the variation described is likely to be genetic, environmental or both. In each case, give a reason for your answers.
+   a. Humans have brown, blue or green eyes.
+   b. Half the human population is male, half is female.
+   c. Cuttings of hydrangea plants grown in soils with different pH values develop flowers with slightly different colours.
+---
+
+The graph shows how these distances changed during mitosis.

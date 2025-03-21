@@ -1,737 +1,591 @@
-# BIOLOGY UNIT 1: ORGANISMS AND LIFE PROCESSES
+# ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES
 
-## INTRODUCTION TO LIFE PROCESSES
+## 1 LIFE PROCESSES
 
-ALL LIVING ORGANISMS ARE COMPOSED OF MICROSCOPIC UNITS CALLED **CELLS**. THESE BUILDING BLOCKS OF LIFE SHARE SEVERAL COMMON FEATURES THAT ENABLE THEM TO GROW, REPRODUCE, AND CARRY OUT ESSENTIAL LIFE PROCESSES.
-
-### KEY FEATURES OF CELLS
-CELLS POSSESS THE ABILITY TO GROW IN SIZE AND INCREASE IN NUMBER. THIS GROWTH IS FUNDAMENTAL FOR DEVELOPMENT AND REPRODUCTION. ADDITIONALLY, CELLS PERFORM VITAL FUNCTIONS NECESSARY FOR SUSTAINING LIFE, ENSURING THE CONTINUITY OF BIOLOGICAL PROCESSES.
-
-DESPITE THE STRUCTURAL SIMILARITIES AMONG CELLS, THERE IS A REMARKABLE DIVERSITY AMONG ORGANISMS. THIS UNIT EXPLORES THE STRUCTURE AND FUNCTION OF CELLS AS WELL AS THE CLASSIFICATION OF DIFFERENT ORGANISMS BASED ON THEIR CHARACTERISTICS.
-
-## THE DIVERSITY OF LIVING ORGANISMS
-
-THE EARTH IS HOME TO MILLIONS OF SPECIES, EACH WITH UNIQUE FEATURES THAT ALLOW THEM TO THRIVE IN VARIOUS ENVIRONMENTS. UNDERSTANDING THIS BIODIVERSITY IS CRUCIAL FOR STUDYING BIOLOGY AND APPRECIATING THE COMPLEXITY OF LIFE ON EARTH.
-
-### CLASSIFICATION OF ORGANISMS
-ORGANISMS ARE CLASSIFIED INTO GROUPS BASED ON SHARED CHARACTERISTICS SUCH AS STRUCTURE, FUNCTION, AND GENETIC MAKEUP. THIS SYSTEM OF CLASSIFICATION AIDS SCIENTISTS IN COMMUNICATING ABOUT DIFFERENT SPECIES AND UNDERSTANDING THEIR RELATIONSHIPS.
-
-# ORGANISMS AND LIFE PROCESSES
-
-## LIFE PROCESSES
-
-### INTRODUCTION
-ALL LIVING ORGANISMS ARE COMPOSED OF UNITS CALLED CELLS. THE SIMPLEST ORGANISMS, SUCH AS BACTERIA, FUNGI, AND PROTOZOA, CONSIST OF SINGLE CELLS. MULTICELLULAR PLANTS AND ANIMALS, HOWEVER, ARE MADE UP OF MILLIONS OF SPECIALIZED CELLS. THESE CELLS DIFFER IN STRUCTURE AND FUNCTION, ENABLING THEM TO PERFORM SPECIFIC ROLES WITHIN THE ORGANISM.
+There are structural features that are common to the cells of all living organisms. In this chapter you will find out about these features and look at some of the processes that keep cells alive.
 
 ### LEARNING OBJECTIVES
-UNDERSTANDING THE CHARACTERISTICS OF LIVING ORGANISMS AND THEIR CELL STRUCTURES IS FUNDAMENTAL. THIS INCLUDES RECOGNIZING THE NUCLEUS, CYTOPLASM, CELL MEMBRANE, CELL WALL, MITOCHONDRIA, CHLOROPLASTS, RIBOSOMES, AND VACUOLE AS ESSENTIAL COMPONENTS. THE DIFFERENCES BETWEEN PLANT AND ANIMAL CELLS, THE ROLE OF ENZYMES IN METABOLIC REACTIONS, AND HOW TEMPERATURE AND PH AFFECT ENZYME FUNCTION ARE KEY AREAS TO EXPLORE.
 
-### KEY CONCEPTS
+- Understand the characteristics shared by living organisms
+- Describe cell structures and their functions, including the nucleus, cytoplasm, cell membrane, cell wall, mitochondria, chloroplasts, ribosomes and vacuole
+- Know the similarities and differences in the structures of plant and animal cells
+- Understand the role of enzymes as biological catalysts in metabolic reactions
+- Understand how temperature changes can affect enzyme function, including changes to the shape of the active site
+- Understand how enzyme function can be affected by changes in pH altering the active site
+- Investigate how enzyme activity can be affected by changes in temperature
+- Describe the differences between aerobic and anaerobic respiration
+- Understand how the process of respiration produces ATP in living organisms
+- Know that ATP provides energy for cells
+- Know the word equation and balanced chemical symbol equation for aerobic respiration
+- Know the word equations for anaerobic respiration
+- Investigate the evolution of carbon dioxide and heat from respiring seeds or other suitable living organisms
+- Understand the processes of diffusion, osmosis and active transport by which substances move into and out of cells
+- Understand how factors affect the rate of movement of substances into and out of cells
+- Investigate diffusion in a non-living system (agar jelly)
+- Describe the levels of organisation within organisms – organelles, cells, tissues, organ systems
 
-#### CELLS
-CELLS SERVE AS THE BASIC UNIT OF LIFE, WITH ALL LIVING ORGANISMS COMPOSED OF ONE OR MORE CELLS. THESE CELLS VARY IN STRUCTURE AND FUNCTION, ALLOWING FOR SPECIALIZED ROLES WITHIN MULTICELLULAR ORGANISMS.
+All living organisms are composed of units called cells. The simplest organisms are made from single cells (Figure 1.1) but more complex plants and animals are composed of millions of cells. In many-celled (multicellular) organisms, there may be hundreds of different types of cells with different structures. They are specialised so that they can carry out particular functions in the animal or plant. Despite all the differences, there are basic features that are the same in all cells.
 
-#### SPECIALIZATION
-IN MULTICELLULAR ORGANISMS, DIFFERENT TYPES OF CELLS EXIST, EACH WITH UNIQUE STRUCTURES THAT ENABLE THEM TO PERFORM SPECIFIC FUNCTIONS. THIS SPECIALIZATION IS CRUCIAL FOR THE SURVIVAL AND COMPLEXITY OF SUCH ORGANISMS.
+▲ Figure 1.1 Many simple organisms have 'bodies' made from single cells. Here are four examples.
+---
+# 4 ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES
 
-#### ENZYMES
-ENZYMES ACT AS BIOLOGICAL CATALYSTS, ACCELERATING METABOLIC REACTIONS. THEIR ACTIVITY CAN BE INFLUENCED BY TEMPERATURE AND PH, WHICH AFFECT THEIR SHAPE AND FUNCTION.
+There are eight life processes which take place in most living things.
+Organisms:
 
-#### RESPIRATION
-RESPIRATION IS THE PROCESS BY WHICH ORGANISMS CONVERT FOOD INTO ENERGY. THIS OCCURS THROUGH AEROBIC OR ANAEROBIC PATHWAYS, WITH AEROBIC RESPIRATION INVOLVING THE BREAKDOWN OF GLUCOSE IN MITOCHONDRIA TO PRODUCE ATP, WHILE ANAEROBIC RESPIRATION FUNCTIONS WITHOUT OXYGEN, PRODUCING LACTIC ACID OR ETHANOL AS BYPRODUCTS.
+- require nutrition – plants make their own food, animals eat other organisms
+- respire – release energy from their food
+- excrete – get rid of waste products
+- respond to stimuli – are sensitive to changes in their surroundings
+- move – by the action of muscles in animals, and slow growth movements in plants
+- control their internal conditions – maintain a steady state inside the body
+- reproduce – produce offspring
+- grow and develop – increase in size and complexity, using materials from their food.
 
-### VISUAL REFERENCE
-THE FIGURE PROVIDED ILLUSTRATES EXAMPLES OF SIMPLE ORGANISMS COMPOSED OF SINGLE CELLS, SUCH AS BACTERIA AND PROTOZOA. THIS VISUAL AIDS IN UNDERSTANDING THE FUNDAMENTAL ORGANIZATION OF LIFE AT THE CELLULAR LEVEL.
+## CELL STRUCTURE
 
-# ORGANISMS AND LIFE PROCESSES
+This part of the book describes the cell structure of 'higher' organisms such as animals, plants and fungi. The cells of bacteria are simpler in structure and will be described in Chapter 2.
 
-LIVING ORGANISMS EXHIBIT EIGHT ESSENTIAL LIFE PROCESSES. THESE PROCESSES ARE FUNDAMENTAL TO THE FUNCTIONING OF ALL LIVING CREATURES.
+Most cells contain certain parts such as the nucleus, cytoplasm and cell membrane. Some cells have structures missing, for instance red blood cells are unusual in that they have no nucleus. The first chapter in a biology textbook will usually present diagrams of 'typical' plant and animal cells. In fact, there is really no such thing as a 'typical' cell. Humans, for example, are composed of hundreds of different kinds of cells – from nerve cells to blood cells, skin cells to liver cells. What we really mean by a 'typical' cell is a general diagram that shows all the features that you will find in most cells (Figure 1.2). However, not all these are present in all cells – for example the cells in the parts of a plant that are not green do not contain chloroplasts.
 
-**NUTRITION**: PLANTS PRODUCE THEIR OWN FOOD THROUGH PHOTOSYNTHESIS, WHILE ANIMALS OBTAIN ENERGY BY CONSUMING OTHER ORGANISMS.
+| animal cell | plant cell |
+|-------------|------------|
+| nucleus | cell wall |
+| cell membrane | cell membrane (inside cell wall) |
+| mitochondria | vacuole |
+| cytoplasm | cytoplasm |
+| | mitochondria |
+| | chloroplasts |
+| | nucleus |
 
-**RESPIRATION**: ORGANISMS RELEASE ENERGY FROM THEIR FOOD THROUGH A PROCESS THAT CONVERTS CHEMICAL ENERGY INTO ATP.
+▲ Figure 1.2 The structure of a 'typical' animal and plant cell.
 
-**EXCRETION**: THE ELIMINATION OF WASTE PRODUCTS IS CRUCIAL FOR MAINTAINING INTERNAL STABILITY IN ORGANISMS.
+The living material that makes up a cell is called cytoplasm. It has a texture rather like sloppy jelly, in other words somewhere between a solid and a liquid. Unlike a jelly, it is not made of one substance but is a complex material made of many different structures. You can't see many of these structures under an ordinary light microscope. An electron microscope has a much higher magnification and can show the details of these structures, which are called organelles (Figure 1.3).
+---
+# ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES
 
-**RESPONSE TO STIMULI**: ORGANISMS DETECT AND REACT TO CHANGES IN THEIR ENVIRONMENT, ENSURING SURVIVAL AND ADAPTATION.
+The largest organelle in the cell is the **nucleus**. Nearly all cells have a nucleus. The few types that don't are usually dead (e.g. the xylem vessels in a stem, Chapter 11) or don't live for very long (e.g. red blood cells, Chapter 5). The nucleus controls the activities of the cell. It contains **chromosomes** (46 in human cells) which carry the genetic material, or **genes**. Genes control the activities in the cell by determining which proteins the cell can make. The DNA remains in the nucleus, but the instructions for making proteins are carried out of the nucleus to the cytoplasm, where the proteins are assembled on tiny structures called **ribosomes**. A cell contains thousands of ribosomes, but they are too small to be seen through a light microscope.
 
-**MOVEMENT**: ANIMALS MOVE USING MUSCLES, WHILE PLANTS EXHIBIT SLOW GROWTH MOVEMENTS THROUGH ELONGATION OF CELLS.
+One very important group of proteins found in cells are **enzymes**. Enzymes control the chemical reactions that take place in the cytoplasm.
 
-**CONTROL OF INTERNAL CONDITIONS**: ORGANISMS MAINTAIN A STABLE INTERNAL ENVIRONMENT THROUGH HOMEOSTATIC MECHANISMS.
+All cells are surrounded by a **cell membrane**, sometimes called the cell surface membrane to distinguish it from other membranes inside the cell. This is a thin layer like a 'skin' on the surface of the cell. It forms a boundary between the cytoplasm of the cell and the outside. However, it is not a complete barrier. Some chemicals can pass into the cell and others can pass out. We say that the membrane is **partially permeable**. The membrane can go further than this and actually control the movement of some substances – it is **selectively permeable**.
 
-**REPRODUCTION**: THE ABILITY TO PRODUCE OFFSPRING IS ESSENTIAL FOR THE CONTINUATION OF SPECIES.
-
-**GROWTH AND DEVELOPMENT**: ORGANISMS INCREASE IN SIZE AND COMPLEXITY BY UTILIZING MATERIALS FROM THEIR FOOD, FOLLOWING SPECIFIC GROWTH PATTERNS DETERMINED BY GENETICS AND ENVIRONMENT.
-
-# CELL STRUCTURE
-
-THIS SECTION EXPLORES THE STRUCTURE OF CELLS IN HIGHER ORGANISMS, INCLUDING ANIMALS, PLANTS, AND FUNGI. BACTERIAL CELLS, WHICH HAVE A SIMPLER STRUCTURE, ARE DISCUSSED IN ANOTHER CHAPTER.
-
-### KEY COMPONENTS OF CELLS
-
-MOST CELLS CONTAIN SEVERAL ESSENTIAL PARTS, INCLUDING:
-
-- **NUCLEUS**: THE CONTROL CENTER OF THE CELL.
-- **CYTOPLASM**: THE LIVING MATERIAL THAT CONSTITUTES A CELL, COMPOSED OF VARIOUS ORGANELLES.
-- **CELL MEMBRANE**: THE SEMI-PERMEABLE MEMBRANE ENCLOSING THE CELL.
-
-SOME CELLS MAY LACK CERTAIN STRUCTURES. FOR EXAMPLE, RED BLOOD CELLS DO NOT HAVE A NUCLEUS, WHICH ALLOWS THEM TO CARRY MORE OXYGEN IN THEIR HEMOGLOBIN.
-
-### TYPICAL CELL DIAGRAMS
-
-BIOLOGY TEXTBOOKS OFTEN PRESENT DIAGRAMS OF 'TYPICAL' PLANT AND ANIMAL CELLS. HOWEVER, NO SINGLE CELL IS TRULY TYPICAL, AS HUMANS ALONE HAVE HUNDREDS OF DIFFERENT CELL TYPES. THE TERM 'TYPICAL' REFERS TO GENERAL ILLUSTRATIONS THAT HIGHLIGHT COMMON FEATURES FOUND IN MOST CELLS. THESE DIAGRAMS MAY INCLUDE STRUCTURES LIKE MITOCHONDRIA IN ANIMALS OR CHLOROPLASTS IN PLANTS, EVEN IF NOT ALL CELLS POSSESS EVERY FEATURE.
-
-### COMPARISON OF ANIMAL AND PLANT CELLS
-
-ANIMAL CELLS CONTAIN:
-
-- NUCLEUS
-- CELL MEMBRANE
-- CYTOPLASM
-- MITOCHONDRIA
-
-PLANT CELLS, IN ADDITION TO THE ABOVE, HAVE:
-
-- CELL WALL
-- VACUOLE
-
-THE PRESENCE OF THESE STRUCTURES HIGHLIGHTS DIFFERENCES IN HOW PLANTS AND ANIMALS FUNCTION. THIS COMPARISON UNDERSCORES THE DIVERSITY OF CELL STRUCTURES AMONG ORGANISMS, EMPHASIZING THAT EACH TYPE OF CELL SERVES SPECIFIC FUNCTIONS TAILORED TO ITS ORGANISM'S NEEDS.
-
-# ORGANISMS AND LIFE PROCESSES
-
-## LIFE PROCESSES
-
-### THE CELL AND ITS ORGANELLES
-
-THE CELL CONTAINS SEVERAL ESSENTIAL ORGANELLES THAT PLAY CRUCIAL ROLES IN ITS FUNCTIONS. THE NUCLEUS, THE LARGEST ORGANELLE, SERVES AS THE CONTROL CENTER OF THE CELL, HOUSING CHROMOSOMES (46 IN HUMAN CELLS) THAT CARRY GENETIC INFORMATION. DNA, WHICH HOLDS THESE GENES, REMAINS WITHIN THE NUCLEUS BUT DIRECTS PROTEIN SYNTHESIS IN THE CYTOPLASM THROUGH RIBOSOMES, THOUSANDS OF WHICH ARE PRESENT BUT TOO SMALL TO BE SEEN UNDER A LIGHT MICROSCOPE. ENZYMES, VITAL FOR CATALYZING CHEMICAL REACTIONS, ALSO RESIDE IN THE CYTOPLASM.
-
-THE CELL MEMBRANE ACTS AS A PROTECTIVE BARRIER, SELECTIVELY ALLOWING SUBSTANCES TO ENTER OR EXIT THE CYTOPLASM. THIS SEMI-PERMEABLE MEMBRANE IS CRUCIAL FOR MAINTAINING CELLULAR INTEGRITY AND REGULATING INTERACTIONS WITH THE EXTERNAL ENVIRONMENT.
-
-MITOCHONDRIA, LOCATED IN THE CYTOPLASM, ARE ESSENTIAL FOR ENERGY PRODUCTION, PARTICULARLY IN CELLS REQUIRING HIGH ENERGY, SUCH AS MUSCLE AND NERVE CELLS. THESE ORGANELLES ARE RESPONSIBLE FOR THE FINAL STAGES OF RESPIRATION, RELEASING ENERGY THAT THE CELL CAN UTILIZE.
-
-### CELL MEMBRANE
-
-THE CELL MEMBRANE IS A THIN, FLEXIBLE STRUCTURE SURROUNDING THE CYTOPLASM, SERVING AS A BOUNDARY BETWEEN THE CELL'S INTERIOR AND ITS ENVIRONMENT. IT IS PARTIALLY PERMEABLE, ALLOWING CERTAIN SUBSTANCES TO PASS IN OR OUT WHILE CONTROLLING OTHERS, THUS REGULATING THE CELL'S CHEMICAL COMPOSITION.
-
-### MITOCHONDRIA
-
-MITOCHONDRIA ARE SPECIALIZED ORGANELLES FOUND IN ALL LIVING CELLS. THEY ARE PARTICULARLY NUMEROUS IN CELLS WITH HIGH ENERGY DEMANDS, SUCH AS THOSE IN MUSCLE AND NERVE TISSUES. THESE STRUCTURES ARE RESPONSIBLE FOR THE PRODUCTION OF ATP, THE CELL'S PRIMARY ENERGY CURRENCY, THROUGH THE PROCESS OF CELLULAR RESPIRATION. MOST OF THE ENERGY GENERATED DURING RESPIRATION IS RELEASED WITHIN MITOCHONDRIA.
+One organelle that is found in the cytoplasm of all living cells is the **mitochondrion** (plural mitochondria). In cells that need a lot of energy such as muscle or nerve cells, there are many mitochondria. This gives us a clue to their function. They carry out some of the reactions of **respiration** (see page 11) releasing energy that the cell can use. Most of the energy from respiration is released in the mitochondria.
 
 ## PLANT CELLS
 
-PLANT CELLS POSSESS UNIQUE STRUCTURAL FEATURES THAT DISTINGUISH THEM FROM ANIMAL CELLS. AMONG THESE ARE:
+All of the structures you have seen so far are found in both animal and plant cells. However, some structures are only ever found in plant cells. There are three in particular – the cell wall, a permanent vacuole and chloroplasts.
 
-### CELL WALL
+The **cell wall** is a layer of non-living material that is found outside the cell membrane of plant cells. It is made mainly of a carbohydrate called **cellulose**, although other chemicals may be added to the wall in some cells. Cellulose is a tough material that helps the cell keep its shape and is one reason why the 'body' of a plant has a fixed shape. Animal cells do not have a cell wall and tend to be more variable in shape. Plant cells absorb water, producing an internal pressure that pushes against adjacent cells, giving the plant support (see Chapter 11). Without a cell wall strong enough to resist these pressures, this method of support would be impossible. The cell wall is porous, so it is not a barrier to water or dissolved substances. We call it freely permeable.
 
-THE CELL WALL IS A RIGID, NON-LIVING LAYER ENCLOSING PLANT CELLS, PROVIDING STRUCTURAL SUPPORT AND PREVENTING EXCESSIVE EXPANSION. COMPOSED PRIMARILY OF CELLULOSE, IT MAINTAINS THE CELL'S SHAPE AND CONTRIBUTES TO THE RIGIDITY OF PLANT TISSUES. UNLIKE ANIMAL CELLS, WHICH ARE MORE VARIABLE IN FORM, PLANT CELLS HAVE A DEFINED STRUCTURE DUE TO THEIR CELL WALLS.
+Mature (fully grown) plant cells often have a large central space surrounded by a membrane, called a **vacuole**. This vacuole is a permanent feature of the cell. It is filled with a watery liquid called cell sap, which is a store of dissolved sugars, mineral ions and other solutes. Animal cells do contain vacuoles, but they are only small, temporary structures.
 
-### PERMANENT VACUOLE
+Cells of the green parts of plants, especially the leaves, contain another very important organelle, the **chloroplast**. Chloroplasts absorb light energy to make food in the process of photosynthesis (see Chapter 10). They contain a green pigment called **chlorophyll**. Cells from the parts of a plant that are not green, such as the flowers, roots and woody stems, have no chloroplasts.
 
-IN MATURE PLANT CELLS, A LARGE CENTRAL VACUOLE IS PRESENT, SURROUNDED BY A MEMBRANE. THIS VACUOLE CONTAINS CELL SAP, A SOLUTION RICH IN DISSOLVED SUGARS AND MINERALS. UNLIKE THE TEMPORARY VACUOLES FOUND IN ANIMAL CELLS, THIS STRUCTURE IS PERMANENT AND PLAYS A SIGNIFICANT ROLE IN STORING METABOLIC PRODUCTS.
-
-### CHLOROPLASTS
-
-CHLOROPLASTS ARE UNIQUE TO PLANT CELLS AND ARE ESSENTIAL FOR PHOTOSYNTHESIS. THESE ORGANELLES CONTAIN CHLOROPHYLL, THE PIGMENT NECESSARY FOR ABSORBING LIGHT ENERGY, WHICH IS THEN CONVERTED INTO CHEMICAL ENERGY THROUGH PHOTOPHOSPHORYLATION. THIS PROCESS ENABLES PLANTS TO SYNTHESIZE THEIR OWN FOOD IN AREAS LIKE LEAVES, WHERE THESE STRUCTURES ARE MOST ABUNDANT.
-
-### KEY POINT
-
-ALL CELLS SHARE FUNDAMENTAL ORGANELLES SUCH AS CYTOPLASM, NUCLEUS, CELL MEMBRANE, AND MITOCHONDRIA. PLANT CELLS FURTHER DISTINGUISH THEMSELVES WITH A CELL WALL, PERMANENT VACUOLE, AND CHLOROPLASTS. THE PRESENCE OF CHLOROPLASTS SPECIFICALLY IN PLANT CELLS ENABLES PHOTOSYNTHESIS, A PROCESS CRUCIAL FOR THEIR SURVIVAL IN ENVIRONMENTS WHERE SUNLIGHT IS AVAILABLE.
-
-# ORGANISMS AND LIFE PROCESSES
-
-## LIFE PROCESSES
-
-### CELLS UNDER THE MICROSCOPE
-THE FIGURE ILLUSTRATES ANIMAL AND PLANT CELLS OBSERVED UNDER A LIGHT MICROSCOPE. THE HUMAN CHEEK LINING CELLS MEASURE 10 ΜM, WHILE LEAF PHOTOSYNTHETIC TISSUE CELLS ARE LARGER AT 25 ΜM.
-
+| KEY POINT |
+|-----------|
+| Nearly all cells contain cytoplasm, a nucleus, a cell membrane and mitochondria. As well as these structures, plant cells have a cell wall and a permanent vacuole, and plant cells that photosynthesise contain chloroplasts. |
 ---
+MARKDOWN_EXTRACTION_FAILED
+---
+# ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES
 
-## ENZYMES: CONTROLLING REACTIONS IN THE CELL
+The molecule that an enzyme acts on is called its substrate. Each enzyme has a small area on its surface called the active site. The substrate attaches to the active site of the enzyme. The reaction then takes place and products are formed. When the substrate joins up with the active site it lowers the energy needed for the reaction to start, allowing the products to be formed more easily.
 
-### KEY POINT
-METABOLIC REACTIONS WITHIN A CELL INVOLVE CHEMICAL PROCESSES REGULATED BY ENZYMES. THE COLLECTIVE TERM FOR THESE REACTIONS IS CELLULAR METABOLISM.
+Enzymes also catalyse reactions where large molecules are built up from smaller ones. In this case, several substrate molecules attach to the active site, the reaction takes place and the larger product molecule is formed. The product then leaves the active site.
 
-### WHAT ARE ENZYMES?
-ENZYMES ARE BIOLOGICAL CATALYSTS, PROTEINS THAT ACCELERATE SPECIFIC CHEMICAL REACTIONS WITHOUT BEING CONSUMED. EACH ENZYME CATALYZES A UNIQUE REACTION, ENABLING PRECISE CONTROL OF CELLULAR ACTIVITIES. THESE ENZYMES ARE PRODUCED IN THE NUCLEUS THROUGH GENE REGULATION AND FUNCTION PRIMARILY IN THE CYTOPLASM.
+The substrate fits into the active site of the enzyme like a key fitting into a lock. Just as a key will only fit one lock, a substrate will only fit into the active site of a particular enzyme. This is known as the lock and key model of enzyme action. It is the reason why enzymes are specific, i.e. an enzyme will only catalyse one reaction.
 
-### ENZYME PRODUCTION
-GENES DICTATE THE PRODUCTION OF ENZYMES, WHICH THEN CATALYZE REACTIONS ESSENTIAL FOR CELL FUNCTIONS. THE SPECIFIC ENZYMES A CELL PRODUCES DETERMINE ITS METABOLIC CAPABILITIES.
+| 1 | 2 |
+|---|---|
+|  |  |
+| 4 | 3 |
+|  |  |
 
-### WHY ARE ENZYMES NECESSARY?
-ENZYMES FACILITATE RAPID CHEMICAL REACTIONS AT BODY TEMPERATURES, ENABLING ESSENTIAL CELLULAR PROCESSES TO FUNCTION EFFICIENTLY AND SUSTAIN LIFE.
+▲ Figure 1.5 Enzymes catalyse reactions at their active site. This acts like a 'lock' to the substrate 'key'. The substrate fits into the active site, and products are formed. This happens more easily than without the enzyme – so enzymes act as catalysts.
 
-### INTRACELLULAR VS. EXTRACELLULAR ENZYMES
-- **EXTRACELLULAR ENZYMES**: FOUND IN THE INTESTINE, THEY AID IN FOOD DIGESTION.
-- **INTRACELLULAR ENZYMES**: PERFORM FUNCTIONS WITHIN CELLS, CONTRIBUTING TO VARIOUS BIOCHEMICAL PROCESSES.
-
-# ORGANISMS AND LIFE PROCESSES
-
-## LIFE PROCESSES
-
-ENZYMES ARE BIOLOGICAL CATALYSTS THAT SPEED UP CHEMICAL REACTIONS IN LIVING ORGANISMS. THESE MOLECULES, KNOWN AS SUBSTRATES, INTERACT WITH A SPECIFIC AREA ON THE ENZYME CALLED THE ACTIVE SITE. THIS INTERACTION ALLOWS REACTIONS TO PROCEED MORE EFFICIENTLY, FACILITATING THE FORMATION OF PRODUCTS.
-
-THE LOCK AND KEY MODEL EXPLAINS THIS SPECIFICITY. AN ENZYME'S ACTIVE SITE IS LIKE A LOCK, WHILE THE SUBSTRATE FITS INTO IT LIKE A KEY. THIS ENSURES THAT EACH ENZYME REACTS ONLY WITH ITS UNIQUE SUBSTRATE, CATALYZING SPECIFIC REACTIONS WITHOUT INTERFERING WITH OTHERS.
-
-AFTER THE REACTION OCCURS, THE PRODUCT IS RELEASED FROM THE ACTIVE SITE, ALLOWING THE ENZYME TO CONTINUE CATALYZING FURTHER REACTIONS WITH ADDITIONAL SUBSTRATE MOLECULES.
+After an enzyme molecule has catalysed a reaction, the product is released from the active site, and the enzyme is free to act on more substrate molecules.
 
 ## FACTORS AFFECTING ENZYMES
 
-SEVERAL FACTORS INFLUENCE ENZYME ACTIVITY:
+A number of factors affect the activity of enzymes. The rate of reaction may be increased by raising the concentration of the enzyme or the substrate. Two other factors that affect enzymes are temperature and pH.
 
-1. **CONCENTRATION OF ENZYME AND SUBSTRATE**: INCREASING EITHER CAN ENHANCE REACTION RATES.
-2. **TEMPERATURE**: HUMAN ENZYMES FUNCTION OPTIMALLY AT BODY TEMPERATURE (37°C).
+### KEY POINT
+'Optimum' temperature means the 'best' temperature, in other words the temperature at which the reaction takes place most rapidly.
 
-THE RELATIONSHIP BETWEEN TEMPERATURE AND ENZYME ACTIVITY PEAKS AT THE OPTIMAL TEMPERATURE, AS HIGHER TEMPERATURES INCREASE MOLECULAR KINETIC ENERGY, LEADING TO MORE FREQUENT COLLISIONS AND REACTIONS.
+### TEMPERATURE
 
-UNDERSTANDING ENZYME BEHAVIOR IS CRUCIAL FOR STUDYING BIOLOGICAL PROCESSES.
+The effect of temperature on the action of an enzyme is easiest to see as a graph, where we plot the rate of the reaction against temperature (Figure 1.6).
 
-# ORGANISMS AND LIFE PROCESSES
+Enzymes in the human body have evolved to work best at body temperature (37 °C). The graph in Figure 1.6 shows a peak on the curve at this temperature, which is called the optimum temperature for the enzyme.
 
-## LIFE PROCESSES
+As the enzyme is heated up to the optimum temperature, the rise in temperature increases the rate of reaction. This is because higher temperatures give the molecules of the enzyme and the substrate more kinetic energy, so they collide more often. More collisions means that the reaction will take place more frequently.
 
-### ENZYMES AND THEIR FUNCTION
+### DID YOU KNOW?
 
-ENZYMES ARE CRUCIAL BIOLOGICAL CATALYSTS THAT ACCELERATE CHEMICAL REACTIONS IN LIVING ORGANISMS. THEY PRIMARILY CONSIST OF PROTEINS AND THEIR ACTIVITY IS INFLUENCED BY FACTORS SUCH AS TEMPERATURE AND PH.
+Kinetic energy is the energy an object has because of its movement. The molecules of enzyme and substrate are moving faster, so they have more kinetic energy.
+---
+# 8 ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES
 
-#### EFFECT OF TEMPERATURE ON ENZYME ACTIVITY
+## Effect of Temperature on Enzyme Action
 
-EACH ENZYME HAS AN OPTIMAL TEMPERATURE AT WHICH IT FUNCTIONS MOST EFFECTIVELY. FOR MANY ENZYMES IN MAMMALS AND BIRDS, THIS OPTIMAL TEMPERATURE IS APPROXIMATELY 37°C, ALIGNING WITH THE BODY'S NORMAL TEMPERATURE.
+Effect of temperature on the action of an enzyme
 
-DENATURATION OCCURS WHEN TEMPERATURES EXCEED THE OPTIMAL LEVEL, CAUSING THE PROTEIN STRUCTURE OF THE ENZYME TO UNRAVEL. THIS STRUCTURAL CHANGE ALTERS THE ACTIVE SITE, PREVENTING THE SUBSTRATE FROM BINDING CORRECTLY. DENATURATION IS IRREVERSIBLE, LEADING TO A LOSS OF ENZYMATIC ACTIVITY.
+| Temperature (°C) | Rate of enzyme-catalysed reaction (arbitrary unit) |
+|------------------|---------------------------------------------------|
+| 0                | 0                                                 |
+| 10               | Low                                               |
+| 20               | Medium                                            |
+| 30               | High                                              |
+| 40               | Peak (Optimum temperature)                        |
+| 50               | High                                              |
+| 60               | Low                                               |
+| 70               | Very low                                          |
 
-AN ILLUSTRATIVE EXAMPLE IS BOILING AN EGG, WHERE THE PROTEIN IN THE EGG WHITE DENATURES, TRANSFORMING IT FROM A LIQUID TO A SOLID.
+Figure 1.6 Effect of temperature on the action of an enzyme.
 
-#### EFFECT OF PH ON ENZYME ACTIVITY
+However, above the optimum, temperature starts to have another effect. Enzymes are made of protein, and proteins are broken down by heat. From 40 °C upwards, the heat destroys the enzyme. We say that it is denatured. You can see the effect of denaturing when you boil an egg. The egg white is made of protein, and turns from a clear runny liquid into a white solid as the heat denatures the protein. Denaturing changes the shape of the active site so that the substrate will no longer fit into it. Denaturing is permanent – the enzyme molecules will no longer catalyse the reaction.
 
-THE PH LEVEL SURROUNDING AN ENZYME SIGNIFICANTLY IMPACTS ITS FUNCTIONALITY. MOST ENZYMES OPERATE BEST AT A NEUTRAL PH (AROUND 7), REFERRED TO AS THEIR OPTIMUM PH.
+Not all enzymes have an optimum temperature near 37 °C, only those of animals such as mammals and birds, which all have body temperatures close to this value. Enzymes have evolved to work best at the normal body temperature of the organism. Bacteria that always live at an average temperature of 10 °C will probably have enzymes with an optimum temperature near 10 °C.
 
-EXCESSIVE ALKALINITY OR ACIDITY CAN IMPAIR ENZYME STRUCTURE AND ACTIVITY. FOR INSTANCE, EXTREME PH LEVELS DISRUPT THE ACTIVE SITE'S SHAPE, HINDERING SUBSTRATE BINDING.
+## pH
 
-SOME ENZYMES, HOWEVER, ARE ADAPTED TO FUNCTION IN SPECIFIC CONDITIONS. PEPSIN, FOUND IN THE STOMACH, THRIVES IN ACIDIC ENVIRONMENTS WITH AN OPTIMAL PH OF ABOUT 2, FACILITATING ITS ROLE IN DIGESTION DESPITE UNFAVORABLE CONDITIONS FOR MOST ENZYMES.
+The pH around the enzyme is also important. The pH inside cells is neutral (pH 7) and most enzymes have evolved to work best at this pH. At extremes of pH either side of neutral, the enzyme activity decreases, as shown in Figure 1.7. The pH at which the enzyme works best is called its optimum pH. Either side of the optimum, the pH affects the structure of the enzyme molecule and changes the shape of its active site, so that the substrate will not fit into it so well.
 
-THE STOMACH'S PRODUCTION OF HYDROCHLORIC ACID CREATES A HIGHLY ACIDIC ENVIRONMENT, SUPPORTING PEPSIN ACTIVITY WHILE INHIBITING OTHER ENZYMES.
+Most enzymes work best at a neutral pH
 
-### KEY POINTS TO REMEMBER
+| pH | Rate of enzyme-catalysed reaction (arbitrary units) |
+|----|---------------------------------------------------|
+| 5  | Low                                               |
+| 6  | Medium                                            |
+| 7  | Peak (Optimum pH)                                 |
+| 8  | Medium                                            |
+| 9  | Low                                               |
 
-- ENZYMES HAVE SPECIFIC OPTIMAL TEMPERATURES AND PH LEVELS FOR FUNCTION.
-- DENATURATION IS AN IRREVERSIBLE STRUCTURAL CHANGE CAUSED BY EXTREME TEMPERATURE OR PH CONDITIONS.
-- SOME ENZYMES, LIKE PEPSIN, ARE SPECIALIZED TO OPERATE IN UNUSUAL ENVIRONMENTS SUCH AS HIGH ACIDITY.
+Figure 1.7 Most enzymes work best at a neutral pH.
 
-UNDERSTANDING THESE FACTORS IS ESSENTIAL FOR STUDYING ENZYME BEHAVIOR IN VARIOUS BIOLOGICAL PROCESSES.
+### KEY POINT
 
-# ORGANISMS AND LIFE PROCESSES
-
-## LIFE PROCESSES
-
-### ACTIVITY 1: PRACTICAL INVESTIGATION INTO THE EFFECT OF TEMPERATURE ON THE ACTIVITY OF AMYLASE
-
-**SAFETY NOTE:**
-WEAR EYE PROTECTION AND AVOID SKIN CONTACT WITH THE LIQUIDS. AMYLASE IS HAZARDOUS TO THE EYES.
-
-THE DIGESTIVE ENZYME **AMYLASE** PLAYS A CRUCIAL ROLE IN BREAKING DOWN STARCH INTO THE SUGAR **MALTOSE**. TO MEASURE THE ACTIVITY OF AMYLASE, WE CAN RECORD HOW QUICKLY STARCH DISAPPEARS FROM A SOLUTION WHEN EXPOSED TO DIFFERENT TEMPERATURES.
-
-### APPARATUS SETUP
-FIGURE 1.8 ILLUSTRATES THE APPARATUS USED TO INVESTIGATE HOW QUICKLY STARCH IS BROKEN DOWN BY AMYLASE AT VARIOUS TEMPERATURES.
-
-THE APPARATUS CONSISTS OF:
-- A **STARCH SUSPENSION**, PREPARED BY MIXING STARCH WITH WATER.
-- AN **AMYLASE SOLUTION**, SUPPLIED AS A LIQUID.
-- AN **IODINE SOLUTION**, USED TO DETECT THE PRESENCE OF STARCH.
-- A **SPOTTING TILE** FOR PLACING DROPS OF IODINE SOLUTION.
-
-### PROCEDURE
-1. **PREPARATION:**
-   - USING A SYRINGE, TRANSFER 5 CM³ OF STARCH SUSPENSION INTO ONE BOILING TUBE.
-   - IN ANOTHER BOILING TUBE, ADD 5 CM³ OF AMYLASE SOLUTION USING A SEPARATE SYRINGE.
-   - FILL A BEAKER WITH WATER MAINTAINED AT **20°C**.
-
-2. **TEMPERATURE EQUILIBRATION:**
-   - PLACE BOTH BOILING TUBES IN THE BEAKER FOR **5 MINUTES** TO ALLOW THEM TO REACH THERMAL EQUILIBRIUM AT 20°C.
-
-3. **MIXING:**
-   - POUR THE AMYLASE SOLUTION INTO THE STARCH SUSPENSION WHILE KEEPING THE MIXTURE WITHIN THE WATER BATH.
-   - IMMEDIATELY COLLECT A SMALL SAMPLE USING A PIPETTE AND APPLY IT TO THE FIRST DROP OF IODINE SOLUTION ON THE SPOTTING TILE.
-
-4. **OBSERVATION:**
-   - NOTE THE COLOR CHANGE OF THE IODINE SOLUTION, WHICH TURNS BLUE-BLACK IN THE PRESENCE OF STARCH.
-   - COLLECT SAMPLES EVERY **30 SECONDS FOR 10 MINUTES**, TESTING EACH TIME AS DESCRIBED, UNTIL THE IODINE SOLUTION REMAINS YELLOW, INDICATING COMPLETE STARCH BREAKDOWN.
-
-5. **TEMPERATURE VARIATION:**
-   - REPEAT THE EXPERIMENT WHILE MAINTAINING THE WATER BATH AT DIFFERENT TEMPERATURES RANGING FROM **20°C TO 60°C**.
-
-### RESULTS
-THE EXPERIMENT RECORDS THE TIME TAKEN FOR STARCH TO BE COMPLETELY BROKEN DOWN ACROSS VARIOUS TEMPERATURES, PROVIDING INSIGHTS INTO HOW TEMPERATURE AFFECTS AMYLASE ACTIVITY.
-
-# ORGANISMS AND LIFE PROCESSES: LIFE PROCESSES
-
-IN BIOLOGICAL PROCESSES, THE RATE OF REACTION IS CRUCIAL FOR UNDERSTANDING HOW ORGANISMS FUNCTION. ONE COMMON EXPERIMENT INVOLVES OBSERVING THE BREAKDOWN OF STARCH, WHICH CAN BE MONITORED THROUGH A COLOR CHANGE FROM BLUE-BLACK TO YELLOW.
-
-## UNDERSTANDING REACTION RATES
-
-THE RATE OF REACTION IN BIOLOGICAL PROCESSES CAN BE STUDIED USING EXPERIMENTS LIKE THE ONE MONITORING STARCH BREAKDOWN. THIS PROCESS IS OBSERVED THROUGH COLOR CHANGES OVER TIME, PROVIDING INSIGHTS INTO REACTION DYNAMICS.
-
-### EXPERIMENT OVERVIEW
-
-THE EXPERIMENT EXAMINES HOW TEMPERATURE AFFECTS THE BREAKDOWN OF STARCH. THE TABLE BELOW SHOWS THE COLOR CHANGES AT DIFFERENT TEMPERATURES OVER TIME:
-
-| TIME (MIN) | 20°C        | 30°C        | 40°C        | 50°C        | 60°C        |
-|------------|-------------|-------------|-------------|-------------|-------------|
-| 0.0        | BLUE-BLACK  | BLUE-BLACK  | BLUE-BLACK  | BLUE-BLACK  | BLUE-BLACK  |
-| 0.5        | BLUE-BLACK  | BLUE-BLACK  | BROWN       | BLUE-BLACK  | BLUE-BLACK  |
-| 1.0        | BLUE-BLACK  | BLUE-BLACK  | YELLOW      | BLUE-BLACK  | BLUE-BLACK  |
-| 1.5        | BLUE-BLACK  | BLUE-BLACK  | YELLOW      | BLUE-BLACK  | BLUE-BLACK  |
-| 2.0        | BLUE-BLACK  | BLUE-BLACK  | YELLOW      | BROWN       | BLUE-BLACK  |
-| 2.5        | BLUE-BLACK  | BLUE-BLACK  | YELLOW      | BROWN       | BLUE-BLACK  |
-| 3.0        | BLUE-BLACK  | BLUE-BLACK  | YELLOW      | BROWN       | BLUE-BLACK  |
-| 3.5        | BLUE-BLACK  | BLUE-BLACK  | YELLOW      | YELLOW      | BLUE-BLACK  |
-| 4.0        | BLUE-BLACK  | BLUE-BLACK  | YELLOW      | YELLOW      | BLUE-BLACK  |
-| 5.5        | BLUE-BLACK  | BLUE-BLACK  | YELLOW      | YELLOW      | BLUE-BLACK  |
-| 6.0        | BLUE-BLACK  | BROWN       | YELLOW      | YELLOW      | BLUE-BLACK  |
-| 6.5        | BLUE-BLACK  | BROWN       | YELLOW      | YELLOW      | BLUE-BLACK  |
-| 7.0        | BLUE-BLACK  | YELLOW      | YELLOW      | YELLOW      | BLUE-BLACK  |
-| 7.5        | BLUE-BLACK  | YELLOW      | YELLOW      | YELLOW      | BROWN       |
-| 8.0        | BLUE-BLACK  | YELLOW      | YELLOW      | YELLOW      | BROWN       |
-| 8.5        | BROWN       | YELLOW      | YELLOW      | YELLOW      | YELLOW      |
-| 9.0        | BROWN       | YELLOW      | YELLOW      | YELLOW      | YELLOW      |
-| 9.5        | YELLOW      | YELLOW      | YELLOW      | YELLOW      | YELLOW      |
-| 10.0       | YELLOW      | YELLOW      | YELLOW      | YELLOW      | YELLOW      |
-
-THE DATA SHOWS THAT TEMPERATURE SIGNIFICANTLY AFFECTS STARCH BREAKDOWN, WITH HIGHER TEMPERATURES LEADING TO FASTER REACTIONS.
-
-### CALCULATING THE RATE OF REACTION
-
-THE RATE OF REACTION CAN BE CALCULATED BASED ON THE TIME TAKEN FOR STARCH BREAKDOWN. FOR EXAMPLE, AT 50°C, COMPLETE BREAKDOWN OCCURS AFTER 3.5 MINUTES. THE RATE IS COMPUTED USING:
-
-\[ \TEXT{RATE} = \FRAC{\TEXT{VOLUME OF STARCH (5 CM}^3\TEXT{)}}{\TEXT{TIME (3.5 MIN)}} = 1.4 \TEXT{ CM}^3/\TEXT{MIN} \]
-
-### GRAPHING THE RESULTS
-
-TO VISUALIZE THE RELATIONSHIP BETWEEN TEMPERATURE AND REACTION RATE, PLOT A GRAPH WITH RATE ON THE Y-AXIS AND TEMPERATURE ON THE X-AXIS. THE EXPECTED CURVE WILL SHOW AN INCREASE IN REACTION RATE WITH HIGHER TEMPERATURES, FOLLOWING AN EXPONENTIAL PATTERN.
-
-### EXPERIMENT IMPROVEMENT
-
-IF RESULTS DO NOT MATCH EXPECTATIONS, CONSIDER FACTORS LIKE SOLUTION CONCENTRATION OR ENZYME ACTIVITY. MODIFY THE EXPERIMENT BY ADJUSTING THESE VARIABLES TO ENHANCE ACCURACY AND BETTER UNDERSTAND REACTION DYNAMICS.
-
-BY ADDRESSING THESE CONSIDERATIONS, RESEARCHERS CAN IMPROVE EXPERIMENTAL RELIABILITY AND GAIN DEEPER INSIGHTS INTO BIOLOGICAL PROCESSES.
-
-# ORGANISMS AND LIFE PROCESSES
-
-## KEY POINT
-RESPIRATION IN ORGANISMS IS AN OXIDATION REACTION WHERE OXYGEN BREAKS DOWN FOOD MOLECULES TO RELEASE STORED CHEMICAL ENERGY.
+Although most enzymes work best at a neutral pH, a few have an optimum below or above pH 7. The stomach produces hydrochloric acid, which makes its contents very acidic (see Chapter 4). Most enzymes stop working at a low pH, but the stomach makes an enzyme called pepsin which has an optimum pH of about 2, so that it is adapted to work well in these unusually acidic surroundings.
+---
+                transfer sample
+                every 30 seconds
+                    |
+                    v
+                    
+                                spots of iodine
+                                solution
+                                    |
+                                    v
+water
+ |                               -------
+ v                              |       |
+---   ---             ---       |       |
+| |   | |             | |       |       |
+| |   | |             | |       |       |
+---   ---             ---       |       |
+ |     |               |        |       |
+ |     |               |        |       |
+amylase starch         starch and amylase
+solution suspension    mixture    spotting tile
 
 ---
+10   ORGANISMS AND LIFE PROCESSES   LIFE PROCESSES
 
-## LIFE PROCESSES: HOW CELLS OBTAIN ENERGY
+| Colour of mixture at different temperatures / (°C) |||||
+|------------|-----------|-----------|-----------|-----------|-----------|
+| Time / min | 20        | 30        | 40        | 50        | 60        |
+| 0.0        | Blue-black| Blue-black| Blue-black| Blue-black| Blue-black|
+| 0.5        | Blue-black| Blue-black| Brown     | Blue-black| Blue-black|
+| 1.0        | Blue-black| Blue-black| Yellow    | Blue-black| Blue-black|
+| 1.5        | Blue-black| Blue-black| Yellow    | Blue-black| Blue-black|
+| 2.0        | Blue-black| Blue-black| Yellow    | Brown     | Blue-black|
+| 2.5        | Blue-black| Blue-black| Yellow    | Brown     | Blue-black|
+| 3.0        | Blue-black| Blue-black| Yellow    | Brown     | Blue-black|
+| 3.5        | Blue-black| Blue-black| Yellow    | Yellow    | Blue-black|
+| 4.0        | Blue-black| Blue-black| Yellow    | Yellow    | Blue-black|
+| 5.5        | Blue-black| Blue-black| Yellow    | Yellow    | Blue-black|
+| 6.0        | Blue-black| Brown     | Yellow    | Yellow    | Blue-black|
+| 6.5        | Blue-black| Brown     | Yellow    | Yellow    | Blue-black|
+| 7.0        | Blue-black| Yellow    | Yellow    | Yellow    | Blue-black|
+| 7.5        | Blue-black| Yellow    | Yellow    | Yellow    | Brown     |
+| 8.0        | Blue-black| Yellow    | Yellow    | Yellow    | Brown     |
+| 8.5        | Brown     | Yellow    | Yellow    | Yellow    | Yellow    |
+| 9.0        | Brown     | Yellow    | Yellow    | Yellow    | Yellow    |
+| 9.5        | Yellow    | Yellow    | Yellow    | Yellow    | Yellow    |
+| 10.0       | Yellow    | Yellow    | Yellow    | Yellow    | Yellow    |
 
-CELLS REQUIRE ENERGY FOR LIFE PROCESSES SUCH AS REPRODUCTION AND GROWTH. THIS ENERGY IS DERIVED FROM THE BREAKDOWN OF FOOD MOLECULES THROUGH A PROCESS KNOWN AS RESPIRATION. RESPIRATION CONVERTS STORED CHEMICAL ENERGY INTO USABLE FORMS, PRIMARILY ATP (ADENOSINE TRIPHOSPHATE), WHICH SERVES AS THE CELL'S ENERGY CURRENCY.
+The rate of reaction can be calculated from the time taken for the starch to be fully broken down, as shown by the colour change from blue-black to yellow. For example, at 50 °C the starch had all been digested after 3.5 minutes. The rate is found by dividing the volume of the starch (5 cm³) by the time:
 
+Rate = 5.0 cm³ / 3.5 min = 1.4 cm³ per min
+
+Plotting a graph of rate against temperature should produce a curve similar to the one shown in Figure 1.6. Try this, using the results in the table. Better still, you may be able to do this experiment and provide your own results.
+
+If the curve doesn't turn out quite like the one in Figure 1.6, can you suggest why this is? How could you improve the experiment to get more reliable results?
 ---
+# ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES
 
-## WHAT HAPPENS DURING RESPIRATION
+## HOW THE CELL GETS ITS ENERGY
 
-RESPIRATION OCCURS IN ALL CELLS AND INVOLVES THE OXIDATION OF GLUCOSE, A COMMON SUGAR. OXYGEN PLAYS A CRUCIAL ROLE IN THIS PROCESS BY REACTING WITH GLUCOSE TO PRODUCE CARBON DIOXIDE AND WATER, WHILE RELEASING STORED CHEMICAL ENERGY. THIS ENERGY IS THEN USED TO FORM ATP MOLECULES, WHICH ARE ESSENTIAL FOR VARIOUS CELLULAR FUNCTIONS.
+A cell needs a source of energy in order to be able to carry out all the processes needed for life. It gets this energy by breaking down food molecules to release the stored chemical energy that they contain. This process is called respiration. Many people think that respiration means the same as 'breathing', but although there are links between the two processes, the biological meaning of respiration is very different.
 
+### KEY POINT
+Respiration is called an oxidation reaction, because oxygen is used to break down food molecules.
+
+Respiration happens in all the cells of our body. Oxygen is used to oxidise food, and carbon dioxide (and water) are released as waste products. The main food oxidised is a sugar called glucose. Glucose contains stored chemical energy that can be converted into other forms of energy that the cell can use. It is rather like burning a fuel to get the energy out of it, except that burning releases most of the energy as heat. Respiration releases some heat energy, but most is used to make a substance called ATP (see below). The energy stored in the ATP molecules can then be used for a variety of purposes, such as:
+
+- contraction of muscle cells, producing movement
+- active transport of molecules and ions (see page 17)
+- building large molecules, such as proteins
+- cell division.
+
+The energy released as heat is also used to maintain a constant body temperature in mammals and birds (see Chapter 8).
+
+The overall reaction for respiration is:
+
+| glucose | + | oxygen | → | carbon dioxide | + | water | (+ energy) |
+|---------|---|--------|---|----------------|---|-------|------------|
+| C₆H₁₂O₆ | + | 6O₂    | → | 6CO₂           | + | 6H₂O  | (+ energy) |
+
+### DID YOU KNOW?
+
+Carbon from the respired glucose passes out into the atmosphere as carbon dioxide. The carbon can be traced through this pathway using a radioactive form of carbon called carbon-14.
+
+This is called aerobic respiration, because it uses oxygen. Aerobic respiration happens in the cells of humans and those of animals, plants and many other organisms. It is important to realise that the equation above is only a summary of the process. It actually takes place gradually, as a sequence of small steps, which release the energy of the glucose in small amounts. Each step in the process is catalysed by a different enzyme. The later steps in the process are the aerobic ones, and these release the most energy. They happen in the mitochondria of the cell.
+
+## ATP – THE ENERGEY 'CURRENCY' OF THE CELL
+
+Respiration releases energy while other cell processes use it up. Cells have a way of passing the energy from respiration to the other processes that need it. They do this using a chemical called adenosine triphosphate or ATP. ATP is present in all living cells.
 ---
+## ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES
 
-## ENERGY RELEASE
+ATP is composed of an organic molecule called adenosine attached to three phosphate groups. In a cell, ATP can be broken down losing one phosphate group and forming adenosine diphosphate or ADP (Figure 1.9 (a)).
 
-THE PROCESS OF RESPIRATION RELEASES ENERGY THROUGH THE PRODUCTION OF ATP. WHILE SOME ENERGY IS LOST AS HEAT, A SIGNIFICANT PORTION IS STORED IN ATP, ENABLING PROCESSES LIKE MUSCLE CONTRACTION, ACTIVE TRANSPORT, PROTEIN SYNTHESIS, AND CELL DIVISION. THIS ENERGY RELEASE HELPS MAINTAIN BODY TEMPERATURE IN MAMMALS AND BIRDS.
+(a) When energy is needed ATP is broken down into ADP and phosphate (P):
 
----
+| adenosine | P | P | P | + H₂O | → | adenosine | P | P | + | P |
+|-----------|---|---|---|--------|---|-----------|---|---|---|---|
 
-## THE OVERALL REACTION FOR RESPIRATION
+(b) During respiration ATP is made from ADP and phosphate:
 
-THE CHEMICAL EQUATION REPRESENTING RESPIRATION IS:
+| adenosine | P | P | + | P | → | adenosine | P | P | P | + H₂O |
+|-----------|---|---|---|---|---|-----------|---|---|---|--------|
 
-\[ \TEXT{GLUCOSE} + \TEXT{OXYGEN} \RIGHTARROW \TEXT{CARBON DIOXIDE} + \TEXT{WATER} + \TEXT{ENERGY} \]
+▲ Figure 1.9 ATP is the energy 'currency' of the cell.
 
-IN A MORE DETAILED FORM, THIS REACTION IS:
+When this reaction takes place, chemical energy is released and can be used to drive metabolic processes that need it.
 
-\[ C_6H_{12}O_6 + 6O_2 \RIGHTARROW 6CO_2 + 6H_2O + \TEXT{ENERGY} \]
+During respiration the opposite happens – energy from the oxidation of glucose is used to drive the reverse reaction and a phosphate is added onto ADP (Figure 1.9 (b)).
 
----
-
-## TRACING CARBON PATHWAYS
-
-CARBON FROM GLUCOSE RELEASED AS CARBON DIOXIDE CAN BE TRACED USING A RADIOACTIVE FORM CALLED CARBON-14. THIS METHOD HELPS STUDY THE PATHWAY OF CARBON THROUGH ECOSYSTEMS.
-
----
-
-## AEROBIC RESPIRATION
-
-RESPIRATION INVOLVING OXYGEN IS TERMED AEROBIC. IT OCCURS IN VARIOUS ORGANISMS AND PROCEEDS IN MULTIPLE STEPS, EACH CATALYZED BY SPECIFIC ENZYMES. THE FINAL STAGES, WHICH RELEASE SIGNIFICANT ENERGY, OCCUR IN MITOCHONDRIA WITHIN CELLS.
-
----
-
-## ENERGY TRANSFER IN CELLS
-
-ATP ACTS AS THE PRIMARY ENERGY CARRIER IN CELLS. IT TRANSFERS ENERGY FROM RESPIRATION TO OTHER PROCESSES, SUCH AS MUSCLE CONTRACTION AND MOLECULE TRANSPORT, FACILITATING ESSENTIAL CELLULAR ACTIVITIES.
-
-# ORGANISMS AND LIFE PROCESSES: LIFE PROCESSES
-
-## ATP: THE ENERGY CURRENCY OF THE CELL
-
-ADENOSINE TRIPHOSPHATE (ATP) IS A CRITICAL ORGANIC MOLECULE IN CELLS. COMPOSED OF ADENOSINE ATTACHED TO THREE PHOSPHATE GROUPS, ATP SERVES AS THE PRIMARY ENERGY CURRENCY, FACILITATING ENERGY TRANSFER BETWEEN METABOLIC PROCESSES.
-
-### ATP BREAKDOWN
-
-WHEN ENERGY IS REQUIRED, ATP BREAKS DOWN BY LOSING ONE PHOSPHATE GROUP, FORMING ADENOSINE DIPHOSPHATE (ADP) AND A FREE PHOSPHATE ION. THIS REACTION RELEASES CHEMICAL ENERGY FOR CELLULAR ACTIVITIES.
-
-### ATP FORMATION
-
-DURING RESPIRATION, THE REVERSE OCCURS. ENERGY FROM GLUCOSE OXIDATION IS USED TO ADD A PHOSPHATE GROUP BACK TO ADP, REGENERATING ATP. THIS CYCLE MAINTAINS THE CELL'S ENERGY BALANCE.
+ATP is often described as the energy 'currency' of the cell. It transfers energy between the process that releases it (respiration) and the processes in a cell that use it up.
 
 ## ANAEROBIC RESPIRATION
 
-IN OXYGEN-DEPRIVED ENVIRONMENTS, CELLS RESORT TO ANAEROBIC RESPIRATION, A LESS EFFICIENT PROCESS WHERE GLUCOSE IS ONLY PARTIALLY BROKEN DOWN.
+There are some situations where cells can respire without using oxygen. This is called anaerobic respiration. In anaerobic respiration, glucose is not completely broken down, so less energy is released. The advantage of anaerobic respiration is that it can occur in situations where oxygen is in short supply. Two important examples of this are in yeast cells and muscle cells.
 
-### ANAEROBIC RESPIRATION IN YEAST
+Yeasts are single-celled fungi. They are used in commercial processes such as making wine and beer, and baking bread. When yeast cells are prevented from getting enough oxygen, they stop respiring aerobically and start to respire anaerobically instead. The glucose is partly broken down into ethanol (alcohol) and carbon dioxide:
 
-YEAST CELLS, SINGLE-CELLED FUNGI, EMPLOY ANAEROBIC RESPIRATION WHEN OXYGEN LEVELS ARE LOW. GLUCOSE IS CONVERTED INTO ETHANOL AND CARBON DIOXIDE, RELEASING ENERGY:
+glucose → ethanol + carbon dioxide (+ some energy)
 
-GLUCOSE IS PARTIALLY BROKEN DOWN INTO ETHANOL AND CARBON DIOXIDE, PRODUCING SOME ENERGY.
+This process is described in more detail in Chapter 21. The ethanol from this type of respiration is the alcohol formed in wine- and beer-making. The carbon dioxide is the gas that makes bread dough rise.
 
-THIS PROCESS IS CRUCIAL IN BAKING, WHERE YEAST FERMENTATION RELEASES CARBON DIOXIDE, AIDING DOUGH EXPANSION.
+Think about the properties of ethanol – it makes a good fuel and will burn to produce a lot of heat, so it still has a lot of chemical energy 'stored' in it.
 
-### ANAEROBIC RESPIRATION IN MUSCLE CELLS
+Muscle cells can also respire anaerobically when they are short of oxygen. If muscles are overworked, the blood cannot reach them fast enough to deliver enough oxygen for aerobic respiration. This happens when a person does a 'burst' of activity, such as a sprint, or quickly lifting a heavy weight. This time the glucose is broken down into a substance called lactate:
 
-MUSCLE CELLS ALSO USE ANAEROBIC RESPIRATION DURING INTENSE ACTIVITY. GLUCOSE IS CONVERTED INTO LACTATE:
+glucose → lactate (+ some energy)
 
-GLUCOSE IS TRANSFORMED INTO LACTATE, GENERATING ENERGY FOR SHORT BURSTS OF ACTIVITY.
-
-THIS PROCESS ALLOWS MUSCLES TO FUNCTION BRIEFLY, SUCH AS DURING SPRINTING OR HEAVY LIFTING, THOUGH LACTATE ACCUMULATION CAN LEAD TO FATIGUE.
-
-BY PROVIDING A TEMPORARY ENERGY SOURCE, ANAEROBIC RESPIRATION ENABLES ORGANISMS LIKE YEAST AND MUSCLE CELLS TO FUNCTION UNDER STRESS. WHILE LESS EFFICIENT THAN AEROBIC RESPIRATION, IT IS VITAL FOR VARIOUS BIOLOGICAL PROCESSES.
-
-# ORGANISMS AND LIFE PROCESSES
-
-## LIFE PROCESSES
-
-IT WAS ONCE BELIEVED THAT LACTATE IS TOXIC AND CAUSES MUSCLE FATIGUE. HOWEVER, RECENT RESEARCH SHOWS THAT LACTATE ACTUALLY DELAYS MUSCLE FATIGUE. FATIGUE DURING EXERCISE IS PRIMARILY CAUSED BY OTHER PHYSIOLOGICAL CHANGES IN THE MUSCLES.
-
-LACTATE, ALSO KNOWN AS LACTIC ACID, IS PRODUCED DURING ANAEROBIC RESPIRATION WHEN OXYGEN SUPPLY IS INSUFFICIENT. AFTER EXERCISE, THIS LACTATE IS OXIDIZED AEROBICALLY IN THE MITOCHONDRIA. THE AMOUNT OF OXYGEN REQUIRED TO FULLY OXIDIZE THE ACCUMULATED LACTATE IS REFERRED TO AS THE **OXYGEN DEBT**.
-
+Anaerobic respiration provides enough energy to keep the overworked muscles going for a short period. During the exercise, the level of lactate rises in the muscle cells and bloodstream.
 ---
+# ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES
 
-## ACTIVITY 2: PRACTICAL DEMONSTRATION OF CARBON DIOXIDE PRODUCTION BY SMALL LIVING ORGANISMS
+> Uncorrected proof, all content subject to change at publisher discretion. Not for resale, circulation or distribution in whole or in part. ©Pearson 2019
 
-**SAFETY NOTE:** WEAR PROTECTIVE EYEWEAR AND HANDLE ORGANISMS CAREFULLY TO AVOID SKIN CONTACT.
+## DID YOU KNOW?
+It was once thought that lactate was toxic and caused muscle fatigue. We now know that this is not true. In fact physiologists have shown that lactate actually delays muscle fatigue. Fatigue is caused by other changes that happen in the muscles during exercise.
 
-HYDROGEN CARBONATE INDICATOR SOLUTION CHANGES FROM ORANGE TO YELLOW WHEN EXPOSED TO CARBON DIOXIDE. THIS SENSITIVITY MAKES IT USEFUL FOR DETECTING CO2 PRODUCTION IN SMALL ORGANISMS, SUCH AS WOODLICE, MAGGOTS, OR GERMINATING SEEDS.
+## DID YOU KNOW?
+Lactate is sometims called lactic acid.
 
-### PROCEDURE:
-1. PLACE THE SELECTED ORGANISMS IN A STOPPERED BOILING TUBE CONTAINING THE HYDROGEN CARBONATE SOLUTION. A GAUZE PLATFORM SUPPORTS THE ORGANISMS TO PREVENT CONTACT WITH THE CHEMICAL (SEE FIGURE 1.10).
+After the exercise the lactate is respired aerobically in the mitochondria. The volume of oxygen needed to completely oxidise the lactate that builds up in the body during anaerobic respiration is called the oxygen debt.
 
-2. OBSERVE WHICH ORGANISM CHANGES THE INDICATOR'S COLOR MOST QUICKLY. THIS OBSERVATION MAY LEAD TO A HYPOTHESIS ABOUT CO2 PRODUCTION RATES AMONG DIFFERENT SPECIES.
+## ACTIVITY 2
 
-3. PLAN AN INVESTIGATION TO TEST YOUR HYPOTHESIS, INCLUDING VARIABLES TO CONTROL AND A FOURTH EXPERIMENTAL SETUP AS A CONTROL GROUP (REFER TO APPENDIX A FOR DETAILS). CONDUCT THE EXPERIMENT USING SIMILAR APPARATUS AND ORGANISMS IF POSSIBLE.
+### PRACTICAL: DEMONSTRATION OF THE PRODUCTION OF CARBON DIOXIDE BY SMALL LIVING ORGANISMS
 
+> Safety note: Wear eye protection, treat all living organisms with care and avoid skin contact.
+
+Hydrogen carbonate indicator solution is normally orange, but turns yellow if carbon dioxide is added to it. The indicator is sensitive to small changes in carbon dioxide concentration, and can be used to show production of carbon dioxide by small organisms such as woodlice, maggots (fly larvae) or germinating seeds.
+
+The organisms are placed in a stoppered boiling tube with the indicator, as shown in Figure 1.10. The gauze platform supports the organisms above the hydrogen carbonate indicator solution and stops them from coming into contact with the chemical.
+
+| small organisms |
+|-----------------|
+| gauze platform  |
+| hydrogen carbonate indicator solution |
+
+Figure 1.10 Testing for carbon dioxide production by small organisms.
+
+Of the three species of organisms mentioned above, which do you think would change the colour of the indicator most quickly? If you are able to observe each of the organisms, this might help with your prediction.
+
+When you have made your prediction (called a 'hypothesis'), plan an investigation to test it. Take care to consider the variables that need to be controlled variable, and don't forget to include a description of a fourth tube that you would need to set up as the experimental Control (see Appendix A for an explanation of these terms).
+
+It may be possible for you to carry out the investigation using similar apparatus and organisms.
 ---
+## ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES
 
-THIS REFORMATTING COMBINES RELATED INFORMATION INTO CLEAR PARAGRAPHS, REMOVES BULLET POINTS, AND MAINTAINS A HIERARCHICAL STRUCTURE WITHOUT UNNECESSARY ELEMENTS.
+### ACTIVITY 3
 
-# ORGANISMS AND LIFE PROCESSES
+> **PRACTICAL: DEMONSTRATION THAT HEAT IS PRODUCED BY RESPIRATION**
 
-## LIFE PROCESSES
+!!! warning "Safety note"
+    Eye protection should be worn when using bleach to wash the peas and skin contact avoided.
 
-### ACTIVITY 3: PRACTICAL DEMONSTRATION THAT HEAT IS PRODUCED BY RESPIRATION
+Some peas are soaked in water for 24 hours, so that they start to germinate. A second batch of peas is boiled, to kill them. Each set of peas is washed in a 1% bleach solution, which acts as a disinfectant, killing any bacteria present on the surface of the peas. The peas are then rinsed twice in distilled water to remove any traces of bleach.
 
-**SAFETY NOTE:** WEAR EYE PROTECTION WHEN USING BLEACH AND AVOID SKIN CONTACT.
+Each batch of peas is placed in an inverted vacuum flask as shown in Figure 1.11, leaving some air in each flask. A vacuum flask insulates its contents, so that any small temperature change inside the flask can be measured.
 
-#### MATERIALS NEEDED:
-- TWO BATCHES OF PEAS (ONE SOAKED, ONE BOILED)
-- 10% BLEACH SOLUTION
-- DISTILLED WATER FOR RINSING
-- INVERTED VACUUM FLASKS
-- COTTON WOOL
-- THERMOMETER
+| vacuum flask |
+|--------------|
+| germinating peas | dead peas |
+| cotton wool |
+| thermometer |
 
-#### PROCEDURE:
-1. SOAK ONE BATCH OF PEAS IN WATER FOR 24 HOURS TO ENCOURAGE GERMINATION.
-2. BOIL A SECOND BATCH OF PEAS TO KILL THEM.
-3. DISINFECT EACH BATCH BY WASHING WITH A 10% BLEACH SOLUTION.
-4. RINSE THE PEAS TWICE WITH DISTILLED WATER TO REMOVE RESIDUAL BLEACH.
-5. PLACE EACH BATCH INTO AN INVERTED VACUUM FLASK, LEAVING SOME AIR INSIDE. THIS SETUP ALLOWS FOR TEMPERATURE MEASUREMENT WHILE INSULATING THE CONTENTS.
+Figure 1.11 Experiment to show that heat is produced during respiration in germinating peas.
 
-!FIGURE 1.11: EXPERIMENT TO SHOW THAT HEAT IS PRODUCED DURING RESPIRATION IN GERMINATING PEAS
+The seeds produce carbon dioxide gas, which is denser than air. The inverted flasks and cotton wool allow this to escape. It might otherwise kill the peas.
 
-#### EXPERIMENT SETUP:
-- **GERMINATING PEAS:** PLACED IN ONE FLASK.
-- **DEAD PEAS:** PLACED IN ANOTHER FLASK.
-- **COTTON WOOL:** USED TO ALLOW CARBON DIOXIDE GAS, DENSER THAN AIR, TO ESCAPE. THIS PREVENTS HARM TO THE PEAS.
+The apparatus is left set up for a couple of days, and the temperature inside each flask measured at the start and end of the experiment.
 
-#### OBSERVATIONS:
-- THE APPARATUS WAS LEFT SET UP FOR A COUPLE OF DAYS.
-- TEMPERATURE MEASUREMENTS WERE TAKEN AT THE START AND END OF THE EXPERIMENT.
+The following results were obtained from this experiment:
 
-**RESULTS:**
-- INITIAL TEMPERATURE IN BOTH FLASKS: 21 °C
-- FINAL TEMPERATURE IN THE FLASK WITH DEAD PEAS: 21 °C
-- FINAL TEMPERATURE IN THE FLASK WITH LIVING PEAS: 24 °C
+Temperature in both flasks at the start = 21 °C
+Temperature in flask with dead peas at the end = 21 °C
+Temperature in flask with living peas at the end = 24 °C
 
-### DISCUSSION QUESTIONS:
-1. THE RESULTS INDICATE THAT LIVING PEAS PRODUCE HEAT THROUGH RESPIRATION, AS EVIDENCED BY THE TEMPERATURE INCREASE.
-2. DISINFECTING THE PEAS REMOVES SURFACE MICROORGANISMS, ENSURING THE EXPERIMENT'S VALIDITY.
-3. THE DEAD PEAS SERVE AS A CONTROL TO CONFIRM THAT THE OBSERVED TEMPERATURE CHANGE IS DUE TO BIOLOGICAL PROCESSES.
+Can you explain these results? Why is it necessary to kill any microorganisms on the surface of the peas? Explain the importance of the flask containing dead peas.
+---
+ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES | 15
 
-THIS EXPERIMENT DEMONSTRATES THAT LIVING ORGANISMS GENERATE HEAT DURING RESPIRATION, WITH GERMINATING PEAS SHOWING A TEMPERATURE RISE COMPARED TO DEAD PEERS.
+## MOVEMENT OF MATERIALS IN AND OUT OF CELLS
 
-# ORGANISMS AND LIFE PROCESSES
+Cell respiration shows the need for cells to be able to take in certain substances from their surroundings, such as glucose and oxygen, and get rid of others, such as carbon dioxide and water. As you have seen, the cell surface membrane can control which chemicals can pass in and out – it is described as selectively permeable.
 
-## DIFFUSION
+There are three main ways that molecules and ions can move through the membrane. They are diffusion, active transport and osmosis.
+
+### DIFFUSION
+
+Many substances can pass through the membrane by diffusion. Diffusion happens when a substance is more concentrated in one place than another. For example, if the cell is making carbon dioxide by respiration, the concentration of carbon dioxide inside the cell will be higher than outside. This difference in concentration is called a concentration gradient. The molecules of carbon dioxide are constantly moving about because of their kinetic energy. The cell membrane is permeable to carbon dioxide, so the molecules can move in either direction through it. Since there is a higher concentration of carbon dioxide molecules inside the cell than outside, over time, more molecules will move from inside to outside than move in the other direction. We say that there is a net movement of the molecules out of the cell (Figure 1.12).
+
+![Figure 1.12 Carbon dioxide is produced by respiration, so its concentration builds up inside the cell. Although the carbon dioxide molecules diffuse in both directions across the cell membrane, the overall (net) movement is out of the cell, down the concentration gradient.]
+
+| carbon dioxide molecules |
+|--------------------------|
+| • •                      |
+| • • •                    |
+| • • • •                  |
+
+#### KEY POINT
+Diffusion is the net movement of particles (molecules or ions) from a region of high concentration to a region of low concentration, i.e. down a concentration gradient.
+
+The opposite happens with oxygen. Respiration uses up oxygen, so there is a concentration gradient of oxygen from outside to inside the cell. There is therefore a net movement of oxygen into the cell by diffusion.
+
+The rate of diffusion is affected by various factors.
+
+- The concentration gradient. Diffusion happens more quickly when there is a steep concentration gradient (i.e. a big difference in concentrations between two areas).
+- The surface area to volume ratio. A larger surface area in proportion to the volume will increase the rate.
+- The distance. The rate is decreased if the distance over which diffusion has to take place is greater.
+- The temperature. The rate is greater at higher temperatures. This is because a high temperature provides the particles with more kinetic energy.
+---
+16    ORGANISMS AND LIFE PROCESSES                             LIFE PROCESSES
+
+Uncorrected proof, all content subject to change at publisher discretion. Not for resale, circulation or distribution in whole or in part. ©Pearson 2019
+
+## ACTIVITY 4
+
+> Safety note: Wear eye protection and avoid all skin contact with the acid and the dyed agar blocks.
+
+### ▼ PRACTICAL: DEMONSTRATION OF DIFFUSION IN A JELLY
+
+Agar is a jelly that is used for growing cultures of bacteria. It has a consistency similar to the cytoplasm of a cell. Like cytoplasm, it has a high water content. Agar can be used to show how substances diffuse through a cell.
+
+This demonstration uses the reaction between hydrochloric acid and potassium permanganate solution. When hydrochloric acid comes into contact with potassium permanganate, the purple colour of the permanganate disappears.
+
+A Petri dish is prepared which contains a 2 cm deep layer of agar jelly, dyed purple with potassium permanganate. Three cubes of different sizes are cut out of the jelly, with side lengths 2 cm, 1 cm and 0.5 cm. The cubes have different volumes and total surface areas. They also have a different surface area to volume ratio, as shown in the table below.
+
+| Length of side of cube / cm | Volume of cube / cm³ (length × width × height) | Surface area of cube / cm² (length × width of one side) × 6 | Ratio of surface area to volume of cube (surface area divided by volume) |
+|----------------------------|----------------------------------------------|-----------------------------------------------------------|-------------------------------------------------------------------------|
+| 2                          | (2 × 2 × 2) = 8                              | (2 × 2) × 6 = 24                                          | 24/8 = 3                                                                |
+| 1                          | (1 × 1 × 1) = 1                              | (1 × 1) × 6 = 6                                           | 6/1 = 6                                                                 |
+| 0.5                        | (0.5 × 0.5 × 0.5) = 0.125                    | (0.5 × 0.5) × 6 = 1.5                                     | 1.5/0.125 = 12                                                          |
+
+Notice that the smallest cube has the largest surface area to volume ratio. The same is true of cells – a small cell has a larger surface area to volume ratio than a large cell.
+
+The cubes are carefully dropped, at the same time, into a beaker of dilute hydrochloric acid (Figure 1.13).
+
+Figure 1.13 Investigating diffusion in a jelly.
+
+The time taken for each cube to turn colourless is noted.
+
+Which cube would be the first to turn colourless and which the last? Explain the reasoning behind your prediction.
+
+If the three cubes represented cells of different sizes, which cell would have the most difficulty in obtaining substances by diffusion?
+
+It may be possible for you to try this experiment, using similar apparatus.
+---
+# ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES
+
+## ACTIVE TRANSPORT
+
+Diffusion happens because of the kinetic energy of the particles. It does not need an 'extra' source of energy from respiration. However, sometimes a cell needs to take in a substance when there is very little of that substance outside the cell, in other words against a concentration gradient. It can do this by another process, called active transport.
+
+During active transport a cell uses energy from respiration to take up substances, rather like a pump uses energy to move a liquid from one place to another. In fact, biologists speak of the cell 'pumping' ions or molecules in or out. The pumps are large protein molecules located in the cell membrane, and they are driven by the breakdown of ATP. An example of a place where this happens is in the human small intestine, where some glucose in the gut is absorbed into the cells lining the intestine by active transport. The roots of plants also take up certain mineral ions in this way. Cells use active transport to control the uptake of many substances.
 
 ### KEY POINT
-DIFFUSION IS THE NET MOVEMENT OF PARTICLES (MOLECULES OR IONS) FROM A REGION OF HIGH CONCENTRATION TO A REGION OF LOW CONCENTRATION, I.E., DOWN A CONCENTRATION GRADIENT.
+Active transport is the movement of substances against a concentration gradient, using energy from respiration.
 
+## OSMOSIS
+
+Water moves across cell membranes by a special sort of diffusion, called osmosis. Osmosis happens when the total concentrations of all dissolved substances inside and outside the cell are different. Water will move across the membrane from the more dilute solution to the more concentrated one. Notice that this is still obeying the rules of diffusion – the water moves from where there is a higher concentration of water molecules to a lower concentration of water molecules. Osmosis can only happen if the membrane is permeable to water but not to some other solutes. We say that it is partially permeable.
+
+Osmosis is important for moving water from cell to cell, for example in plant roots. You will find out more about osmosis in Chapter 11.
+
+### KEY POINT
+Osmosis in cells is the net movement of water from a dilute solution to a more concentrated solution across the partially permeable cell membrane.
+
+## SPECIALISED EXCHANGE SURFACES
+
+All cells exchange substances with their surroundings, but some parts of animals or plants are specially adapted for the exchange of materials because they have a very large surface area in proportion to their volume. In animals, two examples are the alveoli (air sacs) of the lungs (Chapter 3) and the villi of the small intestine (Chapter 4). Diffusion is a slow process, and organs that rely on diffusion need a large surface over which it can take place. The alveoli allow the exchange of oxygen and carbon dioxide to take place between the air and the blood during breathing. The villi of the small intestine provide a large surface area for the absorption of digested food. In plants, exchange surfaces are also adapted by having a large surface area, such as the spongy mesophyll of the leaf (Chapter 10) and the root hairs.
+
+### KEY POINT
+'Adapted' or 'an adaptation' means that the structure of a cell or an organism is suited to its function. It is a word that is very commonly used in biology, and will appear again in many of the chapters of this book. We also use it when we say that organisms are adapted to their environment.
+
+## CELLS, TISSUES AND ORGANS
+
+Cells with a similar function are grouped together as tissues. For example, the muscle of your arm contains millions of similar muscle cells, all specialised for one function – contraction to move the arm bones. This is muscle tissue. However, a muscle also contains other tissues, such as blood, nervous tissue and epithelium (lining tissue). A collection of several tissues carrying out a particular function is called an organ. The main organs of the human body are shown in Figure 1.14. Plants also have tissues and organs. Leaves, roots, stems and flowers are all plant organs.
+
+In animals, jobs are usually carried out by several different organs working together. This is called an organ system. For example, the digestive system consists of the gut, along with glands such as the pancreas and gall bladder.
 ---
+# 18 ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES
 
-### MOVEMENT OF MATERIALS IN AND OUT OF CELLS
+The function of the whole system is to digest food and absorb the digested products into the blood. There are seven main systems in the human body. These are the:
 
-CELLS REQUIRE CERTAIN SUBSTANCES LIKE GLUCOSE AND OXYGEN FROM THEIR SURROUNDINGS WHILE EXPELLING OTHERS SUCH AS CARBON DIOXIDE AND WATER. THE CELL SURFACE MEMBRANE PLAYS A CRUCIAL ROLE IN THIS PROCESS BY ACTING AS A SELECTIVELY PERMEABLE BARRIER, CONTROLLING THE MOVEMENT OF CHEMICALS.
+- digestive system
+- gas exchange system – including the lungs, which exchange oxygen and carbon dioxide
+- circulatory system – including the heart and blood vessels, which transport materials around the body
+- excretory system – including the kidneys, which filter toxic waste materials from the blood
+- nervous system – consisting of the brain, spinal cord and nerves, which coordinate the body's actions
+- endocrine system – glands secreting hormones, which act as chemical messengers
+- reproductive system – producing sperm in males and eggs in females, and allowing the development of the embryo.
 
-THERE ARE THREE PRIMARY MECHANISMS FOR MOLECULAR TRANSPORT ACROSS THE MEMBRANE: DIFFUSION, ACTIVE TRANSPORT, AND OSMOSIS.
+Figure 1.14 Some of the main organs of the human body.
 
-#### DIFFUSION
-MANY SUBSTANCES CAN PASS THROUGH THE MEMBRANE VIA DIFFUSION. THIS PROCESS OCCURS WHEN THERE IS A CONCENTRATION GRADIENT—WHERE A SUBSTANCE IS PRESENT IN HIGHER CONCENTRATIONS IN ONE AREA THAN ANOTHER. FOR INSTANCE, DURING RESPIRATION, CELLS PRODUCE CARBON DIOXIDE, LEADING TO ITS ACCUMULATION INSIDE THE CELL COMPARED TO OUTSIDE. THIS CREATES A CONCENTRATION GRADIENT FAVORING THE NET MOVEMENT OF CARBON DIOXIDE MOLECULES FROM INSIDE TO OUTSIDE.
+| Organ | Location/Description |
+|-------|----------------------|
+| brain | Top of the head |
+| trachea | Throat area |
+| lungs | Chest cavity |
+| oesophagus | Behind trachea |
+| heart | Center of chest |
+| kidneys | Behind gut |
+| skin | Outer covering |
+| liver | Upper right abdomen |
+| pancreas | Behind stomach |
+| stomach | Upper abdomen |
+| intestine | Lower abdomen |
+| bladder | Lower abdomen |
+| ovaries (in female) | Lower abdomen |
+| testes (in male) | External, lower body |
 
-THE MOVEMENT OF CARBON DIOXIDE IS DRIVEN BY THE KINETIC ENERGY OF MOLECULES, ALLOWING THEM TO TRAVERSE THE MEMBRANE IN BOTH DIRECTIONS. HOWEVER, DUE TO THE HIGHER INTERNAL CONCENTRATION, THERE IS A NET OUTWARD FLOW, AS EXPLAINED IN FIGURE 1.12.
-
-CONVERSELY, OXYGEN MOVES INTO THE CELL THROUGH DIFFUSION SINCE IT IS CONSUMED DURING RESPIRATION, CREATING A GRADIENT THAT DRAWS IT FROM THE EXTERNAL ENVIRONMENT INTO THE CELLULAR INTERIOR.
-
+Uncorrected proof, all content subject to change at publisher discretion. Not for resale, circulation or distribution in whole or in part. ©Pearson 2019
 ---
+ORGANISMS AND LIFE PROCESSES | LIFE PROCESSES | 19
 
-### FACTORS AFFECTING THE RATE OF DIFFUSION
+## LOOKING AHEAD – MEMBRANES IN CELLS
 
-THE RATE AT WHICH DIFFUSION OCCURS IS INFLUENCED BY SEVERAL FACTORS:
+If you continue to study biology beyond International GCSE, you will learn more about the structure and function of cells. You might like to look on the Internet for some electron micrographs and carry out some further research into cells.
 
-- **CONCENTRATION GRADIENT**: THE STEEPNESS OF CONCENTRATION DIFFERENCES SIGNIFICANTLY IMPACTS DIFFUSION SPEED.
-- **SURFACE AREA TO VOLUME RATIO**: A HIGHER RATIO ENHANCES DIFFUSION RATES DUE TO INCREASED MEMBRANE EXPOSURE RELATIVE TO CELL VOLUME.
-- **DISTANCE**: LONGER DISTANCES REDUCE DIFFUSION EFFICIENCY AS MOLECULES MUST TRAVEL FURTHER AGAINST RESISTANCE.
-- **TEMPERATURE**: HIGHER TEMPERATURES INCREASE KINETIC ENERGY, THEREBY ACCELERATING DIFFUSION.
+Electron micrographs allow us to see cells at a much greater magnification than by using a light microscope. They also reveal more detail. The image produced by a light microscope can only distinguish features about the size of a mitochondrion. The electron microscope has a much greater resolution. Resolution is the ability to distinguish two points in an image as being separate. The maximum resolution of a light microscope is about 200 nanometres (nm), while with an electron microscope we can distinguish structures less than 1 nm in size. That is why ribosomes are only visible using an electron microscope – they are about 25 nm in diameter. A nanometre (nm) is 10⁻⁹ m, or one millionth of a millimetre.
 
-UNDERSTANDING THESE PRINCIPLES IS ESSENTIAL FOR GRASPING HOW CELLS INTERACT WITH THEIR ENVIRONMENT AND MAINTAIN INTERNAL BALANCE, KNOWN AS HOMEOSTASIS.
+Electron microscopy reveals that much of the cytoplasm is made up of membranes. As well as the cell surface membrane, there are membranes around organelles such as the nucleus, mitochondria and chloroplasts. In addition, there is an extensive system of membranes running throughout the cytoplasm, called the endoplasmic reticulum (ER). Some ER is covered in ribosomes, and is called rough ER (Figure 1.15).
 
-# ORGANISMS AND LIFE PROCESSES
+Figure 1.15 Rough endoplasmic reticulum is a system of membranes extending throughout the cytoplasm of a cell. It is covered with ribosomes the (tiny dots). Ribosomes are the site of protein synthesis.
 
-## SAFETY NOTE
-**WEAR EYE PROTECTION AND AVOID ALL SKIN CONTACT WITH THE ACID AND THE DYED AGAR BLOCKS.**
-
+There are thousands of different chemical reactions that take place inside cells. A key function of a cell membrane is to separate cell functions into different compartments so they don't take place together. For example, the reactions and enzymes of aerobic respiration are kept inside the mitochondria, separate from the rest of the cytoplasm.
 ---
+20   ORGANISMS AND LIFE PROCESSES    LIFE PROCESSES
 
-## LIFE PROCESSES
+CHAPTER QUESTIONS
 
-### ACTIVITY 4: PRACTICAL DEMONSTRATION OF DIFFUSION IN A JELLY
+More questions on life processes can be found at the end of Unit 1 on page 29.
 
-THIS ACTIVITY DEMONSTRATES DIFFUSION USING AGAR JELLY, ILLUSTRATING HOW SUBSTANCES DIFFUSE THROUGH A CELL-LIKE MEDIUM. THE REACTION BETWEEN HYDROCHLORIC ACID AND POTASSIUM PERMANGANATE SOLUTION WILL SHOW COLOR CHANGES, INDICATING CHEMICAL INTERACTION.
+SKILLS   CRITICAL THINKING
 
-AGAR, WITH ITS HIGH WATER CONTENT, MIMICS THE CYTOPLASM OF CELLS, PROVIDING A STRUCTURED MEDIUM FOR THIS DEMONSTRATION.
+1 Which of the following comparisons of animal and plant cells is not true?
 
+| Animal cells | Plant cells |
+|--------------|-------------|
+| A | do not have chloroplasts | have chloroplasts |
+| B | have mitochondria | do not have mitochondria |
+| C | have temporary vacuoles | have permanent vacuoles |
+| D | do not have cellulose cell walls | have cellulose cell walls |
+
+2 Which of the following descriptions is correct?
+A The cell wall is freely permeable and the cell membrane is partially
+  permeable
+B The cell wall is partially permeable and the cell membrane is freely
+  permeable
+C Both the cell wall and the cell membrane are freely permeable
+D Both the cell wall and the cell membrane are partially permeable
+
+3 What are the products of anaerobic respiration in yeast?
+A ethanol and carbon dioxide    B lactate and carbon dioxide
+C carbon dioxide and water      D ethanol and water
+
+SKILLS   INTERPRETATION
+
+4 a Draw a diagram of a plant cell. Label all of the parts. Alongside each label
+    write the function of that part.
+
+SKILLS   CRITICAL THINKING
+
+b Write down three differences between the cell you have drawn and a
+  'typical' animal cell.
+
+5 Write a short description of the nature and function of enzymes. Include in
+your description:
+■ a definition of an enzyme
+■ a description of the 'lock and key' model of enzyme action
+■ an explanation of the difference between intracellular and extracellular
+  enzymes.
+Your description should be about a page in length, including a labelled
+diagram.
+
+SKILLS   ANALYSIS
+
+6 The graph shows the effect of temperature on an enzyme. The enzyme was
+extracted from microorganism that lives in hot mineral springs near a volcano.
 ---
-
-### MATERIALS NEEDED
-- PETRI DISH: USED TO CREATE A LAYER OF AGAR JELLY.
-- AGAR JELLY DYED PURPLE WITH POTASSIUM PERMANGANATE: TO SIMULATE CELL CYTOPLASM.
-- HYDROCHLORIC ACID: REACTS WITH POTASSIUM PERMANGANATE, CAUSING COLOR LOSS.
-- CUBES OF AGAR JELLY: CUT INTO DIFFERENT SIZES (2 CM, 1 CM, AND 0.5 CM) TO COMPARE DIFFUSION RATES.
-
----
-
-### PROCEDURE
-
-1. PREPARE A PETRI DISH CONTAINING A 2 CM DEEP LAYER OF AGAR JELLY DYED PURPLE WITH POTASSIUM PERMANGANATE.
-2. CUT THREE CUBES FROM THE AGAR:
-   - A 2 CM CUBE
-   - A 1 CM CUBE
-   - A 0.5 CM CUBE
-
-EACH CUBE'S DIMENSIONS AFFECT ITS VOLUME AND SURFACE AREA, INFLUENCING THE DIFFUSION RATE.
-
-THE TABLE BELOW COMPARES THESE MEASUREMENTS:
-
-| LENGTH OF SIDE OF CUBE (CM) | VOLUME OF CUBE (CM³) | SURFACE AREA OF CUBE (CM²) | RATIO OF SURFACE AREA TO VOLUME |
-|------------------------------|-----------------------|-----------------------------|---------------------------------|
-| 2                            | \(2 \TIMES 2 \TIMES 2 = 8\) | \(2 \TIMES 2 \TIMES 6 = 24\)   | \(24 / 8 = 3\)                   |
-| 1                            | \(1 \TIMES 1 \TIMES 1 = 1\) | \(1 \TIMES 1 \TIMES 6 = 6\)    | \(6 / 1 = 6\)                    |
-| 0.5                          | \(0.5 \TIMES 0.5 \TIMES 0.5 = 0.125\) | \(0.5 \TIMES 0.5 \TIMES 6 = 1.5\) | \(1.5 / 0.125 = 12\)              |
-
-THE SMALLEST CUBE (0.5 CM) HAS THE HIGHEST SURFACE AREA TO VOLUME RATIO, A PRINCIPLE OBSERVED IN CELLS.
-
-3. CAREFULLY DROP EACH CUBE INTO A BEAKER CONTAINING DILUTE HYDROCHLORIC ACID. OBSERVE THE COLOR CHANGE FROM PURPLE TO COLORLESS, INDICATING THE REACTION BETWEEN POTASSIUM PERMANGANATE AND HYDROCHLORIC ACID.
-
----
-
-### OBSERVATION
-THE SMALLEST CUBE TURNS COLORLESS FIRST DUE TO ITS HIGHER SURFACE AREA TO VOLUME RATIO, FACILITATING FASTER DIFFUSION OF SUBSTANCES.
-
----
-
-### QUESTIONS
-1. WHICH CUBE WOULD BE THE FIRST TO LOSE ITS PURPLE COLOR?
-2. IF THESE CUBES REPRESENTED CELLS OF DIFFERENT SIZES, WHICH CELL WOULD HAVE THE MOST DIFFICULTY ABSORBING SUBSTANCES VIA DIFFUSION?
-
-THIS EXPERIMENT CAN BE REPLICATED USING SIMILAR APPARATUS TO EXPLORE DIFFUSION PROCESSES IN MORE DETAIL.
-
-# ORGANISMS AND LIFE PROCESSES
-
-## LIFE PROCESSES
-
-### ACTIVE TRANSPORT
-ACTIVE TRANSPORT IS THE MOVEMENT OF SUBSTANCES AGAINST A CONCENTRATION GRADIENT, POWERED BY ENERGY FROM CELLULAR RESPIRATION. THIS PROCESS IS CRUCIAL WHEN A CELL REQUIRES ABSORBING A SUBSTANCE PRESENT AT LOW CONCENTRATIONS OUTSIDE.
-
-**KEY POINT:**
-ACTIVE TRANSPORT FUNCTIONS LIKE A PUMP, MOVING IONS OR MOLECULES IN OR OUT OF CELLS. THE PUMPS ARE LARGE PROTEIN MOLECULES LOCATED IN THE CELL MEMBRANE, DRIVEN BY ATP BREAKDOWN.
-
-**EXAMPLE:**
-IN THE HUMAN SMALL INTESTINE, GLUCOSE IS ABSORBED INTO INTESTINAL CELLS VIA ACTIVE TRANSPORT. SIMILARLY, PLANT ROOTS ABSORB CERTAIN MINERAL IONS USING THIS METHOD. CELLS EMPLOY ACTIVE TRANSPORT TO REGULATE THE INTAKE OF VARIOUS SUBSTANCES.
-
-### OSMOSIS
-OSMOSIS IS A TYPE OF DIFFUSION WHERE WATER MOVES ACROSS CELL MEMBRANES FROM A MORE DILUTE SOLUTION TO A MORE CONCENTRATED ONE. THIS PROCESS IS ESSENTIAL FOR WATER MOVEMENT BETWEEN CELLS, PARTICULARLY IN PLANT ROOTS.
-
-**KEY POINT:**
-OSMOSIS INVOLVES THE NET MOVEMENT OF WATER FROM A DILUTE SOLUTION TO A MORE CONCENTRATED SOLUTION ACROSS A PARTIALLY PERMEABLE MEMBRANE. THIS PROCESS FACILITATES WATER TRANSFER IN PLANT ROOT CELLS.
-
-### SPECIALISED EXCHANGE SURFACES
-ORGANISMS ADAPT SPECIFIC STRUCTURES FOR EFFICIENT SUBSTANCE EXCHANGE WITH THEIR SURROUNDINGS, OFTEN THROUGH LARGE SURFACE AREAS RELATIVE TO VOLUME.
-
-**KEY POINT:**
-THE TERM 'ADAPTATION' REFERS TO STRUCTURAL FEATURES SUITED TO AN ORGANISM'S FUNCTION, A FUNDAMENTAL CONCEPT IN BIOLOGY.
-
-**EXAMPLES IN ANIMALS:**
-- **ALVEOLI:** LUNGS HAVE ALVEOLI FOR OXYGEN AND CARBON DIOXIDE EXCHANGE DURING BREATHING.
-- **VILLI:** INTESTINAL VILLI PROVIDE A LARGE SURFACE AREA FOR NUTRIENT ABSORPTION.
-
-**EXAMPLES IN PLANTS:**
-- **SPONGY MESOPHYLL:** LEAVES USE THIS TISSUE FOR GAS EXCHANGE.
-- **ROOT HAIRS:** THESE STRUCTURES ENHANCE WATER AND NUTRIENT ABSORPTION.
-
-## CELLS, TISSUES, AND ORGANS
-CELLS WITH SIMILAR FUNCTIONS GROUP INTO TISSUES. FOR EXAMPLE, MUSCLE CELLS FORM MUSCLE TISSUE, WHICH IS PART OF LARGER ORGAN SYSTEMS LIKE THE DIGESTIVE SYSTEM, COMPRISING THE GUT AND ASSOCIATED GLANDS.
-
-**EXAMPLE:**
-HUMAN ORGANS INCLUDE THE HEART, LUNGS, AND LIVER. PLANTS HAVE LEAVES, ROOTS, STEMS, AND FLOWERS. IN ANIMALS, ORGAN SYSTEMS COLLABORATE TO PERFORM SPECIFIC FUNCTIONS, SUCH AS DIGESTION.
-
-# ORGANISMS AND LIFE PROCESSES
-
-## LIFE PROCESSES OVERVIEW
-
-THE HUMAN BODY IS COMPOSED OF VARIOUS SYSTEMS WORKING TOGETHER TO SUSTAIN LIFE. THESE SYSTEMS INCLUDE THE DIGESTIVE SYSTEM, WHICH BREAKS DOWN FOOD AND ABSORBS NUTRIENTS; THE GAS EXCHANGE SYSTEM, INVOLVING THE LUNGS FOR OXYGEN AND CARBON DIOXIDE EXCHANGE; THE CIRCULATORY SYSTEM, WHICH TRANSPORTS MATERIALS THROUGHOUT THE BODY VIA THE HEART AND BLOOD VESSELS; THE EXCRETORY SYSTEM, RESPONSIBLE FOR FILTERING WASTE FROM THE BLOOD THROUGH THE KIDNEYS; THE NERVOUS SYSTEM, COORDINATING BODY ACTIONS THROUGH THE BRAIN, SPINAL CORD, AND NERVES; THE ENDOCRINE SYSTEM, USING GLANDS TO SECRETE HORMONES AS CHEMICAL MESSENGERS; AND THE REPRODUCTIVE SYSTEM, MANAGING SPERM PRODUCTION IN MALES AND EGG DEVELOPMENT IN FEMALES.
-
-## MAIN ORGANS OF THE HUMAN BODY
-
-THE HUMAN BODY'S ORGANS PLAY CRUCIAL ROLES IN DIFFERENT SYSTEMS. THE BRAIN REGULATES BODILY FUNCTIONS AND CONTROLS THE NERVOUS SYSTEM. THE LUNGS FACILITATE GAS EXCHANGE, BRINGING IN OXYGEN AND RELEASING CARBON DIOXIDE. THE HEART PUMPS BLOOD TO CIRCULATE NUTRIENTS AND WASTE PRODUCTS THROUGHOUT THE BODY. THE KIDNEYS FILTER TOXIC SUBSTANCES FROM THE BLOODSTREAM. THE LIVER PRODUCES BILE FOR DIGESTION AND PLAYS A ROLE IN DETOXIFICATION. THE PANCREAS AIDS IN DIGESTION BY RELEASING ENZYMES. THE STOMACH PROCESSES FOOD THROUGH ACID SECRETION. THE INTESTINES ABSORB NUTRIENTS AFTER DIGESTION. THE BLADDER STORES AND EXPELS URINE. IN FEMALES, THE OVARIES PRODUCE EGGS, WHILE IN MALES, THE TESTES GENERATE SPERM.
-
-UNDERSTANDING THESE SYSTEMS AND THEIR ASSOCIATED ORGANS IS ESSENTIAL FOR GRASPING HOW THE HUMAN BODY MAINTAINS HOMEOSTASIS AND FUNCTIONS EFFECTIVELY.
-
-# ORGANISMS AND LIFE PROCESSES: LIFE PROCESSES
-
-ELECTRON MICROGRAPHS ALLOW US TO EXAMINE CELLS AT A MUCH GREATER MAGNIFICATION THAN LIGHT MICROSCOPES. THEY REVEAL STRUCTURAL DETAILS THAT ARE OTHERWISE INVISIBLE, SUCH AS THE PRESENCE OF RIBOSOMES.
-
-THE RESOLUTION OF A LIGHT MICROSCOPE IS APPROXIMATELY 200 NANOMETERS, WHILE ELECTRON MICROSCOPES CAN DISTINGUISH STRUCTURES SMALLER THAN 1 NM. THIS EXPLAINS WHY RIBOSOMES, WHICH MEASURE ABOUT 25 NM IN DIAMETER, ARE VISIBLE ONLY UNDER AN ELECTRON MICROSCOPE.
-
-CELLS CONTAIN VARIOUS ORGANELLES ENCLOSED BY MEMBRANES, INCLUDING THE NUCLEUS, MITOCHONDRIA, AND CHLOROPLASTS. ADDITIONALLY, THE CYTOPLASM IS FILLED WITH AN EXTENSIVE SYSTEM OF MEMBRANES KNOWN AS THE ENDOPLASMIC RETICULUM (ER). SOME PORTIONS OF THE ER ARE COVERED WITH RIBOSOMES, WHERE PROTEIN SYNTHESIS OCCURS.
-
-THE CELL MEMBRANE PLAYS A CRUCIAL ROLE IN SEPARATING CELLULAR FUNCTIONS INTO DISTINCT COMPARTMENTS. FOR INSTANCE, THE ENZYMES AND REACTIONS INVOLVED IN AEROBIC RESPIRATION ARE CONFINED WITHIN MITOCHONDRIA, PREVENTING THEM FROM INTERACTING WITH OTHER CYTOPLASMIC PROCESSES.
-
-# ORGANISMS AND LIFE PROCESSES
-
-## LIFE PROCESSES
-
-ORGANISMS ARE COMPOSED OF CELLS, WHICH ARE THE BASIC STRUCTURAL AND FUNCTIONAL UNITS OF LIFE. CELLS IN PLANTS AND ANIMALS DIFFER PRIMARILY IN THEIR STRUCTURE DUE TO SPECIFIC CELL ORGANELLES AND COMPONENTS.
-
-## CHAPTER QUESTIONS
-
-### SKILLS DEVELOPMENT
-
-- **CRITICAL THINKING**
-- **INTERPRETATION**
-- **ANALYSIS**
-
----
-
-## LIFE PROCESSES
-
-### QUESTIONS ON LIFE PROCESSES
-
-1. **COMPARISON OF ANIMAL AND PLANT CELLS**  
-   - ANIMAL CELLS LACK CHLOROPLASTS, WHILE PLANT CELLS HAVE THEM.  
-   - ANIMAL CELLS POSSESS MITOCHONDRIA, UNLIKE PLANT CELLS.  
-   - ANIMAL CELLS HAVE TRANSIENT VACUOLES, WHEREAS PLANT CELLS MAINTAIN PERMANENT VACUOLES.  
-   - ANIMAL CELLS DO NOT HAVE CELLULOSE CELL WALLS, WHEREAS PLANT CELLS DO.
-
-2. **CELL PERMEABILITY**  
-   THE CELL WALL IS PARTIALLY PERMEABLE, AND THE CELL MEMBRANE IS FREELY PERMEABLE.
-
-3. **ANAEROBIC RESPIRATION PRODUCTS IN YEAST**  
-   THE PRODUCTS ARE ETHANOL AND CARBON DIOXIDE.
-
-4. **PLANT CELL DIAGRAM**  
-   A LABELED DIAGRAM OF A PLANT CELL WITH FUNCTIONS NOTED FOR EACH PART. DIFFERENCES INCLUDE THE PRESENCE OF CHLOROPLASTS, PERMANENT VACUOLES, AND ABSENCE OF MITOCHONDRIA IN PLANT CELLS COMPARED TO ANIMAL CELLS.
-
-5. **ENZYME DESCRIPTION**  
-   ENZYMES ARE PROTEINS THAT ACT AS CATALYSTS, ACCELERATING BIOCHEMICAL REACTIONS. THE "LOCK AND KEY" MODEL ILLUSTRATES HOW ENZYMES BIND TO SUBSTRATES. INTRACELLULAR ENZYMES FUNCTION WITHIN CELLS, WHILE EXTRACELLULAR ONES WORK OUTSIDE.
-
-6. **GRAPH ANALYSIS OF TEMPERATURE ON ENZYME ACTIVITY**  
-   THE GRAPH SHOWS ENZYME ACTIVITY DECREASING WITH INCREASING TEMPERATURE, INDICATING OPTIMAL CONDITIONS FOR THE ENZYME DERIVED FROM MICROORGANISMS IN HOT ENVIRONMENTS.
-
----
-
-FOR ADDITIONAL QUESTIONS ON LIFE PROCESSES, REFER TO PAGE 29 OF THE UNIT.
-
-# ORGANISMS AND LIFE PROCESSES
-
-## LIFE PROCESSES
-
-### ENZYMES AND TEMPERATURE
-
-ENZYMES IN THE HUMAN BODY FUNCTION OPTIMALLY AT A TEMPERATURE OF APPROXIMATELY 37°C. THIS TEMPERATURE IS CRUCIAL FOR MAINTAINING ENZYME ACTIVITY, AS ENZYMES ARE HIGHLY SENSITIVE TO CHANGES IN TEMPERATURE.
-
-THE ACTIVITY OF AN ENZYME CAN VARY SIGNIFICANTLY WITH TEMPERATURE. AT HIGHER TEMPERATURES, SUCH AS 60°C, THE ENZYME'S STRUCTURE MAY BECOME MORE FLEXIBLE, INCREASING ITS CATALYTIC EFFICIENCY. HOWEVER, AT EVEN HIGHER TEMPERATURES, SUCH AS 90°C, THE ENZYME MAY DENATURE, LOSING ITS SHAPE AND FUNCTION.
-
-### SKILLS: INTERPRETATION
-
-DIFFUSION IS THE PASSIVE MOVEMENT OF MOLECULES FROM AN AREA OF HIGHER CONCENTRATION TO ONE OF LOWER CONCENTRATION. ACTIVE TRANSPORT, ON THE OTHER HAND, REQUIRES ENERGY AND MOVES MOLECULES AGAINST THEIR CONCENTRATION GRADIENT.
-
-IN THE HUMAN KIDNEY, TUBULE CELLS PLAY A VITAL ROLE IN GLUCOSE ABSORPTION. THESE CELLS CONTAIN NUMEROUS MITOCHONDRIA, WHICH ARE ESSENTIAL FOR ENERGY PRODUCTION, ENABLING THE CELL TO TRANSPORT GLUCOSE INTO THE BLOODSTREAM.
-
-### CELL FUNCTION IN THE HUMAN KIDNEY
-
-THE DIAGRAM ILLUSTRATES A KIDNEY TUBULE CELL WITH SPECIFIC FUNCTIONS. THE CELL'S SURFACE MEMBRANE IS ADAPTED THROUGH FOLDING, FACILITATING EFFICIENT GLUCOSE ABSORPTION FROM THE TUBULE FLUID INTO THE BLOOD.
-
-#### COMPONENTS OF THE CELL
-
-THE NUCLEUS CONTAINS THE GENETIC MATERIAL CRUCIAL FOR THE CELL'S FUNCTION. MITOCHONDRIA, LOCATED IN LARGE NUMBERS WITHIN THE CELL, ARE RESPONSIBLE FOR ENERGY PRODUCTION, WHICH IS VITAL FOR GLUCOSE TRANSPORT ACROSS THE CELL MEMBRANE.
-
-### SKILLS: ANALYSIS AND INTERPRETATION
-
-1. THE PRESENCE OF NUMEROUS MITOCHONDRIA IN THE TUBULE CELL SUGGESTS THAT THEY ARE UTILIZED FOR ENERGY PRODUCTION TO FACILITATE GLUCOSE TRANSPORT INTO THE BLOODSTREAM AT POINT 'A'.
-
-2. AT POINT 'B', THE MOVEMENT OF IONS ACROSS THE MEMBRANE LIKELY INVOLVES PASSIVE DIFFUSION, AS NO MENTION OF ACTIVE TRANSPORT IS REQUIRED HERE.
-
-3. THE FOLDED SURFACE MEMBRANE AT 'B' ENHANCES THE CELL'S ABILITY TO ABSORB GLUCOSE EFFICIENTLY BY INCREASING THE SURFACE AREA AVAILABLE FOR TRANSPORT PROCESSES.
-
-UNDERSTANDING THESE LIFE PROCESSES AND CELLULAR ADAPTATIONS IS FUNDAMENTAL TO GRASPING HOW ORGANISMS FUNCTION.
-
-# THE VARIETY OF LIVING ORGANISMS
-
-## INTRODUCTION
-THERE IS AN ENORMOUS VARIETY OF LIVING ORGANISMS ON EARTH. BIOLOGISTS CLASSIFY THESE ORGANISMS INTO GROUPS BASED ON THEIR STRUCTURE AND FUNCTION. MEMBERS OF EACH GROUP SHARE CERTAIN FEATURES IN COMMON, REFLECTING THEIR DESCENT FROM A COMMON ANCESTOR THROUGH THE PROCESS OF EVOLUTION.
-
-## CLASSIFICATION OF ORGANISMS
-ORGANISMS ARE CLASSIFIED INTO FIVE MAJOR GROUPS: PLANTS, ANIMALS, FUNGI, PROTOCTISTS, AND BACTERIA. THIS CLASSIFICATION HELPS BIOLOGISTS UNDERSTAND THE DIVERSITY OF LIFE ON EARTH.
-
-### PLANTS
-FLOWERING PLANTS, SUCH AS THOSE SHOWN IN FIGURE 2.1, ARE A KEY GROUP WITHIN THE PLANT KINGDOM. THIS GROUP ALSO INCLUDES SIMPLER PLANTS LIKE MOSSES AND FERNS.
-
-- **CHARACTERISTICS OF PLANTS:**
-- MULTICELLULAR STRUCTURE, WITH CELLS CONTAINING CHLOROPLASTS FOR PHOTOSYNTHESIS.
-- PHOTOSYNTHESIS CONVERTS WATER AND CARBON DIOXIDE INTO ORGANIC COMPOUNDS LIKE STARCH AND SUCROSE.
-
-#### FIGURE 2.1
-- (A) A PEA PLANT: LEAVES AND STEM CELLS CONTAIN CHLOROPLASTS, GIVING THEM THEIR GREEN COLOR. WHITE FLOWERS ARE POLLINATED BY INSECTS.
-- (B) MAIZE PLANTS ARE POLLINATED BY WIND; MALE FLOWERS PRODUCE POLLEN.
-- (C) FEMALE MAIZE FLOWERS PRODUCE SEEDS AFTER POLLINATION.
-
-THE STRUCTURE AND FUNCTION OF FLOWERING PLANTS WILL BE EXPLORED IN UNIT 3.
-
-## CONCLUSION
-UNDERSTANDING ORGANISM CLASSIFICATION APPRECIATES LIFE'S COMPLEXITY. EACH GROUP PLAYS A ROLE IN ECOSYSTEMS, AIDING EFFECTIVE STUDY THROUGH RECOGNITION OF THEIR FEATURES.
+| rate of enzyme-catalysed reaction / arbitrary units |
+|                       /\                            |
+|                      /  \                           |
+|                     /    \                          |
+|                    /      \                         |
+|                   /        \                        |
+|                  /          \                       |
+|                 /            \                      |
+|                /              \                     |
+|               /                \                    |
+|              /                  \                   |
+|             /                    \                  |
+|            /                      \                 |
+|           /                        \                |
+|          /                          \               |
+|         /                            \              |
+|        /                              \             |
+|       /                                \            |
+|      /                                  \           |
+|     /                                    \          |
++---------------------------------------------------|
+  10 20 30 40 50 60 70 80 90 100
+           temperature / °C

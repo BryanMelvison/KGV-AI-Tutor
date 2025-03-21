@@ -1,450 +1,457 @@
+# 3 BREATHING AND GAS EXCHANGE
+
+When we breathe, air is moved in and out of the lungs so that gas exchange can take place between the air and the blood. This chapter looks at these processes, and also deals with some ways that smoking can damage the lungs and stop these vital organs from working properly.
+
+## LEARNING OBJECTIVES
+
+- Describe the structure of the thorax, including the ribs, intercostal muscles, diaphragm, trachea, bronchi, bronchioles, alveoli and pleural membranes
+- Understand the role of the intercostal muscles and the diaphragm in ventilation
+- Explain how alveoli are adapted for gas exchange by diffusion between air in the lungs and blood in capillaries
+- Investigate breathing in humans, including the release of carbon dioxide and the effect of exercise
+- Understand the biological consequences of smoking in relation to the lungs and circulatory system, including coronary heart disease.
+
+Cells get their energy by oxidising foods such as glucose, during the process called respiration. If cells are to respire aerobically, they need a continuous supply of oxygen from the blood. In addition, carbon dioxide from respiration needs to be removed from the body. In humans, these gases are exchanged between the blood and the air in the lungs.
+
+## RESPIRATION AND BREATHING
+
+You need to understand the difference between respiration and breathing. Respiration is the oxidation reaction that releases energy from foods such as glucose (Chapter 1). Breathing is the mechanism that moves air into and out of the lungs, allowing gas exchange to take place. The lungs and associated structures are often called the 'respiratory system' but this can be confusing. It is better to call them the gas exchange system and this is the term we use in this book.
+
+## THE STRUCTURE OF THE GAS EXCHANGE SYSTEM
+
+The lungs are enclosed in the chest or thorax by the ribcage and a muscular sheet of tissue called the diaphragm (Figure 3.1). As you will see, the actions of these two structures bring about the movements of air into and out of the lungs. Joining each rib to the next are two sets of muscles called intercostal muscles ('costals' are rib bones). The diaphragm separates the contents of the thorax from the abdomen. It is not flat, but a shallow dome shape, with a fibrous middle part forming the 'roof' of the dome, and muscular edges forming the walls.
+---
+# ANIMAL PHYSIOLOGY                             BREATHING AND GAS EXCHANGE
+
+## Figure 3.2 This cast of the human lungs was made by injecting a pair of lungs with a liquid plastic. The plastic was allowed to set, then the lung tissue was dissolved away with acid.
+
+[Image of colorful lung cast]
+
+## Figure 3.1 The human gas exchange system
+
+[Diagram of human respiratory system with labels]
+
+| Label | Part |
+|-------|------|
+| start of gullet (oesophagus) | |
+| trachea | |
+| larynx | |
+| ring of cartilage | |
+| left bronchus | |
+| bronchioles | |
+| alveoli | |
+| heart | |
+| pleural membranes | |
+| internal intercostal muscle | |
+| external intercostal muscle | |
+| pleural fluid (in pleural cavity) | |
+| ribs | |
+| muscular part of the diaphragm | |
+| fibrous part of the diaphragm | |
+
+The air passages of the lungs form a highly branching network (Figure 3.2). This is why it is sometimes called the bronchial tree.
+
+When we breathe in, air enters our nose or mouth and passes down the windpipe or trachea. The trachea splits into two tubes called the bronchi (singular bronchus), one leading to each lung. Each bronchus divides into smaller and smaller tubes called bronchioles, eventually ending at microscopic air sacs, called alveoli (singular alveolus). It is here that gas exchange with the blood takes place.
+
+The walls of trachea and bronchi contain rings of gristle or cartilage. These support the airways and keep them open when we breathe in. They are rather like the rings in a vacuum cleaner hose – without them the hose would squash flat when the cleaner sucks air in.
+
+The inside of the thorax is separated from the lungs by two thin, moist membranes called the pleural membranes. They make up a continuous envelope around the lungs, forming an airtight seal. Between the two membranes is a space called the pleural cavity, filled with a thin layer of liquid called pleural fluid. This acts as lubrication, so that the surfaces of the lungs don't stick to the inside of the chest wall when we breathe.
+
+## Figure 3.3 C-shaped cartilage rings in the trachea.
+
+[Diagram of esophagus and trachea]
+
+| Label | Part |
+|-------|------|
+| oesophagus | |
+| trachea | |
+| bulge where food is passing down oesophagus | |
+| C-shaped rings of cartilage in wall of trachea | |
+
+### EXTENSION WORK
+
+In the bronchi, the cartilage forms complete, circular rings. In the trachea, the rings are incomplete, and shaped like a letter 'C'. The open part of the ring is at the back of the trachea, next to where the oesophagus (gullet) lies as it passes through the thorax. When food passes along the oesophagus by peristalsis (see Chapter 4) the gaps in the rings allow the lumps of food to pass through more easily, without the peristaltic wave 'catching' on the rings (Figure 3.3).
+
+### KEEPING THE AIRWAYS CLEAN
+
+The trachea and larger airways are lined with a layer of cells that have an important role in keeping the airways clean. Some cells in this lining secrete a sticky liquid called mucus, which traps particles of dirt or bacteria that are breathed in. Other cells are covered with tiny hair-like structures called cilia (Figure 3.4). The cilia beat backward and forward, sweeping the mucus and trapped particles out towards the mouth. In this way, dirt and bacteria are
+---
+                ribs
+breastbone (sternum)
+
+
+front of chest
+
+                                       external intercostals
+
+                                       internal intercostals
+
+---
 # ANIMAL PHYSIOLOGY: BREATHING AND GAS EXCHANGE
 
-WHEN WE BREATHE, AIR IS MOVED IN AND OUT OF THE LUNGS, FACILITATING GAS EXCHANGE BETWEEN THE AIR AND THE BLOOD. THIS PROCESS IS ESSENTIAL FOR SURVIVAL, BUT IT CAN ALSO BE COMPROMISED BY LIFESTYLE FACTORS SUCH AS SMOKING, WHICH DAMAGES THE LUNGS AND IMPAIRS THEIR FUNCTION.
+## Figure 3.6 Changes in the position of the ribs and diaphragm during breathing
 
-THE RESPIRATORY SYSTEM, OFTEN REFERRED TO AS THE GAS EXCHANGE SYSTEM, CONSISTS OF SEVERAL KEY STRUCTURES THAT WORK TOGETHER TO ENABLE BREATHING. THESE STRUCTURES INCLUDE THE RIBCAGE, DIAPHRAGM, INTERCOSTAL MUSCLES, TRACHEA, BRONCHI, BRONCHIOLES, AND ALVEOLI. THE DIAPHRAGM IS A MUSCULAR SHEET THAT SEPARATES THE THORAX FROM THE ABDOMEN, PLAYING A CRUCIAL ROLE IN VENTILATION BY COORDINATING WITH THE INTERCOSTAL MUSCLES TO MOVE AIR INTO AND OUT OF THE LUNGS.
+### (a) Inhalation
+- Air enters lungs through trachea
+- Cavity containing pleural fluid expands
+- Ribs move outward
+- Lung expands
+- Lower pressure than outside body
+- Diaphragm muscles contract, diaphragm flattens
+- External intercostal muscles contract, pulling ribs up and out
 
-RESPIRATION REFERS TO THE BIOLOGICAL PROCESS WHERE OXYGEN IS EXTRACTED FROM THE AIR AND CARBON DIOXIDE IS RELEASED INTO THE ATMOSPHERE THROUGH BREATHING. THIS PROCESS IS VITAL FOR CELLULAR RESPIRATION, WHICH CONVERTS GLUCOSE INTO ENERGY. BREATHING, ON THE OTHER HAND, IS THE MECHANICAL ACT OF MOVING AIR IN AND OUT OF THE LUNGS, ENSURING THAT GAS EXCHANGE CAN OCCUR.
+### (b) Exhalation
+- Air pushed out of lungs
+- Ribs move inward
+- Lung contracts
+- Higher pressure than outside body
+- Diaphragm muscles relax, diaphragm becomes dome-shaped
+- Internal intercostal muscles contract, pulling ribs down and in
 
-THE ALVEOLI ARE SMALL SACS AT THE END OF THE BRONCHIOLES WHERE GAS EXCHANGE BY DIFFUSION OCCURS BETWEEN THE AIR IN THE LUNGS AND THE BLOOD IN CAPILLARIES. THIS PROCESS IS HIGHLY EFFICIENT, ALLOWING OXYGEN TO BE ABSORBED INTO THE BLOODSTREAM AND CARBON DIOXIDE TO BE EXPELLED DURING EXHALATION.
+## KEY POINT
 
-UNDERSTANDING THESE STRUCTURES AND PROCESSES IS FUNDAMENTAL TO GRASPING HOW BREATHING WORKS AND HOW LIFESTYLE CHOICES LIKE SMOKING CAN IMPACT RESPIRATORY HEALTH. SMOKING LEADS TO DAMAGE IN THE ALVEOLI, REDUCING THEIR SURFACE AREA FOR GAS EXCHANGE AND INCREASING THE RISK OF CHRONIC RESPIRATORY CONDITIONS SUCH AS COPD AND CORONARY HEART DISEASE.
-
-# ANIMAL PHYSIOLOGY: BREATHING AND GAS EXCHANGE
-
-## THE HUMAN GAS EXCHANGE SYSTEM
-
-THE HUMAN GAS EXCHANGE SYSTEM FACILITATES BREATHING AND ENABLES THE EXCHANGE OF GASES BETWEEN THE BODY AND THE ENVIRONMENT. THIS SYSTEM IS STRUCTURED AS A HIGHLY BRANCHED NETWORK OF AIR PASSAGES, REFERRED TO AS THE **BRONCHIAL TREE**.
-
-### STRUCTURE OF THE RESPIRATORY SYSTEM
-
-1. **TRACHEA**: THE TRACHEA SERVES AS THE PRIMARY AIRWAY, BRANCHING INTO TWO TUBES KNOWN AS **BRONCHI**, EACH LEADING TO ONE LUNG.
-2. **BRONCHI AND BRONCHIOLES**: EACH BRONCHUS FURTHER DIVIDES INTO SMALLER TUBES CALLED **BRONCHIOLES**, WHICH TERMINATE IN MICROSCOPIC AIR SACS CALLED **ALVEOLI** (PLURAL: ALVEOLI). GAS EXCHANGE OCCURS WITHIN THESE ALVEOLI.
-3. **CARTILAGE SUPPORT**: THE TRACHEA CONTAINS C-SHAPED RINGS OF CARTILAGE, ALLOWING FLEXIBILITY WHILE PROVIDING STRUCTURAL SUPPORT. THESE RINGS FACE THE ESOPHAGUS TO PREVENT OBSTRUCTION DURING BREATHING.
-
-### THE ROLE OF THE PLEURAL MEMBRANES
-
-THE PLEURAL MEMBRANES FORM AN AIRTIGHT SEAL AROUND THE LUNGS, CREATING THE PLEURAL CAVITY FILLED WITH PLEURAL FLUID. THIS FLUID LUBRICATES THE LUNG SURFACES, PREVENTING ADHESION TO THE CHEST WALL DURING BREATHING.
-
-### AIRWAY CLEANING MECHANISMS
-
-1. **MUCUS PRODUCTION**: THE AIRWAYS ARE LINED WITH CELLS THAT SECRETE MUCUS, TRAPPING DUST AND BACTERIA.
-2. **CILIARY MOTION**: SPECIALIZED CELLS EQUIPPED WITH CILIA SWEEP MUCUS AND TRAPPED PARTICLES TOWARDS THE MOUTH, MAINTAINING AIRWAY CLEANLINESS.
-
-### BREATHING PROCESS
-
-WHEN BREATHING, AIR IS INHALED THROUGH THE NOSE OR MOUTH, TRAVELING DOWN THE TRACHEA. THE BRONCHI FURTHER DIVIDE INTO BRONCHIOLES, LEADING TO ALVEOLI WHERE GAS EXCHANGE OCCURS.
-
-### SUMMARY OF GAS EXCHANGE COMPONENTS
-
-- **TRACHEA**: MAIN AIRWAY LEADING TO THE LUNGS.
-- **BRONCHI**: TWO MAIN BRANCHES FROM THE TRACHEA.
-- **BRONCHIOLES**: SMALLER TUBES LEADING TO ALVEOLI FOR GAS EXCHANGE.
-- **ALVEOLI**: MICROSCOPIC SACS WHERE GAS EXCHANGE OCCURS.
-- **PLEURAL MEMBRANES**: PROTECT AND LUBRICATE THE LUNGS.
-- **MUCUS AND CILIA**: MAINTAIN AIRWAY CLEANLINESS.
-
-THIS STRUCTURED APPROACH ENSURES A CLEAR UNDERSTANDING OF THE HUMAN GAS EXCHANGE SYSTEM, FOCUSING ON ITS COMPONENTS AND FUNCTIONS WITHOUT ADDITIONAL COMMENTARY OR SUMMARIES.
-
-# ANIMAL PHYSIOLOGY: BREATHING AND GAS EXCHANGE
-
-## VENTILATION OF THE LUNGS
-
-VENTILATION REFERS TO THE PROCESS OF MOVING AIR IN AND OUT OF THE LUNGS THROUGH DIFFERENCES IN AIR PRESSURE. THIS PROCESS OCCURS WITHIN THE THORAX, AN AIRTIGHT CAVITY, WHERE BREATHING CHANGES ITS VOLUME, ALTERING INTERNAL PRESSURE AND FACILITATING AIRFLOW.
-
-### MECHANISMS OF VENTILATION
-
-THE PRIMARY MOVEMENTS INVOLVED IN VENTILATION ARE THOSE OF THE RIBS AND DIAPHRAGM.
-
-1. **INHALATION**:
-   - DURING INHALATION, THE EXTERNAL INTERCOSTAL MUSCLES CONTRACT, PULLING THE RIBS UPWARD AND OUTWARD.
-   - SIMULTANEOUSLY, THE DIAPHRAGM CONTRACTS AND FLATTENS, INCREASING THE CHEST CAVITY VOLUME.
-   - THIS VOLUME INCREASE LOWERS INTRATHORACIC PRESSURE, ALLOWING AIR TO ENTER THE LUNGS.
-
-2. **EXHALATION**:
-   - DURING EXHALATION, THE EXTERNAL INTERCOSTAL MUSCLES RELAX, WHILE THE INTERNAL INTERCOSTALS CONTRACT, PULLING THE RIBS DOWNWARD AND INWARD.
-   - THE DIAPHRAGM ALSO RELAXES, REVERTING TO ITS DOME SHAPE, REDUCING THORACIC VOLUME.
-   - THIS VOLUME REDUCTION INCREASES INTRATHORACIC PRESSURE, FORCING AIR OUT OF THE LUNGS.
-
-### ROLE OF CILIA
-
-CILIA LINING THE TRACHEA TRAP DUST AND PATHOGENS. THEIR DESTRUCTION BY SMOKING IMPAIRS THIS FUNCTION, ALLOWING HARMFUL SUBSTANCES TO ENTER THE LUNGS AND INCREASING RESPIRATORY RISK.
-
-## SUMMARY
-
-- **INHALATION**: INVOLVES CONTRACTIONS OF EXTERNAL INTERCOSTAL MUSCLES AND DIAPHRAGM, INCREASING THORACIC VOLUME AND LOWERING PRESSURE TO ALLOW AIR ENTRY.
-- **EXHALATION**: INVOLVES RELAXATION OF EXTERNAL INTERCOSTALS AND DIAPHRAGM, DECREASING THORACIC VOLUME AND RAISING PRESSURE TO EXPEL AIR.
-- **CILIA**: ESSENTIAL FOR TRAPPING HARMFUL PARTICLES; SMOKING DISRUPTS THEIR FUNCTION, LEADING TO RESPIRATORY ISSUES.
-
-# ANIMAL PHYSIOLOGY: BREATHING AND GAS EXCHANGE
-
-## BREATHING PROCESS
-
-BREATHING CONSISTS OF TWO PRIMARY ACTIONS: **INHALATION** AND **EXHALATION**.
-
-### INHALATION
-DURING INHALATION, AIR IS DRAWN INTO THE LUNGS DUE TO THE CONTRACTION OF THE DIAPHRAGM MUSCLES. THIS ACTION FLATTENS THE DIAPHRAGM, CREATING A LOWER PRESSURE IN THE THORACIC CAVITY, WHICH ALLOWS AIR TO ENTER THE LUNGS. SIMULTANEOUSLY, THE EXTERNAL INTERCOSTAL MUSCLES CONTRACT, LIFTING AND EXPANDING THE RIBCAGE, INCREASING THE VOLUME OF THE THORACIC CAVITY.
-
-### EXHALATION
-EXHALATION INVOLVES THE RELAXATION OF THE DIAPHRAGM MUSCLES, CAUSING THE DIAPHRAGM TO ARCH UPWARDS AND INCREASE INTRATHORACIC PRESSURE. THIS PRESSURE FORCES AIR OUT OF THE LUNGS AS THE INTERNAL INTERCOSTAL MUSCLES CONTRACT, PULLING THE RIBS DOWNWARD AND TOGETHER.
-
-### KEY POINT
-THE PROCESS OF BREATHING RELIES ON CHANGES IN PRESSURE RATHER THAN ACTIVE FORCE. JUST AS A BICYCLE PUMP COMPRESSES AIR, THE LUNGS EXPAND AND CONTRACT BASED ON INTERNAL AND EXTERNAL PRESSURE DIFFERENCES.
+It is important that you remember the changes in volume and pressure during ventilation. If you have trouble understanding these, think of what happens when you use a bicycle pump. If you push the pump handle, the air in the pump is squashed, its pressure rises and it is forced out of the pump. If you pull on the handle, the air pressure inside the pump falls a little, and air is drawn in from outside. This is similar to what happens in the lungs. In exams, students sometimes talk about the lungs forcing the air in and out – they don't!
 
 ## GAS EXCHANGE IN THE ALVEOLI
 
-GAS EXCHANGE OCCURS WITHIN THE ALVEOLI, TINY AIR SACS IN THE LUNGS. UNDERSTANDING THIS PROCESS REQUIRES COMPARING ATMOSPHERIC AIR WITH EXHALED AIR.
+You can tell what is happening during gas exchange if you compare the amounts of different gases in atmospheric air with the air breathed out (Table 3.1).
 
-### COMPOSITION OF ATMOSPHERIC AND EXHALED AIR
-ATMOSPHERIC AIR CONSISTS PRIMARILY OF NITROGEN (78%), OXYGEN (21%), CARBON DIOXIDE (0.04%), AND OTHER GASES LIKE ARGON. EXHALED AIR RETAINS MOST NITROGEN (79%) BUT SHOWS A DECREASE IN OXYGEN (16%) AND AN INCREASE IN CARBON DIOXIDE, REFLECTING ITS PRODUCTION IN THE BODY.
+### Table 3.1 Approximate percentage volume of gases in atmospheric (inhaled) and exhaled air
 
-### IMPORTANT NOTES
-THE PERCENTAGE OF A GAS IN A MIXTURE CAN BE MISLEADING. FOR EXAMPLE, IF ALL OXYGEN IS ABSORBED, NITROGEN BECOMES 100% BY VOLUME, THOUGH ITS ACTUAL AMOUNT REMAINS UNCHANGED. EXHALED AIR IS WARMER AND SATURATED WITH WATER VAPOR, VARYING WITH ENVIRONMENTAL CONDITIONS.
+| Gas | Atmospheric air / % | Exhaled air / % |
+|-----|---------------------|-----------------|
+| nitrogen | 78 | 79 |
+| oxygen | 21 | 16 |
+| carbon dioxide | 0.04 | 4 |
+| other gases (mainly argon) | 1 | 1 |
 
-### FUNCTION OF ALVEOLI
-ALVEOLI FACILITATE EFFICIENT GAS EXCHANGE THROUGH THEIR STRUCTURE:
-- THEY PROVIDE A VAST SURFACE AREA (APPROXIMATELY 60 SQUARE METERS), SURPASSING THE FLOOR AREA OF AN AVERAGE CLASSROOM.
-- SURROUNDING ALVEOLI ARE TINY BLOOD CAPILLARIES, ENABLING OXYGEN ABSORPTION INTO THE BLOODSTREAM AND CARBON DIOXIDE EXPULSION.
+### HINT
 
-### STRUCTURE OF ALVEOLI
-ALVEOLI RESEMBLE BUNCHES OF GRAPES UNDER A MICROSCOPE, CONFIRMING THEIR ROLE IN GAS EXCHANGE.
+Be careful when interpreting percentages! The percentage of a gas in a mixture can vary, even if the actual amount of the gas stays the same. This is easiest to understand from an example. Imagine you have a bottle containing a mixture of 20% oxygen and 80% nitrogen. If you used a chemical to absorb all the oxygen in the bottle, the nitrogen left would now be 100% of the gas in the bottle, despite the fact that the amount of nitrogen would still be the same. That is why the percentage of nitrogen in inhaled and exhaled air is slightly different.
 
-# ANIMAL PHYSIOLOGY: BREATHING AND GAS EXCHANGE
+Exhaled air is also warmer than atmospheric air, and is saturated with water vapour. The amount of water vapour in the atmosphere varies depending on weather conditions.
 
-## OVERVIEW OF ALVEOLI AND GAS EXCHANGE
+Clearly, the lungs are absorbing oxygen into the blood and removing carbon dioxide from it. This happens in the alveoli. To do this efficiently, the alveoli must have a structure which brings the air and blood very close together, over a very large surface area. There are enormous numbers of alveoli. It has been calculated that the two lungs contain about 700,000,000 of these tiny air sacs, giving a total surface area of 60 m². That's bigger than the floor area of an average classroom! Viewed through a high-powered microscope, the alveoli look rather like bunches of grapes, and are covered with tiny blood capillaries (Figure 3.7).
+---
+ANIMAL PHYSIOLOGY                            BREATHING AND GAS EXCHANGE                                                          39
 
-THE PROCESS OF BREATHING AND GAS EXCHANGE IS ESSENTIAL FOR MAINTAINING LIFE IN ANIMALS. THIS PROCESS OCCURS PRIMARILY IN THE LUNGS, WHERE TINY AIR SACS CALLED ALVEOLI FACILITATE GAS EXCHANGE.
+Figure 3.7 (a) Alveoli and the surrounding capillary network. (b) Diffusion of oxygen and carbon dioxide takes place between the air in the alveolus and the blood in the capillaries.
 
-### STRUCTURE OF ALVEOLI
+| (a)                      | (b)                                 |
+|--------------------------|-------------------------------------|
+| end of bronchiole        | air in and out                      |
+| air in and out           | oxygenated blood                    |
+| blood back to heart      | wall of capillary                   |
+| one alveolus             | deoxygenated blood                  |
+| blood from heart         | oxygen                              |
+|                          | carbon dioxide                      |
+| thin layer of            | cells of alveolus wall              |
+| fluid lining alveolus    | red blood cells                     |
 
-EACH ALVEOLUS HAS A WALL COMPOSED OF CELLS, WHICH IS CRUCIAL FOR GAS EXCHANGE. SURROUNDING EACH ALVEOLUS IS A NETWORK OF CAPILLARIES, TINY BLOOD VESSELS THAT PLAY A KEY ROLE IN THE PROCESS.
+### HINT
 
-### THE PROCESS OF GAS EXCHANGE
+Be careful - students sometimes write 'The alveolus has cell walls'. This statement is not correct - a cell wall is part of a plant cell! The correct way to describe the structure is: 'The alveolus has a wall made of cells'.
 
-BLOOD THAT IS LOW IN OXYGEN AND HIGH IN CARBON DIOXIDE IS PUMPED FROM THE HEART TO THE LUNGS. AS THIS BLOOD PASSES THROUGH THE CAPILLARIES SURROUNDING THE ALVEOLI, IT IS SEPARATED FROM THE AIR INSIDE THE ALVEOLI BY ONLY TWO CELL LAYERS. THIS SEPARATION ALLOWS FOR THE DIFFUSION OF GASES BETWEEN THE AIR IN THE ALVEOLUS AND THE BLOOD IN THE CAPILLARIES.
-
-- **OXYGEN**: THE CONCENTRATION OF OXYGEN IN THE ALVEOLUS IS HIGHER THAN IN THE BLOOD, SO OXYGEN DIFFUSES FROM THE ALVEOLUS INTO THE BLOOD.
-- **CARBON DIOXIDE**: CONVERSELY, THE CONCENTRATION OF CARBON DIOXIDE IN THE BLOOD IS HIGHER THAN IN THE AIR, SO CARBON DIOXIDE DIFFUSES FROM THE BLOOD INTO THE ALVEOLUS.
-
-### ROLE OF FLUID IN ALVEOLI
-
-A THIN LAYER OF FLUID LINES THE INSIDE OF THE ALVEOLI, WHICH COMES FROM THE BLOOD. THIS FLUID FACILITATES THE DIFFUSION PROCESS BY PROVIDING A MOIST SURFACE FOR OXYGEN TO DISSOLVE BEFORE IT PASSES THROUGH THE ALVEOLAR WALL INTO THE BLOOD.
-
-### RESULT OF GAS EXCHANGE
-
-AFTER GAS EXCHANGE, THE BLOOD THAT LEAVES THE CAPILLARIES IS RICH IN OXYGEN AND FREE OF CARBON DIOXIDE. THIS OXYGENATED BLOOD IS THEN PUMPED BACK TO THE HEART, WHERE IT CIRCULATES THROUGHOUT THE BODY TO SUPPLY RESPIRING CELLS WITH THE NECESSARY OXYGEN.
-
-### IMPORTANT NOTE
-
-IT IS INCORRECT TO DESCRIBE THE ALVEOLUS AS HAVING CELL WALLS. INSTEAD, IT SHOULD BE STATED THAT THE ALVEOLUS HAS A WALL MADE OF CELLS.
+Deoxygenated blood is pumped from the heart to the lungs and passes through the capillaries surrounding the alveoli. The blood has come from the respiring tissues of the body, where it has given up some of its oxygen to the cells, and gained carbon dioxide. Around the lungs, the blood is separated from the air inside each alveolus by only two cell layers; the cells making up the wall of the alveolus, and the capillary wall itself. This is a distance of less than a thousandth of a millimetre.
 
 ### EXTENSION WORK
 
-CONSIDERING THE DIFFUSION GRADIENTS FOR BOTH OXYGEN AND CARBON DIOXIDE CAN ENHANCE UNDERSTANDING OF THIS ESSENTIAL PROCESS. THE EFFICIENCY OF GAS EXCHANGE IN THE ALVEOLI IS VITAL FOR THE RESPIRATORY SYSTEM'S FUNCTION AND OVERALL ANIMAL PHYSIOLOGY.
+The thin layer of fluid lining the inside of the alveoli comes from the blood. The capillaries and cells of the alveolar wall are 'leaky' and the blood pressure pushes fluid out from the blood plasma into the alveolus. Oxygen dissolves in this moist surface before it passes through the alveolar wall into the blood.
 
-# ANIMAL PHYSIOLOGY: BREATHING AND GAS EXCHANGE
-
-## ACTIVITY 1: COMPARING CARBON DIOXIDE CONTENT IN INHALED AND EXHALED AIR
-
-**SAFETY NOTE:** WEAR EYE PROTECTION AND BREATHE GENTLY. USE A CLEAN MOUTHPIECE FOR EACH PARTICIPANT.
-
-THE APPARATUS SHOWN IN **FIGURE 3.8** ALLOWS COMPARISON OF CARBON DIOXIDE LEVELS IN INHALED AND EXHALED AIR. A PERSON BREATHES GENTLY THROUGH THE CENTRAL TUBE, WITH EXHALED AIR PASSING THROUGH ONE TUBE CONTAINING AN INDICATOR SOLUTION AND INHALED AIR DRAWN THROUGH ANOTHER.
-
-- IF LIMEWATER IS USED, THE 'EXHALED' TUBE'S SOLUTION WILL TURN CLOUDY BEFORE THE 'INHALED' TUBE'S.
-- USING HYDROGEN CARBONATE SOLUTION CHANGES IT FROM RED TO YELLOW.
-
-!FIGURE 3.8: APPARATUS FOR EXPERIMENT 1
-
+Because the air in the alveolus has a higher concentration of oxygen than the blood entering the capillary network, oxygen diffuses from the air, across the wall of the alveolus and into the blood. At the same time there is more carbon dioxide in the blood than there is in the air in the lungs. This means that there is a diffusion gradient for carbon dioxide in the other direction, so carbon dioxide diffuses the other way, out of the blood and into the alveolus. The result is that the blood which leaves the capillaries and flows back to the heart has gained oxygen and lost carbon dioxide. The heart then pumps the oxygenated blood around the body again, to supply the respiring cells (see Chapter 5).
 ---
+40   ANIMAL PHYSIOLOGY                       BREATHING AND GAS EXCHANGE
 
-## ACTIVITY 2: INVESTIGATING THE EFFECT OF EXERCISE ON BREATHING RATE
+                                               ACTIVITY 1
+                                                 PRACTICAL: COMPARING THE CARBON DIOXIDE CONTENT
+     Safety note: Wear eye protection and         OF INHALED AND EXHALED AIR
+     breathe gently; do not blow: A clean
+     mouthpiece must be used for each          The apparatus in Figure 3.8 can be used to compare the amount of
+     person                                    carbon dioxide in inhaled and exhaled air: A person breathes gently in and
+                                               out through the middle tube Exhaled air passes out through one tube
+                                               of indicator solution and inhaled air is drawn in through the other tube:
+                                              If limewater is used, the limewater in the 'exhaled' tube will turn cloudy
+                                               before the limewater in the 'inhaled' tube. (If hydrogen carbonate indicator
+                                              solution is used instead, it changes from red to yellow:)
+                                                                            breathe in and out
 
-**SAFETY NOTE:** WEAR SUITABLE FOOTWEAR AND USE A STURDY, SECURE SURFACE LIKE A LOW BOX OR PE BENCH.
+                                                              inhaled air                     exhaled air
 
-TO DEMONSTRATE EXERCISE'S IMPACT ON BREATHING RATE:
+                                                                             limewater or
+                                                                               hydrogen
+                                                                              carbonate
+                                                                            indicator solution
+                                                 Figure 3.8 Apparatus for Experiment 6.
 
-1. **RESTING MEASUREMENT:**
-   - SIT QUIETLY FOR FIVE MINUTES, ENSURING RELAXATION.
-   - COUNT BREATHS IN ONE MINUTE AND RECORD THE RESULT.
-   - REPEAT UNTIL A STEADY RESTING RATE IS CONSISTENTLY OBSERVED.
+                                               ACTIVITY 2
+                                                 PRACTICAL: AN INVESTIGATION INTO THE EFFECT OF
+     Safety note: Wear suitable footwear          EXERCISE ON BREATHING RATE
+     for exercising and ifdoingstep-ups
+     use a sturdy secure low box or a PE      It is easy to show the effect of exercise on a person'sbreathing rate.They
+     bench:                                   sit quietly for five minutes, making sure that they are completely relaxed.
+                                               Theythen count the number of breaths they take in one minute;recording
+                                              their results in a table. Theywait aminute, and then count their breaths
+                                              again, recording the result;, and repeating if necessary until they
+                                                                                                            get
+                                              steady value for the 'resting rate'.
+                                               The person then carries out some vigorous exercise, such as running on
+                                              the spot for three minutes Immediately after they finish the exercise,they
+                                              sit down and record the breathing rate as before. They then continue to
+                                              record their breaths per minute, every minute, until they return to their
+                                               normalresting rate_
+---
+ANIMAL PHYSIOLOGY                       BREATHING AND GAS EXCHANGE                                                 41
 
-2. **EXERCISE MEASUREMENT:**
-   - AFTER RESTING, PERFORM VIGOROUS EXERCISE, SUCH AS RUNNING IN PLACE FOR THREE MINUTES.
-   - IMMEDIATELY POST-EXERCISE, SIT AND RECORD BREATHING RATE AS BEFORE.
-   - CONTINUE RECORDING BREATHS PER MINUTE UNTIL THE RATE RETURNS TO THE RESTING LEVEL.
+The table shows the results from an investigation into the breathing rate of two girls, A and B, before and after exercise.
 
-BY CONDUCTING THESE ACTIVITIES, STUDENTS GAIN A DEEPER UNDERSTANDING OF BREATHING MECHANICS AND GAS EXCHANGE IN RELATION TO PHYSICAL ACTIVITY.
+| Time from start of experiment (min) | Breathing rate / breaths per min |    |
+|-------------------------------------|----------------------------------|---:|
+|                                     | A                                |  B |
+| 1                                   | 13                               | 13 |
+| 2                                   | 14                               | 12 |
+| 3                                   | 14                               | 12 |
+| Rate after 3 min vigorous exercise: |                                  |    |
+| 7                                   | 28                               | 17 |
+| 8                                   | 24                               | 13 |
+| 9                                   | 17                               | 12 |
+| 10                                  | 14                               | 12 |
 
-# ANIMAL PHYSIOLOGY: BREATHING AND GAS EXCHANGE
+Plot a line graph of these results, using the same axes for both subjects. Join the data points using straight lines, and leave a gap during the period of exercise, when no readings were taken.
 
-## BREATHING RATE INVESTIGATION
+Why does breathing rate need to rise during exercise? Explain as fully as possible. Why does the rate not return to normal as soon as a subject finishes the exercise? (see Chapter 1).
 
-THE TABLE BELOW PRESENTS BREATHING RATE DATA COLLECTED FROM TWO GIRLS, A AND B, BEFORE AND AFTER EXERCISE:
-
-| TIME FROM START OF EXPERIMENT (MIN) | BREATHING RATE (BREATHS PER MIN) |
-|--------------------------------------|-----------------------------------|
-| 0                                    | 13                                |
-| 1                                    | 14                                |
-| 2                                    | 14                                |
-| 3                                    | 28                                |
-| 4                                    | 24                                |
-| 5                                    | 17                                |
-| 6                                    | 12                                |
-| 7                                    | 10                                |
-| 8                                    | 14                                |
-| 9                                    | 12                                |
-
-BEFORE EXERCISE, BOTH GIRLS HAD A BASELINE BREATHING RATE OF 13 BREATHS PER MINUTE. WITHIN THE FIRST TWO MINUTES, THEIR RATES REMAINED STABLE AT 14 BREATHS PER MINUTE. AT THREE MINUTES, GIRL A'S BREATHING RATE INCREASED SIGNIFICANTLY TO 28 BREATHS PER MINUTE, WHILE GIRL B'S RATE ROSE TO 24 BREATHS PER MINUTE.
-
-AFTER EXERCISE, BOTH GIRLS' BREATHING RATES GRADUALLY DECREASED BUT DID NOT RETURN TO BASELINE LEVELS IMMEDIATELY. GIRL A'S RATE DROPPED TO 17 BREATHS PER MINUTE BY FIVE MINUTES AND FURTHER DECREASED TO 12 BY SIX MINUTES, STABILIZING AT 10 BREATHS PER MINUTE BY SEVEN MINUTES. GIRL B'S RATE ALSO DECREASED BUT REMAINED HIGHER THAN GIRL A'S POST-EXERCISE LEVELS.
-
-THE DATA INDICATES THAT BOTH GIRLS EXPERIENCED A PRONOUNCED INCREASE IN BREATHING RATE DURING EXERCISE, WITH GIRL A SHOWING A MORE SUBSTANTIAL RISE COMPARED TO GIRL B. THIS SUGGESTS THAT GIRL A MAY POSSESS GREATER CARDIOVASCULAR EFFICIENCY OR MUSCLE ENDURANCE, ALLOWING HER TO SUSTAIN HIGHER ACTIVITY LEVELS BEFORE NEEDING TO RECOVER.
+Describe the difference in the breathing rates of the two girls (A and B) after exercise. Which girl is more fit? Explain your reasoning.
 
 ## THE EFFECTS OF SMOKING
 
-FOR EFFECTIVE GAS EXCHANGE, THE AIR PASSAGES MUST REMAIN CLEAR. THE ALVEOLI RELY ON MUCUS AND CILIA TO REMOVE DIRT PARTICLES AND BACTERIA, ENSURING A LARGE SURFACE AREA FOR OXYGEN AND CARBON DIOXIDE EXCHANGE. HOWEVER, SMOKING DISRUPTS THESE PROCESSES.
+In order for the lungs to exchange gases properly, the air passages need to be clear, the alveoli need to be free from dirt particles and bacteria, and they must have as big a surface area as possible in contact with the blood. There is one habit that can upset all of these conditions – smoking.
 
-SMOKING IS ASSOCIATED WITH SEVERAL HEALTH RISKS, INCLUDING LUNG CANCER, BRONCHITIS, EMPHYSEMA, CORONARY HEART DISEASE, AND STOMACH ULCERS. ADDITIONALLY, PREGNANT WOMEN WHO SMOKE ARE AT HIGHER RISK OF DELIVERING UNDERWEIGHT BABIES DUE TO REDUCED PLACENTAL FUNCTION.
+Links between smoking and diseases of the lungs are now a proven fact. Smoking is associated with lung cancer, bronchitis and emphysema. It is also a major contributing factor to other conditions, such as coronary heart disease and ulcers of the stomach and intestine. Pregnant women who smoke are more likely to give birth to underweight babies.
 
-THE TRACHEA AND BRONCHI OF SMOKERS SUFFER DAMAGE FROM CIGARETTE SMOKE, WHICH DESTROYS CILIA AND IMPAIRS LUNG FUNCTION. THIS MAKES THE RESPIRATORY SYSTEM MORE SUSCEPTIBLE TO INFECTIONS, FURTHER COMPLICATING GAS EXCHANGE EFFICIENCY.
+Coronary heart disease will be described in Chapter 5 after you have studied the structure of the heart. Here we will look at a number of other medical conditions that are caused by smoking.
 
-## FURTHER STUDY
+### EFFECTS OF SMOKE ON THE LINING OF THE AIR PASSAGES
 
-CORONARY HEART DISEASE WILL BE DISCUSSED IN CHAPTER 5 AFTER STUDYING THE HEART'S STRUCTURE. UNDERSTANDING THE MEDICAL CONDITIONS CAUSED BY SMOKING AND THE IMPORTANCE OF HEALTHY LUNGS IS CRUCIAL FOR EFFECTIVE GAS EXCHANGE.
-
-# ANIMAL PHYSIOLOGY: EMPHYSEMA AND LUNG HEALTH
+You saw above how the lungs are kept free of particles of dirt and bacteria by the action of mucus and cilia. In the trachea and bronchi of a smoker, the cilia are destroyed by the chemicals in cigarette smoke.
+---
+The reduced numbers of cilia mean that the mucus is not swept away from the lungs, but remains to block the air passages. This is made worse by the fact that the smoke irritates the lining of the airways, stimulating the cells to secrete more mucus. The sticky mucus blocking the airways is the source of 'smoker's cough'. Irritation of the bronchial tree, along with infections from bacteria in the mucus, can cause the lung disease bronchitis. Bronchitis blocks normal air flow, so the sufferer has difficulty breathing properly.
 
 ## EMPHYSEMA
 
-EMPHYSEMA IS A SERIOUS LUNG DISEASE CHARACTERIZED BY DAMAGE TO THE ALVEOLI, TINY AIR SACS ESSENTIAL FOR GAS EXCHANGE. IN INDIVIDUALS WITH EMPHYSEMA, THE ALVEOLAR WALLS BREAK DOWN AND FUSE, CREATING ENLARGED, IRREGULAR AIR SPACES. THIS SIGNIFICANTLY REDUCES THE SURFACE AREA AVAILABLE FOR GAS EXCHANGE, LEADING TO LESS EFFICIENT OXYGEN ABSORPTION. CONSEQUENTLY, THE BLOOD OF SOMEONE WITH EMPHYSEMA CARRIES LESS OXYGEN, IMPAIRING EVEN MILD PHYSICAL ACTIVITIES LIKE WALKING.
+Emphysema is another lung disease that kills about 20000 people in Britain every year. Smoking is the cause of one type of emphysema. Smoke damages the walls of the alveoli, which break down and fuse together again, forming enlarged, irregular air spaces (Figure 3.9).
 
-### KEY ASPECTS OF EMPHYSEMA
-- **CAUSE**: PRIMARILY SMOKING.
-- **SYMPTOMS**: DIFFICULTY BREATHING, REDUCED EXERCISE CAPACITY, AND A PERSISTENT COUGH.
-- **STATISTICS**: APPROXIMATELY 20,000 DEATHS ANNUALLY IN BRITAIN FROM EMPHYSEMA.
-- **TREATMENT**: NO CURE; PATIENTS OFTEN REQUIRE SUPPLEMENTAL OXYGEN.
+This greatly reduces the surface area for gas exchange, which becomes very inefficient. The blood of a person with emphysema carries less oxygen. In serious cases, this leads to the sufferer being unable to carry out even mild exercise, such as walking. Emphysema patients often have to have a supply of oxygen nearby at all times (Figure 3.10). There is no cure for emphysema, and usually the sufferer dies after a long and distressing illness.
 
-!ALVEOLI IN A NORMAL LUNG
-*FIGURE 3.9: THE ALVEOLI OF AN INDIVIDUAL WITH EMPHYSEMA SHOW REDUCED SURFACE AREA AND INEFFICIENT GAS EXCHANGE.*
-
-!PATIENTS WITH EMPHYSEMA
-*FIGURE 3.10: PATIENTS WITH EMPHYSEMA MAY NEED TO BREATHE ENRICHED OXYGEN TO SURVIVE.*
-
-## CHRONIC OBSTRUCTIVE PULMONARY DISEASE (COPD)
-
-CHRONIC BRONCHITIS COMBINED WITH EMPHYSEMA DEFINES COPD, A PROGRESSIVE DISEASE WITHOUT A CURE AND LEADING TO SEVERE HEALTH COMPLICATIONS OVER TIME.
-
-## BREATHING AND GAS EXCHANGE
-
-SMOKING REDUCES LUNG CILIA, IMPAIRING MUCUS CLEARANCE. THIS MUCUS BLOCKS AIR PASSAGES, CAUSING BRONCHIAL TREE IRRITATION AND INCREASING INFECTION RISK. THE PERSISTENT "SMOKER'S COUGH" IS OFTEN DUE TO THIS STICKY MUCUS.
-
-### BRONCHITIS
-BRONCHITIS OCCURS WHEN AIRWAYS BECOME INFLAMED, PRODUCING EXCESS MUCUS THAT OBSTRUCTS AIRFLOW, MAKING BREATHING DIFFICULT.
-
-## LUNG CANCER AND SMOKING
-
-EVIDENCE LINKING SMOKING TO LUNG CANCER EMERGED IN THE 1950S. A STUDY COMPARING LUNG CANCER PATIENTS TO A CONTROL GROUP REVEALED HIGHER SMOKING PREVALENCE AMONG CANCER PATIENTS, ESTABLISHING A CLEAR LINK BETWEEN SMOKING AND LUNG CANCER RISK.
-
-### CONTEXTUAL UNDERSTANDING
-- **COPD**: PROGRESSIVE COMBINATION OF CHRONIC BRONCHITIS AND EMPHYSEMA.
-- **EMPHYSEMA**: ALVEOLAR DAMAGE REDUCING GAS EXCHANGE EFFICIENCY.
-- **BRONCHITIS**: INFLAMMATION FROM MUCUS OBSTRUCTION.
-- **LUNG CANCER**: STRONGLY ASSOCIATED WITH SMOKING, AS SHOWN BY HISTORICAL STUDIES.
-
-PROMOTING LUNG HEALTH THROUGH UNDERSTANDING THESE CONDITIONS IS CRUCIAL FOR REDUCING SMOKING-RELATED RISKS.
-
-# ANIMAL PHYSIOLOGY: BREATHING AND GAS EXCHANGE
-
-## SMOKING AND LUNG CANCER
-
-### OVERVIEW OF SMOKING HABITS
-A STUDY COMPARING SMOKING HABITS AMONG LUNG CANCER PATIENTS AND CONTROL PATIENTS REVEALED SIGNIFICANT DIFFERENCES IN SMOKING BEHAVIOR. AMONG LUNG CANCER PATIENTS, 0.5% WERE NON-SMOKERS, WHILE 25% SMOKED MORE THAN 15 CIGARETTES DAILY. IN CONTRAST, 4.5% OF CONTROL PATIENTS WERE NON-SMOKERS, WITH 13% SMOKING OVER 15 CIGARETTES PER DAY.
-
-### CORRELATION BETWEEN SMOKING AND LUNG CANCER
-THE STUDY FOUND A STATISTICALLY SIGNIFICANT CORRELATION BETWEEN SMOKING AND LUNG CANCER. OVER 20 SIMILAR INVESTIGATIONS IN NINE COUNTRIES HAVE CONSISTENTLY SHOWN THESE RESULTS. IN 1962, THE ROYAL COLLEGE OF PHYSICIANS PUBLISHED A REPORT TITLED "SMOKING AND HEALTH," WARNING ABOUT SMOKING'S DANGERS. THIS LED TO A NOTABLE DECLINE IN LUNG CANCER DEATHS AMONG MALE DOCTORS, DROPPING BY 38%, WHILE OVERALL MALE DEATH RATES ROSE.
-
-### THE DANGERS OF CIGARETTE SMOKE
-CIGARETTE SMOKE CONTAINS OVER 7,000 CHEMICALS, MANY HARMFUL. KEY SUBSTANCES INCLUDE NICOTINE, A HIGHLY ADDICTIVE DRUG, AND MORE THAN 60 CARCINOGENS SUCH AS FORMALDEHYDE, CYANIDE, BENZENE, TOLUENE, CARBON MONOXIDE, ARSENIC, AND AMMONIA. THESE CARCINOGENS ACCUMULATE IN LUNG TAR, LEADING TO CELL MUTATIONS AND TUMORS. LUNG TUMORS OFTEN CAUSE NO PAIN, LEADING TO LATE DIAGNOSES WHEN CANCER MAY HAVE SPREAD, MAKING IT INOPERABLE.
-
-### RISK FACTORS
-SMOKING INCREASES LUNG CANCER RISK, WITH THE RISK RISING SIGNIFICANTLY WITH THE NUMBER OF CIGARETTES SMOKED. SMOKING 20 DAILY CAN INCREASE DEATH RISK BY ABOUT 15 TIMES.
-
-!FIGURE 3.12: INCREASED RISK OF LUNG CANCER DEATH WITH HIGHER CIGARETTE CONSUMPTION.
-
-### DID YOU KNOW?
-PEOPLE OFTEN REFER TO "YELLOW NICOTINE STAINS," BUT IT'S ACTUALLY TAR THAT STAINS FINGERS AND TEETH. NICOTINE IS COLORLESS AND ODORLESS, AND THE CIGARETTE TYPE (FILTERED OR LOW TAR) HAS MINIMAL IMPACT ON LUNG CANCER RISK.
-
-### TAKING ACTION
-THE BEST ACTION IS NOT SMOKING AT ALL. FOR EXISTING SMOKERS, QUITTING CAN IMPROVE SURVIVAL CHANCES, APPROACHING THAT OF NON-SMOKERS AFTER A FEW YEARS OF CESSATION.
-
-!FIGURE 3.13: QUITTING SMOKING IMPROVES SURVIVAL CHANCES.
-
-# ANIMAL PHYSIOLOGY: BREATHING AND GAS EXCHANGE
-
-## THE IMPACT OF SMOKING ON HEALTH
-
-### DEATH RATES FROM LUNG CANCER
-FIGURE 3.13 ILLUSTRATES DEATH RATES FROM LUNG CANCER AMONG SMOKERS, NON-SMOKERS, AND EX-SMOKERS. CURRENT SMOKERS EXPERIENCE THE HIGHEST DEATH RATES, WHILE EX-SMOKERS SHOW LOWER RATES, ESPECIALLY AFTER QUITTING. NON-SMOKERS HAVE THE LOWEST DEATH RATES.
-
-### CARBON MONOXIDE IN SMOKE
-CIGARETTE SMOKE CONTAINS CARBON MONOXIDE, A HARMFUL GAS THAT ENTERS THE BLOODSTREAM UPON INHALATION. IT INTERFERES WITH OXYGEN TRANSPORT BY BINDING MORE TIGHTLY TO HEMOGLOBIN THAN OXYGEN, FORMING CARBOXYHAEMOGLOBIN. THIS REDUCES THE BLOOD'S ABILITY TO CARRY OXYGEN THROUGHOUT THE BODY.
-
-#### HEALTH RISKS
-CARBON MONOXIDE FROM SMOKING CONTRIBUTES SIGNIFICANTLY TO HEART DISEASE AND POSES PREGNANCY RISKS. SMOKING DEPRIVES THE FETUS OF OXYGEN, LEADING TO LOWER BIRTH WEIGHTS IN BABIES COMPARED TO THOSE BORN TO NON-SMOKERS.
-
-### SOME SMOKING STATISTICS
- GLOBALLY, OVER 1 BILLION PEOPLE SMOKE, CONSUMING APPROXIMATELY 5.8 TRILLION CIGARETTES ANNUALLY. TOBACCO-RELATED DEATHS CLAIM NEARLY 6 MILLION LIVES EACH YEAR, PROJECTED TO RISE TO 8 MILLION BY 2030, WITH 80% OCCURRING IN DEVELOPING COUNTRIES. SMOKING ACCOUNTS FOR 80% OF LUNG CANCER DEATHS, 80% OF BRONCHITIS AND EMPHYSEMA DEATHS, AND 14% OF HEART DISEASE DEATHS. IT IS RESPONSIBLE FOR MORE THAN A QUARTER OF ALL CANCER DEATHS, INCLUDING CANCERS OF THE LUNG, MOUTH, THROAT, BLADDER, KIDNEY, PANCREAS, STOMACH, LIVER, AND CERVIX.
-
-### TRENDS IN SMOKING
-SMOKING PREVALENCE HAS DECLINED IN DEVELOPED COUNTRIES LIKE THE UK, WHILE INCREASING IN DEVELOPING REGIONS. IN THE UK, 9.6 MILLION ADULTS SMOKE, WITH 20% OF MEN AND 17% OF WOMEN BEING CURRENT SMOKERS. HOWEVER, 22% OF WOMEN AND 30% OF MEN ARE EX-SMOKERS. SURVEYS INDICATE THAT ABOUT TWO-THIRDS OF CURRENT SMOKERS WISH TO QUIT. GLOBALLY, 31% OF MEN AND 8% OF WOMEN SMOKE, WITH VARYING CONSUMPTION RATES ACROSS COUNTRIES, PARTICULARLY INCREASING IN SOUTHERN AND CENTRAL ASIA, EASTERN EUROPE, AND AFRICA.
-
-### CONCLUSION
-THE EFFECTS OF SMOKING AND ASSOCIATED STATISTICS HIGHLIGHT THE IMPORTANCE OF PUBLIC HEALTH AWARENESS. EFFORTS TO REDUCE SMOKING RATES AND EDUCATE INDIVIDUALS ON TOBACCO RISKS ARE CRUCIAL FOR IMPROVING GLOBAL HEALTH OUTCOMES.
-
-# ANIMAL PHYSIOLOGY: BREATHING AND GAS EXCHANGE
-
-## SMOKING AND ITS IMPACT
-
-IN CHINA ALONE, APPROXIMATELY 350 MILLION PEOPLE SMOKE, ACCOUNTING FOR ONE-THIRD OF ALL CIGARETTES CONSUMED GLOBALLY. MAJOR TOBACCO COMPANIES HAVE SOUGHT TO ENTER THE CHINESE MARKET. HOWEVER, SMOKING LEADS TO OVER A MILLION ANNUAL DEATHS FROM SMOKING-RELATED DISEASES IN CHINA, WITH THIS FIGURE EXPECTED TO DOUBLE BY 2025.
-
-### ECONOMIC CONSEQUENCES
-
-IN DEVELOPING COUNTRIES, SMOKING HAS SIGNIFICANT ECONOMIC IMPACTS. SMOKERS OFTEN SPEND SUBSTANTIAL INCOME ON CIGARETTES, DIVERTING RESOURCES FROM NECESSITIES LIKE FOOD, HEALTHCARE, AND EDUCATION. ADDITIONALLY, TOBACCO FARMING USES LAND THAT COULD BE ALLOCATED FOR FOOD PRODUCTION. IN 2012, 7.5 MILLION TONNES OF TOBACCO LEAF WERE CULTIVATED ACROSS NEARLY 4.3 MILLION HECTARES, AN AREA LARGER THAN SWITZERLAND.
-
-## GIVING UP SMOKING
-
-MANY SMOKERS DESIRE A METHOD TO QUIT, THOUGH NICOTINE'S ADDICTIVE NATURE LEADS TO WITHDRAWAL SYMPTOMS UPON CESSATION, INCLUDING CRAVINGS, RESTLESSNESS, AND WEIGHT GAIN DUE TO REDUCED APPETITE.
-
-### METHODS TO QUIT SMOKING
-
-SEVERAL METHODS AID SMOKERS IN QUITTING:
-
-- **ELECTRONIC CIGARETTES (E-CIGARETTES)**: PROVIDE NICOTINE WITHOUT HARMFUL TAR FROM TRADITIONAL CIGARETTES.
-- **NICOTINE PATCHES**: DELIVER CONTROLLED NICOTINE DOSES TO REDUCE CRAVINGS.
-- **NICOTINE CHEWING GUM**: SIMILAR TO PATCHES, HELPS MANAGE CRAVINGS BY OFFERING NICOTINE.
-
-THESE METHODS WORK BY GRADUALLY REDUCING NICOTINE INTAKE UNTIL THE HABIT IS DISCONTINUED.
+[Image description: Two diagrams showing alveoli in a normal lung and alveoli in the lung of a person suffering from emphysema. The normal lung shows many small, round alveoli, while the emphysema lung shows fewer, larger, and irregularly shaped air spaces.]
 
 ### EXTENSION WORK
 
-CONDUCT AN INTERNET SEARCH TO EXPLORE QUITTING METHODS. CONSIDER QUESTIONS LIKE THE SUCCESS RATES OF DIFFERENT METHODS AND E-CIGARETTES' SAFETY EVIDENCE. ADDITIONAL METHODS INCLUDE DRUGS REDUCING WITHDRAWAL SYMPTOMS, ACUPUNCTURE, AND HYPNOTISM.
+A person who has chronic (long-term) bronchitis and emphysema is said to be suffering from chronic obstructive pulmonary disease, or COPD. COPD is a progressive disease for which there is no cure.
+
+Figure 3.9 The alveoli of a person suffering from emphysema have a greatly reduced surface area and inefficient gas exchange.
+
+Figure 3.10 Patients with emphysema often need to breathe air enriched with oxygen in order to stay alive.
+
+## LUNG CANCER
+
+Evidence of the link between smoking and lung cancer first appeared in the 1950s. In one study, a number of patients in hospital were given a series of questions about their lifestyles. They were asked about their work, hobbies, housing and so on, including a question about how many cigarettes they smoked. The same questionnaire was given to two groups of patients. The first group were all suffering from lung cancer. The second (Control) group were in hospital with various other illnesses, but not lung cancer. To make it a fair comparison, the Control patients were matched with the lung cancer patients for sex, age and so on.
+
+When the results were compared, one difference stood out (Table 3.2). A greater proportion of the lung cancer patients were smokers than in the Control patients. There seemed to be a connection between smoking and getting lung cancer.
+---
+ANIMAL PHYSIOLOGY                               BREATHING AND GAS EXCHANGE                                            43
+
+                                               Table 3.2 Comparison of the smoking habits oflung  patients and other patients:
+                                                                               cancer
+                                                                     Percentage of patients who Percentage of patients
+                                                                          were non-smokers       who smoked more than
+                                                                                                 15 cigarettes a day
+                                               lung cancer patients             0.5                       25
+                                               Control patients (with illnesses 4.5                       13
+                                               other than lung cancer)
+                                               Although the results didn't prove that smoking caused lung cancer; there was
+                                                statistically significant link between smoking and the disease: this is called a
+                                               'correlation'.
+                                               Over 20 similar investigations in nine countries have revealed the same
+                                               findings. In 1962 a report called 'Smoking and health' was published by the
+                                               Royal College of Physicians of London, which warned the public about the
+                                               dangers of smoking: Not surprisingly, the first people to take the findings
+                                               seriously were doctors, many of whom stopped smoking: This was reflected
+                                               in their death rates from lung cancer: In ten years; while deaths among the
+                                               general male population had risen by '% , the deaths of male doctors from the
+                                               disease had fallen by 38%_
+                                               Cigarette smoke contains a strongly addictivedrug nicotine. Smoke
+                                               contains over 7000 chemicals, including; carbon monoxide, arsenic, ammonia;
+                                               formaldehyde; cyanide; benzene; and toluene More than 60 of the chemicals
+                                               are known to cause cancer: These chemicals are called carcinogens, and are
+                                               contained in the tar that collects in a smoker's lungs. Cancer happens when cells
+                                               mutate and start to divide uncontrollably, forming a tumour (Figure 3.11). If a
+                                               lung cancer patient is lucky,theymay have the tumour removed by an operation
+                                               before the cancer cells spread to other tissues of the body: Unfortunately
+                                               tumours in the lungs usually cause no pain, sOtheyare not discovered until it is
+                                               too late        it may be inoperable, or tumours may have developed elsewhere.
+ Figure 3.11 This lung is from a patient with  If you smoke you are not bound to get lung cancer; but the risk that you will
+ lung cancer:                                  get it is much greater: In fact; the more cigarettes you smoke; the more the risk
+                                               increases (Figure 3.12)
+ DID YOU KNOW?
+ People often talk about 'yellow                            2  x30
+ nicotine stains' In fact it is
+ the tar that stains a smoker's                             E  X2o
+ fingers and teeth: Nicotine is a                           2
+ colourless, odourless chemical:                            2  x10
+
+ DID YOU KNOW?                                              L
+ Studies have shown that the                                            10     20     30     40
+ type of cigarette smoked makes                                    number of cigarettes smoked per day
+ very little difference to the                                 Figure 3.12 The more cigarettes a person smokes; the more likely it is they will die of lung cancer:
+ smoker's risk of getting lung                  For example, smoking 20 cigarettes adayincreases the risk by about 15 times
+ cancer: Filtered and 'low tar'                The obvious thing to do is not to start smoking: However; if you are a smoker;
+ cigarettes only reduce the risk               giving up the habit soon improves your chance of survival (Figure 3.13). After
+ slightly:                                     a few years; the likelihood of your dying from a smoking-related disease is
+                                               almost back to the level of a non-smoker.
+---
+
+## ANIMAL PHYSIOLOGY BREATHING AND GAS EXCHANGE
+
+Figure 3.13 Death rates from lung cancer for smokers, non-smokers and ex-smokers.
+
+| Years since stopped smoking | Continuing smokers | 'Ex-smokers' who have given up | Non smokers |
+|-----------------------------|--------------------|--------------------------------|-------------|
+| 0                           | 13                 | -                              | 1           |
+| 10                          | -                  | 8                              | 1           |
+| 20                          | -                  | 4                              | 1           |
+| 30                          | -                  | 2                              | 1           |
+| 40                          | -                  | 2                              | 1           |
+
+### CARBON MONOXIDE IN SMOKE
+
+One of the harmful chemicals in cigarette smoke is the poisonous gas carbon monoxide. When this gas is breathed in with the smoke, it enters the bloodstream and interferes with the ability of the blood to carry oxygen. Oxygen is carried around in the blood in the red blood cells, attached to a chemical called haemoglobin (see Chapter 5). Carbon monoxide can combine with the haemoglobin much more tightly than oxygen can, forming a compound called carboxyhaemoglobin. The haemoglobin will combine with carbon monoxide in preference to oxygen. When this happens, the blood carries much less oxygen around the body. Carbon monoxide from smoking is also a major cause of heart disease (Chapter 5).
+
+If a pregnant woman smokes, she will be depriving her unborn fetus of oxygen (Figure 3.14). This has an effect on its growth and development, and leads to the mass of the baby at birth being lower, on average, than the mass of babies born to non-smokers.
+
+### SOME SMOKING STATISTICS
+
+- It is estimated that there are over 1 billion smokers worldwide. In 2014 they consumed 5.8 trillion cigarettes.
+- Every year nearly 6 million people are killed by tobacco-related illnesses. If the current trend continues, by 2030 this will rise to 8 million deaths per year and 80% of these premature deaths will be in developing countries.
+- Smoking causes almost 80% of deaths from lung cancer, 80% of deaths from bronchitis and emphysema, and 14% of deaths from heart disease.
+- More than a quarter of all cancer deaths are attributable to smoking. These include cancer of the lung, mouth, lip, throat, bladder, kidney, pancreas, stomach, liver and cervix.
+- While demand for tobacco has steadily fallen in developed countries like the UK, cigarette consumption is being increasingly concentrated in the developing world.
+- 9.6 million adults in the UK smoke cigarettes, 20% of men and 17% of women. However, 22% of women and 30% of men in the UK are now ex-smokers. Surveys show that about two-thirds of current smokers would like to stop smoking.
+- It is estimated that worldwide, 31% of men and 8% of women are smokers. Consumption varies widely between different countries, but generally the areas of the world where there has been no change in consumption, or an increase, are southern and central Asia, Eastern Europe and Africa.
+---
+ANIMAL PHYSIOLOGY                       BREATHING AND GAS EXCHANGE                                                  45
+
+- In China alone there are about 350 million smokers, who consume about one-third of all cigarettes smoked worldwide. Large multinational tobacco companies have long been keen to enter the Chinese market.
+- In China there are over a million deaths a year from smoking-related diseases. This figure is expected to double by 2025.
+- In developing countries, smoking has a greater economic impact. Poorer smokers spend significant amounts of their income on cigarettes rather than necessities like food, healthcare and education.
+- Tobacco farming uses up land that could be used for growing food crops. In 2012, 7.5 million tonnes of tobacco leaf were grown on almost 4.3 million hectares of land (an area larger than Switzerland).
+
+Sources: Action on Smoking and Health (ASH) fact sheets (2015- 2016); ASH research reports (2014-2016)]
+
+## GIVING UP SMOKING
+
+Most smokers admit that they would like to find a way to give up the habit. The trouble is that the nicotine in tobacco is a very addictive drug, and causes withdrawal symptoms when people stop smoking. These include cravings for a cigarette, restlessness and a tendency to put on weight (nicotine depresses the appetite).
+
+There are various ways that smokers can be helped to give up their habit. One method is 'vaping', which involves inhaling a vapour containing nicotine from an electronic cigarette or e-cigarette (Figure 3.15). Other methods use nicotine patches (Figure 3.16) or nicotine chewing gum. They all work in a similar way, providing the smoker with a source of nicotine without the harmful tar from cigarettes. The nicotine is absorbed by the body and reduces the craving for a cigarette. Gradually, the patient reduces the nicotine dose until they are weaned off the habit.
+
+### EXTENSION WORK
+
+You could carry out an Internet search to find out about the different methods people use to help them give up smoking. Which methods have the highest success rate? Is there any evidence that suggests e-cigarettes are not safe?
+
+There are several other ways that people use to help them give up smoking, including the use of drugs that reduce withdrawal symptoms, acupuncture and even hypnotism.
 
 ## CHAPTER QUESTIONS
 
-FURTHER BREATHING-RELATED QUESTIONS ARE AVAILABLE IN UNIT 2 ON PAGE 116.
+More questions on breathing can be found at the end of Unit 2 on page 116.
 
-### SKILLS: CRITICAL THINKING
+### SKILLS CRITICAL THINKING
 
-THE HUMAN BRONCHIAL TREE STRUCTURES INCLUDE:
+1. The structures below are found in the human bronchial tree
+   1. alveoli       3. bronchioles
+   2. trachea       4. bronchi
+   Which of the following shows the route taken by air after it is breathed in through the mouth?
+   A 2 → 3 → 4 → 1                C 2 → 4 → 3 → 1
+   B 1 → 4 → 3 → 2                D 4 → 1 → 2 → 3
 
-1. ALVEOLI
-2. TRACHEA
-3. BRONCHIOLES
-4. BRONCHI
+2. Which of the following is not a feature of an efficient gas exchange surface?
+   A thick walls                 C close proximity to blood capillaries
+   B moist lining                D large surface area
+---
+46   ANIMAL PHYSIOLOGY                        BREATHING AND GAS EXCHANGE
 
-**QUESTION 1**: WHICH ROUTE DOES AIR TAKE AFTER BEING INHALED THROUGH THE MOUTH?
+SKILLS > CRITICAL THINKING
 
-- A) 2 → 3 → 4 → 1
-- B) 1 → 4 → 3 → 2
-- C) 2 → 4 → 3 → 1
-- D) 4 → 1 → 2 → 3
+3. Which row in the table shows the correct percentage of oxygen in atmospheric and exhaled air?
 
-**QUESTION 2**: WHICH FEATURE IS NOT TYPICAL OF AN EFFICIENT GAS EXCHANGE SURFACE?
+| | Atmospheric air / % | Exhaled air / % |
+|---|---|---|
+| A | 78 | 21 |
+| B | 21 | 16 |
+| C | 16 | 4 |
+| D | 4 | 0.04 |
 
-- A) THICK WALLS
-- B) MOIST LINING
-- C) CLOSE PROXIMITY TO BLOOD CAPILLARIES
-- D) LARGE SURFACE AREA
+4. Chemicals in cigarette smoke lead to the breakdown of the walls of the alveoli. What is the name given to this disease?
+A bronchitis
+B emphysema
+C coronary heart disease
+D lung cancer
 
-# ANIMAL PHYSIOLOGY: BREATHING AND GAS EXCHANGE
+5. Copy and complete the table, which shows what happens in the thorax during ventilation of the lungs. Two boxes have been completed for you.
 
-## UNDERSTANDING BREATHING
+| | Action during inhalation | Action during exhalation |
+|---|---|---|
+| external intercostal muscles | contract | |
+| internal intercostal muscles | | |
+| ribs | | move down and in |
+| diaphragm | | |
+| volume of thorax | | |
+| pressure in thorax | | |
+| volume of air in lungs | | |
 
-BREATHING IS A CRITICAL PROCESS THAT FACILITATES GAS EXCHANGE BETWEEN THE BODY AND ENVIRONMENT. IT SUPPLIES OXYGEN TO CELLS AND REMOVES CARBON DIOXIDE FROM THE BODY.
+6. A student wrote the following about the lungs.
+When we breathe in, our lungs inflate, sucking air in and pushing the ribs up and out, and forcing the diaphragm down. This is called respiration. In the air sacs of the lungs, the air enters the blood. The blood then takes the air around the body, where it is used by the cells. The blood returns to the lungs to be cleaned. When we breathe out, our lungs deflate, pulling the diaphragm up and the ribs down. The stale air is pushed out of the lungs.
+The student did not have a good understanding of the workings of the lungs. Re-write their description, using correct biological words and ideas.
 
-### COMPOSITION OF AIR
+SKILLS > REASONING
 
-- **ATMOSPHERIC AIR**:
-  - OXYGEN: 21%
-  - NITROGEN: 78%
-  - CARBON DIOXIDE: 0.04%
+7. Sometimes, people injured in an accident such as a car crash suffer from a pneumothorax. This is an injury where the chest wall is punctured, allowing air to enter the pleural cavity (see Figure 3.1). A patient was brought to the casualty department of a hospital, suffering from a pneumothorax on the left side of his chest. His left lung had collapsed, but he was able to breathe normally with his right lung.
+a Explain why a pneumothorax caused the left lung to collapse.
+b Explain why the right lung was not affected.
+c If a patient's lung is injured or infected, a surgeon can sometimes 'rest' it by performing an operation called an artificial pneumothorax. What do you think might be involved in this operation?
+---
+ANIMAL PHYSIOLOGY                      BREATHING AND GAS EXCHANGE                                                 47
 
-- **EXHALED AIR**:
-  - OXYGEN: 16%
-  - NITROGEN: 78%
-  - CARBON DIOXIDE: 4%
+## SKILLS CRITICAL THINKING
 
-**QUESTION**: WHICH ROW IN THE TABLE SHOWS THE CORRECT PERCENTAGE OF OXYGEN IN ATMOSPHERIC AND EXHALED AIR?
+8. Briefly explain the importance of the following:
+   a. The trachea wall contains C-shaped rings of cartilage.
+   b. The distance between the air in an alveolus and the blood in an alveolar capillary is less than 1/1000th of a millimetre.
+   c. The lining of the trachea contains mucus-secreting cells and cells with cilia.
+   d. Smokers have a lower concentration of oxygen in their blood than non-smokers.
+   e. Nicotine patches and nicotine chewing gum can help someone give up smoking.
+   f. The lungs have a surface area of about 60m² and a good blood supply.
 
-### DISEASES RELATED TO BREATHING
+9. Explain the differences between the lung diseases bronchitis and emphysema.
 
-CIGARETTE SMOKE CONTAINS HARMFUL CHEMICALS. ONE SUCH CONDITION IS EMPHYSEMA, WHERE ALVEOLI WALLS BREAK DOWN.
+## SKILLS ANALYSIS
 
-**QUESTION**: WHAT IS THE NAME GIVEN TO THIS DISEASE?
-- A) BRONCHITIS
-- B) EMPHYSEMA
-- C) CORONARY HEART DISEASE
-- D) LUNG CANCER
+10. A long-term investigation was carried out into the link between smoking and lung cancer. The smoking habits of male doctors aged 35 or over were determined while they were still alive, then the number and causes of deaths among them were monitored over a number of years. (Note that this survey was carried out in the 1950s - very few doctors smoke these days!) The results are shown in the graph.
 
-## VENTILATION PROCESS
+| Age/years | 25+ per day | 15-24 per day | 1-14 per day | non smokers |
+|-----------|-------------|----------------|--------------|-------------|
+| 0-35-44   | 0.1         | 0.1            | 0.1          | 0           |
+| 45-54     | 1           | 0.3            | 0.2          | 0           |
+| 55-64     | 6           | 2              | 0.7          | 0.1         |
+| 65-74     | 7           | 5              | 3            | 0.1         |
 
-DURING VENTILATION, SEVERAL ACTIONS OCCUR WITHIN THE THORAX. THESE INCLUDE:
+a. Write a paragraph to explain what the researchers found out from the investigation.
 
-- EXTERNAL INTERCOSTAL MUSCLES CONTRACTING DURING EXHALATION.
-- INTERNAL INTERCOSTAL MUSCLES RELAXING DURING INHALATION.
-- RIBS MOVING DOWNWARD AND INWARD DURING EXHALATION.
-- DIAPHRAGM DESCENDING DURING INHALATION.
-- THORACIC VOLUME INCREASING DURING INHALATION.
-- INTRAPLEURAL PRESSURE DECREASING DURING INHALATION.
-- LUNG VOLUME INCREASING DURING INHALATION.
+## SKILLS ANALYSIS, PROBLEM SOLVING
 
-### STUDENT'S DESCRIPTION OF LUNG FUNCTION
+b. How many deaths from lung cancer would be expected for men aged 55 who smoked 25 cigarettes a day up until their death? How many deaths from lung cancer would be expected for men in the same age group smoking 10 a day?
 
-THE STUDENT'S DESCRIPTION CAN BE REFINED TO BETTER REFLECT LUNG FUNCTION:
+## SKILLS ANALYSIS, REASONING
 
-"WHEN AIR IS INHALED, THE LUNGS EXPAND, CAUSING THE DIAPHRAGM TO LOWER AND RIBS TO RISE. OXYGEN ENTERS ALVEOLI WHERE RED BLOOD CELLS ABSORB IT. OXYGENATED BLOOD CIRCULATES THROUGH THE BODY, DELIVERING OXYGEN TO CELLS. DEOXYGENATED BLOOD RETURNS TO ALVEOLI FOR CARBON DIOXIDE ELIMINATION. EXHALATION EXPELS STALE AIR FROM LUNGS."
+c. Table 3.2 (page 43) shows the findings of another study linking lung cancer with smoking. Which do you think is the more convincing evidence of the link, this investigation or the findings illustrated in Table 3.2?
 
-### PNEUMOTHORAX
+## SKILLS CREATIVITY
 
-A PNEUMOTHORAX OCCURS WHEN A CHEST INJURY ALLOWS AIR INTO THE PLEURAL SPACE, CAUSING LUNG COLLAPSE ON THE AFFECTED SIDE.
-
-**CASE STUDY**: A PATIENT WITH A LEFT-SIDED PNEUMOTHORAX HAD HIS LEFT LUNG COLLAPSED BUT CONTINUED TO BREATHE NORMALLY USING HIS RIGHT LUNG.
-
-**QUESTIONS**:
-1. WHY DID THE LEFT LUNG COLLAPSE?
-2. WHY WAS THE RIGHT LUNG UNAFFECTED?
-
-AN ARTIFICIAL PNEUMOTHORAX INVOLVES CREATING A CONTROLLED ENVIRONMENT FOR AN INJURED OR INFECTED LUNG, POTENTIALLY INVOLVING MECHANICAL ASSISTANCE OR REDUCED PRESSURE TO AID RECOVERY.
-
-# ANIMAL PHYSIOLOGY: BREATHING AND GAS EXCHANGE
-
-## IMPORTANCE OF KEY FEATURES IN BREATHING
-
-THE TRACHEA WALL CONSISTS OF C-SHAPED RINGS OF CARTILAGE THAT PROVIDE STRUCTURAL SUPPORT, PREVENTING COLLAPSE DURING INHALATION AND EXHALATION. THE MINIMAL DISTANCE BETWEEN THE AIR IN AN ALVEOLUS AND THE BLOOD IN AN ALVEOLAR CAPILLARY IS LESS THAN 1/10,000TH OF A MILLIMETER, FACILITATING EFFICIENT GAS EXCHANGE. OXYGEN ENTERS THE BLOODSTREAM, WHILE CARBON DIOXIDE IS EXPELLED. THE TRACHEA'S LINING INCLUDES MUCUS-SECRETING CELLS AND CILIA, WHICH TRAP DUST AND PATHOGENS, PREVENTING AIRWAY OBSTRUCTION BY MOVING MUCUS UPWARDS TOWARDS THE THROAT. SMOKING REDUCES BLOOD OXYGEN CONCENTRATION DUE TO LUNG FUNCTION IMPAIRMENT. NICOTINE REPLACEMENT THERAPY CAN AID SMOKING CESSATION BY REDUCING WITHDRAWAL SYMPTOMS.
-
-THE LUNGS' SURFACE AREA IS APPROXIMATELY 60 M², AND THEIR RICH BLOOD SUPPLY ENHANCES GAS EXCHANGE EFFICIENCY.
-
-## LUNG DISEASES: BRONCHITIS VS. EMPHYSEMA
-
-BRONCHITIS INVOLVES INFLAMMATION OF THE BRONCHIAL TUBES, LEADING TO COUGHING AND MUCUS PRODUCTION. IT CAN BE ACUTE OR CHRONIC, OFTEN CAUSED BY SMOKING OR INFECTIONS. EMPHYSEMA IS A PROGRESSIVE DISEASE DESTROYING ALVEOLI, REDUCING GAS EXCHANGE SURFACE AREA. IT CAUSES BREATHING DIFFICULTY AND IS PRIMARILY LINKED TO LONG-TERM SMOKING.
-
-## SMOKING AND LUNG CANCER: A STUDY
-
-A 1950S STUDY EXAMINED LUNG CANCER AMONG MALE DOCTORS AGED 35 OR OVER, MONITORING SMOKING HABITS AND TRACKING DEATHS. RESULTS SHOWED A CLEAR CORRELATION BETWEEN CIGARETTE CONSUMPTION AND LUNG CANCER INCIDENCE, WITH HIGHER RATES ASSOCIATED WITH GREATER MORTALITY.
-
-### GRAPH ANALYSIS
-
-THE GRAPH CATEGORIZES DOCTORS BY SMOKING LEVELS: 25+ CIGARETTES PER DAY, 15-24, 1-14, AND NON-SMOKERS. DATA SUGGESTS HIGHER SMOKING CORRELATES WITH INCREASED LUNG CANCER DEATHS.
-
-## EXPECTED DEATHS FROM LUNG CANCER
-
-EXPECTED LUNG CANCER DEATHS FOR MEN AGED 55 WHO SMOKED 25 CIGARETTES DAILY CAN BE ESTIMATED USING STATISTICAL DATA. COMPARISONS WITH THOSE SMOKING 10 CIGARETTES PROVIDE INSIGHTS INTO SMOKING IMPACT.
-
-## EVALUATING EVIDENCE
-
-COMPARING THE DOCTORS' STUDY WITH ANOTHER (TABLE 3.2), CONSIDER FACTORS LIKE SAMPLE SIZE AND METHODOLOGY TO ASSESS EVIDENCE STRENGTH. CONSISTENCY OF RESULTS IS CRUCIAL FOR CONVINCING POWER.
-
-## CREATIVE PROJECT: SMOKING AND LUNG CANCER LEAFLET
-
-DESIGN A COMPELLING LEAFLET USING COMPUTER SOFTWARE, FOCUSING ON IMPACTFUL SMOKING STATISTICS WITHOUT EXCESSIVE DETAIL. HIGHLIGHT SERIOUS HEALTH RISKS, ESPECIALLY LUNG CANCER, TO ENCOURAGE ADULT SMOKERS TO QUIT.
-
+11. Design and make a hard-hitting leaflet explaining the link between smoking and lung cancer. It should be aimed at encouraging an adult smoker to give up the habit. You could use suitable computer software to produce your design. Include some smoking statistics, perhaps from an Internet search. However don't use too many, or they may put the person off reading the leaflet!

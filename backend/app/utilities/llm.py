@@ -23,12 +23,12 @@ class ChatService:
         ])
         self.chain = self.chatPrompt | self.llm
         self.store = {}
-        template = """Question: {question}
+#         template = """Question: {question}
 
-Answer: Let's think step by step."""
-        self.verifierPrompt = ChatPromptTemplate.from_messages()
+# Answer: Let's think step by step."""
+#         self.verifierPrompt = ChatPromptTemplate.from_messages()
 
-        self.rag = textbookRAG() # Rag
+#         self.rag = textbookRAG() # Rag
 
 
     def get_session_history(self, session_id: str) -> InMemoryChatMessageHistory:
@@ -85,14 +85,14 @@ Answer: Let's think step by step."""
             print(f"Error clearing memory: {str(e)}")
             raise Exception(f"Failed to clear memory for session {session_id}")
     
-    def check_if_need_rag(self, user_input: str) -> bool:
+    # def check_if_need_rag(self, user_input: str) -> bool:
 
 
-    # Integrate with RAG model
-    def search_textbook(self, query: str, subject: str, chapter: str) -> dict:
-        try:
-            response = self.rag.search(query, subject, )
-            return response
-        except Exception as e:
-            raise Exception(f"Failed to search textbook: {str(e)}")
+    # # Integrate with RAG model
+    # def search_textbook(self, query: str, subject: str, chapter: str) -> dict:
+    #     try:
+    #         response = self.rag.search(query, subject, )
+    #         return response
+    #     except Exception as e:
+    #         raise Exception(f"Failed to search textbook: {str(e)}")
     

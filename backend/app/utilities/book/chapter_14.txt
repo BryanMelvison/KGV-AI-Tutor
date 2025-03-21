@@ -1,530 +1,390 @@
-# BIOLOGY UNIT 4: ECOLOGY AND THE ENVIRONMENT
+# 14 ECOSYSTEMS
 
-## INTRODUCTION TO ECOLOGY
-ECOLOGY IS THE SCIENTIFIC STUDY OF INTERACTIONS BETWEEN ORGANISMS AND THEIR SURROUNDINGS. IT EXAMINES HOW LIVING THINGS INTERACT WITH EACH OTHER AND WITH NON-LIVING PHYSICAL ENVIRONMENTS.
+An ecosystem is a distinct, self-supporting system of organisms interacting with each other and with a physical environment. An ecosystem can be small, such as a pond, or large, such as a mangrove swamp or a large forest. This chapter looks at a variety of ecosystems and the interactions that happen within them.
 
-## COMPONENTS OF ECOSYSTEMS
-THIS UNIT EXPLORES THE COMPONENTS OF ECOSYSTEMS, INCLUDING PRODUCERS, CONSUMERS, AND DECOMPOSERS, AS WELL AS THE INTERACTIONS THAT SUSTAIN THESE ELEMENTS. UNDERSTANDING THESE DYNAMICS IS ESSENTIAL FOR GRASPING ECOLOGICAL BALANCE AND ORGANISMIC ROLES WITHIN THEIR ENVIRONMENTS.
+## LEARNING OBJECTIVES
 
-## HUMAN INFLUENCES ON ECOSYSTEMS
-HUMAN ACTIVITIES SIGNIFICANTLY IMPACT GLOBAL ECOSYSTEMS. AGRICULTURAL PRACTICES AND INDUSTRIAL POLLUTION DISRUPT ENVIRONMENTAL EQUILIBRIUM, LEADING TO ECOLOGICAL DAMAGE. THIS SECTION EXAMINES THESE IMPACTS AND EXPLORES POTENTIAL SOLUTIONS TO MITIGATE THEIR EFFECTS.
+- Understand the terms ecosystem, habitat, population and community
+- Investigate the population size of an organism in two different areas using quadrats
+- Understand how biotic and abiotic factors affect the population size and distribution of organisms
+- Understand the names given to different trophic levels, including producers, primary, secondary and tertiary consumers, and decomposers
+- Understand the concepts of food chains, food webs, pyramids of number, pyramids of biomass and pyramids of energy transfer
+- Understand the transfer of substances and energy along a food chain
+- Understand why only about 10% of energy is transferred from one trophic level to the next
+- Describe the stages in the carbon cycle, including respiration, photosynthesis, decomposition and combustion
 
-BY STUDYING THESE TOPICS, STUDENTS GAIN A COMPREHENSIVE UNDERSTANDING OF ECOLOGICAL PRINCIPLES AND THE CHALLENGES POSED BY HUMAN ACTIVITIES TO NATURAL ENVIRONMENTS.
+The page includes two images:
 
-AN ECOSYSTEM IS A DISTINCT, SELF-SUSTAINING SYSTEM WHERE ORGANISMS INTERACT WITH THEIR ENVIRONMENT. ECOSYSTEMS CAN RANGE IN SIZE FROM SMALL PONDS TO LARGE MANGROVE SWAMPS OR FORESTS. THIS CHAPTER EXPLORES THESE SYSTEMS AND THE INTERACTIONS WITHIN THEM.
+1. A small pond ecosystem with lily pads, rocks, and various plants surrounding it.
+   Caption: Figure 14.1 A pond is a small ecosystem.
 
-THE OBJECTIVES OF THIS CHAPTER ARE TO UNDERSTAND KEY TERMS SUCH AS ECOSYSTEM, HABITAT, POPULATION, AND COMMUNITY; ANALYZE ENERGY TRANSFER ALONG FOOD CHAINS; STUDY POPULATION DYNAMICS USING QUADRATS; EXAMINE FACTORS AFFECTING POPULATION SIZE; AND EXPLORE TROPHIC LEVELS AND FOOD RELATIONSHIPS, INCLUDING PYRAMIDS OF NUMBER, BIOMASS, AND ENERGY TRANSFER.
-
-EXAMPLES OF ECOSYSTEMS INCLUDE PONDS AND MANGROVE SWAMPS. A POND EXEMPLIFIES A SMALL-SCALE ECOSYSTEM WITH VARIOUS INTERACTIONS AMONG AQUATIC ORGANISMS, WHILE A MANGROVE SWAMP ILLUSTRATES LARGER, MORE COMPLEX SYSTEMS INVOLVING DIFFERENT ORGANISMS AND ENVIRONMENTAL FACTORS.
-
-THIS CHAPTER PROVIDES DETAILED INSIGHTS INTO ECOSYSTEMS, FOCUSING ON THEIR STRUCTURE AND DYNAMICS WITHOUT SUMMARIZING OR CONCLUDING STATEMENTS.
-
-# ECOLOGY AND THE ENVIRONMENT: ECOSYSTEMS
-
+2. A mangrove swamp with trees having exposed roots in clear blue-green water.
+   Caption: Figure 14.2 A mangrove swamp is a larger ecosystem.
+---
 ## THE COMPONENTS OF ECOSYSTEMS
 
-ECOSYSTEMS, REGARDLESS OF THEIR SIZE, CONSIST OF FUNDAMENTAL COMPONENTS THAT INTERACT TO MAINTAIN BALANCE.
+Whatever their size, ecosystems usually have the same components:
 
-### KEY COMPONENTS:
-- **PRODUCERS**: PLANTS THAT USE PHOTOSYNTHESIS TO CREATE ENERGY FOR THEMSELVES AND OTHER ORGANISMS.
-- **CONSUMERS**: ANIMALS THAT EAT PLANTS OR OTHER ANIMALS, FORMING A FOOD CHAIN.
-- **DECOMPOSERS**: FUNGI AND BACTERIA THAT BREAK DOWN DEAD MATERIAL, RECYCLING NUTRIENTS BACK INTO THE ECOSYSTEM.
+- producers – plants which photosynthesise to produce food
+- consumers – animals that eat plants or other animals
+- decomposers – organisms that break down dead material and help to recycle nutrients
+- the physical environment – all the non-biological components of the ecosystem; for example, the water and soil in a pond or the soil and air in a forest.
 
-### PHYSICAL ENVIRONMENT
-THE PHYSICAL ENVIRONMENT INCLUDES NON-BIOLOGICAL ELEMENTS SUCH AS WATER, SOIL, AND AIR, WHICH PROVIDE THE FOUNDATION FOR ALL ECOSYSTEMS.
+The living components of an ecosystem are called the biotic components. The non-living (physical) components are the abiotic components (compare these with biotic and abiotic factors, below).
 
-### BIOTIC AND ABIOTIC COMPONENTS
-- **BIOTIC COMPONENTS**: LIVING PARTS OF AN ECOSYSTEM, INCLUDING ALL ORGANISMS.
-- **ABIOTIC COMPONENTS**: NON-LIVING COMPONENTS LIKE WATER, SOIL, AND AIR THAT INFLUENCE THE ECOSYSTEM'S FUNCTIONING.
+An ecosystem contains a variety of habitats. A habitat is the place where an organism lives. For example, habitats in a pond ecosystem include the open water, the mud at the bottom of the pond, and the surface water.
 
-### HABITATS
-A HABITAT IS THE SPECIFIC ENVIRONMENT WHERE AN ORGANISM LIVES. IN A POND ECOSYSTEM:
-- OPEN WATER SUPPORTS PLANKTON AND FLOATING PLANTS.
-- MUD AT THE BOTTOM SHELTERS SNAILS AND OTHER ORGANISMS.
-- SURFACE AREAS HOST ROOTED PLANTS INTERACTING WITH BOTH SOIL AND AIR.
+All the organisms of a particular species found in an ecosystem at a certain time form the population of that species. All the immature frogs (tadpoles) swimming in a pond are a population of tadpoles; all the water lily plants growing in the pond make up a population of water lilies.
 
-### POPULATIONS AND COMMUNITIES
-- **POPULATION**: ALL INDIVIDUALS OF A SPECIES IN A SPECIFIC LOCATION, SUCH AS TADPOLES IN A POND.
-- **COMMUNITY**: THE COLLECTIVE OF ALL POPULATIONS WITHIN AN ECOSYSTEM, REPRESENTING THE DIVERSITY OF LIFE.
+The populations of all species (animals, plants and other organisms) found in an ecosystem at a particular time form the community. Figure 14.3 illustrates the main components of a pond ecosystem.
 
-## EXAMPLE: POND ECOSYSTEM
+[A diagram of a pond ecosystem is shown, illustrating various components such as:
+- Sunlight
+- Air
+- Water
+- Soil
+- Floating plants in an open water habitat
+- Plankton in an open water habitat
+- Rooted plants: habitat is partly soil, partly water and may be partly air
+- Snails' habitat is mainly the surface of soil and plants; small organisms are grazed
+The diagram also indicates components of the physical environment and components of the biological community.]
 
-IN A POND, VARIOUS ORGANISMS THRIVE IN DISTINCT HABITATS:
-- PLANKTON FLOATS IN OPEN WATER.
-- FLOATING PLANTS ADAPT TO WATER AND AIR INTERFACES.
-- SNAILS INHABIT SURFACES LIKE SOIL AND PLANTS.
+### USING QUADRATS TO SAMPLE FROM A HABITAT
 
-!FIGURE 14.3: A POND ECOSYSTEM
-
-## SAMPLING TECHNIQUES
-
-ECOLOGISTS USE SAMPLING METHODS TO ESTIMATE ORGANISM COUNTS WITHOUT EXHAUSTIVE COUNTING. ONE TECHNIQUE IS THE QUADRAT METHOD FOR STUDYING PLANTS OR IMMOBILE ANIMALS.
-
-### QUADRAT METHOD
-- A QUADRAT IS A SQUARE USED TO COUNT ORGANISMS IN SPECIFIC AREAS.
-- SIZE VARIES BASED ON THE ORGANISMS STUDIED, SUCH AS 0.5 METERS FOR PLANT SAMPLES IN FIELDS.
-
-## COMMON MISCONCEPTION
-
-QUADRANTS ARE OFTEN CONFUSED WITH QUADRATS. A QUADRANT IS A QUARTER-CIRCLE, NOT A SQUARE. UNDERSTANDING THIS DISTINCTION IS CRUCIAL FOR ACCURATE ECOLOGICAL STUDIES.
-
-!FIGURE 14.4: EXAMPLE OF A QUADRAT
-
-BY EXAMINING THESE COMPONENTS AND METHODS, WE GAIN INSIGHT INTO THE COMPLEXITY AND INTERDEPENDENCE OF ECOSYSTEMS.
-
-# ECOLOGY AND THE ENVIRONMENT: ECOSYSTEMS
-
-## KEY POINT
-WHEN SAMPLING ECOSYSTEMS, RANDOM METHODS ARE CRUCIAL TO AVOID BIAS. THE "THROWING" METHOD FOR PLACING QUADRATS CAN APPEAR RANDOM BUT MAY LEAD TO SKEWED RESULTS. FOR EXAMPLE, THROWING A QUADRAT OVER ONE'S SHOULDER CAN MAKE ITS LANDING POSITION DEPENDENT ON THE THROW'S FORCE AND STARTING POINT, WHICH ISN'T TRULY RANDOM.
-
-## IMPORTANCE OF RANDOM SAMPLING
-TO OBTAIN REPRESENTATIVE SAMPLES, IT'S ESSENTIAL TO AVOID CONVENIENCE SAMPLING. PLACING QUADRATS ONLY NEAR PATHS IN A FIELD MAY NOT REFLECT THE ENTIRE AREA'S BIODIVERSITY, LEADING TO BIASED RESULTS.
-
-## ACTIVITY 1: PRACTICAL - USING QUADRATS TO COMPARE PLANT POPULATIONS
-
-### SAFETY NOTE
-WASH HANDS AFTER HANDLING TOOLS AND MATERIALS. BE CAUTIOUS NEAR PONDS OR AREAS WITH ANIMAL WASTE.
-
-### HYPOTHESIS
-INVESTIGATING TWO SCHOOL FIELD AREAS (AREA A AND AREA B), WHERE AREA A APPEARS LESS TRAMPLED AND HAS FEWER DANDELIONS, LEADS TO THE HYPOTHESIS: "THE DANDELION POPULATION IN AREA A IS SMALLER THAN THAT IN AREA B."
-
-### SAMPLING METHOD
-USE A GRID SYSTEM. IN AREA A, SET UP A 10-METER SQUARE WITH QUADRATS PLACED AT SPECIFIC COORDINATES (E.G., (2,6) AND (8,4)), ENSURING RANDOM PLACEMENT FOR UNBIASED SAMPLING.
-
-THIS METHOD ALLOWS SYSTEMATIC PLACEMENT OF QUADRATS, AIDING ACCURATE COMPARISON OF DANDELION POPULATIONS BETWEEN AREAS.
-
-# ECOLOGY AND THE ENVIRONMENT: ECOSYSTEMS
-
-## SAMPLING DANDELION POPULATIONS
-
-TO STUDY DANDELION POPULATIONS IN A FIELD, RESEARCHERS USE QUADRAT SAMPLING. THE PROCESS INVOLVES:
-
-1. **RANDOM SAMPLING**: A CALCULATOR GENERATES RANDOM COORDINATES TO POSITION QUADRATS WITHIN A SPECIFIC FIELD AREA.
-
-2. **COUNTING**: RESEARCHERS COUNT DANDELIONS WITHIN EACH QUADRAT, REPEATING THIS FOR TEN QUADRATS IN THE FIRST AREA (AREA A).
-
-3. **REPETITION IN ANOTHER AREA**: THE SAME PROCESS IS APPLIED TO A DIFFERENT SECTION OF THE FIELD (AREA B) USING ANOTHER SET OF QUADRATS.
-
-### EXAMPLE DATA
-
-THE TABLE BELOW ILLUSTRATES HYPOTHETICAL RESULTS FROM SUCH A STUDY:
-
-| QUADRAT NUMBER | DANDELIONS IN AREA A | DANDELIONS IN AREA B |
-|-----------------|-----------------------|-----------------------|
-| 1              | 10                     | 10                     |
-| 2              | 14                     | 12                     |
-| 3              | 8                      | 16                     |
-| 4              | 3                      | 11                     |
-| 5              | 12                     | 15                     |
-
-### ANALYSIS
-
-- **MEAN CALCULATION**: THE MEAN NUMBER OF DANDELIONS PER SQUARE METER IN EACH AREA IS FOUND BY SUMMING THE COUNTS AND DIVIDING BY TEN.
-
-- **HYPOTHESIS TESTING**: RESULTS ARE EVALUATED TO DETERMINE IF POPULATION NUMBERS DIFFER BETWEEN AREAS.
-
-- **RELIABILITY IMPROVEMENT**: CONSIDER INCREASING THE NUMBER OF QUADRATS SAMPLED OR ENSURING RANDOM PLACEMENT TO ENHANCE RESULT RELIABILITY.
-
-## INTERACTIONS IN ECOSYSTEMS
-
-ECOSYSTEMS EXHIBIT DYNAMIC INTERACTIONS AMONG ORGANISMS AND THEIR ENVIRONMENT. KEY INTERACTIONS INCLUDE:
-
-1. **FEEDING**: ORGANISMS RECYCLE NUTRIENTS, CONTRIBUTING TO ECOSYSTEM SUSTAINABILITY.
-
-2. **COMPETITION**: ANIMALS COMPETE FOR RESOURCES LIKE FOOD, SHELTER, MATES, AND NESTING SITES. PLANTS COMPETE FOR CARBON DIOXIDE, MINERAL IONS, LIGHT, AND WATER.
-
-3. **ENVIRONMENTAL INTERACTIONS**:
-   - PLANTS ABSORB MINERALS, CARBON DIOXIDE, AND WATER WHILE RELEASING WATER VAPOR AND OXYGEN.
-   - ANIMALS USE ENVIRONMENTAL MATERIALS FOR SHELTERS.
-   - TEMPERATURE INFLUENCES BIOLOGICAL PROCESSES, WITH ORGANISMS PRODUCING HEAT AFFECTING THEIR SURROUNDINGS.
-
-### IMPORTANT REMINDER
-
-PLANTS PERFORM PHOTOSYNTHESIS, CONVERTING CARBON DIOXIDE INTO OXYGEN UNDER SUFFICIENT LIGHT. IN LOW-LIGHT CONDITIONS, THEY MAY ABSORB OXYGEN AND RELEASE CARBON DIOXIDE INSTEAD. THIS PROCESS IS CRUCIAL FOR UNDERSTANDING ECOSYSTEM DYNAMICS (REFER TO CHAPTER 10 FOR FURTHER DETAILS).
-
-# ECOLOGY AND THE ENVIRONMENT
-
-## ECOSYSTEMS
-
-### BIOTIC AND ABIOTIC FACTORS
-
-IN AN ECOSYSTEM, VARIOUS FACTORS INFLUENCE THE NUMBERS AND DISTRIBUTION OF ORGANISMS. THESE FACTORS CAN BE CATEGORIZED INTO TWO MAIN TYPES: **BIOTIC** AND **ABIOTIC**.
-
-#### BIOTIC FACTORS
-BIOTIC FACTORS ARE BIOLOGICAL INFLUENCES THAT OFTEN INVOLVE FEEDING RELATIONSHIPS. KEY BIOTIC FACTORS INCLUDE:
-
-- **PREDATION**: THE RELATIONSHIP WHERE A PREDATOR KILLS AND EATS ANOTHER ANIMAL, AFFECTING POPULATION DYNAMICS.
-- **PARASITISM**: A RELATIONSHIP WHERE A PARASITE LIVES IN OR ON ANOTHER ORGANISM (THE HOST) AND DERIVES NUTRITION FROM IT, SUCH AS MOSQUITOES PARASITIZING HUMANS.
-- **DISEASE**: ILLNESSES THAT CAN AFFECT POPULATIONS AND REDUCE THEIR SIZE.
-- **AVAILABILITY OF FOOD**: THE PRESENCE OF FOOD RESOURCES AND COMPETITION FOR THEM AMONG ORGANISMS.
-- **PRESENCE OF POLLINATING INSECTS**: ESSENTIAL FOR PLANT REPRODUCTION, CONTRIBUTING TO ECOSYSTEM BALANCE.
-- **AVAILABILITY OF NEST SITES**: IMPORTANT FOR BREEDING AND SHELTER, INFLUENCING SPECIES DISTRIBUTION.
-
-#### ABIOTIC FACTORS
-ABIOTIC FACTORS ARE PHYSICAL OR CHEMICAL INFLUENCES IN AN ECOSYSTEM. THEY INCLUDE:
-
-- **CLIMATE**: FACTORS SUCH AS LIGHT INTENSITY, TEMPERATURE, AND WATER AVAILABILITY THAT INFLUENCE ECOSYSTEMS.
-- **SOIL CONDITIONS**: CHARACTERISTICS LIKE CLAY CONTENT, NITRATE LEVELS, PARTICLE SIZE, WATER CONTENT, AND PH AFFECTING PLANT GROWTH.
-- **HABITAT-SPECIFIC FACTORS**: SUCH AS SALINITY IN ESTUARIES, FLOW RATE IN RIVERS, OR OXYGEN CONCENTRATION IN LAKES, SHAPING AQUATIC LIFE.
-- **POLLUTION**: THE PRESENCE OF HARMFUL SUBSTANCES IN THE ENVIRONMENT, DISRUPTING ECOSYSTEMS.
-
-### FACTORS AFFECTING POPULATION SIZES
-THE SPECIFIC FACTORS AFFECTING POPULATION SIZES AND DISTRIBUTION VARY BY ECOSYSTEM. FOR EXAMPLE, IN A RIVER ECOSYSTEM, BIOTIC FACTORS LIKE FOOD SUPPLY FROM PLANTS OR OTHER ANIMALS ARE CRUCIAL, WHILE ABIOTIC FACTORS SUCH AS WATER DEPTH AND FLOW RATE ALSO PLAY SIGNIFICANT ROLES. FOR INSTANCE, LARGE FISH MAY STRUGGLE TO SURVIVE IN SHALLOW STREAMS.
-
-### INTERACTIONS BETWEEN FACTORS
-THE RELATIVE IMPORTANCE OF THESE FACTORS CAN VARY WIDELY. IN HEAVILY POLLUTED AREAS, POLLUTION MAY DOMINATE, WHEREAS IN CLEANER ENVIRONMENTS, ABIOTIC CONDITIONS LIKE DEPTH AND FLOW RATE MIGHT BE MORE INFLUENTIAL. ADDITIONALLY, FACTORS OFTEN INTERACT. FOR EXAMPLE, A FASTER FLOW RATE CAN INCREASE DISSOLVED OXYGEN LEVELS, SUPPORTING AQUATIC LIFE.
-
-### BIOMES
-LARGE AREAS DOMINATED BY SPECIFIC VEGETATION TYPES ARE CALLED **BIOMES**. EXAMPLES INCLUDE TEMPERATE GRASSLANDS AND TROPICAL RAINFORESTS. CLIMATE, PARTICULARLY TEMPERATURE AND RAINFALL PATTERNS, IS THE PRIMARY FACTOR SHAPING BIOME DISTRIBUTION. TROPICAL RAINFORESTS THRIVE NEAR THE EQUATOR, WHILE PINE FORESTS ARE FOUND IN HIGHER LATITUDES OF THE NORTHERN HEMISPHERE.
-
-### RESEARCH OPPORTUNITY
-RESEARCH COULD EXPLORE THE CHARACTERISTICS AND DYNAMICS OF DIFFERENT BIOMES, PROVIDING DEEPER INSIGHTS INTO ECOLOGICAL PROCESSES.
-
-# ECOLOGY AND THE ENVIRONMENT: ECOSYSTEMS
-
-## FEEDING RELATIONSHIPS
-
-THE SIMPLEST WAY OF ILLUSTRATING FEEDING RELATIONSHIPS WITHIN AN ECOSYSTEM IS THROUGH A **FOOD CHAIN**. IN ANY FOOD CHAIN, ARROWS INDICATE ENERGY FLOW DIRECTION, DENOTING "IS EATEN BY."
-
-### EXAMPLE OF A SIMPLE FOOD CHAIN
-- **GRASS** (PRODUCER): A PLANT THAT PHOTOSYNTHESIZES TO PRODUCE FOOD MATERIALS.
-- **GRASSHOPPER** (PRIMARY CONSUMER): AN HERBIVORE THAT CONSUMES THE PRODUCER.
-- **LIZARD** (SECONDARY CONSUMER): A CARNIVORE THAT EATS THE PRIMARY CONSUMER.
-
-### TROPHIC LEVELS
-THE STAGES IN A FOOD CHAIN ARE CALLED **TROPHIC LEVELS**, INCLUDING:
-- **PRODUCERS**
-- **PRIMARY CONSUMERS**
-- **SECONDARY CONSUMERS**
-
-### LONGER FOOD CHAINS
-
-MANY FOOD CHAINS EXTEND BEYOND THREE LINKS. HERE ARE EXAMPLES:
-
-1. **FRESHWATER FOOD CHAIN**:
-   - FILAMENTOUS ALGAE → MAYFLY NYMPH → CADDIS FLY LARVAE → SALMON
-   - THE SALMON IS A **TERTIARY CONSUMER**.
-
-2. **MARINE FOOD CHAIN**:
-   - PLANKTON → CRUSTACEAN → FISH → RINGED SEAL → POLAR BEAR
-   - THE POLAR BEAR IS A **QUATERNARY CONSUMER**, KNOWN AS THE **TOP CARNIVORE** SINCE IT IS NOT PREYED UPON.
-
-### LIMITATIONS OF FOOD CHAINS
-
-FOOD CHAINS SIMPLIFY FEEDING RELATIONSHIPS, OFTEN INACCURATELY. FOR INSTANCE, THE MARINE CHAIN IMPLIES ONLY CRUSTACEANS FEED ON PLANKTON, IGNORING OTHER MAMMALS LIKE WHALES.
-
-### FOOD WEBS
-
-TO UNDERSTAND ECOSYSTEM COMPLEXITIES, WE EXAMINE **FOOD WEBS**, WHICH DEPICT MULTIPLE FEEDING INTERACTIONS.
-
-#### EXAMPLE: SALMON FOOD WEB
-IN A FRESHWATER ECOSYSTEM WITH SALMON AS TOP CARNIVORES:
-
-- **YOUNG SALMON**: HAVE DISTINCT DIETS FROM MATURE SALMON.
-- **MATURE SALMON**
-- **CADDIS FLY LARVAE**
-- **STONEFLY NYMPHS**
-- **MAYFLY LARVAE**
-- **BLACKFLY LARVAE**
-- **FRESHWATER SHRIMP**
-- **PLANKTON**
-- **FILAMENTOUS ALGAE**
-- **PLANT DETRITUS** (DEAD PLANT REMAINS)
-
-THIS WEB ILLUSTRATES COMPLEX FEEDING RELATIONSHIPS IN THE ECOSYSTEM.
-
-# ECOLOGY AND THE ENVIRONMENT: ECOSYSTEMS
-
-## UNDERSTANDING FOOD CHAINS AND FOOD WEBS
-
-FOOD CHAINS AND FOOD WEBS ILLUSTRATE THE FEEDING RELATIONSHIPS WITHIN AN ECOSYSTEM. WHILE FOOD CHAINS PROVIDE A LINEAR REPRESENTATION OF THESE RELATIONSHIPS, FOOD WEBS OFFER A MORE COMPLEX VIEW, SHOWING HOW DIFFERENT FOOD CHAINS INTERCONNECT.
-
-### PREDICTING CHANGES IN ECOSYSTEMS
-
-CHANGES IN THE POPULATION OF ONE ORGANISM CAN HAVE CASCADING EFFECTS ON OTHERS WITHIN THE FOOD WEB. FOR INSTANCE:
-
-- THE DECLINE OF LEECHES DUE TO DISEASE MAY LEAD TO AN INCREASE IN MIDGE LARVAE AS THEY FACE LESS COMPETITION.
-- THE STONEFLY NYMPH POPULATION COULD DECREASE IF SALMON CONSUME MORE OF THEM WITH FEWER LEECHES PRESENT.
-- POPULATION STABILITY MIGHT OCCUR DUE TO A BALANCE BETWEEN THESE FACTORS.
-
-FOOD WEBS DO NOT PROVIDE INFORMATION ABOUT THE QUANTITY OR MASS OF ORGANISMS INVOLVED, NOR DO THEY HIGHLIGHT THE ROLE OF DECOMPOSERS IN THE ECOSYSTEM.
-
-## ECOLOGICAL PYRAMIDS
-
-ECOLOGICAL PYRAMIDS ARE VISUAL REPRESENTATIONS THAT DEPICT THE RELATIVE AMOUNTS OF ORGANISMS AT EACH TROPHIC LEVEL IN A FOOD CHAIN. THERE ARE TWO MAIN TYPES:
-
-1. **PYRAMIDS OF NUMBERS**: THESE REPRESENT THE NUMBER OF ORGANISMS AT EACH TROPHIC LEVEL, REGARDLESS OF THEIR MASS.
-2. **PYRAMIDS OF BIOMASS**: THESE SHOW THE TOTAL MASS OF ORGANISMS AT EACH TROPHIC LEVEL, IRRESPECTIVE OF THEIR NUMBERS.
-
-### EXAMPLE FOOD CHAINS
-
-CONSIDER THE FOLLOWING TWO FOOD CHAINS:
-
-- GRASS → GRASSHOPPER → FROG → BIRD
-- OAK TREE → APHID → LADYBIRD → BIRD
-
-FIGURES 14.8 AND 14.9 ILLUSTRATE THE PYRAMIDS OF NUMBERS AND BIOMASS FOR THESE TWO FOOD CHAINS.
-
-#### PYRAMIDS OF NUMBERS (FIGURE 14.8)
-
-- BIRDS
-- FROGS
-- GRASSHOPPERS
-- GRASS
-
-#### PYRAMIDS OF BIOMASS (FIGURE 14.9)
-
-- BIRDS
-- FROGS
-- GRASSHOPPERS
-- OAK TREE
-
-### KEY POINTS
-
-- **BIOMASS**: THIS TERM REFERS TO THE TOTAL MASS OF ORGANISMS. WHEN REFERRING TO LIVING ORGANISMS, IT IS CALLED FRESH BIOMASS. MORE COMMONLY, DRY BIOMASS IS USED, WHICH IS THE MASS AFTER WATER HAS BEEN REMOVED (E.G., BY DRYING IN AN OVEN). DRY BIOMASS IS A MORE RELIABLE MEASURE SINCE WATER CONTENT CAN VARY WITH ENVIRONMENTAL CONDITIONS.
-
-- **TRENDS IN BIOMASS**: IN THE GRASS FOOD CHAIN, BOTH PYRAMIDS OF NUMBERS AND BIOMASS DECREASE ALONG THE TROPHIC LEVELS. THE OAK TREE FOOD CHAIN SHOWS SIMILAR TRENDS BUT DUE TO THE SIZE OF THE OAK TREES, WHICH SUPPORT MANY APHIDS AND LADYBIRDS BEFORE NUMBERS DECREASE AT HIGHER TROPHIC LEVELS.
-
-UNDERSTANDING THESE CONCEPTS IS CRUCIAL FOR GRASPING ECOSYSTEM DYNAMICS AND THE ROLES OF ORGANISMS WITHIN THEM.
-
-# ECOLOGY AND THE ENVIRONMENT
-
-## ECOSYSTEMS
-
-### UNDERSTANDING FOOD CHAINS
-
-A FOOD CHAIN DEMONSTRATES HOW ENERGY IS TRANSFERRED BETWEEN ORGANISMS IN AN ECOSYSTEM, ILLUSTRATING THE DIRECTION OF ENERGY FLOW THROUGH VARIOUS LEVELS.
-
-### EXAMPLE OF A FOOD CHAIN
-
-CONSIDER THE FOLLOWING EXAMPLE:
-- **OAK TREE** TRANSFERS ENERGY TO **APHID**, WHICH IS THEN CONSUMED BY **LADYBIRD**, FOLLOWED BY **BIRD**. THIS SEQUENCE SHOWS THE MOVEMENT OF ENERGY FROM PLANT TO PREDATOR.
-
-### PYRAMID OF NUMBERS VS. PYRAMID OF BIOMASS
-
-WHEN ANALYZING FOOD CHAINS, THE PYRAMID OF NUMBERS CAN BE MISLEADING DUE TO FACTORS LIKE PARASITISM. FOR INSTANCE:
-- IN A PARASITIZED CHAIN: OAK TREE → APHID → LADYBIRD → BIRD → NEMATODE WORM
-- THE PYRAMID OF NUMBERS MAY APPEAR DISTORTED DUE TO NUMEROUS PARASITES ON EACH BIRD.
-- CONVERSELY, THE PYRAMID OF BIOMASS REMAINS BALANCED AS THE TOTAL MASS OF PARASITES IS LESS THAN THAT OF THEIR HOSTS.
-
-### ENERGY LOSS IN FOOD CHAINS
-
-ENERGY TRANSFER IN FOOD CHAINS IS INEFFICIENT. FOR EXAMPLE:
-- WHEN A RABBIT CONSUMES GRASS, NOT ALL ENERGY IS CONVERTED INTO RABBIT TISSUE DUE TO SEVERAL FACTORS:
-  - PARTS LIKE ROOTS REMAIN UNEATEN.
-  - UNDIGESTED MATERIALS ARE EXCRETED.
-  - A SIGNIFICANT PORTION IS LOST THROUGH RESPIRATION AS CARBON DIOXIDE AND WATER.
+When an ecologist wants to know how many organisms there are in a particular habitat, it would not be possible for him to count them all. Instead, he is forced to count a smaller representative part of the population, called a sample. Sampling of plants, or animals that do not move much (such as snails), can be done using a sampling square called a quadrat. A quadrat is usually made from metal, wood or plastic. The size of quadrat you use depends on the size of the organisms being sampled. For example, to count plants growing on a school field, you could use a quadrat with sides 0.5 or 1 metre in length (Figure 14.4).
 
 ### KEY POINT
 
-A FOOD CHAIN EFFECTIVELY ILLUSTRATES HOW ENERGY MOVES FROM ONE ORGANISM TO ANOTHER, REFLECTING THE DIRECTION OF ENERGY FLOW IN AN ECOSYSTEM.
+Decomposers are fungi and some species of bacteria. They feed by saprotrophic nutrition (see Chapter 2)
 
-# ECOLOGY AND THE ENVIRONMENT
+### HINT
 
-## ECOSYSTEMS
+People often mistakenly call quadrats 'quadrants'. A quadrant is quite different – it is a quarter of a circle.
+---
+9 |
+8 |
+7 |   2,6
+6 |
+10 m 5 |                8,4
+4 |
+3 |
+2 |
+1 |
+0 +--+--+--+--+--+--+--+--+--+
+  0  1  2  3  4  5  6  7  8  9
+       <---- 10 m ---->
 
-### THE FLOW OF ENERGY THROUGH ECOSYSTEMS
+---
+A pair of random numbers is generated, using the random number function on a calculator. These numbers are used as coordinates to position the quadrat in the large square.
 
-IN ECOSYSTEMS, ENERGY FLOWS BETWEEN VARIOUS TROPHIC LEVELS, INCLUDING PRODUCERS, CONSUMERS, AND DECOMPOSERS. FEEDING IS A PRIMARY METHOD OF TRANSFERRING ENERGY BETWEEN ORGANISMS. HOWEVER, ONLY A SMALL FRACTION OF THE MATERIALS CONSUMED BY ORGANISMS, SUCH AS GRASS BY RABBITS, IS CONVERTED INTO NEW CELLS. THIS LOSS OF ENERGY AND BIOMASS OCCURS AT EACH STAGE OF THE FOOD CHAIN, RESULTING IN SMALLER AMOUNTS OF BIOMASS AVAILABLE FOR GROWTH AT SUCCESSIVE TROPHIC LEVELS.
+The numbers of dandelions in the quadrat are counted. The process is then repeated for nine more quadrats.
 
-THE PROCESS OF PHOTOSYNTHESIS FIXES SUNLIGHT ENERGY INTO CHEMICAL FORMS LIKE GLUCOSE AND STARCH. RESPIRATION THEN RELEASES THIS STORED ENERGY, ESSENTIAL FOR BIOLOGICAL FUNCTIONS SUCH AS MUSCLE CONTRACTION, GROWTH, REPRODUCTION, EXCRETION, AND ACTIVE TRANSPORT. IF THE ENERGY FROM RESPIRATION IS USED TO PRODUCE NEW CELLS, IT REMAINS FIXED IN THE ORGANISM'S MOLECULES AND CAN BE PASSED ON TO THE NEXT TROPHIC LEVEL THROUGH FEEDING. CONVERSELY, IF THE ENERGY IS USED FOR OTHER PROCESSES, IT ESCAPES AS HEAT, LEADING TO ENERGY LOSS AT EACH TROPHIC LEVEL.
+The tape measures are then moved to area B and the process repeated to sample from ten more quadrats in that part of the field.
 
-ENERGY TRANSFER DIMINISHES SIGNIFICANTLY AS IT MOVES THROUGH TROPHIC LEVELS. PRODUCERS RECEIVE ENERGY FROM SUNLIGHT, PRIMARY CONSUMERS OBTAIN ABOUT 10% OF THIS ENERGY FROM PRODUCERS, SECONDARY CONSUMERS RECEIVE APPROXIMATELY 1% FROM PRIMARY CONSUMERS, TERTIARY CONSUMERS RECEIVE ABOUT 0.1% FROM SECONDARY CONSUMERS, AND QUATERNARY CONSUMERS RECEIVE ABOUT 0.001% FROM TERTIARY CONSUMERS. THIS EXPLAINS WHY FOOD CHAINS TYPICALLY DO NOT EXCEED FIVE TROPHIC LEVELS. IN SOME MARINE ECOSYSTEMS, HOWEVER, SIX TROPHIC LEVELS CAN EXIST DUE TO ABUNDANT LIGHT ENERGY.
+The table below shows a set of results for a study like this.
 
-### CYCLING NUTRIENTS THROUGH ECOSYSTEMS
+Table 14.1
 
-THE CHEMICALS COMPOSING OUR BODIES ARE PART OF A CONTINUOUS CYCLE. FOR INSTANCE, CARBON ATOMS IN OUR BODIES MAY HAVE BEEN PART OF HISTORICAL FIGURES LIKE MAHATMA GANDHI OR WINSTON CHURCHILL. THIS RECYCLING OF SUBSTANCES IS INTEGRAL TO THE CYCLE OF LIFE, DEATH, AND DECAY.
+| Quadrat number | Number of dandelions in each quadrat in area A | Number of dandelions in each quadrat in area B |
+|----------------|-----------------------------------------------|-----------------------------------------------|
+| 1              | 4                                             | 10                                            |
+| 2              | 7                                             | 7                                             |
+| 3              | 1                                             | 9                                             |
+| 4              | 0                                             | 14                                            |
+| 5              | 3                                             | 12                                            |
+| 6              | 8                                             | 7                                             |
+| 7              | 3                                             | 16                                            |
+| 8              | 12                                            | 9                                             |
+| 9              | 1                                             | 11                                            |
+| 10             | 6                                             | 15                                            |
 
-MICROORGANISMS PLAY A CRUCIAL ROLE IN THIS PROCESS. THEY BREAK DOWN COMPLEX ORGANIC MOLECULES FROM DEAD ANIMALS AND PLANTS INTO SIMPLER SUBSTANCES, WHICH ARE THEN RELEASED BACK INTO THE ENVIRONMENT. THIS ENSURES ESSENTIAL NUTRIENTS ARE AVAILABLE FOR NEW LIFE, MAINTAINING BALANCE WITHIN ECOSYSTEMS.
+Calculate the mean number of dandelions per m² in each area. Do the results support the hypothesis that the population numbers are different? How could you improve the reliability of the results?
 
-# ECOLOGY AND THE ENVIRONMENT: ECOSYSTEMS
+## INTERACTIONS IN ECOSYSTEMS
 
-## THE CARBON CYCLE
+The organisms in an ecosystem are continually interacting with each other and with their physical environment. Interactions include the following.
 
-CARBON IS A CRITICAL COMPONENT OF BIOLOGICAL MOLECULES ESSENTIAL FOR LIFE. IT APPEARS IN CARBOHYDRATES, LIPIDS, PROTEINS, DNA, VITAMINS, AND OTHER ORGANIC COMPOUNDS. UNDERSTANDING THE CARBON CYCLE IS VITAL FOR COMPREHENDING HOW CARBON CIRCULATES THROUGH ECOSYSTEMS.
+- Feeding among the organisms – the plants, animals and decomposers are continually recycling the same nutrients through the ecosystem.
+- Competition among the organisms – animals compete for food, shelter, mates, nesting sites; plants compete for carbon dioxide, mineral ions, light and water.
+- Interactions between organisms and the environment – plants absorb mineral ions, carbon dioxide and water from the environment; plants also give off water vapour and oxygen into the environment; animals use materials from the environment to build shelters; the temperature of the environment can affect processes occurring in the organisms; processes occurring in organisms can affect the temperature of the environment (all organisms produce some heat).
 
-### KEY PROCESSES IN THE CARBON CYCLE
+### REMINDER
 
-PHOTOSYNTHESIS PLAYS A CENTRAL ROLE IN THE CARBON CYCLE AS PLANTS FIX CARBON ATOMS FROM ATMOSPHERIC CARBON DIOXIDE INTO ORGANIC COMPOUNDS SUCH AS CARBOHYDRATES, LIPIDS, AND PROTEINS.
+Don't forget that plants take in carbon dioxide and give out oxygen only when there is sufficient light for photosynthesis to occur efficiently. When there is little light, plants take in oxygen and give out carbon dioxide. You should be able to explain the reasons for this (see Chapter 10).
+---
+## BIOTIC AND ABIOTIC FACTORS
 
-DECOMPOSITION, CARRIED OUT BY ORGANISMS LIKE FUNGI AND BACTERIA, BREAKS DOWN DEAD PLANT AND ANIMAL REMAINS, TRANSFERRING THEIR CARBON BACK INTO THE ENVIRONMENT THROUGH PROCESSES LIKE DECAY AND EXCRETION.
+There are many factors that influence the numbers and distribution of organisms in an ecosystem. There are two types of factor – biotic and abiotic.
 
-RESPIRATION RELEASES INORGANIC CARBON DIOXIDE BACK INTO THE ATMOSPHERE AS PLANTS, ANIMALS, AND DECOMPOSERS BREAK DOWN ORGANIC COMPOUNDS TO GENERATE ENERGY.
+Biotic factors are biological. Many (but not all) involve feeding relationships. They include:
 
-FOSSILISATION TRAPS SOME ORGANIC MATTER IN SEDIMENTARY LAYERS UNDER SPECIFIC CONDITIONS, LEADING TO THE FORMATION OF FOSSIL FUELS SUCH AS COAL, OIL, NATURAL GAS, AND PEAT.
+- availability of food and competition for food resources
+- predation
+- parasitism
+- disease
+- presence of pollinating insects
+- availability of nest sites.
 
-COMBUSTION OF THESE FOSSIL FUELS RELEASES CARBON DIOXIDE INTO THE ATMOSPHERE, CONTRIBUTING TO THE CARBON CYCLE.
+Abiotic factors are physical or chemical factors. They include:
 
-### THE ROLE OF DECOMPOSERS
+- climate, such as light intensity, temperature and water availability
+- hours of daylight
+- soil conditions, such as clay content, nitrate level, particle size, water content and pH
+- other factors specific to a particular habitat, such as salinity (salt content) in an estuary, flow rate in a river, or oxygen concentration in a lake
+- pollution.
 
-DECOMPOSERS ARE ESSENTIAL FOR RECYCLING ORGANIC MATTER. THEY BREAK DOWN DEAD PLANT AND ANIMAL MATERIAL, RETURNING NUTRIENTS TO THE SOIL AND RELEASING CARBON DIOXIDE THROUGH DECOMPOSITION.
+Clearly which factors affect population sizes and distribution of organisms will depend on the type of ecosystem. If you take the example of a river, some of the main abiotic factors could be:
 
-THIS PROCESS ENSURES THAT CARBON CONTINUES TO CIRCULATE WITHIN ECOSYSTEMS, SUPPORTING BOTH LIVING ORGANISMS AND GEOLOGICAL FORMATIONS OVER TIME.
+- depth of water
+- flow rate
+- type of material at the bottom of the stream (stones, sand, mud etc.)
+- concentration of minerals in the water
+- pH
+- oxygen concentration
+- cloudiness of the water
+- presence of any pollution.
 
-THE INTERPLAY OF THESE PROCESSES MAINTAINS THE DELICATE BALANCE OF CARBON IN ECOSYSTEMS, INFLUENCING CLIMATE AND BIODIVERSITY.
+The main biotic factors affecting animals in the river will be food supply, either from plants or other animals. But other factors are important too – large fish could not live in a shallow stream!
 
-BY UNDERSTANDING THESE MECHANISMS, WE CAN BETTER APPRECIATE HOW HUMAN ACTIVITIES IMPACT THIS VITAL CYCLE.
+It is impossible to generalise about which factors are the most important. In a heavily polluted river all the organisms could be killed by the pollution, while in a clean river depth and flow rate might have a greater effect on the animals that could live there. The different factors may also affect one another. For example, a faster flow rate could mix the water with air, increasing the amount of dissolved oxygen.
 
-# ECOLOGY AND THE ENVIRONMENT: ECOSYSTEMS
+The main factor affecting large ecosystems is climate, particularly temperature and rainfall. Climate is the reason why tropical rainforests are restricted to a strip near the equator of the Earth, while pine forests grow in the higher latitudes of the northern hemisphere.
 
-## MEASURING BIODIVERSITY
+### KEY POINTS
 
-ECOLOGY, AS A MATHEMATICAL BRANCH OF BIOLOGY, PROVIDES TOOLS TO ASSESS BIODIVERSITY. ONE WIDELY USED METHOD IS SIMPSON'S INDEX, WHICH QUANTIFIES SPECIES DIVERSITY IN A COMMUNITY.
+A predator is an animal that kills and eats another animal. A parasite is an organism (animal or plant) that lives in or on another organism (called its host) and gets its nutrition from the host. e.g. mosquitoes are parasites of humans (and other animals), and the human is the host of the mosquito.
 
-### SIMPSON'S INDEX FORMULA
+Large areas of the Earth dominated by a specific type of vegetation are called biomes. Temperate grassland and tropical rain forest are two examples of biomes. You could carry out some research to find out about these and other biomes.
+---
+## FEEDING RELATIONSHIPS
 
-SIMPSON'S INDEX (D) MEASURES BIODIVERSITY BY COMPARING THE NUMBER OF INDIVIDUALS IN EACH SPECIES TO THE TOTAL NUMBER OF INDIVIDUALS IN THE COMMUNITY. THE FORMULA IS:
+The simplest way of showing feeding relationships within an ecosystem is a food chain (Figure 14.6).
 
-\[ D = 1 - \FRAC{\SUM (N^2)}{N^2} \]
+In any food chain, the arrow (→) means 'is eaten by'. In the food chain illustrated, the grass is the producer. It is a plant so it can photosynthesise and produce food materials. The grasshopper is the primary consumer. It is an animal which eats the producer and is also a herbivore. The lizard is the secondary consumer. It eats the primary consumer and is also a carnivore. The different stages in a food chain (producer, primary consumer and secondary consumer) are called trophic levels.
 
-WHERE:
-- **N** IS THE TOTAL NUMBER OF INDIVIDUALS ACROSS ALL SPECIES.
-- **N** IS THE COUNT OF INDIVIDUALS FOR A SPECIFIC SPECIES.
+Many food chains have more than three links in them. Here are two examples of longer food chains:
 
-### STEPS TO CALCULATE SIMPSON'S INDEX
+filamentous algae → mayfly nymph → caddis fly larvae → salmon
 
-CALCULATING SIMPSON'S INDEX INVOLVES FIVE STEPS:
+In this freshwater food chain, the extra link in the chain makes the salmon a tertiary consumer.
 
-1. DETERMINE THE TOTAL NUMBER OF INDIVIDUALS (N) IN THE COMMUNITY.
-2. FOR EACH SPECIES, FIND THE TOTAL NUMBER OF INDIVIDUALS (N).
-3. SQUARE THE VALUE OF N FOR EACH SPECIES.
-4. SUM ALL SQUARED VALUES TO GET \(\SUM (N^2)\).
-5. APPLY THE FORMULA TO COMPUTE D.
+plankton → crustacean → fish → ringed seal → polar bear
 
-### EXAMPLE CALCULATION
+In this marine (sea) food chain, the fifth link makes the polar bear a quaternary consumer. Because nothing eats the polar bear, it is also called the top carnivore.
 
-CONSIDER TWO COMMUNITIES:
+Food chains are a convenient way of showing the feeding relationships between a few organisms in an ecosystem, but they oversimplify the situation. The marine food chain above implies that only crustaceans feed on plankton, which is not true. Some whales and other mammals also feed on plankton. For a fuller understanding, you need to consider how the different food chains in an ecosystem relate to each other. Figure 14.7 gives a clearer picture of the feeding relationships involved in a freshwater ecosystem in which salmon are the top carnivores. This is the food web of the salmon.
 
-| SPECIES | COMMUNITY 1 INDIVIDUALS | COMMUNITY 2 INDIVIDUALS |
-|---------|--------------------------|------------------------|
-| A       | 10                       | 46                      |
-| B       | 10                       | 10                      |
-| C       | 10                       | 10                      |
-| D       | 10                       | 10                      |
-| E       | 10                       | 10                      |
+![Figure 14.7 The food web of the salmon. As you can see, young salmon have a slightly different diet to mature salmon.]
 
-#### COMMUNITY 1:
-- TOTAL INDIVIDUALS (N) = 50
-- EACH SPECIES HAS N = 10
+```mermaid
+graph TD
+    A[plankton] --> B[midge larvae]
+    A --> C[blackfly larvae]
+    D[filamentous algae] --> E[mayfly larvae]
+    F[plant detritus] --> G[freshwater shrimp]
+    B --> H[leeches]
+    C --> I[stonefly nymphs]
+    E --> I
+    G --> I
+    H --> J[young salmon]
+    I --> J
+    E --> K[caddis fly larvae]
+    K --> J
+    K --> L[mature salmon]
+    J --> L
+```
+---
+Figure 14.8 Pyramids of numbers for two food chains
+(a)                    (b)
+    birds                  birds
+    frogs                  ladybirds
+    grasshoppers           aphids
+    grass                  oak tree
 
-CALCULATIONS:
-- SQUARED VALUES: \(10^2 = 100\) FOR EACH SPECIES.
-- SUM OF SQUARES: \(5 \TIMES 100 = 500\)
-- SIMPSON'S INDEX: 
-  \[ D = 1 - \FRAC{500}{50^2} = 1 - \FRAC{500}{2500} = 0.80 \]
-  
-THIS RESULT (D = 0.80) INDICATES HIGH BIODIVERSITY IN COMMUNITY 1.
+Figure 14.9 Pyramids of biomass for the two food chains
+(a)                    (b)
+    birds                  birds
+    frogs                  ladybirds
+    grasshoppers           aphids
+    grass                  oak tree
 
-#### COMMUNITY 2:
-- TOTAL INDIVIDUALS (N) = 50
-- EACH SPECIES HAS N = 10
+---
+                carbon dioxide
+               is breathed out            rabbit
+           
+           grass
+           
+roots are                      some excretory     some materials are not
+not eaten                      products are formed,   absorbed and are
+                               e.g. urea in urine egested with the faeces
 
-CALCULATIONS:
-- SQUARED VALUES: \(10^2 = 100\) FOR EACH SPECIES.
-- SUM OF SQUARES: \(5 \TIMES 100 = 500\)
-- SIMPSON'S INDEX:
-  \[ D = 1 - \FRAC{500}{50^2} = 0.80 \]
-  
-THIS RESULT (D = 0.152) SUGGESTS LOWER BIODIVERSITY COMPARED TO COMMUNITY 1.
+---
+ ECOLOGY AND THE ENVIRONMENT                    ECOSYSTEMS                                                               171
+
+                                                In fact; only a small fraction of the materials in the grass ends up in new cells
+                                                in the rabbit: Similar losses are repeated at each stage in the food chain, sO
+                                         smaller and smaller amounts of biomass are available for growth at successive
+                                                trophic levels. The shape of pyramids of biomass reflects this
+                                                Feeding is a way of transferring energy between organisms Another way of
+                                                modelling ecosystems looks at the energy flow between the various trophic
+                                                levels_
+
+               secondary   (18)                 THE FLOW OF ENERGY THROUGH ECOSYSTEMS
+               consumers  death                 This approach focuses less on individual organisms and food chains and
+                            and                 rather more on energy transfer between trophic levels (producers, consumers
+               120)     excretion               and decomposers) in the whole ecosystem_ There are a number ofkeyideas
+                                                involved:
+
+                primary     (1751                Photosynthesis 'fixes' sunlight energy into chemicals such as glucose and
+              consumers                          starch:
+                          death                  Respiration releases energy from organic compounds such as glucose_
+                            and                  Almost all other biological processes (e.g: muscle contraction, growth,
+              200)      excretion                reproduction, excretion, active transport) use the energy released in
+                             750)               respiration:
+        (50)     producers                       If the energy released in respiration is used to produce new cells, then the
+                                                 energy remains 'fixed' in molecules in that organism. It can be passed on to
+                            death                the next trophic level through feeding:
+     (57)          light        (1943)           If the energy released in respiration is used for other processes then it
+                   energy                        will, once used, eventually escape as heat from the organism. Energy is
+                    from                         therefore lost from food chains and webs at each trophic level.
+energy lost as heat the (2000)
+from metabolic      sun                         Figure 14.12 is an energy flow diagram. It shows the main ways in which
+processes                   energy lost         energy is transferred in an ecosystem. It also gives the amounts of energy
+                              heat from         transferred between the trophic levels of this particular (grassland) ecosystem_
+    (198 OOO)   (20000O)      metabolic
+                              processes         As you can see, only about 10% of the energy entering a trophic level is
+                                                passed on to the next trophic level. This explains why not many food chains
+       reflected light                          have more than five trophic levels Think of the food chain:
+      AIl figures given are kilojoules           A B v C-D-E
+          (x105) per m? per year:               If we use the idea that only about 10% of the energy entering a trophic level is
+   Figure 14.12 The main ways in which energy   passed on to the next level, then, of the original 100% reaching  producer);
+   is transferred in an ecosystem: The amounts  10% passes to B, 1% (10% of 10%) passes to C, 0.1% passes to D and only
+   of energy transferred through m2 of a        0.001% passes to E. There just isn't enough energy left for another trophic
+   grassland ecosystem per year are shown in    level. In certain parts of the world, some marine food chains have six trophic
+   brackets                                     levels because of the huge amount of light energy reaching the surface waters
+
+                                                CYCLING NUTRIENTS THROUGH ECOSYSTEMS
+                                                The chemicals that make up our bodies have all been around before
+                                                probably many times! You may have in your body some carbon atoms that
+                                                were part of the body of Mahatma Gandhi or were in carbon dioxide molecules
+                                                breathed out by Winston Churchill: This constant recycling of substances is all
+                                                part of the cycle of life, death and decay:
+                                                Microorganisms play akeyrole in recycling: They break down complex organic
+                                                molecules in the bodies of dead animals and plants into simpler substances,
+                                                which they release into the environment:
+---
+
+## Figure 14.14 A typical illustration of the carbon cycle
+
+
+---
+## LOOKING AHEAD - MEASURING BIODIVERSITY
+
+Ecology is a very mathematical branch of biology. An example of this is that biodiversity can be measured by calculating a diversity index. One example is called Simpson's Index. One formula for Simpson's Index (D) is:
+
+$$ D = 1 - \sum(\frac{n}{N})^2 $$
+
+In this formula:
+- N = the total number of individuals of all species
+- n = the total number of individuals of a particular species.
+
+You calculate n/N for each species, square each of these numbers, and then sum (Σ) all the squares. Subtracting this value from 1 gives you D. Values of D range from 0 to 1, where 0 represents a low diversity and 1 a high diversity.
+
+Take the data you saw in Table 14.1:
+
+| Species | Number of individuals of each species in community 1 | Number of individuals of each species in community 2 |
+|---------|-----------------------------------------------------|-----------------------------------------------------|
+| A       | 10                                                  | 1                                                   |
+| B       | 10                                                  | 1                                                   |
+| C       | 10                                                  | 1                                                   |
+| D       | 10                                                  | 1                                                   |
+| E       | 10                                                  | 46                                                  |
+
+For community 1:
+- The total number of individuals of all species (N) = 50
+- For each species the total number of individuals (n) = 10.
+
+So $\frac{n}{N} = \frac{10}{50} = 0.2$ for each species
+
+$$ \sum(\frac{n}{N})^2 = (\frac{10}{50})^2 + (\frac{10}{50})^2 + (\frac{10}{50})^2 + (\frac{10}{50})^2 + (\frac{10}{50})^2 $$
+$$ = 0.22 + 0.22 + 0.22 + 0.22 + 0.22 $$
+$$ = 0.04 + 0.04 + 0.04 + 0.04 + 0.04 $$
+$$ = 0.20 $$
+
+To find Simpson's Index you subtract this value from 1:
+$$ D = (1 - 0.20) = 0.80 $$
+
+This value is close to 1.0, showing that community 1 has a high biodiversity.
+
+Can you calculate Simpson's Index for community 2? If you do it carefully you should get the answer D = 0.152, showing that community 2 has a lower biodiversity.
 
 ### EXTENSION WORK
 
-EXPLORING FURTHER, RESEARCH DIFFERENT BIODIVERSITY INDICES AND THEIR APPLICATIONS CAN ENHANCE UNDERSTANDING OF ECOLOGICAL METRICS.
+If you are interested, you can do some background research about Simpson's Index. You will find that there are different formulae used for the Index. It doesn't matter which one you use, as long as you are consistent.
+---
+174 ECOLOGY AND THE ENVIRONMENT             ECOSYSTEMS
 
-# ECOLOGY AND THE ENVIRONMENT: ECOSYSTEMS
+      CHAPTER QUESTIONS                         More questions on ecosystems can be found at the end of Unit 4 on page 191_
 
-## CHAPTER QUESTIONS
-MORE QUESTIONS ON ECOSYSTEMS CAN BE FOUND AT THE END OF UNIT 4 ON PAGE 191.
+      SKILLS   CRITICAL THINKING             Which of the following terms is defined as 'all the organisms living in
+                                                particular place and their interactions with each other and with their
+                                             environment' ?
+                                              A habitat
+                                                population
+                                                community
+                                                ecosystem
+                                             Which of the following is a biotic factor?
+                                             A light intensity
+                                             B food supply
+                                                pollution
+                                                temperature
+                                             The diagram below shows a food web containing four food chains
+                                                                           Sun
 
+                                                              maize    grass      rice     algae
+
+                                                                       sheep             crustacea
+
+                                                                                       fish
+
+                                                                             humans
+                                             Which food chains are most efficient at using energy from the Sun?
+                                                 and 3
+                                             B 2 and 4
+                                                2 and 3
+                                             D 3 and 4
+                                                Explain what is meant by the terms habitat; community, environment and
+                                                population.
+                                                What are the roles of plants, animals and decomposers in an ecosystem?
+                                             A marine food chain is shown below.
+                                                plankton   small crustacean   krill seal   killer whale
+                                                Which organism is the producer;  thesecondary consumer?
+                                                What term best describes the killer whale?
+      SKILLS  REASONING                         Suggest why five trophic levels are possible in this case, when many food
+                                                chains only have three or four:
 ---
 
-## KEY TERMS
-- **ECOSYSTEM**: ALL ORGANISMS LIVING IN A PARTICULAR PLACE AND THEIR INTERACTIONS WITH EACH OTHER AND THEIR ENVIRONMENT.
-- **HABITAT**: THE NATURAL HOME OR ENVIRONMENT OF AN ORGANISM.
-- **COMMUNITY**: A GROUP OF DIFFERENT SPECIES THAT LIVE TOGETHER IN ONE AREA.
-- **POPULATION**: A GROUP OF INDIVIDUALS OF THE SAME SPECIES LIVING IN A SPECIFIC AREA.
+(b)
+| pyramid of numbers<br>numbers per 0.1 hectare | pyramid of biomass<br>grams per square metre |
+|:----------------------------------------------|:---------------------------------------------|
+| 2 →                                           | ← 1                                          |
+| 120 000 ← X                                   | ← 2                                          |
+| 150 000                                       | 5139                                         |
+| 200 →                                         | ← Y                                          |
 
----
+a Write out two food chains (from the food web) containing four organisms, both involving moths.
 
-## CRITICAL THINKING QUESTIONS
+b Name one organism in the food web which is both a primary consumer and a secondary consumer.
 
-1. WHICH TERM IS DEFINED AS 'ALL THE ORGANISMS LIVING IN A PARTICULAR PLACE AND THEIR INTERACTIONS WITH EACH OTHER AND THEIR ENVIRONMENT'? THE OPTIONS ARE:
-   - A) HABITAT
-   - B) POPULATION
-   - C) COMMUNITY
-   - D) ECOSYSTEM
+## SKILLS > REASONING
 
-2. WHICH OF THE FOLLOWING IS A BIOTIC FACTOR? BIOTIC FACTORS INCLUDE:
-   - A) LIGHT INTENSITY
-   - B) FOOD SUPPLY
-   - C) POLLUTION
-   - D) TEMPERATURE
+c Suggest how a reduction in the dead leaves may lead to a reduction in the numbers of shrews.
 
-3. IN THE DIAGRAM SHOWING A FOOD WEB WITH FOUR FOOD CHAINS (SUN → MAIZE → GRASS → RICE → ALGAE → SHEEP → CRUSTACEA → FISH → HUMANS), WHICH FOOD CHAINS ARE MOST EFFICIENT AT USING ENERGY FROM THE SUN? THE OPTIONS ARE:
-   - A) 1 AND 3
-   - B) 2 AND 4
-   - C) 2 AND 3
-   - D) 3 AND 4
+## SKILLS > ANALYSIS, REASONING
 
-4. EXPLAIN THE TERMS HABITAT, COMMUNITY, ENVIRONMENT, AND POPULATION.
+d In part (b) of the diagram, explain why level Y is such a different width in the two pyramids.
 
-5. WHAT ARE THE ROLES OF PLANTS, ANIMALS, AND DECOMPOSERS IN AN ECOSYSTEM?
+## SKILLS > PROBLEM SOLVING
 
----
-
-## MARINE FOOD CHAIN EXAMPLE
-A MARINE FOOD CHAIN IS SHOWN BELOW: PLANKTON → SMALL CRUSTACEAN → KRILL → SEAL → KILLER WHALE
-
-- WHICH ORGANISM IS THE PRODUCER?
-- WHICH ORGANISM IS THE SECONDARY CONSUMER?
-- WHAT TERM BEST DESCRIBES THE KILLER WHALE?
-
----
-
-## SKILLS: REASONING
-SUGGEST WHY FIVE TROPHIC LEVELS ARE POSSIBLE IN THIS CASE, WHEN MANY FOOD CHAINS ONLY HAVE THREE OR FOUR.
-
----
-
-THIS STRUCTURED LAYOUT PROVIDES A CLEAR UNDERSTANDING OF ECOSYSTEMS, THEIR COMPONENTS, AND RELATIONSHIPS WHILE ENCOURAGING CRITICAL THINKING.
-
-# ECOLOGY AND THE ENVIRONMENT: ECOSYSTEMS
-
-## WOODLAND FOOD WEB
-
-THE WOODLAND ECOSYSTEM CONSISTS OF INTERCONNECTED ORGANISMS WHERE EACH PLAYS A SPECIFIC ROLE. PREDATORS INCLUDE OWLS AND WEASELS, WHILE PRIMARY CONSUMERS ARE SHREWS, VOLES, AND SMALL BIRDS. DECOMPOSERS LIKE BEETLES AND EARTHWORMS BREAK DOWN ORGANIC MATTER, AND PRODUCERS ARE HERBS, TREES, AND BUSHES, INCLUDING OAK TREES AND DEAD LEAVES.
-
-FOOD CHAINS ILLUSTRATE THE FLOW OF ENERGY WITHIN THE ECOSYSTEM. FOR EXAMPLE:
-
-1. GRASS IS CONSUMED BY VOLES, WHICH ARE THEN PREYED UPON BY SHREWS, FOLLOWED BY OWLS.
-2. DEAD LEAVES PROVIDE A FOOD SOURCE FOR EARTHWORMS, WHICH ARE EATEN BY SHREWS, LEADING TO WEASELS AS PREDATORS.
-
-THE SHREW SERVES DUAL ROLES: IT ACTS AS A PRIMARY CONSUMER WHEN EATING PLANTS AND AS A SECONDARY CONSUMER WHEN PREYING ON INSECTS.
-
-## PYRAMIDS OF NUMBERS AND BIOMASS
-
-IN PART (B) OF THE DIAGRAM, TWO PYRAMIDS ARE ANALYZED:
-
-- THE PYRAMID OF NUMBERS REPRESENTS ORGANISM DENSITY PER HECTARE.
-- THE PYRAMID OF BIOMASS SHOWS ENERGY STORED IN ORGANISMS, MEASURED IN GRAMS PER SQUARE METER.
-
-THE DIFFERENCE IN WIDTH BETWEEN LEVELS Y IN THESE PYRAMIDS IS DUE TO VARYING BIOMASS COMPARED TO ORGANISM NUMBERS. FOR INSTANCE, FEWER LARGE PREDATORS LIKE OWLS MAY HAVE MORE BIOMASS THAN NUMEROUS SMALL INSECTS.
-
-## ENERGY TRANSFER IN ECOSYSTEMS
-
-ENERGY TRANSFER WITHIN THE ECOSYSTEM IS ILLUSTRATED BY A COW FEEDING ON GRASS:
-
-- GRASS PROVIDES 3050 KJ OF ENERGY.
-- THE COW RETAINS 125 KJ AS NEW BIOMASS AND LOSES 2925 KJ THROUGH METABOLIC PROCESSES AND EXCRETION.
-- UNUSED GRASS ENERGY, TOTALING 18450 KJ, CAN BE USED BY OTHER ORGANISMS OR CONTRIBUTE TO ECOSYSTEM PRODUCTIVITY.
-
-THE ENERGY EFFICIENCY OF THE COW IS CALCULATED AS:
-
-\[
-\TEXT{ENERGY EFFICIENCY} = \LEFT( \FRAC{125}{3050} \RIGHT) \TIMES 100 \APPROX 4.1\%
-\]
-
-ENERGY LOSS OCCURS THROUGH METABOLISM AND EXCRETION, WHILE UNUSED GRASS ENERGY SUPPORTS DECOMPOSERS OR ECOSYSTEM GROWTH.
-
-THIS STRUCTURED OVERVIEW CLARIFIES THE ROLES OF ORGANISMS IN A WOODLAND ECOSYSTEM, DETAILING FOOD CHAINS, DUAL ROLES, AND ENERGY DYNAMICS.
+7 In a year, 1m² of grass produces 21 500 kJ of energy. The diagram below shows the fate of the energy transferred to a cow feeding on the grass.
 

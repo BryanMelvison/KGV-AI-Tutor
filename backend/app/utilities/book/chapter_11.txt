@@ -1,341 +1,296 @@
-# PLANT PHYSIOLOGY: TRANSPORT IN PLANTS
+# 11 TRANSPORT IN PLANTS
 
-## INTRODUCTION
-THIS CHAPTER EXPLORES HOW WATER AND OTHER SUBSTANCES MOVE WITHIN PLANTS. IT EXAMINES OSMOSIS, THE TRANSPORT OF WATER THROUGH XYLEM, AND THE MOVEMENT OF SUGARS VIA PHLOEM.
+Chapter 10 described how plants make food by photosynthesis. Photosynthesis requires water from the roots to be transported to the leaves, and sugars and other products of photosynthesis to be transported away from the leaves to the rest of the plant. This chapter explains how these materials are moved through the plant.
 
 ## LEARNING OBJECTIVES
-BY STUDYING THIS CHAPTER, YOU WILL:
-- UNDERSTAND HOW OSMOSIS FACILITATES WATER MOVEMENT ACROSS CELL MEMBRANES.
-- INVESTIGATE OSMOSIS IN BOTH LIVING CELLS, SUCH AS PLANT CELLS, AND ARTIFICIAL SYSTEMS LIKE VISKING TUBING.
-- DESCRIBE THE ROLE OF PHLOEM IN TRANSPORTING SUCROSE AND AMINO ACIDS FROM LEAVES TO OTHER PLANT PARTS.
-- EXPLAIN THE FUNCTION OF XYLEM IN MOVING WATER AND MINERAL IONS FROM ROOTS TO OTHER AREAS.
-- RECOGNIZE THE SOURCES AND LOSS OF CARBON DIOXIDE AND OXYGEN AS METABOLIC WASTE THROUGH STOMATA.
+
+- Understand how water can move in or out of plant cells by osmosis
+- Investigate osmosis in living and non-living systems (plant cells and Visking tubing)
+- Describe the role of the xylem in the transport of water and mineral ions from the roots to other parts of a plant
+- Describe the role of phloem in the transport of sucrose and amino acids from the leaves to other parts of a plant
+- Understand the origin of carbon dioxide and oxygen as waste products of metabolism and their loss from the stomata of a leaf
 
 ## OSMOSIS
-OSMOSIS REFERS TO THE MOVEMENT OF WATER ACROSS SEMI-PERMEABLE MEMBRANES. THIS PROCESS IS CRUCIAL FOR UNDERSTANDING HOW WATER MOVES WITHIN PLANT CELLS.
 
-### MECHANISM OF OSMOSIS
-OSMOSIS OCCURS WHEN A SEMI-PERMEABLE MEMBRANE SEPARATES TWO SOLUTIONS, ALLOWING SMALLER MOLECULES LIKE WATER TO PASS THROUGH WHILE RESTRICTING LARGER MOLECULES SUCH AS SUCROSE. VISKING TUBING EXEMPLIFIES THIS PROPERTY WITH ITS MICROSCOPIC PORES THAT PERMIT WATER BUT NOT SUCROSE.
+Osmosis is the name of a process by which water moves into and out of cells. In order to understand how water moves through a plant, you need to understand the mechanism of osmosis. Osmosis happens when a material called a partially permeable membrane separates two solutions. One artificial partially permeable membrane is called Visking tubing. This is used in kidney dialysis machines. Visking tubing has microscopic holes in it, which let small molecules like water pass through (it is permeable to them) but is not permeable to some larger molecules, such as the sugar sucrose. This is why it is called 'partially' permeable. You can show the effects of osmosis by filling a Visking tubing 'sausage' with concentrated sucrose solution, attaching it to a capillary tube and placing the Visking tubing in a beaker of water (Figure 11.1).
 
-## OSMOSIS DEMONSTRATION
-THIS EXPERIMENT ILLUSTRATES OSMOSIS USING VISKING TUBING:
+| Component           | Description                                    |
+|---------------------|------------------------------------------------|
+| Capillary tube      | Attached to the top of the Visking tubing      |
+| Cotton thread       | Tied tightly around the Visking tubing         |
+| Water               | Surrounds the Visking tubing in the beaker     |
+| Sucrose solution    | Concentrated solution inside the Visking tubing|
+| Visking tubing      | Contains the sucrose solution                  |
+| Knot tied in tubing | Seals the bottom of the Visking tubing         |
 
-1. FILL THE TUBING WITH A CONCENTRATED SUCROSE SOLUTION.
-2. ATTACH IT TO A CAPILLARY TUBE.
-3. PLACE THE TUBING IN A BEAKER OF WATER.
+Figure 11.1 Water enters the Visking tubing 'sausage' by osmosis. This causes the level of liquid in the capillary tube to rise. In the photograph, the contents of the Visking tubing have had a red dye added to make it easier to see the movement of the liquid.
+PLANT PHYSIOLOGY                            TRANSPORT IN PLANTS                                                             137
 
-THE RED DYE ADDED TO THE TUBING HIGHLIGHTS THE VISIBLE MOVEMENT OF WATER, DEMONSTRATING OSMOSIS'S PRINCIPLES IN PLANT TRANSPORT.
+                                          The level in the capillary tube rises as water moves from the beaker to the
+                                          inside of the Visking tubing: This movement is due to osmosis. You can
+                                         understand what's happening if you imagine a highly magnified view of the
+                                          Visking tubing separating the two liquids (Figure 11.2).
 
-## XYLEM AND PHLOEM TRANSPORT
-XYLEM TRANSPORTS WATER AND MINERALS FROM ROOTS TO OTHER PLANT PARTS VIA OSMOSIS. PHLOEM THEN MOVES SUGARS AND AMINO ACIDS FROM LEAVES TO STORAGE TISSUES, FACILITATING ENERGY DISTRIBUTION AND NUTRIENT TRANSPORT.
+                                           random movement of       partially permeable membrane  larger sucrose molecules
+                                           water molecules due                                    cannot pass through membrane
+                                           to their kinetic energy
 
-# PLANT PHYSIOLOGY
+                                                                                                     water molecules attracted
+                                                                                                     to sucrose molecules
 
-## TRANSPORT IN PLANTS
+                                                           water                             sucrose solution
+                                                                                               arrows show amount
+                                                                                               of water movement in
+                                                                                               each direction
 
-### KEY CONCEPTS
-
-**DIFFUSION** IS THE NET MOVEMENT OF PARTICLES (MOLECULES OR IONS) ACROSS A CONCENTRATION GRADIENT DRIVEN BY THEIR KINETIC ENERGY. THIS PRINCIPLE IS FUNDAMENTAL FOR UNDERSTANDING SUBSTANCE TRANSPORT WITHIN PLANTS.
-
-**OSMOSIS** REFERS TO THE NET DIFFUSION OF WATER MOLECULES ACROSS A PARTIALLY PERMEABLE MEMBRANE FROM A SOLUTION WITH HIGHER WATER POTENTIAL TO ONE WITH LOWER WATER POTENTIAL. THIS PROCESS DOES NOT REQUIRE PURE WATER ON EITHER SIDE; ONLY A CONCENTRATION DIFFERENCE AND A SUITABLE MEMBRANE ARE NECESSARY FOR OSMOSIS TO OCCUR.
-
-### UNDERSTANDING OSMOSIS
-
-IN PRACTICAL EXAMPLES, SUCH AS THOSE INVOLVING VISKING TUBING SEPARATING TWO LIQUIDS, OSMOSIS CAN BE OBSERVED. WATER MOVES FROM THE PURE WATER SIDE (LEFT) INTO THE SUCROSE SOLUTION (RIGHT), CAUSING THE WATER LEVEL IN THE CAPILLARY TUBE TO RISE DUE TO OSMOTIC PRESSURE.
-
-!OSMOSIS MODEL
-*FIGURE 11.2: IN THIS MODEL OF OSMOSIS, MORE WATER MOLECULES DIFFUSE FROM LEFT TO RIGHT THAN FROM RIGHT TO LEFT.*
-
-### MECHANISM OF OSMOSIS
-
-1. **WATER MOLECULE MOVEMENT**: PURE WATER ALLOWS UNRESTRICTED PASSAGE THROUGH THE MEMBRANE DUE TO HIGHER WATER POTENTIAL.
-
-2. **SUCROSE SOLUTION INTERACTION**: THE SUCROSE MOLECULES ON THE RIGHT ATTRACT WATER MOLECULES, REDUCING THEIR KINETIC ENERGY AND LIMITING THEIR MOVEMENT.
-
-3. **WATER POTENTIAL DIFFERENCE**: THIS ATTRACTION CAUSES A NET FLOW OF WATER FROM THE HIGH-POTENTIAL (LEFT) SIDE TO THE LOW-POTENTIAL (RIGHT) SIDE.
-
-### WATER POTENTIAL
-
-**WATER POTENTIAL** INDICATES THE FREEDOM OF WATER MOLECULES TO MOVE. PURE WATER HAS THE HIGHEST POTENTIAL, WHILE MORE CONCENTRATED SOLUTIONS HAVE LOWER POTENTIALS DUE TO SOLUTE INTERACTIONS.
-
-### DEFINITION OF OSMOSIS
-
-OSMOSIS IS DEFINED AS THE NET DIFFUSION OF WATER ACROSS A PARTIALLY PERMEABLE MEMBRANE FROM A SOLUTION WITH HIGHER WATER POTENTIAL TO ONE WITH LOWER WATER POTENTIAL. THIS CONCEPT IS CRUCIAL FOR STUDYING PLANT WATER ABSORPTION AND INTERNAL BALANCE.
-
-# PLANT PHYSIOLOGY: TRANSPORT IN PLANTS
-
+                                             Figure 11.2 In this model of osmosis, more water molecules diffuse from left to right than from
+                                             right to left:
+KEY POINT                                 The sucrose molecules are too big to pass through the holes in the partially
+Diffusion is the net movement of          permeable membrane_ The water molecules can pass through the membrane
+particles (molecules or ions) due         in either direction, but those on the right are attracted to the sugar molecules_
+to their kinetic energy, down a           This slows them down and means that they are less free to move       they have
+concentration gradient (see Chapter 1)    less kinetic energy: As a result of this, more water molecules diffuse from left to
+                                          right than from right to left. In other words, there is a greater diffusion of water
+                                          molecules from the more dilute solution (in this case pure water) to the more
+                                         concentrated solution_
+KEY POINT                                 How 'free' the water molecules are to move is called the water potential.
+It is important to realise that neither   The molecules in pure water can move most freely,so pure water has the
+of the two solutions has to be pure       highest water potential. The more concentrated a solution is, the lower is its
+water: As long as there is a difference   water potential: In the model in Figure 11.2, water moves from a high to a low
+in their concentrations (and their water  water potential: This is a law which applies whenever water moves by osmosis_
+potentials) , and they are separated      We can bring these ideas together in a definition of osmosis
+by a partially permeable membrane,          KEY POINT
+osmosis can still take place_               Osmosis is the net diffusion of water across a partially permeable membrane, from a
+                                            solution with a higher water potential to one with lower water potential:
+---
 ## OSMOSIS IN PLANT CELLS
 
-OSMOSIS IS A PROCESS THAT OCCURS NOT ONLY THROUGH VISKING TUBING BUT ALSO WITHIN PLANT CELLS. THE CELL SURFACE MEMBRANES OF BOTH ANIMAL AND PLANT CELLS FUNCTION AS PARTIAL BARRIERS, AS DOES THE INNER MEMBRANE SURROUNDING THE PLANT CELL'S SAP VACUOLE.
+So far we have only been dealing with osmosis through Visking tubing. However, there are partially permeable membranes in cells too. The cell surface membranes of both animal and plant cells are partially permeable, and so is the inner membrane around the plant cell's sap vacuole (Figure 11.3).
 
-### MEMBRANES IN ANIMAL AND PLANT CELLS
+### Figure 11.3 Membranes in animal and plant cells
 
-ANIMAL AND PLANT CELLS SHARE STRUCTURAL COMPONENTS, INCLUDING THEIR NUCLEI AND CYTOPLASM. HOWEVER, PLANT CELLS HAVE ADDITIONAL FEATURES THAT SET THEM APART:
-
-- **PLANT CELL COMPONENTS**: NUCLEUS, CYTOPLASM, CELL SURFACE MEMBRANE, CELLULOSE CELL WALL, INNER MEMBRANE AROUND THE SAP VACUOLE, AND THE SAP VACUOLE ITSELF.
-
-THE CELL WALL IN PLANTS IS COMPOSED OF CELLULOSE, ALLOWING WATER AND SOLUTES TO PASS THROUGH ITS LARGE PORES. IN CONTRAST, THE CELL MEMBRANES ARE PARTIALLY PERMEABLE, FACILITATING OSMOSIS WHILE RESTRICTING CERTAIN SUBSTANCES.
+| Animal Cell | Plant Cell |
+|-------------|------------|
+| - Cytoplasm | - Inner membrane around sap vacuole |
+| - Cell surface membrane | - Cell surface membrane |
+| - Nucleus | - Cellulose cell wall |
+|           | - Sap vacuole |
+|           | - Cytoplasm |
+|           | - Nucleus |
 
 ### KEY POINT
 
-THE CELL WALL'S STRUCTURE IS CRUCIAL FOR SUPPORTING PLANT CELLS. IT PROVIDES RIGIDITY AND PREVENTS EXCESSIVE SWELLING OR SHRINKING DUE TO OSMOTIC CHANGES. THIS STRUCTURAL ROLE IS VITAL FOR MAINTAINING PLANT INTEGRITY IN DIVERSE ENVIRONMENTS.
+The cell wall has large holes in it, making it fully permeable to water and solutes. Only the cell membranes are partially permeable barriers that allow osmosis to take place.
 
-PLANT CELLS CONTAIN NUMEROUS SOLUTES WITHIN THEIR SAP VACUOLES, INCLUDING SUGARS AND IONS, WHICH CONTRIBUTE TO THEIR OSMOTIC POTENTIAL.
+Around the plant cell is the tough cellulose cell wall. This outer structure keeps the shape of the cell, and can resist changes in pressure inside the cell. This is very important, and critical in explaining the way that plants are supported. The cell contents, including the sap vacuole, contain many dissolved solutes, such as sugars and ions.
 
-### EFFECTS OF OSMOSIS ON PLANT CELLS
+If a plant cell is put into pure water or a dilute solution, the contents of the cell have a lower water potential than the external solution, so the cell will absorb water by osmosis (Figure 11.4). The cell then swells up and the cytoplasm pushes against the cell wall. A plant cell that has developed an internal pressure like this is called turgid.
 
-WHEN PLACED IN PURE WATER OR A DILUTE SOLUTION, PLANT CELLS ABSORB WATER VIA OSMOSIS BECAUSE THEIR CELLULAR CONTENT HAS A LOWER WATER POTENTIAL. THIS RESULTS IN THE CELL BECOMING TURGID—SWELLING DUE TO INTERNAL PRESSURE AGAINST THE CELL WALL.
+### Figure 11.4 The effects of osmosis on plant cells
 
-IN CONTRAST, WHEN EXPOSED TO CONCENTRATED SOLUTIONS, PLANTS LOSE WATER, LEADING TO CELL FLACCIDITY. PROLONGED DEHYDRATION CAN CAUSE PLASMOLYSIS, WHERE THE CELL MEMBRANE SEPARATES FROM THE CELL WALL, ALTERING CELLULAR STRUCTURE.
+| Cell placed in dilute solution, or water; absorbs water by osmosis and becomes turgid | Cell placed in concentrated solution loses water by osmosis and becomes flaccid | Excessive loss of water by osmosis causes the cell to become plasmolysed |
+|----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| - Cytoplasm (arrow pointing inward) | - Cytoplasm (arrow pointing outward) | - Cytoplasm (arrow pointing outward) |
+| - Vacuole (enlarged) | - Vacuole (shrinking) | - Vacuole (severely shrunk) |
+| - Cell wall | - Cell wall | - Cell wall |
+---
+On the other hand, if the cell is placed in a concentrated sucrose solution that has a lower water potential than the cell contents, it will lose water by osmosis. The cell decreases in volume and the cytoplasm no longer pushes against the cell wall. In this state, the cell is called flaccid. Eventually the cell contents shrink so much that the membrane and cytoplasm split away from the cell wall and gaps appear between the wall and the membrane. A cell like this is called plasmolysed. You can see plasmolysis happening in the plant cells shown in Figure 11.5. The space between the cell wall and the cell surface membrane will now be filled with the sucrose solution.
 
-THIS UNDERSTANDING IS FUNDAMENTAL FOR GRASPING HOW PLANTS MAINTAIN THEIR STRUCTURAL AND FUNCTIONAL INTEGRITY UNDER VARYING ENVIRONMENTAL CONDITIONS.
+Figure 11.5 shows cells of onion epidermis, demonstrating plasmolysis. The cell membranes and cytoplasm can be seen to have pulled away from the cell wall.
 
-# PLANT PHYSIOLOGY: TRANSPORT IN PLANTS
+### KEY POINT
 
-## OSMOSIS IN PLANT CELLS
+This chapter only covers plant cells. Osmosis also happens in animal cells, but there is much less water movement. This is because animal cells do not have a strong cell wall around them, and can't resist the changes in internal pressure resulting from large movements of water. For example, if red blood cells are put into water, they will swell up and burst. If the same cells are put into a concentrated salt solution, they lose water by osmosis and shrink, producing cells with crinkly edges (Figure 11.6).
 
-OSMOSIS REFERS TO THE MOVEMENT OF WATER ACROSS A SEMI-PERMEABLE MEMBRANE FROM AN AREA OF HIGHER WATER POTENTIAL TO LOWER. WHEN PLANT CELLS ARE PLACED IN A CONCENTRATED SUCROSE SOLUTION, THEY LOSE WATER, LEADING TO A DECREASE IN CELL VOLUME AND A CONDITION CALLED **FLACCIDITY**, WHERE THE CYTOPLASM NO LONGER PRESSES AGAINST THE CELL WALL.
+Figure 11.6 compares the red blood cells on the right, which were placed in a 3% salt solution, with the normal cells on the left. Blood plasma has a concentration equal to a 0.85% salt solution.
 
-## PLASMOLYSIS
+Turgor (the state a plant is in when its cells are turgid) is very important to plants. The pressure inside the cells pushes neighbouring cells against each other, like a box full of inflated balloons. This supports the non-woody parts of the plant, such as young stems and leaves, and holds stems upright, so the leaves can carry out photosynthesis properly. Turgor is also important in the functioning of stomata. If a plant loses too much water from its cells so that they become flaccid, this makes the plant wilt. You can see wilting in a pot plant which has been left for too long without water. The leaves droop and collapse. In fact this is a protective action. It cuts down water loss by reducing the exposed surface area of the leaves and closing the stomata.
 
-CONTINUED WATER LOSS CAUSES THE CELL MEMBRANE TO SEPARATE FROM THE CELL WALL, CREATING GAPS. THIS PROCESS IS KNOWN AS **PLASMOLYSIS**. 
+Inside the plant, water moves from cell to cell by osmosis. If a cell has a higher water potential than the cell next to it, water will move from the first cell to the second. In turn, this will dilute the contents of the second cell, so that it has a higher water potential than the next cell. In this way, water can move across a plant tissue, down a gradient of water potential (Figure 11.7).
 
-!FIGURE 11.5: ONION EPIDERMIS CELLS SHOWING PLASMOLYSIS, WITH MEMBRANES AND CYTOPLASM PULLED AWAY FROM THE CELL WALL.
+Figure 11.7 illustrates how water moves from cell to cell down a water potential gradient:
 
-## KEY POINT
+```mermaid
+graph LR
+    A[A] --> B[B]
+    B --> C[C]
+    C --> D[D]
+    D --> E[E]
+    E --> F[F]
+    
+    A1[1. Contents of cell A are dilute<br>high water potential]
+    B1[2. So water moves to cell B by osmosis, diluting<br>its contents which now have a higher water<br>potential than cell C]
+    C1[3. In turn, water moves by osmosis to cell C,<br>then to D and on to E and F, down a<br>water potential gradient]
+```
+---
+## ACTIVITY 3
 
-WHILE OSMOSIS OCCURS IN BOTH PLANT AND ANIMAL CELLS, WATER MOVEMENT IS MORE PRONOUNCED IN PLANTS DUE TO THEIR RIGID CELL WALLS. IN CONTRAST, ANIMAL CELLS LIKE RED BLOOD CELLS CAN SWELL OR BURST IN PURE WATER BUT SHRINK IN CONCENTRATED SOLUTIONS.
+### PRACTICAL: INVESTIGATING THE EFFECTS OF OSMOSIS IN ONION EPIDERMIS CELLS
 
-!FIGURE 11.6: COMPARISON OF RED BLOOD CELLS IN A 3% SALT SOLUTION (RIGHT) VERSUS NORMAL STATE (LEFT). BLOOD PLASMA APPROXIMATES A 0.85% SALT CONCENTRATION.
+> Safety note: Wash hands after handling and preparing the onion. Microscopes using a mirror for daylight illumination must never be placed where direct sunlight might strike the mirror otherwise permanent retinal damage may occur.
 
-## IMPORTANCE OF TURGOR PRESSURE
+A drop of concentrated (1 mol per dm³) sucrose solution is placed on one microscope slide, and a drop of distilled water on a second slide. Two small squares of inner epidermis are removed from the outer fleshy layers of an onion (Figure 11.8). One square is transferred to the sucrose solution, and the second to the water. This is done as quickly as possible, so that the cells do not dry out.
 
-**TURGOR**, THE STATE WHERE PLANT CELLS ARE FIRM DUE TO INTERNAL WATER PRESSURE, PLAYS SEVERAL ROLES:
+![Figure 11.8 Investigating osmosis in onion epidermis cells]
 
-- SUPPORTS NON-WOODY STRUCTURES SUCH AS YOUNG STEMS AND LEAVES.
-- HELPS MAINTAIN STEM UPRIGHTNESS, FACILITATING LEAF PHOTOSYNTHESIS.
-- IS ESSENTIAL FOR STOMATAL FUNCTION, REGULATING GAS EXCHANGE.
+A drop of the correct solution is added to the top of each specimen, followed by a cover slip. Any excess liquid is blotted (cleaned) up with filter paper.
 
-WHEN PLANTS LOSE EXCESSIVE WATER AND CELLS BECOME FLACCID, THEY WILT. THIS REDUCES EXPOSED SURFACE AREA AND CLOSES STOMATA, CONSERVING WATER.
+Each slide is examined through the microscope for several minutes. The specimen in water will show turgid cells, similar to the first cell in Figure 11.4. The cells in sucrose solution will gradually plasmolyse, as shown in the last diagram of Figure 11.4, and Figure 11.5.
 
-## WATER MOVEMENT IN PLANTS
+It is interesting to replace the sugar solution on the first slide with distilled water, to see the effect on the plasmolysed cells. This can be done quite easily without removing the cover slip. Some water is placed on one side of the cover slip and drawn across the slide using filter paper, as shown in Figure 11.8. After a while all the sucrose solution is replaced by water. If the cells are now observed for a few minutes, they will gradually recover from their plasmolysed condition until they are fully turgid again.
 
-WATER MOVES FROM CELL TO CELL VIA OSMOSIS ALONG A GRADIENT OF WATER POTENTIAL. STARTING FROM A CELL WITH HIGH WATER POTENTIAL, IT DIFFUSES THROUGH ADJACENT CELLS, DILUTING THEIR CONTENTS AND MOVING PROGRESSIVELY DOWN THE GRADIENT.
+It may be possible for you to carry out these procedures. If you can, observe and draw one or two turgid cells, and one or two that are plasmolysed.
 
-!FIGURE 11.7: WATER FLOWS FROM CELL A (HIGH POTENTIAL) TO B, THEN C, D, E, AND F, FOLLOWING A DECREASING WATER POTENTIAL GRADIENT.
+Can you explain all these observations in terms of osmosis?
 
-UNDERSTANDING THESE PROCESSES IS CRUCIAL FOR GRASPING PLANT STRUCTURE AND FUNCTION IN DIVERSE ENVIRONMENTS.
+If you use a red onion, the contents of the cells are coloured and easier to see.
+---
+PLANT PHYSIOLOGY                          TRANSPORT IN PLANTS                                                             141
 
-# PLANT PHYSIOLOGY: TRANSPORT IN PLANTS
+                                            ACTIVITY 4
+                                               PRACTICAL: INVESTIGATING THE EFFECTS OF OSMOSIS ON
+ Safety note: Take great care when             POTATO TUBER TISSUE
+ cutting the potato into 'chips' and
+ wash hands afterwards                      A potato tuber is a plant storage organ: It is a convenient tissue to use to
+                                            investigate the effects of osmosis on the mass of the tissue.
+                                            A boiling tube is half filled with distilled water and a second with
+                                            concentrated     mol per dm?) sucrose solution: A third tube is left empty:
+                                               potato is cut into chips 5cm x 1 cm x 1 cm, making these
+                                            measurements as accurate as possible so that the three chips are the
+                                            same size. No skin is left on the potato tissue.
+                                            Each chip is gently blotted to remove excess moisture, and the mass of
+                                            each is found by weighing on a balance: One chip is placed in each of the
+                                            three boiling tubes (Figure 11.9).
 
-## ACTIVITY 3: INVESTIGATING THE EFFECTS OF OSMOSIS IN ONION EPIDERMIS CELLS
+                                                             tap         sucrose             air
+                                                             water       solution
 
-### SAFETY NOTE
-- ALWAYS WASH HANDS AFTER HANDLING ONIONS.
-- AVOID PLACING MICROSCOPES WITH MIRRORS IN DIRECT SUNLIGHT TO PREVENT RETINAL DAMAGE.
+                                                                                potato chips
+                                               Figure 11.9 Investigating osmosis in potato tissue
+                                            After 30 minutes, the chips are removed from the tubes and gently blotted
+                                               to remove excess liquid, thenre-weighed. Each is felt in turn, to compare
+                                            how flexible or stiff they are.
+                                            The change in mass (+ or ~) of each chip is calculated, and the
+                                            percentage change found from the equation:
+                                                  % change        change in mass   100
+                                                                  starting mass
+                                            The table below shows a set of results from this experiment
 
-### MATERIALS NEEDED
-- MICROSCOPE
-- ONION BULB
-- CONCENTRATED SUCROSE SOLUTION (E.G., 1 MOL/DM³)
-- DISTILLED WATER
-- TWO MICROSCOPE SLIDES
-- COVER SLIPS
-- FILTER PAPER
+                                              Tube contents  Starting   Final    Change in   Change in    Condition
+                                                             mass      mass       mass       mass        (flexible stiff)
+                                             water             6.25      6.76      +0.51       +8.16        stiff
 
-### PROCEDURE
-1. **SLIDE PREPARATION**:
-   - PLACE A DROP OF CONCENTRATED SUCROSE ON ONE SLIDE AND DISTILLED WATER ON ANOTHER.
-   - REMOVE SMALL ONION EPIDERMIS PIECES FROM THE OUTER LAYERS (REFER TO FIGURE 11.8).
-   - TRANSFER EACH PIECE QUICKLY INTO ITS RESPECTIVE SOLUTION TO PREVENT DRYING.
+                                             sucrosesolution   7.10      6.31      -0.79       -11.1       flexible
 
-2. **MOUNTING**:
-   - ADD THE APPROPRIATE SOLUTION TO EACH SPECIMEN AND COVER WITH A SLIP.
-   - BLOT EXCESS LIQUID WITH FILTER PAPER.
+                                             air               6.66      6.57      ~0.09       -1.35        stiff
 
-3. **OBSERVATION**:
-   - EXAMINE SLIDES UNDER THE MICROSCOPE FOR SEVERAL MINUTES.
-   - WATER-TREATED CELLS APPEAR TURGID; SUCROSE-TREATED CELLS PLASMOLYSE OVER TIME (REFER TO FIGURES 11.4 AND 11.5).
+                                            What conclusions can you make from these results? Explain them in
+                                            terms of osmosis:
+                                            How large are the percentage changes in mass of the chips in the two
+                                            liquids, compared with the chip in air?
+---
+Can you explain the final 'condition' of the chips, using terms such as 'flaccid' and 'turgid'?
 
-4. **REVERSING PLASMOLYSIS**:
-   - REPLACE SUCROSE ON ONE SLIDE WITH DISTILLED WATER WITHOUT REMOVING THE SLIP.
-   - APPLY WATER TO ONE SIDE OF THE SLIP USING FILTER PAPER, ALLOWING IT TO ABSORB.
-   - OBSERVE CELLS RECOVERING FROM PLASMOLYSIS AND REGAINING TURGIDITY AFTER A FEW MINUTES.
+Can you think of any criticisms of this experiment? For example, does using one chip per tube yield reliable evidence?
 
-### OBSERVATIONS
-- RED ONION CELLS SHOW COLORED CONTENT, AIDING IN VISUALIZING STRUCTURAL CHANGES.
+You may be able to perform an experiment similar to the one above. You don't have to use potato; other tissues such as carrot or sweet potato should work. An alternative to weighing is to measure the length of the chips at the end of the experiment, and compare these measurements with the starting lengths. However, weighing is much more accurate and gives a bigger percentage change.
 
-### QUESTIONS
-- EXPLAIN OSMOSIS-RELATED OBSERVATIONS.
-- DRAW TURGID AND PLASMOLYZED CELLS.
+You could try extending the experiment into a more complete investigation. For example you could make predictions about what would happen to chips placed in solutions that are intermediate in concentration between water and molar sucrose solution.
 
-### FIGURE REFERENCE
-- **FIGURE 11.8**: OSMOSIS INVESTIGATION IN ONION EPIDERMIS CELLS.
+Plan a method to test your hypothesis. You should include a list of the apparatus and materials to be used, a description of the procedure, and a statement of the expected results.
 
-# PLANT PHYSIOLOGY: TRANSPORT IN PLANTS
+## TRANSPORT IN THE XYLEM
 
-## ACTIVITY 4: INVESTIGATING THE EFFECTS OF OSMOSIS ON POTATO TUBER TISSUE
+Xylem transports water and minerals throughout the plant. Xylem contains dead cells arranged end-to-end, forming continuous vessels. When they are mature, the vessels contain no cytoplasm. Instead, they have a hollow central space or lumen through which the water passes. The walls of the xylem vessels contain a woody material called lignin (Figure 11.10).
 
-### SAFETY NOTE  
-TAKE CARE WHEN CUTTING THE POTATO INTO CHIPS AND WASH YOUR HANDS AFTERWARD.
+The xylem vessels begin life as living cells with normal cytoplasm and cellulose cell walls. As they develop they become elongated, and gradually their original cellulose cell walls become impregnated with lignin, made by the cytoplasm. As this happens, the cells die, forming hollow tubes. Lignification makes them very strong, and enables them to carry water up tall plants without collapsing. Lignin is also impermeable to water.
 
-### INTRODUCTION  
-A POTATO TUBER IS A PLANT STORAGE ORGAN, MAKING IT SUITABLE FOR INVESTIGATING OSMOTIC EFFECTS. THIS EXPERIMENT WILL OBSERVE HOW POTATO CHIPS RESPOND IN DIFFERENT SOLUTIONS.
+Figure 11.10 Xylem vessels in a stem. The spirals and rings (stained red) are made of lignin.
 
-### MATERIALS NEEDED  
-- BOILING TUBES  
-- DISTILLED WATER  
-- CONCENTRATED SUCROSE SOLUTION (E.G., 1 MOL PER DM³)  
-- POTATO  
-- BALANCE FOR WEIGHING  
-- KNIFE  
+## TRANSPORT IN THE PHLOEM
 
-### PROCEDURE  
-1. **PREPARE POTATO CHIPS**: CUT THE POTATO INTO CHIPS MEASURING 5 CM X 1 CM X 1 CM, ENSURING ACCURACY AND REMOVING ALL SKIN.
+The other plant transport tissue, the phloem, consists of living cells at all stages in its development. Tubes in the phloem are also formed by cells arranged end-to-end, but they have cell walls made of cellulose, and retain their cytoplasm. The end of each cell is formed by a cross-wall of cellulose with holes, called a sieve plate. The living cytoplasm extends through the holes in the sieve plates, linking each cell with the next, forming a long sieve tube (Figure 11.11). The sieve tubes transport the products of photosynthesis from the leaves to other parts of the plant. Sugars for energy, or amino acids for building proteins, are carried to young leaves and other growing points in the plant. Sugar may also be taken to the roots and converted into starch for storage. Despite being living cells, the phloem sieve tubes have no nucleus. They seem to be controlled by other cells that lie alongside the sieve tubes, called companion cells (Figure 11.11).
 
-2. **SET UP THE EXPERIMENT**:  
-   - FILL ONE BOILING TUBE WITH DISTILLED WATER.  
-   - FILL A SECOND WITH CONCENTRATED SUCROSE SOLUTION.  
-   - LEAVE A THIRD EMPTY (EXPOSED TO AIR).
+Figure 11.11 Xylem vessels in a stem
 
-3. **MEASURE MASS**: GENTLY BLOT EACH CHIP TO REMOVE MOISTURE, THEN WEIGH AND RECORD STARTING MASS.
+| Component | Description |
+|-----------|-------------|
+| Sieve plate | Cross-wall of cellulose with holes |
+| Sieve tube | Long tube formed by connected cells |
+| Companion cell | Cell controlling sieve tube |
+| Cell wall | Made of cellulose |
+| Nucleus | Present in companion cell |
+| Sieve pores | Holes in sieve plate |
 
-4. **PLACE CHIPS IN TUBES**: INSERT ONE CHIP INTO EACH OF THE THREE TUBES AS SHOWN IN FIGURE 11.9.
+### REMINDER
 
-5. **OBSERVE CHANGES**: AFTER 30 MINUTES, REMOVE CHIPS, BLOT AGAIN, AND REWEIGH. NOTE FLEXIBILITY OR STIFFNESS.
+Remember: xylem carries water and minerals up from the roots. Phloem carries products of photosynthesis away from the leaves. The contents of the phloem can travel up or down the plant.
+---
 
-### DATA COLLECTION  
-CALCULATE THE PERCENTAGE CHANGE IN MASS USING:  
-\[
-\TEXT{PERCENTAGE CHANGE} = \LEFT( \FRAC{\DELTA \TEXT{MASS}}{\TEXT{STARTING MASS}} \RIGHT) \TIMES 100
-\]
+Figure 11.12 (a) This cross-section of a stem shows the arrangement of xylem and phloem tissue in vascular bundles.
+(b) Three vascular bundles in part of a stem section. The outer red cells are lignified fibres for extra support.
 
-### RESULTS  
-THE TABLE BELOW SHOWS RESULTS:
+### KEY POINT
+'Vascular' means 'made of vessels'.
+A vascular bundle is a group of vessels or tubes (xylem and phloem).
 
-| TUBE CONTENTS      | STARTING MASS (G) | FINAL MASS (G) | ΔMASS (G) | ΔMASS (%) | CONDITION       |
-|--------------------|-------------------|---------------|-----------|------------|-----------------|
-| DISTILLED WATER   | 6.25              | 6.76           | +0.51     | +8.16      | STIFF          |
-| SUCROSE SOLUTION  | 7.10              | 6.31           | -0.79     | -11.1      | FLEXIBLE       |
-| AIR                | 6.66              | 6.57           | -0.09     | -1.35      | STIFF          |
-
-### CONCLUSION  
-RESULTS INDICATE:  
-- WATER INTAKE IN DISTILLED WATER CAUSED STIFFNESS.  
-- MASS LOSS IN SUCROSE SOLUTION LED TO FLEXIBILITY.  
-- MINIMAL CHANGE IN AIR, SUGGESTING LIMITED OSMOSIS.
-
-### DISCUSSION QUESTIONS  
-1. WHAT CONCLUSIONS CAN BE DRAWN FROM THE RESULTS?  
-2. EXPLAIN OSMOTIC EFFECTS OBSERVED.  
-3. COMPARE PERCENTAGE CHANGES WITH AIR-EXPOSED CHIPS.
-
-THIS EXPERIMENT DEMONSTRATES OSMOTIC PRINCIPLES AND ENVIRONMENTAL IMPACTS ON PLANT TISSUE.
-
-# PLANT PHYSIOLOGY
-
-## TRANSPORT IN PLANTS
-
-### XYLEM
-
-XYLEM IS A TYPE OF PLANT TISSUE RESPONSIBLE FOR TRANSPORTING WATER AND MINERALS THROUGHOUT THE PLANT. IT CONSISTS OF DEAD CELLS ARRANGED END-TO-END, FORMING CONTINUOUS VESSELS. WHEN MATURE, THESE VESSELS CONTAIN NO CYTOPLASM AND HAVE A HOLLOW CENTRAL SPACE, KNOWN AS THE LUMEN, THROUGH WHICH WATER PASSES. THE WALLS OF XYLEM VESSELS ARE REINFORCED WITH A WOODY MATERIAL CALLED LIGNIN, WHICH PROVIDES STRENGTH AND PREVENTS COLLAPSE, ALLOWING THE PLANT TO TRANSPORT WATER EFFICIENTLY, EVEN TO GREAT HEIGHTS.
-
-THE KEY FEATURES OF XYLEM INCLUDE ITS COMPOSITION OF DEAD CELLS WITH LIGNIN-IMPREGNATED WALLS, ITS FUNCTION OF TRANSPORTING WATER AND MINERALS FROM THE ROOTS TO THE REST OF THE PLANT, AND ITS STRUCTURAL ROLE AS HOLLOW TUBES THAT ARE STRONG AND IMPERMEABLE TO WATER. THESE VESSELS ARE VISIBLE IN CROSS-SECTIONS OF STEMS, WHERE THEIR SPIRAL AND RING STRUCTURES ARE STAINED RED DUE TO THE PRESENCE OF LIGNIN.
-
-### PHLOEM
-
-PHLOEM IS ANOTHER TYPE OF PLANT TISSUE, BUT IT CONSISTS OF LIVING CELLS AT ALL STAGES OF DEVELOPMENT. THE PHLOEM TUBES ARE FORMED BY CELLS ARRANGED END-TO-END, WITH CELL WALLS MADE OF CELLULOSE. UNLIKE XYLEM, PHLOEM CELLS RETAIN THEIR CYTOPLASM. THE ENDS OF THESE CELLS ARE CONNECTED BY SIEVE PLATES, WHICH HAVE HOLES THAT ALLOW THE LIVING CYTOPLASM TO EXTEND THROUGH, LINKING EACH CELL TO FORM A LONG SIEVE TUBE.
-
-THE KEY FEATURES OF PHLOEM INCLUDE ITS COMPOSITION OF LIVING CELLS WITH CELLULOSE WALLS AND SIEVE PLATES, ITS FUNCTION OF TRANSPORTING THE PRODUCTS OF PHOTOSYNTHESIS (SUCH AS SUGARS AND AMINO ACIDS) FROM THE LEAVES TO OTHER PARTS OF THE PLANT FOR ENERGY AND STORAGE, AND ITS RELIANCE ON COMPANION CELLS TO CONTROL THE SIEVE TUBES, WHICH LACK A NUCLEUS.
-
-### SUMMARY OF TRANSPORT FUNCTIONS
-
-XYLEM IS RESPONSIBLE FOR CARRYING WATER AND MINERALS UPWARD FROM THE ROOTS, WHILE PHLOEM TRANSPORTS THE PRODUCTS OF PHOTOSYNTHESIS AWAY FROM THE LEAVES. PHLOEM ALSO HAS THE ABILITY TO TRANSPORT SUBSTANCES BOTH UPWARDS AND DOWNWARDS IN THE PLANT, MAKING IT ESSENTIAL FOR THE DISTRIBUTION OF NUTRIENTS AND ENERGY WITHIN THE PLANT.
-
-### EXPERIMENTATION WITH PLANT TISSUES
-
-YOU MAY CONDUCT AN EXPERIMENT TO OBSERVE THE EFFECTS OF DIFFERENT CONCENTRATIONS OF SUCROSE SOLUTIONS ON PLANT TISSUE, SUCH AS POTATO OR CARROT CHIPS. CONSIDER THE FOLLOWING:
-
-- **TERMS TO USE:** FLACCID (WHEN THE CELLS LOSE WATER) AND TURGID (WHEN THE CELLS GAIN WATER).
-- **CRITIQUE OF EXPERIMENT:** USING ONE CHIP PER TUBE MAY NOT YIELD RELIABLE EVIDENCE.
-- **ALTERNATIVE MEASUREMENTS:** INSTEAD OF WEIGHING, YOU COULD MEASURE THE LENGTH OF THE CHIPS BEFORE AND AFTER THE EXPERIMENT, ALTHOUGH WEIGHING PROVIDES MORE ACCURATE RESULTS.
-
-**EXPERIMENT PLANNING:**
-1. **HYPOTHESIS:** PREDICT WHAT WILL HAPPEN TO CHIPS PLACED IN SOLUTIONS OF VARYING CONCENTRATIONS.
-2. **METHOD:** OUTLINE THE APPARATUS AND MATERIALS NEEDED, DESCRIBE THE PROCEDURE, AND STATE THE EXPECTED RESULTS.
-
-BY UNDERSTANDING THE ROLES OF XYLEM AND PHLOEM, YOU CAN APPRECIATE HOW PLANTS TRANSPORT ESSENTIAL NUTRIENTS AND WATER, WHICH IS VITAL FOR THEIR GROWTH AND SURVIVAL.
-
-# PLANT PHYSIOLOGY: TRANSPORT IN PLANTS
-
-## STRUCTURE OF A STEM
-
-IN A YOUNG STEM, XYLEM AND PHLOEM ARE GROUPED TOGETHER IN AREAS CALLED **VASCULAR BUNDLES**. UNLIKE IN THE ROOT, WHERE THE VASCULAR TISSUE IS CENTRALIZED, THESE BUNDLES ARE ARRANGED IN RINGS AROUND THE OUTER PART OF THE STEM (SEE FIGURE 11.12). THE CROSS-SECTION OF A STEM REVEALS THE ARRANGEMENT OF XYLEM AND PHLOEM TISSUES WITHIN THESE BUNDLES.
-
-### VASCULAR BUNDLE COMPONENTS
-
-- **PHLOEM**: CONSISTS OF BLUE-COLORED SIEVE TUBES.
-- **XYLEM**: COMPOSED OF RED LIGNIFIED FIBERS FOR STRUCTURAL SUPPORT.
-- **EPIDERMIS**: THE OUTER LAYER OF CELLS FORMING THE STEM'S SURFACE.
-- **CORTEX**: A LAYER BENEATH THE EPIDERMIS, PRIMARILY RESPONSIBLE FOR NUTRIENT TRANSFER.
-- **PITH**: FOUND IN OLDER STEMS, IT FORMS A CENTRAL CORE WITH XYLEM.
-
-!FIGURE 11.12
-(A) CROSS-SECTION SHOWING VASCULAR BUNDLES IN A STEM. (B) THREE VASCULAR BUNDLES WITH OUTER RED FIBERS AND INNER PHLOEM TUBES.
-
-## KEY POINT
-
-IN OLDER STEMS, VASCULAR TISSUE DEVELOPS INTO COMPLETE RINGS AROUND THE STEM. THE CENTRAL XYLEM FORMS THE WOODY CORE, SURROUNDED BY PHLOEM, PROVIDING STRUCTURAL SUPPORT AND FACILITATING NUTRIENT TRANSPORT.
-
-- VASCULAR REFERS TO VESSELS OR TUBES.
-- A VASCULAR BUNDLE IS A GROUP OF INTERCONNECTED XYLEM AND PHLOEM TISSUES.
+In older stems, the vascular tissue grows to form complete rings around the stem. The inner xylem forms the woody central core of a stem, with the living layer of phloem outside this.
 
 ## CHAPTER QUESTIONS
 
-FOR MORE QUESTIONS ON PLANT TRANSPORT MECHANISMS, REFER TO UNIT 3, PAGE 159.
+More questions on transport in plants can be found at the end of Unit 3 on page 159.
 
-## SKILLS: CRITICAL THINKING
+### SKILLS: CRITICAL THINKING
 
-A PLANT CELL WAS PLACED IN CONCENTRATED SUCROSE SOLUTION. AFTER AN HOUR, THE CELL'S APPEARANCE CHANGED SIGNIFICANTLY. THE OPTIONS FOR DESCRIPTION ARE:
+1. A plant cell was placed in a concentrated sucrose solution. The diagram below shows the appearance of the cell after an hour in the solution.
 
-- A) TURGID
-- B) FLACCID
-- C) PLASMOLYSED
-- D) WILTED
 
-THIS STRUCTURED FORMAT PROVIDES A CLEAR UNDERSTANDING OF PLANT TRANSPORT PROCESSES AND CELLULAR RESPONSES TO EXTERNAL SOLUTIONS.
+---
+144 PLANT PHYSIOLOGY | TRANSPORT IN PLANTS
 
-# PLANT PHYSIOLOGY: TRANSPORT IN PLANTS
+SKILLS > CRITICAL THINKING
 
-## FUNCTIONS OF XYLEM AND PHLOEM
-THE XYLEM TRANSPORTS WATER AND MINERAL IONS FROM THE ROOTS TO OTHER PARTS OF THE PLANT, WHILE THE PHLOEM TRANSPORTS SUGARS PRODUCED IN THE LEAVES TO OTHER TISSUES WHERE THEY ARE NEEDED FOR GROWTH AND ENERGY. THIS DISTINCTION ALLOWS PLANTS TO EFFICIENTLY MOVE BOTH WATER AND NUTRIENTS ACROSS DIFFERENT CELLULAR REGIONS.
+2. What are the functions of xylem and phloem?
+A. xylem transports water and sugars, phloem transports mineral ions
+B. xylem transports water and mineral ions, phloem transports sugars
+C. xylem transports sugars and mineral ions, phloem transports water
+D. xylem transports sugars, phloem transports water and mineral ions
 
-## EXPERIMENT WITH POTATO CHIPS
+SKILLS > PROBLEM SOLVING
 
-THREE POTATO CHIPS WERE IMMERSED IN SOLUTIONS A, B, OR C CONTAINING VARYING CONCENTRATIONS OF SUCROSE. THE RESULTS SHOWED SIGNIFICANT CHANGES IN MASS DUE TO OSMOSIS.
+3. Three 'chips' of about the same size and shape were cut from the same potato. Each was blotted, weighed and placed in a different sucrose solution (A, B or C). The chips were left in the solutions for an hour, then removed, blotted and re-weighed. Here are the results:
 
-1. **PERCENTAGE CHANGE IN MASS FOR SOLUTION B:**  
-   THE CHIP IN SOLUTION B EXPERIENCED A LOSS OF APPROXIMATELY 3.87% OF ITS INITIAL MASS, CALCULATED AS ((8.2 - 8.0)/8.2) * 100%.
+| | Starting mass / g | Final mass / g | Change in mass / % |
+|------------|-------------------|----------------|-------------------|
+| solution A | 7.4 | 6.5 | -12.2 |
+| solution B | 8.2 | 8.0 | |
+| solution C | 7.7 | 8.5 | +10.4 |
 
-2. **PROCESS CAUSING THE MASS CHANGE:**  
-   THE CHANGE IN MASS IS ATTRIBUTED TO OSMOSIS, WHERE WATER MOLECULES MOVED FROM THE CHIP INTO SOLUTION B IF THE SOLUTION'S SOLUTE CONCENTRATION WAS HIGHER THAN THAT OF THE POTATO CELLS. SOLUTIONS A AND C CAUSED A LOSS OR GAIN IN MASS DUE TO THIS PROCESS.
+a. Calculate the percentage change in mass for the chip in solution B.
 
-3. **MOST CONCENTRATED SOLUTION:**  
-   SOLUTION C LIKELY HAD THE HIGHEST CONCENTRATION OF SUCROSE, AS IT CAUSED THE GREATEST INCREASE IN MASS, INDICATING MORE SOLUTES WERE AVAILABLE FOR OSMOSIS.
+SKILLS > CRITICAL THINKING
 
-4. **SOLUTION WITH HIGHEST WATER POTENTIAL:**  
-   SOLUTION A HAD THE LOWEST WATER POTENTIAL, AS THE POTATO CHIP LOST MASS WHEN PLACED IN THIS SOLUTION, INDICATING THAT ITS WATER POTENTIAL WAS LOWER THAN THE CELL'S OWN WATER POTENTIAL.
+b. Name the process that caused the chips to lose or gain mass.
 
-5. **SOLUTION MOST SIMILAR TO POTATO CELLS' WATER POTENTIAL:**  
-   SOLUTIONS B AND C LIKELY HAD WATER POTENTIALS SIMILAR TO THOSE OF THE POTATO CELLS, AS THERE WAS NO NET CHANGE IN MASS FOR CHIPS PLACED IN THESE SOLUTIONS.
+SKILLS > ANALYSIS
 
-## UNDERSTANDING CELL MEMBRANES
-THE TERM "PARTIALLY PERMEABLE" REFERS TO THE CELL MEMBRANE'S SELECTIVE BARRIER PROPERTIES. IT ALLOWS CERTAIN SUBSTANCES, LIKE OXYGEN AND WATER, TO PASS THROUGH WHILE RESTRICTING OTHERS, SUCH AS LARGER MOLECULES OR IONS, ENSURING THAT CELLULAR PROCESSES CAN OCCUR EFFICIENTLY WITHOUT INTERFERENCE FROM UNWANTED MATERIALS.
+c. Which solution was likely to have been the most concentrated?
+d. Which solution had the highest water potential?
+e. Which solution had a water potential most similar to the water potential of the potato cells?
 
-## PLANT STEM STRUCTURE
-A CROSS-SECTIONAL DIAGRAM OF A PLANT STEM REVEALS THREE DISTINCT TISSUES: THE EPIDERMIS (OUTERMOST LAYER), THE CORTEX (MIDDLE LAYER), AND THE VASCULAR TISSUES (INNERMOST LAYER). THE VASCULAR TISSUES CONSIST OF XYLEM FOR WATER TRANSPORT AND PHLOEM FOR SUGAR TRANSPORT.
+SKILLS > CRITICAL THINKING
 
-**REASONING QUESTION:**  
-IF A YOUNG STEM IS PLACED IN A RED DYE SOLUTION, THE DYE WOULD LIKELY BE ABSORBED BY THE EPIDERMIS. THIS TISSUE FORMS A PROTECTIVE COVERING, ALLOWING IT TO TAKE UP DYE MORE QUICKLY THAN THE INNER TISSUES DUE TO ITS LOCATION ON THE STEM'S SURFACE.
+f. The cell membrane is described as 'partially permeable'. Explain the meaning of this.
 
-----
+SKILLS > ANALYSIS
+
+4. The diagram shows a cross-section through the stem of a plant.
+
+[Circular diagram of plant stem cross-section with labels A, B, and C]
+
+a. Identify the tissues labelled A, B and C.
+
+SKILLS > REASONING
+
+b. A young stem was placed in a solution of a red dye for an hour. Which tissue in the diagram would be most likely to contain the dye? Explain your answer.
+---
