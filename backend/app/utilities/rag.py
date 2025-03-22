@@ -23,7 +23,7 @@ class textbookRAG:
         )
         self.metadata = metadata or None
         self.text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=1000,           # Adjust chunk size as needed
+            chunk_size=2000,           # Adjust chunk size as needed
             chunk_overlap=100,         # Adjust overlap as needed
             length_function=len,
             separators=[
@@ -32,7 +32,7 @@ class textbookRAG:
         )
 
     def __init__(self, metadata=None, model="bge-m3", collection_name="school_collection", 
-                book_dir=None, chunk_size=1000, chunk_overlap=100):
+                book_dir=None, chunk_size=2000, chunk_overlap=100):
         # Set book_dir with a safer fallback
         if book_dir is None:
             self.book_dir = Path(__file__).parent.parent / "book"

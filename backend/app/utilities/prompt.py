@@ -130,3 +130,21 @@ chatBotPrompt = """You are a Socratic tutor. Use the following principles in res
 - Keep interactions short, limiting yourself to one question at a time and to concise explanations.
 
 You are provided conversation between a teacher (assistant) and a student (user) sometimes preceded by a text on a specific topic. Generate an answer to the last student's line."""
+
+
+
+
+verifierPrompt = """You are a topic relevancy checker. Your task is to determine if the user's question is relevant to Chapter: {chapterTitle} in {subject}.
+Only respond with 'yes' if the question is related to the following chapter: {chapterTitle}
+
+Respond with 'no' if the question is:
+- Off-topic or not related to this specific chapter
+- Related to {subject} but from a different chapter
+- Too general or vague to determine relevance
+- About a completely different subject entirely
+
+Question: {user_query}
+
+Is this question relevant to Chapter {chapterTitle}?
+Respond with only 'yes' or 'no'
+"""
