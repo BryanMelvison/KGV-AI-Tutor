@@ -14,7 +14,9 @@ interface ChatResponse {
 
 export const AIResponse = async (
   message: string,
-  sessionId: string = "default" // nanti diganti jadi random id gitu buat bedain session
+  sessionId: string = "default", // nanti diganti jadi random id gitu buat bedain session
+  subject: string,
+  chapter: string
 ): Promise<string> => {
   try {
     const res = await axios.post<ChatResponse>(
@@ -22,6 +24,8 @@ export const AIResponse = async (
       {
         prompt: message,
         session_id: sessionId,
+        subject: subject,
+        chapter: chapter,
       }
     );
     return res.data.data.response.response;
