@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { fetchLatestExercise } from "@/api/exerciseApi";
+import { getSubjectsData, Subject } from "@/api/mockSubject";
+import { getChapterData } from "@/api/mockChapter";
 import { useQuiz } from "@/context/SmartQuizContext";
 import SmartQuizModal from "@/components/smart-quiz/SmartQuizModal";
 
@@ -14,16 +16,34 @@ const Dashboard = () => {
     id: string;
   } | null>(null);
 
-  const router = useRouter();
-  const { isOpen, openQuiz, closeQuiz } = useQuiz();
+  const [subjects, setSubjects] = useState<Subject[]>([]);
+  const [entryChapters, setEntryChapters] = useState<Record<string, string>>(
+    {}
+  );
 
-  // Fetch latest exercise on mount
+  const { isOpen, openQuiz, closeQuiz } = useQuiz();
+  const router = useRouter();
+
+  // Load dashboard data
   useEffect(() => {
-    const loadExercise = async () => {
-      const data = await fetchLatestExercise();
-      if (data) setLatestExercise(data);
+    const loadDashboardData = async () => {
+      const fetchedSubjects = await getSubjectsData();
+      setSubjects(fetchedSubjects);
+
+      const chapterMap: Record<string, string> = {};
+      for (const subject of fetchedSubjects) {
+        const data = await getChapterData(subject.name.toLowerCase(), "latest");
+        if (data.chapters.length > 0) {
+          chapterMap[subject.name] = data.chapters[0].id;
+        }
+      }
+      setEntryChapters(chapterMap);
+
+      const latest = await fetchLatestExercise();
+      if (latest) setLatestExercise(latest);
     };
-    loadExercise();
+
+    loadDashboardData();
   }, []);
 
   return (
@@ -94,13 +114,11 @@ const Dashboard = () => {
           <h2 className="text-lg font-semibold mb-4 text-[#17171F]">
             Most Recent Chats
           </h2>
-
-          {/* Chat Item */}
+          {/* Chat mockup */}
           {Array(4)
             .fill(0)
             .map((_, index) => (
               <div key={index} className="mb-4 border-b pb-4 last:border-none">
-                {/* Chat Header */}
                 <div className="flex items-center justify-between w-full mb-3">
                   <div className="flex items-center space-x-2">
                     <div className="w-3 h-3 bg-green-500 rounded-full"></div>
@@ -112,16 +130,12 @@ const Dashboard = () => {
                     12:09 AM
                   </span>
                 </div>
-
-                {/* Subject & Chapter */}
                 <p className="text-xs text-gray-500 mb-2">
                   <span className="font-semibold text-indigo-600">
                     Subject: Spoken English
                   </span>{" "}
                   • 📖 Chapter: 12
                 </p>
-
-                {/* Chat Content */}
                 <p className="text-sm text-[#747479] mt-1">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
@@ -136,19 +150,15 @@ const Dashboard = () => {
           </h2>
 
           <div className="grid grid-cols-2 gap-4">
-            {[
-              { name: "Biology", icon: "/biology-icon.svg", color: "#F9A3A4" },
-              {
-                name: "Chemistry",
-                icon: "/chemistry-icon.svg",
-                color: "#F2F3FD",
-              },
-              { name: "Physics", icon: "/physics-icon.svg", color: "#FDFAF2" },
-            ].map((subject) => (
+            {subjects.map((subject) => (
               <div
                 key={subject.name}
                 onClick={() =>
-                  router.push(`/subjects/${subject.name.toLowerCase()}`)
+                  router.push(
+                    `/subjects/${subject.name.toLowerCase()}/${
+                      entryChapters[subject.name]
+                    }`
+                  )
                 }
                 className="bg-white p-4 rounded-lg shadow-sm flex flex-col space-y-3 border border-[#ECECED] cursor-pointer hover:shadow-md active:shadow-inner transition"
               >
