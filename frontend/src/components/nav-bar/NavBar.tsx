@@ -203,25 +203,6 @@ const NavBar = () => {
           ))}
         </div>
 
-        <div className="border-t border-[#ECECED] my-3"></div>
-
-        {/* Bottom App Shortcuts */}
-        <div className="space-y-3">
-          {subjects.map((subject) => (
-            <Link
-              key={subject.name}
-              href={subject.link}
-              className="relative flex justify-center"
-            >
-              <div
-                className={`w-10 h-10 flex items-center justify-center text-white text-lg font-semibold rounded-lg ${subject.bg}`}
-              >
-                {subject.code}
-              </div>
-            </Link>
-          ))}
-        </div>
-
         {/* Help Shortcut */}
         <div className="absolute bottom-5 left-0 w-full flex justify-center">
           <Link

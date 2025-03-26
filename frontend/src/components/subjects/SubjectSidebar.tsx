@@ -20,8 +20,6 @@ const SubjectSidebar = ({ subjects, onCollapse }: SubjectSidebarProps) => {
     typeof params?.subject === "string" ? params.subject : "";
 
   const [expandedSubject, setExpandedSubject] = useState<string | null>(null);
-
-  // 🧠 Automatically expand the current subject based on the route
   useEffect(() => {
     if (currentSubject) {
       const matched = subjects.find(

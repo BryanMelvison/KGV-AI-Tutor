@@ -1,287 +1,210 @@
-ANIMAL PHYSIOLOGY                       CHEMICAL COORDINATION                                                       91
+# 7 CHEMICAL COORDINATION
 
- 7 CHEMICAL COORDINATION
+The nervous system (Chapter 6) is a coordination system forming a link between stimulus and response: The body has a second coordination system; which does not involve nerves. This is the endocrine system. It consists of organs called endocrine glands, which make chemical messenger substances called hormones. Hormones are carried in the bloodstream.
 
-The nervous system (Chapter 6) is a coordination system forming a link between stimulus and response: The body
-has a second coordination system; which does not involve nerves. This is the endocrine system. It consists of organs
-called endocrine glands, which make chemical messenger substances called hormones. Hormones are carried in the
-bloodstream_
+# LEARNING OBJECTIVES
 
-LEARNING OBJECTIVES
-    Describe how responses can be controlled by hormonal          testosterone*
-    communication                                                 progesterone*
-    Understand the differences between nervous and                oestrogen*
-    hormonal control                                      #These hormones will be dealt with in more detail in later
-    Understand the sources, roles and effects of
-    following hormones:                      the          chapters:
-        adrenaline
-        insulin
+- Describe how responses can be controlled by hormonal communication
+- Understand the differences between nervous and hormonal control
+- Understand the sources, roles and effects of the following hormones:
 
-                                         GLANDS AND HORMONES
-                                         gland is an organ that releases or secretes a substance. This means that
-                                      cells in the gland make a chemical which leaves the cells through the cell
-                                      membrane. The chemical then travels somewhere else in the body, where it
-                                      carries out its function There are two types of glands exocrine and endocrine
-                                      glands. Exocrine glands secrete their products through a tube called a duct
-                                      For example, salivary glands in your mouth secrete saliva down salivary ducts
-                                      and tear glands secrete tears through ducts that lead to the surface of the eye_
-                                      Endocrine glands have no duct; and so are called ductless glands. Instead,
-                                      their products, the hormones are secreted into the blood vessels that pass
-                                      through the gland (Figure 7.1).
-                                            exocrine gland                                           endocrine gland
+#These hormones will be dealt with in more detail in later chapters:
 
-                                                                               blood supply
-                                                duct
+# GLANDS AND HORMONES
 
-                                         (outside of
-                                         gland; e.g: lumen
-                                         of gut)
-                                         Figure 7.1 Exocrine glands secrete their products though a duct; while endocrine glands secrete
-                                         hormones into the blood.
-                                      This chapter looks at some of the main endocrine glands and the functions of
-                                      the hormones they produce. Because hormones are carried in the blood, they
-                                      can travel to all areas of the body:Theyusually only affect certain tissues or
+A gland is an organ that releases or secretes a substance. This means that cells in the gland make a chemical which leaves the cells through the cell membrane. The chemical then travels somewhere else in the body, where it carries out its function. There are two types of glands: exocrine and endocrine glands. Exocrine glands secrete their products through a tube called a duct. For example, salivary glands in your mouth secrete saliva down salivary ducts and tear glands secrete tears through ducts that lead to the surface of the eye.
+
+Endocrine glands have no duct; and so are called ductless glands. Instead, their products, the hormones, are secreted into the blood vessels that pass through the gland.
+
+|exocrine gland|endocrine gland|
+|---|---|
+|duct|blood supply|
+|(outside of gland; e.g: lumen of gut)| |
+
+Figure 7.1 Exocrine glands secrete their products though a duct; while endocrine glands secrete hormones into the blood.
+
+This chapter looks at some of the main endocrine glands and the functions of the hormones they produce. Because hormones are carried in the blood, they can travel to all areas of the body: They usually only affect certain tissues or...
 ---
-92    ANIMAL PHYSIOLOGY                             CHEMICAL COORDINATION
+# ANIMAL PHYSIOLOGY
 
-      KEY POINT                                   that made the hormone. Hormones only affect particular tissues or organs
-      The receptors for some hormones             if the cells of that tissue or organ have special chemical receptors for the
-      are located in the cell membrane            particular hormone_ For example, the hormone insulin affects the cells of the
-      of the target cell: Other hormones          liver; which have insulin receptors
-      have receptors in the cytoplasm, and
-      some in the nucleus Without specific
-      receptors_ a cell will not respond to a        THE DIFFERENCES BETWEEN NERVOUS AND ENDOCRINE
-      hormone at all_                                CONTROL
+# CHEMICAL COORDINATION
 
-                                                  Although the nervous and endocrine systems both act to coordinate body
-                                                  functions, there are differences in the way that they do this_ These are
-                                                  summarised in Table 7.1_
-                                                  Table 7.1 The nervous and endocrine systems compared:
-                                                                 Nervous system                             Endocrine system
-                                                   works by nerve impulses transmitted through      works by hormones transmitted through the
-                                                   nerve cells (although chemicals are used at      bloodstream
-                                                   synapses)
-                                                    nerve impulses travel fast and usually have an  hormones travel more slowly and generally take
-                                                    'instant' effect                          longer to act
-                                                   response is usually short-lived                                  ~lasting
-                                                                                                    response is usually longer
+# KEY POINT
 
-                                                   impulses act on individual cells such as muscle  hormones can have widespread effects on
-                                                   fibres, so have a very localised effect          different organs (although they only act on
-                                                                                                    particular tissues or organs if the cells have the
-                                                                                                    correct receptors)
+The receptors for some hormones are located in the cell membrane of the target cell. Other hormones have receptors in the cytoplasm, and some in the nucleus. Without specific receptors, a cell will not respond to a hormone at all.
 
-      THE ENDOCRINE GLANDS                        The positions of the main endocrine glands are shown in Figure 7.2.
-                                    pituitary    summary of some of the hormones that they make and their functions is given
-                                                  in Table 7.2-
-                                                  The pituitary gland (often just called 'the pituitary' is found at the base of
-                                                  the brain: It produces a number of hormones controlling various processes in
-                                       thyroid    the body: It also controls the release of certain hormones from other endocrine
-                                                  glands_
-                                                  Table 7.2: Some of the main endocrine glands, the hormones they produce and their functions.
-                                                      Gland              Hormone                    Some functions of the hormones
+# THE DIFFERENCES BETWEEN NERVOUS AND ENDOCRINE CONTROL
 
-                                       adrenal     thyroid       thyroxine                 controls the body's metabolic rate (how fast
-                                                                                           chemical reactions take place in cells)
-                                                    pancreas     insulin                   lowers blood glucose
-                                                                 glucagon                  raises blood glucose
-                                    pancreas        adrenals     adrenaline                prepares the body for physical activity
-                                   ovary            testes      testosterone               controls the development of male secondary sexual
-                                   (in women)                                              characteristics
-                                  testis (in men)   ovaries      oestrogen                 controls the development of female secondary
-       Figure 7.2 The main endocrine glands of the               progesterone              sexual characteristics
-       body:                                                                               regulates the menstrual cycle
+Although the nervous and endocrine systems both act to coordinate body functions, there are differences in the way that they do this. These are summarised in Table 7.1.
+
+|Nervous system|Endocrine system|
+|---|---|
+|works by nerve impulses transmitted through nerve cells (although chemicals are used at synapses)|works by hormones transmitted through the bloodstream|
+|nerve impulses travel fast and usually have an 'instant' effect|hormones travel more slowly and generally take longer to act|
+|response is usually short-lived|response is usually longer lasting|
+|impulses act on individual cells such as muscle fibres, so have a very localised effect|hormones can have widespread effects on different organs (although they only act on particular tissues or organs if the cells have the correct receptors)|
+
+# THE ENDOCRINE GLANDS
+
+The positions of the main endocrine glands are shown in Figure 7.2. A summary of some of the hormones that they make and their functions is given in Table 7.2.
+
+The pituitary gland (often just called 'the pituitary') is found at the base of the brain. It produces a number of hormones controlling various processes in the body. It also controls the release of certain hormones from other endocrine glands.
+
+|Gland|Hormone|Some functions of the hormones|
+|---|---|---|
+|pituitary| | |
+|thyroid|thyroxine|controls the body's metabolic rate (how fast chemical reactions take place in cells)|
+|pancreas|insulin|lowers blood glucose|
+| |glucagon|raises blood glucose|
+|adrenals|adrenaline|prepares the body for physical activity|
+|ovary (in women)|oestrogen|controls the development of female secondary sexual characteristics|
+| |progesterone|regulates the menstrual cycle|
+|testis (in men)|testosterone|controls the development of male secondary sexual characteristics|
+
+Figure 7.2 The main endocrine glands of the body:
 ---
-ANIMAL PHYSIOLOGY                        CHEMICAL COORDINATION                                                         93
+# ANIMAL PHYSIOLOGY
 
-                                        The pancreas is both an endocrine and an exocrine gland. It secretes two
-                                        hormones involved in the regulation of blood glucose, and is also a gland of
-                                        the digestive system, secreting enzymes through the pancreatic duct into the
-                                        small intestine (see Chapter 4) The sex organs of males (testes) and females
-                                        (ovaries) are also endocrine organs. In addition to their role in producing sex
-                                        cells, the testes and ovaries make hormones that are involved in controlling
-                                       reproduction. This topic is covered more fully in Chapter 9. We will now look at
-                                        the functions of two hormones in more detail.
+# CHEMICAL COORDINATION
 
-                                          ADRENALINE        THE 'FIGHT OR FLIGHT' HORMONE
- DID YOU KNOW?                          When you are frightened, excited or angry, your adrenal glands secrete the
- 'Adrenal' means 'next to the           hormone adrenaline
- kidneys' which describes where         Adrenaline acts at a number of target organs and tissues, preparing the body
- the adrenal glands are located         for action. In animals other than humans this action usually means dealing
-   ontopof these organs (see            with an attack by an enemy, where the animal can stay and fight or run away
- Figure 7.2).                             hence 'fight or flight'. This is not often a problem with humans, but there are
-                                                                                        (Figure 7.3):
-                                        plenty of other times when adrenaline is released
-                                                                         glucose is                   hair stands on end;
-                                                                         released                     making the animal
-                                                                         from liver                   look larger
+The pancreas is both an endocrine and an exocrine gland. It secretes two hormones involved in the regulation of blood glucose, and is also a gland of the digestive system, secreting enzymes through the pancreatic duct into the small intestine (see Chapter 4). The sex organs of males (testes) and females (ovaries) are also endocrine organs. In addition to their role in producing sex cells, the testes and ovaries make hormones that are involved in controlling reproduction. This topic is covered more fully in Chapter 9. We will now look at the functions of two hormones in more detail.
 
-                                                             blood is directed
-                                                              away from the
-                                                             gut and towards                              pupils dilate
-                                                              muscles
+# ADRENALINE
 
-                                                                          heart                         breathing
-                                                                          beats
-                                                                          faster                          becomes
-                                                                                                         faster and
-                                                                                                         deeper
+# THE 'FIGHT OR FLIGHT' HORMONE
 
-  Figure 7.3 Many human activities cause adrenaline to be produced; not  Figure 7.4 Adrenaline affects the body of an animal in many ways
-  just a 'fight or flight' situation!
-                                        If an animal's body is going to be prepared for action, the muscles need a
-                                             supply of oxygen and glucose for respiration. Adrenaline produces
-                                        good
-                                        several changes in the body that make this happen (Figure 7.4) as well as other
-                                        changes to prepare for fight or flight:
-                                          The breathing rate increases and breaths become deeper; taking more
-                                          oxygen into the body:
-                                          The heart beats faster; sending more blood to the muscles, so that they
-                                          receive more glucose and oxygen for respiration_
-                                          Blood is diverted away from the intestine and into the muscles_
-                                          In the liver; stored carbohydrate (glycogen) is changed into glucose and
-                                          released into the blood. The muscle cells absorb more glucose and use it
-                                          for respiration:
-                                          The pupils dilate, increasing visual sensitivity to movement:
-                                          Body hair stands upright, making the animal look larger to an enemy:
-                                           Mental awareness is increased, SO reactions are faster:
+DID YOU KNOW? When you are frightened, excited or angry, your adrenal glands secrete the hormone adrenaline. 'Adrenal' means 'next to the kidneys' which describes where the adrenal glands are located ontop of these organs (see Figure 7.2).
+
+Adrenaline acts at a number of target organs and tissues, preparing the body for action. In animals other than humans this action usually means dealing with an attack by an enemy, where the animal can stay and fight or run away hence 'fight or flight'. This is not often a problem with humans, but there are plenty of other times when adrenaline is released.
+
+|glucose is|released|hair stands on end;|making the animal|look larger|
+|---|---|---|---|---|
+|from liver|pupils dilate|breathing|becomes|faster and deeper|
+
+Figure 7.3 Many human activities cause adrenaline to be produced; not just a 'fight or flight' situation!
+
+Figure 7.4 Adrenaline affects the body of an animal in many ways.
+
+If an animal's body is going to be prepared for action, the muscles need a supply of oxygen and glucose for respiration. Adrenaline produces several changes in the body that make this happen as well as other changes to prepare for fight or flight:
+
+- The breathing rate increases and breaths become deeper; taking more oxygen into the body.
+- The heart beats faster; sending more blood to the muscles, so that they receive more glucose and oxygen for respiration.
+- Blood is diverted away from the intestine and into the muscles.
+- In the liver; stored carbohydrate (glycogen) is changed into glucose and released into the blood. The muscle cells absorb more glucose and use it for respiration.
+- The pupils dilate, increasing visual sensitivity to movement.
+- Body hair stands upright, making the animal look larger to an enemy.
+- Mental awareness is increased, so reactions are faster.
 ---
-94   ANIMAL PHYSIOLOGY                           CHEMICAL COORDINATION
+# 94 ANIMAL PHYSIOLOGY
 
-                                             In humans, adrenaline is not just released in a 'fight or flight' situation; but in
-                                             many other stressful activities too, such as preparing for a race, going for a job
-                                             interview or taking an exam:
+# CHEMICAL COORDINATION
 
-                                                 INSULIN    CONTROL OF BLOOD GLUCOSE
-                                             You saw earlier that adrenaline can raise blood glucose from stores in the
-                                             liver: The liver cells contain carbohydrate in the form of glycogen. Glycogen
-                                             is made from long chains of glucose sub-units joined together; forming a large
-                                             insoluble molecule (see Chapter 4). Being insoluble makes glycogen a good
-                                            storage product_ When the body is short of glucose; the glycogen can be
-                                             broken down into glucose, which then passes into the bloodstream:
-                                             Adrenaline raises blood glucose concentration in an emergency, but other
-                                             hormones act all the time to control the level, keeping itfairlyconstant at a
-                                             little less than 1 g of glucose in every dm: (cubic decimetre) of blood. The main
-                                             hormone controlling glucose is insulin. Insulin is made by special cells in the
-                                             pancreas. It stimulates the liver cells to take up glucose and convert it into
-                                             glycogen; lowering the level of glucose in the blood:
+In humans, adrenaline is not just released in a 'fight or flight' situation; but in many other stressful activities too, such as preparing for a race, going for a job interview or taking an exam:
 
-      DID YOU KNOW?                          The concentration of glucose in your blood will start to rise after you have had
-                                             a meal:Sugars from digested carbohydrate pass into the blood and are carried
-      The pancreas also makes a              to the liver in the hepatic portal vein (Chapter 5). In the liver the glucose is
-      hormone calledglucagon;                converted to glycogen; so the blood leaving the liver in the hepatic vein has a
-      which has the opposite effect to       lower concentration of glucose than when it enters the liver:
-      insulin _ it raises blood glucose          DIABETES
+# INSULIN CONTROL OF BLOOD GLUCOSE
 
-                                             Some people have a disease where their pancreas cannot make enough
-                                             insulin to keep their blood glucose level constant it rises to very high
-                                             concentrations The disease is called diabetes. One symptom of diabetes can
-                                             be detected by a chemical test on urine: Normally, people have no glucose
-                                             at all in their urine_ Someone suffering from diabetes may have such a high
-                                             concentration of glucose in the blood that it is excreted in their urine_ This can
-                                             be shown up by using coloured test strips (Figure 7.5).
-                                                 KEY POINT
-                                                 We should really refer to this disease by its full name, which is 'type 1' diabetes. There
-                                              is also a 'type 2' diabetes; where the pancreas produces insulin but the body shows
-                                                 insulin resistance, where insulin has less effect than it should do. At first the pancreas
-                                                 makes extra insulin, but eventually it can't continue to make enough to maintain blood
-                                                 glucose at a normal level. Type 2 diabetes is common in people who are overweight
-                                                 and eat a poor diet that is high in sugar and other carbohydrates_ It can be prevented
-                                                 and controlled by eating a good diet and doing regular exercise. Type 2 diabetes also
-       Figure 7.5 Coloured test strips  used to  tends to happen in middle-aged or older people; whereas type can happen at any
-       detect glucose in urine.  are             age, and is common in childhood:
-                                             Another symptom of diabetes is a constant thirst: This is because the high
-                                             blood glucose concentration stimulates receptors in the hypothalamus of the
-                                             brain: These 'thirst centres' are stimulated, so that by drinking; the person will
-                                             dilute their blood:
-                                             Severe diabetes is very serious. If it is untreated, the sufferer loses weight and
-                                             becomes weak and eventually falls into a coma and dies_
-                                             Carbohydrates in the diet; such as starch and sugars, are the source of
-                                             glucose in the blood,so a person with diabetes can help to control their blood
-                                             sugar if they limit the amount of carbohydrate that they eat: However a person
+You saw earlier that adrenaline can raise blood glucose from stores in the liver: The liver cells contain carbohydrate in the form of glycogen. Glycogen is made from long chains of glucose sub-units joined together; forming a large insoluble molecule (see Chapter 4). Being insoluble makes glycogen a good storage product. When the body is short of glucose; the glycogen can be broken down into glucose, which then passes into the bloodstream:
+
+Adrenaline raises blood glucose concentration in an emergency, but other hormones act all the time to control the level, keeping it fairly constant at a little less than 1 g of glucose in every dm3 (cubic decimetre) of blood. The main hormone controlling glucose is insulin. Insulin is made by special cells in the pancreas. It stimulates the liver cells to take up glucose and convert it into glycogen; lowering the level of glucose in the blood:
+
+# DID YOU KNOW?
+
+The concentration of glucose in your blood will start to rise after you have had a meal: Sugars from digested carbohydrate pass into the blood and are carried to the liver in the hepatic portal vein (Chapter 5). In the liver the glucose is converted to glycogen; so the blood leaving the liver in the hepatic vein has a lower concentration of glucose than when it enters the liver:
+
+# DIABETES
+
+Some people have a disease where their pancreas cannot make enough insulin to keep their blood glucose level constant; it rises to very high concentrations. The disease is called diabetes. One symptom of diabetes can be detected by a chemical test on urine: Normally, people have no glucose at all in their urine. Someone suffering from diabetes may have such a high concentration of glucose in the blood that it is excreted in their urine. This can be shown up by using coloured test strips (Figure 7.5).
+
+# KEY POINT
+
+We should really refer to this disease by its full name, which is 'type 1' diabetes. There is also a 'type 2' diabetes; where the pancreas produces insulin but the body shows insulin resistance, where insulin has less effect than it should do. At first the pancreas makes extra insulin, but eventually it can't continue to make enough to maintain blood glucose at a normal level. Type 2 diabetes is common in people who are overweight and eat a poor diet that is high in sugar and other carbohydrates. It can be prevented and controlled by eating a good diet and doing regular exercise. Type 2 diabetes also tends to happen in middle-aged or older people; whereas type 1 can happen at any age, and is common in childhood:
+
+Another symptom of diabetes is a constant thirst: This is because the high blood glucose concentration stimulates receptors in the hypothalamus of the brain: These 'thirst centres' are stimulated, so that by drinking; the person will dilute their blood:
+
+Severe diabetes is very serious. If it is untreated, the sufferer loses weight and becomes weak and eventually falls into a coma and dies:
+
+Carbohydrates in the diet; such as starch and sugars, are the source of glucose in the blood, so a person with diabetes can help to control their blood sugar if they limit the amount of carbohydrate that they eat: However a person
 ---
-ANIMAL PHYSIOLOGY                         CHEMICAL COORDINATION                                                    95
+# ANIMAL PHYSIOLOGY
 
-KEY POINT                                 with diabetes (type 1) also needs to receive daily injections of insulin to keep
-Insulin is a protein,ᵃⁿᵈif it were to be  the glucose in their blood at the right level:
-taken by mouth in tablet form; it would   People with diabetes can check their blood glucose using a special sensor
-be broken down by protease enzymes        They prick their finger and place a drop of blood on a test strip. The strip is
-in the gut: Instead it is injected into   then  into the sensor; which gives them an accurate reading of how much
-muscle tissue, where it is slowly           put              (Figure 7.6): They
-absorbed into the bloodstream:            glucose is in their blood           can then tell when to inject insulin
-                                          and how much to inject:
+# CHEMICAL COORDINATION
 
- DID YOU KNOW?
- Insulin for the treatment of
- diabetes has been available
- since 1921, and has kept
- millions of people alive: It was
- originally extracted from the                              %
- pancreases of animals and
- much insulin is still obtained
- in this way: However; since
- the 1970s, human insulin has
- been produced commercially,
- from genetically modified (GM)
- bacteria: The bacteria have their
- DNA 'engineered' to contain
- the gene for human insulin (see
- Chapter 21).                             Figure 7.6 Sensor for measuring blood glucose
+# KEY POINT
 
-CHAPTER QUESTIONS                         More questions on chemical coordination can be found at the end of Unit 2 on
-                                          page 116.
-SKILLS  CRITICAL THINKING                  Which of the following statement(s) is/are true?
-                                           1. Insulin converts glucose to glycogen
-                                           2. Insulin causes blood glucose levels to fall
-                                           3. Glucose is stored as glucagon in the liver
-                                             Glycogen can be broken down to release glucose into the blood
-                                           A 2 only
-                                           B 2 and 4
-                                           C 3 and 4
-                                              1 and 2
-                                           Which of the following will not happen when the hormone adrenaline is
-                                           released?
-                                            A an increase in heart rate
-                                              an increase in blood flow to thegut
-                                             dilation of the pupils
-                                            D an increase inbreathing rate
+Insulin is a protein, and if it were to be taken by mouth in tablet form; it would be broken down by protease enzymes in the gut: Instead it is injected into muscle tissue, where it is slowly absorbed into the bloodstream:
+
+People with diabetes (type 1) also needs to receive daily injections of insulin to keep the glucose in their blood at the right level: They can check their blood glucose using a special sensor. They prick their finger and place a drop of blood on a test strip. The strip is then put into the sensor; which gives them an accurate reading of how much glucose is in their blood: They can then tell when to inject insulin and how much to inject:
+
+# DID YOU KNOW?
+
+Insulin for the treatment of diabetes has been available since 1921, and has kept millions of people alive: It was originally extracted from the pancreases of animals and much insulin is still obtained in this way: However, since the 1970s, human insulin has been produced commercially, from genetically modified (GM) bacteria: The bacteria have their DNA 'engineered' to contain the gene for human insulin (see Chapter 21).
+
+# CHAPTER QUESTIONS
+
+More questions on chemical coordination can be found at the end of Unit 2 on page 116.
+
+# SKILLS CRITICAL THINKING
+
+Which of the following statement(s) is/are true?
+
+1. Insulin converts glucose to glycogen
+2. Insulin causes blood glucose levels to fall
+3. Glucose is stored as glucagon in the liver
+4. Glycogen can be broken down to release glucose into the blood
+
+A 2 only
+
+B 2 and 4
+
+C 3 and 4
+
+D 1 and 2
+
+Which of the following will not happen when the hormone adrenaline is released?
+
+1. A an increase in heart rate
+2. B an increase in blood flow to the gut
+3. C dilation of the pupils
+4. D an increase in breathing rate
 ---
-96   ANIMAL PHYSIOLOGY                      CHEMICAL COORDINATION
+# 96 ANIMAL PHYSIOLOGY
 
-     SKILLS   CRITICAL THINKING              Which of the following is a symptom of type diabetes?
-                                                high insulin level in the blood
-                                             B low glucose level in the blood
-                                                glucose present in the urine
-                                                insulin present in the urine
-                                               Hormones are secreted by endocrine glands. Explain the meaning of the
-                                                four words in italics
-     SKILLS   ANALYSIS                          Identify the hormones A to D in the table.
+# CHEMICAL COORDINATION
 
-                                                  Hormone                    One function of this hormone
+# SKILLS CRITICAL THINKING
 
-                                                            stimulates the liver to convert glucose to glycogen
-                                                            controls the 'fight or flight' responses
-                                                            controls the breaking of the voice at puberty in boys
-                                                            completes the development of the uterus lining during the menstrual cycle
+Which of the following is a symptom of type diabetes?
 
-                                             The graph shows the changes in blood glucose in a healthy woman over a
-                                             12-hour period.
-                                                         7 130
-                                                       1    120
-                                                         1  110
-                                                       8    100
-                                                         g   90
-                                                         2   70
+- high insulin level in the blood
+- low glucose level in the blood
+- glucose present in the urine
+- insulin present in the urine
 
-                                                                 0800        1200        1600        2000
-                                                                                time ofday
-                                                Explain why there was a rise in blood glucose at X
-                                                How does the body bring about a decrease in blood glucose at Y? Your
-                                                answer should include the words insulin; liver and pancreas.
-                                                Diabetes is a disease where the body cannot control the concentration of
-                                                glucose in the blood.
-     SKILLS   CRITICAL THINKING                    Why is this dangerous?
-                                                   Describe two ways a person with diabetes can monitor their blood
-                                                   glucose level:
-                                                   Explain two ways that a person with diabetes can help to control their
-                                                   blood glucose level:
+Hormones are secreted by endocrine glands. Explain the meaning of the four words in italics.
+
+# SKILLS ANALYSIS
+
+Identify the hormones A to D in the table.
+
+|Hormone|One function of this hormone|
+|---|---|
+|A|stimulates the liver to convert glucose to glycogen|
+|B|controls the 'fight or flight' responses|
+|C|controls the breaking of the voice at puberty in boys|
+|D|completes the development of the uterus lining during the menstrual cycle|
+
+The graph shows the changes in blood glucose in a healthy woman over a 12-hour period.
+
+Explain why there was a rise in blood glucose at X.
+
+How does the body bring about a decrease in blood glucose at Y? Your answer should include the words insulin; liver and pancreas.
+
+Diabetes is a disease where the body cannot control the concentration of glucose in the blood.
+
+# SKILLS CRITICAL THINKING
+
+Why is this dangerous?
+
+Describe two ways a person with diabetes can monitor their blood glucose level:
+
+Explain two ways that a person with diabetes can help to control their blood glucose level:

@@ -15,7 +15,6 @@ class textbookRAG:
         self.embeddings = OllamaEmbeddings(model=model)
         # directory of langchain_db:
         db_dir = str("../chroma_langchain_db")
-        print(db_dir)
         self.vector_store = Chroma(
             collection_name=collection_name,
             embedding_function=self.embeddings,
