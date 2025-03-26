@@ -3,6 +3,7 @@ import { Onest } from "next/font/google";
 import NavBar from "@/components/nav-bar/NavBar";
 import "./globals.css";
 import { SmartQuizProvider } from "@/context/SmartQuizContext";
+import { SubjectDataProvider } from "@/context/SubjectDataContext";
 
 const onest = Onest({
   subsets: ["latin"],
@@ -24,9 +25,11 @@ export default function RootLayout({
     <html lang="en" className={`${onest.variable} h-full`}>
       <body className="font-onest bg-white">
         <SmartQuizProvider>
-          <NavBar />
+          <SubjectDataProvider>
+            <NavBar />
 
-          <main className="flex-1 pl-20 h-full">{children}</main>
+            <main className="flex-1 pl-20 h-full">{children}</main>
+          </SubjectDataProvider>
         </SmartQuizProvider>
       </body>
     </html>
