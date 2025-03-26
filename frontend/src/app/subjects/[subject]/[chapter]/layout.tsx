@@ -7,6 +7,7 @@ import { getSubjectsData, Subject } from "@/api/mockSubject";
 import SubjectSidebar from "@/components/subjects/SubjectSidebar";
 import { FiMenu } from "react-icons/fi";
 import { unslugify } from "@/helpers/slugify";
+import { useSubjectData } from "@/context/SubjectDataContext";
 
 export default function SubjectChapterLayout({
   children,
@@ -19,37 +20,21 @@ export default function SubjectChapterLayout({
 
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [chapterTitle, setChapterTitle] = useState("");
-  const [sidebarSubjects, setSidebarSubjects] = useState<
-    { name: string; chapters: { id: string; title: string }[] }[]
-  >([]);
+  const { subjects: sidebarSubjects, loading } = useSubjectData();
 
   useEffect(() => {
-    const fetchSidebarData = async () => {
+    const fetchTitle = async () => {
       if (!subject || !chapter) return;
-
-      const currentChapter = await getChapterData(subject, chapter);
-      setChapterTitle(currentChapter.title);
-      setIsSidebarOpen(false);
-
-      const allSubjects = await getSubjectsData();
-      const results = await Promise.all(
-        allSubjects.map(async (subj: Subject) => {
-          const chapterData = await getChapterData(
-            subj.name.toLowerCase(),
-            "latest"
-          );
-          return {
-            name: subj.name,
-            chapters: chapterData.chapters,
-          };
-        })
-      );
-
-      setSidebarSubjects(results);
+      const current = await getChapterData(subject, chapter);
+      setChapterTitle(current.title);
     };
 
-    fetchSidebarData();
+    fetchTitle();
   }, [subject, chapter]);
+
+  if (loading) {
+    return <div className="p-6">Loading sidebar...</div>;
+  }
 
   return (
     <div className="flex min-h-screen bg-[#E8E9F2]">

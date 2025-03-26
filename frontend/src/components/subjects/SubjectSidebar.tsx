@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FiChevronDown, FiMenu } from "react-icons/fi";
 
 interface SubjectSidebarProps {
@@ -18,9 +18,16 @@ const SubjectSidebar = ({ subjects, onCollapse }: SubjectSidebarProps) => {
   const currentChapter = params?.chapter;
   const currentSubject =
     typeof params?.subject === "string" ? params.subject : "";
-  const [expandedSubject, setExpandedSubject] = useState<string | null>(
-    currentSubject
-  );
+
+  const [expandedSubject, setExpandedSubject] = useState<string | null>(null);
+  useEffect(() => {
+    if (currentSubject) {
+      const matched = subjects.find(
+        (s) => s.name.toLowerCase() === currentSubject.toLowerCase()
+      );
+      if (matched) setExpandedSubject(matched.name);
+    }
+  }, [currentSubject, subjects]);
 
   return (
     <aside className="w-64 bg-white border-r p-4 space-y-4 transition-all duration-300">
