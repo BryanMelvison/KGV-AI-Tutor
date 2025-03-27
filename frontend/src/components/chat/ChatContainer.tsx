@@ -102,10 +102,10 @@ const ChatContainer = ({
   };
 
   return (
-    <div className="h-full flex flex-col bg-white py-4 shadow-md">
+    <div className="flex flex-col bg-white py-4 shadow-md h-full">
       {/* Header Section */}
       {(title || description || actions || headerContent) && (
-        <div className="bg-white px-6 pb-4 flex-shrink-0">
+        <div className="bg-white px-6 flex-shrink-0">
           {headerContent || (
             <div className="flex justify-between items-center">
               <div>
@@ -123,7 +123,7 @@ const ChatContainer = ({
       )}
 
       {/* Chat Section */}
-      <div className="flex-1 flex flex-col bg-[#F9F9FE] mx-5 p-4 rounded-2xl min-h-0">
+      <div className="flex-1 flex flex-col bg-[#F9F9FE] mx-5 p-4 rounded-2xl">
         <div className="flex-1 overflow-y-auto">
           {renderMessages()}
           <div ref={messagesEndRef} />
