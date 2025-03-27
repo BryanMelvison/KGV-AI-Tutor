@@ -3,6 +3,8 @@
 import React, { useState } from "react";
 import ChatContainer from "./ChatContainer";
 import { Message } from "@/interfaces/Message";
+import { useParams, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 interface Question {
   number: string;
@@ -11,11 +13,13 @@ interface Question {
 
 interface ExerciseChatProps {
   title: string;
-  subtitle: string;
   questions: Question[];
 }
 
-const ExerciseChat = ({ title, subtitle, questions }: ExerciseChatProps) => {
+const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
+  const router = useRouter();
+  const params = useParams();
+
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [chatHistories, setChatHistories] = useState<{
     [key: number]: Message[];
@@ -25,6 +29,9 @@ const ExerciseChat = ({ title, subtitle, questions }: ExerciseChatProps) => {
 
   const currentQuestion = questions[currentQuestionIndex];
   const messages = chatHistories[currentQuestionIndex] || [];
+
+  const searchParams = useSearchParams();
+  const selectedExercise = searchParams.get("exercise") || "A";
 
   const handleSend = (message: string) => {
     if (!message.trim()) return;
@@ -49,8 +56,13 @@ const ExerciseChat = ({ title, subtitle, questions }: ExerciseChatProps) => {
     }, 1000);
   };
 
-  const handleClear = () => {
-    setChatHistories((prev) => ({ ...prev, [currentQuestionIndex]: [] }));
+  const handleQuitExercise = () => {
+    const subject = params.subject;
+    const chapter = params.chapter;
+
+    if (typeof subject === "string" && typeof chapter === "string") {
+      router.push(`/subjects/${subject}/${chapter}`);
+    }
   };
 
   const goToPrevious = () => {
@@ -76,11 +88,9 @@ const ExerciseChat = ({ title, subtitle, questions }: ExerciseChatProps) => {
 
   const headerContent = (
     <>
-      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 mb-6">
-        <div>
-          <h1 className="text-2xl font-bold text-gray-900">{title}</h1>
-          <p className="text-gray-600">{subtitle}</p>
-        </div>
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-4">
+        <h1 className="text-xl font-bold text-gray-900">{title}</h1>
+
         <div className="flex gap-3">
           <button
             onClick={goToPrevious}
@@ -102,27 +112,37 @@ const ExerciseChat = ({ title, subtitle, questions }: ExerciseChatProps) => {
           >
             Next
           </button>
-          <button className="px-4 py-2 text-red-500 bg-red-50 rounded-lg hover:bg-red-100 transition-colors">
+          <button
+            className="px-4 py-2 text-red-500 bg-red-50 rounded-lg hover:bg-red-100 transition-colors"
+            onClick={handleQuitExercise}
+          >
             Quit Exercise
           </button>
         </div>
       </div>
 
-      <div className="bg-white rounded-xl p-6 mb-6 shadow-sm border border-gray-100">
-        <h2 className="text-lg font-semibold text-gray-900">
+      <div className="bg-white rounded-xl p-4 mb-4 shadow-sm border border-gray-100">
+        <h2 className="text-base font-semibold text-gray-900">
           {currentQuestion.number}. {currentQuestion.title}
         </h2>
       </div>
     </>
   );
 
+  if (!questions || questions.length === 0) {
+    return (
+      <div className="h-screen flex justify-center items-center text-gray-600 text-lg">
+        Loading questions for exercise {selectedExercise}...
+      </div>
+    );
+  }
+
   return (
-    <>
+    <div className="bg-[#E8E9F2] h-screen">
       <ChatContainer
         messages={messages}
         isLoading={isLoading}
         onSend={handleSend}
-        onClear={handleClear}
         headerContent={headerContent}
         submitButtonText="Send"
         inputPlaceholder="Type your answer..."
@@ -171,7 +191,7 @@ const ExerciseChat = ({ title, subtitle, questions }: ExerciseChatProps) => {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 };
 

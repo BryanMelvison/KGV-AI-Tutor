@@ -1,5 +1,7 @@
 "use client";
 
+// LEGACYYYYY
+
 import ExerciseChat from "@/components/chat/ExerciseChat";
 
 export default function ExerciseChatPage() {
@@ -16,7 +18,6 @@ export default function ExerciseChatPage() {
   return (
     <ExerciseChat
       title={exerciseData.title}
-      subtitle={exerciseData.subtitle}
       questions={exerciseData.questions}
     />
   );

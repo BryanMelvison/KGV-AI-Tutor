@@ -3,7 +3,6 @@
 import { ReactNode, useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import { getChapterData } from "@/api/mockChapter";
-import { getSubjectsData, Subject } from "@/api/mockSubject";
 import SubjectSidebar from "@/components/subjects/SubjectSidebar";
 import { FiMenu } from "react-icons/fi";
 import { unslugify } from "@/helpers/slugify";
@@ -47,7 +46,7 @@ export default function SubjectChapterLayout({
       )}
 
       {/* Main Content */}
-      <div className="flex-1 p-6 space-y-6">
+      <div className="flex-1 p-6 space-y-6  bg-[#E8E9F2]">
         {/* Header: Hamburger + Chapter Title */}
         <div className="flex items-center gap-3 mb-4">
           {!isSidebarOpen && (
