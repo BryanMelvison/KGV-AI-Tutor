@@ -42,7 +42,6 @@ const SubjectOverviewPage = ({ data }: SubjectOverviewPageProps) => {
           chapter,
           exerciseLetter
         );
-        console.log("ini result cok", result);
         setQuestions(result);
         setLoading(false);
       }
@@ -61,10 +60,12 @@ const SubjectOverviewPage = ({ data }: SubjectOverviewPageProps) => {
     }
 
     return (
-      <ExerciseChat
-        title={`Exercise ${exerciseLetter}`}
-        questions={questions}
-      />
+      <div className="flex flex-1 flex-col min-h-0 overflow-hidden">
+        <ExerciseChat
+          title={`Exercise ${exerciseLetter}`}
+          questions={questions}
+        />
+      </div>
     );
   }
 
