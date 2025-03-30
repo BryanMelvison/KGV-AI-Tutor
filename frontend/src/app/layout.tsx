@@ -4,6 +4,7 @@ import NavBar from "@/components/nav-bar/NavBar";
 import "./globals.css";
 import { SmartQuizProvider } from "@/context/SmartQuizContext";
 import { SubjectDataProvider } from "@/context/SubjectDataContext";
+import { AssistantChatProvider } from "@/context/AssistantChatContext";
 
 const onest = Onest({
   subsets: ["latin"],
@@ -25,11 +26,12 @@ export default function RootLayout({
     <html lang="en" className={`${onest.variable} h-full`}>
       <body className="font-onest bg-white">
         <SmartQuizProvider>
-          <SubjectDataProvider>
-            <NavBar />
-
-            <main className="flex-1 pl-20 h-full">{children}</main>
-          </SubjectDataProvider>
+          <AssistantChatProvider>
+            <SubjectDataProvider>
+              <NavBar />
+              <main className="flex-1 pl-20 h-full">{children}</main>
+            </SubjectDataProvider>
+          </AssistantChatProvider>
         </SmartQuizProvider>
       </body>
     </html>
