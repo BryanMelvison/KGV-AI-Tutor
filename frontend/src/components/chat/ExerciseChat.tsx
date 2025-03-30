@@ -138,7 +138,7 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
   }
 
   return (
-    <div className="bg-[#E8E9F2] h-screen">
+    <>
       <ChatContainer
         messages={messages}
         isLoading={isLoading}
@@ -191,7 +191,7 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 };
 

@@ -123,7 +123,7 @@ const ChatContainer = ({
       )}
 
       {/* Chat Section */}
-      <div className="flex-1 flex flex-col bg-[#F9F9FE] mx-5 p-4 rounded-2xl">
+      <div className="flex-1 flex flex-col bg-[#F9F9FE] mx-5 p-4 rounded-2xl min-h-0">
         <div className="flex-1 overflow-y-auto">
           {renderMessages()}
           <div ref={messagesEndRef} />
