@@ -1,7 +1,7 @@
 "use client";
 
 import { ReactNode, useState, useEffect } from "react";
-import { useParams } from "next/navigation";
+import { useParams, useSearchParams } from "next/navigation";
 import { getChapterData } from "@/api/mockChapter";
 import SubjectSidebar from "@/components/subjects/SubjectSidebar";
 import { FiMenu } from "react-icons/fi";
@@ -16,6 +16,9 @@ export default function SubjectChapterLayout({
   const params = useParams();
   const subject = typeof params.subject === "string" ? params.subject : "";
   const chapter = typeof params.chapter === "string" ? params.chapter : "";
+
+  const searchParams = useSearchParams();
+  const isExercise = Boolean(searchParams.get("exercise"));
 
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [chapterTitle, setChapterTitle] = useState("");
@@ -37,10 +40,11 @@ export default function SubjectChapterLayout({
 
   return (
     <div className="flex flex-col h-dvh bg-[#E8E9F2]">
-      {" "}
-      {/* full viewport height */}
-      <div className="flex flex-1 overflow-hidden">
-        {" "}
+      <div
+        className={`flex flex-1 bg-[#E8E9F2] ${
+          isExercise ? "overflow-hidden" : ""
+        }`}
+      >
         {/* main split: sidebar + content */}
         {isSidebarOpen && (
           <SubjectSidebar
@@ -48,8 +52,12 @@ export default function SubjectChapterLayout({
             onCollapse={() => setIsSidebarOpen(false)}
           />
         )}
-        <div className="flex flex-col flex-1 min-h-0 p-4 space-y-4 overflow-hidden">
-          {/* Header */}
+        <div
+          className={`flex flex-col flex-1 p-4 space-y-4 ${
+            isExercise ? "min-h-0 overflow-hidden" : ""
+          }`}
+        >
+          {/* header */}
           <div className="flex-shrink-0 flex items-center gap-3">
             {!isSidebarOpen && (
               <button
@@ -65,7 +73,11 @@ export default function SubjectChapterLayout({
           </div>
 
           {/* page content slot */}
-          <div className="flex-1 min-h-0 overflow-hidden flex flex-col">
+          <div
+            className={`flex-1 ${
+              isExercise ? "min-h-0  overflow-hidden" : ""
+            } flex flex-col`}
+          >
             {children}
           </div>
         </div>
