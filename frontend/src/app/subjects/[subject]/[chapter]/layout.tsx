@@ -1,7 +1,7 @@
 "use client";
 
 import { ReactNode, useState, useEffect } from "react";
-import { useParams, useSearchParams } from "next/navigation";
+import { useParams, usePathname, useSearchParams } from "next/navigation";
 import { getChapterData } from "@/api/mockChapter";
 import SubjectSidebar from "@/components/subjects/SubjectSidebar";
 import { FiMenu } from "react-icons/fi";
@@ -17,12 +17,17 @@ export default function SubjectChapterLayout({
   const subject = typeof params.subject === "string" ? params.subject : "";
   const chapter = typeof params.chapter === "string" ? params.chapter : "";
 
+  const pathname = usePathname();
+  const isAssistant = pathname.endsWith("/assistant-chat");
+
   const searchParams = useSearchParams();
   const isExercise = Boolean(searchParams.get("exercise"));
 
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [chapterTitle, setChapterTitle] = useState("");
   const { subjects: sidebarSubjects, loading } = useSubjectData();
+
+  const isChatPage = isExercise || isAssistant;
 
   useEffect(() => {
     const fetchTitle = async () => {
@@ -42,7 +47,7 @@ export default function SubjectChapterLayout({
     <div className="flex flex-col h-dvh bg-[#E8E9F2]">
       <div
         className={`flex flex-1 bg-[#E8E9F2] ${
-          isExercise ? "overflow-hidden" : ""
+          isChatPage ? "overflow-hidden" : ""
         }`}
       >
         {/* main split: sidebar + content */}
@@ -54,7 +59,7 @@ export default function SubjectChapterLayout({
         )}
         <div
           className={`flex flex-col flex-1 p-4 space-y-4 ${
-            isExercise ? "min-h-0 overflow-hidden" : ""
+            isChatPage ? "min-h-0 overflow-hidden" : ""
           }`}
         >
           {/* header */}
@@ -75,7 +80,7 @@ export default function SubjectChapterLayout({
           {/* page content slot */}
           <div
             className={`flex-1 ${
-              isExercise ? "min-h-0  overflow-hidden" : ""
+              isChatPage ? "min-h-0 overflow-hidden" : ""
             } flex flex-col`}
           >
             {children}

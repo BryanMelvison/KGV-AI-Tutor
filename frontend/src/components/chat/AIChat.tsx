@@ -4,8 +4,17 @@ import { useState } from "react";
 import { Message } from "@/interfaces/Message";
 import ChatContainer from "@/components/chat/ChatContainer";
 import { AIResponse, clearMemory } from "@/api/chatApi";
+import { useSearchParams, useParams } from "next/navigation";
 
 const AIChat = () => {
+  const searchParams = useSearchParams();
+  const params = useParams();
+  const sessionId = searchParams.get("sessionId") || "default";
+  const subject =
+    typeof params.subject === "string" ? params.subject : "general";
+  const chapter =
+    typeof params.chapter === "string" ? params.chapter : "general";
+
   const [messages, setMessages] = useState<Message[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [showClearMessage, setShowClearMessage] = useState(false);
@@ -15,7 +24,7 @@ const AIChat = () => {
     setMessages((prev) => [...prev, { text: message, sender: "user" }]);
 
     try {
-      const response = await AIResponse(message);
+      const response = await AIResponse(message, sessionId, subject, chapter);
       setMessages((prev) => [...prev, { text: response, sender: "assistant" }]);
     } catch (error) {
       console.error("Error getting AI response:", error);
@@ -37,7 +46,7 @@ const AIChat = () => {
   };
 
   const headerContent = (
-    <>
+    <div className="pt-4">
       {showClearMessage && (
         <div
           className="fixed top-0 left-0 right-0 bg-zinc-900 text-white text-center py-2 transition-all duration-300"
@@ -52,17 +61,19 @@ const AIChat = () => {
         <h2 className="text-2xl font-semibold text-[#17171F]">AI Chat</h2>
         <p className="text-gray-500">Chat with our AI assistant</p>
       </div>
-    </>
+    </div>
   );
 
   return (
-    <ChatContainer
-      messages={messages}
-      isLoading={isLoading}
-      onSend={handleSend}
-      onClear={handleClear}
-      headerContent={headerContent}
-    />
+    <div className="flex flex-1 flex-col min-h-0 overflow-hidden">
+      <ChatContainer
+        messages={messages}
+        isLoading={isLoading}
+        onSend={handleSend}
+        onClear={handleClear}
+        headerContent={headerContent}
+      />
+    </div>
   );
 };
 
