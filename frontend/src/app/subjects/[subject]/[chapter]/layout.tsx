@@ -81,8 +81,6 @@ export default function SubjectChapterLayout({
             {children}
           </div>
         </div>
-
-        {children}
       </div>
     </div>
   );
