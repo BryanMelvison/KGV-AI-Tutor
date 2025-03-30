@@ -1,7 +1,7 @@
 "use client";
 
 import { ReactNode, useState, useEffect } from "react";
-import { useParams } from "next/navigation";
+import { useParams, useSearchParams } from "next/navigation";
 import { getChapterData } from "@/api/mockChapter";
 import SubjectSidebar from "@/components/subjects/SubjectSidebar";
 import { FiMenu } from "react-icons/fi";
@@ -16,6 +16,9 @@ export default function SubjectChapterLayout({
   const params = useParams();
   const subject = typeof params.subject === "string" ? params.subject : "";
   const chapter = typeof params.chapter === "string" ? params.chapter : "";
+
+  const searchParams = useSearchParams();
+  const isExercise = Boolean(searchParams.get("exercise"));
 
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [chapterTitle, setChapterTitle] = useState("");
@@ -36,30 +39,46 @@ export default function SubjectChapterLayout({
   }
 
   return (
-    <div className="flex min-h-screen bg-[#E8E9F2]">
-      {/* Sidebar */}
-      {isSidebarOpen && (
-        <SubjectSidebar
-          subjects={sidebarSubjects}
-          onCollapse={() => setIsSidebarOpen(false)}
-        />
-      )}
+    <div className="flex flex-col h-dvh bg-[#E8E9F2]">
+      <div
+        className={`flex flex-1 bg-[#E8E9F2] ${
+          isExercise ? "overflow-hidden" : ""
+        }`}
+      >
+        {/* main split: sidebar + content */}
+        {isSidebarOpen && (
+          <SubjectSidebar
+            subjects={sidebarSubjects}
+            onCollapse={() => setIsSidebarOpen(false)}
+          />
+        )}
+        <div
+          className={`flex flex-col flex-1 p-4 space-y-4 ${
+            isExercise ? "min-h-0 overflow-hidden" : ""
+          }`}
+        >
+          {/* header */}
+          <div className="flex-shrink-0 flex items-center gap-3">
+            {!isSidebarOpen && (
+              <button
+                onClick={() => setIsSidebarOpen(true)}
+                className="p-2 bg-white border rounded-lg shadow hover:bg-gray-100"
+              >
+                <FiMenu className="w-5 h-5 text-gray-600" />
+              </button>
+            )}
+            <div className="text-2xl font-bold text-[#17171F]">
+              {unslugify(chapterTitle) || "Loading..."}
+            </div>
+          </div>
 
-      {/* Main Content */}
-      <div className="flex-1 p-6 space-y-6  bg-[#E8E9F2]">
-        {/* Header: Hamburger + Chapter Title */}
-        <div className="flex items-center gap-3 mb-4">
-          {!isSidebarOpen && (
-            <button
-              onClick={() => setIsSidebarOpen(true)}
-              className="p-2 bg-white border rounded-lg shadow hover:bg-gray-100"
-              title="Open Sidebar"
-            >
-              <FiMenu className="w-5 h-5 text-gray-600" />
-            </button>
-          )}
-          <div className="text-2xl font-bold text-[#17171F]">
-            {unslugify(chapterTitle) || "Loading..."}
+          {/* page content slot */}
+          <div
+            className={`flex-1 ${
+              isExercise ? "min-h-0  overflow-hidden" : ""
+            } flex flex-col`}
+          >
+            {children}
           </div>
         </div>
 
