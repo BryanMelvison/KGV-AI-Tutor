@@ -53,7 +53,7 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
         ],
       }));
       setIsLoading(false);
-    }, 1000);
+    }, 0);
   };
 
   const handleQuitExercise = () => {
@@ -88,7 +88,7 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
 
   const headerContent = (
     <>
-      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-4">
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center my-4">
         <h1 className="text-xl font-bold text-gray-900">{title}</h1>
 
         <div className="flex gap-3">
@@ -138,7 +138,7 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
   }
 
   return (
-    <>
+    <div className="flex flex-1 flex-col min-h-0 overflow-hidden">
       <ChatContainer
         messages={messages}
         isLoading={isLoading}
@@ -191,7 +191,7 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 };
 
