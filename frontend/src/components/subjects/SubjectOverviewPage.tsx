@@ -42,7 +42,6 @@ const SubjectOverviewPage = ({ data }: SubjectOverviewPageProps) => {
           chapter,
           exerciseLetter
         );
-        console.log("ini result cok", result);
         setQuestions(result);
         setLoading(false);
       }
