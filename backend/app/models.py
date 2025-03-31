@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, ForeignKey, DateTime, Text
+from sqlalchemy import Column, Integer, String, ForeignKey, DateTime, Text, ARRAY
 from sqlalchemy.orm import relationship
 from datetime import datetime
 from app.database import Base
@@ -36,6 +36,11 @@ class Syllabus(Base):
     subtopic_category = Column(String(100))
     statement_code = Column(String(10), nullable=False)
     statement_text = Column(Text, nullable=False)
-
-    def __repr__(self): # idk needed or not
-        return f"<Syllabus(statement_code='{self.statement_code}', topic_name='{self.topic_name}')>"
+    
+class LearningObjective(Base):
+    __tablename__ = 'learning_objectives'
+    
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    chapter = Column(Integer, nullable=False)
+    learning_objective_text = Column(Text, nullable=False)
+    syllabus_tags = Column(ARRAY(String), nullable=True)
