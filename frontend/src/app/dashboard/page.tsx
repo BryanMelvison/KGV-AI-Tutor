@@ -8,6 +8,7 @@ import { getSubjectsData, Subject } from "@/api/mockSubject";
 import { getChapterData } from "@/api/mockChapter";
 import { useQuiz } from "@/context/SmartQuizContext";
 import SmartQuizModal from "@/components/smart-quiz/SmartQuizModal";
+import { slugify } from "@/helpers/slugify";
 
 const Dashboard = () => {
   const [latestExercise, setLatestExercise] = useState<{
@@ -20,11 +21,11 @@ const Dashboard = () => {
   const [entryChapters, setEntryChapters] = useState<Record<string, string>>(
     {}
   );
+  const [loading, setLoading] = useState(true);
 
   const { isOpen, openQuiz, closeQuiz } = useQuiz();
   const router = useRouter();
 
-  // Load dashboard data
   useEffect(() => {
     const loadDashboardData = async () => {
       const fetchedSubjects = await getSubjectsData();
@@ -39,12 +40,108 @@ const Dashboard = () => {
       }
       setEntryChapters(chapterMap);
 
-      const latest = await fetchLatestExercise();
-      if (latest) setLatestExercise(latest);
+      // const latest = await fetchLatestExercise();
+      // if (latest) setLatestExercise(latest);
+
+      setLoading(false);
     };
 
     loadDashboardData();
   }, []);
+
+  const recentChats = [
+    {
+      id: "1",
+      title: "Photosynthesis Q&A",
+      subject: "Biology",
+      chapter: "Cell Biology",
+      time: "12:09 AM",
+      summary: "Discussed photosynthesis process and key concepts.",
+    },
+    {
+      id: "2",
+      title: "Algebra Basics",
+      subject: "Mathematics",
+      chapter: "Chapter 5",
+      time: "10:45 AM",
+      summary: "Covered solving equations and variables.",
+    },
+    {
+      id: "1",
+      title: "Photosynthesis Q&A",
+      subject: "Biology",
+      chapter: "Cell Biology",
+      time: "12:09 AM",
+      summary: "Discussed photosynthesis process and key concepts.",
+    },
+    {
+      id: "1",
+      title: "Photosynthesis Q&A",
+      subject: "Biology",
+      chapter: "Cell Biology",
+      time: "12:09 AM",
+      summary: "Discussed photosynthesis process and key concepts.",
+    },
+    {
+      id: "1",
+      title: "Photosynthesis Q&A",
+      subject: "Biology",
+      chapter: "Cell Biology",
+      time: "12:09 AM",
+      summary: "Discussed photosynthesis process and key concepts.",
+    },
+    {
+      id: "1",
+      title: "Photosynthesis Q&A",
+      subject: "Biology",
+      chapter: "Cell Biology",
+      time: "12:09 AM",
+      summary: "Discussed photosynthesis process and key concepts.",
+    },
+    {
+      id: "1",
+      title: "Photosynthesis Q&A",
+      subject: "Biology",
+      chapter: "Cell Biology",
+      time: "12:09 AM",
+      summary: "Discussed photosynthesis process and key concepts.",
+    },
+  ];
+
+  if (loading) {
+    return (
+      <div className="p-6 bg-[#E8E9F2] min-h-screen animate-pulse space-y-6">
+        <div className="h-8 bg-gray-300 rounded w-1/3" />
+
+        <div className="grid grid-cols-2 gap-4 mt-5">
+          {[...Array(2)].map((_, i) => (
+            <div
+              key={i}
+              className="bg-white p-5 rounded-xl shadow-md space-y-4"
+            >
+              <div className="w-14 h-14 bg-gray-200 rounded-full" />
+              <div className="h-4 bg-gray-200 rounded w-3/4" />
+              <div className="h-3 bg-gray-200 rounded w-full" />
+            </div>
+          ))}
+        </div>
+
+        <div className="grid grid-cols-2 gap-6 mt-6">
+          {[...Array(2)].map((_, i) => (
+            <div
+              key={i}
+              className="bg-white p-5 rounded-xl shadow-md space-y-3"
+            >
+              <div className="h-5 w-1/3 bg-gray-200 rounded" />
+              {[...Array(3)].map((_, j) => (
+                <div key={j} className="h-4 w-full bg-gray-100 rounded" />
+              ))}
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="p-6 bg-[#E8E9F2] min-h-screen">
@@ -67,7 +164,7 @@ const Dashboard = () => {
             alt="Exercises"
             width={60}
             height={60}
-            className="w-10 h-10 lg:w-20 lg:h-20 md:w-16 md:h-16"
+            className="w-10 h-10 lg:w-16 lg:h-16 md:w-12 md:h-12"
           />
           <div>
             <h3 className="font-bold text-[#17171F]">Exercises</h3>
@@ -96,7 +193,7 @@ const Dashboard = () => {
             alt="Smart Quiz"
             width={60}
             height={60}
-            className="w-10 h-10 lg:w-20 lg:h-20 md:w-16 md:h-16"
+            className="w-10 h-10 lg:w-16 lg:h-16 md:w-12 md:h-12"
           />
           <div>
             <h3 className="font-bold text-[#17171F]">Smart Quiz</h3>
@@ -110,37 +207,51 @@ const Dashboard = () => {
       {/* Main Content Grid */}
       <div className="grid grid-cols-2 gap-6 mt-6">
         {/* Recent Chats */}
-        <div className="bg-white p-5 rounded-xl shadow-md">
-          <h2 className="text-lg font-semibold mb-4 text-[#17171F]">
+        <div className="bg-white p-5 rounded-xl shadow-md flex flex-col gap-3">
+          <h2 className="text-lg font-semibold mb-2 text-[#17171F]">
             Most Recent Chats
           </h2>
-          {/* Chat mockup */}
-          {Array(4)
-            .fill(0)
-            .map((_, index) => (
-              <div key={index} className="mb-4 border-b pb-4 last:border-none">
-                <div className="flex items-center justify-between w-full mb-3">
-                  <div className="flex items-center space-x-2">
-                    <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                    <h3 className="font-semibold text-base text-[#17171F]">
-                      Chat Title Here
-                    </h3>
+
+          {recentChats.length > 0 ? (
+            <div className="flex flex-col space-y-3">
+              {recentChats.slice(0, 4).map((chat, index) => (
+                <div
+                  key={chat.id + index}
+                  className="cursor-pointer hover:bg-gray-50 rounded-lg transition p-2"
+                  onClick={() =>
+                    router.push(
+                      `/subjects/${chat.subject.toLowerCase()}/${slugify(
+                        chat.chapter.toLowerCase()
+                      )}/assistant-chat?sessionId=${chat.id}`
+                    )
+                  }
+                >
+                  <div className="flex items-center justify-between w-full mb-1">
+                    <div className="flex items-center space-x-2">
+                      <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+                      <h3 className="font-semibold text-base text-[#17171F]">
+                        {chat.title}
+                      </h3>
+                    </div>
+                    <span className="text-xs font-medium text-[#747479]">
+                      {chat.time}
+                    </span>
                   </div>
-                  <span className="text-xs font-medium text-[#747479]">
-                    12:09 AM
-                  </span>
+                  <p className="text-xs text-gray-500">
+                    <span className="font-semibold text-indigo-600">
+                      Subject: {chat.subject}
+                    </span>{" "}
+                    • 📖 Chapter: {chat.chapter}
+                  </p>
+                  <p className="text-sm text-[#747479] mt-1 line-clamp-2">
+                    {chat.summary}
+                  </p>
                 </div>
-                <p className="text-xs text-gray-500 mb-2">
-                  <span className="font-semibold text-indigo-600">
-                    Subject: Spoken English
-                  </span>{" "}
-                  • 📖 Chapter: 12
-                </p>
-                <p className="text-sm text-[#747479] mt-1">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
-            ))}
+              ))}
+            </div>
+          ) : (
+            <p className="text-gray-500 text-sm">No recent chats found.</p>
+          )}
         </div>
 
         {/* My Subjects */}
@@ -163,7 +274,7 @@ const Dashboard = () => {
                 className="bg-white p-4 rounded-lg shadow-sm flex flex-col space-y-3 border border-[#ECECED] cursor-pointer hover:shadow-md active:shadow-inner transition"
               >
                 <div
-                  className="w-full h-full border border-[#ECECED] p-6 lg:p-10 rounded-lg flex items-center justify-center"
+                  className="w-full h-full border border-[#ECECED] p-6 lg:p-8 rounded-lg flex items-center justify-center"
                   style={{ backgroundColor: subject.color }}
                 >
                   <Image
@@ -171,7 +282,7 @@ const Dashboard = () => {
                     alt={subject.name}
                     width={40}
                     height={40}
-                    className="w-10 h-10 lg:w-20 lg:h-20 md:w-16 md:h-16"
+                    className="w-10 h-10 lg:w-16 lg:h-16 md:w-12 md:h-12"
                   />
                 </div>
                 <span className="font-semibold text-[#17171F] text-sm">
