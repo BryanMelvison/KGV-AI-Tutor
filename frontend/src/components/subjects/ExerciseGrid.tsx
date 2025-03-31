@@ -15,12 +15,12 @@ const ExerciseGrid = ({ exercises }: { exercises: string[] }) => {
   return (
     <div>
       <h3 className="font-semibold text-lg text-gray-900 mb-4">Exercises</h3>
-      <div className="grid grid-cols-5 gap-4">
+      <div className="grid grid-cols-6 gap-4">
         {exercises.map((letter) => (
           <div
             key={letter}
             onClick={() => handleClick(letter)}
-            className={`rounded-xl text-2xl font-bold w-full aspect-square flex items-center justify-center shadow-md cursor-pointer transition
+            className={`rounded-xl text-3xl font-bold w-full aspect-square flex items-center justify-center shadow-md cursor-pointer transition
               ${
                 current === letter
                   ? "bg-purple-500 text-white"
