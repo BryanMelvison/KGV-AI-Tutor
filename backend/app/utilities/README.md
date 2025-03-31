@@ -20,7 +20,7 @@ ollama pull huihui_ai/deepseek-r1-abliterated:8b-llama-distill
 echo "FROM huihui_ai/deepseek-r1-abliterated:8b-llama-distill
 PARAMETER num_ctx 4096" > Modelfile
 
-ollama create pdfParser -f ./Modelfile
+ollama create [NAME OF MODEL e.g. QuestionGenerator] -f ./Modelfile
 
 Next, we run backend:
 uvicorn app.main:app --reload     
@@ -59,3 +59,184 @@ At the moment, this process assumes:
 ---- 
 For the vector database, 
 ollama pull bge-m3
+
+
+
+SCHEMANYA:
+
+Students:
+(PK):   uuid: student_id
+        varchar: email  [Must include email checks]
+        varchar: password_hash  [Must include email checks] -> Idea: use hashing algorithm to protect password
+
+
+
+    users {
+        uuid id PK
+        varchar email
+        varchar password_hash
+        enum role "student|teacher|admin"
+        varchar name
+        timestamp created_at
+        timestamp updated_at
+    }
+
+
+
+
+erDiagram
+
+    users {
+        uuid id PK "User ID"
+        varchar email "Unique email"
+        varchar password_hash "Bcrypt hash"
+        enum role "student|teacher|admin"
+        varchar full_name
+        jsonb metadata "Preferences/avatar"
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    subjects {
+        uuid id PK
+        varchar name "Biology/Chemistry"
+        text description
+        uuid coordinator_id FK "Lead teacher"
+    }
+
+    courses {
+        uuid id PK
+        uuid subject_id FK
+        uuid teacher_id FK
+        varchar title
+        text syllabus_text
+        integer total_hours
+        timestamp start_date
+        timestamp end_date
+    }
+
+    teachers_subjects {
+        uuid teacher_id FK
+        uuid subject_id FK
+        bool is_primary
+        timestamp certified_at
+        UNIQUE (teacher_id, subject_id)
+    }
+
+    enrollments {
+        uuid id PK
+        uuid student_id FK
+        uuid course_id FK
+        enum status "active|completed|dropped"
+        timestamp enrolled_at
+        UNIQUE (student_id, course_id)
+    }
+
+    syllabus_statements {
+        uuid id PK
+        uuid course_id FK
+        text statement
+        integer weightage "1-100"
+        integer order
+    }
+
+    syllabus_checklists {
+        uuid id PK
+        uuid enrollment_id FK
+        uuid statement_id FK
+        bool is_completed
+        timestamp completed_at
+    }
+
+    reports {
+        uuid id PK
+        uuid student_id FK
+        uuid teacher_id FK
+        uuid course_id FK
+        varchar title
+        jsonb metrics "Scores/attendance"
+        text summary
+        varchar pdf_url
+        timestamp generated_at
+    }
+
+    question_generation_jobs {
+        uuid id PK
+        uuid teacher_id FK
+        uuid course_id FK
+        varchar status "pending|processing|completed|failed"
+        jsonb parameters "Question type/difficulty"
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    users ||--o{ courses : "teaches"
+    users ||--o{ enrollments : "enrolls"
+    users ||--o{ reports : "generates"
+    courses ||--o{ syllabus_statements : "contains"
+    enrollments ||--o{ syllabus_checklists : "tracks"
+    subjects ||--o{ teachers_subjects : "qualifications"
+
+
+
+{
+  _id: ObjectId,
+  type: "multiple_choice|essay|true_false",
+  text: String,
+  course_id: UUID,
+  teacher_id: UUID,
+  generated_by: "ai|manual",
+  difficulty: Decimal,
+  concepts: [String],
+  metadata: {
+    chapter_reference: UUID,
+    textbook_page: Number,
+    bloom_taxonomy: "remember|understand|apply|analyze|evaluate|create"
+  },
+  options: [{
+    id: Number,
+    text: String,
+    is_correct: Boolean
+  }],
+  embeddings: {
+    question: [Number],
+    answer: [Number]
+  },
+  created_at: ISODate,
+  updated_at: ISODate
+}
+
+
+{
+  _id: ObjectId,
+  student_id: UUID,
+  question_id: ObjectId,
+  session_id: UUID,
+  attempt: Number,
+  answer: String|Number, // Could be text or option ID
+  feedback: {
+    score: Decimal,
+    correctness: "full|partial|none",
+    ai_analysis: String,
+    suggestions: [String]
+  },
+  metadata: {
+    time_spent: Number, // Seconds
+    devices_used: String,
+    confidence_score: Decimal
+  },
+  submitted_at: ISODate
+}
+
+
+flowchart TD
+    A[Users] -->|One-to-Many| B[Courses]
+    B -->|One-to-Many| C[Syllabus Statements]
+    C -->|One-to-Many| D[Syllabus Checklists]
+    A -->|Many-to-Many| E[Subjects via Teachers_Subjects]
+    B -->|One-to-Many| F[Enrollments]
+    F -->|One-to-Many| G[Reports]
+
+flowchart LR
+    Q[Questions] -->|Question ID| A[Answers]
+    A -->|Session ID| S[Exercise Sessions]

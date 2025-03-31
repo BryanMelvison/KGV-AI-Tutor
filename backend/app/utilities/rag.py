@@ -7,31 +7,8 @@ from pathlib import Path
 
 # Extract
 class textbookRAG:
-    def __init__(self, metadata=None, model="bge-m3", collection_name="school_collection", book_dir = None):
-        if book_dir is None:
-            self.book_dir =  Path("../utilities/book")
-        else:
-            self.book_dir = Path(book_dir)
-        self.embeddings = OllamaEmbeddings(model=model)
-        # directory of langchain_db:
-        db_dir = str("../chroma_langchain_db")
-        self.vector_store = Chroma(
-            collection_name=collection_name,
-            embedding_function=self.embeddings,
-            persist_directory=db_dir, 
-        )
-        self.metadata = metadata or None
-        self.text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=2000,           # Adjust chunk size as needed
-            chunk_overlap=100,         # Adjust overlap as needed
-            length_function=len,
-            separators=[
-                "\n\n", "\n", " ", ".", ",", "\u200b", "\uff0c", "\u3001", "\uff0e", "\u3002", "",
-            ],
-        )
-
     def __init__(self, metadata=None, model="bge-m3", collection_name="school_collection", 
-                book_dir=None, chunk_size=2000, chunk_overlap=100):
+                book_dir=None, chunk_size=1300, chunk_overlap=200):
         # Set book_dir with a safer fallback
         if book_dir is None:
             self.book_dir = Path(__file__).parent.parent / "book"
