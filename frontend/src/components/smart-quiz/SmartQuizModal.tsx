@@ -16,6 +16,7 @@ import Card from "../ui/Card";
 import CloseButton from "../ui/CloseButton";
 import Messages from "../Messages";
 import { useRef, useEffect, useState, Fragment, useCallback } from "react";
+import confetti from "canvas-confetti";
 
 interface SmartQuizModalProps {
   isOpen: boolean;
@@ -42,9 +43,11 @@ const SmartQuizModal = ({ isOpen, onClose }: SmartQuizModalProps) => {
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const [timeRemaining, setTimeRemaining] = useState(10 * 60);
   const [showTimeUpDialog, setShowTimeUpDialog] = useState(false);
+  const [isFinished, setIsFinished] = useState(false);
 
   useEffect(() => {
     if (isOpen) {
+      setIsFinished(false);
       restartQuiz();
       setTimeRemaining(10 * 60);
       setShowTimeUpDialog(false);
@@ -110,6 +113,13 @@ const SmartQuizModal = ({ isOpen, onClose }: SmartQuizModalProps) => {
       setCurrentQuestionIndex((prev) => prev + 1);
       setSelectedOption("");
       setMessages([]);
+    } else {
+      setIsFinished(true);
+      confetti({
+        particleCount: 200,
+        spread: 80,
+        origin: { y: 0.6 },
+      });
     }
   }, [
     currentQuestionIndex,
@@ -122,8 +132,14 @@ const SmartQuizModal = ({ isOpen, onClose }: SmartQuizModalProps) => {
   if (isLoading || !currentQuestion) {
     return (
       <Dialog open={isOpen} onClose={onClose} className="relative z-50">
-        <div className="fixed inset-0 flex items-center justify-center">
-          <div className="text-center">Loading...</div>
+        <div className="fixed inset-0 flex items-center justify-center bg-black/30 backdrop-blur-sm">
+          <div className="bg-white rounded-2xl shadow p-6 animate-pulse space-y-4 w-[400px] text-center">
+            <div className="h-5 bg-gray-200 rounded w-2/3 mx-auto" />
+            <div className="h-3 bg-gray-200 rounded w-1/2 mx-auto" />
+            <div className="h-3 bg-gray-100 rounded w-full" />
+            <div className="h-3 bg-gray-100 rounded w-full" />
+            <div className="h-3 bg-gray-100 rounded w-3/4 mx-auto" />
+          </div>
         </div>
       </Dialog>
     );
@@ -167,63 +183,95 @@ const SmartQuizModal = ({ isOpen, onClose }: SmartQuizModalProps) => {
                       </DialogTitle>
                     </div>
 
-                    <div className="px-6 pt-4 shrink-0">
-                      <SmartQuizHeader
-                        timeRemaining={timeRemaining}
-                        currentQuestion={currentQuestionIndex + 1}
-                        totalQuestions={questions.length}
-                      />
-                    </div>
+                    {!isFinished && (
+                      <div className="px-6 pt-4 shrink-0">
+                        <SmartQuizHeader
+                          timeRemaining={timeRemaining}
+                          currentQuestion={currentQuestionIndex + 1}
+                          totalQuestions={questions.length}
+                        />
+                      </div>
+                    )}
 
-                    <div className="flex-1 overflow-y-auto">
+                    <div
+                      className={`flex-1 overflow-y-auto ${
+                        isFinished &&
+                        "flex flex-col  justify-center items-center"
+                      }`}
+                    >
                       <div className="px-6 pt-4">
-                        <div ref={questionTitleRef}>
-                          <SmartQuizQuestion
-                            title={currentQuestion.title}
-                            description={currentQuestion.description}
-                          />
-                        </div>
-                        <SmartQuizOptions
-                          options={currentQuestion.options}
-                          selectedOption={selectedOption}
-                          onSelect={setSelectedOption}
-                        />
-                        <SelectedAnswer
-                          letter={selectedOption}
-                          title={
-                            currentQuestion.options.find(
-                              (o) => o.letter === selectedOption
-                            )?.title || ""
-                          }
-                          onSubmit={handleSubmitAnswer}
-                        />
-
-                        <div className="relative my-6">
-                          <div className="absolute inset-0 flex items-center">
-                            <div className="w-full border-t border-gray-200" />
+                        {isFinished ? (
+                          <div className="flex flex-1 flex-col items-center justify-center space-y-4 text-center">
+                            <h2 className="text-2xl font-bold text-green-600">
+                              🎉 Quiz Completed!
+                            </h2>
+                            <p className="text-gray-500">
+                              You finished all the questions, great job!
+                            </p>
+                            <p className="text-md font-semibold text-[#17171F]">
+                              Your score: {currentQuestionIndex + 1} /{" "}
+                              {questions.length}
+                            </p>
+                            <button
+                              onClick={onClose}
+                              className="px-4 py-2 bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 transition"
+                            >
+                              Close
+                            </button>
                           </div>
-                          <div className="relative flex justify-center text-sm">
-                            <span className="px-4 py-2 rounded-md text-gray-500 bg-[#F5F7FF]">
-                              Not sure? Ask AI Assistant for help!
-                            </span>
-                          </div>
-                        </div>
+                        ) : (
+                          <>
+                            <div ref={questionTitleRef}>
+                              <SmartQuizQuestion
+                                title={currentQuestion.title}
+                                description={currentQuestion.description}
+                              />
+                            </div>
+                            <SmartQuizOptions
+                              options={currentQuestion.options}
+                              selectedOption={selectedOption}
+                              onSelect={setSelectedOption}
+                            />
+                            <SelectedAnswer
+                              letter={selectedOption}
+                              title={
+                                currentQuestion.options.find(
+                                  (o) => o.letter === selectedOption
+                                )?.title || ""
+                              }
+                              onSubmit={handleSubmitAnswer}
+                            />
 
-                        <Messages
-                          messages={messages}
-                          className="max-h-[300px]"
-                        />
-                        <div ref={messagesEndRef} />
+                            <div className="relative my-6">
+                              <div className="absolute inset-0 flex items-center">
+                                <div className="w-full border-t border-gray-200" />
+                              </div>
+                              <div className="relative flex justify-center text-sm">
+                                <span className="px-4 py-2 rounded-md text-gray-500 bg-[#F5F7FF]">
+                                  Not sure? Ask AI Assistant for help!
+                                </span>
+                              </div>
+                            </div>
+
+                            <Messages
+                              messages={messages}
+                              className="max-h-[300px]"
+                            />
+                            <div ref={messagesEndRef} />
+                          </>
+                        )}
                       </div>
                     </div>
 
-                    <div className="p-4 border-t rounded-b-3xl bg-white shrink-0">
-                      <SmartQuizInput
-                        value={inputValue}
-                        onChange={setInputValue}
-                        onSubmit={handleSubmit}
-                      />
-                    </div>
+                    {!isFinished && (
+                      <div className="p-4 border-t rounded-b-3xl bg-white shrink-0">
+                        <SmartQuizInput
+                          value={inputValue}
+                          onChange={setInputValue}
+                          onSubmit={handleSubmit}
+                        />
+                      </div>
+                    )}
                   </Card>
                 </DialogPanel>
               </TransitionChild>
