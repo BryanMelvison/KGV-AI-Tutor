@@ -83,7 +83,8 @@ export function SmartQuizProvider({ children }: { children: ReactNode }) {
   const [inputValue, setInputValue] = useState("");
   const [messages, setMessages] = useState<Message[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [questions, setQuestions] = useState<Question[]>(MOCK_QUESTIONS);
+  const [questions, setQuestions] = useState<Question[]>([]);
+  const [isFinished, setIsFinished] = useState(false);
 
   const currentQuestion = useMemo(
     () => questions[currentQuestionIndex] || null,
@@ -95,15 +96,35 @@ export function SmartQuizProvider({ children }: { children: ReactNode }) {
     setInputValue("");
   }, []);
 
-  const openQuiz = useCallback(() => setIsOpen(true), []);
-  const closeQuiz = useCallback(() => setIsOpen(false), []);
+  const fetchQuestions = async (): Promise<Question[]> => {
+    // In the future replace this with API:
+    // const response = await fetch(API)
+    // return await response.json(); or smth
+    return MOCK_QUESTIONS;
+  };
 
-  const restartQuiz = useCallback(() => {
+  const restartQuiz = useCallback(async () => {
+    setIsLoading(true);
+
+    const fetchedQuestions = await fetchQuestions();
+    setQuestions(fetchedQuestions);
+
     setCurrentQuestionIndex(0);
     setSelectedOption("");
     setInputValue("");
     setMessages([]);
+
+    setIsLoading(false);
   }, []);
+
+  const openQuiz = useCallback(async () => {
+    setIsOpen(true);
+    setIsLoading(true);
+    restartQuiz();
+    setIsLoading(false);
+  }, [restartQuiz]);
+
+  const closeQuiz = useCallback(() => setIsOpen(false), []);
 
   const value = useMemo(
     () => ({

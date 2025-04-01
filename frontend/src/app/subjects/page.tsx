@@ -36,7 +36,7 @@ const SubjectsPage = () => {
       <div className="text-2xl text-[#17171F] font-bold mb-5">My Subjects</div>
       {loading ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 animate-pulse">
-          {Array(6)
+          {Array(3)
             .fill(0)
             .map((_, index) => (
               <div
