@@ -44,9 +44,9 @@ export default function SubjectChapterLayout({
   }
 
   return (
-    <div className="flex flex-col h-dvh bg-[#E8E9F2]">
+    <div className="flex flex-col h-dvh bg-sky-100">
       <div
-        className={`flex flex-1 bg-[#E8E9F2] ${
+        className={`flex flex-1 bg-sky-100 ${
           isChatPage ? "overflow-hidden" : ""
         }`}
       >

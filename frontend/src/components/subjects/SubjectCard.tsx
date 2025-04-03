@@ -43,7 +43,7 @@ const SubjectCard = ({
       <div>
         <div className="w-full bg-gray-100 h-4 rounded-full">
           <div
-            className="bg-indigo-500 h-4 rounded-full"
+            className="bg-sky-500 h-4 rounded-full"
             style={{ width: `${progress}%` }}
           />
         </div>
