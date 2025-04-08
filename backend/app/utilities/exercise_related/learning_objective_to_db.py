@@ -11,7 +11,7 @@ LearningObjective.__table__.drop(engine, checkfirst=True)
 init_db()
 
 current_dir = Path(__file__).parent
-CHAPTER_FOLDER = current_dir.parent / "book"
+CHAPTER_FOLDER = current_dir.parent / "book" 
 
 lemmatizer = WordNetLemmatizer() # for a better word matching
 
@@ -41,13 +41,15 @@ def tag_objective(objective, syllabus_entries):
     potential_matches.sort(key=lambda x: x['match_percentage'], reverse=True)
     
     tags = []
+    id = []
     if potential_matches:
         top_percentage = potential_matches[0]['match_percentage']
         
         for match in potential_matches:
             if match['match_percentage'] >= top_percentage:
                 tags.append(match['entry'].statement_code)
-    return tags if tags else None
+                id.append(match['entry'].id)
+    return tags, id if tags else None
 
 session = get_session()
 syllabus_entries = session.query(Syllabus).all()
@@ -80,18 +82,25 @@ try:
 
                     # process each objective and tag them with syllabus codes
                     for objective in objectives:
-                        tags = tag_objective(objective, syllabus_entries)
+                        tags, id = tag_objective(objective, syllabus_entries)
                         
                         ### manual mapping due to noise in syllabus
-                        if objective == "Understand the characteristics shared by living organisms": tags = ['1.1']
-                        if objective == "Describe the features common to viruses and recognise examples such as the influenza virus, the HIV virus and the tobacco mosaic virus": tags = ['1.4']
-                        if objective == "Understand the difference between eukaryotic and prokaryotic organisms": tags = ['1.2', '1.3']
+                        if objective == "Understand the characteristics shared by living organisms": 
+                            tags = ['1.1']
+                            id = [1]
+                        if objective == "Describe the features common to viruses and recognise examples such as the influenza virus, the HIV virus and the tobacco mosaic virus": 
+                            tags = ['1.4']
+                            id = [4]
+                        if objective == "Understand the difference between eukaryotic and prokaryotic organisms": 
+                            tags = ['1.2', '1.3']
+                            id = [2, 3]
                         ###            
                         
                         entry = LearningObjective(
                             chapter=chapter_num,
                             learning_objective_text=objective,
-                            syllabus_tags=tags
+                            syllabus_tags=tags,
+                            syllabus_ids= id
                         )
                         session.add(entry)
                     break 

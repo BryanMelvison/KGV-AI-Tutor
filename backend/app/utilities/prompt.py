@@ -247,3 +247,77 @@ Provide your output in JSON format:
   "hint": "Socratic hint if score < 8"
 }}
 """
+
+llm_prompt_generate_question = """
+Your task is to write distinct question and answer pairs based on the given context that will fulfill this learning objective: {learning_objective}.
+
+CRITICAL REQUIREMENT: EVERY question MUST begin with one of these IGCSE command words:
+- analyse
+- assess
+- calculate
+- comment
+- compare
+- consider
+- contrast
+- define
+- describe
+- develop
+- discuss
+- evaluate
+- explain
+- give
+- identify
+- justify
+- outline
+- predict
+- state
+- suggest
+- summarise
+
+For example, instead of "What are the causes of...", use "Identify the causes of..." or "Explain the causes of..."
+
+Context for creating questions:
+{context}
+
+You should include which statement from the text file that you use to support each answer.
+
+Respond only with valid JSON in this exact format:
+{{
+  "qa_pairs": [
+    {{
+      "question": "COMMAND_WORD rest of question...",
+      "answer": "Detailed answer",
+      "source": "The exact statement from the context that supports this answer"
+    }},
+    // Additional pairs...
+  ]
+}}
+
+Check each question to ensure it begins with one of the required command words before submitting your response.
+"""
+
+qna_critique_prompt = """
+You will be given a question, answer, and a context.
+Your task is to provide a total rating using the additive point scoring system described below.
+Points start at 0 and are accumulated based on the satisfaction of each evaluation criterion:
+
+Evaluation Criteria:
+- Groundedness: Can the question be answered from the given context? Add 1 point if the question can be answered from the context
+- Stand-alone: Is the question understandable free of any context, for someone with domain knowledge/Internet access? Add 1 point if the question is independent and can stand alone.
+- Faithfulness: The answer should be grounded in the given context. Add 1 point if the answer can be derived from the context
+- Answer Relevance: The generated answer should address the actual question that was provided. Add 1 point if the answer actually answers the question
+
+Respond only with valid JSON in this exact format:
+{{
+  "rating": (your rating, as a number between 0 and 4),
+  "eval": (your rationale for the rating, as a text)
+}}
+
+You MUST provide values for both 'rating' and 'eval' in your answer.
+
+Now here are the question, answer, and context.
+
+Question: {question}
+Answer: {answer}
+Context: {context}
+"""
