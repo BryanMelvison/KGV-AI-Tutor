@@ -44,3 +44,4 @@ class LearningObjective(Base):
     chapter = Column(Integer, nullable=False)
     learning_objective_text = Column(Text, nullable=False)
     syllabus_tags = Column(ARRAY(String), nullable=True)
+
