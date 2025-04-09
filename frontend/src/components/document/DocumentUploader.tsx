@@ -1,4 +1,3 @@
-// components/document/DocumentUploader.tsx
 "use client";
 
 import { useState } from "react";
@@ -45,11 +44,10 @@ const DocumentUploader = ({
 
   return (
     <div
-      className={`relative border-2 border-dashed rounded-lg p-6 text-center cursor-pointer
-        ${dragActive ? "border-blue-500 bg-blue-50" : "border-gray-300"}
-        ${
-          isLoading ? "opacity-50 cursor-not-allowed" : "hover:border-blue-500"
-        }`}
+      className={`relative h-full flex flex-col justify-center items-center border-2 border-dashed rounded-lg p-6 text-center cursor-pointer
+    ${dragActive ? "border-blue-500 bg-blue-50" : "border-gray-300"}
+    ${isLoading ? "opacity-50 cursor-not-allowed" : "hover:border-blue-500"}
+  `}
       onDragEnter={handleDrag}
       onDragLeave={handleDrag}
       onDragOver={handleDrag}
