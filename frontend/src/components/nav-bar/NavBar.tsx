@@ -31,7 +31,7 @@ const NavBar = () => {
   };
 
   const navItems = [
-    { name: "Dashboard", icon: <IoGridOutline />, link: "/dashboard" },
+    { name: "Dashboard", icon: <IoGridOutline />, link: "/student/dashboard" },
     { name: "Subjects", icon: <IoBookOutline />, link: "/subjects" },
     { name: "Smart Quiz", icon: <IoSparklesOutline /> },
   ];

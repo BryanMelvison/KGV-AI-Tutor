@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { Onest } from "next/font/google";
-import NavBar from "@/components/nav-bar/NavBar";
 import "./globals.css";
 import { SmartQuizProvider } from "@/context/SmartQuizContext";
 import { SubjectDataProvider } from "@/context/SubjectDataContext";
 import { AssistantChatProvider } from "@/context/AssistantChatContext";
+import { UserProvider } from "@/context/UserContext";
+import ConditionalLayout from "@/components/ConditionalLayout";
 
 const onest = Onest({
   subsets: ["latin"],
@@ -19,20 +20,21 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en" className={`${onest.variable} h-full`}>
       <body className="font-onest bg-white">
-        <SmartQuizProvider>
-          <AssistantChatProvider>
-            <SubjectDataProvider>
-              <NavBar />
-              <main className="flex-1 pl-20 h-full">{children}</main>
-            </SubjectDataProvider>
-          </AssistantChatProvider>
-        </SmartQuizProvider>
+        <UserProvider>
+          <SmartQuizProvider>
+            <AssistantChatProvider>
+              <SubjectDataProvider>
+                <ConditionalLayout>{children}</ConditionalLayout>
+              </SubjectDataProvider>
+            </AssistantChatProvider>
+          </SmartQuizProvider>
+        </UserProvider>
       </body>
     </html>
   );
