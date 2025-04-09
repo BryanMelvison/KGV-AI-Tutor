@@ -13,6 +13,8 @@
     "axios": "^1.7.9",
     "canvas-confetti": "^1.9.3",
     "framer-motion": "^12.6.3",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.1",
     "next": "15.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
