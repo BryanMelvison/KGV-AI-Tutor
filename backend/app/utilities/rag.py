@@ -4,6 +4,7 @@ from uuid import uuid4
 from langchain_core.documents import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from pathlib import Path
+from slugify import slugify
 
 # Extract
 class textbookRAG:
@@ -76,7 +77,7 @@ class textbookRAG:
                         page_content=text, 
                         metadata={
                             "subject": subject, 
-                            "chapterTitle": chapters.get(idx, f"Chapter {idx}"),
+                            "chapterTitle": slugify(chapters.get(idx, f"Chapter {idx}")),
                             "chapter": idx
                         }
                     )

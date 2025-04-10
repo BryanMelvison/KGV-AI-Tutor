@@ -28,7 +28,7 @@ export const AIResponse = async (
         chapter: chapter,
       }
     );
-    return res.data.data.response.response;
+    return res.data.data.response; // Ini ud bener, jgn diubah response nya 
   } catch (error) {
     if (axios.isAxiosError(error)) {
       throw new Error(error.response?.data?.detail || "Failed to send message");

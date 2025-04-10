@@ -111,3 +111,9 @@ class ChatService:
                 "content": msg.content
             })
         return formatted_messages
+    
+    def clear_memory(self, session_id: str):
+        if session_id in self.store:
+            del self.store[session_id]
+        else:
+            raise Exception(f"Session ID {session_id} not found.")

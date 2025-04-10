@@ -39,3 +39,4 @@ python-dotenv
 langchain-ollama
 langchain-chroma>=0.1.2
 uvloop
+python-slugify

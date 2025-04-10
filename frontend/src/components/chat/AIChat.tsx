@@ -25,6 +25,7 @@ const AIChat = () => {
 
     try {
       const response = await AIResponse(message, sessionId, subject, chapter);
+      console.log(response);
       setMessages((prev) => [...prev, { text: response, sender: "assistant" }]);
     } catch (error) {
       console.error("Error getting AI response:", error);
@@ -36,7 +37,7 @@ const AIChat = () => {
   const handleClear = async () => {
     setShowClearMessage(true);
     try {
-      await clearMemory();
+      await clearMemory(sessionId);
     } catch (error) {
       console.error("Error clearing chat:", error);
     }
