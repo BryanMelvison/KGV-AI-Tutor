@@ -9,6 +9,8 @@ import { getChapterData } from "@/api/mockChapter";
 import { useQuiz } from "@/context/SmartQuizContext";
 import SmartQuizModal from "@/components/smart-quiz/SmartQuizModal";
 import { slugify } from "@/helpers/slugify";
+import StatsCard from "@/components/StatsCard";
+import { FaBolt, FaBookOpen, FaCheckCircle, FaRobot } from "react-icons/fa";
 
 const Dashboard = () => {
   const [latestExercise, setLatestExercise] = useState<{
@@ -110,7 +112,7 @@ const Dashboard = () => {
 
   if (loading) {
     return (
-      <div className="p-6 bg-[#E8E9F2] min-h-screen animate-pulse space-y-6">
+      <div className="p-6 bg-sky-100 min-h-screen animate-pulse space-y-6">
         <div className="h-8 bg-gray-300 rounded w-1/3" />
 
         <div className="grid grid-cols-2 gap-4 mt-5">
@@ -144,10 +146,40 @@ const Dashboard = () => {
   }
 
   return (
-    <div className="p-6 bg-[#E8E9F2] min-h-screen">
+    <div className="p-6 bg-sky-100 min-h-screen">
       {/* Greeting */}
-      <div className="text-2xl text-[#17171F]">
-        Good Morning, <span className="font-bold">Nico R.</span> ✌️
+      <div className="mb-6">
+        <h1 className="text-3xl font-bold text-[#17171F] mb-1">
+          Welcome back, Nico R. ✨
+        </h1>
+        <p className="text-[#747479]">Ready to learn something new today?</p>
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <StatsCard
+          title="Syllabus Completed"
+          value="56%"
+          icon={<FaBookOpen className="text-blue-600" />}
+          color="#DBEAFE"
+        />
+        <StatsCard
+          title="Exercises Done"
+          value="134"
+          icon={<FaCheckCircle className="text-green-600" />}
+          color="#DCFCE7"
+        />
+        <StatsCard
+          title="AI Assistant Used"
+          value="29 Chats"
+          icon={<FaRobot className="text-purple-600" />}
+          color="#EDE9FE"
+        />
+        <StatsCard
+          title="Smart Quizzes"
+          value="8 Attempts"
+          icon={<FaBolt className="text-yellow-600" />}
+          color="#FEF9C3"
+        />
       </div>
 
       {/* Top Cards Section */}
@@ -171,7 +203,7 @@ const Dashboard = () => {
             {latestExercise ? (
               <p className="text-gray-500 text-sm">
                 Pick up where you left off:{" "}
-                <span className="font-semibold text-indigo-600">
+                <span className="font-semibold text-[#5DA2D5]">
                   {latestExercise.subject} - {latestExercise.name}
                 </span>
               </p>
@@ -238,7 +270,7 @@ const Dashboard = () => {
                     </span>
                   </div>
                   <p className="text-xs text-gray-500">
-                    <span className="font-semibold text-indigo-600">
+                    <span className="font-semibold text-[#5DA2D5]">
                       Subject: {chat.subject}
                     </span>{" "}
                     • 📖 Chapter: {chat.chapter}

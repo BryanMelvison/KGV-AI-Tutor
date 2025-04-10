@@ -36,7 +36,7 @@ const SubjectSidebar = ({ subjects, onCollapse }: SubjectSidebarProps) => {
         {onCollapse && (
           <button
             onClick={onCollapse}
-            className="text-gray-600 hover:text-indigo-600 transition"
+            className="text-gray-600 hover:text-sky-600 transition"
             title="Collapse sidebar"
           >
             <FiMenu className="w-5 h-5" />
@@ -52,7 +52,7 @@ const SubjectSidebar = ({ subjects, onCollapse }: SubjectSidebarProps) => {
                 prev === subject.name ? null : subject.name
               )
             }
-            className="flex justify-between items-center w-full text-sm font-semibold text-gray-800 hover:text-indigo-600"
+            className="flex justify-between items-center w-full text-sm font-semibold text-gray-800 hover:text-sky-600"
           >
             <span>{subject.name}</span>
             <FiChevronDown
@@ -73,8 +73,8 @@ const SubjectSidebar = ({ subjects, onCollapse }: SubjectSidebarProps) => {
                     className={`block px-3 py-1 rounded-md text-sm ${
                       currentSubject === subject.name.toLowerCase() &&
                       currentChapter === chapter.id
-                        ? "text-indigo-600 font-semibold"
-                        : "text-gray-700 hover:text-indigo-500"
+                        ? "text-sky-600 font-semibold"
+                        : "text-gray-700 hover:text-sky-500"
                     }`}
                   >
                     {String(index + 1).padStart(2, "0")}. {chapter.title}

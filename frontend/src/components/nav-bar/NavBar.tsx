@@ -31,7 +31,7 @@ const NavBar = () => {
   };
 
   const navItems = [
-    { name: "Dashboard", icon: <IoGridOutline />, link: "/dashboard" },
+    { name: "Dashboard", icon: <IoGridOutline />, link: "/student/dashboard" },
     { name: "Subjects", icon: <IoBookOutline />, link: "/subjects" },
     { name: "Smart Quiz", icon: <IoSparklesOutline /> },
   ];
@@ -40,7 +40,7 @@ const NavBar = () => {
     {
       name: "Biology",
       code: "B",
-      bg: "bg-gradient-to-r from-[#12172C] to-[#3A3F5C]",
+      bg: "bg-gradient-to-r from-[#A5F3FC] to-[#67E8F9]",
       link: "/subjects/biology",
       topics: [
         { name: "Cell Biology", link: "/subjects/biology/cell-biology" },
@@ -54,7 +54,7 @@ const NavBar = () => {
     {
       name: "Chemistry",
       code: "C",
-      bg: "bg-gradient-to-r from-[#5A3DBE] to-[#8A6DDE]",
+      bg: "bg-gradient-to-r from-[#FBCFE8] to-[#F9A8D4]",
       link: "/subjects/chemistry",
       topics: [
         {
@@ -71,7 +71,7 @@ const NavBar = () => {
     {
       name: "Physics",
       code: "P",
-      bg: "bg-gradient-to-r from-[#A33F7D] to-[#D36F9D]",
+      bg: "bg-gradient-to-r from-[#FEF3C7] to-[#FDE68A]",
       link: "/subjects/physics",
       topics: [
         { name: "Mechanics", link: "/subjects/physics/mechanics" },
@@ -113,7 +113,7 @@ const NavBar = () => {
                   <div
                     className={`text-2xl ${
                       active === item.name.toLowerCase() || isOpen
-                        ? "text-indigo-600"
+                        ? "text-sky-600"
                         : "text-gray-500"
                     }`}
                   >
@@ -122,7 +122,7 @@ const NavBar = () => {
                   <span
                     className={`text-xs ${
                       active === item.name.toLowerCase() || isOpen
-                        ? "text-indigo-600 font-semibold"
+                        ? "text-sky-600 font-semibold"
                         : "text-gray-500"
                     }`}
                   >
@@ -138,7 +138,7 @@ const NavBar = () => {
                   <div
                     className={`text-2xl ${
                       active === item.name.toLowerCase()
-                        ? "text-indigo-600"
+                        ? "text-sky-600"
                         : "text-gray-500"
                     }`}
                   >
@@ -147,7 +147,7 @@ const NavBar = () => {
                   <span
                     className={`text-xs ${
                       active === item.name.toLowerCase()
-                        ? "text-indigo-600 font-semibold"
+                        ? "text-sky-600 font-semibold"
                         : "text-gray-500"
                     }`}
                   >
@@ -188,7 +188,7 @@ const NavBar = () => {
                             <Link
                               key={topic.name}
                               href={topic.link}
-                              className="block text-gray-600 hover:text-indigo-600 text-sm p-1"
+                              className="block text-gray-600 hover:text-sky-600 text-sm p-1"
                             >
                               {topic.name}
                             </Link>
@@ -212,7 +212,7 @@ const NavBar = () => {
           >
             <div
               className={`text-3xl ${
-                active === "help" ? "text-indigo-600" : "text-gray-500"
+                active === "help" ? "text-sky-600" : "text-gray-500"
               }`}
             >
               <IoHelpCircleOutline />
@@ -220,7 +220,7 @@ const NavBar = () => {
             <span
               className={`text-xs ${
                 active === "help"
-                  ? "text-indigo-600 font-semibold"
+                  ? "text-sky-600 font-semibold"
                   : "text-gray-500"
               }`}
             >

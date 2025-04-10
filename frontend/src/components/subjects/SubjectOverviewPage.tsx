@@ -10,6 +10,7 @@ import ExerciseChat from "../chat/ExerciseChat";
 import { fetchExerciseQuestions } from "@/api/exerciseApi";
 import { ChapterData } from "@/api/mockChapter";
 import { unslugify } from "@/helpers/slugify";
+import UnlockBox from "./UnlockBox";
 
 interface SubjectOverviewPageProps {
   data: ChapterData;
@@ -71,9 +72,12 @@ const SubjectOverviewPage = ({ data }: SubjectOverviewPageProps) => {
   return (
     <div className="space-y-6">
       <MasteryChecklist items={data.mastery} />
-      <div className="lg:col-span-2 space-y-6">
-        <ExerciseGrid exercises={data.exercises} />
-        <ProgressBar progress={data.progress} />
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="lg:col-span-2 space-y-6">
+          <ExerciseGrid exercises={data.exercises} />
+          <ProgressBar progress={data.progress} />
+        </div>
+        <UnlockBox />
       </div>
       <AssistantChatSummaries chats={data.chats} />
     </div>

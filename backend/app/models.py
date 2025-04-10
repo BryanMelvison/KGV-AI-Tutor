@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, ForeignKey, DateTime, Text, ARRAY
+from sqlalchemy import Column, Integer, String, ForeignKey, DateTime, Text, ARRAY, Table, PrimaryKeyConstraint
 from sqlalchemy.orm import relationship
 from datetime import datetime
 from app.database import Base
@@ -44,4 +44,21 @@ class LearningObjective(Base):
     chapter = Column(Integer, nullable=False)
     learning_objective_text = Column(Text, nullable=False)
     syllabus_tags = Column(ARRAY(String), nullable=True)
+    syllabus_ids = Column(ARRAY(Integer), nullable=False)
 
+    # relationship
+    question_answers = relationship("QuestionAnswer", back_populates="learning_objective")
+
+class QuestionAnswer(Base):
+    __tablename__ = 'question_answers'
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    learning_objective_id = Column(Integer, ForeignKey('learning_objectives.id'), nullable=False)
+    question_text = Column(String, nullable=False)
+    answer_text = Column(String, nullable=False)
+    source_text = Column(String, nullable=False)
+    rating_score = Column(Integer, default=0)
+    evaluation_notes = Column(String, default="Not evaluated")
+
+    # relationship
+    learning_objective = relationship("LearningObjective", back_populates="question_answers")
