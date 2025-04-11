@@ -5,6 +5,7 @@ import ChatContainer from "./ChatContainer";
 import { Message } from "@/interfaces/Message";
 import { useParams, useSearchParams } from "next/navigation";
 import { useRouter } from "next/navigation";
+import toast from "react-hot-toast";
 
 interface Question {
   number: string;
@@ -26,12 +27,17 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
   }>({});
   const [isLoading, setIsLoading] = useState(false);
   const [isSelectorOpen, setIsSelectorOpen] = useState(false);
+  const [showConfirmQuit, setShowConfirmQuit] = useState(false);
 
   const currentQuestion = questions[currentQuestionIndex];
   const messages = chatHistories[currentQuestionIndex] || [];
 
   const searchParams = useSearchParams();
   const selectedExercise = searchParams.get("exercise") || "A";
+
+  const allCompleted = questions.every(
+    (_, index) => chatHistories[index]?.length > 0
+  );
 
   const handleSend = (message: string) => {
     if (!message.trim()) return;
@@ -60,6 +66,21 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
     const subject = params.subject;
     const chapter = params.chapter;
 
+    if (allCompleted) {
+      toast.success("Exercise submitted successfully!");
+      if (typeof subject === "string" && typeof chapter === "string") {
+        router.push(`/subjects/${subject}/${chapter}`);
+      }
+      // TBC: Add exercise submission logic
+    } else {
+      setShowConfirmQuit(true);
+    }
+  };
+
+  const confirmQuit = () => {
+    const subject = params.subject;
+    const chapter = params.chapter;
+    setShowConfirmQuit(false);
     if (typeof subject === "string" && typeof chapter === "string") {
       router.push(`/subjects/${subject}/${chapter}`);
     }
@@ -95,28 +116,47 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
           <button
             onClick={goToPrevious}
             disabled={currentQuestionIndex === 0}
-            className="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg disabled:opacity-50"
+            className={`px-4 py-2 rounded-lg font-medium transition-all
+            bg-gray-200 text-gray-800
+            hover:bg-gray-300 hover:shadow
+            active:bg-gray-400 active:scale-[0.98]
+            disabled:opacity-50 disabled:cursor-not-allowed`}
           >
             Previous
           </button>
           <button
             onClick={openSelector}
-            className="px-4 py-2 bg-blue-200 text-blue-800 rounded-lg"
+            className={`px-4 py-2 rounded-lg font-medium transition-all
+            bg-blue-200 text-blue-800
+            hover:bg-blue-300 hover:shadow
+            active:bg-blue-400 active:scale-[0.98]
+            focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2`}
           >
             Q{currentQuestion.number} {isCompleted ? "(Done)" : ""}
           </button>
+
           <button
             onClick={goToNext}
             disabled={currentQuestionIndex === questions.length - 1}
-            className="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg disabled:opacity-50"
+            className={`px-4 py-2 rounded-lg font-medium transition-all
+            bg-gray-200 text-gray-800
+            hover:bg-gray-300 hover:shadow
+            active:bg-gray-400 active:scale-[0.98]
+            disabled:opacity-50 disabled:cursor-not-allowed`}
           >
             Next
           </button>
           <button
-            className="px-4 py-2 text-red-500 bg-red-50 rounded-lg hover:bg-red-100 transition-colors"
             onClick={handleQuitExercise}
+            className={`px-4 py-2 rounded-lg transition-colors font-medium
+            ${
+              allCompleted
+                ? "bg-green-50 text-green-600 hover:bg-green-100"
+                : "bg-red-50 text-red-500 hover:bg-red-100"
+            }
+          `}
           >
-            Quit Exercise
+            {allCompleted ? "Submit Exercise" : "Quit Exercise"}
           </button>
         </div>
       </div>
@@ -186,6 +226,29 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
                 className="px-4 py-2 bg-gray-300 text-gray-800 rounded-lg"
               >
                 Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+      {showConfirmQuit && (
+        <div className="fixed inset-0 bg-black/30 z-50 flex items-center justify-center">
+          <div className="bg-white p-6 rounded-xl shadow-lg max-w-sm w-full text-center space-y-4">
+            <h3 className="text-lg font-semibold text-red-600">
+              Are you sure you want to quit?
+            </h3>
+            <div className="flex justify-center gap-3 pt-2">
+              <button
+                onClick={() => setShowConfirmQuit(false)}
+                className="px-4 py-2 rounded-md text-sm text-gray-800 bg-gray-300 hover:bg-gray-400"
+              >
+                Cancel
+              </button>
+              <button
+                onClick={confirmQuit}
+                className="px-4 py-2 rounded-md bg-red-500 text-white text-sm hover:bg-red-600 transition"
+              >
+                Yes
               </button>
             </div>
           </div>
