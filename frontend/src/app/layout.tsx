@@ -6,6 +6,7 @@ import { SubjectDataProvider } from "@/context/SubjectDataContext";
 import { AssistantChatProvider } from "@/context/AssistantChatContext";
 import { UserProvider } from "@/context/UserContext";
 import ConditionalLayout from "@/components/ConditionalLayout";
+import { Toaster } from "react-hot-toast";
 
 const onest = Onest({
   subsets: ["latin"],
@@ -31,6 +32,11 @@ export default function RootLayout({
             <AssistantChatProvider>
               <SubjectDataProvider>
                 <ConditionalLayout>{children}</ConditionalLayout>
+                <Toaster
+                  position="top-center"
+                  toastOptions={{ duration: 3000 }}
+                />
+                ;
               </SubjectDataProvider>
             </AssistantChatProvider>
           </SmartQuizProvider>
