@@ -13,6 +13,9 @@ import SmartQuizModal from "../smart-quiz/SmartQuizModal";
 import { useQuiz } from "@/context/SmartQuizContext";
 import { getSubjectsData, Subject } from "@/api/mockSubject";
 import { getChapterData } from "@/api/mockChapter";
+import Image from "next/image";
+import { useRouter } from "next/navigation";
+import { useUser } from "@/context/UserContext";
 
 const NavBar = () => {
   const [loading, setLoading] = useState(true);
@@ -26,6 +29,13 @@ const NavBar = () => {
   >({});
 
   const { isOpen, openQuiz, closeQuiz } = useQuiz();
+  const { logout } = useUser();
+  const router = useRouter();
+
+  const handleLogout = () => {
+    logout();
+    router.push("/login");
+  };
 
   useEffect(() => {
     const fetchSubjects = async () => {
@@ -63,6 +73,15 @@ const NavBar = () => {
   return (
     <div className="relative">
       <div className="fixed top-0 left-0 h-screen bg-white border-r shadow-md py-5 transition-all duration-300 w-20">
+        <div className="flex justify-center mb-6">
+          <Image
+            src="/logo-square.svg"
+            alt="App Logo"
+            width={40}
+            height={40}
+            className="w-10 h-10"
+          />
+        </div>
         <div className="space-y-6 relative">
           {navItems.map((item) => (
             <div
@@ -195,7 +214,9 @@ const NavBar = () => {
           ))}
         </div>
 
-        <div className="absolute bottom-5 left-0 w-full flex justify-center">
+        {/* Note: bottom-32, bottom-20, bottom-5 */}
+        {/* Sunset Help button for now */}
+        {/* <div className="absolute bottom-5 left-0 w-full flex justify-center">
           <Link
             href="/help"
             className="flex flex-col items-center gap-1"
@@ -218,6 +239,42 @@ const NavBar = () => {
               Help
             </span>
           </Link>
+        </div>*/}
+
+        {/* Placeholder for Profile */}
+        {/* <div className="absolute bottom-20 left-0 w-full flex justify-center">
+          <Link
+            href="/student/profile"
+            className="flex flex-col items-center gap-1 text-gray-500 hover:text-sky-600"
+          >
+            <img
+              src="/avatar-placeholder.png"
+              className="w-6 h-6 rounded-full"
+            />
+            <span className="text-xs">Profile</span>
+          </Link>
+        </div> */}
+
+        <div className="absolute bottom-5 left-0 w-full flex justify-center">
+          <button
+            onClick={handleLogout}
+            className="flex flex-col items-center gap-1 text-gray-500 hover:text-red-500 transition"
+          >
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth={2}
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1m0-10v1m0-1V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h6a2 2 0 002-2v-1"
+              />
+            </svg>
+            <span className="text-xs">Logout</span>
+          </button>
         </div>
       </div>
 
