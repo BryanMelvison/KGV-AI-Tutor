@@ -214,7 +214,7 @@ const SmartQuizModal = ({ isOpen, onClose }: SmartQuizModalProps) => {
                             </p>
                             <button
                               onClick={onClose}
-                              className="px-4 py-2 bg-indigo-500 text-white rounded-lg hover:bg-sky-600 transition"
+                              className="px-4 py-2 bg-sky-500 text-white rounded-lg hover:bg-sky-600 transition"
                             >
                               Close
                             </button>

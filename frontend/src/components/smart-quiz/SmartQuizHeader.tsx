@@ -39,9 +39,9 @@ const SmartQuizHeader = ({
             Time Left: {formattedTime}
           </span>
         </div>
-        <div className="h-1 flex-1 bg-blue-100 rounded">
+        <div className="h-1 flex-1 bg-sky-100 rounded">
           <div
-            className="h-full bg-blue-500 rounded transition-all duration-300 ease-in-out"
+            className="h-full bg-sky-500 rounded transition-all duration-300 ease-in-out"
             style={{ width: `${progress}%` }}
           />
         </div>

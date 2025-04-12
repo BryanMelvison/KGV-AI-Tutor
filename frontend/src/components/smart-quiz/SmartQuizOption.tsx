@@ -19,8 +19,8 @@ const SmartQuizOption = ({
       onClick={onClick}
       className={`p-4 rounded-xl border text-left  transition-colors bg-white ${
         isSelected
-          ? "border-blue-500 bg-blue-50"
-          : "border-gray-200 hover:border-blue-500"
+          ? "border-sky-500 bg-sky-50"
+          : "border-gray-200 hover:border-sky-500"
       }`}
     >
       {option.letter}. {option.title}
