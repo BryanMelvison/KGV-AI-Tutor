@@ -29,7 +29,7 @@ export default function TeacherDashboard() {
   };
 
   return (
-    <div className="min-h-screen bg-sky-100">
+    <div className="min-h-screen bg-gradient-to-br from-blue-100 via-white to-blue-200">
       <header className="flex items-center justify-between px-6 py-4 bg-white shadow-md ">
         <Image
           src="/logo.svg"

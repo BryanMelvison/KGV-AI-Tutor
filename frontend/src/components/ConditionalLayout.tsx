@@ -9,10 +9,12 @@ const ConditionalLayout = ({ children }: { children: React.ReactNode }) => {
   const pathname = usePathname();
 
   const isLoginPage = pathname === "/login";
+  const isTeacher = user?.role === "teacher";
+  const shouldShowNav = !isTeacher && !isLoginPage;
 
-  if (!isLoginPage && user?.role === undefined) {
+  if (!shouldShowNav && !isLoginPage && user?.role === undefined) {
     return (
-      <div className="p-6 bg-emerald-50 min-h-screen animate-pulse space-y-6">
+      <div className="p-6 bg-gradient-to-br from-blue-100 via-white to-blue-200 min-h-screen animate-pulse space-y-6">
         <div className="h-8 bg-gray-300 rounded w-1/3" />
 
         <div className="grid grid-cols-2 gap-4 mt-5">
@@ -44,9 +46,6 @@ const ConditionalLayout = ({ children }: { children: React.ReactNode }) => {
       </div>
     );
   }
-
-  const isTeacher = user?.role === "teacher";
-  const shouldShowNav = !isTeacher && !isLoginPage;
 
   return (
     <>
