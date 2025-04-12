@@ -37,7 +37,7 @@ const SubjectCard = ({
       </div>
 
       <div>
-        <h3 className="font-bold text-lg text-[#17171F]">{name}</h3>
+        <h3 className="font-bold text-lg ">{name}</h3>
       </div>
 
       <div>
@@ -48,7 +48,7 @@ const SubjectCard = ({
           />
         </div>
         <div className="flex justify-between text-xs mt-1">
-          <span className="text-[#17171F]">{progress}%</span>
+          <span className="">{progress}%</span>
           <span className="text-gray-500">100%</span>
         </div>
       </div>

@@ -45,7 +45,7 @@ const ClassList = ({ selectedClass }: { selectedClass: string }) => {
           placeholder="Search by name or ID..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          className="w-full px-4 py-2 text-[#17171F] border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-violet-400 text-sm"
+          className="w-full px-4 py-2  border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-violet-400 text-sm"
         />
       </div>
 

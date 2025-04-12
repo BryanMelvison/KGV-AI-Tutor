@@ -149,9 +149,7 @@ const Dashboard = () => {
     <div className="p-6 bg-gradient-to-br from-blue-100 via-white to-blue-200 min-h-screen">
       {/* Greeting */}
       <div className="mb-6">
-        <h1 className="text-3xl font-bold text-[#17171F] mb-1">
-          Welcome back, Nico R. ✨
-        </h1>
+        <h1 className="text-3xl font-bold  mb-1">Welcome back, Nico R. ✨</h1>
         <p className="text-[#747479]">Ready to learn something new today?</p>
       </div>
 
@@ -199,7 +197,7 @@ const Dashboard = () => {
             className="w-10 h-10 lg:w-16 lg:h-16 md:w-12 md:h-12"
           />
           <div>
-            <h3 className="font-bold text-[#17171F]">Exercises</h3>
+            <h3 className="font-bold ">Exercises</h3>
             {latestExercise ? (
               <p className="text-gray-500 text-sm">
                 Pick up where you left off:{" "}
@@ -228,7 +226,7 @@ const Dashboard = () => {
             className="w-10 h-10 lg:w-16 lg:h-16 md:w-12 md:h-12"
           />
           <div>
-            <h3 className="font-bold text-[#17171F]">Smart Quiz</h3>
+            <h3 className="font-bold ">Smart Quiz</h3>
             <p className="text-gray-500 text-sm">
               Train your brain, retain the gain
             </p>
@@ -240,9 +238,7 @@ const Dashboard = () => {
       <div className="grid grid-cols-2 gap-6 mt-6">
         {/* Recent Chats */}
         <div className="bg-white p-5 rounded-xl shadow-md flex flex-col gap-3">
-          <h2 className="text-lg font-semibold mb-2 text-[#17171F]">
-            Most Recent Chats
-          </h2>
+          <h2 className="text-lg font-semibold mb-2 ">Most Recent Chats</h2>
 
           {recentChats.length > 0 ? (
             <div className="flex flex-col space-y-3">
@@ -261,9 +257,7 @@ const Dashboard = () => {
                   <div className="flex items-center justify-between w-full mb-1">
                     <div className="flex items-center space-x-2">
                       <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                      <h3 className="font-semibold text-base text-[#17171F]">
-                        {chat.title}
-                      </h3>
+                      <h3 className="font-semibold text-base ">{chat.title}</h3>
                     </div>
                     <span className="text-xs font-medium text-[#747479]">
                       {chat.time}
@@ -288,9 +282,7 @@ const Dashboard = () => {
 
         {/* My Subjects */}
         <div className="bg-white p-5 rounded-xl shadow-md">
-          <h2 className="text-lg font-semibold mb-4 text-[#17171F]">
-            My Subjects
-          </h2>
+          <h2 className="text-lg font-semibold mb-4 ">My Subjects</h2>
 
           <div className="grid grid-cols-2 gap-4">
             {subjects.map((subject) => (
@@ -317,9 +309,7 @@ const Dashboard = () => {
                     className="w-10 h-10 lg:w-16 lg:h-16 md:w-12 md:h-12"
                   />
                 </div>
-                <span className="font-semibold text-[#17171F] text-sm">
-                  {subject.name}
-                </span>
+                <span className="font-semibold  text-sm">{subject.name}</span>
               </div>
             ))}
           </div>

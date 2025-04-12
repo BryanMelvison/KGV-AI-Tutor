@@ -24,9 +24,7 @@ const AssistantChatSummaries = () => {
   return (
     <div className="bg-white p-5 rounded-xl shadow-md flex flex-col">
       <div className="flex justify-between items-center mb-4">
-        <h2 className="text-lg font-semibold text-[#17171F]">
-          Assistant Chats
-        </h2>
+        <h2 className="text-lg font-semibold ">Assistant Chats</h2>
         <button
           className="text-sm text-blue-600 hover:underline"
           onClick={() => setIsModalOpen(true)}
@@ -43,9 +41,7 @@ const AssistantChatSummaries = () => {
             className="block border-b last:border-none last:mb-0 hover:bg-gray-50 rounded p-3 transition"
           >
             <div className="flex justify-between items-center">
-              <h3 className="font-semibold text-base text-[#17171F]">
-                {chat.title}
-              </h3>
+              <h3 className="font-semibold text-base ">{chat.title}</h3>
               <span className="text-xs text-[#747479]">{chat.time}</span>
             </div>
             <p className="text-sm text-[#747479]">{chat.summary}</p>

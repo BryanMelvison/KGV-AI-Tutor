@@ -32,7 +32,7 @@ const SubjectSidebar = ({ subjects, onCollapse }: SubjectSidebarProps) => {
   return (
     <aside className="w-64 bg-white border-r p-4 space-y-4 transition-all duration-300">
       <div className="flex justify-between items-center">
-        <h2 className="text-lg font-bold text-[#17171F]">My Subjects</h2>
+        <h2 className="text-lg font-bold ">My Subjects</h2>
         {onCollapse && (
           <button
             onClick={onCollapse}

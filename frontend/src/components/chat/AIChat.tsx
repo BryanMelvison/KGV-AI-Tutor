@@ -58,7 +58,7 @@ const AIChat = () => {
         </div>
       )}
       <div>
-        <h2 className="text-2xl font-semibold text-[#17171F]">AI Chat</h2>
+        <h2 className="text-2xl font-semibold ">AI Chat</h2>
         <p className="text-gray-500">Chat with our AI assistant</p>
       </div>
     </div>

@@ -178,7 +178,7 @@ const SmartQuizModal = ({ isOpen, onClose }: SmartQuizModalProps) => {
                       <div className="absolute right-4">
                         <CloseButton onClick={onClose} />
                       </div>
-                      <DialogTitle className="w-full text-center text-xl font-semibold text-[#17171F]">
+                      <DialogTitle className="w-full text-center text-xl font-semibold ">
                         Smart Quiz
                       </DialogTitle>
                     </div>
@@ -208,7 +208,7 @@ const SmartQuizModal = ({ isOpen, onClose }: SmartQuizModalProps) => {
                             <p className="text-gray-500">
                               You finished all the questions, great job!
                             </p>
-                            <p className="text-md font-semibold text-[#17171F]">
+                            <p className="text-md font-semibold ">
                               Your score: {currentQuestionIndex + 1} /{" "}
                               {questions.length}
                             </p>

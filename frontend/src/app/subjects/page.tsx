@@ -33,7 +33,7 @@ const SubjectsPage = () => {
 
   return (
     <div className="p-6 bg-gradient-to-br from-blue-100 via-white to-blue-200 min-h-screen">
-      <div className="text-2xl text-[#17171F] font-bold mb-5">My Subjects</div>
+      <div className="text-2xl  font-bold mb-5">My Subjects</div>
       {loading ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 animate-pulse">
           {Array(3)

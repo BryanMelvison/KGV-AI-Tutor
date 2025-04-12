@@ -35,11 +35,7 @@ const SmartQuizHeader = ({
               d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
             />
           </svg>
-          <span
-            className={`text-[#17171F] ${
-              timeRemaining <= 60 ? "text-red-500" : ""
-            }`}
-          >
+          <span className={` ${timeRemaining <= 60 ? "text-red-500" : ""}`}>
             Time Left: {formattedTime}
           </span>
         </div>
