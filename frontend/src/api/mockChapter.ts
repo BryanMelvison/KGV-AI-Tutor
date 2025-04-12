@@ -6,7 +6,7 @@ export interface ChapterData {
     id: string;
     completed: boolean;
     secretLetter: string;
-  };
+  }[];
   progress: number;
   chats: {
     title: string;
