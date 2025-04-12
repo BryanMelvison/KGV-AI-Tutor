@@ -10,7 +10,7 @@ const SelectedAnswer = ({ letter, title, onSubmit }: SelectedAnswerProps) => {
       <div className="text-gray-600">
         Selected Answer:
         {letter && (
-          <span className="ml-2 bg-gray-900 text-white px-4 py-2 rounded-lg">
+          <span className="ml-2 bg-sky-900 text-white px-4 py-2 rounded-lg">
             {letter}. {title}
           </span>
         )}
@@ -20,7 +20,7 @@ const SelectedAnswer = ({ letter, title, onSubmit }: SelectedAnswerProps) => {
         disabled={!letter}
         className={`px-6 py-2 rounded-lg transition-colors ${
           letter
-            ? "bg-blue-500 hover:bg-blue-600 text-white cursor-pointer"
+            ? "bg-sky-500 hover:bg-sky-600 text-white cursor-pointer"
             : "bg-gray-200 text-gray-400 cursor-not-allowed"
         }`}
       >

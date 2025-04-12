@@ -19,12 +19,12 @@ const SmartQuizInput = ({ value, onChange, onSubmit }: SmartQuizInputProps) => {
         value={value}
         onChange={(e) => onChange(e.target.value)}
         onKeyPress={handleKeyPress}
-        placeholder="Type here"
-        className="flex-1 p-3 rounded-xl border border-gray-200 text-[#747479] focus:border-blue-500 outline-none"
+        placeholder="Type here..."
+        className="flex-1 p-3 rounded-xl border border-gray-200 text-[#747479] focus:border-sky-500 outline-none"
       />
       <button
         onClick={onSubmit}
-        className="p-3 bg-blue-500 text-white rounded-xl hover:bg-blue-600 transition-colors"
+        className="p-3 bg-sky-500 text-white rounded-xl hover:bg-sky-600 transition-colors"
       >
         <svg
           className="w-5 h-5"

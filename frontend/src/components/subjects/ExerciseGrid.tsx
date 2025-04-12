@@ -30,9 +30,7 @@ const ExerciseGrid = ({ exercises }: { exercises: Exercise[] }) => {
 
   return (
     <div>
-      <h3 className="font-semibold text-lg text-yellow-700 mb-4">
-        Your Challenges
-      </h3>
+      <h3 className="font-semibold text-lg  mb-4">Your Exercises</h3>
       <div className="grid grid-cols-4 gap-4">
         {exercises.map((exercise, i) => (
           <div

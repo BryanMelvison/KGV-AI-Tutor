@@ -55,7 +55,7 @@ const MetadataModal = ({ onClose }: { onClose: () => void }) => {
           <input
             value={subject}
             onChange={(e) => setSubject(e.target.value)}
-            className="w-full text-[#17171F] border rounded-md p-2 text-sm focus:ring-2 focus:ring-blue-400 focus:outline-none"
+            className="w-full  border rounded-md p-2 text-sm focus:ring-2 focus:ring-blue-400 focus:outline-none"
             placeholder="e.g., Biology"
           />
         </div>
@@ -70,7 +70,7 @@ const MetadataModal = ({ onClose }: { onClose: () => void }) => {
             min={1}
             value={totalChapters}
             onChange={(e) => setTotalChapters(Number(e.target.value))}
-            className="w-full border text-[#17171F] rounded-md p-2 text-sm focus:ring-2 focus:ring-blue-400 focus:outline-none"
+            className="w-full border  rounded-md p-2 text-sm focus:ring-2 focus:ring-blue-400 focus:outline-none"
             placeholder="e.g., 21"
           />
         </div>
@@ -90,7 +90,7 @@ const MetadataModal = ({ onClose }: { onClose: () => void }) => {
                   type="text"
                   value={chapter.title}
                   onChange={(e) => handleChange(index, e.target.value)}
-                  className="w-full border text-[#17171F] rounded-md p-2 text-sm focus:ring-2 focus:ring-blue-400 focus:outline-none"
+                  className="w-full border  rounded-md p-2 text-sm focus:ring-2 focus:ring-blue-400 focus:outline-none"
                   placeholder={`Enter title for Chapter ${chapter.chapterNumber}`}
                 />
               </div>

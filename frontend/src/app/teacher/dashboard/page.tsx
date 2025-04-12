@@ -29,7 +29,7 @@ export default function TeacherDashboard() {
   };
 
   return (
-    <div className="min-h-screen bg-sky-100">
+    <div className="min-h-screen bg-gradient-to-br from-blue-100 via-white to-blue-200">
       <header className="flex items-center justify-between px-6 py-4 bg-white shadow-md ">
         <Image
           src="/logo.svg"
@@ -48,7 +48,7 @@ export default function TeacherDashboard() {
       </header>
 
       <main className="p-8">
-        <h1 className="text-3xl font-bold text-[#17171F] mb-1">
+        <h1 className="text-3xl font-bold  mb-1">
           Welcome back, {teacherName}. ✨
         </h1>
         <p className="text-[#747479] mb-6 text-sm">
@@ -88,7 +88,7 @@ export default function TeacherDashboard() {
                         setSelectedClass(cls);
                         setShowClassMenu(false);
                       }}
-                      className="block text-[#17171F] w-full px-4 py-2 text-sm text-left hover:bg-indigo-50"
+                      className="block  w-full px-4 py-2 text-sm text-left hover:bg-indigo-50"
                     >
                       {cls}
                     </button>
@@ -103,9 +103,7 @@ export default function TeacherDashboard() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Upload Card */}
           <div className="bg-white p-6 rounded-2xl shadow-md h-full flex flex-col">
-            <h2 className="text-xl font-semibold text-[#17171F] mb-4">
-              Upload a Textbook
-            </h2>
+            <h2 className="text-xl font-semibold  mb-4">Upload a Textbook</h2>
             <div className="flex-1">
               <DocumentUploader onUpload={handleUpload} />
             </div>
@@ -113,7 +111,7 @@ export default function TeacherDashboard() {
 
           {/* Report Card */}
           <div className="bg-white p-6 rounded-2xl shadow-md h-full flex flex-col">
-            <h2 className="text-xl font-semibold text-[#17171F] mb-4">
+            <h2 className="text-xl font-semibold  mb-4">
               Overview Reports for {selectedClass}
             </h2>
             <div className="flex-1">
@@ -124,7 +122,7 @@ export default function TeacherDashboard() {
 
         {/* Class List Card */}
         <div className="mt-6 bg-white p-6 rounded-2xl shadow-md">
-          <h2 className="text-xl font-semibold text-[#17171F] mb-4">
+          <h2 className="text-xl font-semibold  mb-4">
             Students in {selectedClass}
           </h2>
           <ClassList selectedClass={selectedClass} />
