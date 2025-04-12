@@ -33,7 +33,7 @@ export default function TeacherDashboard() {
       <header className="flex items-center justify-between px-6 py-4 bg-white shadow-md ">
         <Image
           src="/logo.svg"
-          alt="KGV AI Tutor Logo"
+          alt="AI Need Help Logo"
           width={200}
           height={200}
         />
