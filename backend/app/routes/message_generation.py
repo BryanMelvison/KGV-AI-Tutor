@@ -24,7 +24,6 @@ def process_message(request: MessageRequest):
             subject=request.subject,
             chapter=request.chapter
         )
-        print(response)
         return {
             "status": "success",
             "data": {
