@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import { useUser } from "@/context/UserContext";
 import { FaSpinner } from "react-icons/fa";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
-import { loginUser } from "@/routes/login";
+import { loginUser } from "@/api/auth";
 import axios from "axios";
 
 export default function RealLoginPage() {
@@ -26,24 +26,21 @@ export default function RealLoginPage() {
   }, []);
 
   const handleLogin = async () => {
-    if (!email || !password) {
-      setError("Please fill in all fields.");
-      return;
-    }
+    if (!email || !password) return setError("Please fill in all fields.");
 
     setLoading(true);
     setError("");
 
     try {
-      const response = await loginUser(email, password);
-
-      const data = response.data; // {status, message, role, displayName}
-      login({ displayName: data.displayName, role: data.role });
-      router.push(`/${data.role}/dashboard`);
+      const res = await loginUser(email, password);
+      login({ displayName: res.displayName, role: res.role }, res.token);
+      router.push(`/${res.role}/dashboard`);
     } catch (err) {
       if (axios.isAxiosError(err)) {
         if (err.response?.status === 401) {
           setError("Invalid email or password.");
+        } else if (err.response?.data?.message) {
+          setError(err.response.data.message);
         } else {
           setError("Something went wrong. Please try again.");
         }
@@ -56,7 +53,7 @@ export default function RealLoginPage() {
   };
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
-    if (e.key === "Enter") handleLogin();
+    if (e.key === "Enter" && !loading) handleLogin();
   };
 
   return (
