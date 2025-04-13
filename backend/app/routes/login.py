@@ -30,7 +30,8 @@ def verify_account(request: MessageRequest, db: Session = Depends(get_db)):
                 "status": "success",
                 "message": "Login successful",
                 "role": user.role.roleName,  # Assuming roleName is the name of the role
-                "displayName": user.displayName
+                "displayName": user.displayName,
+                "id": user.id,
             }
         if not is_valid:
             raise HTTPException(status_code=400, detail="Invalid credentials")
