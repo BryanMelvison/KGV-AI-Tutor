@@ -33,8 +33,11 @@ export default function RealLoginPage() {
 
     try {
       const res = await loginUser(email, password);
-      login({ displayName: res.displayName, role: res.role }, res.token);
-      router.push(`/${res.role}/dashboard`);
+      const data = res.data;
+      console.log("hi", res.data)
+      login({ displayName: data.displayName, role: data.role });
+      // login({ displayName: data.displayName, role: data.role }, data.token);
+      router.push(`/${data.role}/dashboard`);
     } catch (err) {
       if (axios.isAxiosError(err)) {
         if (err.response?.status === 401) {
