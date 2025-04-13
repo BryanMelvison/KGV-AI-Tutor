@@ -3,7 +3,7 @@
 import DocumentUploader from "@/components/document/DocumentUploader";
 import ReportOverview from "@/components/teacher/ReportOverview";
 import ClassList from "@/components/teacher/ClassList";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import MetadataModal from "@/components/teacher/MetadataModal";
 import { useRouter } from "next/navigation";
 import { IoChevronDown } from "react-icons/io5";
@@ -16,6 +16,12 @@ export default function TeacherDashboard() {
   const [showModal, setShowModal] = useState(false);
   const [showClassMenu, setShowClassMenu] = useState(false);
   const { user } = useUser();
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 1500); // simulate loading
+    return () => clearTimeout(timer);
+  }, []);
 
   const router = useRouter();
 
@@ -27,6 +33,51 @@ export default function TeacherDashboard() {
   const handleLogout = () => {
     router.push("/login");
   };
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-blue-100 via-white to-blue-200 p-8 animate-pulse space-y-6">
+        {/* Header */}
+        <div className="flex justify-between items-center bg-white p-4 rounded-xl shadow">
+          <div className="h-10 w-32 bg-gray-200 rounded" />
+          <div className="h-8 w-20 bg-gray-300 rounded" />
+        </div>
+
+        <div className="h-8 bg-gray-300 rounded w-1/3" />
+        <div className="h-4 bg-gray-300 rounded w-3/12" />
+
+        {/* Class & Subject Selector */}
+        <div className="bg-white border rounded-xl shadow px-6 py-4 space-y-4">
+          <div className="h-4 w-32 bg-gray-200 rounded" />
+          <div className="flex space-x-4">
+            <div className="h-8 w-28 bg-gray-100 rounded-full" />
+            <div className="h-8 w-28 bg-gray-100 rounded-full" />
+          </div>
+        </div>
+
+        {/* Upload & Report Cards */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          {[...Array(2)].map((_, i) => (
+            <div
+              key={i}
+              className="bg-white p-6 rounded-2xl shadow-md h-60 space-y-4"
+            >
+              <div className="h-5 w-3/4 bg-gray-200 rounded" />
+              <div className="h-40 w-full bg-gray-100 rounded" />
+            </div>
+          ))}
+        </div>
+
+        {/* Student List */}
+        <div className="bg-white p-6 rounded-2xl shadow-md space-y-4">
+          <div className="h-5 w-2/3 bg-gray-200 rounded" />
+          {[...Array(4)].map((_, i) => (
+            <div key={i} className="h-4 w-full bg-gray-100 rounded" />
+          ))}
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-100 via-white to-blue-200">
