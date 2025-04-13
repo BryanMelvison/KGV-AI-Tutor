@@ -15,7 +15,7 @@ interface User {
 
 interface UserContextType {
   user: User | null;
-  login: (user: User) => void;
+  login: (user: User /*, token: string */) => void;
   logout: () => void;
 }
 
@@ -31,14 +31,16 @@ export const UserProvider = ({ children }: { children: ReactNode }) => {
     }
   }, []);
 
-  const login = (user: User) => {
+  const login = (user: User /*, token: string */) => {
     setUser(user);
     localStorage.setItem("kgv-user", JSON.stringify(user));
+    // localStorage.setItem("kgv-token", token);
   };
 
   const logout = () => {
     setUser(null);
     localStorage.removeItem("kgv-user");
+    // localStorage.removeItem("kgv-token");
   };
 
   return (
