@@ -11,7 +11,7 @@ class MessageRequest(BaseModel):
     email: str
     password: str
 
-@router.get("/verify")
+@router.post("/verify")
 def verify_account(request: MessageRequest, db: Session = Depends(get_db)):
     try:
         user = db.query(Users).filter_by(email=request.email).first()
