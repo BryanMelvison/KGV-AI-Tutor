@@ -37,7 +37,7 @@ const ExerciseGrid = ({ exercises }: { exercises: Exercise[] }) => {
             key={exercise.id}
             onClick={() => handleClick(exercise.id)}
             className={`
-              group relative rounded-2xl w-full aspect-square shadow-lg flex items-center justify-center p-3 text-center transition-transform duration-200 cursor-pointer
+              group rounded-2xl w-full aspect-square shadow-lg flex items-center justify-center p-3 text-center transition-transform duration-200 cursor-pointer
               ${
                 exercise.completed
                   ? "bg-yellow-100 border border-yellow-300 text-yellow-800"

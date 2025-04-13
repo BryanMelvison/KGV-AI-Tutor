@@ -187,7 +187,7 @@ const NavBar = () => {
 
                         {hoveredSubject === subject.name &&
                           chapterMap[subject.name] && (
-                            <div className="absolute left-full top-0 bg-white shadow-lg border rounded-md p-3 w-56 z-50">
+                            <div className="absolute left-full top-0 bg-white shadow-xl border rounded-md p-3 w-56 z-50">
                               {chapterMap[subject.name].map(
                                 (chapter, index) => (
                                   <Link
