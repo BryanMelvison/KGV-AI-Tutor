@@ -18,6 +18,7 @@ export default function TeacherDashboard() {
   const { user } = useUser();
   const [loading, setLoading] = useState(true);
 
+  // To be changed
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 1500); // simulate loading
     return () => clearTimeout(timer);
