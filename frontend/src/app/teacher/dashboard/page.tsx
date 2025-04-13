@@ -8,16 +8,16 @@ import MetadataModal from "@/components/teacher/MetadataModal";
 import { useRouter } from "next/navigation";
 import { IoChevronDown } from "react-icons/io5";
 import Image from "next/image";
+import { useUser } from "@/context/UserContext";
 
 export default function TeacherDashboard() {
   const [selectedClass, setSelectedClass] = useState("Class A");
   const [selectedSubject, setSelectedSubject] = useState("Biology");
   const [showModal, setShowModal] = useState(false);
   const [showClassMenu, setShowClassMenu] = useState(false);
+  const { user } = useUser();
 
   const router = useRouter();
-
-  const teacherName = "Ms. Sutikno";
 
   const handleUpload = async (file: File) => {
     console.log("File uploaded:", file);
@@ -49,7 +49,7 @@ export default function TeacherDashboard() {
 
       <main className="p-8">
         <h1 className="text-3xl font-bold  mb-1">
-          Welcome back, {teacherName}. ✨
+          Welcome back, {user?.displayName || "Teacher"}. ✨
         </h1>
         <p className="text-[#747479] mb-6 text-sm">
           Here's a quick look at how your students are doing today!

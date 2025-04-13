@@ -29,7 +29,6 @@ const Dashboard = () => {
   const { isOpen, openQuiz, closeQuiz } = useQuiz();
   const router = useRouter();
   const { user } = useUser();
-  console.log(user);
 
   useEffect(() => {
     const loadDashboardData = async () => {
@@ -153,7 +152,7 @@ const Dashboard = () => {
       {/* Greeting */}
       <div className="mb-6">
         <h1 className="text-3xl font-bold mb-1">
-          Welcome back, {user?.displayName || "Student"} ✨
+          Welcome back, {user?.displayName || "Student"}. ✨
         </h1>
         <p className="text-[#747479]">Ready to learn something new today?</p>
       </div>
