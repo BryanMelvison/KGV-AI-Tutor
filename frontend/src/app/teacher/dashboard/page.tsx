@@ -20,8 +20,8 @@ export default function TeacherDashboard() {
 
   // To be changed
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 1500); // simulate loading
-    return () => clearTimeout(timer);
+    // Wait for data
+    setLoading(false);
   }, []);
 
   const router = useRouter();
