@@ -71,7 +71,7 @@ const SubjectOverviewPage = ({ data }: SubjectOverviewPageProps) => {
 
   return (
     <div className="space-y-6">
-      <MasteryChecklist items={data.mastery} />
+      <MasteryChecklist items={data.mastery} status={data.mastery_status} />
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         <div className="lg:col-span-2 space-y-6">
           <ExerciseGrid exercises={data.exercises} />
