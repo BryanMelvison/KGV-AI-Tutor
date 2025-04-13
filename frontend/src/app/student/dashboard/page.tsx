@@ -29,6 +29,7 @@ const Dashboard = () => {
   const { isOpen, openQuiz, closeQuiz } = useQuiz();
   const router = useRouter();
   const { user } = useUser();
+  console.log(user);
 
   useEffect(() => {
     const loadDashboardData = async () => {
