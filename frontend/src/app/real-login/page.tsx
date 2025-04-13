@@ -6,6 +6,8 @@ import { useEffect, useRef, useState } from "react";
 import { useUser } from "@/context/UserContext";
 import { FaSpinner } from "react-icons/fa";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { loginUser } from "@/routes/login";
+import axios from "axios";
 
 export default function RealLoginPage() {
   const router = useRouter();
@@ -33,24 +35,21 @@ export default function RealLoginPage() {
     setError("");
 
     try {
-      // TBD: P0!! FILL IN WITH LOGIN API REAL
-      const response = await fetch("/api/login", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, password }),
-      });
+      const response = await loginUser(email, password);
 
-      if (!response.ok) {
-        setError("Invalid email or password.");
-        setLoading(false);
-        return;
-      }
-
-      const data = await response.json(); // expects: { name: string, role: "student" | "teacher" }
-      login({ name: data.name, role: data.role });
+      const data = response.data; // {status, message, role, displayName}
+      login({ displayName: data.displayName, role: data.role });
       router.push(`/${data.role}/dashboard`);
     } catch (err) {
-      setError("Something went wrong. Please try again.");
+      if (axios.isAxiosError(err)) {
+        if (err.response?.status === 401) {
+          setError("Invalid email or password.");
+        } else {
+          setError("Something went wrong. Please try again.");
+        }
+      } else {
+        setError("Network error. Please try again.");
+      }
     } finally {
       setLoading(false);
     }

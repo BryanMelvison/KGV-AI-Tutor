@@ -11,6 +11,7 @@ import SmartQuizModal from "@/components/smart-quiz/SmartQuizModal";
 import { slugify } from "@/helpers/slugify";
 import StatsCard from "@/components/StatsCard";
 import { FaBolt, FaBookOpen, FaCheckCircle, FaRobot } from "react-icons/fa";
+import { useUser } from "@/context/UserContext";
 
 const Dashboard = () => {
   const [latestExercise, setLatestExercise] = useState<{
@@ -27,6 +28,7 @@ const Dashboard = () => {
 
   const { isOpen, openQuiz, closeQuiz } = useQuiz();
   const router = useRouter();
+  const { user } = useUser();
 
   useEffect(() => {
     const loadDashboardData = async () => {
@@ -149,7 +151,9 @@ const Dashboard = () => {
     <div className="p-6 bg-gradient-to-br from-blue-100 via-white to-blue-200 min-h-screen">
       {/* Greeting */}
       <div className="mb-6">
-        <h1 className="text-3xl font-bold  mb-1">Welcome back, Nico R. ✨</h1>
+        <h1 className="text-3xl font-bold mb-1">
+          Welcome back, {user?.displayName || "Student"} ✨
+        </h1>
         <p className="text-[#747479]">Ready to learn something new today?</p>
       </div>
 

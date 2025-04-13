@@ -9,7 +9,7 @@ import {
 } from "react";
 
 interface User {
-  name: string;
+  displayName: string;
   role: "student" | "teacher";
 }
 
