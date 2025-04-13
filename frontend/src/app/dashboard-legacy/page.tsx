@@ -46,9 +46,7 @@ export default function DashboardPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Document Upload Card */}
           <div className="bg-white rounded-xl p-6 shadow-sm">
-            <h3 className="text-lg text-[#17171F] font-medium mb-2">
-              Upload Document
-            </h3>
+            <h3 className="text-lg  font-medium mb-2">Upload Document</h3>
             <p className="text-gray-500 mb-4">
               Upload documents for analysis and processing.
             </p>
@@ -60,9 +58,7 @@ export default function DashboardPage() {
 
           {/* Quiz Card */}
           <div className="bg-white rounded-xl p-6 shadow-sm">
-            <h3 className="text-lg text-[#17171F] font-medium mb-2">
-              Smart Quiz
-            </h3>
+            <h3 className="text-lg  font-medium mb-2">Smart Quiz</h3>
             <p className="text-gray-500 mb-4">Take our Smart Quiz.</p>
             <button
               onClick={openQuiz}
@@ -74,7 +70,7 @@ export default function DashboardPage() {
 
           {/* AI Chat Card */}
           <div className="bg-white rounded-xl p-6 shadow-sm">
-            <h3 className="text-lg text-[#17171F] font-medium mb-2">AI Chat</h3>
+            <h3 className="text-lg  font-medium mb-2">AI Chat</h3>
             <p className="text-gray-500 mb-4">
               Chat with our AI assistant for help and guidance.
             </p>
@@ -88,9 +84,7 @@ export default function DashboardPage() {
 
           {/* Exercise Chat Card */}
           <div className="bg-white rounded-xl p-6 shadow-sm">
-            <h3 className="text-lg text-[#17171F] font-medium mb-2">
-              Exercise Chat
-            </h3>
+            <h3 className="text-lg  font-medium mb-2">Exercise Chat</h3>
             <p className="text-gray-500 mb-4">
               Get exercise recommendations and guidance.
             </p>

@@ -24,7 +24,7 @@ const Messages = ({ messages, className }: MessagesProps) => {
             className={`max-w-[80%] rounded-2xl px-4 py-2 ${
               message.sender === "user"
                 ? "bg-blue-500 text-white"
-                : "bg-white shadow-sm text-[#17171F]"
+                : "bg-white shadow-sm "
             }`}
           >
             {message.text}

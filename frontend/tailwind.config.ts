@@ -17,11 +17,16 @@ export default {
       },
       animation: {
         "slide-down": "slideDown 0.5s ease-out",
+        wiggle: "wiggle 1s infinite ease-in-out",
       },
       keyframes: {
         slideDown: {
           "0%": { transform: "translateY(-100%)" },
           "100%": { transform: "translateY(0)" },
+        },
+        wiggle: {
+          "0%, 100%": { transform: "rotate(-8deg)" },
+          "50%": { transform: "rotate(8deg)" },
         },
       },
     },

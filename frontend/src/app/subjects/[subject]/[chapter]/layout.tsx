@@ -40,11 +40,28 @@ export default function SubjectChapterLayout({
   }, [subject, chapter]);
 
   if (loading) {
-    return <div className="p-6">Loading sidebar...</div>;
+    return (
+      <div className="flex flex-col h-dvh bg-gradient-to-br bg-sky-100 animate-pulse text-[#17171F]">
+        <div className="flex flex-1">
+          <div className="w-64 bg-white border-r p-4 space-y-4">
+            <div className="w-32 h-6 bg-gray-200 rounded"></div>
+            <div className="w-full h-4 bg-gray-100 rounded"></div>
+            <div className="w-full h-4 bg-gray-100 rounded"></div>
+            <div className="w-full h-4 bg-gray-100 rounded"></div>
+          </div>
+
+          <div className="flex-1 p-6 space-y-4">
+            <div className="w-48 h-8 bg-gray-300 rounded"></div>
+            <div className="w-full h-40 bg-gray-100 rounded"></div>
+            <div className="w-full h-32 bg-gray-100 rounded"></div>
+          </div>
+        </div>
+      </div>
+    );
   }
 
   return (
-    <div className="flex flex-col h-dvh bg-sky-100">
+    <div className="flex flex-col h-dvh bg-gradient-to-br from-blue-100 via-white to-blue-200">
       <div
         className={`flex flex-1 bg-sky-100 ${
           isChatPage ? "overflow-hidden" : ""
@@ -72,7 +89,7 @@ export default function SubjectChapterLayout({
                 <FiMenu className="w-5 h-5 text-gray-600" />
               </button>
             )}
-            <div className="text-2xl font-bold text-[#17171F]">
+            <div className="text-2xl font-bold ">
               {unslugify(chapterTitle) || "Loading..."}
             </div>
           </div>

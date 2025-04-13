@@ -2,7 +2,11 @@ export interface ChapterData {
   title: string;
   mastery: string[];
   mastery_status: boolean[];
-  exercises: string[];
+  exercises: {
+    id: string;
+    completed: boolean;
+    secretLetter: string;
+  }[];
   progress: number;
   chats: {
     title: string;
@@ -79,7 +83,13 @@ export const getChapterData = async (
       false,
       false,
     ],
-    exercises: ["A", "B", "C", "D", "E", "F", "G", "H"],
+    exercises: [
+      { id: "A", completed: false, secretLetter: "Z" },
+      { id: "B", completed: true, secretLetter: "X" },
+      { id: "C", completed: false, secretLetter: "M" },
+      { id: "D", completed: true, secretLetter: "K" },
+    ],
+
     progress: Math.floor(Math.random() * 100), // simulate varying progress
     chats: [
       {

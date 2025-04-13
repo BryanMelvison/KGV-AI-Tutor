@@ -109,11 +109,7 @@ const ChatContainer = ({
           {headerContent || (
             <div className="flex justify-between items-center">
               <div>
-                {title && (
-                  <h2 className="text-2xl font-semibold text-[#17171F]">
-                    {title}
-                  </h2>
-                )}
+                {title && <h2 className="text-2xl font-semibold ">{title}</h2>}
                 {description && <p className="text-gray-500">{description}</p>}
               </div>
               {actions && <div className="flex gap-3">{actions}</div>}
@@ -139,7 +135,7 @@ const ChatContainer = ({
                 onKeyDown={(e) => e.key === "Enter" && handleSubmit()}
                 placeholder={inputPlaceholder}
                 disabled={isLoading}
-                className="w-full px-4 py-3 text-[#17171F] rounded-xl border bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent pr-24 disabled:bg-gray-50 disabled:cursor-not-allowed"
+                className="w-full px-4 py-3  rounded-xl border bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent pr-24 disabled:bg-gray-50 disabled:cursor-not-allowed"
               />
               <button
                 onClick={handleSubmit}
