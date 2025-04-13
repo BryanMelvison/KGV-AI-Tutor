@@ -34,6 +34,7 @@ export default function RealLoginPage() {
     try {
       const res = await loginUser(email, password);
       const data = res.data;
+      console.log("hi", res.data)
       login({ displayName: data.displayName, role: data.role });
       // login({ displayName: data.displayName, role: data.role }, data.token);
       router.push(`/${data.role}/dashboard`);
