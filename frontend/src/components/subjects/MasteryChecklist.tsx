@@ -27,7 +27,7 @@ const MasteryChecklist = ({ items, status }: MasteryChecklistProps) => {
         <div className="flex items-center text-sm text-gray-600 gap-1">
           <FaCheckCircle className="text-green-500" />
           <span>
-            {masteredCount} of {status.length} learning objectives mastered
+            {masteredCount} of {items.length} learning objectives mastered
           </span>
         </div>
 
