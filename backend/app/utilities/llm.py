@@ -43,10 +43,10 @@ class ChatService:
             print(f"Error in relevancy check: {str(e)}")
             return False
 
-    def search_textbook(self, query: str, subject: str, chapter: str) -> dict:
+    def search_textbook(self, query: str, subject: str, chapterTitle: str) -> dict:
         try:
-            if self.check_if_need_rag(query, subject, chapter):
-                response = self.rag.search(query, subject=subject, chapter=chapter)
+            if self.check_if_need_rag(query, subject, chapterTitle):
+                response = self.rag.search(query, subject=subject, chapterTitle=chapterTitle)
                 return response
             return None
         except Exception as e:
@@ -64,7 +64,6 @@ class ChatService:
                 "question": user_input,
                 "context": rag_result if rag_result else ""
             }
-
             self.chain_with_history = RunnableWithMessageHistory(
                 runnable=self.chain,
                 get_session_history=self.get_session_history,
@@ -78,6 +77,7 @@ class ChatService:
             )
         
             chat_history = self.format_messages(self.store[session_id].messages)
+
             
             return {
                 "response": response,

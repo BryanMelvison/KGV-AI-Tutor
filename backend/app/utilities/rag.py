@@ -76,7 +76,7 @@ class textbookRAG:
                     doc = Document(
                         page_content=text, 
                         metadata={
-                            "subject": subject, 
+                            "subject": slugify(subject), 
                             "chapterTitle": slugify(chapters.get(idx, f"Chapter {idx}")),
                             "chapter": idx
                         }
@@ -103,12 +103,12 @@ class textbookRAG:
             print(f"Error in extract_from_metadata: {str(e)}")
             return False
 
-    def search(self, query, k=5, subject=None, chapter=None) -> str:
+    def search(self, query, k=5, subject=None, chapterTitle=None) -> str:
         try:
             # Condition Based on Subject and Chapter:
             # No filter if only chapter provided (Chapter of Which book?? Need the subject!)
-            if subject and chapter:
-                filter_dict = {"$and": [{"chapter": chapter}, {"subject": subject}]}
+            if subject and chapterTitle:
+                filter_dict = {"$and": [{"chapterTitle": chapterTitle}, {"subject": subject}]}
             elif subject:
                 filter_dict = {"subject": subject}
             else:
