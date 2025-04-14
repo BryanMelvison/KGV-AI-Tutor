@@ -4,11 +4,10 @@ from fuzzywuzzy import fuzz
 from nltk.stem import WordNetLemmatizer
 import nltk
 nltk.download('wordnet')
-from app.database import get_session, init_db, engine
+from app.database import get_session, engine, Base
 from app.models import Syllabus, LearningObjective
 
-LearningObjective.__table__.drop(engine, checkfirst=True)
-init_db()
+Base.metadata.tables['learning_objectives'].create(engine)
 
 current_dir = Path(__file__).parent
 CHAPTER_FOLDER = current_dir.parent / "book" 

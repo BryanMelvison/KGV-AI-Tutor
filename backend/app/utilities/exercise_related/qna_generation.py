@@ -2,7 +2,7 @@ from pydantic import BaseModel
 from typing import List
 from langchain_ollama.llms import OllamaLLM
 from ..prompt import llm_prompt_generate_question, qna_critique_prompt
-from app.database import get_session, engine, init_db
+from app.database import get_session, engine, Base
 from app.models import LearningObjective, QuestionAnswer as QuestionAnswerDB
 from pathlib import Path
 from ..test_metadata import metadata
@@ -33,8 +33,8 @@ class QuestionAnswer(BaseModel):
     class Config:
         from_attributes = True
 
-QuestionAnswerDB.__table__.drop(engine, checkfirst=True)
-init_db()
+# if this file has been run before, delete the table first in pgadmin!!
+Base.metadata.tables['question_answers'].create(engine)
 
 session = get_session()
 learning_objectives = session.query(LearningObjective).all()
@@ -50,7 +50,7 @@ def rag_search(query: str, subject: str, chapter: str) -> str:
 
 def generate_qna(objective_text: str, resultrag: str) -> QnaPairs:
     llm_prompt = llm_prompt_generate_question.format(learning_objective=objective_text, context=resultrag)
-    model = OllamaLLM(model="qna", format="json")
+    model = OllamaLLM(model="llama3.2", format="json")
     response = model.invoke(llm_prompt, format=QnaPairs.model_json_schema())
     qna_pairs = QnaPairs.model_validate_json(response)
     return qna_pairs
@@ -58,7 +58,7 @@ def generate_qna(objective_text: str, resultrag: str) -> QnaPairs:
 def evaluate_qna(qna_pairs: QnaPairs) -> QnaPairs:
     for pair in qna_pairs.qa_pairs: 
         llm_prompt = qna_critique_prompt.format(question=pair.question, answer=pair.answer, context=pair.source)
-        model = OllamaLLM(model="qna", format="json")
+        model = OllamaLLM(model="llama3.2", format="json")
         response = model.invoke(llm_prompt, format=Eval.model_json_schema())
         val = Eval.model_validate_json(response)
         pair.rating = val.rating
