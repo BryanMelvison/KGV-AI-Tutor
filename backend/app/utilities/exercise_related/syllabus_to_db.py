@@ -1,10 +1,10 @@
 import re
 from pathlib import Path
-from app.database import get_session, init_db, Base, engine
+from app.database import get_session, Base, engine
 from app.models import Syllabus
 
 Syllabus.__table__.drop(engine, checkfirst=True)
-init_db()
+Base.metadata.tables['syllabus'].create(engine)
 
 current_dir = Path(__file__).parent
 syllabus_file = current_dir / 'syllabus_clean.txt'
