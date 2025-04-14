@@ -97,7 +97,7 @@ const NavBar = () => {
 
   return (
     <div className="relative">
-      <div className="fixed top-0 left-0 h-screen bg-white border-r shadow-md py-5 transition-all duration-300 w-20">
+      <div className="fixed top-0 left-0 h-screen bg-white border-r shadow-md py-5 transition-all duration-300 w-20 z-40">
         <div className="flex justify-center mb-6">
           <Image
             src="/logo-square.svg"
