@@ -2,36 +2,27 @@ from dataclasses import dataclass
 from llama_parse import LlamaParse
 import asyncio
 import uvloop
-from dotenv import load_dotenv 
+from app.config import Settings
 import os
 from ollama import Client
 from pathlib import Path
 from app.utilities.prompt import classifier_front_content_agent_prompt, classifier_content_back_matter_agent_prompt, classifier_content_chapter_agent_prompt, content_reformatter_prompt
 from app.utilities.rag import textbookRAG
+from app.utilities.prompt import pdf_parsing_instruction
 
-load_dotenv()
 asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
 
-@dataclass
-class LLMConfig:
-    api_url: str = os.getenv("PARSER_LLM_API_URL")
-
-@dataclass
-class ParserConfig:
-    instruction: str = """This is a school textbook aimed at Secondary School students, where content is presented in an unstructured layout mixing text blocks, images, captions, highlighted terms, headers, and information boxes. The layout doesn't follow a strict linear format, instead scattering different elements across the page. Try to reconstruct this text in a cohesive way."""
-
 class PDFParser():
-    def __init__(self, path, instruction=None, llm_config=None, metadata=None):
+    def __init__(self, path, metadata=None):
         self.path = path
         self.metadata = metadata or {} # Ini itu buat orang2 kalo kirim sesuatu ke backend, kirim metadata juga (Contoh: Subject, totalChapters  "textbook": {"subject": "Biology","totalChapters": 21,"chapters": [{"chapterNumber": 1,"title": "Life Processes"}]""
-        self.instruction = instruction or ParserConfig().instruction
+        self.instruction = pdf_parsing_instruction
         self._parsed_content = None
         self.book_dir = Path(__file__).parent.parent / "book"
         self.book_dir.mkdir(exist_ok=True)
 
         # LLM Configuration and Client
-        self.llm_config = llm_config or LLMConfig()
-        self.llm_client = Client(self.llm_config.api_url)
+        self.llm_client = Client(Settings().MODEL_URL)
 
     
     async def _parse_job(self):

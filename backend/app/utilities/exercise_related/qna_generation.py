@@ -1,11 +1,11 @@
 from pydantic import BaseModel
 from typing import List
 from langchain_ollama.llms import OllamaLLM
-from ..prompt import llm_prompt_generate_question, qna_critique_prompt
+from app.utilities.prompt import llm_prompt_generate_question, qna_critique_prompt
 from app.database import get_session, engine, Base
 from app.models import LearningObjective, QuestionAnswer as QuestionAnswerDB
 from pathlib import Path
-from ..test_metadata import metadata
+from ..test_metadata import metadata # Refactor nanti,
 from app.utilities.rag import textbookRAG
 
 class QnaPair(BaseModel):
@@ -42,7 +42,6 @@ session.close()
 
 
 def rag_search(query: str, subject: str, chapter: str) -> str:
-    print(query, subject, chapter)
     book_dir = Path("../book")
     rag = textbookRAG(metadata=metadata, book_dir=book_dir)
     resultrag = rag.search(query, subject = subject, chapter = chapter)
