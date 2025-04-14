@@ -36,7 +36,6 @@ export default function RootLayout({
                   position="top-center"
                   toastOptions={{ duration: 3000 }}
                 />
-                ;
               </SubjectDataProvider>
             </AssistantChatProvider>
           </SmartQuizProvider>
