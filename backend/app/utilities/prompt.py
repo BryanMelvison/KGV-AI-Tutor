@@ -317,3 +317,5 @@ Question: {question}
 Answer: {answer}
 Context: {context}
 """
+
+pdf_parsing_instruction = """This is a school textbook aimed at Secondary School students, where content is presented in an unstructured layout mixing text blocks, images, captions, highlighted terms, headers, and information boxes. The layout doesn't follow a strict linear format, instead scattering different elements across the page. Try to reconstruct this text in a cohesive way."""

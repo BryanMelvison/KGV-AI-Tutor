@@ -7,13 +7,14 @@ from typing import List, Dict
 from app.utilities.prompt import chatBotPrompt, verifierPrompt
 from app.utilities.rag import textbookRAG
 from langchain_core.output_parsers import StrOutputParser
+from app.config import Settings
 
 
 class ChatService:
     def __init__(self):
         self.llm = OllamaLLM(
-            model="llama3.2",
-            base_url="http://localhost:11434"
+            model=Settings().MODEL_NAME,
+            base_url=Settings().MODEL_URL,
         )
         self.chatPrompt = ChatPromptTemplate.from_messages([
             ("system", chatBotPrompt + "\n\nRelevant textbook information: {context}"),
