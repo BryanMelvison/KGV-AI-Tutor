@@ -1,13 +1,11 @@
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-from .config import config
 from dotenv import load_dotenv
 load_dotenv()
 import os
 url = os.getenv('DB_URL')
 engine = create_engine(url, echo=True)
-# engine = create_engine(config.DATABASE_URL)
 SessionLocal = sessionmaker(bind=engine)
 
 Base = declarative_base() # for SQLAlchemy ORM models

@@ -5,7 +5,6 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama.llms import OllamaLLM
 from pathlib import Path
 from .prompt import QUESTION_GEN_PROMPT, QUESTION_CHECK_PROMPT, EXERCISE_EVAL_PROMPT
-from ..config import config
 import random
 import pandas as pd
 import json
@@ -13,8 +12,8 @@ import json
 class ExerciseService:
     def __init__(self):
         self.llm = OllamaLLM(
-            model=config.OLLAMA_MODEL,
-            base_url=config.OLLAMA_BASE_URL
+            model="llama3.2",
+            base_url="http://localhost:11434"
         )
 
         self.dataset = []

@@ -4,7 +4,6 @@ from langchain_core.chat_history import InMemoryChatMessageHistory
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from typing import List, Dict
-from app.config import config # For now, but will be changed to use environment variables
 from app.utilities.prompt import chatBotPrompt, verifierPrompt
 from app.utilities.rag import textbookRAG
 from langchain_core.output_parsers import StrOutputParser
@@ -13,8 +12,8 @@ from langchain_core.output_parsers import StrOutputParser
 class ChatService:
     def __init__(self):
         self.llm = OllamaLLM(
-            model=config.OLLAMA_MODEL,
-            base_url=config.OLLAMA_BASE_URL,
+            model="llama3.2",
+            base_url="http://localhost:11434"
         )
         self.chatPrompt = ChatPromptTemplate.from_messages([
             ("system", chatBotPrompt + "\n\nRelevant textbook information: {context}"),
