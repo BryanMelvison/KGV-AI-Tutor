@@ -18,6 +18,7 @@ export default {
       animation: {
         "slide-down": "slideDown 0.5s ease-out",
         wiggle: "wiggle 1s infinite ease-in-out",
+        bounce: "bounce 1s infinite",
       },
       keyframes: {
         slideDown: {
