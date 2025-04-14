@@ -3,6 +3,7 @@
 import { Message } from "@/interfaces/Message";
 import Messages from "../Messages";
 import { useCallback, useEffect, useRef, useState } from "react";
+import TypingIndicator from "./TypingIndicator";
 
 interface ChatContainerProps {
   title?: string;
@@ -122,6 +123,11 @@ const ChatContainer = ({
       <div className="flex flex-1 flex-col bg-[#F9F9FE] mx-5 mb-5 p-4 rounded-2xl overflow-hidden min-h-0">
         <div className="flex-1 overflow-y-auto min-h-0">
           {renderMessages()}
+          {isLoading && (
+            <div className="px-4 py-2">
+              <TypingIndicator />
+            </div>
+          )}
           <div ref={messagesEndRef} />
         </div>
         <div className="flex-shrink-0 pt-4">

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Message } from "@/interfaces/Message";
 import ChatContainer from "@/components/chat/ChatContainer";
-import { AIResponse, clearMemory } from "@/api/chatApi";
+import { AIResponse, clearMemory } from "@/api/chat";
 import { useSearchParams, useParams } from "next/navigation";
 
 const AIChat = () => {

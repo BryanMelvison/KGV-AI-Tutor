@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL = "http://localhost:8000/api";
 
 interface ChatResponse {
   status: string;
@@ -28,7 +28,7 @@ export const AIResponse = async (
         chapter: chapter,
       }
     );
-    return res.data.data.response; // Ini ud bener, jgn diubah response nya 
+    return res.data.data.response; // Ini ud bener, jgn diubah response nya
   } catch (error) {
     if (axios.isAxiosError(error)) {
       throw new Error(error.response?.data?.detail || "Failed to send message");
