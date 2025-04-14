@@ -1,3 +1,5 @@
+import api from "@/helpers/axios";
+
 export interface ChapterData {
   title: string;
   mastery: string[];
@@ -13,57 +15,23 @@ export interface ChapterData {
     time: string;
     summary: string;
   }[];
-  chapters: {
-    id: string;
-    title: string;
-  }[];
 }
 
-const chapterDatabase: Record<string, { id: string; title: string }[]> = {
-  biology: [
-    { id: "life-processes", title: "Life Processes" },
-    { id: "human-physiology", title: "Human Physiology" },
-    { id: "ecology-environment", title: "Ecology & Environment" },
-  ],
-  chemistry: [
-    { id: "atomic-structure", title: "Atomic Structure" },
-    { id: "chemical-reactions", title: "Chemical Reactions" },
-    { id: "periodic-table", title: "Periodic Table" },
-  ],
-  physics: [
-    { id: "mechanics", title: "Mechanics" },
-    { id: "optics", title: "Optics" },
-    { id: "thermodynamics", title: "Thermodynamics" },
-  ],
-};
+export interface LearningObjective {
+  id: number;
+  chapter: number;
+  learning_objective_text: string;
+  syllabus_tags: string[] | null;
+  syllabus_ids: number[];
+}
 
 export const getChapterData = async (
   subject: string,
   chapter: string
 ): Promise<ChapterData> => {
-  const chapters = chapterDatabase[subject.toLowerCase()] || [];
-
   return {
     title: chapter,
-    mastery: [
-      "Understand the characteristics shared by living organisms",
-      "Describe cell structures and their functions, including the nucleus, cytoplasm, cell membrane, cell wall, mitochondria, chloroplasts, ribosomes and vacuole",
-      "Know the similarities and differences in the structures of plant and animal cells",
-      "Understand the role of enzymes as biological catalysts in metabolic reactions",
-      "Understand how temperature changes can affect enzyme function, including changes to the shape of the active site",
-      "Understand how enzyme function can be affected by changes in pH altering the active site",
-      "Investigate how enzyme activity can be affected by changes in temperature",
-      "Describe the differences between aerobic and anaerobic respiration",
-      "Understand how the process of respiration produces ATP in living organisms",
-      "Know that ATP provides energy for cells",
-      "Know the word equation and balanced chemical symbol equation for aerobic respiration",
-      "Know the word equations for anaerobic respiration",
-      "Investigate the evolution of carbon dioxide and heat from respiring seeds or other suitable living organisms",
-      "Understand the processes of diffusion, osmosis and active transport by which substances move into and out of cells",
-      "Understand how factors affect the rate of movement of substances into and out of cells",
-      "Investigate diffusion in a non-living system (agar jelly)",
-      "Describe the levels of organisation within organisms – organelles, cells, tissues, organ systems",
-    ],
+    mastery: await getLearningObjectives(subject, chapter),
     mastery_status: [
       true,
       true,
@@ -103,6 +71,55 @@ export const getChapterData = async (
         summary: "Advanced insights and summary of concepts.",
       },
     ],
-    chapters,
   };
+};
+
+export const getChapter = async (subject: string): Promise<string[]> => {
+  try {
+    const subject_number = await getSubjectNumber(subject);
+
+    const { data } = await api.post(
+      `chapter/all-chapter-name?subject=${subject_number}`
+    );
+    return data || [];
+  } catch (error) {
+    console.error("Error getting all chapter names:", error);
+    return [];
+  }
+};
+
+export const getSubjectNumber = async (subject: string): Promise<number> => {
+  const response = await api.post(`chapter/subject-number?subject=${subject}`);
+  return response.data;
+};
+
+export const getChapterNumber = async (
+  chapter_name: string
+): Promise<number> => {
+  try {
+    const { data } = await api.post(
+      `/chapter/chapter-number?chapter=${chapter_name}`
+    );
+    return data;
+  } catch (error) {
+    console.error("Error getting chapter number:", error);
+    throw error;
+  }
+};
+
+export const getLearningObjectives = async (
+  subject: string,
+  chapter_name: string
+): Promise<string[]> => {
+  try {
+    const chapter_num = await getChapterNumber(chapter_name);
+
+    const { data } = await api.post(
+      `/chapter/learning-objective?subject=${subject}&chapter=${chapter_num}`
+    );
+    return data || [];
+  } catch (error) {
+    console.error("Error getting learning objectives:", error);
+    return [];
+  }
 };

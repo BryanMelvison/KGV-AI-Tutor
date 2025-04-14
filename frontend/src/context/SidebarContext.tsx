@@ -1,7 +1,7 @@
 "use client";
 import { createContext, useContext, useEffect, useState } from "react";
 import { getSubjectsData, Subject } from "@/api/mockSubject";
-import { getChapterData } from "@/api/mockChapter";
+import { getChapter } from "@/api/mockChapter";
 
 interface Chapter {
   id: string;
@@ -35,8 +35,8 @@ export const SidebarProvider = ({
       const subjects = await getSubjectsData();
       const enriched = await Promise.all(
         subjects.map(async (subj: Subject) => {
-          const data = await getChapterData(subj.name.toLowerCase(), "latest");
-          return { name: subj.name, chapters: data.chapters };
+          const data = await getChapter(subj.name.toLowerCase());
+          return { name: subj.name, chapters: data };
         })
       );
       setSidebarSubjects(enriched);

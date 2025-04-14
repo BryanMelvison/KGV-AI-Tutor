@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import SubjectCard from "@/components/subjects/SubjectCard";
 import { getSubjectsData, Subject } from "@/api/mockSubject";
-import { getChapterData } from "@/api/mockChapter";
+import { getChapter } from "@/api/mockChapter";
 
 const SubjectsPage = () => {
   const [subjects, setSubjects] = useState<Subject[]>([]);
@@ -19,9 +19,9 @@ const SubjectsPage = () => {
 
       const chapterMap: Record<string, string> = {};
       for (const subject of fetchedSubjects) {
-        const data = await getChapterData(subject.name.toLowerCase(), "latest");
-        if (data.chapters.length > 0) {
-          chapterMap[subject.name] = decodeURIComponent(data.chapters[0].id);
+        const data = await getChapter(subject.name.toLowerCase());
+        if (data.length > 0) {
+          chapterMap[subject.name] = decodeURIComponent(data[0]);
         }
       }
       setEntryChapters(chapterMap);
