@@ -4,11 +4,12 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { FiChevronDown, FiMenu } from "react-icons/fi";
+import { unslugify } from "@/helpers/slugify";
 
 interface SubjectSidebarProps {
   subjects: {
     name: string;
-    chapters: { id: string; title: string }[];
+    chapters: string[];
   }[];
   onCollapse?: () => void;
 }
@@ -65,19 +66,17 @@ const SubjectSidebar = ({ subjects, onCollapse }: SubjectSidebarProps) => {
           {expandedSubject === subject.name && (
             <ul className="mt-2 space-y-2">
               {subject.chapters.map((chapter, index) => (
-                <li key={chapter.id}>
+                <li key={chapter}>
                   <Link
-                    href={`/subjects/${subject.name.toLowerCase()}/${
-                      chapter.id
-                    }`}
+                    href={`/subjects/${subject.name.toLowerCase()}/${chapter}`}
                     className={`block px-3 py-1 rounded-md text-sm ${
                       currentSubject === subject.name.toLowerCase() &&
-                      currentChapter === chapter.id
+                      currentChapter === chapter
                         ? "text-sky-600 font-semibold"
                         : "text-gray-700 hover:text-sky-500"
                     }`}
                   >
-                    {String(index + 1).padStart(2, "0")}. {chapter.title}
+                    {String(index + 1).padStart(2, "0")}. {unslugify(chapter)}
                   </Link>
                 </li>
               ))}

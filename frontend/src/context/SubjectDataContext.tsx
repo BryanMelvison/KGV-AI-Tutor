@@ -7,12 +7,12 @@ import {
   useEffect,
   ReactNode,
 } from "react";
-import { getChapterData } from "@/api/mockChapter";
+import { getChapter } from "@/api/mockChapter";
 import { getSubjectsData, Subject } from "@/api/mockSubject";
 
 type SubjectWithChapters = {
   name: string;
-  chapters: { id: string; title: string }[];
+  chapters: string[];
 };
 
 interface SubjectDataContextProps {
@@ -37,14 +37,11 @@ export const SubjectDataProvider = ({ children }: { children: ReactNode }) => {
 
       const subjectsWithChapters = await Promise.all(
         baseSubjects.map(async (subject: Subject) => {
-          const chapterData = await getChapterData(
-            subject.name.toLowerCase(),
-            "latest"
-          );
+          const chapterData = await getChapter(subject.name.toLowerCase());
 
           return {
             name: subject.name,
-            chapters: chapterData.chapters,
+            chapters: chapterData,
           };
         })
       );

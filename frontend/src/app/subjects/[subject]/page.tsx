@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { useRouter, useParams } from "next/navigation";
-import { getChapterData } from "@/api/mockChapter";
+import { getChapter } from "@/api/mockChapter";
 
 export default function SubjectEntryRedirectPage() {
   const router = useRouter();
@@ -13,10 +13,10 @@ export default function SubjectEntryRedirectPage() {
     const redirectToLatestChapter = async () => {
       if (!subject) return;
 
-      const data = await getChapterData(subject, "latest");
+      const data = await getChapter(subject);
 
-      if (data.chapters.length > 0) {
-        const firstChapterId = data.chapters[0].id;
+      if (data.length > 0) {
+        const firstChapterId = data[0];
         router.replace(`/subjects/${subject}/${firstChapterId}`);
       }
     };

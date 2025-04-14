@@ -18,7 +18,6 @@ export default function ChapterPage() {
       const result = await getChapterData(subject, chapter);
       setData(result);
       setLoading(false);
-      console.log(result);
     };
 
     if (subject && chapter) fetchData();

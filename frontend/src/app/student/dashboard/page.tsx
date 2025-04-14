@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { fetchLatestExercise } from "@/api/exerciseApi";
 import { getSubjectsData, Subject } from "@/api/mockSubject";
-import { getChapterData } from "@/api/mockChapter";
+import { getChapter } from "@/api/mockChapter";
 import { useQuiz } from "@/context/SmartQuizContext";
 import SmartQuizModal from "@/components/smart-quiz/SmartQuizModal";
 import { slugify } from "@/helpers/slugify";
@@ -37,9 +37,9 @@ const Dashboard = () => {
 
       const chapterMap: Record<string, string> = {};
       for (const subject of fetchedSubjects) {
-        const data = await getChapterData(subject.name.toLowerCase(), "latest");
-        if (data.chapters.length > 0) {
-          chapterMap[subject.name] = data.chapters[0].id;
+        const data = await getChapter(subject.name.toLowerCase());
+        if (data.length > 0) {
+          chapterMap[subject.name] = data[0];
         }
       }
       setEntryChapters(chapterMap);

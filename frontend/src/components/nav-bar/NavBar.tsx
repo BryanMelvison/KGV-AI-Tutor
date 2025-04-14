@@ -12,10 +12,11 @@ import {
 import SmartQuizModal from "../smart-quiz/SmartQuizModal";
 import { useQuiz } from "@/context/SmartQuizContext";
 import { getSubjectsData, Subject } from "@/api/mockSubject";
-import { getChapterData } from "@/api/mockChapter";
+import { getChapter } from "@/api/mockChapter";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useUser } from "@/context/UserContext";
+import { unslugify } from "@/helpers/slugify";
 
 const NavBar = () => {
   const [loading, setLoading] = useState(true);
@@ -24,9 +25,7 @@ const NavBar = () => {
   const [hoveredSubject, setHoveredSubject] = useState<string | null>(null);
   const [hoveredNav, setHoveredNav] = useState(false);
   const [subjects, setSubjects] = useState<Subject[]>([]);
-  const [chapterMap, setChapterMap] = useState<
-    Record<string, { id: string; title: string }[]>
-  >({});
+  const [chapterMap, setChapterMap] = useState<Record<string, string[]>>({});
 
   const { isOpen, openQuiz, closeQuiz } = useQuiz();
   const { logout } = useUser();
@@ -42,10 +41,10 @@ const NavBar = () => {
       const data = await getSubjectsData();
       setSubjects(data);
 
-      const chapters: Record<string, { id: string; title: string }[]> = {};
+      const chapters: Record<string, string[]> = {};
       for (const subject of data) {
-        const res = await getChapterData(subject.name.toLowerCase(), "intro");
-        chapters[subject.name] = res.chapters;
+        const res = await getChapter(subject.name.toLowerCase());
+        chapters[subject.name] = res;
       }
       setChapterMap(chapters);
       setLoading(false);
@@ -191,15 +190,14 @@ const NavBar = () => {
                               {chapterMap[subject.name].map(
                                 (chapter, index) => (
                                   <Link
-                                    key={chapter.id}
-                                    href={`/subjects/${subject.name.toLowerCase()}/${
-                                      chapter.id
-                                    }`}
+                                    key={chapter}
+                                    href={`/subjects/${subject.name.toLowerCase()}/${chapter}`}
                                     className="block text-gray-600 hover:text-sky-600 text-sm p-1"
                                   >
-                                    {`${String(index + 1).padStart(2, "0")}. ${
-                                      chapter.title
-                                    }`}
+                                    {`${String(index + 1).padStart(
+                                      2,
+                                      "0"
+                                    )}. ${unslugify(chapter)}`}
                                   </Link>
                                 )
                               )}
