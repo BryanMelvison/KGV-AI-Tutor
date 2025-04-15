@@ -10,6 +10,8 @@ class Settings(BaseSettings):
     LLAMA_CLOUD_API_KEY: str
     MODEL_URL: str
     MODEL_NAME: str
+    ENCRYPTION_KEY: str
+    ENCRYPT_ALGORITHM: str
 
     model_config = SettingsConfigDict(env_file=DOTENV)
 

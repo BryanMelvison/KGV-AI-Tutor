@@ -41,3 +41,5 @@ langchain-chroma>=0.1.2
 uvloop
 python-slugify
 'python-jose[cryptography]'
+jwt
+pip install apscheduler
