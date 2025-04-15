@@ -26,6 +26,10 @@ const NavBar = () => {
   const [hoveredNav, setHoveredNav] = useState(false);
   const [subjects, setSubjects] = useState<Subject[]>([]);
   const [chapterMap, setChapterMap] = useState<Record<string, string[]>>({});
+  const [searchQueryMap, setSearchQueryMap] = useState<Record<string, string>>(
+    {}
+  );
+  const [searchFocused, setSearchFocused] = useState(false);
 
   const { isOpen, openQuiz, closeQuiz } = useQuiz();
   const { logout } = useUser();
@@ -63,6 +67,28 @@ const NavBar = () => {
     setActive(previousActive);
   };
 
+  const getFilteredChapters = (chapters, subject) => {
+    const query = searchQueryMap[subject] || "";
+    if (!query.trim()) return chapters;
+    return chapters.filter((chapter) =>
+      unslugify(chapter).toLowerCase().includes(query.toLowerCase())
+    );
+  };
+
+  const handleSearchChange = (subject, value) => {
+    setSearchQueryMap((prev) => ({
+      ...prev,
+      [subject]: value,
+    }));
+  };
+
+  const clearSearch = (subject) => {
+    setSearchQueryMap((prev) => ({
+      ...prev,
+      [subject]: "",
+    }));
+  };
+
   const navItems = [
     { name: "Dashboard", icon: <IoGridOutline />, link: "/student/dashboard" },
     { name: "Subjects", icon: <IoBookOutline />, link: "/subjects" },
@@ -71,7 +97,7 @@ const NavBar = () => {
 
   return (
     <div className="relative">
-      <div className="fixed top-0 left-0 h-screen bg-white border-r shadow-md py-5 transition-all duration-300 w-20">
+      <div className="fixed top-0 left-0 h-screen bg-white border-r shadow-md py-5 transition-all duration-300 w-20 z-40">
         <div className="flex justify-center mb-6">
           <Image
             src="/logo-square.svg"
@@ -186,21 +212,99 @@ const NavBar = () => {
 
                         {hoveredSubject === subject.name &&
                           chapterMap[subject.name] && (
-                            <div className="absolute left-full top-0 bg-white shadow-xl border rounded-md p-3 w-56 z-50">
-                              {chapterMap[subject.name].map(
-                                (chapter, index) => (
-                                  <Link
-                                    key={chapter}
-                                    href={`/subjects/${subject.name.toLowerCase()}/${chapter}`}
-                                    className="block text-gray-600 hover:text-sky-600 text-sm p-1"
+                            <div className="absolute left-full top-0 bg-white shadow-xl border rounded-md p-3 w-56 z-50 max-h-[300px] overflow-y-auto">
+                              {/* Search input */}
+                              <div className="sticky top-0 z-10 pb-2 bg-white">
+                                <div className="absolute -top-3 -left-3 -right-3 h-12 bg-white" />
+                                <div className="relative">
+                                  <input
+                                    type="text"
+                                    placeholder="Search chapters..."
+                                    value={searchQueryMap[subject.name] || ""}
+                                    onChange={(e) =>
+                                      handleSearchChange(
+                                        subject.name,
+                                        e.target.value
+                                      )
+                                    }
+                                    onFocus={() => setSearchFocused(true)}
+                                    onBlur={() =>
+                                      setTimeout(
+                                        () => setSearchFocused(false),
+                                        100
+                                      )
+                                    }
+                                    className="w-full p-1.5 pl-7 text-xs border rounded-md focus:outline-none focus:ring-1 focus:ring-sky-500 relative z-20"
+                                  />
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className="h-3.5 w-3.5 text-gray-400 absolute left-2 top-2.5 z-20"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
                                   >
-                                    {`${String(index + 1).padStart(
-                                      2,
-                                      "0"
-                                    )}. ${unslugify(chapter)}`}
-                                  </Link>
-                                )
-                              )}
+                                    <path
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      strokeWidth={2}
+                                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                                    />
+                                  </svg>
+                                  {searchQueryMap[subject.name] && (
+                                    <button
+                                      onClick={() => clearSearch(subject.name)}
+                                      className="absolute right-2 top-2.5 text-gray-400 hover:text-gray-600 z-20"
+                                    >
+                                      <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        className="h-3.5 w-3.5"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                      >
+                                        <path
+                                          strokeLinecap="round"
+                                          strokeLinejoin="round"
+                                          strokeWidth={2}
+                                          d="M6 18L18 6M6 6l12 12"
+                                        />
+                                      </svg>
+                                    </button>
+                                  )}
+                                </div>
+                                <div className="absolute -bottom-2 left-0 right-0 h-4 bg-gradient-to-b from-white to-transparent z-10" />
+                              </div>
+                              {/* Chapters list */}
+                              <div className="space-y-1 pt-1 relative z-0">
+                                {getFilteredChapters(
+                                  chapterMap[subject.name],
+                                  subject.name
+                                ).length > 0 ? (
+                                  getFilteredChapters(
+                                    chapterMap[subject.name],
+                                    subject.name
+                                  ).map((chapter) => {
+                                    const originalIndex =
+                                      chapterMap[subject.name].indexOf(chapter);
+                                    return (
+                                      <Link
+                                        key={chapter}
+                                        href={`/subjects/${subject.name.toLowerCase()}/${chapter}`}
+                                        className="block text-gray-600 hover:text-sky-600 text-sm p-1"
+                                      >
+                                        {`${String(originalIndex + 1).padStart(
+                                          2,
+                                          "0"
+                                        )}. ${unslugify(chapter)}`}
+                                      </Link>
+                                    );
+                                  })
+                                ) : (
+                                  <div className="text-center py-2 text-sm text-gray-500">
+                                    No chapters found
+                                  </div>
+                                )}
+                              </div>
                             </div>
                           )}
                       </div>
@@ -211,47 +315,6 @@ const NavBar = () => {
             </div>
           ))}
         </div>
-
-        {/* Note: bottom-32, bottom-20, bottom-5 */}
-        {/* Sunset Help button for now */}
-        {/* <div className="absolute bottom-5 left-0 w-full flex justify-center">
-          <Link
-            href="/help"
-            className="flex flex-col items-center gap-1"
-            onClick={() => setActive("help")}
-          >
-            <div
-              className={`text-3xl ${
-                active === "help" ? "text-sky-600" : "text-gray-500"
-              }`}
-            >
-              <IoHelpCircleOutline />
-            </div>
-            <span
-              className={`text-xs ${
-                active === "help"
-                  ? "text-sky-600 font-semibold"
-                  : "text-gray-500"
-              }`}
-            >
-              Help
-            </span>
-          </Link>
-        </div>*/}
-
-        {/* Placeholder for Profile */}
-        {/* <div className="absolute bottom-20 left-0 w-full flex justify-center">
-          <Link
-            href="/student/profile"
-            className="flex flex-col items-center gap-1 text-gray-500 hover:text-sky-600"
-          >
-            <img
-              src="/avatar-placeholder.png"
-              className="w-6 h-6 rounded-full"
-            />
-            <span className="text-xs">Profile</span>
-          </Link>
-        </div> */}
 
         <div className="absolute bottom-5 left-0 w-full flex justify-center">
           <button

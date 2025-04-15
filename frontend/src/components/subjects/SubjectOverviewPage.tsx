@@ -25,9 +25,6 @@ const SubjectOverviewPage = ({ data }: SubjectOverviewPageProps) => {
     { number: string; title: string }[]
   >([]);
   const [loading, setLoading] = useState(false);
-  console.log(
-    exerciseLetter && typeof subject === "string" && typeof chapter === "string"
-  );
 
   useEffect(() => {
     const fetchQuestions = async () => {
