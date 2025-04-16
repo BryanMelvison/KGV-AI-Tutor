@@ -5,6 +5,8 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama.llms import OllamaLLM
 from pathlib import Path
 from .prompt import QUESTION_GEN_PROMPT, QUESTION_CHECK_PROMPT, EXERCISE_EVAL_PROMPT
+from app.database import get_session
+from app.models import Exercise, StudentExerciseAttempt
 import random
 import pandas as pd
 import json
@@ -136,3 +138,40 @@ class ExerciseService:
         print("\n ini answernya: \n", self.answer)
 
         return {"question": self.question, "answer": self.answer}
+    
+    @staticmethod
+    def get_exercises(studentId, subject, chapter):
+        try:
+            session = get_session()
+            
+            exercises = (
+                session.query(Exercise)
+                .filter(Exercise.chapter_id == chapter)
+                .order_by(Exercise.exercise_letter)
+                .all()
+            )
+
+            completed_exercise_ids = set(
+                exercise_id[0] for exercise_id in 
+                session.query(StudentExerciseAttempt.exercise_id)
+                .filter(
+                    StudentExerciseAttempt.student_id == studentId,
+                    StudentExerciseAttempt.is_successful == True
+                )
+                .distinct()
+                .all()
+            )
+            
+            # Format response
+            exercise_list = [{
+                'id': exercise.exercise_letter,
+                'completed': exercise.id in completed_exercise_ids,
+                'secretLetter': exercise.secret_letter
+            } for exercise in exercises]
+
+            return exercise_list
+        except Exception as e:
+            raise e
+        finally:
+            session.close()
+        
