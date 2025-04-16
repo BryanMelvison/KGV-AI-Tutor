@@ -1,7 +1,7 @@
 "use client";
 import { createContext, useContext, useEffect, useState } from "react";
 import { getSubjectsData, Subject } from "@/api/mockSubject";
-import { getChapter } from "@/api/mockChapter";
+import { getChapter } from "@/api/chapter";
 
 interface Chapter {
   id: string;

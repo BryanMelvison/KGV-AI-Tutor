@@ -8,7 +8,7 @@ import ProgressBar from "./ProgressBar";
 import AssistantChatSummaries from "./AssistantChatSummaries";
 import ExerciseChat from "../chat/ExerciseChat";
 import { fetchExerciseQuestions } from "@/api/exerciseApi";
-import { ChapterData } from "@/api/mockChapter";
+import { ChapterData } from "@/api/chapter";
 import { unslugify } from "@/helpers/slugify";
 import UnlockBox from "./UnlockBox";
 

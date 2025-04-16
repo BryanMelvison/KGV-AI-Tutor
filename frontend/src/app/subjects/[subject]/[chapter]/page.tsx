@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
-import { getChapterData, ChapterData } from "@/api/mockChapter";
+import { getChapterData, ChapterData } from "@/api/chapter";
 import SubjectOverviewPage from "@/components/subjects/SubjectOverviewPage";
 
 export default function ChapterPage() {

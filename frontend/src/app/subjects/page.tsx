@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import SubjectCard from "@/components/subjects/SubjectCard";
 import { getSubjectsData, Subject } from "@/api/mockSubject";
-import { getChapter } from "@/api/mockChapter";
+import { getChapter } from "@/api/chapter";
 
 const SubjectsPage = () => {
   const [subjects, setSubjects] = useState<Subject[]>([]);

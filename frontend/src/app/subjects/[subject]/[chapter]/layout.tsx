@@ -2,7 +2,7 @@
 
 import { ReactNode, useState, useEffect } from "react";
 import { useParams, usePathname, useSearchParams } from "next/navigation";
-import { getChapterData } from "@/api/mockChapter";
+import { getChapterData } from "@/api/chapter";
 import SubjectSidebar from "@/components/subjects/SubjectSidebar";
 import { FiMenu } from "react-icons/fi";
 import { unslugify } from "@/helpers/slugify";

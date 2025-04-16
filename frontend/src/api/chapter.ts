@@ -29,37 +29,20 @@ export const getChapterData = async (
   subject: string,
   chapter: string
 ): Promise<ChapterData> => {
+  const student_id = 4; // assume student_id is 4 for now, later change when udh ada session per student
+
   return {
     title: chapter,
     mastery: await getLearningObjectives(subject, chapter),
-    mastery_status: [
-      true,
-      true,
-      true,
-      true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-    ],
-    exercises: [
-      { id: "A", completed: false, secretLetter: "Z" },
-      { id: "B", completed: true, secretLetter: "X" },
-      { id: "C", completed: false, secretLetter: "M" },
-      { id: "D", completed: true, secretLetter: "K" },
-    ],
-
-    progress: Math.floor(Math.random() * 100), // simulate varying progress
+    mastery_status: await getStudentMasteryStatus(student_id, subject, chapter),
+    exercises: await getExercises(student_id, subject, chapter),
+    progress: Math.floor(
+      await getStudentMasteryStatus(student_id, subject, chapter).then(
+        (status) => (status.filter((s) => s).length / status.length) * 100
+      )
+    ),
     chats: [
+      // QUESTIONABLE, ini buat apa
       {
         title: "Example Chat 1",
         time: "12:09 AM",
@@ -120,6 +103,42 @@ export const getLearningObjectives = async (
     return data || [];
   } catch (error) {
     console.error("Error getting learning objectives:", error);
+    return [];
+  }
+};
+
+export const getStudentMasteryStatus = async (
+  student_id: number,
+  subject: string,
+  chapter_name: string
+): Promise<boolean[]> => {
+  try {
+    const chapter_num = await getChapterNumber(chapter_name);
+
+    const { data } = await api.post(
+      `/student/mastery-status?studentId=${student_id}&subject=${subject}&chapter=${chapter_num}`
+    );
+    return data || [];
+  } catch (error) {
+    console.error("Error getting student mastery status:", error);
+    return [];
+  }
+};
+
+export const getExercises = async (
+  student_id: number,
+  subject: string,
+  chapter_name: string
+): Promise<{ id: string; completed: boolean; secretLetter: string }[]> => {
+  try {
+    const chapter_num = await getChapterNumber(chapter_name);
+
+    const { data } = await api.post(
+      `/exercise/get-exercises?studentId=${student_id}&subject=${subject}&chapter=${chapter_num}`
+    );
+    return data || [];
+  } catch (error) {
+    console.error("Error getting exercises:", error);
     return [];
   }
 };

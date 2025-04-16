@@ -12,7 +12,7 @@ import {
 import SmartQuizModal from "../smart-quiz/SmartQuizModal";
 import { useQuiz } from "@/context/SmartQuizContext";
 import { getSubjectsData, Subject } from "@/api/mockSubject";
-import { getChapter } from "@/api/mockChapter";
+import { getChapter } from "@/api/chapter";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useUser } from "@/context/UserContext";

@@ -7,7 +7,7 @@ import {
   useEffect,
   ReactNode,
 } from "react";
-import { getChapter } from "@/api/mockChapter";
+import { getChapter } from "@/api/chapter";
 import { getSubjectsData, Subject } from "@/api/mockSubject";
 
 type SubjectWithChapters = {

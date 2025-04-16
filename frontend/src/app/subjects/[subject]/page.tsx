@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { useRouter, useParams } from "next/navigation";
-import { getChapter } from "@/api/mockChapter";
+import { getChapter } from "@/api/chapter";
 
 export default function SubjectEntryRedirectPage() {
   const router = useRouter();
