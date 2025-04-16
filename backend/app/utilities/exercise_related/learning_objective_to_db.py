@@ -1,4 +1,5 @@
 import re
+from sqlalchemy import text
 from pathlib import Path
 from fuzzywuzzy import fuzz
 from nltk.stem import WordNetLemmatizer
@@ -7,7 +8,10 @@ nltk.download('wordnet')
 from app.database import get_session, engine, Base
 from app.models import Syllabus, LearningObjective
 
-Base.metadata.tables['learning_objectives'].create(engine)
+with engine.connect() as conn:
+    conn.execute(text("DROP TABLE IF EXISTS learning_objectives CASCADE"))
+    conn.commit()
+LearningObjective.__table__.create(engine)
 
 current_dir = Path(__file__).parent
 CHAPTER_FOLDER = current_dir.parent / "book" 
