@@ -6,7 +6,7 @@ from langchain_ollama.llms import OllamaLLM
 from pathlib import Path
 from .prompt import QUESTION_GEN_PROMPT, QUESTION_CHECK_PROMPT, EXERCISE_EVAL_PROMPT
 from app.database import get_session
-from app.models import Exercise, StudentExerciseAttempt
+from app.models import Exercise, StudentExerciseAttempt, QuestionAnswer
 import random
 import pandas as pd
 import json
@@ -170,6 +170,36 @@ class ExerciseService:
             } for exercise in exercises]
 
             return exercise_list
+        except Exception as e:
+            raise e
+        finally:
+            session.close()
+
+    @staticmethod
+    def get_exercise_questions(subject, chapter, exerciseLetter):
+        try:
+            session = get_session()
+            exercise = (
+                session.query(Exercise)
+                .filter(Exercise.chapter_id == chapter, Exercise.exercise_letter == exerciseLetter)
+                .first()
+            )
+
+            # use exercise_id 77's questions as dummy data for all exercises
+            qna = (
+                session.query(QuestionAnswer)
+                .filter(QuestionAnswer.exercise_id == 77)  # later change 77 to exercise.id
+                .all()
+            )
+
+            response = [
+                {
+                    "number": str(i + 1),
+                    "title": qna[i].question_text
+                } for i in range(len(qna))
+            ]
+
+            return response
         except Exception as e:
             raise e
         finally:

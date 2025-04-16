@@ -35,3 +35,15 @@ def get_exercises(
         return response
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+    
+@router.post("/get-exercise-questions")
+def get_exercise_questions(
+    subject: str = Query(..., description="Subject name"),
+    chapter: int = Query(..., description="Chapter number"),
+    exerciseLetter: str = Query(..., description="Exercise Letter")
+):
+    try:
+        response = exercise_service.get_exercise_questions(subject, chapter, exerciseLetter)
+        return response
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
