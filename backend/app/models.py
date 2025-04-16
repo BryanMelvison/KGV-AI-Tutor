@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, ForeignKey, DateTime, Text, ARRAY, Table, PrimaryKeyConstraint
+from sqlalchemy import Column, Integer, String, ForeignKey, DateTime, Text, ARRAY, Table, PrimaryKeyConstraint, Boolean, func, UniqueConstraint
 from sqlalchemy.orm import relationship
 from datetime import datetime
 from app.database import Base
@@ -8,27 +8,6 @@ from sqlalchemy import ForeignKey, Integer, DateTime, String, Uuid, create_engin
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship, sessionmaker
 import uuid
 from enum import Enum as PyEnum  
-
-# # only for testing, nanti bm ganti aja
-# class Student(Base):
-#     __tablename__ = "students"
-
-#     id = Column(Integer, primary_key=True, index=True)
-#     name = Column(String, index=True)
-#     chat_sessions = relationship("ChatSession", back_populates="student")
-
-# # only for testing, nanti bm ganti aja
-# class ChatSession(Base):
-#     __tablename__ = "chat_sessions"
-
-#     id = Column(Integer, primary_key=True, index=True)
-#     student_id = Column(Integer, ForeignKey("students.id"))
-#     topic = Column(String, index=True)
-#     start_time = Column(DateTime, default=lambda: datetime.now(datetime.timezone.utc))
-#     end_time = Column(DateTime, nullable=True)
-#     summary = Column(Text, nullable=True)
-#     insights = Column(Text, nullable=True)  # Store flagged insights
-#     student = relationship("Student", back_populates="chat_sessions")
 
 # ini for exercise, dont change!
 class Syllabus(Base):
@@ -52,22 +31,67 @@ class LearningObjective(Base):
     syllabus_tags = Column(ARRAY(String), nullable=True)
     syllabus_ids = Column(ARRAY(Integer), nullable=False)
 
-    # relationship
     question_answers = relationship("QuestionAnswer", back_populates="learning_objective")
+    mastery_statuses = relationship("StudentLearningObjectiveMastery", back_populates="learning_objective")
+    exercises = relationship("Exercise", back_populates="learning_objective")
 
 class QuestionAnswer(Base):
     __tablename__ = 'question_answers'
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     learning_objective_id = Column(Integer, ForeignKey('learning_objectives.id'), nullable=False)
+    exercise_id = Column(Integer, ForeignKey("exercises.id"), nullable=False)
     question_text = Column(String, nullable=False)
     answer_text = Column(String, nullable=False)
     source_text = Column(String, nullable=False)
     rating_score = Column(Integer, default=0)
     evaluation_notes = Column(String, default="Not evaluated")
 
-    # relationship
     learning_objective = relationship("LearningObjective", back_populates="question_answers")
+    exercise = relationship("Exercise", back_populates="qna_pairs")
+
+class Exercise(Base):
+    __tablename__ = "exercises"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    chapter_id = Column(Integer, ForeignKey("chapters.id"), nullable=False)
+    learning_objective_id = Column(Integer, ForeignKey("learning_objectives.id"), nullable=False)
+    subject_name = Column(String(50), nullable=False)
+    exercise_letter = Column(String(10), nullable=False)
+    secret_letter = Column(String(1), nullable=False)
+
+    # Composite unique constraint on (chapter_id, exercise_letter)
+    __table_args__ = (
+        UniqueConstraint('chapter_id', 'exercise_letter', name='uq_chapter_exercise_letter'),
+    )
+
+    learning_objective = relationship("LearningObjective", back_populates="exercises")
+    chapter = relationship("Chapters", back_populates="exercises")
+    qna_pairs = relationship("QuestionAnswer", back_populates="exercise")
+    attempts = relationship("StudentExerciseAttempt", back_populates="exercise")
+
+class StudentLearningObjectiveMastery(Base):
+    __tablename__ = "student_learning_objective_mastery"
+
+    id = Column(Integer, ForeignKey("users.id"), primary_key=True)
+    learning_objective_id = Column(Integer, ForeignKey("learning_objectives.id"), primary_key=True)
+    is_mastered = Column(Boolean, default=False, nullable=False)
+
+    student = relationship("Users", back_populates="mastery_statuses")
+    learning_objective = relationship("LearningObjective", back_populates="mastery_statuses")
+
+class StudentExerciseAttempt(Base):
+    __tablename__ = "student_exercise_attempts"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    student_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    exercise_id = Column(Integer, ForeignKey("exercises.id"), nullable=False)
+    correct_question = Column(Integer, nullable=False)
+    attempt_date = Column(DateTime, server_default=func.now(), nullable=False)
+    is_successful = Column(Boolean, default=False, nullable=False)
+
+    student = relationship("Users", back_populates="attempts")
+    exercise = relationship("Exercise", back_populates="attempts")
 
 
 # Define enums using Python's Enum
@@ -80,8 +104,8 @@ class Role(PyEnum):
     STUDENT = "student"
     TEACHER = "teacher"
 
-class Base(DeclarativeBase):
-    pass
+# class Base(DeclarativeBase):
+#     pass
 class Roles(Base):
     __tablename__ = 'roles'
 
@@ -111,6 +135,9 @@ class Users(Base):
 
     # This is a one-to-many relationship between users and chatSessions
     chat_sessions: Mapped[List["ChatSessions"]] = relationship(back_populates="user")
+
+    attempts = relationship("StudentExerciseAttempt", back_populates="student")
+    mastery_statuses = relationship("StudentLearningObjectiveMastery", back_populates="student")
 
 class teacherSubjects(Base):
     __tablename__ = 'teacherSubjects'
@@ -173,6 +200,8 @@ class Chapters(Base):
 
     # This is a one-to-many relationship between chapters and chatSessions
     chat_sessions: Mapped[List["ChatSessions"]] = relationship(back_populates="chapter")
+
+    exercises = relationship("Exercise", back_populates="chapter")
 
 class ChatSessions(Base):
     __tablename__ = 'chatSessions'
