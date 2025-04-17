@@ -3,10 +3,10 @@
 import React, { useState } from "react";
 import ChatContainer from "./ChatContainer";
 import { Message } from "@/interfaces/Message";
-import { useParams, useSearchParams } from "next/navigation";
-import { useRouter } from "next/navigation";
+import { useParams, useSearchParams, useRouter } from "next/navigation";
 import toast from "react-hot-toast";
 import { getExerciseAIResponse } from "@/api/exerciseApi";
+import confetti from "canvas-confetti";
 
 interface Question {
   number: string;
@@ -24,6 +24,7 @@ interface ExerciseChatProps {
 const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
   const router = useRouter();
   const params = useParams();
+  const searchParams = useSearchParams();
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [chatHistories, setChatHistories] = useState<{
@@ -32,20 +33,18 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
   const [isLoading, setIsLoading] = useState(false);
   const [isSelectorOpen, setIsSelectorOpen] = useState(false);
   const [showConfirmQuit, setShowConfirmQuit] = useState(false);
+  const [showCompletionPopup, setShowCompletionPopup] = useState(false);
 
   const currentQuestion = questions[currentQuestionIndex];
   const messages = chatHistories[currentQuestionIndex] || [];
 
-  const searchParams = useSearchParams();
   const selectedExercise = searchParams.get("exercise") || "A";
-
-  const allCompleted = questions.every(
-    (_, index) => chatHistories[index]?.length > 0
-  );
+  const allCompleted = questions.every((_, i) => chatHistories[i]?.length > 0);
 
   const handleSend = async (message: string) => {
     if (!message.trim()) return;
     setIsLoading(true);
+
     setChatHistories((prev) => ({
       ...prev,
       [currentQuestionIndex]: [
@@ -55,144 +54,115 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
     }));
 
     try {
-      console.log("qna data", currentQuestion);
+      // console.log("qna data", currentQuestion);
       const response = await getExerciseAIResponse(
         currentQuestion.title,
         currentQuestion.answer,
         message
       );
-      console.log("AI Response:", response);
-      const formattedResponse = `📊 Score: ${response.score}/10 💭 Feedback: ${response.reason} 🛠️ Comment: ${response.comment} 💡 Hint: ${response.hint}`;
+
+      const feedback = `📊 Score: ${response.score}/10 💭 Feedback: ${response.reason} 🛠️ Comment: ${response.comment} 💡 Hint: ${response.hint}`;
+
       questions[currentQuestionIndex].isCompleted = response.score >= 8;
 
       setChatHistories((prev) => ({
         ...prev,
         [currentQuestionIndex]: [
           ...prev[currentQuestionIndex],
-          { text: formattedResponse, sender: "assistant" },
+          { text: feedback, sender: "assistant" },
         ],
       }));
-    } catch (error) {
-      console.error("Error getting AI response:", error);
+
+      if (response.score >= 8) {
+        setShowCompletionPopup(true);
+        confetti({
+          particleCount: 200,
+          spread: 80,
+          origin: { y: 0.6 },
+        });
+      }
+    } catch (err) {
+      console.error("AI Error:", err);
     } finally {
       setIsLoading(false);
     }
   };
 
-  const handleQuitExercise = () => {
-    const subject = params.subject;
-    const chapter = params.chapter;
+  const goToPrevious = () => {
+    if (currentQuestionIndex > 0) setCurrentQuestionIndex((i) => i - 1);
+  };
 
-    if (allCompleted) {
-      toast.success("Exercise submitted successfully!");
-      if (typeof subject === "string" && typeof chapter === "string") {
-        router.push(`/student/subjects/${subject}/${chapter}`);
-      }
-      // TBC: Add exercise submission logic
-    } else {
-      setShowConfirmQuit(true);
-    }
+  const goToNext = () => {
+    if (currentQuestionIndex < questions.length - 1)
+      setCurrentQuestionIndex((i) => i + 1);
+    setShowCompletionPopup(false);
+  };
+
+  const handleQuitExercise = () => {
+    setShowConfirmQuit(true);
   };
 
   const confirmQuit = () => {
-    const subject = params.subject;
-    const chapter = params.chapter;
     setShowConfirmQuit(false);
+    toast.success("Exercise submitted!");
+    const { subject, chapter } = params;
     if (typeof subject === "string" && typeof chapter === "string") {
       router.push(`/student/subjects/${subject}/${chapter}`);
     }
   };
 
-  const goToPrevious = () => {
-    if (currentQuestionIndex > 0)
-      setCurrentQuestionIndex(currentQuestionIndex - 1);
-  };
-
-  const goToNext = () => {
-    if (currentQuestionIndex < questions.length - 1)
-      setCurrentQuestionIndex(currentQuestionIndex + 1);
-  };
-
-  const openSelector = () => {
-    setIsSelectorOpen(true);
-  };
-
-  const selectQuestion = (index: number) => {
-    setCurrentQuestionIndex(index);
+  const openSelector = () => setIsSelectorOpen(true);
+  const selectQuestion = (i: number) => {
+    setCurrentQuestionIndex(i);
     setIsSelectorOpen(false);
   };
-
-  const isCompleted = questions[currentQuestionIndex].isCompleted;
 
   const headerContent = (
     <>
       <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center my-4">
         <h1 className="text-xl font-bold text-gray-900">{title}</h1>
-
         <div className="flex gap-3">
           <button
             onClick={goToPrevious}
             disabled={currentQuestionIndex === 0}
-            className={`px-4 py-2 rounded-lg font-medium transition-all
-            bg-gray-200 text-gray-800
-            hover:bg-gray-300 hover:shadow
-            active:bg-gray-400 active:scale-[0.98]
-            disabled:opacity-50 disabled:cursor-not-allowed`}
+            className="px-4 py-2 rounded-lg bg-gray-200 text-gray-800 hover:bg-gray-300 disabled:opacity-50"
           >
             Previous
           </button>
           <button
             onClick={openSelector}
-            className={`px-4 py-2 rounded-lg font-medium transition-all
-            bg-blue-200 text-blue-800
-            hover:bg-blue-300 hover:shadow
-            active:bg-blue-400 active:scale-[0.98]
-            focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2`}
+            className="px-4 py-2 rounded-lg bg-blue-200 text-blue-800 hover:bg-blue-300"
           >
-            Q{currentQuestion.number} {isCompleted ? "(Done)" : ""}
+            Q{currentQuestion.number}{" "}
+            {currentQuestion.isCompleted ? "(Done)" : ""}
           </button>
-
           <button
             onClick={goToNext}
             disabled={currentQuestionIndex === questions.length - 1}
-            className={`px-4 py-2 rounded-lg font-medium transition-all
-            bg-gray-200 text-gray-800
-            hover:bg-gray-300 hover:shadow
-            active:bg-gray-400 active:scale-[0.98]
-            disabled:opacity-50 disabled:cursor-not-allowed`}
+            className="px-4 py-2 rounded-lg bg-gray-200 text-gray-800 hover:bg-gray-300 disabled:opacity-50"
           >
             Next
           </button>
           <button
             onClick={handleQuitExercise}
-            className={`px-4 py-2 rounded-lg transition-colors font-medium
-            ${
+            className={`px-4 py-2 rounded-lg font-medium ${
               allCompleted
                 ? "bg-green-50 text-green-600 hover:bg-green-100"
                 : "bg-red-50 text-red-500 hover:bg-red-100"
-            }
-          `}
+            }`}
           >
             {allCompleted ? "Submit Exercise" : "Quit Exercise"}
           </button>
         </div>
       </div>
 
-      <div className="bg-white rounded-xl p-4 mb-4 shadow-sm border border-gray-100">
+      <div className="bg-white rounded-xl p-4 mb-4 shadow-sm border">
         <h2 className="text-base font-semibold text-gray-900">
           {currentQuestion.number}. {currentQuestion.title}
         </h2>
       </div>
     </>
   );
-
-  if (!questions || questions.length === 0) {
-    return (
-      <div className="h-screen flex justify-center items-center text-gray-600 text-lg">
-        Loading questions for exercise {selectedExercise}...
-      </div>
-    );
-  }
 
   return (
     <div className="flex flex-1 flex-col min-h-0 overflow-hidden">
@@ -205,17 +175,61 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
         inputPlaceholder="Type your answer..."
       />
 
+      {showCompletionPopup && (
+        <div className="fixed inset-0 bg-black/30 flex items-center justify-center z-50">
+          <div className="bg-white p-6 rounded-xl shadow-md max-w-sm w-full text-center space-y-4">
+            <h3 className="text-xl font-semibold text-green-600">Great job!</h3>
+            <p className="text-gray-700">
+              Correct Answer:{" "}
+              <span className="font-medium">{currentQuestion.answer}</span>
+            </p>
+            <button
+              onClick={goToNext}
+              className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+            >
+              Continue to Next Question
+            </button>
+          </div>
+        </div>
+      )}
+
+      {showConfirmQuit && (
+        <div className="fixed inset-0 bg-black/30 z-50 flex items-center justify-center">
+          <div className="bg-white p-6 rounded-xl shadow-lg max-w-sm w-full text-center space-y-4">
+            <h3 className="text-lg font-semibold text-red-600">
+              Are you sure you want to quit?
+            </h3>
+            <p className="text-sm text-gray-600">
+              Your answers will be submitted and will not be saved.
+            </p>
+            <div className="flex justify-center gap-3 pt-2">
+              <button
+                onClick={() => setShowConfirmQuit(false)}
+                className="px-4 py-2 rounded-md bg-gray-300 text-sm"
+              >
+                Cancel
+              </button>
+              <button
+                onClick={confirmQuit}
+                className="px-4 py-2 bg-red-500 text-white rounded-md text-sm hover:bg-red-600"
+              >
+                Yes, Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Question Selector Modal */}
       {isSelectorOpen && (
-        <div className="fixed inset-0 bg-gray-900 bg-opacity-50 flex justify-center items-center">
-          <div className="bg-white p-6 rounded-lg shadow-lg w-96">
+        <div className="fixed inset-0 bg-black/30 flex justify-center items-center z-50">
+          <div className="bg-white p-6 rounded-xl shadow-lg w-96">
             <h2 className="text-lg font-bold mb-4 text-gray-900">
               Select a Question
             </h2>
             <div className="grid grid-cols-5 gap-2">
               {questions.map((question, index) => {
                 const isActive = index === currentQuestionIndex;
-
                 return (
                   <div
                     key={question.number}
@@ -234,37 +248,12 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
                 );
               })}
             </div>
-
-            {/* Modal Actions */}
             <div className="mt-4 flex justify-end">
               <button
                 onClick={() => setIsSelectorOpen(false)}
                 className="px-4 py-2 bg-gray-300 text-gray-800 rounded-lg"
               >
                 Close
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-      {showConfirmQuit && (
-        <div className="fixed inset-0 bg-black/30 z-50 flex items-center justify-center">
-          <div className="bg-white p-6 rounded-xl shadow-lg max-w-sm w-full text-center space-y-4">
-            <h3 className="text-lg font-semibold text-red-600">
-              Are you sure you want to quit?
-            </h3>
-            <div className="flex justify-center gap-3 pt-2">
-              <button
-                onClick={() => setShowConfirmQuit(false)}
-                className="px-4 py-2 rounded-md text-sm text-gray-800 bg-gray-300 hover:bg-gray-400"
-              >
-                Cancel
-              </button>
-              <button
-                onClick={confirmQuit}
-                className="px-4 py-2 rounded-md bg-red-500 text-white text-sm hover:bg-red-600 transition"
-              >
-                Yes
               </button>
             </div>
           </div>
