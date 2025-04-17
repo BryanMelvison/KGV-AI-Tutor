@@ -234,9 +234,3 @@ class chatMessage(Base):
     timestamp: Mapped[DateTime] = mapped_column(DateTime, nullable=False)
     # This is a many-to-one relationship between chatMessages and chatSessions
     chatSession: Mapped["ChatSessions"] = relationship(back_populates="messages")
-
-class BlacklistedToken(Base):
-    __tablename__ = "blacklisted_tokens"
-    
-    token = mapped_column(String, primary_key=True)
-    expiry = mapped_column(DateTime, nullable=False)

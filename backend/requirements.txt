@@ -42,4 +42,3 @@ uvloop
 python-slugify
 python-jose[cryptography]
 pyJWT
-apscheduler
