@@ -13,48 +13,41 @@ class LoginService:
         self.jwt_service = JWTService()
 
     def verify_user(self, email: str, password: str):
-        user = self.db.query(Users).filter_by(email=email).first()
-        if not user:
-            raise HTTPException(status_code=400, detail="Invalid credentials")
-        
-        result = self.db.execute(
-            text("SELECT crypt(:plain_password, :hashed_password) = :hashed_password"),
-            {
-                'plain_password': password,
-                'hashed_password': user.password
+        try: 
+            user = self.db.query(Users).filter_by(email=email).first()
+            if not user:
+                raise HTTPException(status_code=400, detail="Invalid credentials")
+            
+            result = self.db.execute(
+                text("SELECT crypt(:plain_password, :hashed_password) = :hashed_password"),
+                {
+                    'plain_password': password,
+                    'hashed_password': user.password
+                }
+            )
+            is_valid = result.scalar()
+            if not is_valid:
+                raise HTTPException(status_code=400, detail="Invalid credentials")
+            # Create token data
+            token_data = {
+                "sub": str(user.id),
+                "email": user.email,
+                "role": str(user.role.roleName),
             }
-        )
-        is_valid = result.scalar()
-        if not is_valid:
-            raise HTTPException(status_code=400, detail="Invalid credentials")
-        # Create token data
-        token_data = {
-            "sub": str(user.id),
-            "email": user.email,
-            "role": str(user.role.roleName),
-        }
-        # Generate access token
-        access_token = self.jwt_service.create_access_token(token_data)
-        # Generate refresh token
-        refresh_token = self.jwt_service.create_refresh_token(token_data)
-
-        print({
-            "access_token": access_token,
-            "refresh_token": refresh_token,
-            "token_type": "bearer",
-            "role": user.role.roleName,
-            "displayName": user.displayName,
-            "id": user.id,
-        })
-
-        return {
-            "access_token": access_token,
-            "refresh_token": refresh_token,
-            "token_type": "bearer",
-            "role": user.role.roleName,
-            "displayName": user.displayName,
-            "id": user.id,
-        }
+            # Generate access token
+            access_token = self.jwt_service.create_access_token(token_data)
+            # Generate refresh token
+            refresh_token = self.jwt_service.create_refresh_token(token_data)
+            return {
+                "access_token": access_token,
+                "refresh_token": refresh_token,
+                "token_type": "bearer",
+                "role": user.role.roleName,
+                "displayName": user.displayName,
+                "id": user.id,
+            }
+        except Exception as e:
+            raise HTTPException(status_code=500, detail=str(e))
 
     def refresh_token(self, refresh_token_str: str):
             # Validate a refresh token and issue new access and refresh tokens

@@ -18,11 +18,8 @@ class RefreshTokenRequest(BaseModel):
 
 @router.post("/verify")
 def verify_account(request: MessageRequest, db: Session = Depends(get_db)):
-    try:
-        login_service = LoginService(db)
-        return login_service.verify_user(request.email, request.password)
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+    login_service = LoginService(db)
+    return login_service.verify_user(request.email, request.password)
 
 @router.post("/refresh")
 def refresh_token(request: RefreshTokenRequest, db: Session = Depends(get_db)):
