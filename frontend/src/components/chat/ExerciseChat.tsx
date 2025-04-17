@@ -6,10 +6,14 @@ import { Message } from "@/interfaces/Message";
 import { useParams, useSearchParams } from "next/navigation";
 import { useRouter } from "next/navigation";
 import toast from "react-hot-toast";
+import { getExerciseAIResponse } from "@/api/exerciseApi";
 
 interface Question {
   number: string;
   title: string;
+  answer: string;
+  id: number;
+  isCompleted?: boolean;
 }
 
 interface ExerciseChatProps {
@@ -39,7 +43,7 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
     (_, index) => chatHistories[index]?.length > 0
   );
 
-  const handleSend = (message: string) => {
+  const handleSend = async (message: string) => {
     if (!message.trim()) return;
     setIsLoading(true);
     setChatHistories((prev) => ({
@@ -50,16 +54,29 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
       ],
     }));
 
-    setTimeout(() => {
+    try {
+      console.log("qna data", currentQuestion);
+      const response = await getExerciseAIResponse(
+        currentQuestion.title,
+        currentQuestion.answer,
+        message
+      );
+      console.log("AI Response:", response);
+      const formattedResponse = `📊 Score: ${response.score}/10 💭 Feedback: ${response.reason} 🛠️ Comment: ${response.comment} 💡 Hint: ${response.hint}`;
+      questions[currentQuestionIndex].isCompleted = response.score >= 8;
+
       setChatHistories((prev) => ({
         ...prev,
         [currentQuestionIndex]: [
           ...prev[currentQuestionIndex],
-          { text: "This is a sample AI response.", sender: "assistant" },
+          { text: formattedResponse, sender: "assistant" },
         ],
       }));
+    } catch (error) {
+      console.error("Error getting AI response:", error);
+    } finally {
       setIsLoading(false);
-    }, 0);
+    }
   };
 
   const handleQuitExercise = () => {
@@ -105,7 +122,7 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
     setIsSelectorOpen(false);
   };
 
-  const isCompleted = messages.length > 0;
+  const isCompleted = questions[currentQuestionIndex].isCompleted;
 
   const headerContent = (
     <>
@@ -197,7 +214,6 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
             </h2>
             <div className="grid grid-cols-5 gap-2">
               {questions.map((question, index) => {
-                const isCompleted = chatHistories[index]?.length > 0;
                 const isActive = index === currentQuestionIndex;
 
                 return (
@@ -205,7 +221,7 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
                     key={question.number}
                     className={`relative w-12 h-12 flex items-center justify-center rounded-md text-sm font-semibold cursor-pointer border
                       ${
-                        isCompleted
+                        question.isCompleted
                           ? "bg-green-500 text-white border-green-600"
                           : "bg-white text-gray-900 border-gray-300"
                       }
