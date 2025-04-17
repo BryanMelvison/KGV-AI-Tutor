@@ -162,7 +162,7 @@ const SubjectSidebar = ({ subjects, onCollapse }: SubjectSidebarProps) => {
                     return (
                       <li key={chapter}>
                         <Link
-                          href={`/subjects/${subject.name.toLowerCase()}/${chapter}`}
+                          href={`/student/subjects/${subject.name.toLowerCase()}/${chapter}`}
                           className={`block px-3 py-1.5 rounded-md text-sm ${
                             isHighlighted
                               ? "hover:text-sky-600 hover:bg-gray-50"

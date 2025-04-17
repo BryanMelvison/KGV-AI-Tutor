@@ -16,7 +16,7 @@ interface User {
 interface UserContextType {
   user: User | null;
   userLoaded: boolean;
-  login: (user: User, token: string) => void;
+  login: (user: User, token: string, refreshToken: string) => void;
   logout: () => void;
 }
 
@@ -27,23 +27,28 @@ export const UserProvider = ({ children }: { children: ReactNode }) => {
   const [userLoaded, setUserLoaded] = useState(false);
 
   useEffect(() => {
-    const stored = localStorage.getItem("kgv-user");
-    if (stored) {
-      setUser(JSON.parse(stored));
+    const storedUser = localStorage.getItem("anh-user");
+    const storedToken = localStorage.getItem("anh-token");
+    const storedRefreshToken = localStorage.getItem("anh-refresh-token");
+
+    if (storedUser && storedToken && storedRefreshToken) {
+      setUser(JSON.parse(storedUser));
     }
     setUserLoaded(true);
   }, []);
 
-  const login = (user: User /*, token: string */) => {
+  const login = (user: User, access_token: string, refresh_token: string) => {
     setUser(user);
-    localStorage.setItem("kgv-user", JSON.stringify(user));
-    // localStorage.setItem("kgv-token", token);
+    localStorage.setItem("anh-user", JSON.stringify(user));
+    localStorage.setItem("anh-refresh-token", refresh_token);
+    localStorage.setItem("anh-token", access_token);
   };
 
   const logout = () => {
     setUser(null);
-    localStorage.removeItem("kgv-user");
-    // localStorage.removeItem("kgv-token");
+    localStorage.removeItem("anh-user");
+    localStorage.removeItem("anh-refresh-token");
+    localStorage.removeItem("anh-token");
   };
 
   return (

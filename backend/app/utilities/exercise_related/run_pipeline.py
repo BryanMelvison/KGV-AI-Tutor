@@ -10,7 +10,7 @@ def run_script(script_name: str) -> bool:
         print(f"{'='*50}")
         
         result = subprocess.run(
-            ['python', '-m', f'app.utilities.exercise_related.{script_name}'],
+            ['python3', '-m', f'app.utilities.exercise_related.{script_name}'],
             check=True,
             cwd=Path(__file__).parent.parent.parent.parent
         )

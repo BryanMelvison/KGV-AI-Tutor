@@ -33,16 +33,15 @@ export default function RealLoginPage() {
 
     try {
       const res = await loginUser(email, password);
-      const data = res.data;
-      login({ displayName: data.displayName, role: data.role });
-      // login({ displayName: data.displayName, role: data.role }, data.token);
-      router.push(`/${data.role}/dashboard`);
+      const { access_token, refresh_token, displayName, role } = res.data;
+
+      login({ displayName, role }, access_token, refresh_token);
+
+      router.push(`/${role}/dashboard`);
     } catch (err) {
       if (axios.isAxiosError(err)) {
         if (err.response?.status === 401) {
           setError("Invalid email or password.");
-        } else if (err.response?.data?.message) {
-          setError(err.response.data.message);
         } else {
           setError("Something went wrong. Please try again.");
         }

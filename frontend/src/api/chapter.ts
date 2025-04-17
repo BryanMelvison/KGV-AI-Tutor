@@ -56,14 +56,18 @@ export const getChapterData = async (
     ],
   };
 };
-
 export const getChapter = async (subject: string): Promise<string[]> => {
   try {
     const subject_number = await getSubjectNumber(subject);
 
     const { data } = await api.post(
-      `chapter/all-chapter-name?subject=${subject_number}`
+      "/chapter/all-chapter-name",
+      {},
+      {
+        params: { subject: subject_number },
+      }
     );
+
     return data || [];
   } catch (error) {
     console.error("Error getting all chapter names:", error);
@@ -72,8 +76,14 @@ export const getChapter = async (subject: string): Promise<string[]> => {
 };
 
 export const getSubjectNumber = async (subject: string): Promise<number> => {
-  const response = await api.post(`chapter/subject-number?subject=${subject}`);
-  return response.data;
+  const { data } = await api.post(
+    "/chapter/subject-number",
+    {},
+    {
+      params: { subject },
+    }
+  );
+  return data;
 };
 
 export const getChapterNumber = async (
@@ -81,7 +91,11 @@ export const getChapterNumber = async (
 ): Promise<number> => {
   try {
     const { data } = await api.post(
-      `/chapter/chapter-number?chapter=${chapter_name}`
+      "/chapter/chapter-number",
+      {},
+      {
+        params: { chapter: chapter_name },
+      }
     );
     return data;
   } catch (error) {
@@ -96,9 +110,12 @@ export const getLearningObjectives = async (
 ): Promise<string[]> => {
   try {
     const chapter_num = await getChapterNumber(chapter_name);
-
     const { data } = await api.post(
-      `/chapter/learning-objective?subject=${subject}&chapter=${chapter_num}`
+      "/chapter/learning-objective",
+      {},
+      {
+        params: { subject, chapter: chapter_num },
+      }
     );
     return data || [];
   } catch (error) {
@@ -114,9 +131,12 @@ export const getStudentMasteryStatus = async (
 ): Promise<boolean[]> => {
   try {
     const chapter_num = await getChapterNumber(chapter_name);
-
     const { data } = await api.post(
-      `/student/mastery-status?studentId=${student_id}&subject=${subject}&chapter=${chapter_num}`
+      "/student/mastery-status",
+      {},
+      {
+        params: { studentId: student_id, subject, chapter: chapter_num },
+      }
     );
     return data || [];
   } catch (error) {
@@ -132,9 +152,12 @@ export const getExercises = async (
 ): Promise<{ id: string; completed: boolean; secretLetter: string }[]> => {
   try {
     const chapter_num = await getChapterNumber(chapter_name);
-
     const { data } = await api.post(
-      `/exercise/get-exercises?studentId=${student_id}&subject=${subject}&chapter=${chapter_num}`
+      "/exercise/get-exercises",
+      {},
+      {
+        params: { studentId: student_id, subject, chapter: chapter_num },
+      }
     );
     return data || [];
   } catch (error) {

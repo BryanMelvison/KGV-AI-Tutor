@@ -69,7 +69,7 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
     if (allCompleted) {
       toast.success("Exercise submitted successfully!");
       if (typeof subject === "string" && typeof chapter === "string") {
-        router.push(`/subjects/${subject}/${chapter}`);
+        router.push(`/student/subjects/${subject}/${chapter}`);
       }
       // TBC: Add exercise submission logic
     } else {
@@ -82,7 +82,7 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
     const chapter = params.chapter;
     setShowConfirmQuit(false);
     if (typeof subject === "string" && typeof chapter === "string") {
-      router.push(`/subjects/${subject}/${chapter}`);
+      router.push(`/student/subjects/${subject}/${chapter}`);
     }
   };
 

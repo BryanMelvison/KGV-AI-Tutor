@@ -17,6 +17,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useUser } from "@/context/UserContext";
 import { unslugify } from "@/helpers/slugify";
+import { logoutUser } from "@/api/auth";
 
 const NavBar = () => {
   const [loading, setLoading] = useState(true);
@@ -35,9 +36,14 @@ const NavBar = () => {
   const { logout } = useUser();
   const router = useRouter();
 
-  const handleLogout = () => {
-    logout();
-    router.push("/login");
+  const handleLogout = async () => {
+    try {
+      await logoutUser();
+      logout();
+      router.push("/login");
+    } catch (err) {
+      console.error("Logout failed:", err);
+    }
   };
 
   useEffect(() => {
@@ -91,7 +97,7 @@ const NavBar = () => {
 
   const navItems = [
     { name: "Dashboard", icon: <IoGridOutline />, link: "/student/dashboard" },
-    { name: "Subjects", icon: <IoBookOutline />, link: "/subjects" },
+    { name: "Subjects", icon: <IoBookOutline />, link: "/student/subjects" },
     { name: "Smart Quiz", icon: <IoSparklesOutline /> },
   ];
 
@@ -191,14 +197,14 @@ const NavBar = () => {
                         onMouseLeave={() => setHoveredSubject(null)}
                       >
                         <Link
-                          href={`/subjects/${subject.name.toLowerCase()}`}
+                          href={`/student/subjects/${subject.name.toLowerCase()}`}
                           className="flex items-center space-x-3 p-2 hover:bg-gray-100 rounded-md w-full"
                         >
                           <div
                             className="w-8 h-8 flex items-center justify-center rounded-md"
                             style={{ backgroundColor: subject.color }}
                           >
-                            <img
+                            <Image
                               src={subject.icon}
                               alt={subject.name}
                               className="w-5 h-5"
@@ -289,7 +295,7 @@ const NavBar = () => {
                                     return (
                                       <Link
                                         key={chapter}
-                                        href={`/subjects/${subject.name.toLowerCase()}/${chapter}`}
+                                        href={`/student/subjects/${subject.name.toLowerCase()}/${chapter}`}
                                         className="block text-gray-600 hover:text-sky-600 text-sm p-1"
                                       >
                                         {`${String(originalIndex + 1).padStart(

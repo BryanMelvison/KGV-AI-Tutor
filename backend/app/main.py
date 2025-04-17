@@ -66,3 +66,7 @@ app.include_router(api_router)
 @app.get("/")
 async def root():
     return {"message": "Welcome to KGV AI TUTOR API"}
+
+@app.get("/cors-test")
+def cors_test():
+    return {"message": "CORS is working!"}

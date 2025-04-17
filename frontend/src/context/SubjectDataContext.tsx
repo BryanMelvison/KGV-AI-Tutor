@@ -38,6 +38,7 @@ export const SubjectDataProvider = ({ children }: { children: ReactNode }) => {
       const subjectsWithChapters = await Promise.all(
         baseSubjects.map(async (subject: Subject) => {
           const chapterData = await getChapter(subject.name.toLowerCase());
+          console.log("chapterData", chapterData);
 
           return {
             name: subject.name,

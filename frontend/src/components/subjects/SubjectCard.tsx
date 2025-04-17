@@ -20,8 +20,7 @@ const SubjectCard = ({
 }: SubjectCardProps) => {
   const router = useRouter();
   const handleClick = () => {
-    console.log(`/subjects/${name.toLowerCase()}/${entryChapter}`);
-    router.push(`/subjects/${name.toLowerCase()}/${entryChapter}`);
+    router.push(`/student/subjects/${name.toLowerCase()}/${entryChapter}`);
   };
 
   return (
