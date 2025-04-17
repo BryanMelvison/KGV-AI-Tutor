@@ -5,7 +5,6 @@ import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { FiChevronDown, FiMenu, FiSearch, FiX } from "react-icons/fi";
 import { unslugify } from "@/helpers/slugify";
-import { getChapter } from "@/api/chapter";
 
 interface SubjectSidebarProps {
   subjects: {
@@ -24,7 +23,6 @@ const SubjectSidebar = ({ subjects, onCollapse }: SubjectSidebarProps) => {
   const [expandedSubject, setExpandedSubject] = useState<string | null>(null);
   const [expandedSubjects, setExpandedSubjects] = useState<string[]>([]);
   const [searchQuery, setSearchQuery] = useState("");
-  const [chapterMap, setChapterMap] = useState<Record<string, string[]>>({});
 
   useEffect(() => {
     if (currentSubject) {
@@ -36,23 +34,6 @@ const SubjectSidebar = ({ subjects, onCollapse }: SubjectSidebarProps) => {
   }, [currentSubject, subjects]);
 
   useEffect(() => {
-    const fetchAllChapters = async () => {
-      const map: Record<string, string[]> = {};
-      for (const subject of subjects) {
-        try {
-          const chapters = await getChapter(subject.name);
-          map[subject.name] = chapters;
-        } catch (err) {
-          console.error(`Failed to fetch chapters for ${subject.name}`, err);
-        }
-      }
-      setChapterMap(map);
-    };
-
-    fetchAllChapters();
-  }, [subjects]);
-
-  useEffect(() => {
     if (!searchQuery.trim()) {
       setExpandedSubjects(expandedSubject ? [expandedSubject] : []);
       return;
@@ -61,15 +42,14 @@ const SubjectSidebar = ({ subjects, onCollapse }: SubjectSidebarProps) => {
     const lower = searchQuery.toLowerCase();
     const matchedSubjects = subjects.filter((subject) => {
       const subjectMatch = subject.name.toLowerCase().includes(lower);
-      const chapters = chapterMap[subject.name] || [];
-      const chapterMatch = chapters.some((chapter) =>
+      const chapterMatch = subject.chapters.some((chapter) =>
         unslugify(chapter).toLowerCase().includes(lower)
       );
       return subjectMatch || chapterMatch;
     });
 
     setExpandedSubjects(matchedSubjects.map((s) => s.name));
-  }, [searchQuery, subjects, chapterMap, expandedSubject]);
+  }, [searchQuery, subjects, expandedSubject]);
 
   const toggleSubject = (subjectName: string) => {
     setExpandedSubjects((prev) =>
@@ -80,7 +60,7 @@ const SubjectSidebar = ({ subjects, onCollapse }: SubjectSidebarProps) => {
   };
 
   return (
-    <aside className="w-64 bg-white border-r p-4 space-y-4 transition-all duration-300 sticky top-0 h-screen overflow-y-auto">
+    <aside className="w-64 bg-white border-r p-4 space-y-4 sticky top-0 h-screen overflow-y-auto">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-lg font-bold">My Subjects</h2>
         {onCollapse && (
@@ -116,16 +96,15 @@ const SubjectSidebar = ({ subjects, onCollapse }: SubjectSidebarProps) => {
       {/* Subjects & Chapters */}
       <div className="space-y-3">
         {subjects.map((subject) => {
-          const chapters = chapterMap[subject.name] || [];
           const isExpanded = expandedSubjects.includes(subject.name);
 
           const filteredChapters = searchQuery
-            ? chapters.filter((chapter) =>
+            ? subject.chapters.filter((chapter) =>
                 unslugify(chapter)
                   .toLowerCase()
                   .includes(searchQuery.toLowerCase())
               )
-            : chapters;
+            : subject.chapters;
 
           if (
             searchQuery &&
