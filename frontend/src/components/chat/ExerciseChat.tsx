@@ -39,7 +39,7 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
   const messages = chatHistories[currentQuestionIndex] || [];
 
   const selectedExercise = searchParams.get("exercise") || "A";
-  const allCompleted = questions.every((_, i) => chatHistories[i]?.length > 0);
+  const allCompleted = questions.every((q) => q.isCompleted);
 
   const handleSend = async (message: string) => {
     if (!message.trim()) return;
