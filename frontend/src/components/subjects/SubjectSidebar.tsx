@@ -5,11 +5,11 @@ import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { FiChevronDown, FiMenu, FiSearch, FiX } from "react-icons/fi";
 import { unslugify } from "@/helpers/slugify";
+import { getChapter } from "@/api/chapter";
 
 interface SubjectSidebarProps {
   subjects: {
     name: string;
-    chapters: string[];
   }[];
   onCollapse?: () => void;
 }
@@ -23,6 +23,25 @@ const SubjectSidebar = ({ subjects, onCollapse }: SubjectSidebarProps) => {
   const [expandedSubject, setExpandedSubject] = useState<string | null>(null);
   const [expandedSubjects, setExpandedSubjects] = useState<string[]>([]);
   const [searchQuery, setSearchQuery] = useState("");
+  const [chapterMap, setChapterMap] = useState<Record<string, string[]>>({});
+
+  useEffect(() => {
+    const fetchChapters = async () => {
+      const map: Record<string, string[]> = {};
+      for (const subject of subjects) {
+        try {
+          const chapters = await getChapter(subject.name.toLowerCase());
+          map[subject.name] = chapters;
+        } catch (err) {
+          console.error("Failed to fetch chapters for", subject.name, err);
+          map[subject.name] = [];
+        }
+      }
+      setChapterMap(map);
+    };
+
+    fetchChapters();
+  }, [subjects]);
 
   useEffect(() => {
     if (currentSubject) {
@@ -42,14 +61,15 @@ const SubjectSidebar = ({ subjects, onCollapse }: SubjectSidebarProps) => {
     const lower = searchQuery.toLowerCase();
     const matchedSubjects = subjects.filter((subject) => {
       const subjectMatch = subject.name.toLowerCase().includes(lower);
-      const chapterMatch = subject.chapters.some((chapter) =>
+      const chapters = chapterMap[subject.name] || [];
+      const chapterMatch = chapters.some((chapter) =>
         unslugify(chapter).toLowerCase().includes(lower)
       );
       return subjectMatch || chapterMatch;
     });
 
     setExpandedSubjects(matchedSubjects.map((s) => s.name));
-  }, [searchQuery, subjects, expandedSubject]);
+  }, [searchQuery, subjects, chapterMap, expandedSubject]);
 
   const toggleSubject = (subjectName: string) => {
     setExpandedSubjects((prev) =>
@@ -96,15 +116,16 @@ const SubjectSidebar = ({ subjects, onCollapse }: SubjectSidebarProps) => {
       {/* Subjects & Chapters */}
       <div className="space-y-3">
         {subjects.map((subject) => {
+          const chapters = chapterMap[subject.name] || [];
           const isExpanded = expandedSubjects.includes(subject.name);
 
           const filteredChapters = searchQuery
-            ? subject.chapters.filter((chapter) =>
+            ? chapters.filter((chapter) =>
                 unslugify(chapter)
                   .toLowerCase()
                   .includes(searchQuery.toLowerCase())
               )
-            : subject.chapters;
+            : chapters;
 
           if (
             searchQuery &&
