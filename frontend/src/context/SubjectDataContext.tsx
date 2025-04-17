@@ -10,8 +10,7 @@ import {
 import { getChapter } from "@/api/chapter";
 import { getSubjectsData, Subject } from "@/api/mockSubject";
 
-type SubjectWithChapters = {
-  name: string;
+type SubjectWithChapters = Subject & {
   chapters: string[];
 };
 
@@ -36,12 +35,11 @@ export const SubjectDataProvider = ({ children }: { children: ReactNode }) => {
       const baseSubjects = await getSubjectsData();
 
       const subjectsWithChapters = await Promise.all(
-        baseSubjects.map(async (subject: Subject) => {
+        baseSubjects.map(async (subject) => {
           const chapterData = await getChapter(subject.name.toLowerCase());
-          console.log("chapterData", chapterData);
 
           return {
-            name: subject.name,
+            ...subject,
             chapters: chapterData,
           };
         })

@@ -17,7 +17,6 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useUser } from "@/context/UserContext";
 import { unslugify } from "@/helpers/slugify";
-import { logoutUser } from "@/api/auth";
 
 const NavBar = () => {
   const [loading, setLoading] = useState(true);

@@ -24,7 +24,11 @@ export default function ChapterPage() {
   }, [subject, chapter]);
 
   if (loading || !data) {
-    return <div className="p-6 text-gray-600">Loading...</div>;
+    return (
+      <div className="flex items-center justify-center h-[calc(100vh-100px)]">
+        <div className="w-10 h-10 border-4 border-blue-500 border-t-transparent rounded-full animate-spin" />
+      </div>
+    );
   }
 
   return <SubjectOverviewPage data={data} />;
