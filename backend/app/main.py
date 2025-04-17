@@ -16,40 +16,40 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Create a scheduler instance
-scheduler = BackgroundScheduler()
+# # Create a scheduler instance
+# scheduler = BackgroundScheduler()
 
-@contextmanager
-def get_db_context():
-    """Context manager for database sessions"""
-    db = next(get_db())
-    try:
-        yield db
-    finally:
-        db.close()
+# @contextmanager
+# def get_db_context():
+#     """Context manager for database sessions"""
+#     db = next(get_db())
+#     try:
+#         yield db
+#     finally:
+#         db.close()
 
-def cleanup_expired_tokens():
-    """Job to clean up expired tokens from the blacklist"""
-    with get_db_context() as db:
-        blacklist = TokenBlacklist(db)
-        tokens_removed = blacklist.cleanup_expired_tokens()
-        print(f"Cleaned up {tokens_removed} expired tokens from blacklist")
+# def cleanup_expired_tokens():
+#     """Job to clean up expired tokens from the blacklist"""
+#     with get_db_context() as db:
+#         blacklist = TokenBlacklist(db)
+#         tokens_removed = blacklist.cleanup_expired_tokens()
+#         print(f"Cleaned up {tokens_removed} expired tokens from blacklist")
 
-@app.on_event("startup")
-def start_scheduler():
-    """Start the scheduler when the application starts"""
-    # Run every day at midnight
-    scheduler.add_job(cleanup_expired_tokens, 'cron', hour=0, minute=0)
-    # For testing, you can also run it on an interval
-    # scheduler.add_job(cleanup_expired_tokens, 'interval', minutes=60)
-    scheduler.start()
-    print("Token cleanup scheduler started")
+# @app.on_event("startup")
+# def start_scheduler():
+#     """Start the scheduler when the application starts"""
+#     # Run every day at midnight
+#     scheduler.add_job(cleanup_expired_tokens, 'cron', hour=0, minute=0)
+#     # For testing, you can also run it on an interval
+#     # scheduler.add_job(cleanup_expired_tokens, 'interval', minutes=60)
+#     scheduler.start()
+#     print("Token cleanup scheduler started")
 
-@app.on_event("shutdown")
-def shutdown_scheduler():
-    """Shut down the scheduler when the application stops"""
-    scheduler.shutdown()
-    print("Token cleanup scheduler shut down")
+# @app.on_event("shutdown")
+# def shutdown_scheduler():
+#     """Shut down the scheduler when the application stops"""
+#     scheduler.shutdown()
+#     print("Token cleanup scheduler shut down")
 
 
 api_router = APIRouter(prefix="/api")

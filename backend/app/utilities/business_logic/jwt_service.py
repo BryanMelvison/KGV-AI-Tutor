@@ -3,6 +3,11 @@ import jwt
 from fastapi import HTTPException
 from app.config import Settings
 from sqlalchemy.orm import Session
+from fastapi.security import OAuth2PasswordBearer
+from fastapi import Depends, HTTPException, status
+
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="auth/token")
+
 
 class JWTService:
     def __init__(self):
@@ -20,14 +25,8 @@ class JWTService:
             raise HTTPException(status_code=500, detail="Error creating access token")
 
 
-    def verify_token(self, token: str, db: Session):
+    def verify_token(self, token: str = Depends(oauth2_scheme)):
         try:
-            # Check if token is blacklisted
-            from app.utilities.business_logic.token_blacklist import TokenBlacklist
-            blacklist = TokenBlacklist(db)
-            if blacklist.is_blacklisted(token):
-                raise HTTPException(status_code=401, detail="Token has been revoked")
-                
             payload = jwt.decode(token, self.secret_key, algorithms=[self.algorithm])
             return payload
         except jwt.ExpiredSignatureError:

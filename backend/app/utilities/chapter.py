@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from app.models import LearningObjective, Chapters, Subjects, Users, studentSubjects
+from app.models import LearningObjective, Chapters, Subjects, Users, studentSubjects, Role
 from typing import List
 from fastapi import HTTPException
 
@@ -12,7 +12,7 @@ class ChapterService:
         if not user:
             raise HTTPException(status_code=404, detail="User not found")
         
-        if user.role.roleName != "student":
+        if user.role.roleName != Role.STUDENT:
             raise HTTPException(status_code=403, detail="Only students can access this resource")
         
         return user

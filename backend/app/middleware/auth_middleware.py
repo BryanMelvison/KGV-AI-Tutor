@@ -1,36 +1,23 @@
-from fastapi import Request, HTTPException, Depends
-from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
-from app.utilities.business_logic.jwt_service import JWTService
-from app.database import get_db
+# from fastapi import Request, HTTPException, Depends
+# from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
+# from app.utilities.business_logic.jwt_service import JWTService
+# from app.database import get_db
+# from fastapi.security import OAuth2PasswordBearer
 
-class AuthMiddleware(HTTPBearer):
-    def __init__(self, jwt_service: JWTService, db_dependency=Depends(get_db)):
-        super().__init__(auto_error=True)
-        self.jwt_service = jwt_service
-        self.db_dependency = db_dependency
+# oauth2_scheme = OAuth2PasswordBearer(tokenUrl="auth/token")
 
-    async def __call__(self, request: Request):
-        credentials: HTTPAuthorizationCredentials = await super().__call__(request)
-        
-        # Get database session
-        db = self.db_dependency()
-        
-        try:
-            # Pass the db to verify_token to check blacklist
-            payload = self.jwt_service.verify_token(credentials.credentials, db)
-            
-            # Store user data in request state, so other handlers can access it
-            request.state.user = payload
-            return payload
-        except HTTPException as e:
-            # Re-raise HTTP exceptions
-            raise e
-        except Exception as e:
-            # Convert other exceptions to HTTP exceptions
-            raise HTTPException(
-                status_code=401,
-                detail=f"Authentication error: {str(e)}"
-            )
+
+# class AuthMiddleware(HTTPBearer):
+#     def __init__(self, jwt_service: JWTService):
+#         super().__init__(auto_error=True)
+#         self.jwt_service = jwt_service
+
+#     async def __call__(self, request: Request):
+#         credentials: HTTPAuthorizationCredentials = await super().__call__(request)
+#         payload = self.jwt_service.verify_token(credentials.credentials)
+#         request.state.user = payload
+#         return payload
+
 
 # class AuthMiddleware(HTTPBearer):
 #     def __init__(self, jwt_service: JWTService):
