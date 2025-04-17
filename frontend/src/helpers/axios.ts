@@ -10,7 +10,7 @@ const api = axios.create({
 
 // add access token to the headers
 api.interceptors.request.use((config) => {
-  const token = localStorage.getItem("anh-token");
+  const token = sessionStorage.getItem("anh-token");
   if (token) {
     config.headers.Authorization = `Bearer ${token}`;
   }
@@ -26,12 +26,12 @@ api.interceptors.request.use((config) => {
 //     if (error.response?.status === 401 && !originalRequest._retry) {
 //       originalRequest._retry = true;
 
-//       const refreshTokenValue = localStorage.getItem("anh-refresh-token");
+//       const refreshTokenValue = sessionStorage.getItem("anh-refresh-token");
 //       if (refreshTokenValue) {
 //         try {
 //           const res = await refreshToken(refreshTokenValue);
 //           const newAccessToken = res.data.access_token;
-//           localStorage.setItem("anh-token", newAccessToken);
+//           sessionStorage.setItem("anh-token", newAccessToken);
 
 //           originalRequest.headers["Authorization"] = `Bearer ${newAccessToken}`;
 //           return api(originalRequest);

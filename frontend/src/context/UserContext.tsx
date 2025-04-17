@@ -27,9 +27,9 @@ export const UserProvider = ({ children }: { children: ReactNode }) => {
   const [userLoaded, setUserLoaded] = useState(false);
 
   useEffect(() => {
-    const storedUser = localStorage.getItem("anh-user");
-    const storedToken = localStorage.getItem("anh-token");
-    // const storedRefreshToken = localStorage.getItem("anh-refresh-token");
+    const storedUser = sessionStorage.getItem("anh-user");
+    const storedToken = sessionStorage.getItem("anh-token");
+    // const storedRefreshToken = sessionStorage.getItem("anh-refresh-token");
 
     if (storedUser && storedToken) {
       // if (storedUser && storedToken && storedRefreshToken) {
@@ -41,16 +41,16 @@ export const UserProvider = ({ children }: { children: ReactNode }) => {
   const login = (user: User, access_token: string) => {
     // const login = (user: User, access_token: string, refresh_token: string) => {
     setUser(user);
-    localStorage.setItem("anh-user", JSON.stringify(user));
-    // localStorage.setItem("anh-refresh-token", refresh_token);
-    localStorage.setItem("anh-token", access_token);
+    sessionStorage.setItem("anh-user", JSON.stringify(user));
+    // sessionStorage.setItem("anh-refresh-token", refresh_token);
+    sessionStorage.setItem("anh-token", access_token);
   };
 
   const logout = () => {
     setUser(null);
-    localStorage.removeItem("anh-user");
-    // localStorage.removeItem("anh-refresh-token");
-    localStorage.removeItem("anh-token");
+    sessionStorage.removeItem("anh-user");
+    // sessionStorage.removeItem("anh-refresh-token");
+    sessionStorage.removeItem("anh-token");
   };
 
   return (

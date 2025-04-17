@@ -33,7 +33,7 @@ export const SubjectDataProvider = ({ children }: { children: ReactNode }) => {
   useEffect(() => {
     const fetchSubjectsOnce = async () => {
       const baseSubjects = await getSubjectsData();
-      const token = localStorage.getItem("anh-token");
+      const token = sessionStorage.getItem("anh-token");
 
       if (!token) {
         const fallback = baseSubjects.map((subject) => ({

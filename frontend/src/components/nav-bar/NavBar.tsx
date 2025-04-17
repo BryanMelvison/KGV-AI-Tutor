@@ -45,7 +45,7 @@ const NavBar = () => {
       const data = await getSubjectsData();
       setSubjects(data);
 
-      const token = localStorage.getItem("anh-token");
+      const token = sessionStorage.getItem("anh-token");
       if (!token) {
         const emptyChapters: Record<string, string[]> = {};
         data.forEach((s) => {
