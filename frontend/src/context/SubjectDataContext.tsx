@@ -33,15 +33,33 @@ export const SubjectDataProvider = ({ children }: { children: ReactNode }) => {
   useEffect(() => {
     const fetchSubjectsOnce = async () => {
       const baseSubjects = await getSubjectsData();
+      const token = localStorage.getItem("anh-token");
+
+      if (!token) {
+        const fallback = baseSubjects.map((subject) => ({
+          ...subject,
+          chapters: [],
+        }));
+        setSubjects(fallback);
+        setLoading(false);
+        return;
+      }
 
       const subjectsWithChapters = await Promise.all(
         baseSubjects.map(async (subject) => {
-          const chapterData = await getChapter(subject.name.toLowerCase());
-
-          return {
-            ...subject,
-            chapters: chapterData,
-          };
+          try {
+            const chapterData = await getChapter(subject.name.toLowerCase());
+            return {
+              ...subject,
+              chapters: chapterData,
+            };
+          } catch (err) {
+            console.error("Error fetching chapters for", subject.name, err);
+            return {
+              ...subject,
+              chapters: [],
+            };
+          }
         })
       );
 

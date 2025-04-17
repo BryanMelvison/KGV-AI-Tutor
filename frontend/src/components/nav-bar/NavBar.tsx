@@ -45,14 +45,31 @@ const NavBar = () => {
       const data = await getSubjectsData();
       setSubjects(data);
 
+      const token = localStorage.getItem("anh-token");
+      if (!token) {
+        const emptyChapters: Record<string, string[]> = {};
+        data.forEach((s) => {
+          emptyChapters[s.name] = [];
+        });
+        setChapterMap(emptyChapters);
+        setLoading(false);
+        return;
+      }
+
       const chapters: Record<string, string[]> = {};
       for (const subject of data) {
-        const res = await getChapter(subject.name.toLowerCase());
-        chapters[subject.name] = res;
+        try {
+          const res = await getChapter(subject.name.toLowerCase());
+          chapters[subject.name] = res;
+        } catch (err) {
+          console.error(`Error fetching chapters for ${subject.name}`, err);
+          chapters[subject.name] = [];
+        }
       }
       setChapterMap(chapters);
       setLoading(false);
     };
+
     fetchSubjects();
   }, []);
 
