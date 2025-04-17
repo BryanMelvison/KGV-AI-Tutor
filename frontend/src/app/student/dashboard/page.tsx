@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { fetchLatestExercise } from "@/api/exerciseApi";
 import { getSubjectsData, Subject } from "@/api/mockSubject";
-import { getChapter } from "@/api/mockChapter";
+import { getChapter } from "@/api/chapter";
 import { useQuiz } from "@/context/SmartQuizContext";
 import SmartQuizModal from "@/components/smart-quiz/SmartQuizModal";
 import { slugify } from "@/helpers/slugify";

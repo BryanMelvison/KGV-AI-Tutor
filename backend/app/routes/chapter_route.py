@@ -16,7 +16,6 @@ def get_learning_objective(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-# make an api call to get chapter number
 @router.post("/chapter-number")
 def get_chapter_number(
     chapter: str = Query(..., description="Chapter name")
@@ -27,7 +26,6 @@ def get_chapter_number(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
     
-# make an api call to get all chapter name
 @router.post("/all-chapter-name")
 def get_all_chapter_name(
     subject: int = Query(..., description="Subject name")
@@ -38,7 +36,6 @@ def get_all_chapter_name(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
     
-# make an api call to get all subject number
 @router.post("/subject-number")
 def get_subject_number(
     subject: str = Query(..., description="Subject name")
