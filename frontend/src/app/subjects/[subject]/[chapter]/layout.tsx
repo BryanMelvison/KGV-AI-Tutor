@@ -89,9 +89,7 @@ export default function SubjectChapterLayout({
                 <FiMenu className="w-5 h-5 text-gray-600" />
               </button>
             )}
-            <div className="text-2xl font-bold ">
-              {unslugify(chapterTitle) || "Loading..."}
-            </div>
+            <div className="text-2xl font-bold ">{unslugify(chapterTitle)}</div>
           </div>
 
           {/* page content slot */}
