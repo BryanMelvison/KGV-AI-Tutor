@@ -1,4 +1,4 @@
-import { refreshToken } from "@/api/auth";
+// import { refreshToken } from "@/api/auth";
 import axios from "axios";
 
 const api = axios.create({
@@ -18,32 +18,32 @@ api.interceptors.request.use((config) => {
   return config;
 });
 
-api.interceptors.response.use(
-  (response) => response,
-  async (error) => {
-    const originalRequest = error.config;
+// api.interceptors.response.use(
+//   (response) => response,
+//   async (error) => {
+//     const originalRequest = error.config;
 
-    if (error.response?.status === 401 && !originalRequest._retry) {
-      originalRequest._retry = true;
+//     if (error.response?.status === 401 && !originalRequest._retry) {
+//       originalRequest._retry = true;
 
-      const refreshTokenValue = localStorage.getItem("anh-refresh-token");
-      if (refreshTokenValue) {
-        try {
-          const res = await refreshToken(refreshTokenValue);
-          const newAccessToken = res.data.access_token;
-          localStorage.setItem("anh-token", newAccessToken);
+//       const refreshTokenValue = localStorage.getItem("anh-refresh-token");
+//       if (refreshTokenValue) {
+//         try {
+//           const res = await refreshToken(refreshTokenValue);
+//           const newAccessToken = res.data.access_token;
+//           localStorage.setItem("anh-token", newAccessToken);
 
-          originalRequest.headers["Authorization"] = `Bearer ${newAccessToken}`;
-          return api(originalRequest);
-        } catch (err) {
-          console.error("Refresh token error", err);
-          window.location.href = "/login";
-        }
-      }
-    }
+//           originalRequest.headers["Authorization"] = `Bearer ${newAccessToken}`;
+//           return api(originalRequest);
+//         } catch (err) {
+//           console.error("Refresh token error", err);
+//           window.location.href = "/login";
+//         }
+//       }
+//     }
 
-    return Promise.reject(error);
-  }
-);
+//     return Promise.reject(error);
+//   }
+// );
 
 export default api;
