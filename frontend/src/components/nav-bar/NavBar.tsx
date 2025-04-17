@@ -36,14 +36,9 @@ const NavBar = () => {
   const { logout } = useUser();
   const router = useRouter();
 
-  const handleLogout = async () => {
-    try {
-      await logoutUser();
-      logout();
-      router.push("/login");
-    } catch (err) {
-      console.error("Logout failed:", err);
-    }
+  const handleLogout = () => {
+    logout();
+    router.push("/login");
   };
 
   useEffect(() => {

@@ -5,6 +5,7 @@ import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { FiChevronDown, FiMenu, FiSearch, FiX } from "react-icons/fi";
 import { unslugify } from "@/helpers/slugify";
+import { getChapter } from "@/api/chapter";
 
 interface SubjectSidebarProps {
   subjects: {
@@ -21,8 +22,9 @@ const SubjectSidebar = ({ subjects, onCollapse }: SubjectSidebarProps) => {
     typeof params?.subject === "string" ? params.subject : "";
 
   const [expandedSubject, setExpandedSubject] = useState<string | null>(null);
-  const [searchQuery, setSearchQuery] = useState("");
   const [expandedSubjects, setExpandedSubjects] = useState<string[]>([]);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [chapterMap, setChapterMap] = useState<Record<string, string[]>>({});
 
   useEffect(() => {
     if (currentSubject) {
@@ -33,55 +35,48 @@ const SubjectSidebar = ({ subjects, onCollapse }: SubjectSidebarProps) => {
     }
   }, [currentSubject, subjects]);
 
-  // Handle search and expansion
+  useEffect(() => {
+    const fetchAllChapters = async () => {
+      const map: Record<string, string[]> = {};
+      for (const subject of subjects) {
+        try {
+          const chapters = await getChapter(subject.name);
+          map[subject.name] = chapters;
+        } catch (err) {
+          console.error(`Failed to fetch chapters for ${subject.name}`, err);
+        }
+      }
+      setChapterMap(map);
+    };
+
+    fetchAllChapters();
+  }, [subjects]);
+
   useEffect(() => {
     if (!searchQuery.trim()) {
-      // When search is cleared, revert to showing only the current subject
       setExpandedSubjects(expandedSubject ? [expandedSubject] : []);
       return;
     }
 
-    const lowerSearchQuery = searchQuery.toLowerCase();
-    const matchedSubjects: string[] = [];
-
-    subjects.forEach((subject) => {
-      // Check if subject name matches
-      if (subject.name.toLowerCase().includes(lowerSearchQuery)) {
-        matchedSubjects.push(subject.name);
-        return;
-      }
-
-      // Check if any chapter in the subject matches
-      const hasMatchingChapter = subject.chapters.some((chapter) =>
-        unslugify(chapter).toLowerCase().includes(lowerSearchQuery)
+    const lower = searchQuery.toLowerCase();
+    const matchedSubjects = subjects.filter((subject) => {
+      const subjectMatch = subject.name.toLowerCase().includes(lower);
+      const chapters = chapterMap[subject.name] || [];
+      const chapterMatch = chapters.some((chapter) =>
+        unslugify(chapter).toLowerCase().includes(lower)
       );
-
-      if (hasMatchingChapter) {
-        matchedSubjects.push(subject.name);
-      }
+      return subjectMatch || chapterMatch;
     });
 
-    setExpandedSubjects(matchedSubjects);
-  }, [searchQuery, subjects, expandedSubject]);
+    setExpandedSubjects(matchedSubjects.map((s) => s.name));
+  }, [searchQuery, subjects, chapterMap, expandedSubject]);
 
-  // Filter chapters based on search
-  const getFilteredChapters = (chapters: string[]) => {
-    if (!searchQuery.trim()) return chapters;
-
-    return chapters.filter((chapter) =>
-      unslugify(chapter).toLowerCase().includes(searchQuery.toLowerCase())
-    );
-  };
-
-  // Toggle subject expansion manually
   const toggleSubject = (subjectName: string) => {
-    setExpandedSubjects((prev) => {
-      if (prev.includes(subjectName)) {
-        return prev.filter((name) => name !== subjectName);
-      } else {
-        return [...prev, subjectName];
-      }
-    });
+    setExpandedSubjects((prev) =>
+      prev.includes(subjectName)
+        ? prev.filter((s) => s !== subjectName)
+        : [...prev, subjectName]
+    );
   };
 
   return (
@@ -92,14 +87,13 @@ const SubjectSidebar = ({ subjects, onCollapse }: SubjectSidebarProps) => {
           <button
             onClick={onCollapse}
             className="text-gray-600 hover:text-sky-600 transition"
-            title="Collapse sidebar"
           >
             <FiMenu className="w-5 h-5" />
           </button>
         )}
       </div>
 
-      {/* Search Bar */}
+      {/* Search */}
       <div className="relative mb-4">
         <input
           type="text"
@@ -119,11 +113,19 @@ const SubjectSidebar = ({ subjects, onCollapse }: SubjectSidebarProps) => {
         )}
       </div>
 
-      {/* Subjects List */}
+      {/* Subjects & Chapters */}
       <div className="space-y-3">
         {subjects.map((subject) => {
+          const chapters = chapterMap[subject.name] || [];
           const isExpanded = expandedSubjects.includes(subject.name);
-          const filteredChapters = getFilteredChapters(subject.chapters);
+
+          const filteredChapters = searchQuery
+            ? chapters.filter((chapter) =>
+                unslugify(chapter)
+                  .toLowerCase()
+                  .includes(searchQuery.toLowerCase())
+              )
+            : chapters;
 
           if (
             searchQuery &&
@@ -151,53 +153,27 @@ const SubjectSidebar = ({ subjects, onCollapse }: SubjectSidebarProps) => {
 
               {isExpanded && filteredChapters.length > 0 && (
                 <ul className="mt-2 space-y-1.5 pl-1">
-                  {filteredChapters.map((chapter, index) => {
-                    const originalIndex = subject.chapters.indexOf(chapter);
-                    const isHighlighted =
-                      searchQuery &&
-                      unslugify(chapter)
-                        .toLowerCase()
-                        .includes(searchQuery.toLowerCase());
-
-                    return (
-                      <li key={chapter}>
-                        <Link
-                          href={`/student/subjects/${subject.name.toLowerCase()}/${chapter}`}
-                          className={`block px-3 py-1.5 rounded-md text-sm ${
-                            isHighlighted
-                              ? "hover:text-sky-600 hover:bg-gray-50"
-                              : currentSubject === subject.name.toLowerCase() &&
-                                currentChapter === chapter
-                              ? "text-sky-600 font-semibold "
-                              : "text-gray-700 hover:text-sky-600 hover:bg-gray-50"
-                          }`}
-                        >
-                          {String(originalIndex + 1).padStart(2, "0")}.{" "}
-                          {unslugify(chapter)}
-                        </Link>
-                      </li>
-                    );
-                  })}
+                  {filteredChapters.map((chapter, index) => (
+                    <li key={chapter}>
+                      <Link
+                        href={`/student/subjects/${subject.name.toLowerCase()}/${chapter}`}
+                        className={`block px-3 py-1.5 rounded-md text-sm ${
+                          currentSubject === subject.name.toLowerCase() &&
+                          currentChapter === chapter
+                            ? "text-sky-600 font-semibold"
+                            : "text-gray-700 hover:text-sky-600 hover:bg-gray-50"
+                        }`}
+                      >
+                        {String(index + 1).padStart(2, "0")}.{" "}
+                        {unslugify(chapter)}
+                      </Link>
+                    </li>
+                  ))}
                 </ul>
               )}
             </div>
           );
         })}
-
-        {searchQuery &&
-          !subjects.some(
-            (subject) =>
-              subject.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-              subject.chapters.some((chapter) =>
-                unslugify(chapter)
-                  .toLowerCase()
-                  .includes(searchQuery.toLowerCase())
-              )
-          ) && (
-            <div className="text-center py-4 text-gray-500 text-sm">
-              No matches found
-            </div>
-          )}
       </div>
     </aside>
   );

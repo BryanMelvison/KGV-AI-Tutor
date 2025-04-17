@@ -33,14 +33,9 @@ export default function TeacherDashboard() {
     setShowModal(true);
   };
 
-  const handleLogout = async () => {
-    try {
-      await logoutUser();
-      logout();
-      router.push("/login");
-    } catch (err) {
-      console.error("Logout failed:", err);
-    }
+  const handleLogout = () => {
+    logout();
+    router.push("/login");
   };
 
   if (loading) {
