@@ -22,7 +22,7 @@ const SubjectOverviewPage = ({ data }: SubjectOverviewPageProps) => {
   const { subject, chapter } = useParams();
 
   const [questions, setQuestions] = useState<
-    { number: string; title: string }[]
+    { number: string; title: string; answer: string; id: number }[]
   >([]);
   const [loading, setLoading] = useState(false);
 

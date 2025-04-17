@@ -4,6 +4,14 @@ import { getChapterNumber } from "@/api/chapter";
 export interface Question {
   number: string;
   title: string;
+  answer: string;
+  id: number;
+}
+
+export interface ExerciseAIRequest {
+  question_title: string;
+  question_answer: string;
+  prompt: string;
 }
 
 export const fetchExerciseQuestions = async (
@@ -21,5 +29,26 @@ export const fetchExerciseQuestions = async (
   } catch (error) {
     console.error("Error fetching exercise questions:", error);
     return [];
+  }
+};
+
+export const getExerciseAIResponse = async (
+  question: string,
+  answer: string,
+  message: string
+) => {
+  try {
+    const requestBody: ExerciseAIRequest = {
+      question_title: question,
+      question_answer: answer,
+      prompt: message,
+    };
+
+    const { data } = await api.post("/exercise/response", requestBody);
+    console.log("AI Response Data:", data);
+    return data;
+  } catch (error) {
+    console.error("Error fetching AI answer:", error);
+    return "Error fetching AI answer";
   }
 };

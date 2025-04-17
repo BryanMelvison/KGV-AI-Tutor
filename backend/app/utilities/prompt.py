@@ -236,7 +236,7 @@ User's Answer: {user_answer}
 
 Now, evaluate the user's answer and provide guidance to help the user achieve the correct answer.
 
-Provide your output in JSON format:
+Respond only with valid JSON in this exact format:
 {{
   "score": X,
   "reason": "your detailed reasoning for the score",
