@@ -207,6 +207,8 @@ const NavBar = () => {
                             <Image
                               src={subject.icon}
                               alt={subject.name}
+                              width={20}
+                              height={20}
                               className="w-5 h-5"
                             />
                           </div>
