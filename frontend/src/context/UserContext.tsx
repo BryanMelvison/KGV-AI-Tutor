@@ -10,7 +10,7 @@ import {
 
 interface User {
   displayName: string;
-  role: "student" | "teacher";
+  role: "student" | "teacher" | "admin";
 }
 
 interface UserContextType {
