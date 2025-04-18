@@ -1,5 +1,7 @@
-// import { refreshToken } from "@/api/auth";
+"use client";
+
 import axios from "axios";
+// import { refreshToken } from "@/api/auth";
 
 const api = axios.create({
   baseURL: "http://localhost:8000/api",
@@ -14,9 +16,24 @@ api.interceptors.request.use((config) => {
   if (token) {
     config.headers.Authorization = `Bearer ${token}`;
   }
-  console.log("token", token);
   return config;
 });
+
+api.interceptors.response.use(
+  (response) => response,
+  (error) => {
+    if (error.response?.status === 401) {
+      console.warn("401 Unauthorized – token expired or invalid.");
+      sessionStorage.removeItem("anh-token");
+      sessionStorage.removeItem("anh-user");
+
+      if (typeof window !== "undefined") {
+        window.location.href = "/login?expired=true";
+      }
+    }
+    return Promise.reject(error);
+  }
+);
 
 // api.interceptors.response.use(
 //   (response) => response,
