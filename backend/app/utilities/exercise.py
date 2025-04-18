@@ -6,7 +6,7 @@ from langchain_ollama.llms import OllamaLLM
 from pathlib import Path
 from .prompt import QUESTION_GEN_PROMPT, QUESTION_CHECK_PROMPT, EXERCISE_EVAL_PROMPT
 from app.database import get_session
-from app.models import Exercise, StudentExerciseAttempt, QuestionAnswer
+from app.models import Exercise, StudentExerciseAttempt, QuestionAnswer, StudentLearningObjectiveMastery
 import random
 import pandas as pd
 import json
@@ -97,10 +97,10 @@ class ExerciseService:
                 .first()
             )
 
-            # use exercise_id 77's questions as dummy data for all exercises
+            # use exercise_id 1's questions as dummy data for all exercises
             qna = (
                 session.query(QuestionAnswer)
-                .filter(QuestionAnswer.exercise_id == 77)  # later change 77 to exercise.id
+                .filter(QuestionAnswer.exercise_id == 1)  # later change 1 to exercise.id
                 .all()
             )
 
@@ -124,7 +124,9 @@ class ExerciseService:
     def save_exercise_attempt(questionId, completedQuestions, totalQuestions, user_id):
         session = get_session()
         try:
-            exec_id = session.query(QuestionAnswer).filter(QuestionAnswer.id == questionId).first().exercise_id
+            qna = session.query(QuestionAnswer).filter(QuestionAnswer.id == questionId).first()
+            exec_id = qna.exercise_id
+            lo_id = qna.learning_objective_id
             
             attempt = StudentExerciseAttempt(
                 student_id=user_id,
@@ -134,6 +136,15 @@ class ExerciseService:
                 is_successful=(completedQuestions == totalQuestions)
             )
             session.add(attempt)
+
+            if completedQuestions == totalQuestions:
+                mastery = StudentLearningObjectiveMastery(
+                    id=user_id,
+                    learning_objective_id=lo_id,
+                    is_mastered=True
+                )
+                session.add(mastery)
+                
             session.commit()
             return "success"
         except Exception as e:
