@@ -40,7 +40,7 @@ class ChatSessionService:
                 subjectId=subjectId,
                 startTimestamp=timestamp,
                 endTimestamp=timestamp,
-                chatsessiontitle=sessionName,
+                chatSessionTitle=sessionName,
             )
             # Add the new session to the database
             self.db.add(new_session)

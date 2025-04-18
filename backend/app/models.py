@@ -211,6 +211,7 @@ class ChatSessions(Base):
     subjectId: Mapped[int] = mapped_column(ForeignKey("subjects.id"), nullable=False)
     startTimestamp: Mapped[DateTime] = mapped_column(DateTime, nullable=False)
     endTimestamp: Mapped[DateTime] = mapped_column(DateTime, nullable=False)
+    chatSessionTitle: Mapped[str] = mapped_column(String(100), nullable=False)
 
     # This is a many-to-one relationship between chatSessions and users
     user: Mapped["Users"] = relationship(back_populates="chat_sessions")
