@@ -26,9 +26,13 @@ def add_chat_session(request: ChatSessionRequest, auth_data: dict = Depends(jwt.
     chat_session_service = ChatSessionService(db)
     return chat_session_service.add_session_to_database(user_id, request.subjectId, request.chapterId, request.sessionName)
 
-
 @router.get("/get-chat-session")
-def get_chat_session(request: GetSessionRequest, auth_data: dict = Depends(jwt.verify_token), db: Session = Depends(get_db)):
+def get_chat_session(
+    subjectId: int = Query(...),
+    chapterId: int = Query(...),
+    auth_data: dict = Depends(jwt.verify_token),
+    db: Session = Depends(get_db),
+):
     user_id = auth_data.get("sub")
     chat_session_service = ChatSessionService(db)
-    return chat_session_service.retrieve_all_session_from_database(user_id, request.subjectId, request.chapterId)
+    return chat_session_service.retrieve_all_session_from_database(user_id, subjectId, chapterId)

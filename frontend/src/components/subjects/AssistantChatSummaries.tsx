@@ -1,13 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
-import { useAssistantChat } from "@/context/AssistantChatContext";
+import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { createChatSession } from "@/api/chat";
+import { createChatSession, getChatSessions, ChatSession } from "@/api/chat";
 
 const AssistantChatSummaries = () => {
-  const { chats, addChat } = useAssistantChat();
+  const [chats, setChats] = useState<ChatSession[]>([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [newChatTitle, setNewChatTitle] = useState("");
   const [loading, setLoading] = useState(false);
@@ -15,28 +14,39 @@ const AssistantChatSummaries = () => {
   const params = useParams();
   const router = useRouter();
 
+  const subject = typeof params.subject === "string" ? params.subject : "";
+  const chapter = typeof params.chapter === "string" ? params.chapter : "";
+
+  useEffect(() => {
+    const fetchChats = async () => {
+      try {
+        if (!subject || !chapter) return;
+        const sessions = await getChatSessions(subject, chapter);
+        setChats(sessions);
+      } catch (err) {
+        console.error("Failed to fetch chats:", err);
+      }
+    };
+
+    fetchChats();
+  }, [subject, chapter]);
+
   const handleCreateChat = async () => {
     if (!newChatTitle.trim()) return;
 
-    const subject = params.subject;
-    const chapter = params.chapter;
-
-    if (typeof subject !== "string" || typeof chapter !== "string") {
-      console.error("Missing subject or chapter in URL");
-      return;
-    }
-
     try {
       setLoading(true);
-
       const sessionId = await createChatSession(newChatTitle, subject, chapter);
 
-      addChat({
-        id: sessionId,
-        title: newChatTitle,
-        summary: "New chat, no summary yet",
-        time: new Date().toLocaleTimeString(),
-      });
+      setChats((prev) => [
+        {
+          sessionId,
+          sessionName: newChatTitle,
+          timestamp: new Date().toISOString(),
+          message: null,
+        },
+        ...prev,
+      ]);
 
       setNewChatTitle("");
       setIsModalOpen(false);
@@ -54,7 +64,7 @@ const AssistantChatSummaries = () => {
   return (
     <div className="bg-white p-5 rounded-xl shadow-md flex flex-col">
       <div className="flex justify-between items-center mb-4">
-        <h2 className="text-lg font-semibold ">Assistant Chats</h2>
+        <h2 className="text-lg font-semibold">Assistant Chats</h2>
         <button
           className="text-sm text-blue-600 hover:underline"
           onClick={() => setIsModalOpen(true)}
@@ -66,15 +76,19 @@ const AssistantChatSummaries = () => {
       {chats.length ? (
         chats.map((chat) => (
           <Link
-            key={chat.id}
-            href={`${window.location.pathname}/assistant-chat?sessionId=${chat.id}`}
-            className="block border-b last:border-none last:mb-0 hover:bg-gray-50 rounded p-3 transition"
+            key={chat.sessionId}
+            href={`/student/subjects/${subject}/${chapter}/assistant-chat?sessionId=${chat.sessionId}`}
+            className="block border-b last:border-none hover:bg-gray-50 rounded p-3 transition"
           >
             <div className="flex justify-between items-center">
-              <h3 className="font-semibold text-base ">{chat.title}</h3>
-              <span className="text-xs text-[#747479]">{chat.time}</span>
+              <h3 className="font-semibold text-base">{chat.sessionName}</h3>
+              <span className="text-xs text-[#747479]">
+                {new Date(chat.timestamp).toLocaleTimeString()}
+              </span>
             </div>
-            <p className="text-sm text-[#747479]">{chat.summary}</p>
+            <p className="text-sm text-[#747479]">
+              {chat.message || "No summary yet"}
+            </p>
           </Link>
         ))
       ) : (
@@ -91,7 +105,7 @@ const AssistantChatSummaries = () => {
             </h3>
             <input
               type="text"
-              className="w-full border rounded-lg p-2 text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="w-full border rounded-lg p-2 text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="Enter chat title"
               value={newChatTitle}
               onChange={(e) => setNewChatTitle(e.target.value)}
@@ -106,8 +120,9 @@ const AssistantChatSummaries = () => {
               <button
                 onClick={handleCreateChat}
                 className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+                disabled={loading}
               >
-                Create
+                {loading ? "Creating..." : "Create"}
               </button>
             </div>
           </div>
