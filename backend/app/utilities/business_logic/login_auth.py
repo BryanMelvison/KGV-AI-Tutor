@@ -28,7 +28,6 @@ class LoginService:
             # Create token data
             token_data = {
                 "sub": str(user.id),
-                "email": user.email,
                 "role": str(user.role.roleName),
             }
             # Generate access token
@@ -36,9 +35,6 @@ class LoginService:
             return {
                 "access_token": access_token,
                 "token_type": "bearer",
-                "role": user.role.roleName,
-                "displayName": user.displayName,
-                "id": user.id,
             }
         except Exception as e:
             raise HTTPException(status_code=500, detail=str(e))

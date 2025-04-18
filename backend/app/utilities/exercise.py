@@ -119,4 +119,26 @@ class ExerciseService:
             raise e
         finally:
             session.close()
+
+    @staticmethod
+    def save_exercise_attempt(questionId, completedQuestions, totalQuestions, user_id):
+        session = get_session()
+        try:
+            exec_id = session.query(QuestionAnswer).filter(QuestionAnswer.id == questionId).first().exercise_id
+            
+            attempt = StudentExerciseAttempt(
+                student_id=user_id,
+                exercise_id=exec_id,
+                correct_question=completedQuestions,
+                attempt_date=pd.Timestamp.now(),
+                is_successful=(completedQuestions == totalQuestions)
+            )
+            session.add(attempt)
+            session.commit()
+            return "success"
+        except Exception as e:
+            session.rollback()
+            raise e
+        finally:
+            session.close()
         

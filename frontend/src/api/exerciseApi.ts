@@ -52,3 +52,22 @@ export const getExerciseAIResponse = async (
     return "Error fetching AI answer";
   }
 };
+
+export const saveExerciseAttempt = async (
+  questionId: number,
+  completedQuestions: number,
+  totalQuestions: number
+) => {
+  try {
+    console.log(questionId, completedQuestions, totalQuestions);
+    const { data } = await api.post("/exercise/save-exercise-attempt", {
+      questionId,
+      completedQuestions,
+      totalQuestions,
+    });
+    return data;
+  } catch (error) {
+    console.error("Error saving exercise attempt:", error);
+    return null;
+  }
+};
