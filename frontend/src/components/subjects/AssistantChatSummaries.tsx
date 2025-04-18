@@ -61,6 +61,27 @@ const AssistantChatSummaries = () => {
     }
   };
 
+  const formatTimestamp = (timestamp: string): string => {
+    const date = new Date(timestamp);
+    const now = new Date();
+
+    const isToday =
+      date.getDate() === now.getDate() &&
+      date.getMonth() === now.getMonth() &&
+      date.getFullYear() === now.getFullYear();
+
+    return isToday
+      ? new Intl.DateTimeFormat("en-US", {
+          hour: "numeric",
+          minute: "2-digit",
+          hour12: true,
+        }).format(date)
+      : new Intl.DateTimeFormat("en-US", {
+          month: "short",
+          day: "numeric",
+        }).format(date);
+  };
+
   return (
     <div className="bg-white p-5 rounded-xl shadow-md flex flex-col">
       <div className="flex justify-between items-center mb-4">
@@ -83,7 +104,7 @@ const AssistantChatSummaries = () => {
             <div className="flex justify-between items-center">
               <h3 className="font-semibold text-base">{chat.sessionName}</h3>
               <span className="text-xs text-[#747479]">
-                {new Date(chat.timestamp).toLocaleTimeString()}
+                {formatTimestamp(chat.timestamp)}
               </span>
             </div>
             <p className="text-sm text-[#747479]">
