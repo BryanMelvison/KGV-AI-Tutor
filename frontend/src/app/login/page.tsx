@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import { useUser } from "@/context/UserContext";
 import { FaSpinner } from "react-icons/fa";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
-import { loginUser } from "@/api/auth";
+import { loginUser, fetchUserName, fetchUserRole } from "@/api/auth";
 import axios from "axios";
 import { useSearchParams } from "next/navigation";
 import toast from "react-hot-toast";
@@ -45,7 +45,12 @@ export default function RealLoginPage() {
 
     try {
       const res = await loginUser(email, password);
-      const { access_token, refresh_token, displayName, role } = res.data;
+      const { access_token, refresh_token } = res.data;
+
+      sessionStorage.setItem("anh-token", access_token);
+
+      const displayName = await fetchUserName();
+      const role = await fetchUserRole();
 
       login({ displayName, role }, access_token, refresh_token);
 
