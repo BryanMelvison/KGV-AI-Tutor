@@ -152,4 +152,15 @@ class ExerciseService:
             raise e
         finally:
             session.close()
+
+    @staticmethod
+    def get_mcq_options(qna_id):
+        session = get_session()
+        try:
+            qna = session.query(QuestionAnswer).filter(QuestionAnswer.id == qna_id).first()            
+            return qna.mcq_answer
+        except Exception as e:
+            raise e
+        finally:
+            session.close()
         
