@@ -1,10 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Message } from "@/interfaces/Message";
 import ChatContainer from "@/components/chat/ChatContainer";
 import { AIResponse, clearMemory } from "@/api/chat";
 import { useSearchParams, useParams } from "next/navigation";
+import { getChatSessions } from "@/api/chat";
 
 const AIChat = () => {
   const searchParams = useSearchParams();
@@ -18,6 +19,26 @@ const AIChat = () => {
   const [messages, setMessages] = useState<Message[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [showClearMessage, setShowClearMessage] = useState(false);
+  const [sessionName, setSessionName] = useState("Assistant Chat");
+
+  useEffect(() => {
+    const fetchChatSessionName = async () => {
+      if (!subject || !chapter || !sessionId) return;
+
+      try {
+        const sessions = await getChatSessions(subject, chapter);
+        const currentSession = sessions.find((s) => s.sessionId === sessionId);
+
+        if (currentSession) {
+          setSessionName(currentSession.sessionName);
+        }
+      } catch (err) {
+        console.error("Failed to fetch chat session name:", err);
+      }
+    };
+
+    fetchChatSessionName();
+  }, [subject, chapter, sessionId]);
 
   const handleSend = async (message: string) => {
     setIsLoading(true);
@@ -59,7 +80,7 @@ const AIChat = () => {
         </div>
       )}
       <div>
-        <h2 className="text-2xl font-semibold ">AI Chat</h2>
+        <h2 className="text-2xl font-semibold ">{sessionName}</h2>
         <p className="text-gray-500">Chat with our AI assistant</p>
       </div>
     </div>
