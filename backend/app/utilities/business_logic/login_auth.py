@@ -26,7 +26,6 @@ class LoginService:
             # Create token data
             token_data = {
                 "sub": str(user.id),
-                "email": user.email,
                 "role": str(user.role.roleName),
             }
             # Generate access token
@@ -44,14 +43,5 @@ class LoginService:
             if not user:
                 raise HTTPException(status_code=404, detail="User not found")
             return user.displayName
-        except Exception as e:
-            raise HTTPException(status_code=500, detail=str(e))
-    
-    def get_role(self, user_id: str):
-        try:
-            user = self.db.query(Users).filter_by(id=user_id).first()
-            if not user:
-                raise HTTPException(status_code=404, detail="User not found")
-            return user.role.roleName
         except Exception as e:
             raise HTTPException(status_code=500, detail=str(e))

@@ -25,7 +25,5 @@ def get_user_name(request, db: Session = Depends(get_db), auth_data: dict = Depe
     return login_service.get_user_name(user_id)
 
 @router.get("/user-role")
-def get_user_name(request, db: Session = Depends(get_db), auth_data: dict = Depends(jwt.verify_token)):
-    user_id = auth_data.get("sub")
-    login_service = LoginService(db)
-    return login_service.get_role(user_id)
+def get_user_name(request, auth_data: dict = Depends(jwt.verify_token)):
+    return auth_data.get("role")
