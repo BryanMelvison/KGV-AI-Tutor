@@ -1,4 +1,6 @@
+import api from "@/helpers/axios";
 import axios from "axios";
+import { getChapterNumber, getSubjectNumber } from "./chapter";
 
 const API_BASE_URL = "http://localhost:8000/api";
 
@@ -11,6 +13,23 @@ interface ChatResponse {
     };
   };
 }
+
+export const createChatSession = async (
+  sessionName: string,
+  subjectName: string,
+  chapterName: string
+): Promise<string> => {
+  const subjectId = await getSubjectNumber(subjectName);
+  const chapterId = await getChapterNumber(chapterName);
+
+  const { data } = await api.post("/chat/add-chat-session", {
+    sessionName,
+    chapterId,
+    subjectId,
+  });
+
+  return data.sessionId;
+};
 
 export const AIResponse = async (
   message: string,
