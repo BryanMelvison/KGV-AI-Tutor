@@ -13,9 +13,6 @@ class MessageRequest(BaseModel): # Pindah ke Pydantic
     email: str
     password: str
 
-class RefreshTokenRequest(BaseModel):
-    refresh_token: str
-
 @router.post("/verify")
 def verify_account(request: MessageRequest, db: Session = Depends(get_db)):
     login_service = LoginService(db)
@@ -26,3 +23,7 @@ def get_user_name(request, db: Session = Depends(get_db), auth_data: dict = Depe
     user_id = auth_data.get("sub")
     login_service = LoginService(db)
     return login_service.get_user_name(user_id)
+
+@router.get("/user-role")
+def get_user_name(request, auth_data: dict = Depends(jwt.verify_token)):
+    return auth_data.get("role")
