@@ -34,9 +34,6 @@ class LoginService:
             return {
                 "access_token": access_token,
                 "token_type": "bearer",
-                "role": user.role.roleName,
-                "displayName": user.displayName,
-                "id": user.id,
             }
         except Exception as e:
             raise HTTPException(status_code=500, detail=str(e))
@@ -47,5 +44,14 @@ class LoginService:
             if not user:
                 raise HTTPException(status_code=404, detail="User not found")
             return user.displayName
+        except Exception as e:
+            raise HTTPException(status_code=500, detail=str(e))
+    
+    def get_role(self, user_id: str):
+        try:
+            user = self.db.query(Users).filter_by(id=user_id).first()
+            if not user:
+                raise HTTPException(status_code=404, detail="User not found")
+            return user.role.roleName
         except Exception as e:
             raise HTTPException(status_code=500, detail=str(e))
