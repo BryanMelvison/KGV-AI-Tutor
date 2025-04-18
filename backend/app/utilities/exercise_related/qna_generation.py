@@ -40,7 +40,7 @@ with engine.connect() as conn:
 QuestionAnswerDB.__table__.create(engine)
 
 session = get_session()
-learning_objectives = session.query(LearningObjective).all()
+learning_objectives = session.query(LearningObjective).order_by(LearningObjective.chapter, LearningObjective.id).all()
 session.close()
 
 

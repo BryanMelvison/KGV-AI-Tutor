@@ -1,4 +1,5 @@
 from sqlalchemy import Column, Integer, String, ForeignKey, DateTime, Text, ARRAY, Table, PrimaryKeyConstraint, Boolean, func, UniqueConstraint
+from sqlalchemy.dialects.postgresql import JSONB
 from sqlalchemy.orm import relationship
 from datetime import datetime
 from app.database import Base
@@ -46,6 +47,7 @@ class QuestionAnswer(Base):
     source_text = Column(String, nullable=False)
     rating_score = Column(Integer, default=0)
     evaluation_notes = Column(String, default="Not evaluated")
+    mcq_answer = Column(JSONB)
 
     learning_objective = relationship("LearningObjective", back_populates="question_answers")
     exercise = relationship("Exercise", back_populates="qna_pairs")

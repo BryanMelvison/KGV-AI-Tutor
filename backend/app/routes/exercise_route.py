@@ -64,3 +64,15 @@ def save_exercise_attempt(
         return {"message": "Exercise attempt saved successfully"}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+    
+@router.post("/get-exercise-mcq-answer")
+def get_mcq_options(
+    questionId: int = Query(..., description="Question ID"),
+    auth_data: dict = Depends(jwt.verify_token)
+):
+    try:
+        # user_id = auth_data.get("sub")
+        response = exercise_service.get_mcq_options(questionId)
+        return response
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
