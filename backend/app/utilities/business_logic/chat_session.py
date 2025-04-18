@@ -55,10 +55,52 @@ class ChatSessionService:
         except Exception as e:
             raise HTTPException(status_code=500, detail=str(e))
 
-    # def retrieve_all_session_from_database(self, userId, subjectId, chapterId):
-    #     # Poor design practice, but for now, we fetch the session IDs first.
-    #     # then we go to chatMessage table and then fetch the latest message for each session, and it is sorted based on the latest message, 
-    #     # so the latest message is at the top, but if there is no message at all, then we use the startTimestamp from ChatSessions table as the timestamp.
-    #     # This is not the best design, but it works for now.
-
+    def retrieve_all_session_from_database(self, userId, subjectId, chapterId):
+        # Poor design practice, but for now, we fetch the session IDs first.
+        # then we go to chatMessage table and then fetch the latest message for each session, and it is sorted based on the latest message, 
+        # so the latest message is at the top, but if there is no message at all, then we use the startTimestamp from ChatSessions table as the timestamp.
+        # This is not the best design, but it works for now.
+        try:
+            self._verify_student(userId)
+            # Get all sessions for the user
+            sessions = self.db.query(ChatSessions).filter(
+                ChatSessions.userId == userId,
+                ChatSessions.chapterId == chapterId,
+                ChatSessions.subjectId == subjectId
+            ).all()
+            # Get the latest message for each session        
+            latest_messages = {}
+            for session in sessions:
+                latest_message = self.db.query(chatMessage).filter(
+                    chatMessage.sessionId == session.id
+                ).order_by(chatMessage.timestamp.desc()).first()
+                
+                if latest_message:
+                    latest_messages[session.id] = latest_message
+                else:
+                    latest_messages[session.id] = session.startTimestamp
+            # Sort sessions by latest message timestamp
+            sorted_sessions = sorted(sessions, key=lambda x: latest_messages[x.id], reverse=True)
+            # Create a list of session data
+            session_data = []
+            for session in sorted_sessions:
+                latest_message = latest_messages[session.id]
+                if isinstance(latest_message, chatMessage):
+                    timestamp = latest_message.timestamp
+                    message = latest_message.message
+                else:
+                    timestamp = latest_message
+                    message = None
+                
+                session_data.append({
+                    "sessionId": str(session.id),
+                    "sessionName": session.chatSessionTitle,
+                    "timestamp": timestamp,
+                    "message": message
+                })
+            return session_data
+        
+        except Exception as e:
+            raise HTTPException(status_code = 500, detail=str(e)) 
+        
 
