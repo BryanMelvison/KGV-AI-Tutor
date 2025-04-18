@@ -14,6 +14,13 @@ interface ChatResponse {
   };
 }
 
+export interface ChatSession {
+  sessionId: string;
+  sessionName: string;
+  timestamp: string;
+  message: string | null;
+}
+
 export const createChatSession = async (
   sessionName: string,
   subjectName: string,
@@ -29,6 +36,24 @@ export const createChatSession = async (
   });
 
   return data.sessionId;
+};
+
+export const getChatSessions = async (
+  subject: string,
+  chapter: string
+): Promise<ChatSession[]> => {
+  const subjectId = await getSubjectNumber(subject);
+  const chapterId = await getChapterNumber(chapter);
+
+  console.log("GET /chat/get-chat-session", { subjectId, chapterId });
+
+  const { data } = await api.get("/chat/get-chat-session", {
+    params: { subjectId, chapterId },
+  });
+
+  console.log("This is data:", data);
+
+  return data || [];
 };
 
 export const AIResponse = async (
