@@ -1,6 +1,6 @@
 from fastapi import FastAPI, APIRouter
 from fastapi.middleware.cors import CORSMiddleware
-from app.routes import upload, message_generation, exercise_route, chapter_route, login_route, student_route
+from app.routes import upload, exercise_route, chapter_route, login_route, student_route, message_generation_route
 
 app = FastAPI(title="KGV AI TUTOR")
 
@@ -16,7 +16,7 @@ app.add_middleware(
 
 api_router = APIRouter(prefix="/api")
 api_router.include_router(upload.router, prefix="/upload", tags=["upload"])
-api_router.include_router(message_generation.router, prefix="/chat", tags=["chat"])
+api_router.include_router(message_generation_route.router, prefix="/chat", tags=["chat"])
 api_router.include_router(exercise_route.router, prefix="/exercise", tags=["exercise"])
 api_router.include_router(login_route.router, prefix="/login", tags=["login"])
 api_router.include_router(chapter_route.router, prefix="/chapter", tags=["chapter"])

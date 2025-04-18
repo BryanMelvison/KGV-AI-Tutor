@@ -1,8 +1,6 @@
-# chapter_route.py
-
 from fastapi import APIRouter, Query, Depends, Request, HTTPException
 from sqlalchemy.orm import Session
-from app.utilities.chapter import ChapterService
+from app.utilities.business_logic.chapter_retrieval import ChapterService
 from app.utilities.business_logic.jwt_service import JWTService
 from app.database import get_db
 
@@ -19,7 +17,6 @@ async def get_learning_objective(
     auth_data: dict = Depends(jwt.verify_token),
     db: Session = Depends(get_db),
 ):
-    print(auth_data)
     user_id = auth_data.get("sub")
     chapter_service = ChapterService(db)
     return chapter_service.get_learning_objective(user_id, chapter, subject)
@@ -32,7 +29,6 @@ async def get_chapter_number(
     db: Session = Depends(get_db),
 ):
     user_id = auth_data.get("sub")
-    print(user_id)
     chapter_service = ChapterService(db)
     return chapter_service.get_chapter_number(user_id, chapter)
 

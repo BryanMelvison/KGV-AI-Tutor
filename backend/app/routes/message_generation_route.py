@@ -41,3 +41,5 @@ def clear_session(request: EndSessionRequest):
         chat_service.clear_memory(request.session_id)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+    
+

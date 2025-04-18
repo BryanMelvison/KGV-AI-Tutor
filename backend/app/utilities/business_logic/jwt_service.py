@@ -30,5 +30,5 @@ class JWTService:
             return payload
         except jwt.ExpiredSignatureError:
             raise HTTPException(status_code=401, detail="Token has expired")
-        except jwt.JWTError:
+        except jwt.exceptions.PyJWTError:
             raise HTTPException(status_code=401, detail="Could not validate credentials")
