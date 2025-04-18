@@ -2,10 +2,12 @@ from fastapi import HTTPException
 from sqlalchemy import text
 from sqlalchemy.orm import Session
 from app.models import Users 
+from app.utilities.business_logic.jwt_service import JWTService
 
 class LoginService:
     def __init__(self, db: Session):
         self.db = db
+        self.jwt_service = JWTService()
 
     def verify_user(self, email: str, password: str):
         try: 
