@@ -5,7 +5,7 @@ import ChatContainer from "./ChatContainer";
 import { Message } from "@/interfaces/Message";
 import { useParams, useSearchParams, useRouter } from "next/navigation";
 import toast from "react-hot-toast";
-import { getExerciseAIResponse } from "@/api/exerciseApi";
+import { getExerciseAIResponse, saveExerciseAttempt } from "@/api/exerciseApi";
 import confetti from "canvas-confetti";
 
 interface Question {
@@ -40,6 +40,14 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
 
   const selectedExercise = searchParams.get("exercise") || "A";
   const allCompleted = questions.every((q) => q.isCompleted);
+
+  questions.forEach((q) => {
+    if (q.isCompleted) {
+      q.isCompleted = true;
+    } else {
+      q.isCompleted = false;
+    }
+  });
 
   const handleSend = async (message: string) => {
     if (!message.trim()) return;
@@ -102,8 +110,16 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
     setShowConfirmQuit(true);
   };
 
+  const completedQuestionCount = questions.filter((q) => q.isCompleted).length;
+  const totalQuestionCount = questions.length;
+
   const confirmQuit = () => {
     setShowConfirmQuit(false);
+    saveExerciseAttempt(
+      questions[0].id,
+      completedQuestionCount,
+      totalQuestionCount
+    );
     toast.success("Exercise submitted!");
     const { subject, chapter } = params;
     if (typeof subject === "string" && typeof chapter === "string") {

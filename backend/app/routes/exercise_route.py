@@ -1,8 +1,10 @@
-from fastapi import APIRouter, HTTPException, Query
+from fastapi import APIRouter, HTTPException, Query, Depends
 from pydantic import BaseModel
 from app.utilities.exercise import ExerciseService
+from app.utilities.business_logic.jwt_service import JWTService
 
 router = APIRouter()
+jwt = JWTService()
 exercise_service = ExerciseService()
 
 class ExerciseMessageRequest(BaseModel):
@@ -10,6 +12,11 @@ class ExerciseMessageRequest(BaseModel):
     question_answer: str
     prompt: str
     
+class ExerciseAttemptRequest(BaseModel):
+    questionId: int
+    completedQuestions: int
+    totalQuestions: int
+
 @router.post("/response")
 def process_exercise_message(request: ExerciseMessageRequest):
     try:
@@ -39,5 +46,21 @@ def get_exercise_questions(
     try:
         response = exercise_service.get_exercise_questions(subject, chapter, exerciseLetter)
         return response
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.post("/save-exercise-attempt")
+def save_exercise_attempt(
+    request: ExerciseAttemptRequest, 
+    auth_data: dict = Depends(jwt.verify_token)):
+    try:
+        user_id = auth_data.get("sub")
+        exercise_service.save_exercise_attempt(
+            request.questionId,
+            request.completedQuestions,
+            request.totalQuestions,
+            user_id
+        )
+        return {"message": "Exercise attempt saved successfully"}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
