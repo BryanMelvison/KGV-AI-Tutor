@@ -3,22 +3,52 @@
 import Link from "next/link";
 import { useState } from "react";
 import { useAssistantChat } from "@/context/AssistantChatContext";
+import { useParams, useRouter } from "next/navigation";
+import { createChatSession } from "@/api/chat";
 
 const AssistantChatSummaries = () => {
   const { chats, addChat } = useAssistantChat();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [newChatTitle, setNewChatTitle] = useState("");
+  const [loading, setLoading] = useState(false);
 
-  const handleCreateChat = () => {
+  const params = useParams();
+  const router = useRouter();
+
+  const handleCreateChat = async () => {
     if (!newChatTitle.trim()) return;
-    addChat({
-      id: crypto.randomUUID(),
-      title: newChatTitle,
-      summary: "New chat, no summary yet",
-      time: new Date().toLocaleTimeString(),
-    });
-    setNewChatTitle("");
-    setIsModalOpen(false);
+
+    const subject = params.subject;
+    const chapter = params.chapter;
+
+    if (typeof subject !== "string" || typeof chapter !== "string") {
+      console.error("Missing subject or chapter in URL");
+      return;
+    }
+
+    try {
+      setLoading(true);
+
+      const sessionId = await createChatSession(newChatTitle, subject, chapter);
+
+      addChat({
+        id: sessionId,
+        title: newChatTitle,
+        summary: "New chat, no summary yet",
+        time: new Date().toLocaleTimeString(),
+      });
+
+      setNewChatTitle("");
+      setIsModalOpen(false);
+
+      router.push(
+        `/student/subjects/${subject}/${chapter}/assistant-chat?sessionId=${sessionId}`
+      );
+    } catch (err) {
+      console.error("Failed to create chat session:", err);
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
