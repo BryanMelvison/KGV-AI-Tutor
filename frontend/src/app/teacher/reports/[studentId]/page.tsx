@@ -35,10 +35,9 @@ export default function ReportGenerator() {
         </button>
       </div>
 
-      {/* Centered Report Card (A4 size: 794 x 1123 px) */}
       <div
         ref={reportRef}
-        className="w-[794px] min-h-[1123px] bg-white p-8 text-black shadow-md border border-gray-300"
+        className="w-[794px] min-h-[1123px] bg-white p-8 text-black shadow-md"
       >
         <ReportCard student={student} />
       </div>
