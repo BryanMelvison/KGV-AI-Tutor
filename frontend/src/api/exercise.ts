@@ -2,10 +2,18 @@ import api from "@/helpers/axios";
 import { getChapterNumber } from "@/api/chapter";
 
 export interface Question {
-  number: string;
+  id: string;
   title: string;
-  answer: string;
-  id: number;
+  description: string;
+  options: {
+    letter: string;
+    title: string;
+  }[];
+}
+
+export interface MCQAnswerResponse {
+  options: string[];
+  correct_option: number;
 }
 
 export interface ExerciseAIRequest {
@@ -69,5 +77,33 @@ export const saveExerciseAttempt = async (
   } catch (error) {
     console.error("Error saving exercise attempt:", error);
     return null;
+  }
+};
+
+export const getExerciseMCQAnswer = async (
+  questionId: number
+): Promise<MCQAnswerResponse> => {
+  try {
+    const { data } = await api.post(
+      `/exercise/get-exercise-mcq-answer?questionId=${questionId}`
+    );
+    return data;
+  } catch (error) {
+    console.error("Error fetching MCQ answer:", error);
+    throw new Error("Could not fetch MCQ answer");
+  }
+};
+
+export const fetchSmartQuizQuestions = async (
+  subject: string
+): Promise<Question[]> => {
+  try {
+    const { data } = await api.post(
+      `/exercise/smart-quiz-questions?subject=${subject}`
+    );
+    return data;
+  } catch (error) {
+    console.error("Error fetching smart quiz questions:", error);
+    return [];
   }
 };
