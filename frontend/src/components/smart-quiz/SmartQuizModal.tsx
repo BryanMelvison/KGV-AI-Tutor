@@ -46,12 +46,14 @@ const SmartQuizModal = ({
     setCurrentQuestionIndex,
     isLoading,
     setIsLoading,
+    verifyAnswer,
   } = useQuiz();
 
   const [subject, setSubject] = useState<string | null>(null);
   const [showTimeUpDialog, setShowTimeUpDialog] = useState(false);
   const [isFinished, setIsFinished] = useState(false);
   const [timeRemaining, setTimeRemaining] = useState(10 * 60);
+  const [score, setScore] = useState(0);
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const questionTitleRef = useRef<HTMLDivElement>(null);
@@ -78,7 +80,12 @@ const SmartQuizModal = ({
     if (inputValue.trim()) addMessage(inputValue);
   };
 
-  const handleSubmitAnswer = () => {
+  const handleSubmitAnswer = async () => {
+    const result = await verifyAnswer(currentQuestion.id, selectedOption);
+    if (result.correct) {
+      setScore((prev) => prev + 1);
+    }
+
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex((prev) => prev + 1);
       setSelectedOption("");
@@ -103,6 +110,7 @@ const SmartQuizModal = ({
 
   useEffect(() => {
     if (isOpen) {
+      setScore(0);
       setIsFinished(false);
       setSubject(null);
       setQuestions([]);
@@ -199,8 +207,9 @@ const SmartQuizModal = ({
                           Great job! You’ve finished all questions.
                         </p>
                         <p className="text-md font-semibold">
-                          Score: {currentQuestionIndex + 1} / {questions.length}
+                          Score: {score} / {questions.length}
                         </p>
+
                         <button
                           onClick={onClose}
                           className="px-4 py-2 bg-sky-500 text-white rounded-lg hover:bg-sky-600 transition"

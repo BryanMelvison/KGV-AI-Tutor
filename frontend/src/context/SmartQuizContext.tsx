@@ -48,6 +48,14 @@ interface SmartQuizContextType {
   isLoading: boolean;
   setIsLoading: (value: boolean) => void;
   restartQuiz: () => void;
+  verifyAnswer: (
+    questionId: number,
+    selectedLetter: string
+  ) => Promise<{
+    correct: boolean;
+    correctLetter: string;
+    explanation: string;
+  }>;
 }
 
 const SmartQuizContext = createContext<SmartQuizContextType | undefined>(
@@ -145,6 +153,8 @@ export function SmartQuizProvider({ children }: { children: ReactNode }) {
       isOpen,
       openQuiz,
       closeQuiz,
+      selectedSubject,
+      setSelectedSubject,
       selectedOption,
       setSelectedOption,
       inputValue,
@@ -166,6 +176,8 @@ export function SmartQuizProvider({ children }: { children: ReactNode }) {
       isOpen,
       openQuiz,
       closeQuiz,
+      selectedSubject,
+      setSelectedSubject,
       selectedOption,
       inputValue,
       currentQuestion,
