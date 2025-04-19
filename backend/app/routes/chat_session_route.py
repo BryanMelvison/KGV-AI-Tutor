@@ -30,4 +30,22 @@ def get_chat_session(
 ):
     user_id = auth_data.get("sub")
     chat_session_service = ChatSessionService(db)
-    return chat_session_service.retrieve_all_session_from_database(user_id, subjectId, chapterId)
+    return chat_session_service.retrieve_all_session_from_database_specific(user_id, subjectId, chapterId)
+
+@router.get("/get-total-chat-session")
+def get_total_chat_session(
+    auth_data: dict = Depends(jwt.verify_token),
+    db: Session = Depends(get_db),
+):
+    user_id = auth_data.get("sub")
+    chat_session_service = ChatSessionService(db)
+    return chat_session_service.retrieve_total_session_from_database(user_id)
+
+@router.get("/get-recent-chat-session")
+def get_recent_chat_session(
+    auth_data: dict = Depends(jwt.verify_token),
+    db: Session = Depends(get_db),
+):
+    user_id = auth_data.get("sub")
+    chat_session_service = ChatSessionService(db)
+    return chat_session_service.retrieve_all_session_from_database_user(user_id)
