@@ -106,8 +106,6 @@ class Role(PyEnum):
     STUDENT = "student"
     TEACHER = "teacher"
 
-# class Base(DeclarativeBase):
-#     pass
 class Roles(Base):
     __tablename__ = 'roles'
 
@@ -233,7 +231,7 @@ class chatMessage(Base):
     # to determine if the sender is a teacher or student
     senderType: Mapped["senderType"] = mapped_column(Enum(senderType), nullable=False)
 
-    message: Mapped[str] = mapped_column(String(500), nullable=False)
+    message: Mapped[str] = mapped_column(String(1000), nullable=False)
     timestamp: Mapped[DateTime] = mapped_column(DateTime, nullable=False)
     # This is a many-to-one relationship between chatMessages and chatSessions
     chatSession: Mapped["ChatSessions"] = relationship(back_populates="messages")
