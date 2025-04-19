@@ -15,11 +15,6 @@ class ChatSessionRequest(BaseModel):
     chapterId: int
     sessionName: str
 
-class GetSessionRequest(BaseModel):
-    subjectId: int
-    chapterId: int
-
-
 @router.post("/add-chat-session")
 def add_chat_session(request: ChatSessionRequest, auth_data: dict = Depends(jwt.verify_token), db: Session = Depends(get_db)):
     user_id = auth_data.get("sub")
@@ -36,8 +31,3 @@ def get_chat_session(
     user_id = auth_data.get("sub")
     chat_session_service = ChatSessionService(db)
     return chat_session_service.retrieve_all_session_from_database(user_id, subjectId, chapterId)
-
-@router.get("/get-chat-session-name")
-def get_chat_session_name(sessionId: str, db: Session = Depends(get_db), auth_data: dict = Depends(jwt.verify_token)):
-    chat_service = ChatSessionService(db)
-    return {"sessionName": chat_service.get_session_name_by_id(sessionId)}
