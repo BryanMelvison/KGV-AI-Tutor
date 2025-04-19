@@ -76,3 +76,17 @@ def get_mcq_options(
         return response
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+    
+@router.post("/smart-quiz-questions")
+def get_random_quiz_questions(
+    subject: str = Query(..., description="Subject name"),
+    auth_data: dict = Depends(jwt.verify_token)
+):
+    try:
+        user_id = auth_data.get("sub")
+        exercise_service = ExerciseService()
+        return exercise_service.get_random_quiz_questions(subject, user_id)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+

@@ -5,7 +5,7 @@ import ChatContainer from "./ChatContainer";
 import { Message } from "@/interfaces/Message";
 import { useParams, useSearchParams, useRouter } from "next/navigation";
 import toast from "react-hot-toast";
-import { getExerciseAIResponse, saveExerciseAttempt } from "@/api/exerciseApi";
+import { getExerciseAIResponse, saveExerciseAttempt } from "@/api/exercise";
 import confetti from "canvas-confetti";
 
 interface Question {

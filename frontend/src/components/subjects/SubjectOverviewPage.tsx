@@ -7,7 +7,7 @@ import ExerciseGrid from "./ExerciseGrid";
 import ProgressBar from "./ProgressBar";
 import AssistantChatSummaries from "./AssistantChatSummaries";
 import ExerciseChat from "../chat/ExerciseChat";
-import { fetchExerciseQuestions } from "@/api/exerciseApi";
+import { fetchExerciseQuestions } from "@/api/exercise";
 import { ChapterData } from "@/api/chapter";
 import { unslugify } from "@/helpers/slugify";
 import UnlockBox from "./UnlockBox";
