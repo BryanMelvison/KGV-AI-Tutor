@@ -2,7 +2,7 @@
 
 import { FaChartBar, FaClipboardList, FaBookOpen } from "react-icons/fa";
 
-const ReportOverview = () => {
+const ClassOverview = () => {
   const stats = [
     {
       title: "Exercise Completion",
@@ -40,4 +40,4 @@ const ReportOverview = () => {
   );
 };
 
-export default ReportOverview;
+export default ClassOverview;
