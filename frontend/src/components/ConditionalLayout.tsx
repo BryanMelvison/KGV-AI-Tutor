@@ -12,7 +12,8 @@ const ConditionalLayout = ({ children }: { children: React.ReactNode }) => {
 
   const isLoginPage = pathname === "/login";
   const isTeacher = user?.role === "teacher";
-  const shouldShowNav = !isTeacher && !isLoginPage;
+  const isStudent = user?.role === "student";
+  const shouldShowNav = !isTeacher && !isLoginPage && isStudent;
 
   if (!userLoaded) {
     return (
