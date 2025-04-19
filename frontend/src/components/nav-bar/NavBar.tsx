@@ -75,7 +75,7 @@ const NavBar = () => {
 
   const handleOpenQuiz = () => {
     setPreviousActive(active);
-    openQuiz();
+    openQuiz("Biology");
     setActive("smart quiz");
   };
 
