@@ -15,7 +15,14 @@ interface Option {
   title: string;
 }
 
-interface Question {
+export interface ReviewAnswer {
+  questionId: number;
+  selected: string;
+  correct: string;
+  explanation: string;
+}
+
+export interface Question {
   id: string;
   title: string;
   description: string;
@@ -27,27 +34,42 @@ interface Message {
   sender: "user" | "assistant";
 }
 
+export interface UserAnswer {
+  questionId: string;
+  selected: string;
+  correct: string;
+  explanation: string;
+}
+
 interface SmartQuizContextType {
   isOpen: boolean;
   openQuiz: () => void;
   closeQuiz: () => void;
   selectedSubject: string | null;
   setSelectedSubject: (subject: string) => void;
+
   selectedOption: string | undefined;
   setSelectedOption: (option: string) => void;
+
   inputValue: string;
   setInputValue: (value: string) => void;
+
   currentQuestion: Question | null;
   questions: Question[];
   setQuestions: (questions: Question[]) => void;
+
   messages: Message[];
   addMessage: (message: string) => void;
   setMessages: React.Dispatch<React.SetStateAction<Message[]>>;
+
   currentQuestionIndex: number;
   setCurrentQuestionIndex: (value: number | ((prev: number) => number)) => void;
+
   isLoading: boolean;
   setIsLoading: (value: boolean) => void;
+
   restartQuiz: () => void;
+
   verifyAnswer: (
     questionId: number,
     selectedLetter: string
@@ -56,6 +78,9 @@ interface SmartQuizContextType {
     correctLetter: string;
     explanation: string;
   }>;
+
+  reviewAnswers: UserAnswer[];
+  setReviewAnswers: React.Dispatch<React.SetStateAction<UserAnswer[]>>;
 }
 
 const SmartQuizContext = createContext<SmartQuizContextType | undefined>(
@@ -72,6 +97,7 @@ export function SmartQuizProvider({ children }: { children: ReactNode }) {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [isFinished, setIsFinished] = useState(false);
+  const [reviewAnswers, setReviewAnswers] = useState<UserAnswer[]>([]);
 
   const currentQuestion = useMemo(
     () => questions[currentQuestionIndex] || null,
@@ -82,10 +108,6 @@ export function SmartQuizProvider({ children }: { children: ReactNode }) {
     setMessages((prev) => [...prev, { text, sender: "user" }]);
     setInputValue("");
   }, []);
-
-  const fetchQuestions = async (): Promise<Question[]> => {
-    return await fetchSmartQuizQuestions();
-  };
 
   const verifyAnswer = useCallback(
     async (questionId: number, selectedLetter: string) => {
@@ -171,6 +193,8 @@ export function SmartQuizProvider({ children }: { children: ReactNode }) {
       setIsLoading,
       verifyAnswer,
       restartQuiz,
+      reviewAnswers,
+      setReviewAnswers,
     }),
     [
       isOpen,
@@ -188,6 +212,8 @@ export function SmartQuizProvider({ children }: { children: ReactNode }) {
       isLoading,
       verifyAnswer,
       restartQuiz,
+      reviewAnswers,
+      setReviewAnswers,
     ]
   );
 

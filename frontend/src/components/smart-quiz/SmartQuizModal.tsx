@@ -7,7 +7,7 @@ import {
   Transition,
   TransitionChild,
 } from "@headlessui/react";
-import { useQuiz } from "@/context/SmartQuizContext";
+import { ReviewAnswer, useQuiz } from "@/context/SmartQuizContext";
 import { fetchSmartQuizQuestions } from "@/api/exercise";
 import { useRef, useEffect, useState, Fragment } from "react";
 import SmartQuizQuestion from "./SmartQuizQuestion";
@@ -21,6 +21,7 @@ import CloseButton from "../ui/CloseButton";
 import Messages from "../Messages";
 import confetti from "canvas-confetti";
 import { FaSpinner } from "react-icons/fa";
+import SmartQuizReview from "./SmartQuizReview";
 
 const SUBJECTS = ["Biology", "Chemistry", "Physics"];
 
@@ -54,9 +55,12 @@ const SmartQuizModal = ({
   const [isFinished, setIsFinished] = useState(false);
   const [timeRemaining, setTimeRemaining] = useState(10 * 60);
   const [score, setScore] = useState(0);
+  const [showReviewModal, setShowReviewModal] = useState(false);
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const questionTitleRef = useRef<HTMLDivElement>(null);
+
+  const [reviewAnswers, setReviewAnswers] = useState<ReviewAnswer[]>([]);
 
   const handleSelectSubject = async (selected: string) => {
     setSubject(selected);
@@ -82,6 +86,16 @@ const SmartQuizModal = ({
 
   const handleSubmitAnswer = async () => {
     const result = await verifyAnswer(currentQuestion.id, selectedOption);
+    setReviewAnswers((prev) => [
+      ...prev,
+      {
+        questionId: currentQuestion.id,
+        selected: selectedOption,
+        correct: result.correctLetter,
+        explanation: result.explanation,
+      },
+    ]);
+
     if (result.correct) {
       setScore((prev) => prev + 1);
     }
@@ -118,6 +132,7 @@ const SmartQuizModal = ({
       setSelectedOption("");
       setTimeRemaining(10 * 60);
       setShowTimeUpDialog(false);
+      setReviewAnswers([]);
     }
   }, [isOpen]);
 
@@ -210,12 +225,75 @@ const SmartQuizModal = ({
                           Score: {score} / {questions.length}
                         </p>
 
-                        <button
-                          onClick={onClose}
-                          className="px-4 py-2 bg-sky-500 text-white rounded-lg hover:bg-sky-600 transition"
-                        >
-                          Close
-                        </button>
+                        <div className="mt-4 flex justify-center gap-4">
+                          {/* Review Modal Toggle Button */}
+                          <button
+                            onClick={() => setShowReviewModal(true)}
+                            className="px-4 py-2 bg-white text-sky-600 border border-sky-600 rounded-lg hover:bg-sky-50 transition"
+                          >
+                            Review Answers
+                          </button>
+
+                          {/* Close Quiz Button */}
+                          <button
+                            onClick={onClose}
+                            className="px-4 py-2 bg-sky-500 text-white rounded-lg hover:bg-sky-600 transition"
+                          >
+                            Close
+                          </button>
+                        </div>
+
+                        {/* Review Modal */}
+                        <Transition appear show={showReviewModal} as={Fragment}>
+                          <Dialog
+                            as="div"
+                            className="relative z-50"
+                            onClose={() => setShowReviewModal(false)}
+                          >
+                            <TransitionChild
+                              as={Fragment}
+                              enter="ease-out duration-300"
+                              enterFrom="opacity-0"
+                              enterTo="opacity-100"
+                              leave="ease-in duration-200"
+                              leaveFrom="opacity-100"
+                              leaveTo="opacity-0"
+                            >
+                              <div className="fixed inset-0 bg-black/30" />
+                            </TransitionChild>
+
+                            <div className="fixed inset-0 overflow-y-auto">
+                              <div className="flex min-h-full items-center justify-center p-4">
+                                <TransitionChild
+                                  as={Fragment}
+                                  enter="ease-out duration-300"
+                                  enterFrom="opacity-0 scale-95"
+                                  enterTo="opacity-100 scale-100"
+                                  leave="ease-in duration-200"
+                                  leaveFrom="opacity-100 scale-100"
+                                  leaveTo="opacity-0 scale-95"
+                                >
+                                  <DialogPanel className="w-full max-w-[1024px] transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
+                                    <div className="flex items-center justify-between mb-4">
+                                      <DialogTitle className="text-xl font-semibold text-center w-full">
+                                        Quiz Review
+                                      </DialogTitle>
+                                      <CloseButton
+                                        onClick={() =>
+                                          setShowReviewModal(false)
+                                        }
+                                      />
+                                    </div>
+                                    <SmartQuizReview
+                                      reviewAnswers={reviewAnswers}
+                                      questions={questions}
+                                    />
+                                  </DialogPanel>
+                                </TransitionChild>
+                              </div>
+                            </div>
+                          </Dialog>
+                        </Transition>
                       </div>
                     ) : isLoading || !currentQuestion ? (
                       <div className="flex-1 flex flex-col items-center justify-center space-y-4">
