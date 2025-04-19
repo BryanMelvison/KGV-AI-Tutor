@@ -1,7 +1,7 @@
 "use client";
 
 import DocumentUploader from "@/components/document/DocumentUploader";
-import ReportOverview from "@/components/teacher/ReportOverview";
+import ClassOverview from "@/components/teacher/ClassOverview";
 import ClassList from "@/components/teacher/ClassList";
 import { useEffect, useState } from "react";
 import MetadataModal from "@/components/teacher/MetadataModal";
@@ -9,7 +9,6 @@ import { useRouter } from "next/navigation";
 import { IoChevronDown } from "react-icons/io5";
 import Image from "next/image";
 import { useUser } from "@/context/UserContext";
-import { logoutUser } from "@/api/auth";
 import ProtectedRoute from "@/components/auth/ProtectedRoute";
 
 export default function TeacherDashboard() {
@@ -171,7 +170,7 @@ export default function TeacherDashboard() {
                 Overview Reports for {selectedClass}
               </h2>
               <div className="flex-1">
-                <ReportOverview />
+                <ClassOverview />
               </div>
             </div>
           </div>
