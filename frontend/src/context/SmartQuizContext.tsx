@@ -8,6 +8,7 @@ import {
   useCallback,
   useMemo,
 } from "react";
+import { getExerciseMCQAnswer, fetchSmartQuizQuestions } from "@/api/exercise";
 
 interface Option {
   letter: string;
@@ -28,7 +29,7 @@ interface Message {
 
 interface SmartQuizContextType {
   isOpen: boolean;
-  openQuiz: () => void;
+  openQuiz: (subject?: string) => void;
   closeQuiz: () => void;
   selectedOption: string | undefined;
   setSelectedOption: (option: string) => void;
@@ -51,31 +52,6 @@ const SmartQuizContext = createContext<SmartQuizContextType | undefined>(
   undefined
 );
 
-const MOCK_QUESTIONS: Question[] = [
-  {
-    id: "1",
-    title: "How to Budget and Forecast for your Business?",
-    description: "Lorem ipsum dolor sit amet...",
-    options: [
-      { letter: "A", title: "Option A" },
-      { letter: "B", title: "Option B" },
-      { letter: "C", title: "Option C" },
-      { letter: "D", title: "Option D" },
-    ],
-  },
-  {
-    id: "2",
-    title: "How to Budget and Forecast for your Business? Part 2",
-    description: "Lorem ipsum dolor sit amet...",
-    options: [
-      { letter: "A", title: "Option A" },
-      { letter: "B", title: "Option B" },
-      { letter: "C", title: "Option C" },
-      { letter: "D", title: "Option D" },
-    ],
-  },
-];
-
 export function SmartQuizProvider({ children }: { children: ReactNode }) {
   const [isOpen, setIsOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -97,16 +73,36 @@ export function SmartQuizProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const fetchQuestions = async (): Promise<Question[]> => {
-    // In the future replace this with API:
-    // const response = await fetch(API)
-    // return await response.json(); or smth
-    return MOCK_QUESTIONS;
+    return await fetchSmartQuizQuestions();
   };
+
+  const verifyAnswer = useCallback(
+    async (questionId: number, selectedLetter: string) => {
+      try {
+        const answerData = await getExerciseMCQAnswer(questionId);
+        const correctLetter = ["A", "B", "C", "D"][answerData.correct_option];
+        const isCorrect = selectedLetter === correctLetter;
+
+        console.log("Correct Option:", correctLetter);
+        return {
+          correct: isCorrect,
+          correctLetter,
+          explanation: answerData.options[answerData.correct_option],
+        };
+      } catch (error) {
+        console.error("Failed to verify answer:", error);
+        return { correct: false, correctLetter: "", explanation: "" };
+      }
+    },
+    []
+  );
 
   const restartQuiz = useCallback(async () => {
     setIsLoading(true);
 
-    const fetchedQuestions = await fetchQuestions();
+    const subject = "Biology";
+
+    const fetchedQuestions = await fetchSmartQuizQuestions(subject);
     setQuestions(fetchedQuestions);
 
     setCurrentQuestionIndex(0);
@@ -117,12 +113,20 @@ export function SmartQuizProvider({ children }: { children: ReactNode }) {
     setIsLoading(false);
   }, []);
 
-  const openQuiz = useCallback(async () => {
+  const openQuiz = useCallback(async (subject = "Biology") => {
     setIsOpen(true);
     setIsLoading(true);
-    restartQuiz();
+
+    const fetchedQuestions = await fetchSmartQuizQuestions(subject);
+    setQuestions(fetchedQuestions);
+
+    setCurrentQuestionIndex(0);
+    setSelectedOption("");
+    setInputValue("");
+    setMessages([]);
+
     setIsLoading(false);
-  }, [restartQuiz]);
+  }, []);
 
   const closeQuiz = useCallback(() => setIsOpen(false), []);
 
@@ -145,6 +149,7 @@ export function SmartQuizProvider({ children }: { children: ReactNode }) {
       setCurrentQuestionIndex,
       isLoading,
       setIsLoading,
+      verifyAnswer,
       restartQuiz,
     }),
     [
@@ -159,6 +164,7 @@ export function SmartQuizProvider({ children }: { children: ReactNode }) {
       addMessage,
       currentQuestionIndex,
       isLoading,
+      verifyAnswer,
       restartQuiz,
     ]
   );
