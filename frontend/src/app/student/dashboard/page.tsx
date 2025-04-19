@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import { fetchLatestExercise } from "@/api/exerciseApi";
+import { fetchLatestExercise } from "@/api/exercise";
 import { getSubjectsData, Subject } from "@/api/mockSubject";
 import { getChapter } from "@/api/chapter";
 import { useQuiz } from "@/context/SmartQuizContext";
@@ -222,7 +222,7 @@ const Dashboard = () => {
           {/* Smart Quiz Card */}
           <div
             className="bg-white p-5 rounded-xl shadow-md flex flex-col items-start space-y-4 cursor-pointer hover:bg-gray-100 hover:shadow-lg active:bg-gray-200 active:shadow-inner"
-            onClick={openQuiz}
+            onClick={() => openQuiz()}
           >
             <Image
               src="/smart-quiz-icon.svg"

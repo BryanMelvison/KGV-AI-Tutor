@@ -1,3 +1,4 @@
+from http.client import HTTPException
 from langchain_community.document_loaders.directory import DirectoryLoader
 from langchain_text_splitters.character import RecursiveCharacterTextSplitter
 from tqdm.auto import tqdm
@@ -6,7 +7,7 @@ from langchain_ollama.llms import OllamaLLM
 from pathlib import Path
 from .prompt import QUESTION_GEN_PROMPT, QUESTION_CHECK_PROMPT, EXERCISE_EVAL_PROMPT
 from app.database import get_session
-from app.models import Exercise, StudentExerciseAttempt, QuestionAnswer, StudentLearningObjectiveMastery
+from app.models import Chapters, Exercise, StudentExerciseAttempt, QuestionAnswer, StudentLearningObjectiveMastery, Subjects, Users, studentSubjects
 import random
 import pandas as pd
 import json
@@ -163,4 +164,82 @@ class ExerciseService:
             raise e
         finally:
             session.close()
-        
+
+    @staticmethod
+    def get_random_quiz_questions(subject: str, user_id: int, total: int = 5):
+        session = get_session()
+        try:
+            subject_obj = (
+                session.query(Subjects)
+                .filter(Subjects.subjectName.ilike(subject))
+                .first()
+            )
+
+            if not subject_obj:
+                raise HTTPException(status_code=404, detail=f"Subject '{subject}' not found")
+
+            subject_id = subject_obj.id
+
+            is_enrolled = (
+                session.query(studentSubjects)
+                .filter(
+                    studentSubjects.studentId == user_id,
+                    studentSubjects.subjectId == subject_id
+                )
+                .first()
+            )
+
+            if not is_enrolled:
+                raise HTTPException(status_code=403, detail="Student is not enrolled in this subject")
+
+            chapter_ids = (
+                session.query(Chapters.id)
+                .filter(Chapters.subjectId == subject_id)
+                .all()
+            )
+            chapter_ids = [cid[0] for cid in chapter_ids]
+            print("Chapter IDs:", chapter_ids)
+
+            all_questions = []
+
+            for chapter_id in chapter_ids:
+                exercises = (
+                    session.query(Exercise)
+                    .filter(Exercise.chapter_id == chapter_id)
+                    .all()
+                )
+
+                for exercise in exercises:
+                    letter = exercise.exercise_letter
+
+                    questions = (
+                        session.query(QuestionAnswer)
+                        .filter(QuestionAnswer.exercise_id == exercise.id)
+                        .all()
+                    )
+
+                    for q in questions:
+                        options_data = q.mcq_answer
+                        print(f"Question ID: {q.id}, Options: {options_data}")
+
+                        formatted = {
+                            "id": q.id,
+                            "title": q.question_text,
+                            "description": "",
+                            "options": [
+                                {"letter": chr(65 + i), "title": opt}
+                                for i, opt in enumerate(options_data["options"])
+                            ]
+                        }
+
+                        all_questions.append(formatted)
+
+            random.shuffle(all_questions)
+            print("Returning", min(total, len(all_questions)), "questions")
+            return all_questions[:total]
+
+        except Exception as e:
+            print("ERROR in get_random_quiz_questions:", str(e))
+            raise HTTPException(status_code=500, detail=str(e))
+        finally:
+            session.close()

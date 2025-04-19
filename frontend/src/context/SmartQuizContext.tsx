@@ -8,6 +8,7 @@ import {
   useCallback,
   useMemo,
 } from "react";
+import { getExerciseMCQAnswer, fetchSmartQuizQuestions } from "@/api/exercise";
 
 interface Option {
   letter: string;
@@ -30,6 +31,8 @@ interface SmartQuizContextType {
   isOpen: boolean;
   openQuiz: () => void;
   closeQuiz: () => void;
+  selectedSubject: string | null;
+  setSelectedSubject: (subject: string) => void;
   selectedOption: string | undefined;
   setSelectedOption: (option: string) => void;
   inputValue: string;
@@ -45,39 +48,23 @@ interface SmartQuizContextType {
   isLoading: boolean;
   setIsLoading: (value: boolean) => void;
   restartQuiz: () => void;
+  verifyAnswer: (
+    questionId: number,
+    selectedLetter: string
+  ) => Promise<{
+    correct: boolean;
+    correctLetter: string;
+    explanation: string;
+  }>;
 }
 
 const SmartQuizContext = createContext<SmartQuizContextType | undefined>(
   undefined
 );
 
-const MOCK_QUESTIONS: Question[] = [
-  {
-    id: "1",
-    title: "How to Budget and Forecast for your Business?",
-    description: "Lorem ipsum dolor sit amet...",
-    options: [
-      { letter: "A", title: "Option A" },
-      { letter: "B", title: "Option B" },
-      { letter: "C", title: "Option C" },
-      { letter: "D", title: "Option D" },
-    ],
-  },
-  {
-    id: "2",
-    title: "How to Budget and Forecast for your Business? Part 2",
-    description: "Lorem ipsum dolor sit amet...",
-    options: [
-      { letter: "A", title: "Option A" },
-      { letter: "B", title: "Option B" },
-      { letter: "C", title: "Option C" },
-      { letter: "D", title: "Option D" },
-    ],
-  },
-];
-
 export function SmartQuizProvider({ children }: { children: ReactNode }) {
   const [isOpen, setIsOpen] = useState(false);
+  const [selectedSubject, setSelectedSubject] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [selectedOption, setSelectedOption] = useState<string>();
   const [inputValue, setInputValue] = useState("");
@@ -88,7 +75,7 @@ export function SmartQuizProvider({ children }: { children: ReactNode }) {
 
   const currentQuestion = useMemo(
     () => questions[currentQuestionIndex] || null,
-    [questions, currentQuestionIndex]
+    [questions, currentQuestionIndex, selectedSubject, setSelectedSubject]
   );
 
   const addMessage = useCallback((text: string) => {
@@ -97,16 +84,36 @@ export function SmartQuizProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const fetchQuestions = async (): Promise<Question[]> => {
-    // In the future replace this with API:
-    // const response = await fetch(API)
-    // return await response.json(); or smth
-    return MOCK_QUESTIONS;
+    return await fetchSmartQuizQuestions();
   };
+
+  const verifyAnswer = useCallback(
+    async (questionId: number, selectedLetter: string) => {
+      try {
+        const answerData = await getExerciseMCQAnswer(questionId);
+        const correctLetter = ["A", "B", "C", "D"][answerData.correct_option];
+        const isCorrect = selectedLetter === correctLetter;
+
+        console.log("Correct Option:", correctLetter);
+        return {
+          correct: isCorrect,
+          correctLetter,
+          explanation: answerData.options[answerData.correct_option],
+        };
+      } catch (error) {
+        console.error("Failed to verify answer:", error);
+        return { correct: false, correctLetter: "", explanation: "" };
+      }
+    },
+    []
+  );
 
   const restartQuiz = useCallback(async () => {
     setIsLoading(true);
 
-    const fetchedQuestions = await fetchQuestions();
+    const subject = "Biology";
+
+    const fetchedQuestions = await fetchSmartQuizQuestions(subject);
     setQuestions(fetchedQuestions);
 
     setCurrentQuestionIndex(0);
@@ -117,12 +124,27 @@ export function SmartQuizProvider({ children }: { children: ReactNode }) {
     setIsLoading(false);
   }, []);
 
-  const openQuiz = useCallback(async () => {
+  // const openQuiz = useCallback(async (subject = "Biology") => {
+  //   setIsOpen(true);
+  //   setIsLoading(true);
+
+  //   const fetchedQuestions = await fetchSmartQuizQuestions(subject);
+  //   setQuestions(fetchedQuestions);
+
+  //   setCurrentQuestionIndex(0);
+  //   setSelectedOption("");
+  //   setInputValue("");
+  //   setMessages([]);
+
+  //   setIsLoading(false);
+  // }, []);
+
+  const openQuiz = useCallback(() => {
     setIsOpen(true);
-    setIsLoading(true);
-    restartQuiz();
-    setIsLoading(false);
-  }, [restartQuiz]);
+    setIsFinished(false);
+    setQuestions([]);
+    setSelectedSubject(null);
+  }, []);
 
   const closeQuiz = useCallback(() => setIsOpen(false), []);
 
@@ -131,6 +153,8 @@ export function SmartQuizProvider({ children }: { children: ReactNode }) {
       isOpen,
       openQuiz,
       closeQuiz,
+      selectedSubject,
+      setSelectedSubject,
       selectedOption,
       setSelectedOption,
       inputValue,
@@ -145,12 +169,15 @@ export function SmartQuizProvider({ children }: { children: ReactNode }) {
       setCurrentQuestionIndex,
       isLoading,
       setIsLoading,
+      verifyAnswer,
       restartQuiz,
     }),
     [
       isOpen,
       openQuiz,
       closeQuiz,
+      selectedSubject,
+      setSelectedSubject,
       selectedOption,
       inputValue,
       currentQuestion,
@@ -159,6 +186,7 @@ export function SmartQuizProvider({ children }: { children: ReactNode }) {
       addMessage,
       currentQuestionIndex,
       isLoading,
+      verifyAnswer,
       restartQuiz,
     ]
   );
