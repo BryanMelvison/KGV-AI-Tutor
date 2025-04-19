@@ -29,8 +29,10 @@ interface Message {
 
 interface SmartQuizContextType {
   isOpen: boolean;
-  openQuiz: (subject?: string) => void;
+  openQuiz: () => void;
   closeQuiz: () => void;
+  selectedSubject: string | null;
+  setSelectedSubject: (subject: string) => void;
   selectedOption: string | undefined;
   setSelectedOption: (option: string) => void;
   inputValue: string;
@@ -54,6 +56,7 @@ const SmartQuizContext = createContext<SmartQuizContextType | undefined>(
 
 export function SmartQuizProvider({ children }: { children: ReactNode }) {
   const [isOpen, setIsOpen] = useState(false);
+  const [selectedSubject, setSelectedSubject] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [selectedOption, setSelectedOption] = useState<string>();
   const [inputValue, setInputValue] = useState("");
@@ -64,7 +67,7 @@ export function SmartQuizProvider({ children }: { children: ReactNode }) {
 
   const currentQuestion = useMemo(
     () => questions[currentQuestionIndex] || null,
-    [questions, currentQuestionIndex]
+    [questions, currentQuestionIndex, selectedSubject, setSelectedSubject]
   );
 
   const addMessage = useCallback((text: string) => {
@@ -113,19 +116,26 @@ export function SmartQuizProvider({ children }: { children: ReactNode }) {
     setIsLoading(false);
   }, []);
 
-  const openQuiz = useCallback(async (subject = "Biology") => {
+  // const openQuiz = useCallback(async (subject = "Biology") => {
+  //   setIsOpen(true);
+  //   setIsLoading(true);
+
+  //   const fetchedQuestions = await fetchSmartQuizQuestions(subject);
+  //   setQuestions(fetchedQuestions);
+
+  //   setCurrentQuestionIndex(0);
+  //   setSelectedOption("");
+  //   setInputValue("");
+  //   setMessages([]);
+
+  //   setIsLoading(false);
+  // }, []);
+
+  const openQuiz = useCallback(() => {
     setIsOpen(true);
-    setIsLoading(true);
-
-    const fetchedQuestions = await fetchSmartQuizQuestions(subject);
-    setQuestions(fetchedQuestions);
-
-    setCurrentQuestionIndex(0);
-    setSelectedOption("");
-    setInputValue("");
-    setMessages([]);
-
-    setIsLoading(false);
+    setIsFinished(false);
+    setQuestions([]);
+    setSelectedSubject(null);
   }, []);
 
   const closeQuiz = useCallback(() => setIsOpen(false), []);

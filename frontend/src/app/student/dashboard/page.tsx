@@ -222,7 +222,7 @@ const Dashboard = () => {
           {/* Smart Quiz Card */}
           <div
             className="bg-white p-5 rounded-xl shadow-md flex flex-col items-start space-y-4 cursor-pointer hover:bg-gray-100 hover:shadow-lg active:bg-gray-200 active:shadow-inner"
-            onClick={() => openQuiz("Biology")}
+            onClick={() => openQuiz()}
           >
             <Image
               src="/smart-quiz-icon.svg"
