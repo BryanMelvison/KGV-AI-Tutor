@@ -86,52 +86,52 @@ export const mockStudents: Record<string, Student> = {
       commonMistakes: "Confuses 2nd and 3rd Law of Newton when time-pressured.",
       weakObjectives: ["Forces and Motion", "Momentum"],
     },
-    s2: {
-      id: "s2",
-      name: "Nico R.",
-      subject: "Chemistry",
-      exercises: [
-        {
-          id: "ex1",
-          objective: "Balancing Chemical Equations",
-          attempts: [5, 4, 2, 1],
-          completed: true,
-        },
-      ],
-      masteryChecklist: [
-        {
-          chapter: "01. Life Processes",
-          objective: "Describe cell structures and their functions",
-          completed: true,
-        },
-        {
-          chapter: "01. Life Processes",
-          objective: "Understand diffusion",
-          completed: false,
-        },
-        {
-          chapter: "02. The Variety Of Living Organisms",
-          objective: "Explain classification systems",
-          completed: true,
-        },
-        {
-          chapter: "02. The Variety Of Living Organisms",
-          objective: "Understand biodiversity",
-          completed: true,
-        },
-        {
-          chapter: "03. Breathing And Gas Exchange",
-          objective: "Describe gas exchange in alveoli",
-          completed: false,
-        },
-      ],
-      llmComments:
-        "Nico shows resilience in problem-solving. Performs best with repetition and guided examples.",
-      smartQuizStats: {
-        averageScore: 72,
-        commonMistakes: "Fails to double-check atom counts.",
-        weakObjectives: ["Stoichiometry"],
+  },
+  s2: {
+    id: "s2",
+    name: "Nico R.",
+    subject: "Chemistry",
+    exercises: [
+      {
+        id: "ex1",
+        objective: "Balancing Chemical Equations",
+        attempts: [5, 4, 2, 1],
+        completed: true,
       },
+    ],
+    masteryChecklist: [
+      {
+        chapter: "01. Life Processes",
+        objective: "Describe cell structures and their functions",
+        completed: true,
+      },
+      {
+        chapter: "01. Life Processes",
+        objective: "Understand diffusion",
+        completed: false,
+      },
+      {
+        chapter: "02. The Variety Of Living Organisms",
+        objective: "Explain classification systems",
+        completed: true,
+      },
+      {
+        chapter: "02. The Variety Of Living Organisms",
+        objective: "Understand biodiversity",
+        completed: true,
+      },
+      {
+        chapter: "03. Breathing And Gas Exchange",
+        objective: "Describe gas exchange in alveoli",
+        completed: false,
+      },
+    ],
+    llmComments:
+      "Nico shows resilience in problem-solving. Performs best with repetition and guided examples.",
+    smartQuizStats: {
+      averageScore: 72,
+      commonMistakes: "Fails to double-check atom counts.",
+      weakObjectives: ["Stoichiometry"],
     },
   },
 };
