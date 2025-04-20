@@ -103,5 +103,17 @@ def get_latest_exercise_attempt(
         return exercise_service.get_latest_exercise_attempt(user_id)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+    
+@router.post("/exercise-done")
+def get_exercise_done(
+    auth_data: dict = Depends(jwt.verify_token)
+):
+    try:
+        user_id = auth_data.get("sub")
+        exercise_service = ExerciseService()
+        return exercise_service.get_exercise_done(user_id)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 
 

@@ -121,8 +121,6 @@ export const fetchSmartQuizQuestions = async (
 export const fetchLatestExercise = async (): Promise<LatestExercise> => {
   try {
     const { data } = await api.post("/exercise/latest-exercise-attempt");
-    console.log("Latest Exercise Data:", data);
-
     return data;
   } catch (error) {
     console.error("Error fetching latest exercise:", error);
@@ -131,5 +129,15 @@ export const fetchLatestExercise = async (): Promise<LatestExercise> => {
       chapter: "",
       letter: "",
     };
+  }
+};
+
+export const getExerciseDone = async (): Promise<number> => {
+  try {
+    const { data } = await api.post("/exercise/exercise-done");
+    return data;
+  } catch (error) {
+    console.error("Error getting exercise done:", error);
+    return 0;
   }
 };

@@ -283,3 +283,24 @@ class ExerciseService:
             raise e
         finally:
             session.close()
+
+    @staticmethod
+    def get_exercise_done(user_id):
+        session = get_session()
+        try:
+            completed_exercises = (
+                session.query(StudentExerciseAttempt)
+                .filter(
+                    StudentExerciseAttempt.student_id == user_id,
+                    StudentExerciseAttempt.is_successful == True
+                )
+                .all()
+            )
+
+            completed_exercise_ids = len(set(exercise.exercise_id for exercise in completed_exercises))
+
+            return completed_exercise_ids
+        except Exception as e:
+            raise e
+        finally:
+            session.close()

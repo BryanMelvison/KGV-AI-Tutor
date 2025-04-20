@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from app.models import LearningObjective, Chapters, Subjects, Users, studentSubjects, Role
+from app.models import LearningObjective, Chapters, Subjects, Syllabus, Users, studentSubjects, Role, StudentLearningObjectiveMastery
 from typing import List
 from fastapi import HTTPException
 
@@ -154,5 +154,28 @@ class ChapterService:
                 raise HTTPException(status_code=403, detail="You are not enrolled in this subject")
             
             return subject_id
+        except Exception as e:
+            raise HTTPException(status_code=500, detail=str(e))
+        
+    def get_syllabus_completed_percentage(self, user_id: str) -> int:
+        try:
+            total_syllabus = self.db.query(Syllabus).count()
+            lo_id_mastered = self.db.query(StudentLearningObjectiveMastery.learning_objective_id).filter(
+                StudentLearningObjectiveMastery.id == user_id,
+                StudentLearningObjectiveMastery.is_mastered == True
+            ).all()
+            # Convert list of tuples to set of IDs
+            lo_id = {id[0] for id in lo_id_mastered}
+            syllabus_id_mastered = self.db.query(LearningObjective.syllabus_ids).filter(
+                LearningObjective.id.in_(lo_id)
+            ).all()
+            unique_syllabus_ids = set()
+            for result in syllabus_id_mastered:
+                if result[0]:  # Check if array is not None
+                    unique_syllabus_ids.update(result[0])
+
+            completed_syllabus_count = len(unique_syllabus_ids)
+
+            return int((completed_syllabus_count / total_syllabus) * 100)
         except Exception as e:
             raise HTTPException(status_code=500, detail=str(e))
