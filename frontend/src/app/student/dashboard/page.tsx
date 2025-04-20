@@ -8,11 +8,16 @@ import { getSubjectsData, Subject } from "@/api/mockSubject";
 import { getChapter } from "@/api/chapter";
 import { useQuiz } from "@/context/SmartQuizContext";
 import SmartQuizModal from "@/components/smart-quiz/SmartQuizModal";
-import { slugify } from "@/helpers/slugify";
+import { unslugify } from "@/helpers/slugify";
 import StatsCard from "@/components/StatsCard";
 import { FaBolt, FaBookOpen, FaCheckCircle, FaRobot } from "react-icons/fa";
 import { useUser } from "@/context/UserContext";
 import ProtectedRoute from "@/components/auth/ProtectedRoute";
+import {
+  getTotalChatSessions,
+  getRecentChatSessions,
+  RecentChatSession,
+} from "@/api/chat";
 
 const Dashboard = () => {
   const [latestExercise, setLatestExercise] = useState<{
@@ -26,6 +31,8 @@ const Dashboard = () => {
     {}
   );
   const [loading, setLoading] = useState(true);
+  const [totalChats, setTotalChats] = useState<number>(0);
+  const [recentChats, setRecentChats] = useState<RecentChatSession[]>([]);
 
   const { isOpen, openQuiz, closeQuiz } = useQuiz();
   const router = useRouter();
@@ -45,8 +52,19 @@ const Dashboard = () => {
       }
       setEntryChapters(chapterMap);
 
-      // const latest = await fetchLatestExercise();
-      // if (latest) setLatestExercise(latest);
+      try {
+        const total = await getTotalChatSessions();
+        setTotalChats(total);
+      } catch (err) {
+        console.error("Error loading chat session total:", err);
+      }
+
+      try {
+        const chats = await getRecentChatSessions();
+        setRecentChats(chats.slice(0, 4));
+      } catch (err) {
+        console.error("Error loading recent chats:", err);
+      }
 
       setLoading(false);
     };
@@ -54,64 +72,25 @@ const Dashboard = () => {
     loadDashboardData();
   }, []);
 
-  const recentChats = [
-    {
-      id: "1",
-      title: "Photosynthesis Q&A",
-      subject: "Biology",
-      chapter: "Cell Biology",
-      time: "12:09 AM",
-      summary: "Discussed photosynthesis process and key concepts.",
-    },
-    {
-      id: "2",
-      title: "Algebra Basics",
-      subject: "Mathematics",
-      chapter: "Chapter 5",
-      time: "10:45 AM",
-      summary: "Covered solving equations and variables.",
-    },
-    {
-      id: "1",
-      title: "Photosynthesis Q&A",
-      subject: "Biology",
-      chapter: "Cell Biology",
-      time: "12:09 AM",
-      summary: "Discussed photosynthesis process and key concepts.",
-    },
-    {
-      id: "1",
-      title: "Photosynthesis Q&A",
-      subject: "Biology",
-      chapter: "Cell Biology",
-      time: "12:09 AM",
-      summary: "Discussed photosynthesis process and key concepts.",
-    },
-    {
-      id: "1",
-      title: "Photosynthesis Q&A",
-      subject: "Biology",
-      chapter: "Cell Biology",
-      time: "12:09 AM",
-      summary: "Discussed photosynthesis process and key concepts.",
-    },
-    {
-      id: "1",
-      title: "Photosynthesis Q&A",
-      subject: "Biology",
-      chapter: "Cell Biology",
-      time: "12:09 AM",
-      summary: "Discussed photosynthesis process and key concepts.",
-    },
-    {
-      id: "1",
-      title: "Photosynthesis Q&A",
-      subject: "Biology",
-      chapter: "Cell Biology",
-      time: "12:09 AM",
-      summary: "Discussed photosynthesis process and key concepts.",
-    },
-  ];
+  const formatReadableTimestamp = (timestamp: string): string => {
+    const date = new Date(timestamp);
+    const now = new Date();
+
+    const isToday = date.toDateString() === now.toDateString();
+
+    if (isToday) {
+      return new Intl.DateTimeFormat("en-US", {
+        hour: "numeric",
+        minute: "2-digit",
+        hour12: true,
+      }).format(date);
+    }
+
+    return new Intl.DateTimeFormat("en-US", {
+      month: "short",
+      day: "numeric",
+    }).format(date);
+  };
 
   if (loading) {
     return (
@@ -174,10 +153,11 @@ const Dashboard = () => {
           />
           <StatsCard
             title="AI Assistant Used"
-            value="29 Chats"
+            value={`${totalChats} Chat${totalChats === 1 ? "" : "s"}`}
             icon={<FaRobot className="text-purple-600" />}
             color="#EDE9FE"
           />
+
           <StatsCard
             title="Smart Quizzes"
             value="8 Attempts"
@@ -244,41 +224,41 @@ const Dashboard = () => {
         <div className="grid grid-cols-2 gap-6 mt-6">
           {/* Recent Chats */}
           <div className="bg-white p-5 rounded-xl shadow-md flex flex-col gap-3">
-            <h2 className="text-lg font-semibold mb-2 ">Most Recent Chats</h2>
+            <h2 className="text-lg font-semibold mb-2">Most Recent Chats</h2>
 
             {recentChats.length > 0 ? (
               <div className="flex flex-col space-y-3">
-                {recentChats.slice(0, 4).map((chat, index) => (
+                {recentChats.map((chat, index) => (
                   <div
-                    key={chat.id + index}
+                    key={chat.sessionId}
                     className="cursor-pointer hover:bg-gray-50 rounded-lg transition p-2"
                     onClick={() =>
                       router.push(
-                        `/student/subjects/${chat.subject.toLowerCase()}/${slugify(
-                          chat.chapter.toLowerCase()
-                        )}/assistant-chat?sessionId=${chat.id}`
+                        `/student/subjects/${chat.subjectName.toLowerCase()}/${
+                          chat.chapterName
+                        }/assistant-chat?sessionId=${chat.sessionId}`
                       )
                     }
                   >
                     <div className="flex items-center justify-between w-full mb-1">
                       <div className="flex items-center space-x-2">
                         <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                        <h3 className="font-semibold text-base ">
-                          {chat.title}
+                        <h3 className="font-semibold text-base">
+                          {chat.sessionName}
                         </h3>
                       </div>
                       <span className="text-xs font-medium text-[#747479]">
-                        {chat.time}
+                        {formatReadableTimestamp(chat.timestamp)}
                       </span>
                     </div>
                     <p className="text-xs text-gray-500">
                       <span className="font-semibold text-[#5DA2D5]">
-                        Subject: {chat.subject}
+                        Subject: {chat.subjectName}
                       </span>{" "}
-                      • 📖 Chapter: {chat.chapter}
+                      • 📖 Chapter: {unslugify(chat.chapterName)}
                     </p>
                     <p className="text-sm text-[#747479] mt-1 line-clamp-2">
-                      {chat.summary}
+                      {chat.message || "No summary yet"}
                     </p>
                   </div>
                 ))}

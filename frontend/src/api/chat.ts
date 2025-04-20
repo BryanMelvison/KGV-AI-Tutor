@@ -2,8 +2,6 @@ import api from "@/helpers/axios";
 import axios from "axios";
 import { getChapterNumber, getSubjectNumber } from "./chapter";
 
-const API_BASE_URL = "http://localhost:8000/api";
-
 interface ChatResponse {
   status: string;
   data: {
@@ -20,6 +18,30 @@ export interface ChatSession {
   timestamp: string;
   message: string | null;
 }
+
+export interface RecentChatSession {
+  sessionId: string;
+  sessionName: string;
+  timestamp: string;
+  message: string | null;
+  subjectName: string;
+  chapterName: string;
+}
+
+export const getRecentChatSessions = async (): Promise<RecentChatSession[]> => {
+  try {
+    const { data } = await api.get("/chat/get-recent-chat-session");
+    return data || [];
+  } catch (err) {
+    console.error("Failed to fetch recent chats", err);
+    return [];
+  }
+};
+
+export const getTotalChatSessions = async (): Promise<number> => {
+  const res = await api.get("/chat/get-total-chat-session");
+  return res.data || 0;
+};
 
 export const createChatSession = async (
   sessionName: string,
