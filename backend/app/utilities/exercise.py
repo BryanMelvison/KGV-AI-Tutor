@@ -123,12 +123,15 @@ class ExerciseService:
             session.close()
 
     @staticmethod
-    def save_exercise_attempt(questionId, completedQuestions, totalQuestions, user_id):
+    def save_exercise_attempt(subject, chapter, letter, completedQuestions, totalQuestions, user_id):
         session = get_session()
         try:
-            qna = session.query(QuestionAnswer).filter(QuestionAnswer.id == questionId).first()
-            exec_id = qna.exercise_id
-            lo_id = qna.learning_objective_id
+            exercise = session.query(Exercise).filter(
+                Exercise.subject_name == subject,
+                Exercise.exercise_letter == letter
+            ).first()
+            exec_id = exercise.id
+            lo_id = exercise.learning_objective_id
             
             attempt = StudentExerciseAttempt(
                 student_id=user_id,
@@ -242,5 +245,39 @@ class ExerciseService:
         except Exception as e:
             print("ERROR in get_random_quiz_questions:", str(e))
             raise HTTPException(status_code=500, detail=str(e))
+        finally:
+            session.close()
+
+    @staticmethod
+    def get_latest_exercise_attempt(user_id):
+        session = get_session()
+        try:
+            latest_attempt = (
+                session.query(StudentExerciseAttempt)
+                .filter(
+                    StudentExerciseAttempt.student_id == user_id,
+                    StudentExerciseAttempt.is_successful == False
+                )
+                .order_by(StudentExerciseAttempt.attempt_date.desc())
+                .first()
+            )
+            exercise = (
+                session.query(Exercise)
+                .filter(Exercise.id == latest_attempt.exercise_id)
+                .first()
+            )
+            chapter_name = (
+                session.query(Chapters)
+                .filter(Chapters.id == exercise.chapter_id)
+                .first().chapterName
+            )
+
+            return {
+                "subject": exercise.subject_name,
+                "chapter": chapter_name,
+                "letter": exercise.exercise_letter
+            }
+        except Exception as e:
+            raise e
         finally:
             session.close()

@@ -19,7 +19,10 @@ interface SubjectOverviewPageProps {
 const SubjectOverviewPage = ({ data }: SubjectOverviewPageProps) => {
   const searchParams = useSearchParams();
   const exerciseLetter = searchParams.get("exercise");
-  const { subject, chapter } = useParams();
+  const { subject, chapter } = useParams() as {
+    subject: string;
+    chapter: string;
+  };
 
   const [questions, setQuestions] = useState<
     { number: string; title: string; answer: string; id: number }[]
@@ -61,6 +64,9 @@ const SubjectOverviewPage = ({ data }: SubjectOverviewPageProps) => {
         <ExerciseChat
           title={`Exercise ${exerciseLetter}`}
           questions={questions}
+          subject_name={unslugify(subject)}
+          chapter_name={chapter}
+          letter={exerciseLetter}
         />
       </div>
     );

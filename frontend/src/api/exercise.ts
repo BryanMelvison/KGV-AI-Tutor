@@ -22,6 +22,12 @@ export interface ExerciseAIRequest {
   prompt: string;
 }
 
+export interface LatestExercise {
+  subject: string;
+  chapter: string;
+  letter: string;
+}
+
 export const fetchExerciseQuestions = async (
   subject: string,
   chapter: string,
@@ -62,14 +68,18 @@ export const getExerciseAIResponse = async (
 };
 
 export const saveExerciseAttempt = async (
-  questionId: number,
+  subject: string,
+  chapter: string,
+  letter: string,
   completedQuestions: number,
   totalQuestions: number
 ) => {
   try {
-    console.log(questionId, completedQuestions, totalQuestions);
+    console.log(subject, chapter, letter, completedQuestions, totalQuestions);
     const { data } = await api.post("/exercise/save-exercise-attempt", {
-      questionId,
+      subject,
+      chapter,
+      letter,
       completedQuestions,
       totalQuestions,
     });
@@ -105,5 +115,21 @@ export const fetchSmartQuizQuestions = async (
   } catch (error) {
     console.error("Error fetching smart quiz questions:", error);
     return [];
+  }
+};
+
+export const fetchLatestExercise = async (): Promise<LatestExercise> => {
+  try {
+    const { data } = await api.post("/exercise/latest-exercise-attempt");
+    console.log("Latest Exercise Data:", data);
+
+    return data;
+  } catch (error) {
+    console.error("Error fetching latest exercise:", error);
+    return {
+      subject: "",
+      chapter: "",
+      letter: "",
+    };
   }
 };
