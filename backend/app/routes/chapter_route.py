@@ -53,3 +53,12 @@ async def get_subject_number(
     user_id = auth_data.get("sub")
     chapter_service = ChapterService(db)
     return chapter_service.get_subject_number(user_id, subject)
+
+@router.post("/syllabus-completed-percentage")
+async def get_syllabus_completed_percentage(
+    auth_data: dict = Depends(jwt.verify_token),
+    db: Session = Depends(get_db),
+):
+    user_id = auth_data.get("sub")
+    chapter_service = ChapterService(db)
+    return chapter_service.get_syllabus_completed_percentage(user_id)

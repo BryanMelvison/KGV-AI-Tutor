@@ -19,9 +19,18 @@ interface Question {
 interface ExerciseChatProps {
   title: string;
   questions: Question[];
+  subject_name: string;
+  chapter_name: string;
+  letter: string;
 }
 
-const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
+const ExerciseChat = ({
+  title,
+  questions,
+  subject_name,
+  chapter_name,
+  letter,
+}: ExerciseChatProps) => {
   const router = useRouter();
   const params = useParams();
   const searchParams = useSearchParams();
@@ -116,7 +125,9 @@ const ExerciseChat = ({ title, questions }: ExerciseChatProps) => {
   const confirmQuit = () => {
     setShowConfirmQuit(false);
     saveExerciseAttempt(
-      questions[0].id,
+      subject_name,
+      chapter_name,
+      letter,
       completedQuestionCount,
       totalQuestionCount
     );

@@ -13,7 +13,9 @@ class ExerciseMessageRequest(BaseModel):
     prompt: str
     
 class ExerciseAttemptRequest(BaseModel):
-    questionId: int
+    subject: str
+    chapter: str
+    letter: str
     completedQuestions: int
     totalQuestions: int
 
@@ -56,7 +58,9 @@ def save_exercise_attempt(
     try:
         user_id = auth_data.get("sub")
         exercise_service.save_exercise_attempt(
-            request.questionId,
+            request.subject,
+            request.chapter,
+            request.letter,
             request.completedQuestions,
             request.totalQuestions,
             user_id
@@ -88,5 +92,28 @@ def get_random_quiz_questions(
         return exercise_service.get_random_quiz_questions(subject, user_id)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+    
+@router.post("/latest-exercise-attempt")
+def get_latest_exercise_attempt(
+    auth_data: dict = Depends(jwt.verify_token)
+):
+    try:
+        user_id = auth_data.get("sub")
+        exercise_service = ExerciseService()
+        return exercise_service.get_latest_exercise_attempt(user_id)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    
+@router.post("/exercise-done")
+def get_exercise_done(
+    auth_data: dict = Depends(jwt.verify_token)
+):
+    try:
+        user_id = auth_data.get("sub")
+        exercise_service = ExerciseService()
+        return exercise_service.get_exercise_done(user_id)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 
 

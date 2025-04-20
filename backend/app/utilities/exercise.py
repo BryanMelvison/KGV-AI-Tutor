@@ -5,6 +5,7 @@ from tqdm.auto import tqdm
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama.llms import OllamaLLM
 from pathlib import Path
+from app.config import Settings
 from .prompt import QUESTION_GEN_PROMPT, QUESTION_CHECK_PROMPT, EXERCISE_EVAL_PROMPT
 from app.database import get_session
 from app.models import Chapters, Exercise, StudentExerciseAttempt, QuestionAnswer, StudentLearningObjectiveMastery, Subjects, Users, studentSubjects
@@ -16,8 +17,8 @@ class ExerciseService:
     def setup_llm_chain(self, prompt_template):
         prompt = ChatPromptTemplate.from_template(prompt_template)
         return prompt | OllamaLLM(
-            model="llama3.2",
-            base_url="http://localhost:11434",
+            model=Settings().MODEL_NAME,
+            base_url=Settings().MODEL_URL,
             format="json"
         )
 
@@ -122,12 +123,17 @@ class ExerciseService:
             session.close()
 
     @staticmethod
-    def save_exercise_attempt(questionId, completedQuestions, totalQuestions, user_id):
+    def save_exercise_attempt(subject, chapter, letter, completedQuestions, totalQuestions, user_id):
         session = get_session()
         try:
-            qna = session.query(QuestionAnswer).filter(QuestionAnswer.id == questionId).first()
-            exec_id = qna.exercise_id
-            lo_id = qna.learning_objective_id
+            chapter_id = session.query(Chapters).filter(Chapters.chapterName == chapter).first().id
+            exercise = session.query(Exercise).filter(
+                Exercise.subject_name == subject,
+                Exercise.exercise_letter == letter,
+                Exercise.chapter_id == chapter_id
+            ).first()
+            exec_id = exercise.id
+            lo_id = exercise.learning_objective_id
             
             attempt = StudentExerciseAttempt(
                 student_id=user_id,
@@ -241,5 +247,60 @@ class ExerciseService:
         except Exception as e:
             print("ERROR in get_random_quiz_questions:", str(e))
             raise HTTPException(status_code=500, detail=str(e))
+        finally:
+            session.close()
+
+    @staticmethod
+    def get_latest_exercise_attempt(user_id):
+        session = get_session()
+        try:
+            latest_attempt = (
+                session.query(StudentExerciseAttempt)
+                .filter(
+                    StudentExerciseAttempt.student_id == user_id,
+                    StudentExerciseAttempt.is_successful == False
+                )
+                .order_by(StudentExerciseAttempt.attempt_date.desc())
+                .first()
+            )
+            exercise = (
+                session.query(Exercise)
+                .filter(Exercise.id == latest_attempt.exercise_id)
+                .first()
+            )
+            chapter_name = (
+                session.query(Chapters)
+                .filter(Chapters.id == exercise.chapter_id)
+                .first().chapterName
+            )
+
+            return {
+                "subject": exercise.subject_name,
+                "chapter": chapter_name,
+                "letter": exercise.exercise_letter
+            }
+        except Exception as e:
+            raise e
+        finally:
+            session.close()
+
+    @staticmethod
+    def get_exercise_done(user_id):
+        session = get_session()
+        try:
+            completed_exercises = (
+                session.query(StudentExerciseAttempt)
+                .filter(
+                    StudentExerciseAttempt.student_id == user_id,
+                    StudentExerciseAttempt.is_successful == True
+                )
+                .all()
+            )
+
+            completed_exercise_ids = len(set(exercise.exercise_id for exercise in completed_exercises))
+
+            return completed_exercise_ids
+        except Exception as e:
+            raise e
         finally:
             session.close()

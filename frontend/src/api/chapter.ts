@@ -165,3 +165,13 @@ export const getExercises = async (
     return [];
   }
 };
+
+export const getSyllabusCompletedPercentage = async (): Promise<number> => {
+  try {
+    const { data } = await api.post("/chapter/syllabus-completed-percentage");
+    return data;
+  } catch (error) {
+    console.error("Error fetching syllabus completed percentage:", error);
+    return 0;
+  }
+};

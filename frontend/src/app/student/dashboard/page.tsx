@@ -3,9 +3,9 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import { fetchLatestExercise } from "@/api/exercise";
+import { fetchLatestExercise, getExerciseDone } from "@/api/exercise";
 import { getSubjectsData, Subject } from "@/api/mockSubject";
-import { getChapter } from "@/api/chapter";
+import { getChapter, getSyllabusCompletedPercentage } from "@/api/chapter";
 import { useQuiz } from "@/context/SmartQuizContext";
 import SmartQuizModal from "@/components/smart-quiz/SmartQuizModal";
 import { unslugify } from "@/helpers/slugify";
@@ -22,14 +22,17 @@ import {
 const Dashboard = () => {
   const [latestExercise, setLatestExercise] = useState<{
     subject: string;
-    name: string;
-    id: string;
-  } | null>(null);
+    chapter: string;
+    letter: string;
+  }>();
 
   const [subjects, setSubjects] = useState<Subject[]>([]);
   const [entryChapters, setEntryChapters] = useState<Record<string, string>>(
     {}
   );
+  const [syllabusCompletedPercentage, setSyllabusCompletedPercentage] =
+    useState<number>(0);
+  const [exerciseDone, setExerciseDone] = useState<number>(0);
   const [loading, setLoading] = useState(true);
   const [totalChats, setTotalChats] = useState<number>(0);
   const [recentChats, setRecentChats] = useState<RecentChatSession[]>([]);
@@ -68,6 +71,18 @@ const Dashboard = () => {
 
       setLoading(false);
     };
+
+    const fetchData = async () => {
+      const data = await fetchLatestExercise();
+      setLatestExercise(data);
+
+      const res = await getSyllabusCompletedPercentage();
+      setSyllabusCompletedPercentage(res);
+
+      const res1 = await getExerciseDone();
+      setExerciseDone(res1);
+    };
+    fetchData();
 
     loadDashboardData();
   }, []);
@@ -141,13 +156,13 @@ const Dashboard = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           <StatsCard
             title="Syllabus Completed"
-            value="56%"
+            value={`${syllabusCompletedPercentage}%`}
             icon={<FaBookOpen className="text-blue-600" />}
             color="#DBEAFE"
           />
           <StatsCard
             title="Exercises Done"
-            value="134"
+            value={String(exerciseDone)}
             icon={<FaCheckCircle className="text-green-600" />}
             color="#DCFCE7"
           />
@@ -172,7 +187,12 @@ const Dashboard = () => {
           <div
             className="bg-white p-5 rounded-xl shadow-md flex flex-col items-start space-y-4 cursor-pointer hover:bg-gray-100 hover:shadow-lg active:bg-gray-200 active:shadow-inner"
             onClick={() =>
-              latestExercise && router.push(`/exercises/${latestExercise.id}`)
+              latestExercise &&
+              router.push(
+                `/student/subjects/${latestExercise.subject.toLowerCase()}/${
+                  latestExercise.chapter
+                }?exercise=${latestExercise.letter}`
+              )
             }
           >
             <Image
@@ -188,7 +208,9 @@ const Dashboard = () => {
                 <p className="text-gray-500 text-sm">
                   Pick up where you left off:{" "}
                   <span className="font-semibold text-[#5DA2D5]">
-                    {latestExercise.subject} - {latestExercise.name}
+                    {latestExercise.subject} -{" "}
+                    {unslugify(latestExercise.chapter)} - Exercise{" "}
+                    {latestExercise.letter}
                   </span>
                 </p>
               ) : (
