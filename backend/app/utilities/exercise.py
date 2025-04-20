@@ -126,9 +126,11 @@ class ExerciseService:
     def save_exercise_attempt(subject, chapter, letter, completedQuestions, totalQuestions, user_id):
         session = get_session()
         try:
+            chapter_id = session.query(Chapters).filter(Chapters.chapterName == chapter).first().id
             exercise = session.query(Exercise).filter(
                 Exercise.subject_name == subject,
-                Exercise.exercise_letter == letter
+                Exercise.exercise_letter == letter,
+                Exercise.chapter_id == chapter_id
             ).first()
             exec_id = exercise.id
             lo_id = exercise.learning_objective_id
