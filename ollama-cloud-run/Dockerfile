@@ -8,7 +8,7 @@ ENV OLLAMA_DEBUG false
 
 ENV OLLAMA_KEEP_ALIVE -1
 
-ENV MODEL llama3.1:8b
+ENV MODEL gemma3:12b
 
 RUN ollama serve & sleep 5 && ollama pull $MODEL
 
