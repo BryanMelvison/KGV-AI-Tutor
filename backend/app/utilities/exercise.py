@@ -5,6 +5,7 @@ from tqdm.auto import tqdm
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama.llms import OllamaLLM
 from pathlib import Path
+from app.config import Settings
 from .prompt import QUESTION_GEN_PROMPT, QUESTION_CHECK_PROMPT, EXERCISE_EVAL_PROMPT
 from app.database import get_session
 from app.models import Chapters, Exercise, StudentExerciseAttempt, QuestionAnswer, StudentLearningObjectiveMastery, Subjects, Users, studentSubjects
@@ -16,8 +17,8 @@ class ExerciseService:
     def setup_llm_chain(self, prompt_template):
         prompt = ChatPromptTemplate.from_template(prompt_template)
         return prompt | OllamaLLM(
-            model="llama3.2",
-            base_url="http://localhost:11434",
+            model=Settings().MODEL_NAME,
+            base_url=Settings().MODEL_URL,
             format="json"
         )
 
