@@ -82,8 +82,9 @@ def get_chat_history(
     db: Session = Depends(get_db)
 ):
     try:        
+        user_id = auth_data.get("sub")
         # Create a temporary chat service to load messages
-        chat_service = ChatService(db)
+        chat_service = ChatService(user_id, db)
         messages = chat_service.load_messages_from_db(session_id)
         
         # Format messages for API response
