@@ -9,7 +9,7 @@ from app.utilities.rag import textbookRAG
 from langchain_core.output_parsers import StrOutputParser
 from app.config import Settings
 from sqlalchemy.orm import Session
-from app.models import ChatSessions, chatMessage, senderType
+from app.models import ChatSessions, chatMessage, senderType, PersonalityUser
 import datetime
 import uuid
 
@@ -17,19 +17,25 @@ import uuid
 GLOBAL_MEMORY_STORE = {}
 
 class ChatService:
-    def __init__(self, db: Session = None):
+    def __init__(self, user_id: int, db: Session = None, subject: str = None, chapter: str = None):
         self.db = db
         self.llm = OllamaLLM(
             model=Settings().MODEL_NAME,
             base_url=Settings().MODEL_URL,
             temperature=0.7, 
         )
+        self.user_id = user_id
+        
+        self.subject = subject
+        self.chapter = chapter
+        # Fetch the student's personality from the database
+        self.personality = self.get_student_personality(user_id)
+
         self.chatPrompt = ChatPromptTemplate.from_messages([
-            ("system", f"{chatBotPrompt}\n\nIMPORTANT: You MUST use the conversation history to maintain context and remember details the student has shared. If the student mentions their name or asks about previous topics, refer to the conversation history to provide accurate responses.\n\nRelevant textbook information: {{context}}"),
+            ("system", f"{chatBotPrompt}\n\nIMPORTANT: You MUST use the conversation history to maintain context and remember details the student has shared. If the student mentions their name or asks about previous topics, refer to the conversation history to provide accurate responses.\n\nRelevant textbook information: {{context}}\n\nStudent Personality: {self.personality}\n\nCurrent Subject: {self.subject}\n\nCurrent Chapter: {self.chapter}\n\nTo enhance learning, tailor your responses according to the student's preferred learning style based on their personality. If applicable, connect concepts to their interests to make the learning experience more engaging. Remember, don't stray away from the topic, and always provide accurate information. If you don't know the answer, say 'I don't know' instead of making up an answer."),
             MessagesPlaceholder(variable_name="history"),
             ("human", "{question}"),
         ])
-        
         self.chain = self.chatPrompt | self.llm
         self.rag = textbookRAG()
         self.verifierPrompt = verifierPrompt
@@ -37,6 +43,14 @@ class ChatService:
         # Use the global store instead of instance-specific store
         global GLOBAL_MEMORY_STORE
         self.store = GLOBAL_MEMORY_STORE
+    
+    def get_student_personality(self, user_id: int) -> str:
+        # Query the database to get the student's personality
+        personality_user = self.db.query(PersonalityUser).filter_by(userId=user_id).first()
+        if personality_user:
+            return personality_user.personalityType  
+        return "Unknown"  # Default value if personality is not found
+
 
     def check_if_need_rag(self, user_input: str, subject: str, chapter_title: str) -> bool:
         try:
@@ -149,7 +163,7 @@ class ChatService:
             # Return an empty memory if there's an error
             return InMemoryChatMessageHistory()
 
-    def process_message(self, user_input: str, session_id: str, subject: str = None, chapter: str = None) -> dict:
+    def process_message(self, user_input: str, session_id: str) -> dict:
         try:                        
             # Always initialize/refresh memory from database first
             self.initialize_memory_from_db(session_id)
@@ -159,8 +173,8 @@ class ChatService:
             
             # If subject and chapter are provided, check if RAG is needed
             rag_result = None
-            if subject and chapter:
-                rag_result = self.search_textbook(user_input, subject, chapter)
+            if self.subject and self.chapter:
+                rag_result = self.search_textbook(user_input, self.subject, self.chapter)
 
             # Modify the chain input to include RAG results if available
             chain_input = {

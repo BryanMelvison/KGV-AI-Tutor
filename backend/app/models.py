@@ -1,16 +1,14 @@
-from sqlalchemy import Column, Integer, String, ForeignKey, DateTime, Text, ARRAY, Table, PrimaryKeyConstraint, Boolean, func, UniqueConstraint
+from sqlalchemy import Column, Integer, String, ForeignKey, DateTime, Text, ARRAY, Boolean, func, UniqueConstraint
 from sqlalchemy.dialects.postgresql import JSONB
 from sqlalchemy.orm import relationship
 from datetime import datetime
 from app.database import Base
 from typing import List
 from typing import Optional
-from sqlalchemy import ForeignKey, Integer, DateTime, String, Uuid, create_engine, types, Enum, text
-from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship, sessionmaker
+from sqlalchemy import ForeignKey, Integer, DateTime, String, Uuid, Enum, Boolean, ARRAY
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 import uuid
 from enum import Enum as PyEnum  
-
-# ini for exercise, dont change!
 class Syllabus(Base):
     __tablename__ = 'syllabus'
 
@@ -136,6 +134,13 @@ class Users(Base):
     # This is a one-to-many relationship between users and chatSessions
     chat_sessions: Mapped[List["ChatSessions"]] = relationship(back_populates="user")
 
+    # This is a one-to-one relationship between users and firstTimeLogin
+    first_time_login: Mapped["FirstTimeLogin"] = relationship(back_populates="user", uselist=False)
+
+    # This is a one-to-one relationship between users and personalityUser
+    personality_user: Mapped["PersonalityUser"] = relationship(back_populates="user", uselist=False)
+
+
     attempts = relationship("StudentExerciseAttempt", back_populates="student")
     mastery_statuses = relationship("StudentLearningObjectiveMastery", back_populates="student")
 
@@ -231,7 +236,30 @@ class chatMessage(Base):
     # to determine if the sender is a teacher or student
     senderType: Mapped["senderType"] = mapped_column(Enum(senderType), nullable=False)
 
-    message: Mapped[str] = mapped_column(String(1000), nullable=False)
+    message: Mapped[str] = mapped_column(String(5000), nullable=False)
     timestamp: Mapped[DateTime] = mapped_column(DateTime, nullable=False)
     # This is a many-to-one relationship between chatMessages and chatSessions
     chatSession: Mapped["ChatSessions"] = relationship(back_populates="messages")
+
+
+
+class FirstTimeLogin(Base):
+    __tablename__ = 'firsttimelogin'
+
+    userId: Mapped[int] = mapped_column(ForeignKey("users.id"), primary_key=True)
+    firstTimeLogin: Mapped[bool] = mapped_column(Boolean, nullable=False)
+
+    # This is a one-to-one relationship between users and firstTimeLogin
+    user: Mapped["Users"] = relationship(back_populates="first_time_login")
+
+
+class PersonalityUser(Base):
+    __tablename__ = 'personalityUser'
+
+    userId: Mapped[int] = mapped_column(ForeignKey("users.id"), primary_key=True)
+    # Personality type is a list of strings, so we can use a list representation
+    personalityType: Mapped[List[str]] = mapped_column(String(1000), nullable=False)
+
+
+    # This is a one-to-one relationship between users and personalityUser
+    user: Mapped["Users"] = relationship(back_populates="personality_user")

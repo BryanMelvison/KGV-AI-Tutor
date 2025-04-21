@@ -7,7 +7,6 @@ from app.database import get_db
 from sqlalchemy.orm import Session
 from langchain_core.messages import HumanMessage
 import datetime
-import logging
 
 router = APIRouter()
 jwt = JWTService()
@@ -15,8 +14,8 @@ jwt = JWTService()
 class MessageRequest(BaseModel):
     prompt: str 
     session_id: str
-    subject: Optional[str] = None
-    chapter: Optional[str] = None
+    subject: str
+    chapter: str
 
 class EndSessionRequest(BaseModel):
     session_id: str
@@ -38,14 +37,14 @@ def process_message(
 ):
     try:        
         # Create chat service with database session
-        chat_service = ChatService(db)
+        user_id = auth_data.get("sub")
+
+        chat_service = ChatService(user_id, db, subject=request.subject, chapter=request.chapter)
         
         # Process the message
         response = chat_service.process_message(
             user_input=request.prompt,  # Use prompt as user_input
             session_id=request.session_id,
-            subject=request.subject,
-            chapter=request.chapter
         )
                         
         return {
@@ -66,7 +65,8 @@ def clear_session(
     db: Session = Depends(get_db)
 ):
     try:
-        chat_service = ChatService(db)
+        user_id = auth_data.get("sub")
+        chat_service = ChatService(user_id, db)
         deleted_count = chat_service.clear_memory(request.session_id)
         return {
             "status": "success", 

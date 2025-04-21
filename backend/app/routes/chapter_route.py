@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Query, Depends, Request, HTTPException
+from fastapi import APIRouter, Query, Depends, Request
 from sqlalchemy.orm import Session
 from app.utilities.business_logic.chapter_retrieval import ChapterService
 from app.utilities.business_logic.jwt_service import JWTService
