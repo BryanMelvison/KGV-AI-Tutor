@@ -28,9 +28,6 @@ class PersonalityService:
             if first_time_login_record:
                 # Check the current value of firstTimeLogin
                 if first_time_login_record.firstTimeLogin:  # Check the actual value (is it True or False)
-                    # If firstTimeLogin is True, then change it to False
-                    self.db.query(FirstTimeLogin).filter_by(userId=user_id).update({"firstTimeLogin": False}) 
-                    self.db.commit() 
                     return {"first_login": True}
 
             # If first_login is False, or record does not exist
@@ -59,8 +56,10 @@ class PersonalityService:
 
             # Add the new instance to the session
             self.db.add(personality_user)
-            self.db.commit()  
-
+            
+            # Update the firstTimeLogin field in FirstTimeLogin table
+            self.db.query(FirstTimeLogin).filter_by(userId=user_id).update({"firstTimeLogin": False}) 
+            self.db.commit() 
             return {"message": "Personality data updated successfully"}
 
         except Exception as e:
