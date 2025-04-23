@@ -107,7 +107,7 @@ const AssistantChatSummaries = () => {
                 {formatTimestamp(chat.timestamp)}
               </span>
             </div>
-            <p className="text-sm text-[#747479]">
+            <p className="text-sm text-[#747479] line-clamp-1">
               {chat.message || "No summary yet"}
             </p>
           </Link>

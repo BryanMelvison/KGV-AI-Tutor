@@ -17,7 +17,9 @@ import {
   getTotalChatSessions,
   getRecentChatSessions,
   RecentChatSession,
+  checkFirstLogin,
 } from "@/api/chat";
+import PersonalityModal from "@/components/chat/PersonalityModal";
 
 const Dashboard = () => {
   const [latestExercise, setLatestExercise] = useState<{
@@ -38,6 +40,7 @@ const Dashboard = () => {
   const [recentChats, setRecentChats] = useState<RecentChatSession[]>([]);
 
   const { isOpen, openQuiz, closeQuiz } = useQuiz();
+  const [showModal, setShowModal] = useState(false);
   const router = useRouter();
   const { user } = useUser();
 
@@ -82,9 +85,15 @@ const Dashboard = () => {
       const res1 = await getExerciseDone();
       setExerciseDone(res1);
     };
-    fetchData();
 
+    const checkLoginAndFetch = async () => {
+      const isFirstLogin = await checkFirstLogin();
+      if (isFirstLogin) setShowModal(true);
+    };
+
+    fetchData();
     loadDashboardData();
+    checkLoginAndFetch();
   }, []);
 
   const formatReadableTimestamp = (timestamp: string): string => {
@@ -152,7 +161,6 @@ const Dashboard = () => {
           </h1>
           <p className="text-[#747479]">Ready to learn something new today?</p>
         </div>
-
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           <StatsCard
             title="Syllabus Completed"
@@ -180,7 +188,6 @@ const Dashboard = () => {
             color="#FEF9C3"
           />
         </div>
-
         {/* Top Cards Section */}
         <div className="grid grid-cols-2 gap-4 mt-5">
           {/* Exercises Card */}
@@ -241,7 +248,6 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
-
         {/* Main Content Grid */}
         <div className="grid grid-cols-2 gap-6 mt-6">
           {/* Recent Chats */}
@@ -325,7 +331,10 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
-
+        <PersonalityModal
+          isOpen={showModal}
+          onClose={() => setShowModal(false)}
+        />
         {/* Smart Quiz Modal */}
         <SmartQuizModal isOpen={isOpen} onClose={closeQuiz} />
       </div>

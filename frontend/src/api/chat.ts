@@ -2,6 +2,12 @@ import api from "@/helpers/axios";
 import axios from "axios";
 import { getChapterNumber, getSubjectNumber } from "./chapter";
 
+interface PersonalityPayload {
+  learningStyle: string;
+  interest: string;
+  personalityType: string;
+}
+
 interface ChatResponse {
   status: string;
   data: {
@@ -35,6 +41,35 @@ export const getRecentChatSessions = async (): Promise<RecentChatSession[]> => {
   } catch (err) {
     console.error("Failed to fetch recent chats", err);
     return [];
+  }
+};
+
+export const pushStudentPersonality = async (
+  personality: PersonalityPayload
+) => {
+  try {
+    const res = await api.post("/personality/push-student-personality", {
+      personality: {
+        "Learning Style": personality.learningStyle,
+        Interest: personality.interest,
+        Personality: personality.personalityType,
+      },
+    });
+
+    return res.data;
+  } catch (err) {
+    console.error("Error pushing personality:", err);
+    throw err;
+  }
+};
+
+export const checkFirstLogin = async (): Promise<boolean> => {
+  try {
+    const res = await api.get("/personality/first-login");
+    return res.data.first_login;
+  } catch (err) {
+    console.error("Error checking first login:", err);
+    return false;
   }
 };
 
