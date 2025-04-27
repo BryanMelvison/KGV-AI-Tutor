@@ -1,107 +1,32 @@
+from http.client import HTTPException
 from langchain_community.document_loaders.directory import DirectoryLoader
 from langchain_text_splitters.character import RecursiveCharacterTextSplitter
 from tqdm.auto import tqdm
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama.llms import OllamaLLM
 from pathlib import Path
+from app.config import Settings
 from .prompt import QUESTION_GEN_PROMPT, QUESTION_CHECK_PROMPT, EXERCISE_EVAL_PROMPT
 from app.database import get_session
-from app.models import Exercise, StudentExerciseAttempt, QuestionAnswer
+from app.models import Chapters, Exercise, StudentExerciseAttempt, QuestionAnswer, StudentLearningObjectiveMastery, Subjects, Users, studentSubjects
 import random
 import pandas as pd
 import json
 
 class ExerciseService:
-    def __init__(self):
-        self.llm = OllamaLLM(
-            model="llama3.2",
-            base_url="http://localhost:11434"
-        )
-
-        self.dataset = []
-        self.question = ""
-        self.answer = ""
-
     def setup_llm_chain(self, prompt_template):
         prompt = ChatPromptTemplate.from_template(prompt_template)
-        return prompt | self.llm
+        return prompt | OllamaLLM(
+            model=Settings().MODEL_NAME,
+            base_url=Settings().MODEL_URL,
+            format="json"
+        )
 
-    def create_question(self):
-        try:
-            current_dir = Path(__file__).parent
-            book_dir = current_dir / "book"
-
-            loader = DirectoryLoader(str(book_dir), glob="chapter_[1].txt")
-            docs = loader.load()
-            print("INI DOCS: ", docs)
-
-            text_splitter = RecursiveCharacterTextSplitter(
-                chunk_size=2000,
-                chunk_overlap=400,
-                add_start_index=True,
-                separators=["\n\n", "\n", ".", " ", ""],
-            )
-            docs_processed = []
-            for doc in docs:
-                docs_processed.extend(text_splitter.split_documents([doc]))
-            print("INI CHUNKSNYA: \n", docs_processed)
-            print("INI JUMLAH CHUNKSNYA: \n", len(docs_processed))
-            
-            chain = self.setup_llm_chain(QUESTION_GEN_PROMPT)
-
-            for doc in tqdm(random.sample(docs_processed, 1)): # ini cuma ngambil 1 random qna pairs, nanti diganti jadi gausa random
-                output_QA = chain.invoke({"context": doc.page_content})
-                try:
-                    question = output_QA.split("Question: ")[-1].split("Answer: ")[0]
-                    answer = output_QA.split("Answer: ")[-1]
-                    # assert len(answer) < 500, "Answer is too long"
-                    self.dataset.append(
-                        {
-                            "context": doc.page_content,
-                            "question": question,
-                            "answer": answer,
-                            "source_doc": doc.metadata["source"],
-                        }
-                    )
-                except Exception as e:print(e)
-
-            print("INI TABLE AWAL:\n\n", pd.DataFrame(self.dataset))
-        except Exception as e:
-            print(f"Error: {str(e)}")
-
-    def check_question(self):
-        try:
-            chain = self.setup_llm_chain(QUESTION_CHECK_PROMPT)
-            for output in tqdm(self.dataset):
-                try:
-                    evaluation = chain.invoke({
-                        "context": output["context"],
-                        "question": output["question"],
-                        "answer": output["answer"],}
-                    )
-                    score, eval = (
-                        int(evaluation.split("Total rating: ")[-1].strip()),
-                        evaluation.split("Total rating: ")[-2].split("Evaluation: ")[1],
-                    )
-                    output.update(
-                        {
-                            "score": score,
-                            "eval": eval
-                        }
-                    )
-                except Exception as e:
-                    print(e)
-            self.dataset = [d for d in self.dataset if d["score"] >= 2] # nanti diganti jadi tergantung mau brapa kkmnya
-            print("INI TABLE SETELAH DI CHECK:\n\n", pd.DataFrame(self.dataset))
-
-        except Exception as e:
-            print(f"Error: {str(e)}")
-
-    def process_message(self, user_input: str) -> dict:     
+    def process_message(self, question:str, answer: str, user_input: str) -> dict:     
         chain = self.setup_llm_chain(EXERCISE_EVAL_PROMPT)
         evaluation = chain.invoke({
-            "question": self.question,
-            "correct_answer": self.answer,
+            "question": question,
+            "correct_answer": answer,
             "user_answer": user_input
         })
         try:
@@ -127,17 +52,6 @@ class ExerciseService:
         
         except json.JSONDecodeError as e:
             print(f"Error parsing evaluation: {e}")
-
-    def initialize_exercise(self):
-        self.create_question()
-        # self.check_question() // nanti jgn lupa di uncomment
-        print("check ini dataset: \n", self.dataset)
-        self.question = self.dataset[0]["question"]
-        self.answer = self.dataset[0]["answer"]
-        print("\n ini questionnya: \n", self.question)
-        print("\n ini answernya: \n", self.answer)
-
-        return {"question": self.question, "answer": self.answer}
     
     @staticmethod
     def get_exercises(studentId, subject, chapter):
@@ -185,17 +99,20 @@ class ExerciseService:
                 .first()
             )
 
-            # use exercise_id 77's questions as dummy data for all exercises
+            # use exercise_id 1's questions as dummy data for all exercises
             qna = (
                 session.query(QuestionAnswer)
-                .filter(QuestionAnswer.exercise_id == 77)  # later change 77 to exercise.id
+                .filter(QuestionAnswer.exercise_id == 1)  # later change 1 to exercise.id
                 .all()
             )
 
             response = [
                 {
                     "number": str(i + 1),
-                    "title": qna[i].question_text
+                    "title": qna[i].question_text,
+                    "answer": qna[i].answer_text,
+                    "id": qna[i].id,
+
                 } for i in range(len(qna))
             ]
 
@@ -204,4 +121,186 @@ class ExerciseService:
             raise e
         finally:
             session.close()
-        
+
+    @staticmethod
+    def save_exercise_attempt(subject, chapter, letter, completedQuestions, totalQuestions, user_id):
+        session = get_session()
+        try:
+            chapter_id = session.query(Chapters).filter(Chapters.chapterName == chapter).first().id
+            exercise = session.query(Exercise).filter(
+                Exercise.subject_name == subject,
+                Exercise.exercise_letter == letter,
+                Exercise.chapter_id == chapter_id
+            ).first()
+            exec_id = exercise.id
+            lo_id = exercise.learning_objective_id
+            
+            attempt = StudentExerciseAttempt(
+                student_id=user_id,
+                exercise_id=exec_id,
+                correct_question=completedQuestions,
+                attempt_date=pd.Timestamp.now(),
+                is_successful=(completedQuestions == totalQuestions)
+            )
+            session.add(attempt)
+
+            if completedQuestions == totalQuestions:
+                mastery = StudentLearningObjectiveMastery(
+                    id=user_id,
+                    learning_objective_id=lo_id,
+                    is_mastered=True
+                )
+                session.add(mastery)
+                
+            session.commit()
+            return "success"
+        except Exception as e:
+            session.rollback()
+            raise e
+        finally:
+            session.close()
+
+    @staticmethod
+    def get_mcq_options(qna_id):
+        session = get_session()
+        try:
+            qna = session.query(QuestionAnswer).filter(QuestionAnswer.id == qna_id).first()            
+            return qna.mcq_answer
+        except Exception as e:
+            raise e
+        finally:
+            session.close()
+
+    @staticmethod
+    def get_random_quiz_questions(subject: str, user_id: int, total: int = 5):
+        session = get_session()
+        try:
+            subject_obj = (
+                session.query(Subjects)
+                .filter(Subjects.subjectName.ilike(subject))
+                .first()
+            )
+
+            if not subject_obj:
+                raise HTTPException(status_code=404, detail=f"Subject '{subject}' not found")
+
+            subject_id = subject_obj.id
+
+            is_enrolled = (
+                session.query(studentSubjects)
+                .filter(
+                    studentSubjects.studentId == user_id,
+                    studentSubjects.subjectId == subject_id
+                )
+                .first()
+            )
+
+            if not is_enrolled:
+                raise HTTPException(status_code=403, detail="Student is not enrolled in this subject")
+
+            chapter_ids = (
+                session.query(Chapters.id)
+                .filter(Chapters.subjectId == subject_id)
+                .all()
+            )
+            chapter_ids = [cid[0] for cid in chapter_ids]
+            print("Chapter IDs:", chapter_ids)
+
+            all_questions = []
+
+            for chapter_id in chapter_ids:
+                exercises = (
+                    session.query(Exercise)
+                    .filter(Exercise.chapter_id == chapter_id)
+                    .all()
+                )
+
+                for exercise in exercises:
+                    letter = exercise.exercise_letter
+
+                    questions = (
+                        session.query(QuestionAnswer)
+                        .filter(QuestionAnswer.exercise_id == exercise.id)
+                        .all()
+                    )
+
+                    for q in questions:
+                        options_data = q.mcq_answer
+                        print(f"Question ID: {q.id}, Options: {options_data}")
+
+                        formatted = {
+                            "id": q.id,
+                            "title": q.question_text,
+                            "description": "",
+                            "options": [
+                                {"letter": chr(65 + i), "title": opt}
+                                for i, opt in enumerate(options_data["options"])
+                            ]
+                        }
+
+                        all_questions.append(formatted)
+
+            random.shuffle(all_questions)
+            print("Returning", min(total, len(all_questions)), "questions")
+            return all_questions[:total]
+
+        except Exception as e:
+            print("ERROR in get_random_quiz_questions:", str(e))
+            raise HTTPException(status_code=500, detail=str(e))
+        finally:
+            session.close()
+
+    @staticmethod
+    def get_latest_exercise_attempt(user_id):
+        session = get_session()
+        try:
+            latest_attempt = (
+                session.query(StudentExerciseAttempt)
+                .filter(
+                    StudentExerciseAttempt.student_id == user_id,
+                    StudentExerciseAttempt.is_successful == False
+                )
+                .order_by(StudentExerciseAttempt.attempt_date.desc())
+                .first()
+            )
+            exercise = (
+                session.query(Exercise)
+                .filter(Exercise.id == latest_attempt.exercise_id)
+                .first()
+            )
+            chapter_name = (
+                session.query(Chapters)
+                .filter(Chapters.id == exercise.chapter_id)
+                .first().chapterName
+            )
+
+            return {
+                "subject": exercise.subject_name,
+                "chapter": chapter_name,
+                "letter": exercise.exercise_letter
+            }
+        except Exception as e:
+            raise e
+        finally:
+            session.close()
+
+    @staticmethod
+    def get_exercise_done(user_id):
+        session = get_session()
+        try:
+            completed_exercises = (
+                session.query(StudentExerciseAttempt)
+                .filter(
+                    StudentExerciseAttempt.student_id == user_id,
+                    StudentExerciseAttempt.is_successful == True
+                )
+                .all()
+            )
+
+            completed_exercise_ids = len(set(exercise.exercise_id for exercise in completed_exercises))
+
+            return completed_exercise_ids
+        except Exception as e:
+            raise e
+        finally:
+            session.close()

@@ -7,7 +7,7 @@ import ExerciseGrid from "./ExerciseGrid";
 import ProgressBar from "./ProgressBar";
 import AssistantChatSummaries from "./AssistantChatSummaries";
 import ExerciseChat from "../chat/ExerciseChat";
-import { fetchExerciseQuestions } from "@/api/exerciseApi";
+import { fetchExerciseQuestions } from "@/api/exercise";
 import { ChapterData } from "@/api/chapter";
 import { unslugify } from "@/helpers/slugify";
 import UnlockBox from "./UnlockBox";
@@ -19,10 +19,13 @@ interface SubjectOverviewPageProps {
 const SubjectOverviewPage = ({ data }: SubjectOverviewPageProps) => {
   const searchParams = useSearchParams();
   const exerciseLetter = searchParams.get("exercise");
-  const { subject, chapter } = useParams();
+  const { subject, chapter } = useParams() as {
+    subject: string;
+    chapter: string;
+  };
 
   const [questions, setQuestions] = useState<
-    { number: string; title: string }[]
+    { number: string; title: string; answer: string; id: number }[]
   >([]);
   const [loading, setLoading] = useState(false);
 
@@ -61,6 +64,9 @@ const SubjectOverviewPage = ({ data }: SubjectOverviewPageProps) => {
         <ExerciseChat
           title={`Exercise ${exerciseLetter}`}
           questions={questions}
+          subject_name={unslugify(subject)}
+          chapter_name={chapter}
+          letter={exerciseLetter}
         />
       </div>
     );

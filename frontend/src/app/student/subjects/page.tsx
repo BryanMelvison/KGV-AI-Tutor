@@ -58,7 +58,7 @@ const SubjectsPage = () => {
               icon={subject.icon}
               color={subject.color}
               progress={subject.progress}
-              entryChapter={entryChapters[subject.name] || "Loading..."}
+              entryChapter={entryChapters[subject.name]}
             />
           ))}
         </div>

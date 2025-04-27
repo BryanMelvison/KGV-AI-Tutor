@@ -63,9 +63,7 @@ const DocumentUploader = ({
       <p className="mt-2 text-sm text-gray-500">
         Drag and drop your document here, or click to select
       </p>
-      <p className="mt-1 text-xs text-gray-400">
-        Supports PDF, DOC, DOCX, and TXT files
-      </p>
+      <p className="mt-1 text-xs text-gray-400">Supports PDF files</p>
     </div>
   );
 };

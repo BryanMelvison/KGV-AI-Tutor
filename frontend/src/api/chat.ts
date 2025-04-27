@@ -1,6 +1,12 @@
+import api from "@/helpers/axios";
 import axios from "axios";
+import { getChapterNumber, getSubjectNumber } from "./chapter";
 
-const API_BASE_URL = "http://localhost:8000/api";
+interface PersonalityPayload {
+  learningStyle: string;
+  interest: string;
+  personalityType: string;
+}
 
 interface ChatResponse {
   status: string;
@@ -12,6 +18,106 @@ interface ChatResponse {
   };
 }
 
+export interface ChatSession {
+  sessionId: string;
+  sessionName: string;
+  timestamp: string;
+  message: string | null;
+}
+
+export interface RecentChatSession {
+  sessionId: string;
+  sessionName: string;
+  timestamp: string;
+  message: string | null;
+  subjectName: string;
+  chapterName: string;
+}
+
+export const getRecentChatSessions = async (): Promise<RecentChatSession[]> => {
+  try {
+    const { data } = await api.get("/chat/get-recent-chat-session");
+    return data || [];
+  } catch (err) {
+    console.error("Failed to fetch recent chats", err);
+    return [];
+  }
+};
+
+export const pushStudentPersonality = async (
+  personality: PersonalityPayload
+) => {
+  try {
+    const res = await api.post("/personality/push-student-personality", {
+      personality: {
+        "Learning Style": personality.learningStyle,
+        Interest: personality.interest,
+        Personality: personality.personalityType,
+      },
+    });
+
+    return res.data;
+  } catch (err) {
+    console.error("Error pushing personality:", err);
+    throw err;
+  }
+};
+
+export const checkFirstLogin = async (): Promise<boolean> => {
+  try {
+    const res = await api.get("/personality/first-login");
+    return res.data.first_login;
+  } catch (err) {
+    console.error("Error checking first login:", err);
+    return false;
+  }
+};
+
+export const getTotalChatSessions = async (): Promise<number> => {
+  const res = await api.get("/chat/get-total-chat-session");
+  return res.data || 0;
+};
+
+export const createChatSession = async (
+  sessionName: string,
+  subjectName: string,
+  chapterName: string
+): Promise<string> => {
+  const subjectId = await getSubjectNumber(subjectName);
+  const chapterId = await getChapterNumber(chapterName);
+
+  const { data } = await api.post("/chat/add-chat-session", {
+    sessionName,
+    chapterId,
+    subjectId,
+  });
+
+  return data.sessionId;
+};
+
+export const getChatSessions = async (
+  subject: string,
+  chapter: string
+): Promise<ChatSession[]> => {
+  const subjectId = await getSubjectNumber(subject);
+  const chapterId = await getChapterNumber(chapter);
+
+  console.log("GET /chat/get-chat-session", { subjectId, chapterId });
+
+  const { data } = await api.get("/chat/get-chat-session", {
+    params: { subjectId, chapterId },
+  });
+
+  console.log("This is data:", data);
+
+  return data || [];
+};
+
+export const fetchChatHistory = async (sessionId: string) => {
+  const { data } = await api.get(`/chat/history/${sessionId}`);
+  return data.data.messages; // array of { role, content, timestamp }
+};
+
 export const AIResponse = async (
   message: string,
   sessionId: string = "default", // nanti diganti jadi random id gitu buat bedain session
@@ -19,15 +125,12 @@ export const AIResponse = async (
   chapter: string
 ): Promise<string> => {
   try {
-    const res = await axios.post<ChatResponse>(
-      `${API_BASE_URL}/chat/messages`,
-      {
-        prompt: message,
-        session_id: sessionId,
-        subject: subject,
-        chapter: chapter,
-      }
-    );
+    const res = await api.post<ChatResponse>("/chat/messages", {
+      prompt: message,
+      session_id: sessionId,
+      subject: subject,
+      chapter: chapter,
+    });
     return res.data.data.response; // Ini ud bener, jgn diubah response nya
   } catch (error) {
     if (axios.isAxiosError(error)) {
@@ -41,7 +144,7 @@ export const clearMemory = async (
   sessionId: string = "default" // nanti diganti jadi random id gitu buat bedain session
 ): Promise<void> => {
   try {
-    await axios.post(`${API_BASE_URL}/chat/clear`, {
+    await api.post("/chat/clear", {
       session_id: sessionId,
     });
   } catch (error) {

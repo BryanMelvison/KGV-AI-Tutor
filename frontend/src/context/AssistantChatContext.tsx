@@ -1,17 +1,18 @@
 "use client";
 
 import { createContext, useContext, useState, ReactNode } from "react";
+import { fetchChatHistory } from "@/api/chat";
 
-interface ChatSummary {
-  id: string;
-  title: string;
-  summary: string;
-  time: string;
+interface ChatMessage {
+  role: "human" | "ai";
+  content: string;
+  timestamp?: string;
 }
 
 interface AssistantChatContextProps {
-  chats: ChatSummary[];
-  addChat: (chat: ChatSummary) => void;
+  chats: ChatMessage[];
+  addChat: (chat: ChatMessage) => void;
+  loadHistory: (sessionId: string) => Promise<void>;
 }
 
 const AssistantChatContext = createContext<AssistantChatContextProps | null>(
@@ -32,14 +33,23 @@ export const AssistantChatProvider = ({
 }: {
   children: ReactNode;
 }) => {
-  const [chats, setChats] = useState<ChatSummary[]>([]);
+  const [chats, setChats] = useState<ChatMessage[]>([]);
 
-  const addChat = (chat: ChatSummary) => {
+  const addChat = (chat: ChatMessage) => {
     setChats((prev) => [...prev, chat]);
   };
 
+  const loadHistory = async (sessionId: string) => {
+    try {
+      const messages = await fetchChatHistory(sessionId);
+      setChats(messages); // overwrite with full history
+    } catch (error) {
+      console.error("Failed to load chat history", error);
+    }
+  };
+
   return (
-    <AssistantChatContext.Provider value={{ chats, addChat }}>
+    <AssistantChatContext.Provider value={{ chats, addChat, loadHistory }}>
       {children}
     </AssistantChatContext.Provider>
   );

@@ -33,6 +33,7 @@ export default function SubjectChapterLayout({
     const fetchTitle = async () => {
       if (!subject || !chapter) return;
       const current = await getChapterData(subject, chapter);
+      console.log(current);
       setChapterTitle(current.title);
     };
 
@@ -89,9 +90,11 @@ export default function SubjectChapterLayout({
                 <FiMenu className="w-5 h-5 text-gray-600" />
               </button>
             )}
-            <div className="text-2xl font-bold ">
-              {unslugify(chapterTitle) || "Loading..."}
-            </div>
+            {chapterTitle && (
+              <div className="text-2xl font-bold ">
+                {unslugify(chapterTitle)}
+              </div>
+            )}
           </div>
 
           {/* page content slot */}

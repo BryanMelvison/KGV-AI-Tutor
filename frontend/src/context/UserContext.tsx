@@ -10,13 +10,13 @@ import {
 
 interface User {
   displayName: string;
-  role: "student" | "teacher";
+  role: "student" | "teacher" | "admin";
 }
 
 interface UserContextType {
   user: User | null;
   userLoaded: boolean;
-  login: (user: User, token: string) => void;
+  login: (user: User, token: string, refreshToken: string) => void;
   logout: () => void;
 }
 
@@ -27,23 +27,30 @@ export const UserProvider = ({ children }: { children: ReactNode }) => {
   const [userLoaded, setUserLoaded] = useState(false);
 
   useEffect(() => {
-    const stored = localStorage.getItem("kgv-user");
-    if (stored) {
-      setUser(JSON.parse(stored));
+    const storedUser = sessionStorage.getItem("anh-user");
+    const storedToken = sessionStorage.getItem("anh-token");
+    // const storedRefreshToken = sessionStorage.getItem("anh-refresh-token");
+
+    if (storedUser && storedToken) {
+      // if (storedUser && storedToken && storedRefreshToken) {
+      setUser(JSON.parse(storedUser));
     }
     setUserLoaded(true);
   }, []);
 
-  const login = (user: User /*, token: string */) => {
+  const login = (user: User, access_token: string) => {
+    // const login = (user: User, access_token: string, refresh_token: string) => {
     setUser(user);
-    localStorage.setItem("kgv-user", JSON.stringify(user));
-    // localStorage.setItem("kgv-token", token);
+    sessionStorage.setItem("anh-user", JSON.stringify(user));
+    // sessionStorage.setItem("anh-refresh-token", refresh_token);
+    sessionStorage.setItem("anh-token", access_token);
   };
 
   const logout = () => {
     setUser(null);
-    localStorage.removeItem("kgv-user");
-    // localStorage.removeItem("kgv-token");
+    sessionStorage.removeItem("anh-user");
+    // sessionStorage.removeItem("anh-refresh-token");
+    sessionStorage.removeItem("anh-token");
   };
 
   return (

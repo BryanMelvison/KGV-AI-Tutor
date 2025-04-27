@@ -35,7 +35,7 @@ const UnlockBox = () => {
       typeof params.chapter === "string"
     ) {
       router.push(
-        `/subjects/${params.subject}/${params.chapter}?exercise=final`
+        `/student/subjects/${params.subject}/${params.chapter}?exercise=final`
       );
     }
   };

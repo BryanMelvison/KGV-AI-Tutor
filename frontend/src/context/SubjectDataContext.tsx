@@ -10,8 +10,7 @@ import {
 import { getChapter } from "@/api/chapter";
 import { getSubjectsData, Subject } from "@/api/mockSubject";
 
-type SubjectWithChapters = {
-  name: string;
+type SubjectWithChapters = Subject & {
   chapters: string[];
 };
 
@@ -34,15 +33,33 @@ export const SubjectDataProvider = ({ children }: { children: ReactNode }) => {
   useEffect(() => {
     const fetchSubjectsOnce = async () => {
       const baseSubjects = await getSubjectsData();
+      const token = sessionStorage.getItem("anh-token");
+
+      if (!token) {
+        const fallback = baseSubjects.map((subject) => ({
+          ...subject,
+          chapters: [],
+        }));
+        setSubjects(fallback);
+        setLoading(false);
+        return;
+      }
 
       const subjectsWithChapters = await Promise.all(
-        baseSubjects.map(async (subject: Subject) => {
-          const chapterData = await getChapter(subject.name.toLowerCase());
-
-          return {
-            name: subject.name,
-            chapters: chapterData,
-          };
+        baseSubjects.map(async (subject) => {
+          try {
+            const chapterData = await getChapter(subject.name.toLowerCase());
+            return {
+              ...subject,
+              chapters: chapterData,
+            };
+          } catch (err) {
+            console.error("Error fetching chapters for", subject.name, err);
+            return {
+              ...subject,
+              chapters: [],
+            };
+          }
         })
       );
 

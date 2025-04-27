@@ -8,6 +8,7 @@ from app.models import LearningObjective, Chapters, Exercise, QuestionAnswer as 
 from pathlib import Path
 from ..test_metadata import metadata # Refactor nanti,
 from app.utilities.rag import textbookRAG
+from app.config import Settings
 
 class QnaPair(BaseModel):
     question: str
@@ -40,7 +41,7 @@ with engine.connect() as conn:
 QuestionAnswerDB.__table__.create(engine)
 
 session = get_session()
-learning_objectives = session.query(LearningObjective).all()
+learning_objectives = session.query(LearningObjective).order_by(LearningObjective.chapter, LearningObjective.id).all()
 session.close()
 
 
@@ -52,7 +53,7 @@ def rag_search(query: str, subject: str, chapter: str) -> str:
 
 def generate_qna(objective_text: str, resultrag: str) -> QnaPairs:
     llm_prompt = llm_prompt_generate_question.format(learning_objective=objective_text, context=resultrag)
-    model = OllamaLLM(model="llama3.2", format="json")
+    model = OllamaLLM(model=Settings().MODEL_NAME, base_url=Settings().MODEL_URL, format="json")
     response = model.invoke(llm_prompt, format=QnaPairs.model_json_schema())
     qna_pairs = QnaPairs.model_validate_json(response)
     return qna_pairs
@@ -61,7 +62,7 @@ def evaluate_qna(qna_pairs: QnaPairs) -> QnaPairs:
     evaluated_pairs = []
     for pair in qna_pairs.qa_pairs: 
         llm_prompt = qna_critique_prompt.format(question=pair.question, answer=pair.answer, context=pair.source)
-        model = OllamaLLM(model="llama3.2", format="json")
+        model = OllamaLLM(model=Settings().MODEL_NAME, base_url=Settings().MODEL_URL, format="json")
         response = model.invoke(llm_prompt, format=Eval.model_json_schema())
         val = Eval.model_validate_json(response)
         pair.rating = val.rating

@@ -8,7 +8,7 @@ interface SubjectCardProps {
   icon: string;
   color: string;
   progress: number;
-  entryChapter: string;
+  entryChapter?: string;
 }
 
 const SubjectCard = ({
@@ -19,15 +19,22 @@ const SubjectCard = ({
   progress,
 }: SubjectCardProps) => {
   const router = useRouter();
+
   const handleClick = () => {
-    console.log(`/subjects/${name.toLowerCase()}/${entryChapter}`);
-    router.push(`/subjects/${name.toLowerCase()}/${entryChapter}`);
+    if (!entryChapter) return;
+    router.push(`/student/subjects/${name.toLowerCase()}/${entryChapter}`);
   };
+
+  const isClickable = !!entryChapter;
 
   return (
     <div
       onClick={handleClick}
-      className="cursor-pointer bg-white rounded-2xl shadow-md p-5 hover:shadow-lg transition-all border border-[#ECECED] flex flex-col space-y-2"
+      className={`${
+        isClickable
+          ? "cursor-pointer hover:shadow-lg"
+          : "cursor-not-allowed opacity-60"
+      } bg-white rounded-2xl shadow-md p-5 transition-all border border-[#ECECED] flex flex-col space-y-2`}
     >
       <div
         className="w-full h-32 rounded-xl flex items-center justify-center"

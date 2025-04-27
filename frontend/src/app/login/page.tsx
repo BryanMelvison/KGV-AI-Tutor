@@ -6,8 +6,10 @@ import { useEffect, useRef, useState } from "react";
 import { useUser } from "@/context/UserContext";
 import { FaSpinner } from "react-icons/fa";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
-import { loginUser } from "@/api/auth";
+import { loginUser, fetchUserName, fetchUserRole } from "@/api/auth";
 import axios from "axios";
+import { useSearchParams } from "next/navigation";
+import toast from "react-hot-toast";
 
 export default function RealLoginPage() {
   const router = useRouter();
@@ -21,9 +23,19 @@ export default function RealLoginPage() {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
+  const searchParams = useSearchParams();
+  const shownRef = useRef(false);
+
   useEffect(() => {
     emailRef.current?.focus();
   }, []);
+
+  useEffect(() => {
+    if (searchParams.get("expired") === "true" && !shownRef.current) {
+      toast.error("Session expired. Please log in again.");
+      shownRef.current = true;
+    }
+  }, [searchParams]);
 
   const handleLogin = async () => {
     if (!email || !password) return setError("Please fill in all fields.");
@@ -33,16 +45,20 @@ export default function RealLoginPage() {
 
     try {
       const res = await loginUser(email, password);
-      const data = res.data;
-      login({ displayName: data.displayName, role: data.role });
-      // login({ displayName: data.displayName, role: data.role }, data.token);
-      router.push(`/${data.role}/dashboard`);
+      const { access_token, refresh_token } = res.data;
+
+      sessionStorage.setItem("anh-token", access_token);
+
+      const displayName = await fetchUserName();
+      const role = await fetchUserRole();
+
+      login({ displayName, role }, access_token, refresh_token);
+
+      router.push(`/${role}/dashboard`);
     } catch (err) {
       if (axios.isAxiosError(err)) {
         if (err.response?.status === 401) {
           setError("Invalid email or password.");
-        } else if (err.response?.data?.message) {
-          setError(err.response.data.message);
         } else {
           setError("Something went wrong. Please try again.");
         }

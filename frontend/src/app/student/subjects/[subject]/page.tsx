@@ -17,7 +17,7 @@ export default function SubjectEntryRedirectPage() {
 
       if (data.length > 0) {
         const firstChapterId = data[0];
-        router.replace(`/subjects/${subject}/${firstChapterId}`);
+        router.replace(`/student/subjects/${subject}/${firstChapterId}`);
       }
     };
 
