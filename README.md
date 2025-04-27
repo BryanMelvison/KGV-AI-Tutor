@@ -20,8 +20,9 @@ The project is organized into the following main directories:
 │   │   ├── utilities/
 │   │   └── routes/
 ├── frontend/
-│   ├── README.md
 │   ├── next.config.ts
+│   ├── public/
+│   ├── src/
 │   └── ...
 └── ...
 ```
