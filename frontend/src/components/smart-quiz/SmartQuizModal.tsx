@@ -1,5 +1,3 @@
-"use client";
-
 import {
   Dialog,
   DialogPanel,
@@ -7,9 +5,7 @@ import {
   Transition,
   TransitionChild,
 } from "@headlessui/react";
-import { ReviewAnswer, useQuiz } from "@/context/SmartQuizContext";
-import { fetchSmartQuizQuestions } from "@/api/exercise";
-import { useRef, useEffect, useState, Fragment } from "react";
+import { useQuiz } from "@/context/SmartQuizContext";
 import SmartQuizQuestion from "./SmartQuizQuestion";
 import SmartQuizHeader from "./SmartQuizHeader";
 import SmartQuizOptions from "./SmartQuizOptions";
@@ -19,19 +15,18 @@ import TimeUpDialog from "./TimeUpDialog";
 import Card from "../ui/Card";
 import CloseButton from "../ui/CloseButton";
 import Messages from "../Messages";
+import { useRef, useEffect, useState, Fragment, useCallback } from "react";
 import confetti from "canvas-confetti";
 import { FaSpinner } from "react-icons/fa";
 import SmartQuizReview from "./SmartQuizReview";
+import TypingIndicator from "../chat/TypingIndicator";
 
-const SUBJECTS = ["Biology", "Chemistry", "Physics"];
-
-const SmartQuizModal = ({
-  isOpen,
-  onClose,
-}: {
+interface SmartQuizModalProps {
   isOpen: boolean;
   onClose: () => void;
-}) => {
+}
+
+const SmartQuizModal = ({ isOpen, onClose }: SmartQuizModalProps) => {
   const {
     selectedOption,
     setSelectedOption,
@@ -39,82 +34,79 @@ const SmartQuizModal = ({
     setInputValue,
     currentQuestion,
     questions,
-    setQuestions,
     messages,
     addMessage,
     setMessages,
     currentQuestionIndex,
     setCurrentQuestionIndex,
     isLoading,
-    setIsLoading,
-    verifyAnswer,
+    restartQuiz,
   } = useQuiz();
-
-  const [subject, setSubject] = useState<string | null>(null);
-  const [showTimeUpDialog, setShowTimeUpDialog] = useState(false);
-  const [isFinished, setIsFinished] = useState(false);
-  const [timeRemaining, setTimeRemaining] = useState(10 * 60);
-  const [score, setScore] = useState(0);
-  const [showReviewModal, setShowReviewModal] = useState(false);
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const questionTitleRef = useRef<HTMLDivElement>(null);
-
-  const [reviewAnswers, setReviewAnswers] = useState<ReviewAnswer[]>([]);
-
-  const handleSelectSubject = async (selected: string) => {
-    setSubject(selected);
-    setIsLoading(true);
-    const data = await fetchSmartQuizQuestions(selected);
-    setQuestions(data);
-    setCurrentQuestionIndex(0);
-    setSelectedOption("");
-    setInputValue("");
-    setMessages([]);
-    setIsLoading(false);
-    setTimeRemaining(10 * 60);
-  };
-
-  const handleTimeUpClose = () => {
-    setShowTimeUpDialog(false);
-    onClose();
-  };
-
-  const handleSubmit = () => {
-    if (inputValue.trim()) addMessage(inputValue);
-  };
-
-  const handleSubmitAnswer = async () => {
-    const result = await verifyAnswer(currentQuestion.id, selectedOption);
-    setReviewAnswers((prev) => [
-      ...prev,
-      {
-        questionId: currentQuestion.id,
-        selected: selectedOption,
-        correct: result.correctLetter,
-        explanation: result.explanation,
-      },
-    ]);
-
-    if (result.correct) {
-      setScore((prev) => prev + 1);
-    }
-
-    if (currentQuestionIndex < questions.length - 1) {
-      setCurrentQuestionIndex((prev) => prev + 1);
-      setSelectedOption("");
-      setMessages([]);
-    } else {
-      setIsFinished(true);
-      confetti({ particleCount: 200, spread: 80, origin: { y: 0.6 } });
-    }
-  };
+  
+  const [timeRemaining, setTimeRemaining] = useState(10 * 60);
+  const [showTimeUpDialog, setShowTimeUpDialog] = useState(false);
+  const [isFinished, setIsFinished] = useState(false);
+  const [score, setScore] = useState(0);
+  const [showReviewModal, setShowReviewModal] = useState(false);
+  const [reviewAnswers, setReviewAnswers] = useState([]);
 
   useEffect(() => {
-    if (messages.length > 0)
-      messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages]);
+    if (isOpen) {
+      setIsFinished(false);
+      restartQuiz();
+      setTimeRemaining(10 * 60);
+      setShowTimeUpDialog(false);
+    }
+  }, [isOpen, restartQuiz]);
 
+  // Handle timer
+  useEffect(() => {
+    let timer: NodeJS.Timeout | undefined;
+
+    if (isOpen && timeRemaining > 0) {
+      timer = setInterval(() => {
+        setTimeRemaining((prevTime) => {
+          const newTime = prevTime - 1;
+          if (newTime <= 0) {
+            setShowTimeUpDialog(true);
+            return 0;
+          }
+          return newTime;
+        });
+      }, 1000);
+    }
+
+    return () => {
+      if (timer) clearInterval(timer);
+    };
+  }, [isOpen, timeRemaining]);
+
+  const handleTimeUpClose = useCallback(() => {
+    setShowTimeUpDialog(false);
+    onClose();
+  }, [onClose]);
+
+  // Scroll to message view
+  const scrollToBottom = useCallback(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, []);
+
+  useEffect(() => {
+    if (messages.length > 0) {
+      scrollToBottom();
+    }
+  }, [messages, scrollToBottom]);
+
+  const handleSubmit = useCallback(() => {
+    if (inputValue.trim()) {
+      addMessage(inputValue);
+    }
+  }, [inputValue, addMessage]);
+
+  // Scroll to Question Title
   useEffect(() => {
     questionTitleRef.current?.scrollIntoView({
       behavior: "smooth",
@@ -122,36 +114,42 @@ const SmartQuizModal = ({
     });
   }, [currentQuestionIndex]);
 
-  useEffect(() => {
-    if (isOpen) {
-      setScore(0);
-      setIsFinished(false);
-      setSubject(null);
-      setQuestions([]);
-      setMessages([]);
+  const handleSubmitAnswer = useCallback(() => {
+    if (currentQuestionIndex < questions.length - 1) {
+      setCurrentQuestionIndex((prev) => prev + 1);
       setSelectedOption("");
-      setTimeRemaining(10 * 60);
-      setShowTimeUpDialog(false);
-      setReviewAnswers([]);
+      setMessages([]);
+    } else {
+      setIsFinished(true);
+      confetti({
+        particleCount: 200,
+        spread: 80,
+        origin: { y: 0.6 },
+      });
     }
-  }, [isOpen]);
+  }, [
+    currentQuestionIndex,
+    questions.length,
+    setCurrentQuestionIndex,
+    setSelectedOption,
+    setMessages,
+  ]);
 
-  useEffect(() => {
-    let timer: NodeJS.Timeout;
-    if (isOpen && subject && timeRemaining > 0) {
-      timer = setInterval(() => {
-        setTimeRemaining((prev) => {
-          const updated = prev - 1;
-          if (updated <= 0) {
-            setShowTimeUpDialog(true);
-            return 0;
-          }
-          return updated;
-        });
-      }, 1000);
-    }
-    return () => clearInterval(timer);
-  }, [isOpen, subject, timeRemaining]);
+  if (isLoading || !currentQuestion) {
+    return (
+      <Dialog open={isOpen} onClose={onClose} className="relative z-50">
+        <div className="fixed inset-0 flex items-center justify-center bg-black/30 backdrop-blur-sm">
+          <div className="bg-white rounded-2xl shadow p-6 animate-pulse space-y-4 w-[400px] text-center">
+            <div className="h-5 bg-gray-200 rounded w-2/3 mx-auto" />
+            <div className="h-3 bg-gray-200 rounded w-1/2 mx-auto" />
+            <div className="h-3 bg-gray-100 rounded w-full" />
+            <div className="h-3 bg-gray-100 rounded w-full" />
+            <div className="h-3 bg-gray-100 rounded w-3/4 mx-auto" />
+          </div>
+        </div>
+      </Dialog>
+    );
+  }
 
   return (
     <>
@@ -169,7 +167,7 @@ const SmartQuizModal = ({
             <div className="fixed inset-0 bg-black/30" aria-hidden="true" />
           </TransitionChild>
 
-          <div className="fixed inset-0 overflow-y-auto">
+          <div className="fixed inset-0">
             <div className="flex min-h-full items-center justify-center p-4">
               <TransitionChild
                 as={Fragment}
@@ -180,182 +178,114 @@ const SmartQuizModal = ({
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <DialogPanel className="w-[50%] max-w-[800px] min-w-[400px] transform overflow-hidden bg-white rounded-2xl shadow-xl transition-all">
-                  <Card className="h-full flex flex-col bg-[#F5F7FF]">
-                    <div className="relative flex items-center justify-between py-3 px-6 border-b bg-white">
-                      <DialogTitle className="text-xl font-semibold text-center w-full">
+                <DialogPanel className="w-[50%] h-[80vh] min-w-[400px] max-w-[800px] min-h-[500px] max-h-[600px] transform transition-all">
+                  <Card className="h-full flex flex-col rounded-3xl overflow-hidden bg-[#F5F7FF]">
+                    <div className="relative flex items-center py-3 border-b shrink-0 bg-white">
+                      <div className="absolute right-4">
+                        <CloseButton onClick={onClose} />
+                      </div>
+                      <DialogTitle className="w-full text-center text-xl font-semibold">
                         Smart Quiz
                       </DialogTitle>
-                      <div className="absolute right-4 top-3">
-                        <CloseButton onClick={onClose} />
+                    </div>
+
+                    {!isFinished && (
+                      <div className="px-6 pt-4 shrink-0">
+                        <SmartQuizHeader
+                          timeRemaining={timeRemaining}
+                          currentQuestion={currentQuestionIndex + 1}
+                          totalQuestions={questions.length}
+                        />
+                      </div>
+                    )}
+
+                    <div className="flex-1 overflow-y-auto">
+                      <div className="px-6 pt-4">
+                        {isFinished ? (
+                          <div className="flex flex-1 flex-col items-center justify-center space-y-4 text-center">
+                            <h2 className="text-2xl font-bold text-green-600">
+                              🎉 Quiz Completed!
+                            </h2>
+                            <p className="text-gray-500">
+                              You've finished all questions!
+                            </p>
+                            <p className="text-md font-semibold">
+                              Score: {score} / {questions.length}
+                            </p>
+                            <div className="flex gap-4">
+                              <button
+                                onClick={() => setShowReviewModal(true)}
+                                className="px-4 py-2 bg-white text-sky-600 border border-sky-600 rounded-lg hover:bg-sky-50 transition"
+                              >
+                                Review Answers
+                              </button>
+                              <button
+                                onClick={onClose}
+                                className="px-4 py-2 bg-sky-500 text-white rounded-lg hover:bg-sky-600 transition"
+                              >
+                                Close
+                              </button>
+                            </div>
+                          </div>
+                        ) : (
+                          <>
+                            <div ref={questionTitleRef}>
+                              <SmartQuizQuestion
+                                title={currentQuestion.title}
+                                description={currentQuestion.description}
+                              />
+                            </div>
+                            <SmartQuizOptions
+                              options={currentQuestion.options}
+                              selectedOption={selectedOption}
+                              onSelect={setSelectedOption}
+                            />
+                            <SelectedAnswer
+                              letter={selectedOption}
+                              title={
+                                currentQuestion.options.find(
+                                  (o) => o.letter === selectedOption
+                                )?.title || ""
+                              }
+                              onSubmit={handleSubmitAnswer}
+                            />
+
+                            <div className="relative my-6">
+                              <div className="absolute inset-0 flex items-center">
+                                <div className="w-full border-t border-gray-200" />
+                              </div>
+                              <div className="relative flex justify-center text-sm">
+                                <span className="px-4 py-2 rounded-md text-gray-500 bg-[#F5F7FF]">
+                                  Not sure? Ask AI Assistant for help!
+                                </span>
+                              </div>
+                            </div>
+
+                            <div className="space-y-2 pr-2">
+                              {messages.map((message, index) => (
+                                <div key={index}>
+                                  {message.text === "..." ? (
+                                    <TypingIndicator />
+                                  ) : (
+                                    <Messages messages={[message]} />
+                                  )}
+                                </div>
+                              ))}
+                              <div ref={messagesEndRef} />
+                            </div>
+                          </>
+                        )}
                       </div>
                     </div>
 
-                    {!subject ? (
-                      <div className="flex-1 flex flex-col items-center justify-center space-y-6 p-6 text-center">
-                        <h3 className="text-lg font-semibold text-gray-700">
-                          Pick a subject to start your Smart Quiz
-                        </h3>
-                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 w-full max-w-md">
-                          {SUBJECTS.map((s) => (
-                            <button
-                              key={s}
-                              onClick={() => handleSelectSubject(s)}
-                              className="bg-white border border-gray-200 shadow-sm hover:shadow-md transition rounded-xl px-6 py-4 flex flex-col items-center justify-center space-y-2 text-gray-700 hover:text-sky-600"
-                            >
-                              <div className="text-3xl">
-                                {s === "Biology" && "🧬"}
-                                {s === "Chemistry" && "⚗️"}
-                                {s === "Physics" && "🔭"}
-                              </div>
-                              <span className="font-medium">{s}</span>
-                            </button>
-                          ))}
-                        </div>
+                    {!isFinished && (
+                      <div className="p-4 border-t rounded-b-3xl bg-white shrink-0">
+                        <SmartQuizInput
+                          value={inputValue}
+                          onChange={setInputValue}
+                          onSubmit={handleSubmit}
+                        />
                       </div>
-                    ) : isFinished ? (
-                      <div className="flex-1 flex flex-col items-center justify-center text-center p-6 space-y-4">
-                        <h2 className="text-2xl font-bold text-green-600">
-                          🎉 Quiz Completed!
-                        </h2>
-                        <p className="text-gray-500">
-                          Great job! You’ve finished all questions.
-                        </p>
-                        <p className="text-md font-semibold">
-                          Score: {score} / {questions.length}
-                        </p>
-
-                        <div className="mt-4 flex justify-center gap-4">
-                          {/* Review Modal Toggle Button */}
-                          <button
-                            onClick={() => setShowReviewModal(true)}
-                            className="px-4 py-2 bg-white text-sky-600 border border-sky-600 rounded-lg hover:bg-sky-50 transition"
-                          >
-                            Review Answers
-                          </button>
-
-                          {/* Close Quiz Button */}
-                          <button
-                            onClick={onClose}
-                            className="px-4 py-2 bg-sky-500 text-white rounded-lg hover:bg-sky-600 transition"
-                          >
-                            Close
-                          </button>
-                        </div>
-
-                        {/* Review Modal */}
-                        <Transition appear show={showReviewModal} as={Fragment}>
-                          <Dialog
-                            as="div"
-                            className="relative z-50"
-                            onClose={() => setShowReviewModal(false)}
-                          >
-                            <TransitionChild
-                              as={Fragment}
-                              enter="ease-out duration-300"
-                              enterFrom="opacity-0"
-                              enterTo="opacity-100"
-                              leave="ease-in duration-200"
-                              leaveFrom="opacity-100"
-                              leaveTo="opacity-0"
-                            >
-                              <div className="fixed inset-0 bg-black/30" />
-                            </TransitionChild>
-
-                            <div className="fixed inset-0 overflow-y-auto">
-                              <div className="flex min-h-full items-center justify-center p-4">
-                                <TransitionChild
-                                  as={Fragment}
-                                  enter="ease-out duration-300"
-                                  enterFrom="opacity-0 scale-95"
-                                  enterTo="opacity-100 scale-100"
-                                  leave="ease-in duration-200"
-                                  leaveFrom="opacity-100 scale-100"
-                                  leaveTo="opacity-0 scale-95"
-                                >
-                                  <DialogPanel className="w-full max-w-[1024px] transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
-                                    <div className="flex items-center justify-between mb-4">
-                                      <DialogTitle className="text-xl font-semibold text-center w-full">
-                                        Quiz Review
-                                      </DialogTitle>
-                                      <CloseButton
-                                        onClick={() =>
-                                          setShowReviewModal(false)
-                                        }
-                                      />
-                                    </div>
-                                    <SmartQuizReview
-                                      reviewAnswers={reviewAnswers}
-                                      questions={questions}
-                                    />
-                                  </DialogPanel>
-                                </TransitionChild>
-                              </div>
-                            </div>
-                          </Dialog>
-                        </Transition>
-                      </div>
-                    ) : isLoading || !currentQuestion ? (
-                      <div className="flex-1 flex flex-col items-center justify-center space-y-4">
-                        <FaSpinner className="animate-spin text-sky-500 text-3xl" />
-                        <p className="text-gray-500">Loading quiz...</p>
-                      </div>
-                    ) : (
-                      <>
-                        <div className="px-6 pt-4">
-                          <SmartQuizHeader
-                            timeRemaining={timeRemaining}
-                            currentQuestion={currentQuestionIndex + 1}
-                            totalQuestions={questions.length}
-                          />
-                        </div>
-
-                        <div className="flex-1 overflow-y-auto px-6 pt-4">
-                          <div ref={questionTitleRef}>
-                            <SmartQuizQuestion
-                              title={currentQuestion.title}
-                              description={currentQuestion.description}
-                            />
-                          </div>
-                          <SmartQuizOptions
-                            options={currentQuestion.options}
-                            selectedOption={selectedOption}
-                            onSelect={setSelectedOption}
-                          />
-                          <SelectedAnswer
-                            letter={selectedOption}
-                            title={
-                              currentQuestion.options.find(
-                                (o) => o.letter === selectedOption
-                              )?.title || ""
-                            }
-                            onSubmit={handleSubmitAnswer}
-                          />
-                          <div className="relative my-6">
-                            <div className="absolute inset-0 flex items-center">
-                              <div className="w-full border-t border-gray-200" />
-                            </div>
-                            <div className="relative flex justify-center text-sm">
-                              <span className="px-4 py-2 rounded-md text-gray-500 bg-[#F5F7FF]">
-                                Not sure? Ask AI Assistant for help!
-                              </span>
-                            </div>
-                          </div>
-                          <Messages
-                            messages={messages}
-                            className="max-h-[300px]"
-                          />
-                          <div ref={messagesEndRef} />
-                        </div>
-
-                        <div className="p-4 bg-white border-t">
-                          <SmartQuizInput
-                            value={inputValue}
-                            onChange={setInputValue}
-                            onSubmit={handleSubmit}
-                          />
-                        </div>
-                      </>
                     )}
                   </Card>
                 </DialogPanel>
@@ -366,6 +296,15 @@ const SmartQuizModal = ({
       </Transition>
 
       <TimeUpDialog isOpen={showTimeUpDialog} onClose={handleTimeUpClose} />
+
+      {showReviewModal && (
+        <SmartQuizReview
+          isOpen={showReviewModal}
+          onClose={() => setShowReviewModal(false)}
+          reviewAnswers={reviewAnswers}
+          questions={questions}
+        />
+      )}
     </>
   );
 };
