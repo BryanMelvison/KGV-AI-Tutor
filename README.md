@@ -94,4 +94,7 @@ The project is organized into the following main directories:
    uvicorn app.main:app --reload
    ```
 
-Now you're ready to explore the AI Need Help platform!
+Now you're ready to explore the AI Need Help platform! 
+Just for discretionary purpose, if nothing shows up, try out:
+1. Refresh the page
+2. just directly go to localhost:3000/login.
