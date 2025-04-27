@@ -17,9 +17,9 @@ import CloseButton from "../ui/CloseButton";
 import Messages from "../Messages";
 import { useRef, useEffect, useState, Fragment, useCallback } from "react";
 import confetti from "canvas-confetti";
-import { FaSpinner } from "react-icons/fa";
 import SmartQuizReview from "./SmartQuizReview";
 import TypingIndicator from "../chat/TypingIndicator";
+import { AIResponse, createChatSession } from "@/api/chat";
 
 interface SmartQuizModalProps {
   isOpen: boolean;
@@ -45,7 +45,7 @@ const SmartQuizModal = ({ isOpen, onClose }: SmartQuizModalProps) => {
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const questionTitleRef = useRef<HTMLDivElement>(null);
-  
+
   const [timeRemaining, setTimeRemaining] = useState(10 * 60);
   const [showTimeUpDialog, setShowTimeUpDialog] = useState(false);
   const [isFinished, setIsFinished] = useState(false);
@@ -100,11 +100,40 @@ const SmartQuizModal = ({ isOpen, onClose }: SmartQuizModalProps) => {
     }
   }, [messages, scrollToBottom]);
 
-  const handleSubmit = useCallback(() => {
-    if (inputValue.trim()) {
-      addMessage(inputValue);
+  const handleSubmit = async () => {
+    if (!inputValue.trim()) return;
+
+    const userMessage = inputValue.trim();
+    setInputValue("");
+
+    setMessages((prev) => [...prev, { text: userMessage, sender: "user" }]);
+    setMessages((prev) => [...prev, { text: "...", sender: "assistant" }]);
+
+    try {
+      const sessionId = await createChatSession(
+        "Smart Quiz",
+        "biology",
+        "life-processes"
+      );
+      const assistantResponse = await AIResponse(
+        userMessage,
+        sessionId,
+        "biology",
+        "life-processes"
+      );
+
+      setMessages((prev) => [
+        ...prev.slice(0, -1),
+        { text: assistantResponse, sender: "assistant" },
+      ]);
+    } catch (error) {
+      console.error("Error getting assistant response:", error);
+      setMessages((prev) => [
+        ...prev.slice(0, -1),
+        { text: "Sorry, failed to get a response.", sender: "assistant" },
+      ]);
     }
-  }, [inputValue, addMessage]);
+  };
 
   // Scroll to Question Title
   useEffect(() => {
